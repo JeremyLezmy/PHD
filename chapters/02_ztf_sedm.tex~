@@ -1,0 +1,31 @@
+\documentclass[../main/main.tex]{subfiles}
+\begin{document}
+
+
+\chapter{Zwicky Transient Facility}\label{ch:ztf}
+
+-- XXX --
+
+\minitoc
+\newpage
+
+\section{Presentation de la collaboration}
+%\label{sec:xxx}
+
+\section{Détections photométriques}
+%\label{ssec:xxx}
+
+\section{Le rôle de ZTF dans l'étude cosmologique moderne}
+%\label{ssec:xxx}
+
+
+\section{La machine à distribution spectrale d'énergie: SEDm}
+%\label{sec:xxx}
+
+\subsection{Présentation de l'instrument}
+%\label{ssec:xxx}
+
+\subsection{Extraction des spectres du CCD et création des cubes de données}
+%\label{ssec:xxx}
+
+\end{document}

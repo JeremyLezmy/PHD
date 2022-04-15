@@ -1,0 +1,26 @@
+\babel@toc {french}{}
+\contentsline {xpart}{Contexte Scientifique}{21}{part.1}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Contexte cosmologique}{21}{chapter.1}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Zwicky Transient Facility}{25}{chapter.2}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Télescope Samuel Oshin P48 au Mont Palomar\relax }}{26}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Observatoire de Palomar, en Californie. Sur la gauche est située la caméra principale de ZTF, attachée au télescope P48 Samuel Oschi. En haut à droite nous avons le P60, sur lequel est monté le spectrographe 3D SEDm appartenant également à la collaboration ZTF. Le P200 est quant à lui utiliser par de nombreuses collaborations, et est utilisé occasionnellement par ZTF.\relax }}{28}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Description du système d'imagerie de ZTF (\textit {à droite}) et présentation du plan focal de la caméra et ses 16 CCD (\textit {à gauche}). \relax }}{29}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Transmission des filtres $g$, $r$ et $i$ de la caméra de ZTF \citep {DekanyZTF2020}.\relax }}{29}{figure.caption.12}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Un spectrograph 3D: The Spectral Energy Distribution machine}{31}{chapter.3}%
+\contentsline {xpart}{Extraction de spectre de Supernovae}{35}{part.2}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{\textsc {\texttt {HyperGal}} : Une nouvelle méthode d'extraction de source ponctuelle}{35}{chapter.4}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Modélisation Hyperspectrale}{37}{chapter.5}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Réponse impulsionnelle de la SEDm}{39}{chapter.6}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Modélisation de Scène et Extraction de Source}{41}{chapter.7}%
+\contentsline {xpart}{Simulations et Résultats}{45}{part.3}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Simulations de cubes de données et application d'\textsc {\texttt {HyperGal}} }{45}{chapter.8}%
+\addvspace {10\p@ }
+\contentsline {xchapter}{Data Release 2 de ZTF}{47}{chapter.9}%

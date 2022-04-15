@@ -1,0 +1,31 @@
+\documentclass[../main/main.tex]{subfiles}
+\begin{document}
+
+\chapter{Data Release 2 de ZTF}\label{ch:res}
+
+-- XXX --
+
+\minitoc
+\newpage
+
+\section{Présentation de la DR2 de ZTF}
+%\label{sec:xxx}
+
+\subsection{XXX}
+%\label{ssec:xxx}
+
+\subsection{XXX}
+%\label{ssec:xxx}
+
+
+\section{Production de \hypergal et résultats}
+%\label{sec:xxx}
+
+\subsection{XXX}
+%\label{ssec:xxx}
+
+\subsection{XXX}
+% \label{ssec:xxx}
+
+
+\end{document}

@@ -1,0 +1,32 @@
+\documentclass[../main/main.tex]{subfiles}
+\begin{document}
+
+\chapter{Modélisation de Scène et Extraction de Source}\label{ch:res}
+
+-- XXX --
+
+\minitoc
+\newpage
+
+\section{Projection}
+%\label{sec:xxx}
+
+\subsection{XXX}
+%\label{ssec:xxx}
+
+\subsection{XXX}
+%\label{ssec:xxx}
+
+
+\section{Modélisation de Scène}
+%\label{sec:xxx}
+
+\subsection{XXX}
+%\label{ssec:xxx}
+
+\subsection{XXX}
+% \label{ssec:xxx}
+
+\section{Extraction du spectre de Supernova et Classification}
+
+\end{document}

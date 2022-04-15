@@ -1,0 +1,68 @@
+\documentclass[a4paper, 12pt, final, garamond]{book}
+%\usepackage[style=authoryear,sorting=name,backref=true]{biblatex}
+%\addbibresource{../chapters/99_references.bib}
+
+\usepackage{phd-preambulle}
+% \renewcommand{\arraystretch}{1.5}
+% \newcolumntype{C}[1]{>{\arraybackslash\centering}p{#1}}
+% \newcolumntype{R}[1]{>{\arraybackslash\raggedleft}p{#1}}
+% \newcolumntype{L}[1]{>{\arraybackslash\raggedright}p{#1}}
+% \addto\captionsenglish{\renewcommand*\contentsname{Table des matières}}
+
+\usepackage{subfiles}
+
+\usepackage[titles]{tocloft}
+\renewcommand{\thepart}{\Roman{part}:}
+\renewcommand\cftpartpresnum{Part~}
+\newcommand{\addparttoc}[1]{%
+\addtocontents{toc}{\begingroup\def\protect\cftpartpresnum{}}
+\addcontentsline{toc}{part}{#1}
+\addtocontents{toc}{\endgroup}}
+\renewcommand{\listfigurename}{Table des figures}
+\renewcommand{\listtablename}{Liste de tableaux}
+
+
+\begin{document}
+    \subfile{../chapters/00_cover}
+    \subfile{../chapters/10_remerciements}
+    \subfile{../chapters/11_resume}
+    \subfile{../chapters/12_abstract}
+    \cleardoublepage
+    \dominitoc
+    \tableofcontents
+    \listoffigures
+    \listoftables
+    \subfile{../chapters/13_introduction}
+    \part{Contexte Scientifique}
+    \subfile{../chapters/01_cosmology}
+    \subfile{../chapters/02_ztf}
+    \subfile{../chapters/03_sedm}
+    \part{Extraction de spectre de Supernovae}
+    \subfile{../chapters/04_hypergal}
+    \subfile{../chapters/06_sedfit}
+    \subfile{../chapters/05_irf}
+    \subfile{../chapters/07_scene}
+    \part{Simulations et Résultats}
+    \subfile{../chapters/08_simu}
+    \subfile{../chapters/09_dr2}
+    \subfile{../chapters/98_conclusions}
+    %\bibliographystyle{abbrvnat}
+    %\bibliographystyle{plainnat}
+    \bibliographystyle{aa}
+    \bibliography{../chapters/99_references}
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% TeX-master: t
+%%% TeX-master: t
+%%% TeX-master: t
+%%% TeX-master: t
+%%% TeX-master: t
+%%% TeX-master: t
+%%% TeX-master: t
+%%% TeX-master: t
+%%% TeX-master: t
+%%% TeX-master: t
+%%% End:

@@ -1,0 +1,31 @@
+\documentclass[../main/main.tex]{subfiles}
+\begin{document}
+
+\chapter{Simulations et résultats}\label{ch:res}
+
+-- XXX --
+
+\minitoc
+\newpage
+
+\section{Génération des simulations}
+%\label{sec:xxx}
+
+\subsection{XXX}
+%\label{ssec:xxx}
+
+\subsection{XXX}
+%\label{ssec:xxx}
+
+
+\section{Résultats et Précision}
+%\label{sec:xxx}
+
+\subsection{XXX}
+%\label{ssec:xxx}
+
+\subsection{XXX}
+% \label{ssec:xxx}
+
+
+\end{document}

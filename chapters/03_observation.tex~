@@ -1,0 +1,22 @@
+\documentclass[../main/main.tex]{subfiles}
+\begin{document}
+
+
+\chapter{Observations et prises de données}\label{ch:obs}
+
+-- XXX --
+
+\minitoc
+\newpage
+
+\section{Recherche et suivi des Supernovae}
+%\label{sec:xxx}
+
+\section{Actuelle méthode d'extraction de spectre}
+%\label{ssec:xxx}
+
+\section{ZTF en quelques chiffres}
+%\label{ssec:xxx}
+
+
+\end{document}

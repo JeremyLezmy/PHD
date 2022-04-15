@@ -1,0 +1,31 @@
+\documentclass[../main/main.tex]{subfiles}
+\begin{document}
+
+\chapter{\hypergal: Une nouvelle méthode d'extraction de source ponctuelle}\label{ch:hypergal}
+
+-- XXX --
+
+\minitoc
+\newpage
+
+\section{XXX}
+%\label{sec:xxx}
+
+\subsection{XXX}
+%\label{ssec:xxx}
+
+\subsection{XXX}
+%\label{ssec:xxx}
+
+
+\section{XXX}
+%\label{sec:xxx}
+
+\subsection{XXX}
+%\label{ssec:xxx}
+
+\subsection{XXX}
+%\label{ssec:xxx}
+
+
+\end{document}
