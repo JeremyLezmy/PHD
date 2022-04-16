@@ -2,7 +2,7 @@
  "phd-preambulle"
  (lambda ()
    (TeX-add-to-alist 'LaTeX-provided-package-options
-                     '(("natbib" "authoryear") ("inputenc" "utf8") ("fontenc" "T1") ("babel" "french") ("geometry" "margin=2.5cm" "top=3cm" "bottom=3cm") ("sidecap" "rightcaption") ("hyperref" "pdftex" "linktoc=all" "backref=section" "colorlinks=true" "pdfstartview=FitV" "linkcolor=linkcolor" "citecolor=blue" "urlcolor=linkcolor" "hyperindex=true" "hyperfigures=false") ("xcolor" "svgnames" "dvipsnames" "table")))
+                     '(("natbib" "authoryear") ("inputenc" "utf8") ("fontenc" "T1") ("babel" "french") ("geometry" "margin=2.5cm" "top=3cm" "bottom=3cm") ("sidecap" "rightcaption") ("hyperref" "pdftex" "linktoc=all" "backref=False" "colorlinks=true" "pdfstartview=FitV" "linkcolor=linkcolor" "citecolor=blue" "urlcolor=blue" "hyperindex=true" "hyperfigures=false") ("xcolor" "svgnames" "dvipsnames" "table")))
    (add-to-list 'LaTeX-verbatim-environments-local "lstlisting")
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "lstinline")
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "href")

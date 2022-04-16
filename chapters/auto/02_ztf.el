@@ -25,6 +25,8 @@
     "fig:ztfcamera"
     "fig:p48details"
     "fig:subfigures"
-    "fig:ztffilters"))
+    "fig:ztfperffilts")
+   (LaTeX-add-bibliographies
+    "99_references"))
  :latex)
 

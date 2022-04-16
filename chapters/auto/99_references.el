@@ -7,6 +7,7 @@
     "GrahamZTF2019"
     "LawPTF2009"
     "MasciZTF2019"
+    "MinkowskiPOSS"
     "RauPTF2009"))
  :bibtex)
 

@@ -27,7 +27,9 @@ relevé astronomique.
 % \label{sec:xxx}
 
 ZTF ( \citet{GrahamZTF2019} and \citet{BellmZTF2019}) est un grand relevé astronomique dont la première lumière fut
-obtenue en Novembre 2017, et réellement actif depuis début 2018. Il
+obtenue en Novembre 2017, et réellement actif depuis Mars
+2018. Ayant achevé la phase 1 en Novembre 2020, ZTF est actuellement à
+mi-chemin de sa phase 2 qui s'étend de Décembre 2020 à Décembre 2023. Il
 succède au relevé Intermediate Palomar Transient Factory (IPTF, 2012-2017),
 lui-même prédécesseur de Palomar Transient Facility (PTF, 2009-2012)
 (\citet{RauPTF2009} et \citet{LawPTF2009}). Ces trois relevés grand
@@ -36,19 +38,20 @@ Oschin ($48$ pouces $\approx 1m22$) à l'Observatoire de Palomar en
 Californie (Fig.~\ref{fig:p48}). D'une caméra avec un champ de vue de $7.9 \text{deg}^{2}$
 pour PTF, ZTF utilise à présent pleinement le plan focal du télescope et
 bénéficie d'une nouvelle caméra offrant un champ de vue de $47
-\text{deg}^{2}$. La collaboration est également doté d'un spectrographe
+\text{deg}^{2}$, équippé de 3 filtres $g$, $r$ et $i$. La collaboration est également doté d'un spectrographe
 3D basse résolution ($R\approx100$) monté sur le P48 à Palomar, qui est
 utilisé pour suivre les transients détectés par la caméra principale.
 
-\begin{figure}
+\begin{figure}[h]
   \centering
   \includegraphics[width=0.75\textwidth]{../figures/02_ztf/p48.png}
   \caption{Télescope Samuel Oshin P48 au Mont Palomar}
   \label{fig:p48}
 \end{figure}
 
-ZTF est une collaboration internationale, financée à parts égales entre
-la US National Science Foundation et un grand nombre de consortium
+ZTF est une collaboration internationale financée entre
+la US National Science Foundation (NSF) à travers le  programme Mid-scale
+Innovations Program (MSIP), et un grand nombre de consortium
 internationaux d'Universités et institutions:
 
 \begin{multicols}{2}
@@ -71,19 +74,27 @@ internationaux d'Universités et institutions:
 \end{multicols}
 
 ZTF est ainsi un partenariat privé-public, où son temps d'observation
-est divisé entre trois niveaux: le temps d'allocation public (40\%), privé
-(interne à la collaboration, 40\%) et une fraction dédiée aux programmes de Caltech (20\%).
+est divisé pur chaque phse du projet entre trois niveaux:
 
-Durant le temps d'observation public, ZTF effectue deux relevés distincts: le ciel
+Lors de la phase 1, le temps d'allocation public (NSF) était de 40\%,
+ppur les partenariats privés de 40\% également, et les 20 derniers \%
+dédiée aux programmes de Caltech qui possèdent l'Observatoire du Mont
+Palomar.
+
+L'IN2P3 étant devenu un patenaire majeur de la collaboration, la phase 2
+de ZTF a vu un rééquilibrage avec 50\% du temps d'observation attribué
+au programme MSIP, et 30\% aux partenaires privés.
+
+Durant le temps d'observation public, ZTF effectue deux sondages distincts: le ciel
 Nord d'une part qui est entièrement scanné tous les trois jours dans les
 filtres $g$ et $r$, et le plan
 Galactique d'autre part, qui lui est entièrement observé chaque nuit
 également dans les filtres $g$ et $r$.
 
-Ces deux relevés combinés mènent à la détection et la génération
+Ces deux sondages combinés mènent à la détection et la génération
 d'alertes automatiques de plus d'un million d'évènements par nuit. Ces
 évènements sont des phénomènes astrophysiques transitoires ou variables,
-dont la magnitude de détection est inférieur à $r\approx 20.5$. 
+dont la magnitude de détection est inférieur à $r\approx 20.5$.
 
 Les sections de recherches scientifiques au sein de ZTF sont nombreuses:
 
@@ -143,12 +154,28 @@ Les sections de recherches scientifiques au sein de ZTF sont nombreuses:
       astéroïdes, des comètes etc.
 \end{itemize}
 
+La répartition du temps d'observation pour ces différents champs de
+recherches est adaptée de la façon suivante:
 
+\begin{itemize}[label=$\diamondsuit$]
+  \itemsep0em 
+\item L'étude des corps au sein
+  du système solaire se fait principalement durant l'aube et l'aurore
+  (3.5\% du ciel pour chaque et principalement en bande $r$).
+\item L'étude de la physique des Supernovae bénéficie d'une observation
+  haute cadence de $\approx1800\text{deg}^{2}$, ce qui correpond à une
+  allocation de $15\%$ du temps d'observation. 
+\item  $\approx8\%$ sont attribués à la Cosmologie dans le ciel extra-galactique.
+\item Le groupe Galaxie Science observe la Voie Lactée principalement en
+  été ($\approx5\%$, toutes bandes confondus).
+\item Le groupe Astrophysique multi-messager peut observer et étudier de
+  potentiels sources pour $\approx5\%$ du temps (toutes bandes confondus)
+\end{itemize}
 
-\begin{figure}
+\begin{figure}[h]
   \centering
   \includegraphics[width=0.75\textwidth]{../figures/02_ztf/palomar_obs-min.png}
-  \caption{Observatoire de Palomar, en Californie. Sur la gauche est
+  \caption[Observatoire de Palomar]{Observatoire de Palomar, en Californie. Sur la gauche est
     située la caméra principale de ZTF, attachée au télescope P48 Samuel
     Oschi. En haut à droite nous avons le P60, sur lequel est monté le
     spectrographe 3D SEDm appartenant également à la collaboration
@@ -165,13 +192,14 @@ est principalement due à sa caméra de $47\text{deg}^{2}$, profitant de
 l'intégralité du plan focal du télescope Schmidt P48.
 
 Comme illustré dans la Fig.~\ref{fig:ztfcamera} de \citet{BellmZTF2019}, la caméra est
-constituée d'une mosaïque de 16 CCD (Charge Coupled Device) avec des
-pixels carrés de \SI{15}{\micro\metre}, à une échelle de $1\farcs01$
-$\text{pixel}^{-1}$. La FWHM mediane de la fonction d'étallement du point
+constituée d'une mosaïque de 16 CCD (Charge Coupled Device) composés de
+pixels carrés de \SI{15}{\micro\metre} de côté, à une échelle de $1\farcs01$
+$\text{pixel}^{-1}$. Chaque CCD est composé de 6144$\times$6160 pixels,
+et la caméra dans son ensemble a donc 573 Mpx. La FWHM mediane de la fonction d'étallement du point
 (PSF) résultant de cette configuration est de $2\farcs1$ dans les bandes
-$g$ et $i$, et de $2\farcs0$ dans la bande $r$. En ce qui concerne la
-sensibilité limite en magnitude, la bande $g$ montre un seuil median à
-$5\sigma$ de $20.8$mag, la bande $r$ de $20.6$mag et la bande $i$ $19.9$mag.
+$g$ et $i$, et de $2\farcs0$ dans la bande $r$. En ce qui concerne la limite en magnitude, la bande $g$ montre un seuil median à
+$5\sigma$ de $20.8$mag, la bande $r$ de $20.6$mag et la bande $i$
+$19.9$mag. 
 
 
 \begin{figure}[ht]
@@ -179,26 +207,48 @@ $5\sigma$ de $20.8$mag, la bande $r$ de $20.6$mag et la bande $i$ $19.9$mag.
 \subfloat[Plan focal de la caméra ZTF \citep{BellmZTF2019}.]{\label{fig:ztfcamera}{\includegraphics[width=0.4\textwidth]{../figures/02_ztf/ztfcamera.png}}}\hfill
 \subfloat[Vue en coupe du télescope Samuel Oschin avec le nouveau
 système ZTF \citep{DekanyZTF2020}.]{\label{fig:p48details}{\includegraphics[width=0.5\textwidth]{../figures/02_ztf/p48details.png}}}
-\caption{Description du système d'imagerie de ZTF (\textit{à droite}) et présentation du
+\caption[Système d'imagerie ZTF et caméra]{Description du système d'imagerie de ZTF (\textit{à droite}) et présentation du
   plan focal de la caméra et ses 16 CCD (\textit{à gauche}). }
 \label{fig:subfigures}
 \end{figure}
 
-\begin{figure}
+Le temps de pose utilisé avec cette caméra est de $30s$, et la vitesse
+de lecture de seulement $8s$. Entre le champ de vue de
+$47\text{deg}^{2}$ et cette haute cadence d'acquisition, ZTF est capable
+de scanner près de $3750\text{deg}^{2}/heure$. Sachant que tout au long
+de l'année il y a en moyenne 6h de ciel noir par nuit au Mont Palomar, ZTF est ainsi
+capable d'observer l'entièreté du ciel visible plus d'une fois par
+nuit. Pour donner un autre
+ordre d'idée, ZTF serait ainsi capable de reproduire le relevé POSS
+\citep{MinkowskiPOSS} en 2 nuits.
+
+\begin{figure}[h]
   \centering
-  \includegraphics[width=0.75\textwidth]{../figures/02_ztf/ztffilters.png}
-  \caption{Transmission des filtres $g$, $r$ et $i$ de la caméra de ZTF \citep{DekanyZTF2020}.}
-\label{fig:ztffilters}
+  \includegraphics[width=0.99\textwidth]{../figures/02_ztf/ztfperformances.png}
+  \caption[Filtres et performances associées de la caméra
+  ZTF]{Transmission des filtres $g$, $r$ et $i$ de la caméra de ZTF
+    \citep{DekanyZTF2020} \textit{à gauche}. \textit{Au centre} histogramme
+    normalisé de la largeur à mi-hauteur (FWHM) de la fonction
+    d'étalement de point (PSF) pour chaque filtre durant le mois de Juin
+    2018 \citep{BellmZTF2019}. Enfin \textit{à droite} est représenté
+    l'histogramme à $5\sigma$ des magnitudes limites avec un temps de
+    pose de $30s$ pour chaque filtre sur une période d'une lunaison.}
+\label{fig:ztfperffilts}
 \end{figure}
 
+Bien évidemment, un tel flux de données nécessite une infrastructure de
+traitement adéquate. Celle ci, appelée ZTF Science Data System (ZSDS)
+est hébergée à l'IPAC\footnote{Infrared Processing \& Analysis Center: \href{https://
+www.ipac.caltech.edu}{https://www.ipac.caltech.edu}}. La description de
+ce pipeline est entièrement détaillée dans \citet{MasciZTF2019}.
 
-\section{Le rôle de ZTF dans l'étude cosmologique moderne}
+\section{Observation des Supernovae Ia avec ZTF}
 %\label{ssec:xxx}
 
-\section{ZTF en quelques chiffres}
+\section{Cosmologie avec les Supernovae}
 %\label{ssec:xxx}
-
-
+\bibliographystyle{../main/aa_url}
+\bibliography{99_references}
 \end{document}
 
 %%% Local Variables:

@@ -1,0 +1,91 @@
+\begin{thebibliography}{7}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{{Bellm} {et~al.}(2019){Bellm}, {Kulkarni}, {Graham}, {Dekany},
+  {Smith}, {Riddle}, {Masci}, {Helou}, {Prince}, {Adams}, {Barbarino},
+  {Barlow}, {Bauer}, {Beck}, {Belicki}, {Biswas}, {Blagorodnova}, {Bodewits},
+  {Bolin}, {Brinnel}, {Brooke}, {Bue}, {Bulla}, {Burruss}, {Cenko}, {Chang},
+  {Connolly}, {Coughlin}, {Cromer}, {Cunningham}, {De}, {Delacroix}, {Desai},
+  {Duev}, {Eadie}, {Farnham}, {Feeney}, {Feindt}, {Flynn}, {Franckowiak},
+  {Frederick}, {Fremling}, {Gal-Yam}, {Gezari}, {Giomi}, {Goldstein},
+  {Golkhou}, {Goobar}, {Groom}, {Hacopians}, {Hale}, {Henning}, {Ho}, {Hover},
+  {Howell}, {Hung}, {Huppenkothen}, {Imel}, {Ip}, {Ivezic}, {Jackson}, {Jones},
+  {Juric}, {Kasliwal}, {Kaspi}, {Kaye}, {Kelley}, {Kowalski}, {Kramer},
+  {Kupfer}, {Landry}, {Laher}, {Lee}, {Lin}, {Lin}, {Lunnan}, {Giomi},
+  {Mahabal}, {Mao}, {Miller}, {Monkewitz}, {Murphy}, {Ngeow}, {Nordin},
+  {Nugent}, {Ofek}, {Patterson}, {Penprase}, {Porter}, {Rauch}, {Rebbapragada},
+  {Reiley}, {Rigault}, {Rodriguez}, {van Roestel}, {Rusholme}, {van Santen},
+  {Schulze}, {Shupe}, {Singer}, {Soumagnac}, {Stein}, {Surace}, {Sollerman},
+  {Szkody}, {Taddia}, {Terek}, {Van Sistine}, {van Velzen}, {Vestrand},
+  {Walters}, {Ward}, {Ye}, {Yu}, {Yan}, \& {Zolkower}}]{BellmZTF2019}
+{Bellm}, E.~C., {Kulkarni}, S.~R., {Graham}, M.~J., {et~al.} 2019,
+  \href{http://dx.doi.org/10.1088/1538-3873/aaecbe}{\color{magenta}\pasp},
+  \href{https://ui.adsabs.harvard.edu/abs/2019PASP..131a8002B}{131, 018002}
+
+\bibitem[{{Dekany} {et~al.}(2020){Dekany}, {Smith}, {Riddle}, {Feeney},
+  {Porter}, {Hale}, {Zolkower}, {Belicki}, {Kaye}, {Henning}, {Walters},
+  {Cromer}, {Delacroix}, {Rodriguez}, {Reiley}, {Mao}, {Hover}, {Murphy},
+  {Burruss}, {Baker}, {Kowalski}, {Reif}, {Mueller}, {Bellm}, {Graham}, \&
+  {Kulkarni}}]{DekanyZTF2020}
+{Dekany}, R., {Smith}, R.~M., {Riddle}, R., {et~al.} 2020,
+  \href{http://dx.doi.org/10.1088/1538-3873/ab4ca2}{\color{magenta}\pasp},
+  \href{https://ui.adsabs.harvard.edu/abs/2020PASP..132c8001D}{132, 038001}
+
+\bibitem[{{Graham} {et~al.}(2019){Graham}, {Kulkarni}, {Bellm}, {Adams},
+  {Barbarino}, {Blagorodnova}, {Bodewits}, {Bolin}, {Brady}, {Cenko}, {Chang},
+  {Coughlin}, {De}, {Eadie}, {Farnham}, {Feindt}, {Franckowiak}, {Fremling},
+  {Gezari}, {Ghosh}, {Goldstein}, {Golkhou}, {Goobar}, {Ho}, {Huppenkothen},
+  {Ivezic}, {Jones}, {Juric}, {Kaplan}, {Kasliwal}, {Kelley}, {Kupfer}, {Lee},
+  {Lin}, {Lunnan}, {Mahabal}, {Miller}, {Ngeow}, {Nugent}, {Ofek}, {Prince},
+  {Rauch}, {van Roestel}, {Schulze}, {Singer}, {Sollerman}, {Taddia}, {Yan},
+  {Ye}, {Yu}, {Barlow}, {Bauer}, {Beck}, {Belicki}, {Biswas}, {Brinnel},
+  {Brooke}, {Bue}, {Bulla}, {Burruss}, {Connolly}, {Cromer}, {Cunningham},
+  {Dekany}, {Delacroix}, {Desai}, {Duev}, {Feeney}, {Flynn}, {Frederick},
+  {Gal-Yam}, {Giomi}, {Groom}, {Hacopians}, {Hale}, {Helou}, {Henning},
+  {Hover}, {Hillenbrand}, {Howell}, {Hung}, {Imel}, {Ip}, {Jackson}, {Kaspi},
+  {Kaye}, {Kowalski}, {Kramer}, {Kuhn}, {Landry}, {Laher}, {Mao}, {Masci},
+  {Monkewitz}, {Murphy}, {Nordin}, {Patterson}, {Penprase}, {Porter},
+  {Rebbapragada}, {Reiley}, {Riddle}, {Rigault}, {Rodriguez}, {Rusholme}, {van
+  Santen}, {Shupe}, {Smith}, {Soumagnac}, {Stein}, {Surace}, {Szkody}, {Terek},
+  {Van Sistine}, {van Velzen}, {Vestrand}, {Walters}, {Ward}, {Zhang}, \&
+  {Zolkower}}]{GrahamZTF2019}
+{Graham}, M.~J., {Kulkarni}, S.~R., {Bellm}, E.~C., {et~al.} 2019,
+  \href{http://dx.doi.org/10.1088/1538-3873/ab006c}{\color{magenta}\pasp},
+  \href{https://ui.adsabs.harvard.edu/abs/2019PASP..131g8001G}{131, 078001}
+
+\bibitem[{{Law} {et~al.}(2009){Law}, {Kulkarni}, {Dekany}, {Ofek}, {Quimby},
+  {Nugent}, {Surace}, {Grillmair}, {Bloom}, {Kasliwal}, {Bildsten}, {Brown},
+  {Cenko}, {Ciardi}, {Croner}, {Djorgovski}, {van Eyken}, {Filippenko}, {Fox},
+  {Gal-Yam}, {Hale}, {Hamam}, {Helou}, {Henning}, {Howell}, {Jacobsen},
+  {Laher}, {Mattingly}, {McKenna}, {Pickles}, {Poznanski}, {Rahmer}, {Rau},
+  {Rosing}, {Shara}, {Smith}, {Starr}, {Sullivan}, {Velur}, {Walters}, \&
+  {Zolkower}}]{LawPTF2009}
+{Law}, N.~M., {Kulkarni}, S.~R., {Dekany}, R.~G., {et~al.} 2009,
+  \href{http://dx.doi.org/10.1086/648598}{\color{magenta}\pasp},
+  \href{https://ui.adsabs.harvard.edu/abs/2009PASP..121.1395L}{121, 1395}
+
+\bibitem[{{Masci} {et~al.}(2019){Masci}, {Laher}, {Rusholme}, {Shupe}, {Groom},
+  {Surace}, {Jackson}, {Monkewitz}, {Beck}, {Flynn}, {Terek}, {Landry},
+  {Hacopians}, {Desai}, {Howell}, {Brooke}, {Imel}, {Wachter}, {Ye}, {Lin},
+  {Cenko}, {Cunningham}, {Rebbapragada}, {Bue}, {Miller}, {Mahabal}, {Bellm},
+  {Patterson}, {Juric}, {Golkhou}, {Ofek}, {Walters}, {Graham}, {Kasliwal},
+  {Dekany}, {Kupfer}, {Burdge}, {Cannella}, {Barlow}, {Van Sistine}, {Giomi},
+  {Fremling}, {Blagorodnova}, {Levitan}, {Riddle}, {Smith}, {Helou}, {Prince},
+  \& {Kulkarni}}]{MasciZTF2019}
+{Masci}, F.~J., {Laher}, R.~R., {Rusholme}, B., {et~al.} 2019,
+  \href{http://dx.doi.org/10.1088/1538-3873/aae8ac}{\color{magenta}\pasp},
+  \href{https://ui.adsabs.harvard.edu/abs/2019PASP..131a8003M}{131, 018003}
+
+\bibitem[{{Minkowski} \& {Abell}(1963)}]{MinkowskiPOSS}
+{Minkowski}, R.~L. \& {Abell}, G.~O. 1963, in Basic Astronomical Data: Stars
+  and Stellar Systems, ed. K.~A. {Strand}, 481
+
+\bibitem[{{Rau} {et~al.}(2009){Rau}, {Kulkarni}, {Law}, {Bloom}, {Ciardi},
+  {Djorgovski}, {Fox}, {Gal-Yam}, {Grillmair}, {Kasliwal}, {Nugent}, {Ofek},
+  {Quimby}, {Reach}, {Shara}, {Bildsten}, {Cenko}, {Drake}, {Filippenko},
+  {Helfand}, {Helou}, {Howell}, {Poznanski}, \& {Sullivan}}]{RauPTF2009}
+{Rau}, A., {Kulkarni}, S.~R., {Law}, N.~M., {et~al.} 2009,
+  \href{http://dx.doi.org/10.1086/605911}{\color{magenta}\pasp},
+  \href{https://ui.adsabs.harvard.edu/abs/2009PASP..121.1334R}{121, 1334}
+
+\end{thebibliography}
