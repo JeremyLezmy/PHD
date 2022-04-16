@@ -1,4 +1,4 @@
-\begin{thebibliography}{7}
+\begin{thebibliography}{10}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Bellm} {et~al.}(2019){Bellm}, {Kulkarni}, {Graham}, {Dekany},
@@ -30,6 +30,14 @@
 {Dekany}, R., {Smith}, R.~M., {Riddle}, R., {et~al.} 2020,
   \href{http://dx.doi.org/10.1088/1538-3873/ab4ca2}{\color{magenta}\pasp},
   \href{https://ui.adsabs.harvard.edu/abs/2020PASP..132c8001D}{132, 038001}
+
+\bibitem[{{Dhawan} {et~al.}(2022){Dhawan}, {Goobar}, {Smith}, {Johansson},
+  {Rigault}, {Nordin}, {Biswas}, {Goldstein}, {Nugent}, {Kim}, {Miller},
+  {Graham}, {Medford}, {Kasliwal}, {Kulkarni}, {Duev}, {Bellm}, {Rosnet},
+  {Riddle}, \& {Sollerman}}]{DhawanZTFDR1}
+{Dhawan}, S., {Goobar}, A., {Smith}, M., {et~al.} 2022,
+  \href{http://dx.doi.org/10.1093/mnras/stab3093}{\color{magenta}\mnras},
+  \href{https://ui.adsabs.harvard.edu/abs/2022MNRAS.510.2228D}{510, 2228}
 
 \bibitem[{{Graham} {et~al.}(2019){Graham}, {Kulkarni}, {Bellm}, {Adams},
   {Barbarino}, {Blagorodnova}, {Bodewits}, {Bolin}, {Brady}, {Cenko}, {Chang},
@@ -79,6 +87,21 @@
 \bibitem[{{Minkowski} \& {Abell}(1963)}]{MinkowskiPOSS}
 {Minkowski}, R.~L. \& {Abell}, G.~O. 1963, in Basic Astronomical Data: Stars
   and Stellar Systems, ed. K.~A. {Strand}, 481
+
+\bibitem[{{Nordin} {et~al.}(2019){Nordin}, {Brinnel}, {van Santen}, {Bulla},
+  {Feindt}, {Franckowiak}, {Fremling}, {Gal-Yam}, {Giomi}, {Kowalski},
+  {Mahabal}, {Miranda}, {Rauch}, {Reusch}, {Rigault}, {Schulze}, {Sollerman},
+  {Stein}, {Yaron}, {van Velzen}, \& {Ward}}]{NordinAMPEL2019}
+{Nordin}, J., {Brinnel}, V., {van Santen}, J., {et~al.} 2019,
+  \href{http://dx.doi.org/10.1051/0004-6361/201935634}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2019A&A...631A.147N}{631, A147}
+
+\bibitem[{{Patterson} {et~al.}(2019){Patterson}, {Bellm}, {Rusholme}, {Masci},
+  {Juric}, {Krughoff}, {Golkhou}, {Graham}, {Kulkarni}, {Helou}, \& {Zwicky
+  Transient Facility Collaboration}}]{PattersonZTF2019}
+{Patterson}, M.~T., {Bellm}, E.~C., {Rusholme}, B., {et~al.} 2019,
+  \href{http://dx.doi.org/10.1088/1538-3873/aae904}{\color{magenta}\pasp},
+  \href{https://ui.adsabs.harvard.edu/abs/2019PASP..131a8001P}{131, 018001}
 
 \bibitem[{{Rau} {et~al.}(2009){Rau}, {Kulkarni}, {Law}, {Bloom}, {Ciardi},
   {Djorgovski}, {Fox}, {Gal-Yam}, {Grillmair}, {Kasliwal}, {Nugent}, {Ofek},

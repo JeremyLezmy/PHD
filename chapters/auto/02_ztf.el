@@ -20,12 +20,17 @@
     "subfiles10")
    (LaTeX-add-labels
     "ch:ztf"
+    "sec:ztfcollab"
     "fig:p48"
     "fig:palomar_obs"
+    "sec:ztfcamera"
     "fig:ztfcamera"
     "fig:p48details"
-    "fig:subfigures"
-    "fig:ztfperffilts")
+    "fig:imageriecamztf"
+    "fig:ztfcamerafov"
+    "fig:ztfperffilts"
+    "sec:sniaztf"
+    "sec:sniaztfcosmo")
    (LaTeX-add-bibliographies
     "99_references"))
  :latex)
