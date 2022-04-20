@@ -30,8 +30,6 @@
     "fig:ztfcamerafov"
     "fig:ztfperffilts"
     "sec:sniaztf"
-    "sec:sniaztfcosmo")
-   (LaTeX-add-bibliographies
-    "99_references"))
+    "fig:cumulsniaztf"))
  :latex)
 

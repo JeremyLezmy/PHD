@@ -19,6 +19,11 @@
     "subfiles"
     "subfiles10")
    (LaTeX-add-labels
-    "ch:sedm"))
+    "ch:sedm"
+    "sec:ifs"
+    "fig:ifsgeneral"
+    "fig:sedmoverview")
+   (LaTeX-add-bibliographies
+    "99_references"))
  :latex)
 

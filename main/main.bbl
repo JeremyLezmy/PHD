@@ -1,5 +1,35 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{27}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{{Allington-Smith} {et~al.}(1997){Allington-Smith}, {Content},
+  {Haynes}, \& {Lewis}}]{allingtonIFUlensfiber}
+{Allington-Smith}, J.~R., {Content}, R., {Haynes}, R., \& {Lewis}, I.~J. 1997,
+  in Society of Photo-Optical Instrumentation Engineers (SPIE) Conference
+  Series, Vol. 2871, Optical Telescopes of Today and Tomorrow, ed. A.~L.
+  {Ardeberg},
+  \href{https://ui.adsabs.harvard.edu/abs/1997SPIE.2871.1284A}{1284--1294}
+
+\bibitem[{Allington‐Smith \& Content(1998)}]{allingtonIFS}
+Allington‐Smith, J. \& Content, R. 1998, Publications of the Astronomical
+  Society of the Pacific, 110, 1216
+
+\bibitem[{{Bacon} {et~al.}(1995){Bacon}, {Adam}, {Baranne}, {Courtes}, {Dubet},
+  {Dubois}, {Emsellem}, {Ferruit}, {Georgelin}, {Monnet}, {Pecontal},
+  {Rousset}, \& {Say}}]{BaconIFUlens}
+{Bacon}, R., {Adam}, G., {Baranne}, A., {et~al.} 1995, \aaps,
+  \href{https://ui.adsabs.harvard.edu/abs/1995A&AS..113..347B}{113, 347}
+
+\bibitem[{{Bacon} {et~al.}(2001){Bacon}, {Copin}, {Monnet}, {Miller},
+  {Allington-Smith}, {Bureau}, {Carollo}, {Davies}, {Emsellem}, {Kuntschner},
+  {Peletier}, {Verolme}, \& {de Zeeuw}}]{SAURONifs}
+{Bacon}, R., {Copin}, Y., {Monnet}, G., {et~al.} 2001,
+  \href{http://dx.doi.org/10.1046/j.1365-8711.2001.04612.x}{\color{magenta}\mnras},
+  \href{https://ui.adsabs.harvard.edu/abs/2001MNRAS.326...23B}{326, 23}
+
+\bibitem[{{Barden} \& {Wade}(1988)}]{BardenIFUfiber}
+{Barden}, S.~C. \& {Wade}, R.~A. 1988, in Astronomical Society of the Pacific
+  Conference Series, Vol.~3, Fiber Optics in Astronomy, ed. S.~C. {Barden},
+  \href{https://ui.adsabs.harvard.edu/abs/1988ASPC....3..113B}{113--124}
 
 \bibitem[{{Bellm} {et~al.}(2019){Bellm}, {Kulkarni}, {Graham}, {Dekany},
   {Smith}, {Riddle}, {Masci}, {Helou}, {Prince}, {Adams}, {Barbarino},
@@ -22,6 +52,26 @@
   \href{http://dx.doi.org/10.1088/1538-3873/aaecbe}{\color{magenta}\pasp},
   \href{https://ui.adsabs.harvard.edu/abs/2019PASP..131a8002B}{131, 018002}
 
+\bibitem[{{Bowen}(1938)}]{BowenIFUslicer}
+{Bowen}, I.~S. 1938,
+  \href{http://dx.doi.org/10.1086/143964}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/1938ApJ....88..113B}{88, 113}
+
+\bibitem[{{Cappellari} {et~al.}(2011){Cappellari}, {Emsellem}, {Krajnovi{\'c}},
+  {McDermid}, {Scott}, {Verdoes Kleijn}, {Young}, {Alatalo}, {Bacon}, {Blitz},
+  {Bois}, {Bournaud}, {Bureau}, {Davies}, {Davis}, {de Zeeuw}, {Duc},
+  {Khochfar}, {Kuntschner}, {Lablanche}, {Morganti}, {Naab}, {Oosterloo},
+  {Sarzi}, {Serra}, \& {Weijmans}}]{ATLAS3D}
+{Cappellari}, M., {Emsellem}, E., {Krajnovi{\'c}}, D., {et~al.} 2011,
+  \href{http://dx.doi.org/10.1111/j.1365-2966.2010.18174.x}{\color{magenta}\mnras},
+  \href{https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..813C}{413, 813}
+
+\bibitem[{{Content}(1997)}]{ContentIFUslicer}
+{Content}, R. 1997, in Society of Photo-Optical Instrumentation Engineers
+  (SPIE) Conference Series, Vol. 2871, Optical Telescopes of Today and
+  Tomorrow, ed. A.~L. {Ardeberg},
+  \href{https://ui.adsabs.harvard.edu/abs/1997SPIE.2871.1295C}{1295--1305}
+
 \bibitem[{{Dekany} {et~al.}(2020){Dekany}, {Smith}, {Riddle}, {Feeney},
   {Porter}, {Hale}, {Zolkower}, {Belicki}, {Kaye}, {Henning}, {Walters},
   {Cromer}, {Delacroix}, {Rodriguez}, {Reiley}, {Mao}, {Hover}, {Murphy},
@@ -38,6 +88,17 @@
 {Dhawan}, S., {Goobar}, A., {Smith}, M., {et~al.} 2022,
   \href{http://dx.doi.org/10.1093/mnras/stab3093}{\color{magenta}\mnras},
   \href{https://ui.adsabs.harvard.edu/abs/2022MNRAS.510.2228D}{510, 2228}
+
+\bibitem[{{Fremling} {et~al.}(2020){Fremling}, {Miller}, {Sharma}, {Dugas},
+  {Perley}, {Taggart}, {Sollerman}, {Goobar}, {Graham}, {Neill}, {Nordin},
+  {Rigault}, {Walters}, {Andreoni}, {Bagdasaryan}, {Belicki}, {Cannella},
+  {Bellm}, {Cenko}, {De}, {Dekany}, {Frederick}, {Golkhou}, {Graham}, {Helou},
+  {Ho}, {Kasliwal}, {Kupfer}, {Laher}, {Mahabal}, {Masci}, {Riddle},
+  {Rusholme}, {Schulze}, {Shupe}, {Smith}, {van Velzen}, {Yan}, {Yao},
+  {Zhuang}, \& {Kulkarni}}]{FremlingZTFspec2020}
+{Fremling}, C., {Miller}, A.~A., {Sharma}, Y., {et~al.} 2020,
+  \href{http://dx.doi.org/10.3847/1538-4357/ab8943}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2020ApJ...895...32F}{895, 32}
 
 \bibitem[{{Graham} {et~al.}(2019){Graham}, {Kulkarni}, {Bellm}, {Adams},
   {Barbarino}, {Blagorodnova}, {Bodewits}, {Bolin}, {Brady}, {Cenko}, {Chang},
@@ -60,6 +121,23 @@
 {Graham}, M.~J., {Kulkarni}, S.~R., {Bellm}, E.~C., {et~al.} 2019,
   \href{http://dx.doi.org/10.1088/1538-3873/ab006c}{\color{magenta}\pasp},
   \href{https://ui.adsabs.harvard.edu/abs/2019PASP..131g8001G}{131, 078001}
+
+\bibitem[{{Jones} {et~al.}(2017){Jones}, {Scolnic}, {Riess}, {Kessler}, {Rest},
+  {Kirshner}, {Berger}, {Ortega}, {Foley}, {Chornock}, {Challis}, {Burgett},
+  {Chambers}, {Draper}, {Flewelling}, {Huber}, {Kaiser}, {Kudritzki},
+  {Metcalfe}, {Wainscoat}, \& {Waters}}]{JonesScolnic17SNcontam}
+{Jones}, D.~O., {Scolnic}, D.~M., {Riess}, A.~G., {et~al.} 2017,
+  \href{http://dx.doi.org/10.3847/1538-4357/aa767b}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2017ApJ...843....6J}{843, 6}
+
+\bibitem[{{Lantz} {et~al.}(2004){Lantz}, {Aldering}, {Antilogus}, {Bonnaud},
+  {Capoani}, {Castera}, {Copin}, {Dubet}, {Gangler}, {Henault}, {Lemonnier},
+  {Pain}, {Pecontal}, {Pecontal}, \& {Smadja}}]{SNIFS2004}
+{Lantz}, B., {Aldering}, G., {Antilogus}, P., {et~al.} 2004, in Society of
+  Photo-Optical Instrumentation Engineers (SPIE) Conference Series, Vol. 5249,
+  Optical Design and Engineering, ed. L.~{Mazuray}, P.~J. {Rogers}, \&
+  R.~{Wartmann},
+  \href{https://ui.adsabs.harvard.edu/abs/2004SPIE.5249..146L}{146--155}
 
 \bibitem[{{Law} {et~al.}(2009){Law}, {Kulkarni}, {Dekany}, {Ofek}, {Quimby},
   {Nugent}, {Surace}, {Grillmair}, {Bloom}, {Kasliwal}, {Bildsten}, {Brown},
@@ -84,9 +162,25 @@
   \href{http://dx.doi.org/10.1088/1538-3873/aae8ac}{\color{magenta}\pasp},
   \href{https://ui.adsabs.harvard.edu/abs/2019PASP..131a8003M}{131, 018003}
 
+\bibitem[{{McGregor} {et~al.}(2003){McGregor}, {Hart}, {Conroy}, {Pfitzner},
+  {Bloxham}, {Jones}, {Downing}, {Dawson}, {Young}, {Jarnyk}, \& {Van
+  Harmelen}}]{GeminiNIFS}
+{McGregor}, P.~J., {Hart}, J., {Conroy}, P.~G., {et~al.} 2003, in Society of
+  Photo-Optical Instrumentation Engineers (SPIE) Conference Series, Vol. 4841,
+  Instrument Design and Performance for Optical/Infrared Ground-based
+  Telescopes, ed. M.~{Iye} \& A.~F.~M. {Moorwood},
+  \href{https://ui.adsabs.harvard.edu/abs/2003SPIE.4841.1581M}{1581--1591}
+
 \bibitem[{{Minkowski} \& {Abell}(1963)}]{MinkowskiPOSS}
 {Minkowski}, R.~L. \& {Abell}, G.~O. 1963, in Basic Astronomical Data: Stars
   and Stellar Systems, ed. K.~A. {Strand}, 481
+
+\bibitem[{{Nicolas} {et~al.}(2021){Nicolas}, {Rigault}, {Copin}, {Graziani},
+  {Aldering}, {Briday}, {Kim}, {Nordin}, {Perlmutter}, \&
+  {Smith}}]{NoraNicolas21}
+{Nicolas}, N., {Rigault}, M., {Copin}, Y., {et~al.} 2021,
+  \href{http://dx.doi.org/10.1051/0004-6361/202038447}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2021A&A...649A..74N}{649, A74}
 
 \bibitem[{{Nordin} {et~al.}(2019){Nordin}, {Brinnel}, {van Santen}, {Bulla},
   {Feindt}, {Franckowiak}, {Fremling}, {Gal-Yam}, {Giomi}, {Kowalski},
@@ -110,5 +204,43 @@
 {Rau}, A., {Kulkarni}, S.~R., {Law}, N.~M., {et~al.} 2009,
   \href{http://dx.doi.org/10.1086/605911}{\color{magenta}\pasp},
   \href{https://ui.adsabs.harvard.edu/abs/2009PASP..121.1334R}{121, 1334}
+
+\bibitem[{{Scolnic} {et~al.}(2021){Scolnic}, {Brout}, {Carr}, {Riess}, {Davis},
+  {Dwomoh}, {Jones}, {Ali}, {Charvu}, {Chen}, {Peterson}, {Popovic}, {Rose},
+  {Wood}, {Brown}, {Chambers}, {Coulter}, {Dettman}, {Dimitriadis},
+  {Filippenko}, {Foley}, {Jha}, {Kilpatrick}, {Kirshner}, {Pan}, {Rest},
+  {Rojas-Bravo}, {Siebert}, {Stahl}, \& {Zheng}}]{Scolnicpantheon21}
+{Scolnic}, D., {Brout}, D., {Carr}, A., {et~al.} 2021,
+  \href{https://ui.adsabs.harvard.edu/abs/2021arXiv211203863S}{arXiv e-prints,
+  arXiv:2112.03863}
+
+\bibitem[{{Scolnic} \& {Kessler}(2016)}]{Scolnicbias2016}
+{Scolnic}, D. \& {Kessler}, R. 2016,
+  \href{http://dx.doi.org/10.3847/2041-8205/822/2/L35}{\color{magenta}\apjl},
+  \href{https://ui.adsabs.harvard.edu/abs/2016ApJ...822L..35S}{822, L35}
+
+\bibitem[{{Scolnic} {et~al.}(2018){Scolnic}, {Jones}, {Rest}, {Pan},
+  {Chornock}, {Foley}, {Huber}, {Kessler}, {Narayan}, {Riess}, {Rodney},
+  {Berger}, {Brout}, {Challis}, {Drout}, {Finkbeiner}, {Lunnan}, {Kirshner},
+  {Sanders}, {Schlafly}, {Smartt}, {Stubbs}, {Tonry}, {Wood-Vasey}, {Foley},
+  {Hand}, {Johnson}, {Burgett}, {Chambers}, {Draper}, {Hodapp}, {Kaiser},
+  {Kudritzki}, {Magnier}, {Metcalfe}, {Bresolin}, {Gall}, {Kotak}, {McCrum}, \&
+  {Smith}}]{Scolnicpantheon18}
+{Scolnic}, D.~M., {Jones}, D.~O., {Rest}, A., {et~al.} 2018,
+  \href{http://dx.doi.org/10.3847/1538-4357/aab9bb}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2018ApJ...859..101S}{859, 101}
+
+\bibitem[{{Yan} {et~al.}(2016){Yan}, {Bundy}, {Law}, {Bershady}, {Andrews},
+  {Cherinka}, {Diamond-Stanic}, {Drory}, {MacDonald}, {S{\'a}nchez-Gallego},
+  {Thomas}, {Wake}, {Weijmans}, {Westfall}, {Zhang}, {Arag{\'o}n-Salamanca},
+  {Belfiore}, {Bizyaev}, {Blanc}, {Blanton}, {Brownstein}, {Cappellari},
+  {D'Souza}, {Emsellem}, {Fu}, {Gaulme}, {Graham}, {Goddard}, {Gunn},
+  {Harding}, {Jones}, {Kinemuchi}, {Li}, {Li}, {Maiolino}, {Mao}, {Maraston},
+  {Masters}, {Merrifield}, {Oravetz}, {Pan}, {Parejko}, {Sanchez}, {Schlegel},
+  {Simmons}, {Thanjavur}, {Tinker}, {Tremonti}, {van den Bosch}, \&
+  {Zheng}}]{SDSSIFS}
+{Yan}, R., {Bundy}, K., {Law}, D.~R., {et~al.} 2016,
+  \href{http://dx.doi.org/10.3847/0004-6256/152/6/197}{\color{magenta}\aj},
+  \href{https://ui.adsabs.harvard.edu/abs/2016AJ....152..197Y}{152, 197}
 
 \end{thebibliography}

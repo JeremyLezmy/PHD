@@ -3,29 +3,72 @@
 
 \chapter{Data Release 2 de ZTF}\label{ch:res}
 
--- XXX --
-
 \minitoc
 \newpage
 
 \section{Présentation de la DR2 de ZTF}
-%\label{sec:xxx}
-
-\subsection{XXX}
-%\label{ssec:xxx}
-
-\subsection{XXX}
-%\label{ssec:xxx}
-
+% \label{sec:xxx}
 
 \section{Production d'\hypergal et résultats}
 %\label{sec:xxx}
 
-\subsection{XXX}
+\subsection{Classification et détermination de l'échantillon DR2-Cosmo}
 %\label{ssec:xxx}
 
-\subsection{XXX}
+\subsection{Premiers résultats}
 % \label{ssec:xxx}
 
+L'utilisation de l'échantillon de SNeIa pour dériver les paramètres
+cosmologiques nécessite de considérer d'éventuels biais de sélection. En
+effet, une SNIa avec un paramètre de couleur élevé (donc plus rouge) ou
+un déclin rapide de luminosité (bas stretch) peuvent ne plus être détectées
+par ZTF et sa profondeur en magnitude limite. La
+Figure~\ref{fig:ztfdr2salt} met bien en évidence cet effet de sélection,
+où la corrélation entre les paramètres de la courbe de lumière et le
+redshift est clairement visible. C'est pourquoi un sous-échantillon à
+volume limité ($z<0.06$) est considéré, comme indiqué par \textbf{Amenouche et al (in prep)} .
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.9\textwidth]{../figures/02_ztf/ztfdr2stretchcolor.png}
+  \caption[Paramètres SALT2 de stretch et couleur pour la DR2 de
+  ZTF]{Paramètres SALT2 de stretch (\textit{en bas}) et couleur
+    (\textit{en haut}) pour la DR2 de ZTF (\textbf{Rigault et al DR2 (in prep)}). Ici seules les Supernovae de
+    l'échantillon doré son considérées. La bande grise indique le
+    volume limite à $z<0.06$. Les histogrammes sur la droites
+    représentent l'échantillon entier (en bleu) et volume limité (en gris).}
+  \label{fig:ztfdr2salt}
+\end{figure}
+
+Le volume limité étant défini, il est à présent possible d'étudier les
+paramètres de distributions des courbes de lumières, ainsi que leurs
+corrélations. La première raison de cette analyse est la nécessité
+d'estimer la fonction de sélection sous-jacente pour éviter d'induire
+des biais dans la dérivation des
+paramètres cosmologiques \citep{Scolnicbias2016}. La seconde raison est
+que cela permet d'étudier la nature de la population (jeune/vieille) des
+SNIa, et de mettre en évidence des potentiels évolution en redshift
+\citep{NoraNicolas21}. Les corrélations stretch/couleur sont montrées
+dans la Figure~\ref{fig:ztfdr2saltcorr}, où la caractéristique bi-modale
+de la distribution en stretch est clairement visible. Le mode à bas
+stretch compte pour $\approx25\%$ de la distribution, comme prédit par \citet{NoraNicolas21}.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.9\textwidth]{../figures/02_ztf/ztfdr2stretchcolorcorrelation.png}
+  \caption[Correlation entre les paramètres SALT2 de stretch et couleur
+  (ZTF-DR2)]{ Correlation entre les paramètres SALT2 de stretch et
+    couleur pour la DR2 de ZTF (\textbf{Rigault et al DR2 (in prep)}). Ici seules les Supernovae du
+    volume limité à $z<0.06$ sont considérées. Les distributions en
+    orange correspondent aux prédictions du model de double population
+    de SNeIa de \citet{NoraNicolas21}.}
+  \label{fig:ztfdr2saltcorr}
+\end{figure}
+
+\subsection{Des SNeIa à la cosmologie: $H_{0}$, $w$ et $f\sigma_{8}$} \label{sec:sniaztfcosmo}
+
+À ce rythme, ZTF aura observé et classifié près de $5000$ SNeIa de
+qualité cosmologique d'ici la
+fin de la phase 2, mi-2024.
 
 \end{document}

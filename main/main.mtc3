@@ -1,4 +1,6 @@
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.1}Présentation de l'instrument}{\reset@font\mtcSfont 34}{section.3.1}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.2}Extraction des spectres du CCD et création des cubes de données}{\reset@font\mtcSfont 34}{section.3.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.3}Actuelle méthode d'extraction de spectre}{\reset@font\mtcSfont 34}{section.3.3}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.4}SEDm en quelques chiffres}{\reset@font\mtcSfont 34}{section.3.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.1.1}Principe d'un IFS}{\reset@font\mtcSSfont 34}{subsection.3.1.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.1.2}La SEDm}{\reset@font\mtcSSfont 35}{subsection.3.1.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.2}Extraction des spectres du CCD et création des cubes de données}{\reset@font\mtcSfont 35}{section.3.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.3}Actuelle méthode d'extraction de spectre}{\reset@font\mtcSfont 35}{section.3.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.4}SEDm en quelques chiffres}{\reset@font\mtcSfont 35}{section.3.4}}

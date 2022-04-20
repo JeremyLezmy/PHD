@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{16}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Bellm} {et~al.}(2019){Bellm}, {Kulkarni}, {Graham}, {Dekany},
@@ -39,6 +39,17 @@
   \href{http://dx.doi.org/10.1093/mnras/stab3093}{\color{magenta}\mnras},
   \href{https://ui.adsabs.harvard.edu/abs/2022MNRAS.510.2228D}{510, 2228}
 
+\bibitem[{{Fremling} {et~al.}(2020){Fremling}, {Miller}, {Sharma}, {Dugas},
+  {Perley}, {Taggart}, {Sollerman}, {Goobar}, {Graham}, {Neill}, {Nordin},
+  {Rigault}, {Walters}, {Andreoni}, {Bagdasaryan}, {Belicki}, {Cannella},
+  {Bellm}, {Cenko}, {De}, {Dekany}, {Frederick}, {Golkhou}, {Graham}, {Helou},
+  {Ho}, {Kasliwal}, {Kupfer}, {Laher}, {Mahabal}, {Masci}, {Riddle},
+  {Rusholme}, {Schulze}, {Shupe}, {Smith}, {van Velzen}, {Yan}, {Yao},
+  {Zhuang}, \& {Kulkarni}}]{FremlingZTFspec2020}
+{Fremling}, C., {Miller}, A.~A., {Sharma}, Y., {et~al.} 2020,
+  \href{http://dx.doi.org/10.3847/1538-4357/ab8943}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2020ApJ...895...32F}{895, 32}
+
 \bibitem[{{Graham} {et~al.}(2019){Graham}, {Kulkarni}, {Bellm}, {Adams},
   {Barbarino}, {Blagorodnova}, {Bodewits}, {Bolin}, {Brady}, {Cenko}, {Chang},
   {Coughlin}, {De}, {Eadie}, {Farnham}, {Feindt}, {Franckowiak}, {Fremling},
@@ -60,6 +71,14 @@
 {Graham}, M.~J., {Kulkarni}, S.~R., {Bellm}, E.~C., {et~al.} 2019,
   \href{http://dx.doi.org/10.1088/1538-3873/ab006c}{\color{magenta}\pasp},
   \href{https://ui.adsabs.harvard.edu/abs/2019PASP..131g8001G}{131, 078001}
+
+\bibitem[{{Jones} {et~al.}(2017){Jones}, {Scolnic}, {Riess}, {Kessler}, {Rest},
+  {Kirshner}, {Berger}, {Ortega}, {Foley}, {Chornock}, {Challis}, {Burgett},
+  {Chambers}, {Draper}, {Flewelling}, {Huber}, {Kaiser}, {Kudritzki},
+  {Metcalfe}, {Wainscoat}, \& {Waters}}]{JonesScolnic17SNcontam}
+{Jones}, D.~O., {Scolnic}, D.~M., {Riess}, A.~G., {et~al.} 2017,
+  \href{http://dx.doi.org/10.3847/1538-4357/aa767b}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2017ApJ...843....6J}{843, 6}
 
 \bibitem[{{Law} {et~al.}(2009){Law}, {Kulkarni}, {Dekany}, {Ofek}, {Quimby},
   {Nugent}, {Surace}, {Grillmair}, {Bloom}, {Kasliwal}, {Bildsten}, {Brown},
@@ -88,6 +107,13 @@
 {Minkowski}, R.~L. \& {Abell}, G.~O. 1963, in Basic Astronomical Data: Stars
   and Stellar Systems, ed. K.~A. {Strand}, 481
 
+\bibitem[{{Nicolas} {et~al.}(2021){Nicolas}, {Rigault}, {Copin}, {Graziani},
+  {Aldering}, {Briday}, {Kim}, {Nordin}, {Perlmutter}, \&
+  {Smith}}]{NoraNicolas21}
+{Nicolas}, N., {Rigault}, M., {Copin}, Y., {et~al.} 2021,
+  \href{http://dx.doi.org/10.1051/0004-6361/202038447}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2021A&A...649A..74N}{649, A74}
+
 \bibitem[{{Nordin} {et~al.}(2019){Nordin}, {Brinnel}, {van Santen}, {Bulla},
   {Feindt}, {Franckowiak}, {Fremling}, {Gal-Yam}, {Giomi}, {Kowalski},
   {Mahabal}, {Miranda}, {Rauch}, {Reusch}, {Rigault}, {Schulze}, {Sollerman},
@@ -110,5 +136,30 @@
 {Rau}, A., {Kulkarni}, S.~R., {Law}, N.~M., {et~al.} 2009,
   \href{http://dx.doi.org/10.1086/605911}{\color{magenta}\pasp},
   \href{https://ui.adsabs.harvard.edu/abs/2009PASP..121.1334R}{121, 1334}
+
+\bibitem[{{Scolnic} {et~al.}(2021){Scolnic}, {Brout}, {Carr}, {Riess}, {Davis},
+  {Dwomoh}, {Jones}, {Ali}, {Charvu}, {Chen}, {Peterson}, {Popovic}, {Rose},
+  {Wood}, {Brown}, {Chambers}, {Coulter}, {Dettman}, {Dimitriadis},
+  {Filippenko}, {Foley}, {Jha}, {Kilpatrick}, {Kirshner}, {Pan}, {Rest},
+  {Rojas-Bravo}, {Siebert}, {Stahl}, \& {Zheng}}]{Scolnicpantheon21}
+{Scolnic}, D., {Brout}, D., {Carr}, A., {et~al.} 2021,
+  \href{https://ui.adsabs.harvard.edu/abs/2021arXiv211203863S}{arXiv e-prints,
+  arXiv:2112.03863}
+
+\bibitem[{{Scolnic} \& {Kessler}(2016)}]{Scolnicbias2016}
+{Scolnic}, D. \& {Kessler}, R. 2016,
+  \href{http://dx.doi.org/10.3847/2041-8205/822/2/L35}{\color{magenta}\apjl},
+  \href{https://ui.adsabs.harvard.edu/abs/2016ApJ...822L..35S}{822, L35}
+
+\bibitem[{{Scolnic} {et~al.}(2018){Scolnic}, {Jones}, {Rest}, {Pan},
+  {Chornock}, {Foley}, {Huber}, {Kessler}, {Narayan}, {Riess}, {Rodney},
+  {Berger}, {Brout}, {Challis}, {Drout}, {Finkbeiner}, {Lunnan}, {Kirshner},
+  {Sanders}, {Schlafly}, {Smartt}, {Stubbs}, {Tonry}, {Wood-Vasey}, {Foley},
+  {Hand}, {Johnson}, {Burgett}, {Chambers}, {Draper}, {Hodapp}, {Kaiser},
+  {Kudritzki}, {Magnier}, {Metcalfe}, {Bresolin}, {Gall}, {Kotak}, {McCrum}, \&
+  {Smith}}]{Scolnicpantheon18}
+{Scolnic}, D.~M., {Jones}, D.~O., {Rest}, A., {et~al.} 2018,
+  \href{http://dx.doi.org/10.3847/1538-4357/aab9bb}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2018ApJ...859..101S}{859, 101}
 
 \end{thebibliography}

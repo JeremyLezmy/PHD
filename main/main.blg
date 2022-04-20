@@ -2,56 +2,56 @@ This is BibTeX, Version 0.99d (TeX Live 2021)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: ../main/aa_url.bst
-Illegal, another \bibstyle command---line 332 of file main.aux
+Illegal, another \bibstyle command---line 413 of file main.aux
  : \bibstyle
  :          {aa_url}
 I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 333 of file main.aux
+Illegal, another \bibdata command---line 414 of file main.aux
  : \bibdata
  :         {../chapters/99_references}
 I'm skipping whatever remains of this command
 Database file #1: ../chapters/99_references.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty publisher in MinkowskiPOSS
-You've used 10 entries,
+You've used 27 entries,
             3128 wiz_defined-function locations,
-            782 strings with 15991 characters,
-and the built_in function-call counts, 23639 in all, are:
-= -- 1606
-> -- 3895
-< -- 1
-+ -- 1301
-- -- 1291
-* -- 2463
-:= -- 4446
-add.period$ -- 10
-call.type$ -- 10
-change.case$ -- 470
-chr.to.int$ -- 10
-cite$ -- 11
-duplicate$ -- 188
-empty$ -- 318
-format.name$ -- 1314
-if$ -- 4571
+            950 strings with 25913 characters,
+and the built_in function-call counts, 43296 in all, are:
+= -- 3054
+> -- 6501
+< -- 11
++ -- 2172
+- -- 2145
+* -- 4420
+:= -- 8014
+add.period$ -- 27
+call.type$ -- 27
+change.case$ -- 820
+chr.to.int$ -- 27
+cite$ -- 28
+duplicate$ -- 558
+empty$ -- 908
+format.name$ -- 2212
+if$ -- 8451
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 9
-newline$ -- 34
-num.names$ -- 41
-pop$ -- 465
+missing$ -- 21
+newline$ -- 85
+num.names$ -- 114
+pop$ -- 821
 preamble$ -- 1
-purify$ -- 470
+purify$ -- 820
 quote$ -- 0
-skip$ -- 190
+skip$ -- 541
 stack$ -- 0
-substring$ -- 263
-swap$ -- 24
-text.length$ -- 0
+substring$ -- 764
+swap$ -- 112
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 90
+type$ -- 243
 warning$ -- 1
-while$ -- 41
+while$ -- 119
 width$ -- 0
-write$ -- 103
+write$ -- 272
 (There were 2 error messages)

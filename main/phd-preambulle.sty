@@ -111,6 +111,7 @@
 
 % Pretty units
 \RequirePackage{siunitx}
+\RequirePackage[perpage]{footmisc}
 \sisetup{%
   detect-all,
   free-standing-units,          % create standalone commands
@@ -234,6 +235,7 @@
 \newcommand*\arcmin{\ensuremath{^\prime}}
 \newcommand*\farcm{\ensuremath{\overset{\prime}{.}}}
 \newcommand*\farcs{\ensuremath{\overset{\prime\prime}{.}}}
+\newcommand{\overbar}[1]{\mkern1.5mu\overline{\mkern-1.5mu#1\mkern-1.5mu}\mkern1.5mu}
 
 % Local def for ease of use
 \def\DS{\displaystyle}

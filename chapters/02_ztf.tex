@@ -297,18 +297,92 @@ variables, des satellites ou encore des objets du système solaire. In
 fine, ''seulement'' $\mathcal{O}(10)$ sont de nouvelles Supernovae qui
 doivent être identifées et classifiées. Entre $70$ et $80\%$ d'entres
 elles s'avèrent être de type Ia, dont la moitié atteignent le seuil de
-magnitude de ZTF permettant d'établir une courbe de lumière exploitable.
+magnitude de ZTF permettant d'établir une courbe de lumière
+exploitable.
 
 La $1\iere{}$ data release dédiée au sondage des Supernovae de type Ia
 avec ZTF a été publiée et décrite par \citet{DhawanZTFDR1} très
 récemment. Au stade de cette DR1, ce qui correspond à un peu plus de 2
-ans et demi d'observations (Mars 2018-Novembre 2020), ZTF a déjà répertorié plus de $3000$ SNIa.
+ans et demi d'observations (Mars 2018-Novembre 2020), ZTF a déjà
+répertorié plus de $3000$ SNIa. La profondeur en magnitude atteind
+$20.8$, $20.6$, $20.3$ mag dans les bandes $g$ $r$, et $i$ respectivement, ce qui
+correspond à un redshift $z\lesssim0.1$. L'échantillon est complet à
+$100\%$ en terme de classifcation en deça de $m_{peak}=16.5$ mag, à
+$93.6\%$ en deça de $m_{peak}=18.5$ mag et $88.8\%$ à $m_{peak}=19.0$
+mag \citep{FremlingZTFspec2020}.
+Cette classification est rendue possible grâce à la combinaison de la
+caméra de ZTF et du spectrographe 3D monté sur le P60, la Spectral
+Energy Distribution machine (SEDm), qui est optimisé pour la
+classification des SNe jusqu'à $m\approx19$ mag. Nous détaillerons cet instrument
+dans le chapitre suivant. La DR1
+présente ainsi un échantillon de $761$ Supernovae classifiées
+spectralement avec un redshift median de $\overbar{z}=0.057$, incluant $547$ SNeIa, $155$ SNeII, $40$ SNeIb/c et $19$ SLSNe.
+La Figure~\ref{fig:cumulsniaztf} (\textbf{Rigault et al DR2 in prep}) met en évidence la croissance de
+l'échantillon de SNeIa observées durant la phase 1 de ZTF, qui
+constituera la $2\ieme$ Data Release de ZTF-Cosmo consacrée aux Supernovae de
+type Ia. Sur les $\approx3700$ SNeIa classifiées spectralement, près de
+$3000$ entrent dans la catégorie \textit{échantillon dorée}, ce qui
+signifie qu'elles remplissent les critères dit de qualité cosmologiques
+pour leur courbe de luminosité vis à vis de l'algorithme SALT2 qui en
+dérive les paramètres de couleur et de stretch. Ces
+critères, basés sur l'intervalle de phase $[-15,30]$ jours où SALT2 est
+le mieux définie, sont les suivants:
 
-\section{Supernovae Ia, ZTF et Cosmologie}\label{sec:sniaztfcosmo}
+\begin{itemize}[label=$\diamondsuit$]
+  \itemsep0em 
+   \item Seulement les détections photométriques à $5\sigma$ sont
+     considérées
+   \item Au moins $7$ points avec le maximum dans au moins $2$ bandes
+   \item Au moins $7$ points après le maximum dans au moins $2$ bandes
+\end{itemize}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.99\textwidth]{../figures/02_ztf/cumulsniaztf.png}
+  \caption[Nombre cumulé de SNIa observés par ZTF (phase 1)]{Nombre
+    cumulé de SNIa observés par ZTF (phase 1). Les contours dorés
+    correspondent à l'échantillon passant les critères de coupure pour
+    une qualité cosmologique. Le trait plein montre les SN avec un
+    redshift spectroscopique de leur galaxie hôte. À titre de
+    comparaison, le set de données le plus récent dans la littérature
+    cosmologique comptabilise moins de $500$ SNIa à un redshift de $z<0.1$}
+  \label{fig:cumulsniaztf}
+\end{figure}
+
+Environ $40\%$ de ces Supernovae possèdent un redshift spectral de leur
+galaxie hôte (majoritairement des relevés SDSS). $50\%$ proviennent des
+caractéristiques des spectres des supernovae elles mêmes, et $10\%$ de
+raies d'émissions de la galaxie hôte ayant contaminées le spectre de la
+SNIa. Il est à noté que pour les 2 derniers points, la précision n'est
+que de l'ordre de $5$\textperthousand, insuffisant pour la cosmologie.
+Cependant, plus de $95\%$ des galaxies hôtes ont une magnitude supérieur
+à $20$ mag, ce qui signifie que d'autres relevés (comme par exemple
+DESI) pourraient à posteriori mesurer et fournir les redshift manquant.
+
+ZTF a donc montré sa capacité à débusquer et classifier pas moins de
+$1000$ Supernovae de type Ia par an, très loin devant l'actuel (ancien)
+leader à bas redshift Pantheon \citep{Scolnicpantheon18} avec 1048 SNeIa
+sur les 20 dernières années, dont seulement 210 à un redshift
+$z<0.1$. Leur plus récente publication (Pantheon+
+\citet{Scolnicpantheon21}) fait état de 1550 SNeIa, dont 389 à $z<0.1$.
+
+Nous parlerons dans le dernier chapitre de ce manuscrit de la nouvelle
+Data Release 2 en cours d'étude, des premiers résultats obtenus sur les courbes de
+lumières ainsi que des ouvertures sur la dérivation de paramètres
+cosmologiques. Rappelons que tout cela se base sur la capacité, certes, à
+détecter les Supernovae grâce à la caméra ZTF, mais également à leur
+classification. Cette étape a été peu détaillée dans ce chapitre mais
+est cruciale pour éviter toute contamination des échantillons de SNeIa,
+induisant des biais dans la dérivation des paramètres cosmologiques
+\citep{JonesScolnic17SNcontam}. Comme nous l'avons mentionné au tout
+début de la Section~\ref{sec:ztfcollab}, cette classification se fait
+grâce à un spectrographe 3D monté sur le télescope P60. Le chapitre
+suivant est tout naturellement dédiée à la présentation de cet
+instrument.
 
 
-\bibliographystyle{../main/aa_url}
-\bibliography{99_references}
+%\bibliographystyle{../main/aa_url}
+%\bibliography{99_references}
 \end{document}
 
 %%% Local Variables:

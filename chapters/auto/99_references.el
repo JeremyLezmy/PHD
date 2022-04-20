@@ -2,15 +2,33 @@
  "99_references"
  (lambda ()
    (LaTeX-add-bibitems
+    "allingtonIFS"
+    "allingtonIFUlensfiber"
     "BellmZTF2019"
+    "SAURONifs"
+    "BaconIFUlens"
+    "BardenIFUfiber"
+    "BowenIFUslicer"
+    "SEDM18"
+    "ATLAS3D"
+    "ContentIFUslicer"
     "DekanyZTF2020"
     "DhawanZTFDR1"
+    "FremlingZTFspec2020"
     "GrahamZTF2019"
+    "JonesScolnic17SNcontam"
     "LawPTF2009"
+    "SNIFS2004"
     "MasciZTF2019"
     "MinkowskiPOSS"
+    "GeminiNIFS"
     "NordinAMPEL2019"
+    "NoraNicolas21"
     "PattersonZTF2019"
-    "RauPTF2009"))
+    "RauPTF2009"
+    "Scolnicpantheon18"
+    "Scolnicbias2016"
+    "Scolnicpantheon21"
+    "SDSSIFS"))
  :bibtex)
 
