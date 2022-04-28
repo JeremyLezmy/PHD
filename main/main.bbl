@@ -1,4 +1,4 @@
-\begin{thebibliography}{27}
+\begin{thebibliography}{49}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Allington-Smith} {et~al.}(1997){Allington-Smith}, {Content},
@@ -26,6 +26,11 @@ Allington‐Smith, J. \& Content, R. 1998, Publications of the Astronomical
   \href{http://dx.doi.org/10.1046/j.1365-8711.2001.04612.x}{\color{magenta}\mnras},
   \href{https://ui.adsabs.harvard.edu/abs/2001MNRAS.326...23B}{326, 23}
 
+\bibitem[{Barbary(2016)}]{Barbary2016Sep}
+Barbary, K. 2016,
+  \href{http://dx.doi.org/10.21105/joss.00058}{\color{magenta}Journal of Open
+  Source Software}, 1, 58
+
 \bibitem[{{Barden} \& {Wade}(1988)}]{BardenIFUfiber}
 {Barden}, S.~C. \& {Wade}, R.~A. 1988, in Astronomical Society of the Pacific
   Conference Series, Vol.~3, Fiber Optics in Astronomy, ed. S.~C. {Barden},
@@ -52,10 +57,50 @@ Allington‐Smith, J. \& Content, R. 1998, Publications of the Astronomical
   \href{http://dx.doi.org/10.1088/1538-3873/aaecbe}{\color{magenta}\pasp},
   \href{https://ui.adsabs.harvard.edu/abs/2019PASP..131a8002B}{131, 018002}
 
+\bibitem[{{Bertin} \& {Arnouts}(1996)}]{Bertinsextractor}
+{Bertin}, E. \& {Arnouts}, S. 1996,
+  \href{http://dx.doi.org/10.1051/aas:1996164}{\color{magenta}\aaps},
+  \href{https://ui.adsabs.harvard.edu/abs/1996A&AS..117..393B}{117, 393}
+
+\bibitem[{{Blagorodnova} {et~al.}(2018){Blagorodnova}, {Neill}, {Walters},
+  {Kulkarni}, {Fremling}, {Ben-Ami}, {Dekany}, {Fucik}, {Konidaris}, {Nash},
+  {Ngeow}, {Ofek}, {O' Sullivan}, {Quimby}, {Ritter}, \& {Vyhmeister}}]{SEDM18}
+{Blagorodnova}, N., {Neill}, J.~D., {Walters}, R., {et~al.} 2018,
+  \href{http://dx.doi.org/10.1088/1538-3873/aaa53f}{\color{magenta}\pasp},
+  \href{https://ui.adsabs.harvard.edu/abs/2018PASP..130c5003B}{130, 035003}
+
+\bibitem[{{Blondin} \& {Tonry}(2007)}]{BlondinSNID}
+{Blondin}, S. \& {Tonry}, J.~L. 2007,
+  \href{http://dx.doi.org/10.1086/520494}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2007ApJ...666.1024B}{666, 1024}
+
+\bibitem[{{Bohlin} {et~al.}(2014){Bohlin}, {Gordon}, \&
+  {Tremblay}}]{Bohlinstdcalpsec}
+{Bohlin}, R.~C., {Gordon}, K.~D., \& {Tremblay}, P.~E. 2014,
+  \href{http://dx.doi.org/10.1086/677655}{\color{magenta}\pasp},
+  \href{https://ui.adsabs.harvard.edu/abs/2014PASP..126..711B}{126, 711}
+
 \bibitem[{{Bowen}(1938)}]{BowenIFUslicer}
 {Bowen}, I.~S. 1938,
   \href{http://dx.doi.org/10.1086/143964}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/1938ApJ....88..113B}{88, 113}
+
+\bibitem[{Buton(2009)}]{Butonthese}
+Buton, C. 2009,
+  \href{https://tel.archives-ouvertes.fr/tel-00465853}{{Étalonnage
+  spectro-photométrique du SuperNova Integral Field Spectrograph dans le cadre
+  du projet the Nearby Supernova Factory}}, Theses, {Université Claude Bernard
+  - Lyon I}
+
+\bibitem[{{Buton} {et~al.}(2013){Buton}, {Copin}, {Aldering}, {Antilogus},
+  {Aragon}, {Bailey}, {Baltay}, {Bongard}, {Canto}, {Cellier-Holzem},
+  {Childress}, {Chotard}, {Fakhouri}, {Gangler}, {Guy}, {Hsiao}, {Kerschhaggl},
+  {Kowalski}, {Loken}, {Nugent}, {Paech}, {Pain}, {P{\'e}contal}, {Pereira},
+  {Perlmutter}, {Rabinowitz}, {Rigault}, {Runge}, {Scalzo}, {Smadja}, {Tao},
+  {Thomas}, {Weaver}, {Wu}, \& {Nearby SuperNova Factory}}]{Buton2013}
+{Buton}, C., {Copin}, Y., {Aldering}, G., {et~al.} 2013,
+  \href{http://dx.doi.org/10.1051/0004-6361/201219834}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2013A&A...549A...8B}{549, A8}
 
 \bibitem[{{Cappellari} {et~al.}(2011){Cappellari}, {Emsellem}, {Krajnovi{\'c}},
   {McDermid}, {Scott}, {Verdoes Kleijn}, {Young}, {Alatalo}, {Bacon}, {Blitz},
@@ -65,6 +110,29 @@ Allington‐Smith, J. \& Content, R. 1998, Publications of the Astronomical
 {Cappellari}, M., {Emsellem}, E., {Krajnovi{\'c}}, D., {et~al.} 2011,
   \href{http://dx.doi.org/10.1111/j.1365-2966.2010.18174.x}{\color{magenta}\mnras},
   \href{https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..813C}{413, 813}
+
+\bibitem[{{Chambers} {et~al.}(2016){Chambers}, {Magnier}, {Metcalfe},
+  {Flewelling}, {Huber}, {Waters}, {Denneau}, {Draper}, {Farrow}, {Finkbeiner},
+  {Holmberg}, {Koppenhoefer}, {Price}, {Rest}, {Saglia}, {Schlafly}, {Smartt},
+  {Sweeney}, {Wainscoat}, {Burgett}, {Chastel}, {Grav}, {Heasley}, {Hodapp},
+  {Jedicke}, {Kaiser}, {Kudritzki}, {Luppino}, {Lupton}, {Monet}, {Morgan},
+  {Onaka}, {Shiao}, {Stubbs}, {Tonry}, {White}, {Ba{\~n}ados}, {Bell},
+  {Bender}, {Bernard}, {Boegner}, {Boffi}, {Botticella}, {Calamida},
+  {Casertano}, {Chen}, {Chen}, {Cole}, {Deacon}, {Frenk}, {Fitzsimmons},
+  {Gezari}, {Gibbs}, {Goessl}, {Goggia}, {Gourgue}, {Goldman}, {Grant},
+  {Grebel}, {Hambly}, {Hasinger}, {Heavens}, {Heckman}, {Henderson}, {Henning},
+  {Holman}, {Hopp}, {Ip}, {Isani}, {Jackson}, {Keyes}, {Koekemoer}, {Kotak},
+  {Le}, {Liska}, {Long}, {Lucey}, {Liu}, {Martin}, {Masci}, {McLean}, {Mindel},
+  {Misra}, {Morganson}, {Murphy}, {Obaika}, {Narayan}, {Nieto-Santisteban},
+  {Norberg}, {Peacock}, {Pier}, {Postman}, {Primak}, {Rae}, {Rai}, {Riess},
+  {Riffeser}, {Rix}, {R{\"o}ser}, {Russel}, {Rutz}, {Schilbach}, {Schultz},
+  {Scolnic}, {Strolger}, {Szalay}, {Seitz}, {Small}, {Smith}, {Soderblom},
+  {Taylor}, {Thomson}, {Taylor}, {Thakar}, {Thiel}, {Thilker}, {Unger},
+  {Urata}, {Valenti}, {Wagner}, {Walder}, {Walter}, {Watters}, {Werner},
+  {Wood-Vasey}, \& {Wyse}}]{ChambersPanstarrs}
+{Chambers}, K.~C., {Magnier}, E.~A., {Metcalfe}, N., {et~al.} 2016,
+  \href{https://ui.adsabs.harvard.edu/abs/2016arXiv161205560C}{arXiv e-prints,
+  arXiv:1612.05560}
 
 \bibitem[{{Content}(1997)}]{ContentIFUslicer}
 {Content}, R. 1997, in Society of Photo-Optical Instrumentation Engineers
@@ -122,6 +190,30 @@ Allington‐Smith, J. \& Content, R. 1998, Publications of the Astronomical
   \href{http://dx.doi.org/10.1088/1538-3873/ab006c}{\color{magenta}\pasp},
   \href{https://ui.adsabs.harvard.edu/abs/2019PASP..131g8001G}{131, 078001}
 
+\bibitem[{{Guti\'errez} {et~al.}(2017){Guti\'errez}, {Anderson}, {Hamuy},
+  {Morrell}, {Gonz{\'a}lez-Gaitan}, {Stritzinger}, {Phillips}, {Galbany},
+  {Folatelli}, {Dessart}, {Contreras}, {Della Valle}, {Freedman}, {Hsiao},
+  {Krisciunas}, {Madore}, {Maza}, {Suntzeff}, {Prieto}, {Gonz{\'a}lez},
+  {Cappellaro}, {Navarrete}, {Pizzella}, {Ruiz}, {Smith}, \&
+  {Turatto}}]{GutierrezSNII}
+{Guti\'errez}, C.~P., {Anderson}, J.~P., {Hamuy}, M., {et~al.} 2017,
+  \href{http://dx.doi.org/10.3847/1538-4357/aa8f52}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2017ApJ...850...89G}{850, 89}
+
+\bibitem[{{Hayes} \& {Latham}(1975)}]{Hayes1975atm}
+{Hayes}, D.~S. \& {Latham}, D.~W. 1975,
+  \href{http://dx.doi.org/10.1086/153548}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/1975ApJ...197..593H}{197, 593}
+
+\bibitem[{{Howell} {et~al.}(2005){Howell}, {Sullivan}, {Perrett}, {Bronder},
+  {Hook}, {Astier}, {Aubourg}, {Balam}, {Basa}, {Carlberg}, {Fabbro},
+  {Fouchez}, {Guy}, {Lafoux}, {Neill}, {Pain}, {Palanque-Delabrouille},
+  {Pritchet}, {Regnault}, {Rich}, {Taillet}, {Knop}, {McMahon}, {Perlmutter},
+  \& {Walton}}]{HowellSuperfit}
+{Howell}, D.~A., {Sullivan}, M., {Perrett}, K., {et~al.} 2005,
+  \href{http://dx.doi.org/10.1086/497119}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1190H}{634, 1190}
+
 \bibitem[{{Jones} {et~al.}(2017){Jones}, {Scolnic}, {Riess}, {Kessler}, {Rest},
   {Kirshner}, {Berger}, {Ortega}, {Foley}, {Chornock}, {Challis}, {Burgett},
   {Chambers}, {Draper}, {Flewelling}, {Huber}, {Kaiser}, {Kudritzki},
@@ -129,6 +221,13 @@ Allington‐Smith, J. \& Content, R. 1998, Publications of the Astronomical
 {Jones}, D.~O., {Scolnic}, D.~M., {Riess}, A.~G., {et~al.} 2017,
   \href{http://dx.doi.org/10.3847/1538-4357/aa767b}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2017ApJ...843....6J}{843, 6}
+
+\bibitem[{{Kim} {et~al.}(2022){Kim}, {Rigault}, {Neill}, {Briday}, {Copin},
+  {Lezmy}, {Nicolas}, {Riddle}, {Sharma}, {Smith}, {Sollerman}, \&
+  {Walters}}]{Kimcontsep}
+{Kim}, Y.~L., {Rigault}, M., {Neill}, J.~D., {et~al.} 2022,
+  \href{http://dx.doi.org/10.1088/1538-3873/ac50a0}{\color{magenta}\pasp},
+  \href{https://ui.adsabs.harvard.edu/abs/2022PASP..134b4505K}{134, 024505}
 
 \bibitem[{{Lantz} {et~al.}(2004){Lantz}, {Aldering}, {Antilogus}, {Bonnaud},
   {Capoani}, {Castera}, {Copin}, {Dubet}, {Gangler}, {Henault}, {Lemonnier},
@@ -149,6 +248,21 @@ Allington‐Smith, J. \& Content, R. 1998, Publications of the Astronomical
 {Law}, N.~M., {Kulkarni}, S.~R., {Dekany}, R.~G., {et~al.} 2009,
   \href{http://dx.doi.org/10.1086/648598}{\color{magenta}\pasp},
   \href{https://ui.adsabs.harvard.edu/abs/2009PASP..121.1395L}{121, 1395}
+
+\bibitem[{{Liu} \& {Modjaz}(2014)}]{Liu2014SNIbc}
+{Liu}, Y. \& {Modjaz}, M. 2014,
+  \href{https://ui.adsabs.harvard.edu/abs/2014arXiv1405.1437L}{arXiv e-prints,
+  arXiv:1405.1437}
+
+\bibitem[{{Liu} {et~al.}(2017){Liu}, {Modjaz}, \& {Bianco}}]{Liu2017SLSN}
+{Liu}, Y.-Q., {Modjaz}, M., \& {Bianco}, F.~B. 2017,
+  \href{http://dx.doi.org/10.3847/1538-4357/aa7f74}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2017ApJ...845...85L}{845, 85}
+
+\bibitem[{{Liu} {et~al.}(2016){Liu}, {Modjaz}, {Bianco}, \& {Graur}}]{Liu2016}
+{Liu}, Y.-Q., {Modjaz}, M., {Bianco}, F.~B., \& {Graur}, O. 2016,
+  \href{http://dx.doi.org/10.3847/0004-637X/827/2/90}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2016ApJ...827...90L}{827, 90}
 
 \bibitem[{{Masci} {et~al.}(2019){Masci}, {Laher}, {Rusholme}, {Shupe}, {Groom},
   {Surace}, {Jackson}, {Monkewitz}, {Beck}, {Flynn}, {Terek}, {Landry},
@@ -174,6 +288,18 @@ Allington‐Smith, J. \& Content, R. 1998, Publications of the Astronomical
 \bibitem[{{Minkowski} \& {Abell}(1963)}]{MinkowskiPOSS}
 {Minkowski}, R.~L. \& {Abell}, G.~O. 1963, in Basic Astronomical Data: Stars
   and Stellar Systems, ed. K.~A. {Strand}, 481
+
+\bibitem[{{Modjaz} {et~al.}(2016){Modjaz}, {Liu}, {Bianco}, \&
+  {Graur}}]{Mojdaz2016}
+{Modjaz}, M., {Liu}, Y.~Q., {Bianco}, F.~B., \& {Graur}, O. 2016,
+  \href{http://dx.doi.org/10.3847/0004-637X/832/2/108}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2016ApJ...832..108M}{832, 108}
+
+\bibitem[{{Muthukrishna} {et~al.}(2019){Muthukrishna}, {Parkinson}, \&
+  {Tucker}}]{MuthukrishnaDash}
+{Muthukrishna}, D., {Parkinson}, D., \& {Tucker}, B.~E. 2019,
+  \href{http://dx.doi.org/10.3847/1538-4357/ab48f4}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2019ApJ...885...85M}{885, 85}
 
 \bibitem[{{Nicolas} {et~al.}(2021){Nicolas}, {Rigault}, {Copin}, {Graziani},
   {Aldering}, {Briday}, {Kim}, {Nordin}, {Perlmutter}, \&
@@ -205,6 +331,13 @@ Allington‐Smith, J. \& Content, R. 1998, Publications of the Astronomical
   \href{http://dx.doi.org/10.1086/605911}{\color{magenta}\pasp},
   \href{https://ui.adsabs.harvard.edu/abs/2009PASP..121.1334R}{121, 1334}
 
+\bibitem[{{Rigault} {et~al.}(2019){Rigault}, {Neill}, {Blagorodnova}, {Dugas},
+  {Feeney}, {Walters}, {Brinnel}, {Copin}, {Fremling}, {Nordin}, \&
+  {Sollerman}}]{pysedm}
+{Rigault}, M., {Neill}, J.~D., {Blagorodnova}, N., {et~al.} 2019,
+  \href{http://dx.doi.org/10.1051/0004-6361/201935344}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2019A&A...627A.115R}{627, A115}
+
 \bibitem[{{Scolnic} {et~al.}(2021){Scolnic}, {Brout}, {Carr}, {Riess}, {Davis},
   {Dwomoh}, {Jones}, {Ali}, {Charvu}, {Chen}, {Peterson}, {Popovic}, {Rose},
   {Wood}, {Brown}, {Chambers}, {Coulter}, {Dettman}, {Dimitriadis},
@@ -229,6 +362,33 @@ Allington‐Smith, J. \& Content, R. 1998, Publications of the Astronomical
 {Scolnic}, D.~M., {Jones}, D.~O., {Rest}, A., {et~al.} 2018,
   \href{http://dx.doi.org/10.3847/1538-4357/aab9bb}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2018ApJ...859..101S}{859, 101}
+
+\bibitem[{{Silverman} {et~al.}(2012){Silverman}, {Foley}, {Filippenko},
+  {Ganeshalingam}, {Barth}, {Chornock}, {Griffith}, {Kong}, {Lee}, {Leonard},
+  {Matheson}, {Miller}, {Steele}, {Barris}, {Bloom}, {Cobb}, {Coil},
+  {Desroches}, {Gates}, {Ho}, {Jha}, {Kandrashoff}, {Li}, {Mandel}, {Modjaz},
+  {Moore}, {Mostardi}, {Papenkova}, {Park}, {Perley}, {Poznanski}, {Reuter},
+  {Scala}, {Serduke}, {Shields}, {Swift}, {Tonry}, {Van Dyk}, {Wang}, \&
+  {Wong}}]{Silverman2012}
+{Silverman}, J.~M., {Foley}, R.~J., {Filippenko}, A.~V., {et~al.} 2012,
+  \href{http://dx.doi.org/10.1111/j.1365-2966.2012.21270.x}{\color{magenta}\mnras},
+  \href{https://ui.adsabs.harvard.edu/abs/2012MNRAS.425.1789S}{425, 1789}
+
+\bibitem[{Stubbs {et~al.}(2007)Stubbs, High, George, DeRose, Blondin, Tonry,
+  Chambers, Granett, Burke, \& Smith}]{Stubbs2007atm}
+Stubbs, C.~W., High, F.~W., George, M.~R., {et~al.} 2007,
+  \href{http://dx.doi.org/10.1086/522208}{\color{magenta}Publications of the
+  Astronomical Society of the Pacific}, 119, 1163
+
+\bibitem[{{Tonry} \& {Davis}(1979)}]{TonryDavis}
+{Tonry}, J. \& {Davis}, M. 1979,
+  \href{http://dx.doi.org/10.1086/112569}{\color{magenta}\aj},
+  \href{https://ui.adsabs.harvard.edu/abs/1979AJ.....84.1511T}{84, 1511}
+
+\bibitem[{{Wade} \& {Horne}(1988)}]{Wade1988atm}
+{Wade}, R.~A. \& {Horne}, K. 1988,
+  \href{http://dx.doi.org/10.1086/165905}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/1988ApJ...324..411W}{324, 411}
 
 \bibitem[{{Yan} {et~al.}(2016){Yan}, {Bundy}, {Law}, {Bershady}, {Andrews},
   {Cherinka}, {Diamond-Stanic}, {Drory}, {MacDonald}, {S{\'a}nchez-Gallego},

@@ -11,7 +11,7 @@
 
 \RequirePackage{pdflscape} 
 \RequirePackage[margin=2.5cm, top=3cm, bottom=3cm]{geometry}
-
+\RequirePackage[shortlabels]{enumitem}
 % Include external figures
 \makeatletter
 \def\input@path{{../figures/}}
@@ -205,11 +205,29 @@
   stringstyle=\color{orange},
 }
 
+\definecolor{boxgrey}{RGB}{242,242,242}
+\RequirePackage{framed}
+\colorlet{shadecolor}{boxgrey}
+\colorlet{framecolor}{lightgray}
+
+\newenvironment{frshaded}{%
+\def\FrameCommand{\fboxrule=\FrameRule\fboxsep=\FrameSep \fcolorbox{framecolor}{shadecolor}}%
+\MakeFramed {\FrameRestore}}%
+{\endMakeFramed}
+
+\newenvironment{frshaded*}{%
+\def\FrameCommand{\fboxrule=\FrameRule\fboxsep=\FrameSep \fcolorbox{framecolor}{shadecolor}}%
+\MakeFramed {\advance\hsize-\width \FrameRestore}}%
+{\endMakeFramed}
+  
+    
 \newcommand{\ed}[2]{#1\endnote{\textcolor{black}{#1} : #2}}
 \newcommand{\obar}[1]{\mkern 1.5mu\overline{\mkern-1.5mu#1\mkern-1.5mu}\mkern 1.5mu}
 \newcommand{\opto}[2]{\ensuremath\underset{#2}{\overset{#1}{\longrightarrow}}}
 \newcommand{\pkg}[1]{\textsc{\texttt{#1}}}
 \newcommand{\hypergal}{\pkg{HyperGal} }
+\newcommand{\pysedm}{\pkg{pysedm} }
+
 
 %Journal abbreviations
 \newcommand*{\apj}{The Astrophysical Journal}
@@ -295,7 +313,7 @@
 \newcommand{\lcdm}{\ensuremath{\Lambda}CDM\@\xspace}
 \def\k{\chi}
 \def\kk{\kappa}
-\def\r{\rho}
+\DeclareSIUnit{\angstrom}{\textup{\AA}}
 \def\s{\sigma}
 \def\S{\Sigma}
 \def\eau{_\mathrm{eau}}

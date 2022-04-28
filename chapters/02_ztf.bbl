@@ -1,4 +1,4 @@
-\begin{thebibliography}{16}
+\begin{thebibliography}{14}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Bellm} {et~al.}(2019){Bellm}, {Kulkarni}, {Graham}, {Dekany},
@@ -107,13 +107,6 @@
 {Minkowski}, R.~L. \& {Abell}, G.~O. 1963, in Basic Astronomical Data: Stars
   and Stellar Systems, ed. K.~A. {Strand}, 481
 
-\bibitem[{{Nicolas} {et~al.}(2021){Nicolas}, {Rigault}, {Copin}, {Graziani},
-  {Aldering}, {Briday}, {Kim}, {Nordin}, {Perlmutter}, \&
-  {Smith}}]{NoraNicolas21}
-{Nicolas}, N., {Rigault}, M., {Copin}, Y., {et~al.} 2021,
-  \href{http://dx.doi.org/10.1051/0004-6361/202038447}{\color{magenta}\aap},
-  \href{https://ui.adsabs.harvard.edu/abs/2021A&A...649A..74N}{649, A74}
-
 \bibitem[{{Nordin} {et~al.}(2019){Nordin}, {Brinnel}, {van Santen}, {Bulla},
   {Feindt}, {Franckowiak}, {Fremling}, {Gal-Yam}, {Giomi}, {Kowalski},
   {Mahabal}, {Miranda}, {Rauch}, {Reusch}, {Rigault}, {Schulze}, {Sollerman},
@@ -145,11 +138,6 @@
 {Scolnic}, D., {Brout}, D., {Carr}, A., {et~al.} 2021,
   \href{https://ui.adsabs.harvard.edu/abs/2021arXiv211203863S}{arXiv e-prints,
   arXiv:2112.03863}
-
-\bibitem[{{Scolnic} \& {Kessler}(2016)}]{Scolnicbias2016}
-{Scolnic}, D. \& {Kessler}, R. 2016,
-  \href{http://dx.doi.org/10.3847/2041-8205/822/2/L35}{\color{magenta}\apjl},
-  \href{https://ui.adsabs.harvard.edu/abs/2016ApJ...822L..35S}{822, L35}
 
 \bibitem[{{Scolnic} {et~al.}(2018){Scolnic}, {Jones}, {Rest}, {Pan},
   {Chornock}, {Foley}, {Huber}, {Kessler}, {Narayan}, {Riess}, {Rodney},

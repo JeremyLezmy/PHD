@@ -2,7 +2,7 @@
  "phd-preambulle"
  (lambda ()
    (TeX-add-to-alist 'LaTeX-provided-package-options
-                     '(("natbib" "authoryear") ("inputenc" "utf8") ("fontenc" "T1") ("babel" "french") ("geometry" "margin=2.5cm" "top=3cm" "bottom=3cm") ("sidecap" "rightcaption") ("hyperref" "pdftex" "linktoc=all" "backref=False" "colorlinks=true" "pdfstartview=FitV" "linkcolor=linkcolor" "citecolor=blue" "urlcolor=blue" "hyperindex=true" "hyperfigures=false") ("xcolor" "svgnames" "dvipsnames" "table") ("footmisc" "perpage")))
+                     '(("natbib" "authoryear") ("inputenc" "utf8") ("fontenc" "T1") ("babel" "french") ("geometry" "margin=2.5cm" "top=3cm" "bottom=3cm") ("enumitem" "shortlabels") ("sidecap" "rightcaption") ("hyperref" "pdftex" "linktoc=all" "backref=False" "colorlinks=true" "pdfstartview=FitV" "linkcolor=linkcolor" "citecolor=blue" "urlcolor=blue" "hyperindex=true" "hyperfigures=false") ("xcolor" "svgnames" "dvipsnames" "table") ("footmisc" "perpage")))
    (add-to-list 'LaTeX-verbatim-environments-local "lstlisting")
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "lstinline")
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "href")
@@ -22,6 +22,7 @@
     "lipsum"
     "pdflscape"
     "geometry"
+    "enumitem"
     "fancyhdr"
     "emptypage"
     "cancel"
@@ -46,13 +47,13 @@
     "amssymb"
     "textcomp"
     "gensymb"
-    "enumitem"
     "booktabs"
     "tabularx"
     "siunitx"
     "footmisc"
     "bookmark"
-    "listings")
+    "listings"
+    "framed")
    (TeX-add-symbols
     '("overbar" 1)
     '("pkg" 1)
@@ -64,6 +65,7 @@
     '("appsec" 2)
     "toccontents"
     "hypergal"
+    "pysedm"
     "apj"
     "apjl"
     "apjs"
@@ -96,6 +98,7 @@
     "Mearth"
     "Tearth"
     "enoteheading"
+    "FrameCommand"
     "DS"
     "Sc"
     "Cc"
@@ -165,7 +168,6 @@
     "L"
     "k"
     "kk"
-    "r"
     "s"
     "S"
     "eau"
@@ -248,10 +250,17 @@
     "parr")
    (LaTeX-add-labels
     "#2")
+   (LaTeX-add-environments
+    "frshaded")
    (LaTeX-add-xcolor-definecolors
-    "linkcolor")
+    "linkcolor"
+    "boxgrey"
+    "shadecolor"
+    "framecolor")
    (LaTeX-add-array-newcolumntypes
     "Y")
+   (LaTeX-add-siunitx-units
+    '("angstrom" "textup" "Unit"))
    (LaTeX-add-listings-lstdefinestyles
     "customc"))
  :latex)

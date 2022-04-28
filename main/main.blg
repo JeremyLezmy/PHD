@@ -1,57 +1,49 @@
 This is BibTeX, Version 0.99d (TeX Live 2021)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
-The style file: ../main/aa_url.bst
-Illegal, another \bibstyle command---line 413 of file main.aux
- : \bibstyle
- :          {aa_url}
-I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 414 of file main.aux
- : \bibdata
- :         {../chapters/99_references}
-I'm skipping whatever remains of this command
+The style file: aa_url.bst
 Database file #1: ../chapters/99_references.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty publisher in MinkowskiPOSS
-You've used 27 entries,
+You've used 49 entries,
             3128 wiz_defined-function locations,
-            950 strings with 25913 characters,
-and the built_in function-call counts, 43296 in all, are:
-= -- 3054
-> -- 6501
-< -- 11
-+ -- 2172
-- -- 2145
-* -- 4420
-:= -- 8014
-add.period$ -- 27
-call.type$ -- 27
-change.case$ -- 820
-chr.to.int$ -- 27
-cite$ -- 28
-duplicate$ -- 558
-empty$ -- 908
-format.name$ -- 2212
-if$ -- 8451
+            1148 strings with 37117 characters,
+and the built_in function-call counts, 66128 in all, are:
+= -- 4720
+> -- 9555
+< -- 19
++ -- 3190
+- -- 3141
+* -- 6730
+:= -- 12217
+add.period$ -- 49
+call.type$ -- 49
+change.case$ -- 1241
+chr.to.int$ -- 49
+cite$ -- 50
+duplicate$ -- 960
+empty$ -- 1567
+format.name$ -- 3273
+if$ -- 12912
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 21
-newline$ -- 85
-num.names$ -- 114
-pop$ -- 821
+missing$ -- 42
+newline$ -- 151
+num.names$ -- 202
+pop$ -- 1239
 preamble$ -- 1
-purify$ -- 820
+purify$ -- 1240
 quote$ -- 0
-skip$ -- 541
+skip$ -- 924
 stack$ -- 0
-substring$ -- 764
-swap$ -- 112
+substring$ -- 1309
+swap$ -- 152
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 243
+type$ -- 441
 warning$ -- 1
-while$ -- 119
+while$ -- 206
 width$ -- 0
-write$ -- 272
-(There were 2 error messages)
+write$ -- 491
+(There was 1 warning)

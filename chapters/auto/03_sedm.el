@@ -4,16 +4,16 @@
    (TeX-add-to-alist 'LaTeX-provided-class-options
                      '(("subfiles" "../main/main.tex")))
    (add-to-list 'LaTeX-verbatim-environments-local "lstlisting")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "lstinline")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "href")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperref")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperimage")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperbaseurl")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "nolinkurl")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "path")
-   (add-to-list 'LaTeX-verbatim-macros-with-delims-local "lstinline")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "nolinkurl")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperbaseurl")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperimage")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperref")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "href")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "lstinline")
    (add-to-list 'LaTeX-verbatim-macros-with-delims-local "path")
+   (add-to-list 'LaTeX-verbatim-macros-with-delims-local "lstinline")
    (TeX-run-style-hooks
     "latex2e"
     "subfiles"
@@ -22,8 +22,23 @@
     "ch:sedm"
     "sec:ifs"
     "fig:ifsgeneral"
-    "fig:sedmoverview")
-   (LaTeX-add-bibliographies
-    "99_references"))
+    "ssec:sedm"
+    "fig:sedmoverview"
+    "sec:pysedmcube"
+    "ssec:tracematch"
+    "ssec:wavesol"
+    "fig:tracematch"
+    "fig:wavesol"
+    "fig:calibsedm"
+    "ssec:spaceid"
+    "ssec:3dcubecons"
+    "ssec:pysedmextractstar"
+    "ssec:targetlocpysedm"
+    "ssec:sourceextractpysedm"
+    "eq:calibbutoon"
+    "eq:telluricpysedm"
+    "fig:pysedmoutput"
+    "fig:cumulsnhostdist"
+    "fig:stronghost"))
  :latex)
 

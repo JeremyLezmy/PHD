@@ -1,7 +1,7 @@
 \documentclass[../main/main.tex]{subfiles}
 \begin{document}
 
-
+\setcounter{chapter}{1}
 \chapter{Zwicky Transient Facility}\label{ch:ztf}
 
 \minitoc
@@ -40,7 +40,7 @@ pour PTF, ZTF utilise à présent pleinement le plan focal du télescope et
 bénéficie d'une nouvelle caméra offrant un champ de vue de $47
 \text{deg}^{2}$, équippé de 3 filtres $g$, $r$ et $i$. La collaboration est également doté d'un spectrographe
 3D basse résolution ($R\approx100$) monté sur le P48 à Palomar, qui est
-utilisé pour suivre les transients détectés par la caméra principale.
+utilisé pour suivre et classifier les transients détectés par la caméra principale.
 
 \begin{figure}[h]
   \centering
@@ -74,10 +74,10 @@ internationaux d'Universités et institutions:
 \end{multicols}
 
 ZTF est ainsi un partenariat privé-public, où son temps d'observation
-est divisé pur chaque phse du projet entre trois niveaux:
+est divisé pour chaque phase du projet entre trois niveaux:
 
 Lors de la phase 1, le temps d'allocation public (NSF) était de 40\%,
-ppur les partenariats privés de 40\% également, et les 20 derniers \%
+pour les partenariats privés de 40\% également, et les 20 derniers \%
 dédiée aux programmes de Caltech qui possèdent l'Observatoire du Mont
 Palomar.
 
@@ -188,7 +188,7 @@ recherches est adaptée de la façon suivante:
 \label{sec:ztfcamera}
 
 La nouvelle configuration de ZTF vis à vis de ses prédecesseurs PTF/iPTF
-est principalement due à sa caméra de $47\text{deg}^{2}$, profitant de
+est principalement due à sa nouvelle caméra de $47\text{deg}^{2}$, profitant de
 l'intégralité du plan focal du télescope Schmidt P48.
 
 Comme illustré dans la Fig.~\ref{fig:ztfcamera} de \citet{BellmZTF2019}, la caméra est
@@ -224,7 +224,7 @@ système ZTF \citep{DekanyZTF2020}.]{\label{fig:p48details}{\includegraphics[wid
 Le temps de pose utilisé avec cette caméra est de $30s$, et la vitesse
 de lecture de seulement $8s$. Entre le champ de vue de
 $47\text{deg}^{2}$ et cette haute cadence d'acquisition, ZTF est capable
-de scanner près de $3750\text{deg}^{2}/heure$. Sachant que tout au long
+de scanner près de $3750\text{deg}^{2}$ par heure. Sachant que tout au long
 de l'année il y a en moyenne 6h de ciel noir par nuit au Mont Palomar, ZTF est ainsi
 capable d'observer l'entièreté du ciel visible plus d'une fois par
 nuit. Pour donner un autre
@@ -255,14 +255,15 @@ et l'analyse des résultats. Ce pipeline (exécuté en temps réel) utilise
 un algorithme de différentiation d'image, optimisé pour la détection de
 point source variable ou transitoire. Une fois l'évènement confirmé, une alerte est générée et
 en générale déployée dans le quart d'heure qui suit. La distribution de
-ce flux d'alertes utilise des technologies dont le code source est public développées
+ce flux d'alertes utilise des technologies dont le code source est
+public et qui sont développées
 en industries: Apache Kafka\footnote{\url{https://kafka.apache.org}} qui
 fourni un système unifié en temps réel à latence faible pour la
 manipulation de flux de données, et
 Avro\footnote{\url{https://avro.apache.org}} qui est un framework de
 sérialisation de données. Les ordres de grandeurs de la quantité de
 données à manipuler sont impressionnants: Ce système gère avec succès un
-flux d'environ $1,2$ millions d'alertes $\sim$ $70$ GB de données par
+flux d'environ $1,2$ millions d'alertes ($\sim$ $70$ GB de données) par
 nuit. La vitesse de transfert est d'environ $80,000$ alertes/minute. Plus
 de détails sur le système de distribution d'alertes sont apportés dans
 \citet{PattersonZTF2019}. On notera que le framework Avro sera celui utilisé
