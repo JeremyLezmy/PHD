@@ -19,6 +19,11 @@
     "subfiles"
     "subfiles10")
    (LaTeX-add-labels
-    "ch:hypergal"))
+    "ch:hypergal"
+    "sec:ideahypergal"
+    "sec:sedfitting"
+    "fig:specgalsdss"
+    "sec:pipeline"
+    "fig:softdaghypergal"))
  :latex)
 

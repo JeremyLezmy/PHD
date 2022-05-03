@@ -27,8 +27,8 @@
     "../chapters/02_ztf"
     "../chapters/03_sedm"
     "../chapters/04_hypergal"
-    "../chapters/06_sedfit"
-    "../chapters/05_irf"
+    "../chapters/05_sedfit"
+    "../chapters/06_irf"
     "../chapters/07_scene"
     "../chapters/08_simu"
     "../chapters/09_dr2"
@@ -37,7 +37,8 @@
     "bk12"
     "phd-preambulle"
     "subfiles"
-    "tocloft")
+    "tocloft"
+    "xpatch")
    (TeX-add-symbols
     '("addparttoc" 1)
     "protect")

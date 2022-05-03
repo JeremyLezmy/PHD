@@ -3,7 +3,7 @@
 \contentsline {part}{Introduction générale}{15}{chapter*.7}%
 \endgroup 
 \partbegin 
-\contentsline {part}{I:\hspace {1em}Contexte Scientifique}{19}{part.1}%
+\contentsline {part}{I\hspace {1em}Contexte Scientifique}{19}{part.1}%
 \contentsline {xpart}{Contexte Scientifique}{21}{part.1}%
 \contentsline {chapter}{\numberline {1}Contexte cosmologique}{21}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Bases de relativité générale}{23}{section.1.1}%
@@ -41,65 +41,72 @@
 \contentsline {subsection}{\numberline {3.3.3}Calibration en flux}{42}{subsection.3.3.3}%
 \contentsline {section}{\numberline {3.4}Classification}{43}{section.3.4}%
 \contentsline {section}{\numberline {3.5}Contamination par la galaxie hôte}{44}{section.3.5}%
-\contentsline {part}{II:\hspace {1em}Extraction de spectre de Supernovae}{47}{part.2}%
+\contentsline {part}{II\hspace {1em}Extraction de spectre de Supernovae}{47}{part.2}%
 \contentsline {xpart}{Extraction de spectre de Supernovae}{49}{part.2}%
-\contentsline {chapter}{\numberline {4}\textsc {\texttt {HyperGal}} : Un modéliseur de scène pour l'extraction de source ponctuelle}{49}{chapter.4}%
+\contentsline {chapter}{\numberline {4}\textsc {\texttt {HyperGal}} : Modéliseur de scène pour l'extraction de sources ponctuelles}{49}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Idée générale}{50}{section.4.1}%
-\contentsline {section}{\numberline {4.2}SED Fitting}{50}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Présentation du Pipeline}{50}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Modélisation Hyperspectrale}{51}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Source photométrique: PS1}{52}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Présentation du survey}{52}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Utilisation des images PS1}{52}{subsection.5.1.2}%
-\contentsline {section}{\numberline {5.2}Cigale et SEDFitting}{52}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Présentation de Cigale}{52}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Utilisation}{52}{subsection.5.2.2}%
-\contentsline {section}{\numberline {5.3}Construction du cube intrinsèque}{52}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Sampling des spectres dans l'espace SEDm}{52}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Construction du cube}{52}{subsection.5.3.2}%
-\contentsline {chapter}{\numberline {6}Réponse impulsionnelle de la SEDm}{53}{chapter.6}%
-\contentsline {section}{\numberline {6.1}LSF}{54}{section.6.1}%
-\contentsline {subsection}{\numberline {6.1.1}Lampe à arc}{54}{subsection.6.1.1}%
-\contentsline {subsection}{\numberline {6.1.2}Détermination de la LSF}{54}{subsection.6.1.2}%
-\contentsline {section}{\numberline {6.2}PSF}{54}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Modèle de profil radial}{54}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}Entrainement du modèle}{54}{subsection.6.2.2}%
-\contentsline {subsection}{\numberline {6.2.3}Chromaticité et ADR}{54}{subsection.6.2.3}%
-\contentsline {section}{\numberline {6.3}Validation}{54}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Calibration photométrique}{54}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}Résultats}{54}{subsection.6.3.2}%
-\contentsline {chapter}{\numberline {7}Modélisation de Scène et Extraction de Source}{55}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Projection du cube intrinsèque}{56}{section.7.1}%
-\contentsline {subsection}{\numberline {7.1.1}Seeing relatif Panstarrs/SEDm}{56}{subsection.7.1.1}%
-\contentsline {subsection}{\numberline {7.1.2}Projection spatiale dans l'espace SEDm}{56}{subsection.7.1.2}%
-\contentsline {section}{\numberline {7.2}Modélisation de Scène}{56}{section.7.2}%
-\contentsline {subsection}{\numberline {7.2.1}Composante du fond: ciel et artefacts}{56}{subsection.7.2.1}%
-\contentsline {subsection}{\numberline {7.2.2}Composante du point source: Supernova}{56}{subsection.7.2.2}%
-\contentsline {subsection}{\numberline {7.2.3}Fitting de la scene}{56}{subsection.7.2.3}%
-\contentsline {section}{\numberline {7.3}Extraction du point source}{56}{section.7.3}%
-\contentsline {subsection}{\numberline {7.3.1}Outputs de controle du pipeline}{56}{subsection.7.3.1}%
-\contentsline {subsection}{\numberline {7.3.2}Isolation de la galaxie hôte}{56}{subsection.7.3.2}%
-\contentsline {subsection}{\numberline {7.3.3}Isolation de la Supernova}{56}{subsection.7.3.3}%
-\contentsline {section}{\numberline {7.4}Classification: \textsc {\texttt {SNID}}}{56}{section.7.4}%
-\contentsline {part}{III:\hspace {1em}Simulations et Résultats}{57}{part.3}%
-\contentsline {xpart}{Simulations et Résultats}{59}{part.3}%
-\contentsline {chapter}{\numberline {8}Simulations de cubes de données et application d'\textsc {\texttt {HyperGal}} }{59}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Génération des simulations}{60}{section.8.1}%
-\contentsline {subsection}{\numberline {8.1.1}Cube de galaxies isolées}{60}{subsection.8.1.1}%
-\contentsline {subsection}{\numberline {8.1.2}Modèles de Supernovae}{60}{subsection.8.1.2}%
-\contentsline {subsection}{\numberline {8.1.3}Marginalisations}{60}{subsection.8.1.3}%
-\contentsline {subsection}{\numberline {8.1.4}Paramètres libres d'étude: Distance et contraste}{60}{subsection.8.1.4}%
-\contentsline {section}{\numberline {8.2}Résultats et Précision}{60}{section.8.2}%
-\contentsline {subsection}{\numberline {8.2.1}Précision spectrophotométrique}{60}{subsection.8.2.1}%
-\contentsline {subsection}{\numberline {8.2.2}Précision avec correction de continuum}{60}{subsection.8.2.2}%
-\contentsline {subsection}{\numberline {8.2.3}Efficacité de classification}{60}{subsection.8.2.3}%
-\contentsline {chapter}{\numberline {9}Data Release 2 de ZTF}{61}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Présentation de la DR2 de ZTF}{62}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Production d'\textsc {\texttt {HyperGal}} et résultats}{62}{section.9.2}%
-\contentsline {subsection}{\numberline {9.2.1}Classification et détermination de l'échantillon DR2-Cosmo}{62}{subsection.9.2.1}%
-\contentsline {subsection}{\numberline {9.2.2}Premiers résultats}{62}{subsection.9.2.2}%
-\contentsline {subsection}{\numberline {9.2.3}Des SNeIa à la cosmologie: $H_{0}$, $w$ et $f\sigma _{8}$}{63}{subsection.9.2.3}%
+\contentsline {subsection}{\numberline {4.1.1}Problématique}{50}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}La composante galactique}{50}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}SED Fitting}{51}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}SED d'une galaxie}{51}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}SED Fitter}{52}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Présentation du Pipeline}{53}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Cube intrinsèque}{54}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Modélisation de scène 2D}{54}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Modélisation chromatique et projection 3D}{54}{subsection.4.3.3}%
+\contentsline {chapter}{\numberline {5}Modélisation Hyperspectrale}{55}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Source photométrique: PS1}{56}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Présentation du survey}{56}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Utilisation des images PS1}{56}{subsection.5.1.2}%
+\contentsline {section}{\numberline {5.2}Cigale et SEDFitting}{56}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Présentation de Cigale}{56}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Utilisation}{56}{subsection.5.2.2}%
+\contentsline {section}{\numberline {5.3}Construction du cube intrinsèque}{56}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Sampling des spectres dans l'espace SEDm}{56}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Construction du cube}{56}{subsection.5.3.2}%
+\contentsline {chapter}{\numberline {6}Réponse impulsionnelle de la SEDm}{57}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Réponse impulsionnelle spectrale: LSF}{58}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Lampe à arc}{58}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Détermination de la LSF}{58}{subsection.6.1.2}%
+\contentsline {section}{\numberline {6.2}Réponse impulsionnelle spatiale: PSF}{58}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Modèle de profil radial}{58}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Entrainement du modèle}{58}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Chromaticité et ADR}{58}{subsection.6.2.3}%
+\contentsline {section}{\numberline {6.3}Validation}{58}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Calibration photométrique}{58}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Résultats}{58}{subsection.6.3.2}%
+\contentsline {chapter}{\numberline {7}Modélisation de Scène et Extraction de Source}{59}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Projection du cube intrinsèque}{60}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Seeing relatif Panstarrs/SEDm}{60}{subsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.1.2}Projection spatiale dans l'espace SEDm}{60}{subsection.7.1.2}%
+\contentsline {section}{\numberline {7.2}Modélisation de Scène}{60}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Composante du fond: ciel et artefacts}{60}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}Composante du point source: Supernova}{60}{subsection.7.2.2}%
+\contentsline {subsection}{\numberline {7.2.3}Fitting de la scene}{60}{subsection.7.2.3}%
+\contentsline {section}{\numberline {7.3}Extraction du point source}{60}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Outputs de controle du pipeline}{60}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}Isolation de la galaxie hôte}{60}{subsection.7.3.2}%
+\contentsline {subsection}{\numberline {7.3.3}Isolation de la Supernova}{60}{subsection.7.3.3}%
+\contentsline {section}{\numberline {7.4}Classification: \textsc {\texttt {SNID}}}{60}{section.7.4}%
+\contentsline {part}{III\hspace {1em}Simulations et Résultats}{61}{part.3}%
+\contentsline {xpart}{Simulations et Résultats}{63}{part.3}%
+\contentsline {chapter}{\numberline {8}Simulations de cubes de données et application d'\textsc {\texttt {HyperGal}} }{63}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Génération des simulations}{64}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1}Cube de galaxies isolées}{64}{subsection.8.1.1}%
+\contentsline {subsection}{\numberline {8.1.2}Modèles de Supernovae}{64}{subsection.8.1.2}%
+\contentsline {subsection}{\numberline {8.1.3}Marginalisations}{64}{subsection.8.1.3}%
+\contentsline {subsection}{\numberline {8.1.4}Paramètres libres d'étude: Distance et contraste}{64}{subsection.8.1.4}%
+\contentsline {section}{\numberline {8.2}Résultats et Précision}{64}{section.8.2}%
+\contentsline {subsection}{\numberline {8.2.1}Précision spectrophotométrique}{64}{subsection.8.2.1}%
+\contentsline {subsection}{\numberline {8.2.2}Précision avec correction de continuum}{64}{subsection.8.2.2}%
+\contentsline {subsection}{\numberline {8.2.3}Efficacité de classification}{64}{subsection.8.2.3}%
+\contentsline {chapter}{\numberline {9}Data Release 2 de ZTF}{65}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Présentation de la DR2 de ZTF}{66}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Production d'\textsc {\texttt {HyperGal}} et résultats}{66}{section.9.2}%
+\contentsline {subsection}{\numberline {9.2.1}Classification et détermination de l'échantillon DR2-Cosmo}{66}{subsection.9.2.1}%
+\contentsline {subsection}{\numberline {9.2.2}Premiers résultats}{66}{subsection.9.2.2}%
+\contentsline {subsection}{\numberline {9.2.3}Des SNeIa à la cosmologie: $H_{0}$, $w$ et $f\sigma _{8}$}{67}{subsection.9.2.3}%
 \begingroup \def \cftpartpresnum {}
-\contentsline {part}{Conclusions \& perspectives}{63}{subsection.9.2.3}%
+\contentsline {part}{Conclusions \& perspectives}{67}{subsection.9.2.3}%
 \endgroup 
 \partbegin 

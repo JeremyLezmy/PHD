@@ -5,45 +5,45 @@ The style file: aa_url.bst
 Database file #1: ../chapters/99_references.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty publisher in MinkowskiPOSS
-You've used 49 entries,
+You've used 83 entries,
             3128 wiz_defined-function locations,
-            1148 strings with 37117 characters,
-and the built_in function-call counts, 66128 in all, are:
-= -- 4720
-> -- 9555
-< -- 19
-+ -- 3190
-- -- 3141
-* -- 6730
-:= -- 12217
-add.period$ -- 49
-call.type$ -- 49
-change.case$ -- 1241
-chr.to.int$ -- 49
-cite$ -- 50
-duplicate$ -- 960
-empty$ -- 1567
-format.name$ -- 3273
-if$ -- 12912
+            1454 strings with 50847 characters,
+and the built_in function-call counts, 91851 in all, are:
+= -- 6660
+> -- 12534
+< -- 32
++ -- 4181
+- -- 4098
+* -- 9310
+:= -- 16922
+add.period$ -- 83
+call.type$ -- 83
+change.case$ -- 1696
+chr.to.int$ -- 83
+cite$ -- 84
+duplicate$ -- 1585
+empty$ -- 2547
+format.name$ -- 4329
+if$ -- 17933
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 42
-newline$ -- 151
-num.names$ -- 202
-pop$ -- 1239
+missing$ -- 75
+newline$ -- 253
+num.names$ -- 338
+pop$ -- 1700
 preamble$ -- 1
-purify$ -- 1240
+purify$ -- 1695
 quote$ -- 0
-skip$ -- 924
+skip$ -- 1462
 stack$ -- 0
-substring$ -- 1309
-swap$ -- 152
+substring$ -- 2022
+swap$ -- 218
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 441
+type$ -- 747
 warning$ -- 1
-while$ -- 206
+while$ -- 341
 width$ -- 0
-write$ -- 491
+write$ -- 831
 (There was 1 warning)

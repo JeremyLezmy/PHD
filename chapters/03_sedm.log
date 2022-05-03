@@ -1,6 +1,7 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  28 APR 2022 16:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  28 APR 2022 18:34
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **03_sedm.tex
 (./03_sedm.tex
@@ -1290,7 +1291,14 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \cftbeforetabskip=\skip120
 \cfttabindent=\skip121
 \cfttabnumwidth=\skip122
-)))
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/xpatch/xpatch.sty
+Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count387
+))))
 
 LaTeX Warning: Unused global option(s):
     [garamond].
@@ -1325,29 +1333,21 @@ LaTeX Info: Redefining \dots on input line 2.
 LaTeX Info: Redefining \up on input line 2.
  (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count387
+\scratchcounter=\count388
 \scratchdimen=\dimen382
 \scratchbox=\box128
-\nofMPsegments=\count388
-\nofMParguments=\count389
+\nofMPsegments=\count389
+\nofMParguments=\count390
 \everyMPshowfont=\toks51
-\MPscratchCnt=\count390
+\MPscratchCnt=\count391
 \MPscratchDim=\dimen383
-\MPnumerator=\count391
-\makeMPintoPDFobject=\count392
+\MPnumerator=\count392
+\makeMPintoPDFobject=\count393
 \everyMPtoPDFconversion=\toks52
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-
-(/usr/local/texlive/2021/texmf-dist/tex/latex/grfext/grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
@@ -1416,12 +1416,12 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@minilofdepth=\count393
-\c@minilotdepth=\count394
-\c@partlofdepth=\count395
-\c@partlotdepth=\count396
-\c@sectlofdepth=\count397
-\c@sectlotdepth=\count398
+\c@minilofdepth=\count394
+\c@minilotdepth=\count395
+\c@partlofdepth=\count396
+\c@partlotdepth=\count397
+\c@sectlofdepth=\count398
+\c@sectlotdepth=\count399
 Package minitoc(hints) Info: I0049
 (minitoc(hints))             ==> You requested the hints option. 
 (minitoc(hints))             Some hints are eventually given below.
@@ -1467,7 +1467,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count399
+\c@section@level=\count400
 )
 LaTeX Info: Redefining \ref on input line 2.
 LaTeX Info: Redefining \pageref on input line 2.
@@ -1510,7 +1510,7 @@ File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 onary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 )
-\c@lstlisting=\count400
+\c@lstlisting=\count401
 LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1550,81 +1550,23 @@ LaTeX Warning: Reference `fig:palomar_obs' on page 1 undefined on input line 24
 
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-Package natbib Warning: Citation `BaconIFUlens' on page 2 undefined on input li
-ne 53.
-
-
-Package natbib Warning: Citation `SAURONifs' on page 2 undefined on input line 
-55.
-
-
-Package natbib Warning: Citation `ATLAS3D' on page 2 undefined on input line 56
-.
-
-
-Package natbib Warning: Citation `SNIFS2004' on page 2 undefined on input line 
-56.
-
-
-Package natbib Warning: Citation `SDSSIFS' on page 2 undefined on input line 66
-.
-
-
-Package natbib Warning: Citation `BardenIFUfiber' on page 2 undefined on input 
-line 67.
-
-
-Package natbib Warning: Citation `allingtonIFUlensfiber' on page 2 undefined on
- input line 68.
-
-
-Package natbib Warning: Citation `BowenIFUslicer' on page 2 undefined on input 
-line 78.
-
-
-Package natbib Warning: Citation `ContentIFUslicer' on page 2 undefined on inpu
-t line 78.
-
-
-Package natbib Warning: Citation `GeminiNIFS' on page 2 undefined on input line
- 80.
-
-<../figures/03_sedm/ifsgeneral.png, id=21, 823.075pt x 479.7925pt>
+<../figures/03_sedm/ifsgeneral.png, id=41, 823.075pt x 479.7925pt>
 File: ../figures/03_sedm/ifsgeneral.png Graphic file (type png)
 <use ../figures/03_sedm/ifsgeneral.png>
 Package pdftex.def Info: ../figures/03_sedm/ifsgeneral.png  used on input line 
 94.
 (pdftex.def)             Requested size: 409.71692pt x 238.83409pt.
 
-Package natbib Warning: Citation `allingtonIFS' on page 2 undefined on input li
-ne 98.
-
-
-Package natbib Warning: Citation `allingtonIFS' on page 2 undefined on input li
-ne 98.
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [2]
-
-Package natbib Warning: Citation `SEDM18' on page 3 undefined on input line 114
-.
-
-<../figures/03_sedm/sedmoverview.png, id=34, 748.7975pt x 530.98375pt>
+<../figures/03_sedm/sedmoverview.png, id=71, 748.7975pt x 530.98375pt>
 File: ../figures/03_sedm/sedmoverview.png Graphic file (type png)
 <use ../figures/03_sedm/sedmoverview.png>
 Package pdftex.def Info: ../figures/03_sedm/sedmoverview.png  used on input lin
 e 125.
 (pdftex.def)             Requested size: 409.71692pt x 290.53496pt.
-
-Package natbib Warning: Citation `SEDM18' on page 3 undefined on input line 134
-.
-
-
-Package natbib Warning: Citation `SEDM18' on page 3 undefined on input line 134
-.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1634,10 +1576,7 @@ Overfull \hbox (17.62482pt too wide) in paragraph at lines 173--184
 []$[]$
  []
 
-
-Underfull \vbox (badness 3849) has occurred while \output is active []
-
- [4 <../figures/03_sedm/sedmoverview.png>]
+[4 <../figures/03_sedm/sedmoverview.png>]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
 91.
 
@@ -1648,191 +1587,63 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
-
-Package natbib Warning: Citation `pysedm' on page 5 undefined on input line 192
-.
-
-<../figures/03_sedm/calibdag.png, id=56, 1339.0025pt x 753.81625pt>
+<../figures/03_sedm/calibdag.png, id=101, 1339.0025pt x 753.81625pt>
 File: ../figures/03_sedm/calibdag.png Graphic file (type png)
 <use ../figures/03_sedm/calibdag.png>
 Package pdftex.def Info: ../figures/03_sedm/calibdag.png  used on input line 23
 9.
 (pdftex.def)             Requested size: 349.15662pt x 196.56271pt.
 
+
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 241.
 See the caption package documentation for explanation.
 
 
-Underfull \vbox (badness 2846) detected at line 243
+Underfull \vbox (badness 1953) detected at line 243
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5]
-
-Package natbib Warning: Citation `Barbary2016Sep' on page 6 undefined on input 
-line 251.
-
-
-Package natbib Warning: Citation `Bertinsextractor' on page 6 undefined on inpu
-t line 252.
-
 [6 <../figures/03_sedm/calibdag.png>]
-<../figures/03_sedm/tracematchsedm.png, id=84, 732.7375pt x 359.3425pt>
+<../figures/03_sedm/tracematchsedm.png, id=136, 732.7375pt x 359.3425pt>
 File: ../figures/03_sedm/tracematchsedm.png Graphic file (type png)
 <use ../figures/03_sedm/tracematchsedm.png>
 Package pdftex.def Info: ../figures/03_sedm/tracematchsedm.png  used on input l
 ine 291.
 (pdftex.def)             Requested size: 241.27881pt x 118.32568pt.
-<../figures/03_sedm/wavesolsedm.png, id=85, 751.80875pt x 443.6575pt>
+<../figures/03_sedm/wavesolsedm.png, id=137, 751.80875pt x 443.6575pt>
 File: ../figures/03_sedm/wavesolsedm.png Graphic file (type png)
 <use ../figures/03_sedm/wavesolsedm.png>
 Package pdftex.def Info: ../figures/03_sedm/wavesolsedm.png  used on input line
  292.
 (pdftex.def)             Requested size: 204.85846pt x 120.89258pt.
-
-
-Package natbib Warning: Citation `pysedm' on page 7 undefined on input line 297
-.
-
-
-Package natbib Warning: Citation `pysedm' on page 7 undefined on input line 297
-.
-
-
-Package natbib Warning: Citation `pysedm' on page 7 undefined on input line 306
-.
-
-
-Package natbib Warning: Citation `pysedm' on page 7 undefined on input line 326
-.
-
-[7 <../figures/03_sedm/tracematchsedm.png> <../figures/03_sedm/wavesolsedm.png>
-] [8]
-
-Package natbib Warning: Citation `Butonthese' on page 9 undefined on input line
- 415.
-
-
-Package natbib Warning: Citation `Buton2013' on page 9 undefined on input line 
-416.
-
-
-Package natbib Warning: Citation `pysedm' on page 9 undefined on input line 417
-.
-
+ [7 <../figures/03_sedm/tracematchsedm.png> <../figures/03_sedm/wavesolsedm.png
+>] [8]
 
 LaTeX Warning: Reference `ssec:chromadr' on page 9 undefined on input line 436.
 
 
 
-Package natbib Warning: Citation `Buton2013' on page 9 undefined on input line 
-455.
-
-
 Underfull \vbox (badness 1168) has occurred while \output is active []
 
  [9]
-
-Package natbib Warning: Citation `Hayes1975atm' on page 10 undefined on input l
-ine 470.
-
-
-Package natbib Warning: Citation `Wade1988atm' on page 10 undefined on input li
-ne 470.
-
-
-Package natbib Warning: Citation `Stubbs2007atm' on page 10 undefined on input 
-line 470.
-
-
-Package natbib Warning: Citation `Bohlinstdcalpsec' on page 10 undefined on inp
-ut line 503.
-
 [10]
-
-Package natbib Warning: Citation `HowellSuperfit' on page 11 undefined on input
- line 533.
-
-
-Package natbib Warning: Citation `BlondinSNID' on page 11 undefined on input li
-ne 533.
-
-
-Package natbib Warning: Citation `TonryDavis' on page 11 undefined on input lin
-e 536.
-
-
-Package natbib Warning: Citation `MuthukrishnaDash' on page 11 undefined on inp
-ut line 538.
-
-
-Package natbib Warning: Citation `BlondinSNID' on page 11 undefined on input li
-ne 544.
-
-
-Package natbib Warning: Citation `BlondinSNID' on page 11 undefined on input li
-ne 558.
-
-
-Package natbib Warning: Citation `MuthukrishnaDash' on page 11 undefined on inp
-ut line 572.
-
-
-Package natbib Warning: Citation `Liu2014SNIbc' on page 11 undefined on input l
-ine 573.
-
-
-Package natbib Warning: Citation `Mojdaz2016' on page 11 undefined on input lin
-e 574.
-
-
-Package natbib Warning: Citation `Liu2016' on page 11 undefined on input line 5
-74.
-
-
-Package natbib Warning: Citation `Silverman2012' on page 11 undefined on input 
-line 575.
-
-
-Package natbib Warning: Citation `GutierrezSNII' on page 11 undefined on input 
-line 576.
-
-
-Package natbib Warning: Citation `Liu2017SLSN' on page 11 undefined on input li
-ne 577.
-
-<../figures/03_sedm/pysedmoutput.png, id=142, 1253.68375pt x 789.95125pt>
+<../figures/03_sedm/pysedmoutput.png, id=251, 1253.68375pt x 789.95125pt>
 File: ../figures/03_sedm/pysedmoutput.png Graphic file (type png)
 <use ../figures/03_sedm/pysedmoutput.png>
 Package pdftex.def Info: ../figures/03_sedm/pysedmoutput.png  used on input lin
 e 586.
 (pdftex.def)             Requested size: 450.69417pt x 283.98445pt.
-[11]
-
-Package natbib Warning: Citation `FremlingZTFspec2020' on page 12 undefined on 
-input line 626.
-
-<../figures/03_sedm/cumulsnhostdist.png, id=158, 700.6175pt x 315.1775pt>
+ [11]
+<../figures/03_sedm/cumulsnhostdist.png, id=280, 700.6175pt x 315.1775pt>
 File: ../figures/03_sedm/cumulsnhostdist.png Graphic file (type png)
 <use ../figures/03_sedm/cumulsnhostdist.png>
 Package pdftex.def Info: ../figures/03_sedm/cumulsnhostdist.png  used on input 
 line 636.
 (pdftex.def)             Requested size: 250.38564pt x 112.63663pt.
-
-Package natbib Warning: Citation `FremlingZTFspec2020' on page 12 undefined on 
-input line 644.
-
-
-Package natbib Warning: Citation `FremlingZTFspec2020' on page 12 undefined on 
-input line 644.
-
-
-Package natbib Warning: Citation `Kimcontsep' on page 12 undefined on input lin
-e 650.
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/bx/sc' undefined
@@ -1842,33 +1653,22 @@ LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <12> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 655.
 LaTeX Font Info:    Font shape `T1/cmtt/bx/sc' in size <12> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 665.
-
-Package natbib Warning: Citation `Kimcontsep' on page 12 undefined on input lin
-e 669.
-
-
-Package natbib Warning: Citation `ChambersPanstarrs' on page 12 undefined on in
-put line 670.
-
-
-Package natbib Warning: Citation `Kimcontsep' on page 12 undefined on input lin
-e 680.
-
 [12] [13 <../figures/03_sedm/pysedmoutput.png>]
-<../figures/03_sedm/stronghost.png, id=174, 956.57375pt x 374.39874pt>
+<../figures/03_sedm/stronghost.png, id=310, 956.57375pt x 374.39874pt>
 File: ../figures/03_sedm/stronghost.png Graphic file (type png)
 <use ../figures/03_sedm/stronghost.png>
 Package pdftex.def Info: ../figures/03_sedm/stronghost.png  used on input line 
 694.
 (pdftex.def)             Requested size: 432.48051pt x 169.27196pt.
+ (./03_sedm.bbl [14 <../figures/03_sedm/cumulsnhostdist.png> <../figures/03_sed
+m/stronghost.png>] [15
 
-
-Package natbib Warning: There were undefined citations.
-
+])
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the 03_sedm.maf file.
 \openout4 = `03_sedm.maf'.
+
 
 
 Package minitoc(hints) Warning: W0059
@@ -1886,8 +1686,7 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the 03_sedm.log file.
 
-[14 <../figures/03_sedm/cumulsnhostdist.png> <../figures/03_sedm/stronghost.png
->] (./03_sedm.aux)
+[16] (./03_sedm.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1899,13 +1698,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 45164 strings out of 478994
- 964863 string characters out of 5858184
- 1514905 words of memory out of 5000000
- 61319 multiletter control sequences out of 15000+600000
- 439078 words of font info for 241 fonts, out of 8000000 for 9000
+ 45689 strings out of 478994
+ 972649 string characters out of 5858184
+ 1533446 words of memory out of 5000000
+ 61820 multiletter control sequences out of 15000+600000
+ 438348 words of font info for 231 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 137i,12n,133p,827b,907s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 137i,12n,133p,1423b,917s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -1947,10 +1746,10 @@ onts/type1/public/cm-super/sftc1200.pfb></usr/local/texlive/2021/texmf-dist/fon
 ts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2021/texmf-dist/fonts
 /type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/t
 ype1/public/cm-super/sftt1200.pfb>
-Output written on 03_sedm.pdf (14 pages, 4900622 bytes).
+Output written on 03_sedm.pdf (16 pages, 4916735 bytes).
 PDF statistics:
- 321 PDF objects out of 1000 (max. 8388607)
- 259 compressed objects within 3 object streams
- 59 named destinations out of 1000 (max. 500000)
+ 544 PDF objects out of 1000 (max. 8388607)
+ 470 compressed objects within 5 object streams
+ 96 named destinations out of 1000 (max. 500000)
  80557 words of extra memory for PDF output out of 89155 (max. 10000000)
 

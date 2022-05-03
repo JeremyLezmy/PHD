@@ -1,6 +1,7 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  28 APR 2022 16:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  3 MAY 2022 14:53
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
@@ -1283,6 +1284,13 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \cfttabindent=\skip121
 \cfttabnumwidth=\skip122
 )
+(/usr/local/texlive/2021/texmf-dist/tex/latex/xpatch/xpatch.sty
+Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count387
+))
 
 LaTeX Warning: Unused global option(s):
     [garamond].
@@ -1300,52 +1308,44 @@ LaTeX Warning: Label `ch:res' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Info: Redefining \degres on input line 25.
-LaTeX Info: Redefining \dots on input line 25.
-LaTeX Info: Redefining \up on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Info: Redefining \degres on input line 30.
+LaTeX Info: Redefining \dots on input line 30.
+LaTeX Info: Redefining \up on input line 30.
  (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count387
+\scratchcounter=\count388
 \scratchdimen=\dimen382
 \scratchbox=\box128
-\nofMPsegments=\count388
-\nofMParguments=\count389
+\nofMPsegments=\count389
+\nofMParguments=\count390
 \everyMPshowfont=\toks51
-\MPscratchCnt=\count390
+\MPscratchCnt=\count391
 \MPscratchDim=\dimen383
-\MPnumerator=\count391
-\makeMPintoPDFobject=\count392
+\MPnumerator=\count392
+\makeMPintoPDFobject=\count393
 \everyMPtoPDFconversion=\toks52
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-
-(/usr/local/texlive/2021/texmf-dist/tex/latex/grfext/grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
@@ -1414,12 +1414,12 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@minilofdepth=\count393
-\c@minilotdepth=\count394
-\c@partlofdepth=\count395
-\c@partlotdepth=\count396
-\c@sectlofdepth=\count397
-\c@sectlotdepth=\count398
+\c@minilofdepth=\count394
+\c@minilotdepth=\count395
+\c@partlofdepth=\count396
+\c@partlotdepth=\count397
+\c@sectlofdepth=\count398
+\c@sectlotdepth=\count399
 Package minitoc(hints) Info: I0049
 (minitoc(hints))             ==> You requested the hints option. 
 (minitoc(hints))             Some hints are eventually given below.
@@ -1454,7 +1454,7 @@ Package minitoc(hints) Warning: W0023
 (minitoc(hints))                --- It may be the consequence 
 (minitoc(hints))                of loading the ``hyperref'' package.
 
-Package hyperref Info: Link coloring ON on input line 25.
+Package hyperref Info: Link coloring ON on input line 30.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -1465,23 +1465,23 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count399
+\c@section@level=\count400
 )
-LaTeX Info: Redefining \ref on input line 25.
-LaTeX Info: Redefining \pageref on input line 25.
-LaTeX Info: Redefining \nameref on input line 25.
+LaTeX Info: Redefining \ref on input line 30.
+LaTeX Info: Redefining \pageref on input line 30.
+LaTeX Info: Redefining \nameref on input line 30.
 
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.17}).
 
-LaTeX Info: Redefining \microtypecontext on input line 25.
+LaTeX Info: Redefining \microtypecontext on input line 30.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 25.
+LaTeX Info: Redefining \showhyphens on input line 30.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1491,15 +1491,15 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 )
 \symgns@font=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/cmr/m/n --> TS1/cmr/b/n on input line 25.
-Package gensymb Info: Math companion symbols declared on input line 25.
-LaTeX Info: Redefining \degree on input line 25.
-LaTeX Info: Redefining \celsius on input line 25.
+(Font)                  TS1/cmr/m/n --> TS1/cmr/b/n on input line 30.
+Package gensymb Info: Math companion symbols declared on input line 30.
+LaTeX Info: Redefining \degree on input line 30.
+LaTeX Info: Redefining \celsius on input line 30.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 25.
-LaTeX Info: Redefining \ohm on input line 25.
-Package gensymb Info: Using \textohm for \ohm on input line 25.
-Package gensymb Info: Using \textmu for \micro on input line 25.
+erthousand on input line 30.
+LaTeX Info: Redefining \ohm on input line 30.
+Package gensymb Info: Using \textohm for \ohm on input line 30.
+Package gensymb Info: Using \textmu for \micro on input line 30.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
@@ -1508,8 +1508,8 @@ File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 onary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 )
-\c@lstlisting=\count400
-LaTeX Font Info:    Trying to load font information for U+msa on input line 25.
+\c@lstlisting=\count401
+LaTeX Font Info:    Trying to load font information for U+msa on input line 30.
 
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1518,7 +1518,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/local/texlive/2021/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 25.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
 
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1560,7 +1560,7 @@ ters/../figures//logos.jpg>])
 
 ]
 Package minitoc Info: I0024
-(minitoc)             PREPARING MINITOCS FROM main.toc on input line 32.
+(minitoc)             PREPARING MINITOCS FROM main.toc on input line 37.
 \openout4 = `main.mtc'.
 
 Package minitoc Info: I0033
@@ -1622,7 +1622,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 [10]
 LaTeX Font Info:    Font shape `T1/cmtt/bx/sc' in size <12> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 86.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 93.
 )
 \tf@toc=\write6
 \openout6 = `main.toc'.
@@ -1675,14 +1675,14 @@ Chapitre 2.
 (./main.mtc2) [25
 
 ]
-<../chapters/../figures/02_ztf/p48.png, id=531, 1247.66125pt x 467.7475pt>
+<../chapters/../figures/02_ztf/p48.png, id=558, 1247.66125pt x 467.7475pt>
 File: ../chapters/../figures/02_ztf/p48.png Graphic file (type png)
 <use ../chapters/../figures/02_ztf/p48.png>
 Package pdftex.def Info: ../chapters/../figures/02_ztf/p48.png  used on input l
 ine 47.
 (pdftex.def)             Requested size: 341.43307pt x 127.9993pt.
  [26 <../chapters/../figures/02_ztf/p48.png>] [27]
-<../chapters/../figures/02_ztf/palomar_obs-min.png, id=550, 1060.96375pt x 700.
+<../chapters/../figures/02_ztf/palomar_obs-min.png, id=578, 1060.96375pt x 700.
 6175pt>
 File: ../chapters/../figures/02_ztf/palomar_obs-min.png Graphic file (type png)
 
@@ -1691,21 +1691,21 @@ Package pdftex.def Info: ../chapters/../figures/02_ztf/palomar_obs-min.png  use
 d on input line 177.
 (pdftex.def)             Requested size: 341.43307pt x 225.46365pt.
  [28 <../chapters/../figures/02_ztf/palomar_obs-min.png>]
-<../chapters/../figures/02_ztf/ztfcamera.png, id=559, 470.75874pt x 431.6125pt>
+<../chapters/../figures/02_ztf/ztfcamera.png, id=587, 470.75874pt x 431.6125pt>
 
 File: ../chapters/../figures/02_ztf/ztfcamera.png Graphic file (type png)
 <use ../chapters/../figures/02_ztf/ztfcamera.png>
 Package pdftex.def Info: ../chapters/../figures/02_ztf/ztfcamera.png  used on i
 nput line 207.
 (pdftex.def)             Requested size: 182.09486pt x 166.95174pt.
-<../chapters/../figures/02_ztf/p48details.png, id=564, 649.42625pt x 474.77374p
+<../chapters/../figures/02_ztf/p48details.png, id=592, 649.42625pt x 474.77374p
 t>
 File: ../chapters/../figures/02_ztf/p48details.png Graphic file (type png)
 <use ../chapters/../figures/02_ztf/p48details.png>
 Package pdftex.def Info: ../chapters/../figures/02_ztf/p48details.png  used on 
 input line 209.
 (pdftex.def)             Requested size: 227.62206pt x 166.40512pt.
-<../chapters/../figures/02_ztf/ztfcamerafov.png, id=569, 1132.23pt x 637.38126p
+<../chapters/../figures/02_ztf/ztfcamerafov.png, id=597, 1132.23pt x 637.38126p
 t>
 File: ../chapters/../figures/02_ztf/ztfcamerafov.png Graphic file (type png)
 <use ../chapters/../figures/02_ztf/ztfcamerafov.png>
@@ -1716,7 +1716,7 @@ n input line 218.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<../chapters/../figures/02_ztf/ztfperformances.png, id=572, 1233.60875pt x 338.
+<../chapters/../figures/02_ztf/ztfperformances.png, id=600, 1233.60875pt x 338.
 26375pt>
 File: ../chapters/../figures/02_ztf/ztfperformances.png Graphic file (type png)
 
@@ -1730,7 +1730,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [29 <../chapters/../figures/02_ztf/ztfcamera.png> <../chapters/../figures/02_zt
 f/p48details.png>] [30 <../chapters/../figures/02_ztf/ztfcamerafov.png>]
 [31 <../chapters/../figures/02_ztf/ztfperformances.png>]
-<../chapters/../figures/02_ztf/cumulsniaztf.png, id=640, 1487.5575pt x 702.625p
+<../chapters/../figures/02_ztf/cumulsniaztf.png, id=667, 1487.5575pt x 702.625p
 t>
 File: ../chapters/../figures/02_ztf/cumulsniaztf.png Graphic file (type png)
 <use ../chapters/../figures/02_ztf/cumulsniaztf.png>
@@ -1748,7 +1748,7 @@ Chapitre 3.
 (./main.mtc3) [33
 
 ]
-<../chapters/../figures/03_sedm/ifsgeneral.png, id=713, 823.075pt x 479.7925pt>
+<../chapters/../figures/03_sedm/ifsgeneral.png, id=741, 823.075pt x 479.7925pt>
 
 File: ../chapters/../figures/03_sedm/ifsgeneral.png Graphic file (type png)
 <use ../chapters/../figures/03_sedm/ifsgeneral.png>
@@ -1760,7 +1760,7 @@ Package pdftex.def Info: ../chapters/../figures/03_sedm/ifsgeneral.png  used on
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [34]
-<../chapters/../figures/03_sedm/sedmoverview.png, id=737, 748.7975pt x 530.9837
+<../chapters/../figures/03_sedm/sedmoverview.png, id=764, 748.7975pt x 530.9837
 5pt>
 File: ../chapters/../figures/03_sedm/sedmoverview.png Graphic file (type png)
 <use ../chapters/../figures/03_sedm/sedmoverview.png>
@@ -1777,7 +1777,7 @@ Overfull \hbox (17.62482pt too wide) in paragraph at lines 173--184
  []
 
 [36 <../chapters/../figures/03_sedm/sedmoverview.png>]
-<../chapters/../figures/03_sedm/calibdag.png, id=759, 1339.0025pt x 753.81625pt
+<../chapters/../figures/03_sedm/calibdag.png, id=786, 1339.0025pt x 753.81625pt
 >
 File: ../chapters/../figures/03_sedm/calibdag.png Graphic file (type png)
 <use ../chapters/../figures/03_sedm/calibdag.png>
@@ -1799,7 +1799,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [37]
 [38 <../chapters/../figures/03_sedm/calibdag.png>]
-<../chapters/../figures/03_sedm/tracematchsedm.png, id=787, 732.7375pt x 359.34
+<../chapters/../figures/03_sedm/tracematchsedm.png, id=814, 732.7375pt x 359.34
 25pt>
 File: ../chapters/../figures/03_sedm/tracematchsedm.png Graphic file (type png)
 
@@ -1807,7 +1807,7 @@ File: ../chapters/../figures/03_sedm/tracematchsedm.png Graphic file (type png)
 Package pdftex.def Info: ../chapters/../figures/03_sedm/tracematchsedm.png  use
 d on input line 291.
 (pdftex.def)             Requested size: 241.27881pt x 118.32568pt.
-<../chapters/../figures/03_sedm/wavesolsedm.png, id=788, 751.80875pt x 443.6575
+<../chapters/../figures/03_sedm/wavesolsedm.png, id=815, 751.80875pt x 443.6575
 pt>
 File: ../chapters/../figures/03_sedm/wavesolsedm.png Graphic file (type png)
 <use ../chapters/../figures/03_sedm/wavesolsedm.png>
@@ -1821,7 +1821,7 @@ Underfull \vbox (badness 1168) has occurred while \output is active []
 
  [41]
 [42]
-<../chapters/../figures/03_sedm/pysedmoutput.png, id=895, 1253.68375pt x 789.95
+<../chapters/../figures/03_sedm/pysedmoutput.png, id=922, 1253.68375pt x 789.95
 125pt>
 File: ../chapters/../figures/03_sedm/pysedmoutput.png Graphic file (type png)
 <use ../chapters/../figures/03_sedm/pysedmoutput.png>
@@ -1829,7 +1829,7 @@ Package pdftex.def Info: ../chapters/../figures/03_sedm/pysedmoutput.png  used
 on input line 586.
 (pdftex.def)             Requested size: 450.69417pt x 283.98445pt.
  [43]
-<../chapters/../figures/03_sedm/cumulsnhostdist.png, id=922, 700.6175pt x 315.1
+<../chapters/../figures/03_sedm/cumulsnhostdist.png, id=949, 700.6175pt x 315.1
 775pt>
 File: ../chapters/../figures/03_sedm/cumulsnhostdist.png Graphic file (type png
 )
@@ -1838,7 +1838,7 @@ Package pdftex.def Info: ../chapters/../figures/03_sedm/cumulsnhostdist.png  us
 ed on input line 636.
 (pdftex.def)             Requested size: 250.38564pt x 112.63663pt.
  [44] [45 <../chapters/../figures/03_sedm/pysedmoutput.png>]
-<../chapters/../figures/03_sedm/stronghost.png, id=947, 956.57375pt x 374.39874
+<../chapters/../figures/03_sedm/stronghost.png, id=975, 956.57375pt x 374.39874
 pt>
 File: ../chapters/../figures/03_sedm/stronghost.png Graphic file (type png)
 <use ../chapters/../figures/03_sedm/stronghost.png>
@@ -1851,60 +1851,79 @@ res/03_sedm/stronghost.png>] [47
 ] [48] (../chapters/../chapters/04_hypergal.tex
 Chapitre 4.
 LaTeX Font Info:    Font shape `T1/cmtt/bx/sc' in size <20.74> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 4.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 5.
 \openout4 = `main.mtc'.
 
 \openout4 = `main.mtc'.
 
 (./main.mtc4) [49
 
-]) (../chapters/../chapters/06_sedfit.tex [50]
+] [50]
+<../chapters/../figures/04_hypergal/specgalsdss.png, id=1028, 1179.40625pt x 44
+8.67625pt>
+File: ../chapters/../figures/04_hypergal/specgalsdss.png Graphic file (type png
+)
+<use ../chapters/../figures/04_hypergal/specgalsdss.png>
+Package pdftex.def Info: ../chapters/../figures/04_hypergal/specgalsdss.png  us
+ed on input line 141.
+(pdftex.def)             Requested size: 450.69417pt x 171.45721pt.
+ [51 <../chapters/../figures/04_hypergal/specgalsdss.png>] [52]
+<../chapters/../figures/04_hypergal/softdaghypergal.png, id=1149, 1256.695pt x 
+544.0325pt>
+File: ../chapters/../figures/04_hypergal/softdaghypergal.png Graphic file (type
+ png)
+<use ../chapters/../figures/04_hypergal/softdaghypergal.png>
+Package pdftex.def Info: ../chapters/../figures/04_hypergal/softdaghypergal.png
+  used on input line 256.
+(pdftex.def)             Requested size: 450.69417pt x 195.10443pt.
+ [53 <../chapters/../figures/04_hypergal/softdaghypergal.png>])
+(../chapters/../chapters/05_sedfit.tex [54]
 Chapitre 5.
 \openout4 = `main.mtc'.
 
 \openout4 = `main.mtc'.
 
-(./main.mtc5) [51
+(./main.mtc5) [55
 
-]) (../chapters/../chapters/05_irf.tex [52]
+]) (../chapters/../chapters/06_irf.tex [56]
 Chapitre 6.
 \openout4 = `main.mtc'.
 
 \openout4 = `main.mtc'.
 
-(./main.mtc6) [53
+(./main.mtc6) [57
 
-]) (../chapters/../chapters/07_scene.tex [54]
+]) (../chapters/../chapters/07_scene.tex [58]
 Chapitre 7.
 \openout4 = `main.mtc'.
 
 \openout4 = `main.mtc'.
 
-(./main.mtc7) [55
+(./main.mtc7) [59
 
 ]
 LaTeX Font Info:    Font shape `T1/cmtt/bx/sc' in size <17.28> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 44.
-) [56] [57
+) [60] [61
 
-] [58] (../chapters/../chapters/08_simu.tex
+] [62] (../chapters/../chapters/08_simu.tex
 Chapitre 8.
 \openout4 = `main.mtc'.
 
 \openout4 = `main.mtc'.
 
-(./main.mtc8) [59
+(./main.mtc8) [63
 
-]) (../chapters/../chapters/09_dr2.tex [60]
+]) (../chapters/../chapters/09_dr2.tex [64]
 Chapitre 9.
 \openout4 = `main.mtc'.
 
 \openout4 = `main.mtc'.
 
-(./main.mtc9) [61
+(./main.mtc9) [65
 
 ]
-<../chapters/../figures/02_ztf/ztfdr2stretchcolor.png, id=1120, 600.2425pt x 51
+<../chapters/../figures/02_ztf/ztfdr2stretchcolor.png, id=1324, 600.2425pt x 51
 2.91624pt>
 File: ../chapters/../figures/02_ztf/ztfdr2stretchcolor.png Graphic file (type p
 ng)
@@ -1912,8 +1931,8 @@ ng)
 Package pdftex.def Info: ../chapters/../figures/02_ztf/ztfdr2stretchcolor.png  
 used on input line 33.
 (pdftex.def)             Requested size: 409.71692pt x 350.11676pt.
- [62 <../chapters/../figures/02_ztf/ztfdr2stretchcolor.png>]
-<../chapters/../figures/02_ztf/ztfdr2stretchcolorcorrelation.png, id=1133, 566.
+ [66 <../chapters/../figures/02_ztf/ztfdr2stretchcolor.png>]
+<../chapters/../figures/02_ztf/ztfdr2stretchcolorcorrelation.png, id=1337, 566.
 115pt x 479.7925pt>
 File: ../chapters/../figures/02_ztf/ztfdr2stretchcolorcorrelation.png Graphic f
 ile (type png)
@@ -1958,12 +1977,13 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 68.
 
-) (../chapters/../chapters/98_conclusions.tex [63 <../chapters/../figures/02_zt
-f/ztfdr2stretchcolorcorrelation.png>] [64
+) (../chapters/../chapters/98_conclusions.tex [67 <../chapters/../figures/02_zt
+f/ztfdr2stretchcolorcorrelation.png>] [68
 
-] [65] [66]) (./main.bbl [67
+] [69] [70]) (./main.bbl [71
 
-] [68])
+] [72]
+[73] [74])
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the main.maf file.
@@ -1975,7 +1995,7 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the main.log file.
 
-[69] (./main.aux)
+[75] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1984,15 +2004,42 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 46029 strings out of 478994
- 978881 string characters out of 5858184
- 1703207 words of memory out of 5000000
- 61762 multiletter control sequences out of 15000+600000
- 451183 words of font info for 301 fonts, out of 8000000 for 9000
+ 46633 strings out of 478994
+ 987932 string characters out of 5858184
+ 1716122 words of memory out of 5000000
+ 62289 multiletter control sequences out of 15000+600000
+ 451733 words of font info for 307 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,12n,116p,1420b,1113s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.11} has been referenced but does not ex
+ 117i,12n,116p,1664b,1113s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.20} has been referenced but does not ex
 ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.19} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.18} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.17} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.16} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.15} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.14} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.13} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.12} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.11} has been referenced but does not exis
+t, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.10} has been referenced but does not exis
 t, replaced by a fixed one
@@ -2060,10 +2107,10 @@ m-super/sftt1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-
 super/sftt1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-su
 per/sftt1728.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-supe
 r/sftt2074.pfb>
-Output written on main.pdf (69 pages, 15620059 bytes).
+Output written on main.pdf (75 pages, 16209587 bytes).
 PDF statistics:
- 1739 PDF objects out of 2073 (max. 8388607)
- 1562 compressed objects within 16 object streams
- 275 named destinations out of 1000 (max. 500000)
- 108383 words of extra memory for PDF output out of 128383 (max. 10000000)
+ 2067 PDF objects out of 2073 (max. 8388607)
+ 1877 compressed objects within 19 object streams
+ 333 named destinations out of 1000 (max. 500000)
+ 108449 words of extra memory for PDF output out of 128383 (max. 10000000)
 

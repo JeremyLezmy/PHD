@@ -1,5 +1,17 @@
-\begin{thebibliography}{49}
+\begin{thebibliography}{83}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{{Abdurro'uf} {et~al.}(2021){Abdurro'uf}, {Lin}, {Wu}, \&
+  {Akiyama}}]{Abdurro'ufPixedfit}
+{Abdurro'uf}, {Lin}, Y.-T., {Wu}, P.-F., \& {Akiyama}, M. 2021,
+  \href{http://dx.doi.org/10.3847/1538-4365/abebe2}{\color{magenta}\apjs},
+  \href{https://ui.adsabs.harvard.edu/abs/2021ApJS..254...15A}{254, 15}
+
+\bibitem[{{Acquaviva} {et~al.}(2011){Acquaviva}, {Gawiser}, \&
+  {Guaita}}]{Acquaviva2011}
+{Acquaviva}, V., {Gawiser}, E., \& {Guaita}, L. 2011,
+  \href{http://dx.doi.org/10.1088/0004-637X/737/2/47}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2011ApJ...737...47A}{737, 47}
 
 \bibitem[{{Allington-Smith} {et~al.}(1997){Allington-Smith}, {Content},
   {Haynes}, \& {Lewis}}]{allingtonIFUlensfiber}
@@ -12,6 +24,10 @@
 \bibitem[{Allington‐Smith \& Content(1998)}]{allingtonIFS}
 Allington‐Smith, J. \& Content, R. 1998, Publications of the Astronomical
   Society of the Pacific, 110, 1216
+
+\bibitem[{{Arnouts} \& {Ilbert}(2011)}]{ArnoutsLephare}
+{Arnouts}, S. \& {Ilbert}, O. 2011, {LePHARE: Photometric Analysis for Redshift
+  Estimate}, Astrophysics Source Code Library, record ascl:1108.009
 
 \bibitem[{{Bacon} {et~al.}(1995){Bacon}, {Adam}, {Baranne}, {Courtes}, {Dubet},
   {Dubois}, {Emsellem}, {Ferruit}, {Georgelin}, {Monnet}, {Pecontal},
@@ -80,10 +96,34 @@ Barbary, K. 2016,
   \href{http://dx.doi.org/10.1086/677655}{\color{magenta}\pasp},
   \href{https://ui.adsabs.harvard.edu/abs/2014PASP..126..711B}{126, 711}
 
+\bibitem[{{Boquien} {et~al.}(2019){Boquien}, {Burgarella}, {Roehlly}, {Buat},
+  {Ciesla}, {Corre}, {Inoue}, \& {Salas}}]{Boquien2019}
+{Boquien}, M., {Burgarella}, D., {Roehlly}, Y., {et~al.} 2019,
+  \href{http://dx.doi.org/10.1051/0004-6361/201834156}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2019A&A...622A.103B}{622, A103}
+
 \bibitem[{{Bowen}(1938)}]{BowenIFUslicer}
 {Bowen}, I.~S. 1938,
   \href{http://dx.doi.org/10.1086/143964}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/1938ApJ....88..113B}{88, 113}
+
+\bibitem[{{Briday} {et~al.}(2022){Briday}, {Rigault}, {Graziani}, {Copin},
+  {Aldering}, {Amenouche}, {Brinnel}, {Kim}, {Kim}, {Lezmy}, {Nicolas},
+  {Nordin}, {Perlmutter}, {Rosnet}, \& {Smith}}]{Briday22}
+{Briday}, M., {Rigault}, M., {Graziani}, R., {et~al.} 2022,
+  \href{http://dx.doi.org/10.1051/0004-6361/202141160}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2022A&A...657A..22B}{657, A22}
+
+\bibitem[{{Bruzual} \& {Charlot}(2003)}]{BruzualCharlot2003}
+{Bruzual}, G. \& {Charlot}, S. 2003,
+  \href{http://dx.doi.org/10.1046/j.1365-8711.2003.06897.x}{\color{magenta}\mnras},
+  \href{https://ui.adsabs.harvard.edu/abs/2003MNRAS.344.1000B}{344, 1000}
+
+\bibitem[{{Burgarella} {et~al.}(2005){Burgarella}, {Buat}, \&
+  {Iglesias-P\'aramo}}]{Burgarella2005}
+{Burgarella}, D., {Buat}, V., \& {Iglesias-P\'aramo}, J. 2005,
+  \href{http://dx.doi.org/10.1111/j.1365-2966.2005.09131.x}{\color{magenta}\mnras},
+  \href{https://ui.adsabs.harvard.edu/abs/2005MNRAS.360.1413B}{360, 1413}
 
 \bibitem[{Buton(2009)}]{Butonthese}
 Buton, C. 2009,
@@ -102,6 +142,18 @@ Buton, C. 2009,
   \href{http://dx.doi.org/10.1051/0004-6361/201219834}{\color{magenta}\aap},
   \href{https://ui.adsabs.harvard.edu/abs/2013A&A...549A...8B}{549, A8}
 
+\bibitem[{{Calzetti} {et~al.}(2000){Calzetti}, {Armus}, {Bohlin}, {Kinney},
+  {Koornneef}, \& {Storchi-Bergmann}}]{Calzetti2000}
+{Calzetti}, D., {Armus}, L., {Bohlin}, R.~C., {et~al.} 2000,
+  \href{http://dx.doi.org/10.1086/308692}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2000ApJ...533..682C}{533, 682}
+
+\bibitem[{{Calzetti} {et~al.}(1994){Calzetti}, {Kinney}, \&
+  {Storchi-Bergmann}}]{Calzetti1994}
+{Calzetti}, D., {Kinney}, A.~L., \& {Storchi-Bergmann}, T. 1994,
+  \href{http://dx.doi.org/10.1086/174346}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/1994ApJ...429..582C}{429, 582}
+
 \bibitem[{{Cappellari} {et~al.}(2011){Cappellari}, {Emsellem}, {Krajnovi{\'c}},
   {McDermid}, {Scott}, {Verdoes Kleijn}, {Young}, {Alatalo}, {Bacon}, {Blitz},
   {Bois}, {Bournaud}, {Bureau}, {Davies}, {Davis}, {de Zeeuw}, {Duc},
@@ -110,6 +162,25 @@ Buton, C. 2009,
 {Cappellari}, M., {Emsellem}, E., {Krajnovi{\'c}}, D., {et~al.} 2011,
   \href{http://dx.doi.org/10.1111/j.1365-2966.2010.18174.x}{\color{magenta}\mnras},
   \href{https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..813C}{413, 813}
+
+\bibitem[{{Carnall} {et~al.}(2019){Carnall}, {McLure}, {Dunlop}, {Cullen},
+  {McLeod}, {Wild}, {Johnson}, {Appleby}, {Dav\'e}, {Amorin}, {Bolzonella},
+  {Castellano}, {Cimatti}, {Cucciati}, {Gargiulo}, {Garilli}, {Marchi},
+  {Pentericci}, {Pozzetti}, {Schreiber}, {Talia}, \& {Zamorani}}]{Carnall2019}
+{Carnall}, A.~C., {McLure}, R.~J., {Dunlop}, J.~S., {et~al.} 2019,
+  \href{http://dx.doi.org/10.1093/mnras/stz2544}{\color{magenta}\mnras},
+  \href{https://ui.adsabs.harvard.edu/abs/2019MNRAS.490..417C}{490, 417}
+
+\bibitem[{{Carnall} {et~al.}(2018){Carnall}, {McLure}, {Dunlop}, \&
+  {Dav\'e}}]{Carnall2018}
+{Carnall}, A.~C., {McLure}, R.~J., {Dunlop}, J.~S., \& {Dav\'e}, R. 2018,
+  \href{http://dx.doi.org/10.1093/mnras/sty2169}{\color{magenta}\mnras},
+  \href{https://ui.adsabs.harvard.edu/abs/2018MNRAS.480.4379C}{480, 4379}
+
+\bibitem[{{Casey}(2012)}]{Casey2012}
+{Casey}, C.~M. 2012,
+  \href{http://dx.doi.org/10.1111/j.1365-2966.2012.21455.x}{\color{magenta}\mnras},
+  \href{https://ui.adsabs.harvard.edu/abs/2012MNRAS.425.3094C}{425, 3094}
 
 \bibitem[{{Chambers} {et~al.}(2016){Chambers}, {Magnier}, {Metcalfe},
   {Flewelling}, {Huber}, {Waters}, {Denneau}, {Draper}, {Farrow}, {Finkbeiner},
@@ -134,11 +205,38 @@ Buton, C. 2009,
   \href{https://ui.adsabs.harvard.edu/abs/2016arXiv161205560C}{arXiv e-prints,
   arXiv:1612.05560}
 
+\bibitem[{{Chary} \& {Elbaz}(2001)}]{CharyElbaz}
+{Chary}, R. \& {Elbaz}, D. 2001,
+  \href{http://dx.doi.org/10.1086/321609}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2001ApJ...556..562C}{556, 562}
+
+\bibitem[{{Chevallard} \& {Charlot}(2016)}]{Chevallard2016}
+{Chevallard}, J. \& {Charlot}, S. 2016,
+  \href{http://dx.doi.org/10.1093/mnras/stw1756}{\color{magenta}\mnras},
+  \href{https://ui.adsabs.harvard.edu/abs/2016MNRAS.462.1415C}{462, 1415}
+
+\bibitem[{{Conroy}(2013)}]{Conroy2013}
+{Conroy}, C. 2013,
+  \href{http://dx.doi.org/10.1146/annurev-astro-082812-141017}{\color{magenta}\araa},
+  \href{https://ui.adsabs.harvard.edu/abs/2013ARA&A..51..393C}{51, 393}
+
 \bibitem[{{Content}(1997)}]{ContentIFUslicer}
 {Content}, R. 1997, in Society of Photo-Optical Instrumentation Engineers
   (SPIE) Conference Series, Vol. 2871, Optical Telescopes of Today and
   Tomorrow, ed. A.~L. {Ardeberg},
   \href{https://ui.adsabs.harvard.edu/abs/1997SPIE.2871.1295C}{1295--1305}
+
+\bibitem[{{da Cunha} {et~al.}(2008){da Cunha}, {Charlot}, \&
+  {Elbaz}}]{Cunha2008MAGPHYS}
+{da Cunha}, E., {Charlot}, S., \& {Elbaz}, D. 2008,
+  \href{http://dx.doi.org/10.1111/j.1365-2966.2008.13535.x}{\color{magenta}\mnras},
+  \href{https://ui.adsabs.harvard.edu/abs/2008MNRAS.388.1595D}{388, 1595}
+
+\bibitem[{{Dale} {et~al.}(2014){Dale}, {Helou}, {Magdis}, {Armus},
+  {D{\'\i}az-Santos}, \& {Shi}}]{Dale2014}
+{Dale}, D.~A., {Helou}, G., {Magdis}, G.~E., {et~al.} 2014,
+  \href{http://dx.doi.org/10.1088/0004-637X/784/1/83}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2014ApJ...784...83D}{784, 83}
 
 \bibitem[{{Dekany} {et~al.}(2020){Dekany}, {Smith}, {Riddle}, {Feeney},
   {Porter}, {Hale}, {Zolkower}, {Belicki}, {Kaye}, {Henning}, {Walters},
@@ -156,6 +254,15 @@ Buton, C. 2009,
 {Dhawan}, S., {Goobar}, A., {Smith}, M., {et~al.} 2022,
   \href{http://dx.doi.org/10.1093/mnras/stab3093}{\color{magenta}\mnras},
   \href{https://ui.adsabs.harvard.edu/abs/2022MNRAS.510.2228D}{510, 2228}
+
+\bibitem[{{Draine} \& {Li}(2007)}]{Draine2007}
+{Draine}, B.~T. \& {Li}, A. 2007,
+  \href{http://dx.doi.org/10.1086/511055}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2007ApJ...657..810D}{657, 810}
+
+\bibitem[{{Fioc} \& {Rocca-Volmerange}(1997)}]{Fioc1997}
+{Fioc}, M. \& {Rocca-Volmerange}, B. 1997, \aap,
+  \href{https://ui.adsabs.harvard.edu/abs/1997A&A...326..950F}{326, 950}
 
 \bibitem[{{Fremling} {et~al.}(2020){Fremling}, {Miller}, {Sharma}, {Dugas},
   {Perley}, {Taggart}, {Sollerman}, {Goobar}, {Graham}, {Neill}, {Nordin},
@@ -214,6 +321,12 @@ Buton, C. 2009,
   \href{http://dx.doi.org/10.1086/497119}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1190H}{634, 1190}
 
+\bibitem[{{Johnson} {et~al.}(2021){Johnson}, {Leja}, {Conroy}, \&
+  {Speagle}}]{JohnsonProspector}
+{Johnson}, B.~D., {Leja}, J., {Conroy}, C., \& {Speagle}, J.~S. 2021,
+  \href{http://dx.doi.org/10.3847/1538-4365/abef67}{\color{magenta}\apjs},
+  \href{https://ui.adsabs.harvard.edu/abs/2021ApJS..254...22J}{254, 22}
+
 \bibitem[{{Jones} {et~al.}(2017){Jones}, {Scolnic}, {Riess}, {Kessler}, {Rest},
   {Kirshner}, {Berger}, {Ortega}, {Foley}, {Chornock}, {Challis}, {Burgett},
   {Chambers}, {Draper}, {Flewelling}, {Huber}, {Kaiser}, {Kudritzki},
@@ -222,12 +335,32 @@ Buton, C. 2009,
   \href{http://dx.doi.org/10.3847/1538-4357/aa767b}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2017ApJ...843....6J}{843, 6}
 
+\bibitem[{{Kauffmann} {et~al.}(2003){Kauffmann}, {Heckman}, {White}, {Charlot},
+  {Tremonti}, {Brinchmann}, {Bruzual}, {Peng}, {Seibert}, {Bernardi},
+  {Blanton}, {Brinkmann}, {Castander}, {Cs{\'a}bai}, {Fukugita}, {Ivezic},
+  {Munn}, {Nichol}, {Padmanabhan}, {Thakar}, {Weinberg}, \&
+  {York}}]{Kauffman2003}
+{Kauffmann}, G., {Heckman}, T.~M., {White}, S. D.~M., {et~al.} 2003,
+  \href{http://dx.doi.org/10.1046/j.1365-8711.2003.06291.x}{\color{magenta}\mnras},
+  \href{https://ui.adsabs.harvard.edu/abs/2003MNRAS.341...33K}{341, 33}
+
 \bibitem[{{Kim} {et~al.}(2022){Kim}, {Rigault}, {Neill}, {Briday}, {Copin},
   {Lezmy}, {Nicolas}, {Riddle}, {Sharma}, {Smith}, {Sollerman}, \&
   {Walters}}]{Kimcontsep}
 {Kim}, Y.~L., {Rigault}, M., {Neill}, J.~D., {et~al.} 2022,
   \href{http://dx.doi.org/10.1088/1538-3873/ac50a0}{\color{magenta}\pasp},
   \href{https://ui.adsabs.harvard.edu/abs/2022PASP..134b4505K}{134, 024505}
+
+\bibitem[{{Koleva} {et~al.}(2009){Koleva}, {Prugniel}, {Bouchard}, \&
+  {Wu}}]{KolevaUlyss}
+{Koleva}, M., {Prugniel}, P., {Bouchard}, A., \& {Wu}, Y. 2009,
+  \href{http://dx.doi.org/10.1051/0004-6361/200811467}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2009A&A...501.1269K}{501, 1269}
+
+\bibitem[{{Kormendy} \& {Ho}(2013)}]{Kormendy}
+{Kormendy}, J. \& {Ho}, L.~C. 2013,
+  \href{http://dx.doi.org/10.1146/annurev-astro-082708-101811}{\color{magenta}\araa},
+  \href{https://ui.adsabs.harvard.edu/abs/2013ARA&A..51..511K}{51, 511}
 
 \bibitem[{{Lantz} {et~al.}(2004){Lantz}, {Aldering}, {Antilogus}, {Bonnaud},
   {Capoani}, {Castera}, {Copin}, {Dubet}, {Gangler}, {Henault}, {Lemonnier},
@@ -263,6 +396,11 @@ Buton, C. 2009,
 {Liu}, Y.-Q., {Modjaz}, M., {Bianco}, F.~B., \& {Graur}, O. 2016,
   \href{http://dx.doi.org/10.3847/0004-637X/827/2/90}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2016ApJ...827...90L}{827, 90}
+
+\bibitem[{{Maraston}(2005)}]{Maraston2005}
+{Maraston}, C. 2005,
+  \href{http://dx.doi.org/10.1111/j.1365-2966.2005.09270.x}{\color{magenta}\mnras},
+  \href{https://ui.adsabs.harvard.edu/abs/2005MNRAS.362..799M}{362, 799}
 
 \bibitem[{{Masci} {et~al.}(2019){Masci}, {Laher}, {Rusholme}, {Shupe}, {Groom},
   {Surace}, {Jackson}, {Monkewitz}, {Beck}, {Flynn}, {Terek}, {Landry},
@@ -308,6 +446,12 @@ Buton, C. 2009,
   \href{http://dx.doi.org/10.1051/0004-6361/202038447}{\color{magenta}\aap},
   \href{https://ui.adsabs.harvard.edu/abs/2021A&A...649A..74N}{649, A74}
 
+\bibitem[{{Noll} {et~al.}(2009){Noll}, {Burgarella}, {Giovannoli}, {Buat},
+  {Marcillac}, \& {Mu{\~n}oz-Mateos}}]{Noll2009}
+{Noll}, S., {Burgarella}, D., {Giovannoli}, E., {et~al.} 2009,
+  \href{http://dx.doi.org/10.1051/0004-6361/200912497}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2009A&A...507.1793N}{507, 1793}
+
 \bibitem[{{Nordin} {et~al.}(2019){Nordin}, {Brinnel}, {van Santen}, {Bulla},
   {Feindt}, {Franckowiak}, {Fremling}, {Gal-Yam}, {Giomi}, {Kowalski},
   {Mahabal}, {Miranda}, {Rauch}, {Reusch}, {Rigault}, {Schulze}, {Sollerman},
@@ -315,6 +459,18 @@ Buton, C. 2009,
 {Nordin}, J., {Brinnel}, V., {van Santen}, J., {et~al.} 2019,
   \href{http://dx.doi.org/10.1051/0004-6361/201935634}{\color{magenta}\aap},
   \href{https://ui.adsabs.harvard.edu/abs/2019A&A...631A.147N}{631, A147}
+
+\bibitem[{{Ocvirk} {et~al.}(2006){Ocvirk}, {Pichon}, {Lançon}, \&
+  {Thi\'ebaut}}]{Ocvirk}
+{Ocvirk}, P., {Pichon}, C., {Lançon}, A., \& {Thi\'ebaut}, E. 2006,
+  \href{http://dx.doi.org/10.1111/j.1365-2966.2005.09182.x}{\color{magenta}\mnras},
+  \href{https://ui.adsabs.harvard.edu/abs/2006MNRAS.365...46O}{365, 46}
+
+\bibitem[{{Papovich} {et~al.}(2001){Papovich}, {Dickinson}, \&
+  {Ferguson}}]{Papovich}
+{Papovich}, C., {Dickinson}, M., \& {Ferguson}, H.~C. 2001,
+  \href{http://dx.doi.org/10.1086/322412}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2001ApJ...559..620P}{559, 620}
 
 \bibitem[{{Patterson} {et~al.}(2019){Patterson}, {Bellm}, {Rusholme}, {Masci},
   {Juric}, {Krughoff}, {Golkhou}, {Graham}, {Kulkarni}, {Helou}, \& {Zwicky
@@ -337,6 +493,14 @@ Buton, C. 2009,
 {Rigault}, M., {Neill}, J.~D., {Blagorodnova}, N., {et~al.} 2019,
   \href{http://dx.doi.org/10.1051/0004-6361/201935344}{\color{magenta}\aap},
   \href{https://ui.adsabs.harvard.edu/abs/2019A&A...627A.115R}{627, A115}
+
+\bibitem[{{Salim} {et~al.}(2007){Salim}, {Rich}, {Charlot}, {Brinchmann},
+  {Johnson}, {Schiminovich}, {Seibert}, {Mallery}, {Heckman}, {Forster},
+  {Friedman}, {Martin}, {Morrissey}, {Neff}, {Small}, {Wyder}, {Bianchi},
+  {Donas}, {Lee}, {Madore}, {Milliard}, {Szalay}, {Welsh}, \& {Yi}}]{Salim2007}
+{Salim}, S., {Rich}, R.~M., {Charlot}, S., {et~al.} 2007,
+  \href{http://dx.doi.org/10.1086/519218}{\color{magenta}\apjs},
+  \href{https://ui.adsabs.harvard.edu/abs/2007ApJS..173..267S}{173, 267}
 
 \bibitem[{{Scolnic} {et~al.}(2021){Scolnic}, {Brout}, {Carr}, {Riess}, {Davis},
   {Dwomoh}, {Jones}, {Ali}, {Charvu}, {Chen}, {Peterson}, {Popovic}, {Rose},
@@ -380,6 +544,11 @@ Stubbs, C.~W., High, F.~W., George, M.~R., {et~al.} 2007,
   \href{http://dx.doi.org/10.1086/522208}{\color{magenta}Publications of the
   Astronomical Society of the Pacific}, 119, 1163
 
+\bibitem[{{Tinsley}(1980)}]{Tinsley1980}
+{Tinsley}, B.~M. 1980,
+  \href{http://dx.doi.org/10.48550/arXiv.2203.02041}{\color{magenta}\fcp},
+  \href{https://ui.adsabs.harvard.edu/abs/1980FCPh....5..287T}{5, 287}
+
 \bibitem[{{Tonry} \& {Davis}(1979)}]{TonryDavis}
 {Tonry}, J. \& {Davis}, M. 1979,
   \href{http://dx.doi.org/10.1086/112569}{\color{magenta}\aj},
@@ -389,6 +558,29 @@ Stubbs, C.~W., High, F.~W., George, M.~R., {et~al.} 2007,
 {Wade}, R.~A. \& {Horne}, K. 1988,
   \href{http://dx.doi.org/10.1086/165905}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/1988ApJ...324..411W}{324, 411}
+
+\bibitem[{{Walcher} {et~al.}(2011){Walcher}, {Groves}, {Budav\'ari}, \&
+  {Dale}}]{Walcher2011}
+{Walcher}, J., {Groves}, B., {Budav\'ari}, T., \& {Dale}, D. 2011,
+  \href{http://dx.doi.org/10.1007/s10509-010-0458-z}{\color{magenta}\apss},
+  \href{https://ui.adsabs.harvard.edu/abs/2011Ap&SS.331....1W}{331, 1}
+
+\bibitem[{{Wilkinson} {et~al.}(2017){Wilkinson}, {Maraston}, {Goddard},
+  {Thomas}, \& {Parikh}}]{WilkinsonFirefly}
+{Wilkinson}, D.~M., {Maraston}, C., {Goddard}, D., {Thomas}, D., \& {Parikh},
+  T. 2017,
+  \href{http://dx.doi.org/10.1093/mnras/stx2215}{\color{magenta}\mnras},
+  \href{https://ui.adsabs.harvard.edu/abs/2017MNRAS.472.4297W}{472, 4297}
+
+\bibitem[{{Witt} \& {Gordon}(2000)}]{WittGordon}
+{Witt}, A.~N. \& {Gordon}, K.~D. 2000,
+  \href{http://dx.doi.org/10.1086/308197}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2000ApJ...528..799W}{528, 799}
+
+\bibitem[{{Worthey}(1994)}]{Worthey}
+{Worthey}, G. 1994,
+  \href{http://dx.doi.org/10.1086/192096}{\color{magenta}\apjs},
+  \href{https://ui.adsabs.harvard.edu/abs/1994ApJS...95..107W}{95, 107}
 
 \bibitem[{{Yan} {et~al.}(2016){Yan}, {Bundy}, {Law}, {Bershady}, {Andrews},
   {Cherinka}, {Diamond-Stanic}, {Drory}, {MacDonald}, {S{\'a}nchez-Gallego},
@@ -402,5 +594,31 @@ Stubbs, C.~W., High, F.~W., George, M.~R., {et~al.} 2007,
 {Yan}, R., {Bundy}, K., {Law}, D.~R., {et~al.} 2016,
   \href{http://dx.doi.org/10.3847/0004-6256/152/6/197}{\color{magenta}\aj},
   \href{https://ui.adsabs.harvard.edu/abs/2016AJ....152..197Y}{152, 197}
+
+\bibitem[{{York} {et~al.}(2000){York}, {Adelman}, {Anderson}, {Anderson},
+  {Annis}, {Bahcall}, {Bakken}, {Barkhouser}, {Bastian}, {Berman}, {Boroski},
+  {Bracker}, {Briegel}, {Briggs}, {Brinkmann}, {Brunner}, {Burles}, {Carey},
+  {Carr}, {Castander}, {Chen}, {Colestock}, {Connolly}, {Crocker}, {Csabai},
+  {Czarapata}, {Davis}, {Doi}, {Dombeck}, {Eisenstein}, {Ellman}, {Elms},
+  {Evans}, {Fan}, {Federwitz}, {Fiscelli}, {Friedman}, {Frieman}, {Fukugita},
+  {Gillespie}, {Gunn}, {Gurbani}, {de Haas}, {Haldeman}, {Harris}, {Hayes},
+  {Heckman}, {Hennessy}, {Hindsley}, {Holm}, {Holmgren}, {Huang}, {Hull},
+  {Husby}, {Ichikawa}, {Ichikawa}, {Ivezi\'c}, {Kent}, {Kim}, {Kinney},
+  {Klaene}, {Kleinman}, {Kleinman}, {Knapp}, {Korienek}, {Kron}, {Kunszt},
+  {Lamb}, {Lee}, {Leger}, {Limmongkol}, {Lindenmeyer}, {Long}, {Loomis},
+  {Loveday}, {Lucinio}, {Lupton}, {MacKinnon}, {Mannery}, {Mantsch}, {Margon},
+  {McGehee}, {McKay}, {Meiksin}, {Merelli}, {Monet}, {Munn}, {Narayanan},
+  {Nash}, {Neilsen}, {Neswold}, {Newberg}, {Nichol}, {Nicinski}, {Nonino},
+  {Okada}, {Okamura}, {Ostriker}, {Owen}, {Pauls}, {Peoples}, {Peterson},
+  {Petravick}, {Pier}, {Pope}, {Pordes}, {Prosapio}, {Rechenmacher}, {Quinn},
+  {Richards}, {Richmond}, {Rivetta}, {Rockosi}, {Ruthmansdorfer}, {Sandford},
+  {Schlegel}, {Schneider}, {Sekiguchi}, {Sergey}, {Shimasaku}, {Siegmund},
+  {Smee}, {Smith}, {Snedden}, {Stone}, {Stoughton}, {Strauss}, {Stubbs},
+  {SubbaRao}, {Szalay}, {Szapudi}, {Szokoly}, {Thakar}, {Tremonti}, {Tucker},
+  {Uomoto}, {Vanden Berk}, {Vogeley}, {Waddell}, {Wang}, {Watanabe},
+  {Weinberg}, {Yanny}, {Yasuda}, \& {SDSS Collaboration}}]{YorkSDSS2000}
+{York}, D.~G., {Adelman}, J., {Anderson}, John~E., J., {et~al.} 2000,
+  \href{http://dx.doi.org/10.1086/301513}{\color{magenta}\aj},
+  \href{https://ui.adsabs.harvard.edu/abs/2000AJ....120.1579Y}{120, 1579}
 
 \end{thebibliography}
