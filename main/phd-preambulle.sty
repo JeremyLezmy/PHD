@@ -5,7 +5,7 @@
 \RequirePackage[T1]{fontenc}
 \RequirePackage[french]{babel}
 \frenchbsetup{StandardLists=true}
-
+\RequirePackage{threeparttable}
 
 \makeatletter\@addtoreset{chapter}{part}\makeatother%
 
@@ -76,11 +76,11 @@
 \renewcommand{\mtctitle}{Sommaire}
 
 \RequirePackage[pdftex,
-    linktoc=all,
-    backref=False,
+    linktoc=page,
+    backref=section,
     colorlinks=true,
     pdfstartview=FitV,
-    linkcolor=linkcolor,
+    linkcolor=blue,
     citecolor=blue,
     urlcolor=blue,
     hyperindex=true,
@@ -107,6 +107,14 @@
 
 % Pretty tables
 \RequirePackage{booktabs}
+\makeatletter
+\newcommand*{\centerfloat}{%
+  \parindent \z@
+  \leftskip \z@ \@plus 1fil \@minus \textwidth
+  \rightskip\leftskip
+  \parfillskip \z@skip}
+\makeatother
+\RequirePackage{multirow}
 % Other tables
 \RequirePackage{tabularx}
 \newcolumntype{Y}{>{\centering\arraybackslash}X}
@@ -114,7 +122,9 @@
 
 % Pretty units
 \RequirePackage{siunitx}
+% Reset footnote per page
 \RequirePackage[perpage]{footmisc}
+
 \sisetup{%
   detect-all,
   free-standing-units,          % create standalone commands
@@ -134,6 +144,8 @@
 \DeclareSIUnit\pc{pc}           % parsec
 \DeclareSIUnit\as{as}           % arcsec
 \DeclareSIUnit\mag{mag}         % mag
+\DeclareSIUnit\jy{Jy}
+\DeclareSIUnit\erg{erg}
 
 % Math in section names
 \RequirePackage{bookmark} % http://tex.stackexchange.com/questions/119079
@@ -388,6 +400,11 @@
 \def\cte{\overrightarrow{\text{cte}}}
 \def\h{\hbar}
 \def\parr{/\!\!/}
+
+% Add an upward arrow next to backref
+\renewcommand\backrefxxx[3]{%
+  \hyperlink{page.#1}{$\uparrow$~Section #2}%
+}
 
 %%% Fin du package
 \endinput

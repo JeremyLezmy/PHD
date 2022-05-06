@@ -321,6 +321,66 @@ chaque longueur d'onde. Cette étape permet ainsi d'extraire les trois
 composantes de la scène d'observation de la SEDm, à savoir le background, la galaxie hôte et la
 source ponctuelle.
 
+\section{Cas pédagogique de présentation}
+
+Les chapitres suivants de cette partie du manuscrit seront consacrés à
+la description des différentes étapes du pipeline. Pour une illustration
+appropriée, nous utiliserons un cas pédagogique de modélisation de scène
+où la supernova est suffisamment distingable de sa galaxie hôte.
+
+La cible choisit est ZTF18accrorf, dont le cube extrait à partir d'une
+observation de la SEDm est présenté dans la
+Figure~\ref{fig:easycasesedm}.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.99\textwidth]{../figures/04_hypergal/e3dcube_ZTF18accrorf.png}
+  \caption[Cube 3D SEDm de ZTF18accrorf]{Cube 3D d'une observation de
+    ZTF18accrorf avec la SEDm. La figure de gauche montre les spectres
+    en unité de pseudo-ADU, dont le code couleur correspond aux spaxels
+    sélectionnés dans la figure de droite. La forme similaire des trois
+    spectres malgrés une localisation différente des spaxels sous-jacents dans le MLA est due à la
+    présence du spectre du ciel sur l'ensemble du champ de vue. La croix rouge indique la
+    position estimée de la supernova à partir des informations de
+    guidage avec la Rainbow Camera. Dans ce cas ci, la supernova est
+    assez aisément distingable de sa galaxie hôte.}
+  \label{fig:easycasesedm}
+\end{figure}
+
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.9\textwidth]{../figures/04_hypergal/easycaseextractionpysedm.png}
+  \caption[Extraction de ZTF18accrorf avec \pysedm]{Extraction de
+    ZTF18accrorf avec \pysedm. Sur la \textit{gauche} est représenté une image 2D
+  du cube intégré spectralement, avec la croix rouge indiquant la
+  position estimée de la supernova à partir des informations de
+    guidage avec la Rainbow Camera. Les marqueurs noirs représentent les
+  spaxels sélectionnés pour l'extraction automatique. \textit{En haut à
+    droite} est représenté la modélisation d'une méta-tranche et le
+  profil radial estimé. On voit clairement la composante de la galaxie
+  hôte qui contamine l'extraction de la supernova. \textit{En bas} nous
+  montrons en unité de flux le spectre extrait par \pysedm en gris et le
+meilleur modèle estimé par \pkg{SNID}. Même si certaines structures
+semblent rappeler le spectre d'une SNIa, comme les absorptions FeII,
+FeIII et MgII (entre $[4200-4600]$\AA, et entre $[4800-5200]$\AA), le
+niveau de confiance pour la classification reste très faible, comme
+l'atteste le $r\text{lap}=4.5$, et surtout le redshift estimé de
+$z=0.178$ bien au dessus de la profondeur en magnitude atteignable par ZTF.  }
+  \label{fig:easycaseextractionpysedm}
+\end{figure}
+
+
+Malgrès la localisation relativement excentrée de la source ponctuelle,
+son faible contraste vis à vis de son hôte rend difficile son extraction
+automatique par le pipeline \pysedm. Nous illustrons cette tentative
+dans la Figure~\ref{fig:easycaseextractionpysedm}.
+
+Après la présentation d'\hypergal à travers ce cas pédagogique, nous
+montrerons un cas d'extraction extrême où la supernova est quasiment
+confondu avec le coeur de sa galaxie hôte.
+
+
 %\bibliographystyle{../main/aa_url}
 %\bibliography{99_references}
 \end{document}

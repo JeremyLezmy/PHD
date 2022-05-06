@@ -10,13 +10,14 @@
 \addvspace {10\p@ }
 \contentsline {xchapter}{\textsc {\texttt {HyperGal}} : Modéliseur de scène pour l'extraction de sources ponctuelles}{49}{chapter.4}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Modélisation Hyperspectrale}{55}{chapter.5}%
+\contentsline {xchapter}{Modélisation hyperspectrale}{57}{chapter.5}%
+\contentsline {table}{\numberline {5.1}{\ignorespaces Caractéristiques des filtres $grizy$ de PAN-STARRS1 et du relevé $3\pi $ Stéradian.\relax }}{60}{table.caption.28}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Réponse impulsionnelle de la SEDm}{57}{chapter.6}%
+\contentsline {xchapter}{Réponse impulsionnelle de la SEDm}{61}{chapter.6}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Modélisation de Scène et Extraction de Source}{59}{chapter.7}%
-\contentsline {xpart}{Simulations et Résultats}{63}{part.3}%
+\contentsline {xchapter}{Modélisation de Scène et Extraction de Source}{63}{chapter.7}%
+\contentsline {xpart}{Simulations et Résultats}{67}{part.3}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Simulations de cubes de données et application d'\textsc {\texttt {HyperGal}} }{63}{chapter.8}%
+\contentsline {xchapter}{Simulations de cubes de données et application d'\textsc {\texttt {HyperGal}} }{67}{chapter.8}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Data Release 2 de ZTF}{65}{chapter.9}%
+\contentsline {xchapter}{Data Release 2 de ZTF}{69}{chapter.9}%

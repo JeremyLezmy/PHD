@@ -1,623 +1,1096 @@
-\begin{thebibliography}{83}
+\begin{thebibliography}{96}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
-\bibitem[{{Abdurro'uf} {et~al.}(2021){Abdurro'uf}, {Lin}, {Wu}, \&
-  {Akiyama}}]{Abdurro'ufPixedfit}
-{Abdurro'uf}, {Lin}, Y.-T., {Wu}, P.-F., \& {Akiyama}, M. 2021,
+\bibitem[{\textsc{{Abdurro'uf}} {et~al.}(2021)\textsc{{Abdurro'uf}},
+  \textsc{{Lin}}, \textsc{{Wu}} et \textsc{{Akiyama}}}]{Abdurro'ufPixedfit}
+\textsc{{Abdurro'uf}}, \textsc{{Lin} Y.-T.}, \textsc{{Wu} P.-F.} et
+  \textsc{{Akiyama} M.} 2021, «~{Introducing piXedfit: A Spectral Energy
+  Distribution Fitting Code Designed for Resolved Sources}~»,
   \href{http://dx.doi.org/10.3847/1538-4365/abebe2}{\color{magenta}\apjs},
   \href{https://ui.adsabs.harvard.edu/abs/2021ApJS..254...15A}{254, 15}
 
-\bibitem[{{Acquaviva} {et~al.}(2011){Acquaviva}, {Gawiser}, \&
-  {Guaita}}]{Acquaviva2011}
-{Acquaviva}, V., {Gawiser}, E., \& {Guaita}, L. 2011,
+\bibitem[{\textsc{{Acquaviva}} {et~al.}(2011)\textsc{{Acquaviva}},
+  \textsc{{Gawiser}} et \textsc{{Guaita}}}]{Acquaviva2011}
+\textsc{{Acquaviva} V.}, \textsc{{Gawiser} E.} et \textsc{{Guaita} L.} 2011,
+  «~{Spectral Energy Distribution Fitting with Markov Chain Monte Carlo:
+  Methodology and Application to z = 3.1 Ly{\ensuremath{\alpha}}-emitting
+  Galaxies}~»,
   \href{http://dx.doi.org/10.1088/0004-637X/737/2/47}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2011ApJ...737...47A}{737, 47}
 
-\bibitem[{{Allington-Smith} {et~al.}(1997){Allington-Smith}, {Content},
-  {Haynes}, \& {Lewis}}]{allingtonIFUlensfiber}
-{Allington-Smith}, J.~R., {Content}, R., {Haynes}, R., \& {Lewis}, I.~J. 1997,
-  in Society of Photo-Optical Instrumentation Engineers (SPIE) Conference
-  Series, Vol. 2871, Optical Telescopes of Today and Tomorrow, ed. A.~L.
-  {Ardeberg},
+\bibitem[{\textsc{{Allington-Smith}} {et~al.}(1997)\textsc{{Allington-Smith}},
+  \textsc{{Content}}, \textsc{{Haynes}} et
+  \textsc{{Lewis}}}]{allingtonIFUlensfiber}
+\textsc{{Allington-Smith} J.~R.}, \textsc{{Content} R.}, \textsc{{Haynes} R.}
+  et \textsc{{Lewis} I.~J.} 1997, «~{Integral field spectroscopy with the
+  Gemini Multiobject Spectrographs}~», dans Society of Photo-Optical
+  Instrumentation Engineers (SPIE) Conference Series, Vol. 2871, {\em Optical
+  Telescopes of Today and Tomorrow}, ed. A.~L. {Ardeberg},
   \href{https://ui.adsabs.harvard.edu/abs/1997SPIE.2871.1284A}{1284--1294}
 
-\bibitem[{Allington‐Smith \& Content(1998)}]{allingtonIFS}
-Allington‐Smith, J. \& Content, R. 1998, Publications of the Astronomical
-  Society of the Pacific, 110, 1216
+\bibitem[{\textsc{Allington‐Smith} et \textsc{Content}(1998)}]{allingtonIFS}
+\textsc{Allington‐Smith J.} et \textsc{Content R.} 1998, «~Sampling and
+  Background Subtraction in Fiber‐Lenslet Integral Field Spectrographs~»,
+  Publications of the Astronomical Society of the Pacific, 110, 1216
 
-\bibitem[{{Arnouts} \& {Ilbert}(2011)}]{ArnoutsLephare}
-{Arnouts}, S. \& {Ilbert}, O. 2011, {LePHARE: Photometric Analysis for Redshift
-  Estimate}, Astrophysics Source Code Library, record ascl:1108.009
+\bibitem[{\textsc{{Arnouts}} et \textsc{{Ilbert}}(2011)}]{ArnoutsLephare}
+\textsc{{Arnouts} S.} et \textsc{{Ilbert} O.} 2011, «~{LePHARE: Photometric
+  Analysis for Redshift Estimate}~», Astrophysics Source Code Library, record
+  ascl:1108.009
 
-\bibitem[{{Bacon} {et~al.}(1995){Bacon}, {Adam}, {Baranne}, {Courtes}, {Dubet},
-  {Dubois}, {Emsellem}, {Ferruit}, {Georgelin}, {Monnet}, {Pecontal},
-  {Rousset}, \& {Say}}]{BaconIFUlens}
-{Bacon}, R., {Adam}, G., {Baranne}, A., {et~al.} 1995, \aaps,
+\bibitem[{\textsc{{Bacon}} {et~al.}(1995)\textsc{{Bacon}}, \textsc{{Adam}},
+  \textsc{{Baranne}}, \textsc{{Courtes}}, \textsc{{Dubet}}, \textsc{{Dubois}},
+  \textsc{{Emsellem}}, \textsc{{Ferruit}}, \textsc{{Georgelin}},
+  \textsc{{Monnet}}, \textsc{{Pecontal}}, \textsc{{Rousset}} et
+  \textsc{{Say}}}]{BaconIFUlens}
+\textsc{{Bacon} R.}, \textsc{{Adam} G.}, \textsc{{Baranne} A.} {et~al.} 1995,
+  «~{3D spectrography at high spatial resolution. I. Concept and realization
+  of the integral field spectrograph TIGER.}~», \aaps,
   \href{https://ui.adsabs.harvard.edu/abs/1995A&AS..113..347B}{113, 347}
 
-\bibitem[{{Bacon} {et~al.}(2001){Bacon}, {Copin}, {Monnet}, {Miller},
-  {Allington-Smith}, {Bureau}, {Carollo}, {Davies}, {Emsellem}, {Kuntschner},
-  {Peletier}, {Verolme}, \& {de Zeeuw}}]{SAURONifs}
-{Bacon}, R., {Copin}, Y., {Monnet}, G., {et~al.} 2001,
+\bibitem[{\textsc{{Bacon}} {et~al.}(2001)\textsc{{Bacon}}, \textsc{{Copin}},
+  \textsc{{Monnet}}, \textsc{{Miller}}, \textsc{{Allington-Smith}},
+  \textsc{{Bureau}}, \textsc{{Carollo}}, \textsc{{Davies}},
+  \textsc{{Emsellem}}, \textsc{{Kuntschner}}, \textsc{{Peletier}},
+  \textsc{{Verolme}} et \textsc{{de Zeeuw}}}]{SAURONifs}
+\textsc{{Bacon} R.}, \textsc{{Copin} Y.}, \textsc{{Monnet} G.} {et~al.} 2001,
+  «~{The SAURON project - I. The panoramic integral-field spectrograph}~»,
   \href{http://dx.doi.org/10.1046/j.1365-8711.2001.04612.x}{\color{magenta}\mnras},
   \href{https://ui.adsabs.harvard.edu/abs/2001MNRAS.326...23B}{326, 23}
 
-\bibitem[{Barbary(2016)}]{Barbary2016Sep}
-Barbary, K. 2016,
+\bibitem[{\textsc{Barbary}(2016)}]{Barbary2016Sep}
+\textsc{Barbary K.} 2016, «~SEP: Source Extractor as a library~»,
   \href{http://dx.doi.org/10.21105/joss.00058}{\color{magenta}Journal of Open
   Source Software}, 1, 58
 
-\bibitem[{{Barden} \& {Wade}(1988)}]{BardenIFUfiber}
-{Barden}, S.~C. \& {Wade}, R.~A. 1988, in Astronomical Society of the Pacific
-  Conference Series, Vol.~3, Fiber Optics in Astronomy, ed. S.~C. {Barden},
+\bibitem[{\textsc{{Barden}} et \textsc{{Wade}}(1988)}]{BardenIFUfiber}
+\textsc{{Barden} S.~C.} et \textsc{{Wade} R.~A.} 1988, «~{DensePak and
+  spectral imaging with fiber optics.}~», dans Astronomical Society of the
+  Pacific Conference Series, Vol.~3, {\em Fiber Optics in Astronomy}, ed. S.~C.
+  {Barden},
   \href{https://ui.adsabs.harvard.edu/abs/1988ASPC....3..113B}{113--124}
 
-\bibitem[{{Bellm} {et~al.}(2019){Bellm}, {Kulkarni}, {Graham}, {Dekany},
-  {Smith}, {Riddle}, {Masci}, {Helou}, {Prince}, {Adams}, {Barbarino},
-  {Barlow}, {Bauer}, {Beck}, {Belicki}, {Biswas}, {Blagorodnova}, {Bodewits},
-  {Bolin}, {Brinnel}, {Brooke}, {Bue}, {Bulla}, {Burruss}, {Cenko}, {Chang},
-  {Connolly}, {Coughlin}, {Cromer}, {Cunningham}, {De}, {Delacroix}, {Desai},
-  {Duev}, {Eadie}, {Farnham}, {Feeney}, {Feindt}, {Flynn}, {Franckowiak},
-  {Frederick}, {Fremling}, {Gal-Yam}, {Gezari}, {Giomi}, {Goldstein},
-  {Golkhou}, {Goobar}, {Groom}, {Hacopians}, {Hale}, {Henning}, {Ho}, {Hover},
-  {Howell}, {Hung}, {Huppenkothen}, {Imel}, {Ip}, {Ivezic}, {Jackson}, {Jones},
-  {Juric}, {Kasliwal}, {Kaspi}, {Kaye}, {Kelley}, {Kowalski}, {Kramer},
-  {Kupfer}, {Landry}, {Laher}, {Lee}, {Lin}, {Lin}, {Lunnan}, {Giomi},
-  {Mahabal}, {Mao}, {Miller}, {Monkewitz}, {Murphy}, {Ngeow}, {Nordin},
-  {Nugent}, {Ofek}, {Patterson}, {Penprase}, {Porter}, {Rauch}, {Rebbapragada},
-  {Reiley}, {Rigault}, {Rodriguez}, {van Roestel}, {Rusholme}, {van Santen},
-  {Schulze}, {Shupe}, {Singer}, {Soumagnac}, {Stein}, {Surace}, {Sollerman},
-  {Szkody}, {Taddia}, {Terek}, {Van Sistine}, {van Velzen}, {Vestrand},
-  {Walters}, {Ward}, {Ye}, {Yu}, {Yan}, \& {Zolkower}}]{BellmZTF2019}
-{Bellm}, E.~C., {Kulkarni}, S.~R., {Graham}, M.~J., {et~al.} 2019,
+\bibitem[{\textsc{{Bellm}} {et~al.}(2019)\textsc{{Bellm}}, \textsc{{Kulkarni}},
+  \textsc{{Graham}}, \textsc{{Dekany}}, \textsc{{Smith}}, \textsc{{Riddle}},
+  \textsc{{Masci}}, \textsc{{Helou}}, \textsc{{Prince}}, \textsc{{Adams}},
+  \textsc{{Barbarino}}, \textsc{{Barlow}}, \textsc{{Bauer}}, \textsc{{Beck}},
+  \textsc{{Belicki}}, \textsc{{Biswas}}, \textsc{{Blagorodnova}},
+  \textsc{{Bodewits}}, \textsc{{Bolin}}, \textsc{{Brinnel}}, \textsc{{Brooke}},
+  \textsc{{Bue}}, \textsc{{Bulla}}, \textsc{{Burruss}}, \textsc{{Cenko}},
+  \textsc{{Chang}}, \textsc{{Connolly}}, \textsc{{Coughlin}},
+  \textsc{{Cromer}}, \textsc{{Cunningham}}, \textsc{{De}},
+  \textsc{{Delacroix}}, \textsc{{Desai}}, \textsc{{Duev}}, \textsc{{Eadie}},
+  \textsc{{Farnham}}, \textsc{{Feeney}}, \textsc{{Feindt}}, \textsc{{Flynn}},
+  \textsc{{Franckowiak}}, \textsc{{Frederick}}, \textsc{{Fremling}},
+  \textsc{{Gal-Yam}}, \textsc{{Gezari}}, \textsc{{Giomi}},
+  \textsc{{Goldstein}}, \textsc{{Golkhou}}, \textsc{{Goobar}},
+  \textsc{{Groom}}, \textsc{{Hacopians}}, \textsc{{Hale}}, \textsc{{Henning}},
+  \textsc{{Ho}}, \textsc{{Hover}}, \textsc{{Howell}}, \textsc{{Hung}},
+  \textsc{{Huppenkothen}}, \textsc{{Imel}}, \textsc{{Ip}}, \textsc{{Ivezic}},
+  \textsc{{Jackson}}, \textsc{{Jones}}, \textsc{{Juric}}, \textsc{{Kasliwal}},
+  \textsc{{Kaspi}}, \textsc{{Kaye}}, \textsc{{Kelley}}, \textsc{{Kowalski}},
+  \textsc{{Kramer}}, \textsc{{Kupfer}}, \textsc{{Landry}}, \textsc{{Laher}},
+  \textsc{{Lee}}, \textsc{{Lin}}, \textsc{{Lin}}, \textsc{{Lunnan}},
+  \textsc{{Giomi}}, \textsc{{Mahabal}}, \textsc{{Mao}}, \textsc{{Miller}},
+  \textsc{{Monkewitz}}, \textsc{{Murphy}}, \textsc{{Ngeow}}, \textsc{{Nordin}},
+  \textsc{{Nugent}}, \textsc{{Ofek}}, \textsc{{Patterson}},
+  \textsc{{Penprase}}, \textsc{{Porter}}, \textsc{{Rauch}},
+  \textsc{{Rebbapragada}}, \textsc{{Reiley}}, \textsc{{Rigault}},
+  \textsc{{Rodriguez}}, \textsc{{van Roestel}}, \textsc{{Rusholme}},
+  \textsc{{van Santen}}, \textsc{{Schulze}}, \textsc{{Shupe}},
+  \textsc{{Singer}}, \textsc{{Soumagnac}}, \textsc{{Stein}}, \textsc{{Surace}},
+  \textsc{{Sollerman}}, \textsc{{Szkody}}, \textsc{{Taddia}}, \textsc{{Terek}},
+  \textsc{{Van Sistine}}, \textsc{{van Velzen}}, \textsc{{Vestrand}},
+  \textsc{{Walters}}, \textsc{{Ward}}, \textsc{{Ye}}, \textsc{{Yu}},
+  \textsc{{Yan}} et \textsc{{Zolkower}}}]{BellmZTF2019}
+\textsc{{Bellm} E.~C.}, \textsc{{Kulkarni} S.~R.}, \textsc{{Graham} M.~J.}
+  {et~al.} 2019, «~{The Zwicky Transient Facility: System Overview,
+  Performance, and First Results}~»,
   \href{http://dx.doi.org/10.1088/1538-3873/aaecbe}{\color{magenta}\pasp},
   \href{https://ui.adsabs.harvard.edu/abs/2019PASP..131a8002B}{131, 018002}
 
-\bibitem[{{Bertin} \& {Arnouts}(1996)}]{Bertinsextractor}
-{Bertin}, E. \& {Arnouts}, S. 1996,
+\bibitem[{\textsc{{Bertin}} et \textsc{{Arnouts}}(1996)}]{Bertinsextractor}
+\textsc{{Bertin} E.} et \textsc{{Arnouts} S.} 1996, «~{SExtractor: Software
+  for source extraction.}~»,
   \href{http://dx.doi.org/10.1051/aas:1996164}{\color{magenta}\aaps},
   \href{https://ui.adsabs.harvard.edu/abs/1996A&AS..117..393B}{117, 393}
 
-\bibitem[{{Blagorodnova} {et~al.}(2018){Blagorodnova}, {Neill}, {Walters},
-  {Kulkarni}, {Fremling}, {Ben-Ami}, {Dekany}, {Fucik}, {Konidaris}, {Nash},
-  {Ngeow}, {Ofek}, {O' Sullivan}, {Quimby}, {Ritter}, \& {Vyhmeister}}]{SEDM18}
-{Blagorodnova}, N., {Neill}, J.~D., {Walters}, R., {et~al.} 2018,
+\bibitem[{\textsc{{Blagorodnova}} {et~al.}(2018)\textsc{{Blagorodnova}},
+  \textsc{{Neill}}, \textsc{{Walters}}, \textsc{{Kulkarni}},
+  \textsc{{Fremling}}, \textsc{{Ben-Ami}}, \textsc{{Dekany}}, \textsc{{Fucik}},
+  \textsc{{Konidaris}}, \textsc{{Nash}}, \textsc{{Ngeow}}, \textsc{{Ofek}},
+  \textsc{{O' Sullivan}}, \textsc{{Quimby}}, \textsc{{Ritter}} et
+  \textsc{{Vyhmeister}}}]{SEDM18}
+\textsc{{Blagorodnova} N.}, \textsc{{Neill} J.~D.}, \textsc{{Walters} R.}
+  {et~al.} 2018, «~{The SED Machine: A Robotic Spectrograph for Fast Transient
+  Classification}~»,
   \href{http://dx.doi.org/10.1088/1538-3873/aaa53f}{\color{magenta}\pasp},
   \href{https://ui.adsabs.harvard.edu/abs/2018PASP..130c5003B}{130, 035003}
 
-\bibitem[{{Blondin} \& {Tonry}(2007)}]{BlondinSNID}
-{Blondin}, S. \& {Tonry}, J.~L. 2007,
+\bibitem[{\textsc{{Blondin}} et \textsc{{Tonry}}(2007)}]{BlondinSNID}
+\textsc{{Blondin} S.} et \textsc{{Tonry} J.~L.} 2007, «~{Determining the Type,
+  Redshift, and Age of a Supernova Spectrum}~»,
   \href{http://dx.doi.org/10.1086/520494}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2007ApJ...666.1024B}{666, 1024}
 
-\bibitem[{{Bohlin} {et~al.}(2014){Bohlin}, {Gordon}, \&
-  {Tremblay}}]{Bohlinstdcalpsec}
-{Bohlin}, R.~C., {Gordon}, K.~D., \& {Tremblay}, P.~E. 2014,
+\bibitem[{\textsc{{Bohlin}} {et~al.}(2014)\textsc{{Bohlin}}, \textsc{{Gordon}}
+  et \textsc{{Tremblay}}}]{Bohlinstdcalpsec}
+\textsc{{Bohlin} R.~C.}, \textsc{{Gordon} K.~D.} et \textsc{{Tremblay} P.~E.}
+  2014, «~{Techniques and Review of Absolute Flux Calibration from the
+  Ultraviolet to the Mid-Infrared}~»,
   \href{http://dx.doi.org/10.1086/677655}{\color{magenta}\pasp},
   \href{https://ui.adsabs.harvard.edu/abs/2014PASP..126..711B}{126, 711}
 
-\bibitem[{{Boquien} {et~al.}(2019){Boquien}, {Burgarella}, {Roehlly}, {Buat},
-  {Ciesla}, {Corre}, {Inoue}, \& {Salas}}]{Boquien2019}
-{Boquien}, M., {Burgarella}, D., {Roehlly}, Y., {et~al.} 2019,
+\bibitem[{\textsc{{Boquien}} {et~al.}(2019)\textsc{{Boquien}},
+  \textsc{{Burgarella}}, \textsc{{Roehlly}}, \textsc{{Buat}},
+  \textsc{{Ciesla}}, \textsc{{Corre}}, \textsc{{Inoue}} et
+  \textsc{{Salas}}}]{Boquien2019}
+\textsc{{Boquien} M.}, \textsc{{Burgarella} D.}, \textsc{{Roehlly} Y.} {et~al.}
+  2019, «~{CIGALE: a python Code Investigating GALaxy Emission}~»,
   \href{http://dx.doi.org/10.1051/0004-6361/201834156}{\color{magenta}\aap},
   \href{https://ui.adsabs.harvard.edu/abs/2019A&A...622A.103B}{622, A103}
 
-\bibitem[{{Bowen}(1938)}]{BowenIFUslicer}
-{Bowen}, I.~S. 1938,
+\bibitem[{\textsc{{Bowen}}(1938)}]{BowenIFUslicer}
+\textsc{{Bowen} I.~S.} 1938, «~{The Image-Slicer a Device for Reducing Loss of
+  Light at Slit of Stellar Spectrograph.}~»,
   \href{http://dx.doi.org/10.1086/143964}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/1938ApJ....88..113B}{88, 113}
 
-\bibitem[{{Briday} {et~al.}(2022){Briday}, {Rigault}, {Graziani}, {Copin},
-  {Aldering}, {Amenouche}, {Brinnel}, {Kim}, {Kim}, {Lezmy}, {Nicolas},
-  {Nordin}, {Perlmutter}, {Rosnet}, \& {Smith}}]{Briday22}
-{Briday}, M., {Rigault}, M., {Graziani}, R., {et~al.} 2022,
+\bibitem[{\textsc{{Briday}} {et~al.}(2022)\textsc{{Briday}},
+  \textsc{{Rigault}}, \textsc{{Graziani}}, \textsc{{Copin}},
+  \textsc{{Aldering}}, \textsc{{Amenouche}}, \textsc{{Brinnel}},
+  \textsc{{Kim}}, \textsc{{Kim}}, \textsc{{Lezmy}}, \textsc{{Nicolas}},
+  \textsc{{Nordin}}, \textsc{{Perlmutter}}, \textsc{{Rosnet}} et
+  \textsc{{Smith}}}]{Briday22}
+\textsc{{Briday} M.}, \textsc{{Rigault} M.}, \textsc{{Graziani} R.} {et~al.}
+  2022, «~{Accuracy of environmental tracers and consequences for determining
+  the Type Ia supernova magnitude step}~»,
   \href{http://dx.doi.org/10.1051/0004-6361/202141160}{\color{magenta}\aap},
   \href{https://ui.adsabs.harvard.edu/abs/2022A&A...657A..22B}{657, A22}
 
-\bibitem[{{Bruzual} \& {Charlot}(2003)}]{BruzualCharlot2003}
-{Bruzual}, G. \& {Charlot}, S. 2003,
+\bibitem[{\textsc{{Bruzual}} et \textsc{{Charlot}}(2003)}]{BruzualCharlot2003}
+\textsc{{Bruzual} G.} et \textsc{{Charlot} S.} 2003, «~{Stellar population
+  synthesis at the resolution of 2003}~»,
   \href{http://dx.doi.org/10.1046/j.1365-8711.2003.06897.x}{\color{magenta}\mnras},
   \href{https://ui.adsabs.harvard.edu/abs/2003MNRAS.344.1000B}{344, 1000}
 
-\bibitem[{{Burgarella} {et~al.}(2005){Burgarella}, {Buat}, \&
-  {Iglesias-P\'aramo}}]{Burgarella2005}
-{Burgarella}, D., {Buat}, V., \& {Iglesias-P\'aramo}, J. 2005,
+\bibitem[{\textsc{{Burgarella}} {et~al.}(2005)\textsc{{Burgarella}},
+  \textsc{{Buat}} et \textsc{{Iglesias-P\'aramo}}}]{Burgarella2005}
+\textsc{{Burgarella} D.}, \textsc{{Buat} V.} et \textsc{{Iglesias-P\'aramo} J.}
+  2005, «~{Star formation and dust attenuation properties in galaxies from a
+  statistical ultraviolet-to-far-infrared analysis}~»,
   \href{http://dx.doi.org/10.1111/j.1365-2966.2005.09131.x}{\color{magenta}\mnras},
   \href{https://ui.adsabs.harvard.edu/abs/2005MNRAS.360.1413B}{360, 1413}
 
-\bibitem[{Buton(2009)}]{Butonthese}
-Buton, C. 2009,
-  \href{https://tel.archives-ouvertes.fr/tel-00465853}{{Étalonnage
-  spectro-photométrique du SuperNova Integral Field Spectrograph dans le cadre
-  du projet the Nearby Supernova Factory}}, Theses, {Université Claude Bernard
-  - Lyon I}
+\bibitem[{\textsc{Buton}(2009)}]{Butonthese}
+\textsc{Buton C.} 2009, «~{Étalonnage spectro-photométrique du SuperNova
+  Integral Field Spectrograph dans le cadre du projet the Nearby Supernova
+  Factory}~», Theses, {Université Claude Bernard - Lyon I},
+  \href{https://tel.archives-ouvertes.fr/tel-00465853}{}
 
-\bibitem[{{Buton} {et~al.}(2013){Buton}, {Copin}, {Aldering}, {Antilogus},
-  {Aragon}, {Bailey}, {Baltay}, {Bongard}, {Canto}, {Cellier-Holzem},
-  {Childress}, {Chotard}, {Fakhouri}, {Gangler}, {Guy}, {Hsiao}, {Kerschhaggl},
-  {Kowalski}, {Loken}, {Nugent}, {Paech}, {Pain}, {P{\'e}contal}, {Pereira},
-  {Perlmutter}, {Rabinowitz}, {Rigault}, {Runge}, {Scalzo}, {Smadja}, {Tao},
-  {Thomas}, {Weaver}, {Wu}, \& {Nearby SuperNova Factory}}]{Buton2013}
-{Buton}, C., {Copin}, Y., {Aldering}, G., {et~al.} 2013,
+\bibitem[{\textsc{{Buton}} {et~al.}(2013)\textsc{{Buton}}, \textsc{{Copin}},
+  \textsc{{Aldering}}, \textsc{{Antilogus}}, \textsc{{Aragon}},
+  \textsc{{Bailey}}, \textsc{{Baltay}}, \textsc{{Bongard}}, \textsc{{Canto}},
+  \textsc{{Cellier-Holzem}}, \textsc{{Childress}}, \textsc{{Chotard}},
+  \textsc{{Fakhouri}}, \textsc{{Gangler}}, \textsc{{Guy}}, \textsc{{Hsiao}},
+  \textsc{{Kerschhaggl}}, \textsc{{Kowalski}}, \textsc{{Loken}},
+  \textsc{{Nugent}}, \textsc{{Paech}}, \textsc{{Pain}},
+  \textsc{{P{\'e}contal}}, \textsc{{Pereira}}, \textsc{{Perlmutter}},
+  \textsc{{Rabinowitz}}, \textsc{{Rigault}}, \textsc{{Runge}},
+  \textsc{{Scalzo}}, \textsc{{Smadja}}, \textsc{{Tao}}, \textsc{{Thomas}},
+  \textsc{{Weaver}}, \textsc{{Wu}} et \textsc{{Nearby SuperNova
+  Factory}}}]{Buton2013}
+\textsc{{Buton} C.}, \textsc{{Copin} Y.}, \textsc{{Aldering} G.} {et~al.} 2013,
+  «~{Atmospheric extinction properties above Mauna Kea from the Nearby
+  SuperNova Factory spectro-photometric data set}~»,
   \href{http://dx.doi.org/10.1051/0004-6361/201219834}{\color{magenta}\aap},
   \href{https://ui.adsabs.harvard.edu/abs/2013A&A...549A...8B}{549, A8}
 
-\bibitem[{{Calzetti} {et~al.}(2000){Calzetti}, {Armus}, {Bohlin}, {Kinney},
-  {Koornneef}, \& {Storchi-Bergmann}}]{Calzetti2000}
-{Calzetti}, D., {Armus}, L., {Bohlin}, R.~C., {et~al.} 2000,
+\bibitem[{\textsc{{Calzetti}} {et~al.}(2000)\textsc{{Calzetti}},
+  \textsc{{Armus}}, \textsc{{Bohlin}}, \textsc{{Kinney}}, \textsc{{Koornneef}}
+  et \textsc{{Storchi-Bergmann}}}]{Calzetti2000}
+\textsc{{Calzetti} D.}, \textsc{{Armus} L.}, \textsc{{Bohlin} R.~C.} {et~al.}
+  2000, «~{The Dust Content and Opacity of Actively Star-forming Galaxies}~»,
   \href{http://dx.doi.org/10.1086/308692}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2000ApJ...533..682C}{533, 682}
 
-\bibitem[{{Calzetti} {et~al.}(1994){Calzetti}, {Kinney}, \&
-  {Storchi-Bergmann}}]{Calzetti1994}
-{Calzetti}, D., {Kinney}, A.~L., \& {Storchi-Bergmann}, T. 1994,
+\bibitem[{\textsc{{Calzetti}} {et~al.}(1994)\textsc{{Calzetti}},
+  \textsc{{Kinney}} et \textsc{{Storchi-Bergmann}}}]{Calzetti1994}
+\textsc{{Calzetti} D.}, \textsc{{Kinney} A.~L.} et \textsc{{Storchi-Bergmann}
+  T.} 1994, «~{Dust Extinction of the Stellar Continua in Starburst Galaxies:
+  The Ultraviolet and Optical Extinction Law}~»,
   \href{http://dx.doi.org/10.1086/174346}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/1994ApJ...429..582C}{429, 582}
 
-\bibitem[{{Cappellari} {et~al.}(2011){Cappellari}, {Emsellem}, {Krajnovi{\'c}},
-  {McDermid}, {Scott}, {Verdoes Kleijn}, {Young}, {Alatalo}, {Bacon}, {Blitz},
-  {Bois}, {Bournaud}, {Bureau}, {Davies}, {Davis}, {de Zeeuw}, {Duc},
-  {Khochfar}, {Kuntschner}, {Lablanche}, {Morganti}, {Naab}, {Oosterloo},
-  {Sarzi}, {Serra}, \& {Weijmans}}]{ATLAS3D}
-{Cappellari}, M., {Emsellem}, E., {Krajnovi{\'c}}, D., {et~al.} 2011,
+\bibitem[{\textsc{{Cappellari}} {et~al.}(2011)\textsc{{Cappellari}},
+  \textsc{{Emsellem}}, \textsc{{Krajnovi{\'c}}}, \textsc{{McDermid}},
+  \textsc{{Scott}}, \textsc{{Verdoes Kleijn}}, \textsc{{Young}},
+  \textsc{{Alatalo}}, \textsc{{Bacon}}, \textsc{{Blitz}}, \textsc{{Bois}},
+  \textsc{{Bournaud}}, \textsc{{Bureau}}, \textsc{{Davies}}, \textsc{{Davis}},
+  \textsc{{de Zeeuw}}, \textsc{{Duc}}, \textsc{{Khochfar}},
+  \textsc{{Kuntschner}}, \textsc{{Lablanche}}, \textsc{{Morganti}},
+  \textsc{{Naab}}, \textsc{{Oosterloo}}, \textsc{{Sarzi}}, \textsc{{Serra}} et
+  \textsc{{Weijmans}}}]{ATLAS3D}
+\textsc{{Cappellari} M.}, \textsc{{Emsellem} E.}, \textsc{{Krajnovi{\'c}} D.}
+  {et~al.} 2011, «~{The ATLAS$^{3D}$ project - I. A volume-limited sample of
+  260 nearby early-type galaxies: science goals and selection criteria}~»,
   \href{http://dx.doi.org/10.1111/j.1365-2966.2010.18174.x}{\color{magenta}\mnras},
   \href{https://ui.adsabs.harvard.edu/abs/2011MNRAS.413..813C}{413, 813}
 
-\bibitem[{{Carnall} {et~al.}(2019){Carnall}, {McLure}, {Dunlop}, {Cullen},
-  {McLeod}, {Wild}, {Johnson}, {Appleby}, {Dav\'e}, {Amorin}, {Bolzonella},
-  {Castellano}, {Cimatti}, {Cucciati}, {Gargiulo}, {Garilli}, {Marchi},
-  {Pentericci}, {Pozzetti}, {Schreiber}, {Talia}, \& {Zamorani}}]{Carnall2019}
-{Carnall}, A.~C., {McLure}, R.~J., {Dunlop}, J.~S., {et~al.} 2019,
+\bibitem[{\textsc{{Carnall}} {et~al.}(2019)\textsc{{Carnall}},
+  \textsc{{McLure}}, \textsc{{Dunlop}}, \textsc{{Cullen}}, \textsc{{McLeod}},
+  \textsc{{Wild}}, \textsc{{Johnson}}, \textsc{{Appleby}}, \textsc{{Dav\'e}},
+  \textsc{{Amorin}}, \textsc{{Bolzonella}}, \textsc{{Castellano}},
+  \textsc{{Cimatti}}, \textsc{{Cucciati}}, \textsc{{Gargiulo}},
+  \textsc{{Garilli}}, \textsc{{Marchi}}, \textsc{{Pentericci}},
+  \textsc{{Pozzetti}}, \textsc{{Schreiber}}, \textsc{{Talia}} et
+  \textsc{{Zamorani}}}]{Carnall2019}
+\textsc{{Carnall} A.~C.}, \textsc{{McLure} R.~J.}, \textsc{{Dunlop} J.~S.}
+  {et~al.} 2019, «~{The VANDELS survey: the star-formation histories of
+  massive quiescent galaxies at 1.0 < z < 1.3}~»,
   \href{http://dx.doi.org/10.1093/mnras/stz2544}{\color{magenta}\mnras},
   \href{https://ui.adsabs.harvard.edu/abs/2019MNRAS.490..417C}{490, 417}
 
-\bibitem[{{Carnall} {et~al.}(2018){Carnall}, {McLure}, {Dunlop}, \&
-  {Dav\'e}}]{Carnall2018}
-{Carnall}, A.~C., {McLure}, R.~J., {Dunlop}, J.~S., \& {Dav\'e}, R. 2018,
+\bibitem[{\textsc{{Carnall}} {et~al.}(2018)\textsc{{Carnall}},
+  \textsc{{McLure}}, \textsc{{Dunlop}} et \textsc{{Dav\'e}}}]{Carnall2018}
+\textsc{{Carnall} A.~C.}, \textsc{{McLure} R.~J.}, \textsc{{Dunlop} J.~S.} et
+  \textsc{{Dav\'e} R.} 2018, «~{Inferring the star formation histories of
+  massive quiescent galaxies with BAGPIPES: evidence for multiple quenching
+  mechanisms}~»,
   \href{http://dx.doi.org/10.1093/mnras/sty2169}{\color{magenta}\mnras},
   \href{https://ui.adsabs.harvard.edu/abs/2018MNRAS.480.4379C}{480, 4379}
 
-\bibitem[{{Casey}(2012)}]{Casey2012}
-{Casey}, C.~M. 2012,
+\bibitem[{\textsc{{Casey}}(2012)}]{Casey2012}
+\textsc{{Casey} C.~M.} 2012, «~{Far-infrared spectral energy distribution
+  fitting for galaxies near and far}~»,
   \href{http://dx.doi.org/10.1111/j.1365-2966.2012.21455.x}{\color{magenta}\mnras},
   \href{https://ui.adsabs.harvard.edu/abs/2012MNRAS.425.3094C}{425, 3094}
 
-\bibitem[{{Chambers} {et~al.}(2016){Chambers}, {Magnier}, {Metcalfe},
-  {Flewelling}, {Huber}, {Waters}, {Denneau}, {Draper}, {Farrow}, {Finkbeiner},
-  {Holmberg}, {Koppenhoefer}, {Price}, {Rest}, {Saglia}, {Schlafly}, {Smartt},
-  {Sweeney}, {Wainscoat}, {Burgett}, {Chastel}, {Grav}, {Heasley}, {Hodapp},
-  {Jedicke}, {Kaiser}, {Kudritzki}, {Luppino}, {Lupton}, {Monet}, {Morgan},
-  {Onaka}, {Shiao}, {Stubbs}, {Tonry}, {White}, {Ba{\~n}ados}, {Bell},
-  {Bender}, {Bernard}, {Boegner}, {Boffi}, {Botticella}, {Calamida},
-  {Casertano}, {Chen}, {Chen}, {Cole}, {Deacon}, {Frenk}, {Fitzsimmons},
-  {Gezari}, {Gibbs}, {Goessl}, {Goggia}, {Gourgue}, {Goldman}, {Grant},
-  {Grebel}, {Hambly}, {Hasinger}, {Heavens}, {Heckman}, {Henderson}, {Henning},
-  {Holman}, {Hopp}, {Ip}, {Isani}, {Jackson}, {Keyes}, {Koekemoer}, {Kotak},
-  {Le}, {Liska}, {Long}, {Lucey}, {Liu}, {Martin}, {Masci}, {McLean}, {Mindel},
-  {Misra}, {Morganson}, {Murphy}, {Obaika}, {Narayan}, {Nieto-Santisteban},
-  {Norberg}, {Peacock}, {Pier}, {Postman}, {Primak}, {Rae}, {Rai}, {Riess},
-  {Riffeser}, {Rix}, {R{\"o}ser}, {Russel}, {Rutz}, {Schilbach}, {Schultz},
-  {Scolnic}, {Strolger}, {Szalay}, {Seitz}, {Small}, {Smith}, {Soderblom},
-  {Taylor}, {Thomson}, {Taylor}, {Thakar}, {Thiel}, {Thilker}, {Unger},
-  {Urata}, {Valenti}, {Wagner}, {Walder}, {Walter}, {Watters}, {Werner},
-  {Wood-Vasey}, \& {Wyse}}]{ChambersPanstarrs}
-{Chambers}, K.~C., {Magnier}, E.~A., {Metcalfe}, N., {et~al.} 2016,
+\bibitem[{\textsc{{Chambers}} {et~al.}(2016{\natexlab{a}})\textsc{{Chambers}},
+  \textsc{{Magnier}}, \textsc{{Metcalfe}}, \textsc{{Flewelling}},
+  \textsc{{Huber}}, \textsc{{Waters}}, \textsc{{Denneau}}, \textsc{{Draper}},
+  \textsc{{Farrow}}, \textsc{{Finkbeiner}}, \textsc{{Holmberg}},
+  \textsc{{Koppenhoefer}}, \textsc{{Price}}, \textsc{{Rest}},
+  \textsc{{Saglia}}, \textsc{{Schlafly}}, \textsc{{Smartt}},
+  \textsc{{Sweeney}}, \textsc{{Wainscoat}}, \textsc{{Burgett}},
+  \textsc{{Chastel}}, \textsc{{Grav}}, \textsc{{Heasley}}, \textsc{{Hodapp}},
+  \textsc{{Jedicke}}, \textsc{{Kaiser}}, \textsc{{Kudritzki}},
+  \textsc{{Luppino}}, \textsc{{Lupton}}, \textsc{{Monet}}, \textsc{{Morgan}},
+  \textsc{{Onaka}}, \textsc{{Shiao}}, \textsc{{Stubbs}}, \textsc{{Tonry}},
+  \textsc{{White}}, \textsc{{Ba{\~n}ados}}, \textsc{{Bell}}, \textsc{{Bender}},
+  \textsc{{Bernard}}, \textsc{{Boegner}}, \textsc{{Boffi}},
+  \textsc{{Botticella}}, \textsc{{Calamida}}, \textsc{{Casertano}},
+  \textsc{{Chen}}, \textsc{{Chen}}, \textsc{{Cole}}, \textsc{{Deacon}},
+  \textsc{{Frenk}}, \textsc{{Fitzsimmons}}, \textsc{{Gezari}},
+  \textsc{{Gibbs}}, \textsc{{Goessl}}, \textsc{{Goggia}}, \textsc{{Gourgue}},
+  \textsc{{Goldman}}, \textsc{{Grant}}, \textsc{{Grebel}}, \textsc{{Hambly}},
+  \textsc{{Hasinger}}, \textsc{{Heavens}}, \textsc{{Heckman}},
+  \textsc{{Henderson}}, \textsc{{Henning}}, \textsc{{Holman}}, \textsc{{Hopp}},
+  \textsc{{Ip}}, \textsc{{Isani}}, \textsc{{Jackson}}, \textsc{{Keyes}},
+  \textsc{{Koekemoer}}, \textsc{{Kotak}}, \textsc{{Le}}, \textsc{{Liska}},
+  \textsc{{Long}}, \textsc{{Lucey}}, \textsc{{Liu}}, \textsc{{Martin}},
+  \textsc{{Masci}}, \textsc{{McLean}}, \textsc{{Mindel}}, \textsc{{Misra}},
+  \textsc{{Morganson}}, \textsc{{Murphy}}, \textsc{{Obaika}},
+  \textsc{{Narayan}}, \textsc{{Nieto-Santisteban}}, \textsc{{Norberg}},
+  \textsc{{Peacock}}, \textsc{{Pier}}, \textsc{{Postman}}, \textsc{{Primak}},
+  \textsc{{Rae}}, \textsc{{Rai}}, \textsc{{Riess}}, \textsc{{Riffeser}},
+  \textsc{{Rix}}, \textsc{{R{\"o}ser}}, \textsc{{Russel}}, \textsc{{Rutz}},
+  \textsc{{Schilbach}}, \textsc{{Schultz}}, \textsc{{Scolnic}},
+  \textsc{{Strolger}}, \textsc{{Szalay}}, \textsc{{Seitz}}, \textsc{{Small}},
+  \textsc{{Smith}}, \textsc{{Soderblom}}, \textsc{{Taylor}},
+  \textsc{{Thomson}}, \textsc{{Taylor}}, \textsc{{Thakar}}, \textsc{{Thiel}},
+  \textsc{{Thilker}}, \textsc{{Unger}}, \textsc{{Urata}}, \textsc{{Valenti}},
+  \textsc{{Wagner}}, \textsc{{Walder}}, \textsc{{Walter}}, \textsc{{Watters}},
+  \textsc{{Werner}}, \textsc{{Wood-Vasey}} et
+  \textsc{{Wyse}}}]{ChambersPanstarrs}
+\textsc{{Chambers} K.~C.}, \textsc{{Magnier} E.~A.}, \textsc{{Metcalfe} N.}
+  {et~al.} 2016{\natexlab{a}}, «~{The Pan-STARRS1 Surveys}~»,
   \href{https://ui.adsabs.harvard.edu/abs/2016arXiv161205560C}{arXiv e-prints,
   arXiv:1612.05560}
 
-\bibitem[{{Chary} \& {Elbaz}(2001)}]{CharyElbaz}
-{Chary}, R. \& {Elbaz}, D. 2001,
+\bibitem[{\textsc{{Chambers}} {et~al.}(2016{\natexlab{b}})\textsc{{Chambers}},
+  \textsc{{Magnier}}, \textsc{{Metcalfe}}, \textsc{{Flewelling}},
+  \textsc{{Huber}}, \textsc{{Waters}}, \textsc{{Denneau}}, \textsc{{Draper}},
+  \textsc{{Farrow}}, \textsc{{Finkbeiner}}, \textsc{{Holmberg}},
+  \textsc{{Koppenhoefer}}, \textsc{{Price}}, \textsc{{Rest}},
+  \textsc{{Saglia}}, \textsc{{Schlafly}}, \textsc{{Smartt}},
+  \textsc{{Sweeney}}, \textsc{{Wainscoat}}, \textsc{{Burgett}},
+  \textsc{{Chastel}}, \textsc{{Grav}}, \textsc{{Heasley}}, \textsc{{Hodapp}},
+  \textsc{{Jedicke}}, \textsc{{Kaiser}}, \textsc{{Kudritzki}},
+  \textsc{{Luppino}}, \textsc{{Lupton}}, \textsc{{Monet}}, \textsc{{Morgan}},
+  \textsc{{Onaka}}, \textsc{{Shiao}}, \textsc{{Stubbs}}, \textsc{{Tonry}},
+  \textsc{{White}}, \textsc{{Ba\~nados}}, \textsc{{Bell}}, \textsc{{Bender}},
+  \textsc{{Bernard}}, \textsc{{Boegner}}, \textsc{{Boffi}},
+  \textsc{{Botticella}}, \textsc{{Calamida}}, \textsc{{Casertano}},
+  \textsc{{Chen}}, \textsc{{Chen}}, \textsc{{Cole}}, \textsc{{Deacon}},
+  \textsc{{Frenk}}, \textsc{{Fitzsimmons}}, \textsc{{Gezari}},
+  \textsc{{Gibbs}}, \textsc{{Goessl}}, \textsc{{Goggia}}, \textsc{{Gourgue}},
+  \textsc{{Goldman}}, \textsc{{Grant}}, \textsc{{Grebel}}, \textsc{{Hambly}},
+  \textsc{{Hasinger}}, \textsc{{Heavens}}, \textsc{{Heckman}},
+  \textsc{{Henderson}}, \textsc{{Henning}}, \textsc{{Holman}}, \textsc{{Hopp}},
+  \textsc{{Ip}}, \textsc{{Isani}}, \textsc{{Jackson}}, \textsc{{Keyes}},
+  \textsc{{Koekemoer}}, \textsc{{Kotak}}, \textsc{{Le}}, \textsc{{Liska}},
+  \textsc{{Long}}, \textsc{{Lucey}}, \textsc{{Liu}}, \textsc{{Martin}},
+  \textsc{{Masci}}, \textsc{{McLean}}, \textsc{{Mindel}}, \textsc{{Misra}},
+  \textsc{{Morganson}}, \textsc{{Murphy}}, \textsc{{Obaika}},
+  \textsc{{Narayan}}, \textsc{{Nieto-Santisteban}}, \textsc{{Norberg}},
+  \textsc{{Peacock}}, \textsc{{Pier}}, \textsc{{Postman}}, \textsc{{Primak}},
+  \textsc{{Rae}}, \textsc{{Rai}}, \textsc{{Riess}}, \textsc{{Riffeser}},
+  \textsc{{Rix}}, \textsc{{R\"oser}}, \textsc{{Russel}}, \textsc{{Rutz}},
+  \textsc{{Schilbach}}, \textsc{{Schultz}}, \textsc{{Scolnic}},
+  \textsc{{Strolger}}, \textsc{{Szalay}}, \textsc{{Seitz}}, \textsc{{Small}},
+  \textsc{{Smith}}, \textsc{{Soderblom}}, \textsc{{Taylor}},
+  \textsc{{Thomson}}, \textsc{{Taylor}}, \textsc{{Thakar}}, \textsc{{Thiel}},
+  \textsc{{Thilker}}, \textsc{{Unger}}, \textsc{{Urata}}, \textsc{{Valenti}},
+  \textsc{{Wagner}}, \textsc{{Walder}}, \textsc{{Walter}}, \textsc{{Watters}},
+  \textsc{{Werner}}, \textsc{{Wood-Vasey}} et
+  \textsc{{Wyse}}}]{ChambersPS1survey}
+\textsc{{Chambers} K.~C.}, \textsc{{Magnier} E.~A.}, \textsc{{Metcalfe} N.}
+  {et~al.} 2016{\natexlab{b}}, «~{The Pan-STARRS1 Surveys}~»,
+  \href{https://ui.adsabs.harvard.edu/abs/2016arXiv161205560C}{arXiv e-prints,
+  arXiv:1612.05560}
+
+\bibitem[{\textsc{{Chary}} et \textsc{{Elbaz}}(2001)}]{CharyElbaz}
+\textsc{{Chary} R.} et \textsc{{Elbaz} D.} 2001, «~{Interpreting the Cosmic
+  Infrared Background: Constraints on the Evolution of the Dust-enshrouded Star
+  Formation Rate}~»,
   \href{http://dx.doi.org/10.1086/321609}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2001ApJ...556..562C}{556, 562}
 
-\bibitem[{{Chevallard} \& {Charlot}(2016)}]{Chevallard2016}
-{Chevallard}, J. \& {Charlot}, S. 2016,
+\bibitem[{\textsc{{Chevallard}} et \textsc{{Charlot}}(2016)}]{Chevallard2016}
+\textsc{{Chevallard} J.} et \textsc{{Charlot} S.} 2016, «~{Modelling and
+  interpreting spectral energy distributions of galaxies with BEAGLE}~»,
   \href{http://dx.doi.org/10.1093/mnras/stw1756}{\color{magenta}\mnras},
   \href{https://ui.adsabs.harvard.edu/abs/2016MNRAS.462.1415C}{462, 1415}
 
-\bibitem[{{Conroy}(2013)}]{Conroy2013}
-{Conroy}, C. 2013,
+\bibitem[{\textsc{{Conroy}}(2013)}]{Conroy2013}
+\textsc{{Conroy} C.} 2013, «~{Modeling the Panchromatic Spectral Energy
+  Distributions of Galaxies}~»,
   \href{http://dx.doi.org/10.1146/annurev-astro-082812-141017}{\color{magenta}\araa},
   \href{https://ui.adsabs.harvard.edu/abs/2013ARA&A..51..393C}{51, 393}
 
-\bibitem[{{Content}(1997)}]{ContentIFUslicer}
-{Content}, R. 1997, in Society of Photo-Optical Instrumentation Engineers
-  (SPIE) Conference Series, Vol. 2871, Optical Telescopes of Today and
-  Tomorrow, ed. A.~L. {Ardeberg},
+\bibitem[{\textsc{{Content}}(1997)}]{ContentIFUslicer}
+\textsc{{Content} R.} 1997, «~{New design for integral field spectroscopy with
+  8-m telescopes}~», dans Society of Photo-Optical Instrumentation Engineers
+  (SPIE) Conference Series, Vol. 2871, {\em Optical Telescopes of Today and
+  Tomorrow}, ed. A.~L. {Ardeberg},
   \href{https://ui.adsabs.harvard.edu/abs/1997SPIE.2871.1295C}{1295--1305}
 
-\bibitem[{{da Cunha} {et~al.}(2008){da Cunha}, {Charlot}, \&
-  {Elbaz}}]{Cunha2008MAGPHYS}
-{da Cunha}, E., {Charlot}, S., \& {Elbaz}, D. 2008,
+\bibitem[{\textsc{{da Cunha}} {et~al.}(2008)\textsc{{da Cunha}},
+  \textsc{{Charlot}} et \textsc{{Elbaz}}}]{Cunha2008MAGPHYS}
+\textsc{{da Cunha} E.}, \textsc{{Charlot} S.} et \textsc{{Elbaz} D.} 2008,
+  «~{A simple model to interpret the ultraviolet, optical and infrared
+  emission from galaxies}~»,
   \href{http://dx.doi.org/10.1111/j.1365-2966.2008.13535.x}{\color{magenta}\mnras},
   \href{https://ui.adsabs.harvard.edu/abs/2008MNRAS.388.1595D}{388, 1595}
 
-\bibitem[{{Dale} {et~al.}(2014){Dale}, {Helou}, {Magdis}, {Armus},
-  {D{\'\i}az-Santos}, \& {Shi}}]{Dale2014}
-{Dale}, D.~A., {Helou}, G., {Magdis}, G.~E., {et~al.} 2014,
+\bibitem[{\textsc{{Dale}} {et~al.}(2014)\textsc{{Dale}}, \textsc{{Helou}},
+  \textsc{{Magdis}}, \textsc{{Armus}}, \textsc{{D{\'\i}az-Santos}} et
+  \textsc{{Shi}}}]{Dale2014}
+\textsc{{Dale} D.~A.}, \textsc{{Helou} G.}, \textsc{{Magdis} G.~E.} {et~al.}
+  2014, «~{A Two-parameter Model for the Infrared/Submillimeter/Radio Spectral
+  Energy Distributions of Galaxies and Active Galactic Nuclei}~»,
   \href{http://dx.doi.org/10.1088/0004-637X/784/1/83}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2014ApJ...784...83D}{784, 83}
 
-\bibitem[{{Dekany} {et~al.}(2020){Dekany}, {Smith}, {Riddle}, {Feeney},
-  {Porter}, {Hale}, {Zolkower}, {Belicki}, {Kaye}, {Henning}, {Walters},
-  {Cromer}, {Delacroix}, {Rodriguez}, {Reiley}, {Mao}, {Hover}, {Murphy},
-  {Burruss}, {Baker}, {Kowalski}, {Reif}, {Mueller}, {Bellm}, {Graham}, \&
-  {Kulkarni}}]{DekanyZTF2020}
-{Dekany}, R., {Smith}, R.~M., {Riddle}, R., {et~al.} 2020,
+\bibitem[{\textsc{{Dekany}} {et~al.}(2020)\textsc{{Dekany}}, \textsc{{Smith}},
+  \textsc{{Riddle}}, \textsc{{Feeney}}, \textsc{{Porter}}, \textsc{{Hale}},
+  \textsc{{Zolkower}}, \textsc{{Belicki}}, \textsc{{Kaye}}, \textsc{{Henning}},
+  \textsc{{Walters}}, \textsc{{Cromer}}, \textsc{{Delacroix}},
+  \textsc{{Rodriguez}}, \textsc{{Reiley}}, \textsc{{Mao}}, \textsc{{Hover}},
+  \textsc{{Murphy}}, \textsc{{Burruss}}, \textsc{{Baker}}, \textsc{{Kowalski}},
+  \textsc{{Reif}}, \textsc{{Mueller}}, \textsc{{Bellm}}, \textsc{{Graham}} et
+  \textsc{{Kulkarni}}}]{DekanyZTF2020}
+\textsc{{Dekany} R.}, \textsc{{Smith} R.~M.}, \textsc{{Riddle} R.} {et~al.}
+  2020, «~{The Zwicky Transient Facility: Observing System}~»,
   \href{http://dx.doi.org/10.1088/1538-3873/ab4ca2}{\color{magenta}\pasp},
   \href{https://ui.adsabs.harvard.edu/abs/2020PASP..132c8001D}{132, 038001}
 
-\bibitem[{{Dhawan} {et~al.}(2022){Dhawan}, {Goobar}, {Smith}, {Johansson},
-  {Rigault}, {Nordin}, {Biswas}, {Goldstein}, {Nugent}, {Kim}, {Miller},
-  {Graham}, {Medford}, {Kasliwal}, {Kulkarni}, {Duev}, {Bellm}, {Rosnet},
-  {Riddle}, \& {Sollerman}}]{DhawanZTFDR1}
-{Dhawan}, S., {Goobar}, A., {Smith}, M., {et~al.} 2022,
+\bibitem[{\textsc{{Dhawan}} {et~al.}(2022)\textsc{{Dhawan}}, \textsc{{Goobar}},
+  \textsc{{Smith}}, \textsc{{Johansson}}, \textsc{{Rigault}},
+  \textsc{{Nordin}}, \textsc{{Biswas}}, \textsc{{Goldstein}},
+  \textsc{{Nugent}}, \textsc{{Kim}}, \textsc{{Miller}}, \textsc{{Graham}},
+  \textsc{{Medford}}, \textsc{{Kasliwal}}, \textsc{{Kulkarni}},
+  \textsc{{Duev}}, \textsc{{Bellm}}, \textsc{{Rosnet}}, \textsc{{Riddle}} et
+  \textsc{{Sollerman}}}]{DhawanZTFDR1}
+\textsc{{Dhawan} S.}, \textsc{{Goobar} A.}, \textsc{{Smith} M.} {et~al.} 2022,
+  «~{The Zwicky Transient Facility Type Ia supernova survey: first data
+  release and results}~»,
   \href{http://dx.doi.org/10.1093/mnras/stab3093}{\color{magenta}\mnras},
   \href{https://ui.adsabs.harvard.edu/abs/2022MNRAS.510.2228D}{510, 2228}
 
-\bibitem[{{Draine} \& {Li}(2007)}]{Draine2007}
-{Draine}, B.~T. \& {Li}, A. 2007,
-  \href{http://dx.doi.org/10.1086/511055}{\color{magenta}\apj},
+\bibitem[{\textsc{{Draine}} et \textsc{{Li}}(2007)}]{Draine2007}
+\textsc{{Draine} B.~T.} et \textsc{{Li} A.} 2007, «~{Infrared Emission from
+  Interstellar Dust. IV. The Silicate-Graphite-PAH Model in the Post-Spitzer
+  Era}~», \href{http://dx.doi.org/10.1086/511055}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2007ApJ...657..810D}{657, 810}
 
-\bibitem[{{Fioc} \& {Rocca-Volmerange}(1997)}]{Fioc1997}
-{Fioc}, M. \& {Rocca-Volmerange}, B. 1997, \aap,
+\bibitem[{\textsc{{Fioc}} et \textsc{{Rocca-Volmerange}}(1997)}]{Fioc1997}
+\textsc{{Fioc} M.} et \textsc{{Rocca-Volmerange} B.} 1997, «~{PEGASE: a UV to
+  NIR spectral evolution model of galaxies. Application to the calibration of
+  bright galaxy counts.}~», \aap,
   \href{https://ui.adsabs.harvard.edu/abs/1997A&A...326..950F}{326, 950}
 
-\bibitem[{{Fremling} {et~al.}(2020){Fremling}, {Miller}, {Sharma}, {Dugas},
-  {Perley}, {Taggart}, {Sollerman}, {Goobar}, {Graham}, {Neill}, {Nordin},
-  {Rigault}, {Walters}, {Andreoni}, {Bagdasaryan}, {Belicki}, {Cannella},
-  {Bellm}, {Cenko}, {De}, {Dekany}, {Frederick}, {Golkhou}, {Graham}, {Helou},
-  {Ho}, {Kasliwal}, {Kupfer}, {Laher}, {Mahabal}, {Masci}, {Riddle},
-  {Rusholme}, {Schulze}, {Shupe}, {Smith}, {van Velzen}, {Yan}, {Yao},
-  {Zhuang}, \& {Kulkarni}}]{FremlingZTFspec2020}
-{Fremling}, C., {Miller}, A.~A., {Sharma}, Y., {et~al.} 2020,
+\bibitem[{\textsc{{Fremling}} {et~al.}(2020)\textsc{{Fremling}},
+  \textsc{{Miller}}, \textsc{{Sharma}}, \textsc{{Dugas}}, \textsc{{Perley}},
+  \textsc{{Taggart}}, \textsc{{Sollerman}}, \textsc{{Goobar}},
+  \textsc{{Graham}}, \textsc{{Neill}}, \textsc{{Nordin}}, \textsc{{Rigault}},
+  \textsc{{Walters}}, \textsc{{Andreoni}}, \textsc{{Bagdasaryan}},
+  \textsc{{Belicki}}, \textsc{{Cannella}}, \textsc{{Bellm}}, \textsc{{Cenko}},
+  \textsc{{De}}, \textsc{{Dekany}}, \textsc{{Frederick}}, \textsc{{Golkhou}},
+  \textsc{{Graham}}, \textsc{{Helou}}, \textsc{{Ho}}, \textsc{{Kasliwal}},
+  \textsc{{Kupfer}}, \textsc{{Laher}}, \textsc{{Mahabal}}, \textsc{{Masci}},
+  \textsc{{Riddle}}, \textsc{{Rusholme}}, \textsc{{Schulze}}, \textsc{{Shupe}},
+  \textsc{{Smith}}, \textsc{{van Velzen}}, \textsc{{Yan}}, \textsc{{Yao}},
+  \textsc{{Zhuang}} et \textsc{{Kulkarni}}}]{FremlingZTFspec2020}
+\textsc{{Fremling} C.}, \textsc{{Miller} A.~A.}, \textsc{{Sharma} Y.} {et~al.}
+  2020, «~{The Zwicky Transient Facility Bright Transient Survey. I.
+  Spectroscopic Classification and the Redshift Completeness of Local Galaxy
+  Catalogs}~»,
   \href{http://dx.doi.org/10.3847/1538-4357/ab8943}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2020ApJ...895...32F}{895, 32}
 
-\bibitem[{{Graham} {et~al.}(2019){Graham}, {Kulkarni}, {Bellm}, {Adams},
-  {Barbarino}, {Blagorodnova}, {Bodewits}, {Bolin}, {Brady}, {Cenko}, {Chang},
-  {Coughlin}, {De}, {Eadie}, {Farnham}, {Feindt}, {Franckowiak}, {Fremling},
-  {Gezari}, {Ghosh}, {Goldstein}, {Golkhou}, {Goobar}, {Ho}, {Huppenkothen},
-  {Ivezic}, {Jones}, {Juric}, {Kaplan}, {Kasliwal}, {Kelley}, {Kupfer}, {Lee},
-  {Lin}, {Lunnan}, {Mahabal}, {Miller}, {Ngeow}, {Nugent}, {Ofek}, {Prince},
-  {Rauch}, {van Roestel}, {Schulze}, {Singer}, {Sollerman}, {Taddia}, {Yan},
-  {Ye}, {Yu}, {Barlow}, {Bauer}, {Beck}, {Belicki}, {Biswas}, {Brinnel},
-  {Brooke}, {Bue}, {Bulla}, {Burruss}, {Connolly}, {Cromer}, {Cunningham},
-  {Dekany}, {Delacroix}, {Desai}, {Duev}, {Feeney}, {Flynn}, {Frederick},
-  {Gal-Yam}, {Giomi}, {Groom}, {Hacopians}, {Hale}, {Helou}, {Henning},
-  {Hover}, {Hillenbrand}, {Howell}, {Hung}, {Imel}, {Ip}, {Jackson}, {Kaspi},
-  {Kaye}, {Kowalski}, {Kramer}, {Kuhn}, {Landry}, {Laher}, {Mao}, {Masci},
-  {Monkewitz}, {Murphy}, {Nordin}, {Patterson}, {Penprase}, {Porter},
-  {Rebbapragada}, {Reiley}, {Riddle}, {Rigault}, {Rodriguez}, {Rusholme}, {van
-  Santen}, {Shupe}, {Smith}, {Soumagnac}, {Stein}, {Surace}, {Szkody}, {Terek},
-  {Van Sistine}, {van Velzen}, {Vestrand}, {Walters}, {Ward}, {Zhang}, \&
-  {Zolkower}}]{GrahamZTF2019}
-{Graham}, M.~J., {Kulkarni}, S.~R., {Bellm}, E.~C., {et~al.} 2019,
+\bibitem[{\textsc{{Fukugita}} {et~al.}(1996)\textsc{{Fukugita}},
+  \textsc{{Ichikawa}}, \textsc{{Gunn}}, \textsc{{Doi}}, \textsc{{Shimasaku}} et
+  \textsc{{Schneider}}}]{Fukugita1996}
+\textsc{{Fukugita} M.}, \textsc{{Ichikawa} T.}, \textsc{{Gunn} J.~E.} {et~al.}
+  1996, «~{The Sloan Digital Sky Survey Photometric System}~»,
+  \href{http://dx.doi.org/10.1086/117915}{\color{magenta}\aj},
+  \href{https://ui.adsabs.harvard.edu/abs/1996AJ....111.1748F}{111, 1748}
+
+\bibitem[{\textsc{{Graham}} {et~al.}(2019)\textsc{{Graham}},
+  \textsc{{Kulkarni}}, \textsc{{Bellm}}, \textsc{{Adams}},
+  \textsc{{Barbarino}}, \textsc{{Blagorodnova}}, \textsc{{Bodewits}},
+  \textsc{{Bolin}}, \textsc{{Brady}}, \textsc{{Cenko}}, \textsc{{Chang}},
+  \textsc{{Coughlin}}, \textsc{{De}}, \textsc{{Eadie}}, \textsc{{Farnham}},
+  \textsc{{Feindt}}, \textsc{{Franckowiak}}, \textsc{{Fremling}},
+  \textsc{{Gezari}}, \textsc{{Ghosh}}, \textsc{{Goldstein}},
+  \textsc{{Golkhou}}, \textsc{{Goobar}}, \textsc{{Ho}},
+  \textsc{{Huppenkothen}}, \textsc{{Ivezic}}, \textsc{{Jones}},
+  \textsc{{Juric}}, \textsc{{Kaplan}}, \textsc{{Kasliwal}}, \textsc{{Kelley}},
+  \textsc{{Kupfer}}, \textsc{{Lee}}, \textsc{{Lin}}, \textsc{{Lunnan}},
+  \textsc{{Mahabal}}, \textsc{{Miller}}, \textsc{{Ngeow}}, \textsc{{Nugent}},
+  \textsc{{Ofek}}, \textsc{{Prince}}, \textsc{{Rauch}}, \textsc{{van Roestel}},
+  \textsc{{Schulze}}, \textsc{{Singer}}, \textsc{{Sollerman}},
+  \textsc{{Taddia}}, \textsc{{Yan}}, \textsc{{Ye}}, \textsc{{Yu}},
+  \textsc{{Barlow}}, \textsc{{Bauer}}, \textsc{{Beck}}, \textsc{{Belicki}},
+  \textsc{{Biswas}}, \textsc{{Brinnel}}, \textsc{{Brooke}}, \textsc{{Bue}},
+  \textsc{{Bulla}}, \textsc{{Burruss}}, \textsc{{Connolly}}, \textsc{{Cromer}},
+  \textsc{{Cunningham}}, \textsc{{Dekany}}, \textsc{{Delacroix}},
+  \textsc{{Desai}}, \textsc{{Duev}}, \textsc{{Feeney}}, \textsc{{Flynn}},
+  \textsc{{Frederick}}, \textsc{{Gal-Yam}}, \textsc{{Giomi}}, \textsc{{Groom}},
+  \textsc{{Hacopians}}, \textsc{{Hale}}, \textsc{{Helou}}, \textsc{{Henning}},
+  \textsc{{Hover}}, \textsc{{Hillenbrand}}, \textsc{{Howell}}, \textsc{{Hung}},
+  \textsc{{Imel}}, \textsc{{Ip}}, \textsc{{Jackson}}, \textsc{{Kaspi}},
+  \textsc{{Kaye}}, \textsc{{Kowalski}}, \textsc{{Kramer}}, \textsc{{Kuhn}},
+  \textsc{{Landry}}, \textsc{{Laher}}, \textsc{{Mao}}, \textsc{{Masci}},
+  \textsc{{Monkewitz}}, \textsc{{Murphy}}, \textsc{{Nordin}},
+  \textsc{{Patterson}}, \textsc{{Penprase}}, \textsc{{Porter}},
+  \textsc{{Rebbapragada}}, \textsc{{Reiley}}, \textsc{{Riddle}},
+  \textsc{{Rigault}}, \textsc{{Rodriguez}}, \textsc{{Rusholme}}, \textsc{{van
+  Santen}}, \textsc{{Shupe}}, \textsc{{Smith}}, \textsc{{Soumagnac}},
+  \textsc{{Stein}}, \textsc{{Surace}}, \textsc{{Szkody}}, \textsc{{Terek}},
+  \textsc{{Van Sistine}}, \textsc{{van Velzen}}, \textsc{{Vestrand}},
+  \textsc{{Walters}}, \textsc{{Ward}}, \textsc{{Zhang}} et
+  \textsc{{Zolkower}}}]{GrahamZTF2019}
+\textsc{{Graham} M.~J.}, \textsc{{Kulkarni} S.~R.}, \textsc{{Bellm} E.~C.}
+  {et~al.} 2019, «~{The Zwicky Transient Facility: Science Objectives}~»,
   \href{http://dx.doi.org/10.1088/1538-3873/ab006c}{\color{magenta}\pasp},
   \href{https://ui.adsabs.harvard.edu/abs/2019PASP..131g8001G}{131, 078001}
 
-\bibitem[{{Guti\'errez} {et~al.}(2017){Guti\'errez}, {Anderson}, {Hamuy},
-  {Morrell}, {Gonz{\'a}lez-Gaitan}, {Stritzinger}, {Phillips}, {Galbany},
-  {Folatelli}, {Dessart}, {Contreras}, {Della Valle}, {Freedman}, {Hsiao},
-  {Krisciunas}, {Madore}, {Maza}, {Suntzeff}, {Prieto}, {Gonz{\'a}lez},
-  {Cappellaro}, {Navarrete}, {Pizzella}, {Ruiz}, {Smith}, \&
-  {Turatto}}]{GutierrezSNII}
-{Guti\'errez}, C.~P., {Anderson}, J.~P., {Hamuy}, M., {et~al.} 2017,
+\bibitem[{\textsc{{Guti\'errez}} {et~al.}(2017)\textsc{{Guti\'errez}},
+  \textsc{{Anderson}}, \textsc{{Hamuy}}, \textsc{{Morrell}},
+  \textsc{{Gonz{\'a}lez-Gaitan}}, \textsc{{Stritzinger}}, \textsc{{Phillips}},
+  \textsc{{Galbany}}, \textsc{{Folatelli}}, \textsc{{Dessart}},
+  \textsc{{Contreras}}, \textsc{{Della Valle}}, \textsc{{Freedman}},
+  \textsc{{Hsiao}}, \textsc{{Krisciunas}}, \textsc{{Madore}}, \textsc{{Maza}},
+  \textsc{{Suntzeff}}, \textsc{{Prieto}}, \textsc{{Gonz{\'a}lez}},
+  \textsc{{Cappellaro}}, \textsc{{Navarrete}}, \textsc{{Pizzella}},
+  \textsc{{Ruiz}}, \textsc{{Smith}} et \textsc{{Turatto}}}]{GutierrezSNII}
+\textsc{{Guti\'errez} C.~P.}, \textsc{{Anderson} J.~P.}, \textsc{{Hamuy} M.}
+  {et~al.} 2017, «~{Type II Supernova Spectral Diversity. I. Observations,
+  Sample Characterization, and Spectral Line Evolution}~»,
   \href{http://dx.doi.org/10.3847/1538-4357/aa8f52}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2017ApJ...850...89G}{850, 89}
 
-\bibitem[{{Hayes} \& {Latham}(1975)}]{Hayes1975atm}
-{Hayes}, D.~S. \& {Latham}, D.~W. 1975,
-  \href{http://dx.doi.org/10.1086/153548}{\color{magenta}\apj},
+\bibitem[{\textsc{{Hayes}} et \textsc{{Latham}}(1975)}]{Hayes1975atm}
+\textsc{{Hayes} D.~S.} et \textsc{{Latham} D.~W.} 1975, «~{A rediscussion of
+  the atmospheric extinction and the absolute spectral-energy distribution of
+  Vega.}~», \href{http://dx.doi.org/10.1086/153548}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/1975ApJ...197..593H}{197, 593}
 
-\bibitem[{{Howell} {et~al.}(2005){Howell}, {Sullivan}, {Perrett}, {Bronder},
-  {Hook}, {Astier}, {Aubourg}, {Balam}, {Basa}, {Carlberg}, {Fabbro},
-  {Fouchez}, {Guy}, {Lafoux}, {Neill}, {Pain}, {Palanque-Delabrouille},
-  {Pritchet}, {Regnault}, {Rich}, {Taillet}, {Knop}, {McMahon}, {Perlmutter},
-  \& {Walton}}]{HowellSuperfit}
-{Howell}, D.~A., {Sullivan}, M., {Perrett}, K., {et~al.} 2005,
+\bibitem[{\textsc{{Hodapp}} {et~al.}(2004{\natexlab{a}})\textsc{{Hodapp}},
+  \textsc{{Kaiser}}, \textsc{{Aussel}}, \textsc{{Burgett}},
+  \textsc{{Chambers}}, \textsc{{Chun}}, \textsc{{Dombeck}}, \textsc{{Douglas}},
+  \textsc{{Hafner}}, \textsc{{Heasley}}, \textsc{{Hoblitt}}, \textsc{{Hude}},
+  \textsc{{Isani}}, \textsc{{Jedicke}}, \textsc{{Jewitt}}, \textsc{{Laux}},
+  \textsc{{Luppino}}, \textsc{{Lupton}}, \textsc{{Maberry}},
+  \textsc{{Magnier}}, \textsc{{Mannery}}, \textsc{{Monet}}, \textsc{{Morgan}},
+  \textsc{{Onaka}}, \textsc{{Price}}, \textsc{{Ryan}}, \textsc{{Siegmund}},
+  \textsc{{Szapudi}}, \textsc{{Tonry}}, \textsc{{Wainscoat}} et
+  \textsc{{Waterson}}}]{Hodapp2004a}
+\textsc{{Hodapp} K.~W.}, \textsc{{Kaiser} N.}, \textsc{{Aussel} H.} {et~al.}
+  2004{\natexlab{a}}, «~{Design of the Pan-STARRS telescopes}~»,
+  \href{http://dx.doi.org/10.1002/asna.200410300}{\color{magenta}Astronomische
+  Nachrichten},
+  \href{https://ui.adsabs.harvard.edu/abs/2004AN....325..636H}{325, 636}
+
+\bibitem[{\textsc{{Hodapp}} {et~al.}(2004{\natexlab{b}})\textsc{{Hodapp}},
+  \textsc{{Laux}}, \textsc{{Siegmund}} et \textsc{{Kaiser}}}]{Hodapp2004b}
+\textsc{{Hodapp} K.~W.}, \textsc{{Laux} U.}, \textsc{{Siegmund} W.~A.} et
+  \textsc{{Kaiser} N.} 2004{\natexlab{b}}, «~{Optical design of the Pan-STARRS
+  telescopes}~», dans Society of Photo-Optical Instrumentation Engineers
+  (SPIE) Conference Series, Vol. 5249, {\em Optical Design and Engineering},
+  ed. L.~{Mazuray}, P.~J. {Rogers}, \& R.~{Wartmann},
+  \href{https://ui.adsabs.harvard.edu/abs/2004SPIE.5249..165H}{165--174}
+
+\bibitem[{\textsc{{Hodapp}} {et~al.}(2004{\natexlab{c}})\textsc{{Hodapp}},
+  \textsc{{Siegmund}}, \textsc{{Kaiser}}, \textsc{{Chambers}}, \textsc{{Laux}},
+  \textsc{{Morgan}} et \textsc{{Mannery}}}]{Hodapp2004c}
+\textsc{{Hodapp} K.~W.}, \textsc{{Siegmund} W.~A.}, \textsc{{Kaiser} N.}
+  {et~al.} 2004{\natexlab{c}}, «~{Optical design of the Pan-STARRS
+  telescopes}~», dans Society of Photo-Optical Instrumentation Engineers
+  (SPIE) Conference Series, Vol. 5489, {\em Ground-based Telescopes}, ed.
+  J.~{Oschmann}, Jacobus~M.,
+  \href{https://ui.adsabs.harvard.edu/abs/2004SPIE.5489..667H}{667--678}
+
+\bibitem[{\textsc{{Howell}} {et~al.}(2005)\textsc{{Howell}},
+  \textsc{{Sullivan}}, \textsc{{Perrett}}, \textsc{{Bronder}}, \textsc{{Hook}},
+  \textsc{{Astier}}, \textsc{{Aubourg}}, \textsc{{Balam}}, \textsc{{Basa}},
+  \textsc{{Carlberg}}, \textsc{{Fabbro}}, \textsc{{Fouchez}}, \textsc{{Guy}},
+  \textsc{{Lafoux}}, \textsc{{Neill}}, \textsc{{Pain}},
+  \textsc{{Palanque-Delabrouille}}, \textsc{{Pritchet}}, \textsc{{Regnault}},
+  \textsc{{Rich}}, \textsc{{Taillet}}, \textsc{{Knop}}, \textsc{{McMahon}},
+  \textsc{{Perlmutter}} et \textsc{{Walton}}}]{HowellSuperfit}
+\textsc{{Howell} D.~A.}, \textsc{{Sullivan} M.}, \textsc{{Perrett} K.} {et~al.}
+  2005, «~{Gemini Spectroscopy of Supernovae from the Supernova Legacy Survey:
+  Improving High-Redshift Supernova Selection and Classification}~»,
   \href{http://dx.doi.org/10.1086/497119}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1190H}{634, 1190}
 
-\bibitem[{{Johnson} {et~al.}(2021){Johnson}, {Leja}, {Conroy}, \&
-  {Speagle}}]{JohnsonProspector}
-{Johnson}, B.~D., {Leja}, J., {Conroy}, C., \& {Speagle}, J.~S. 2021,
+\bibitem[{\textsc{{Johnson}} {et~al.}(2021)\textsc{{Johnson}}, \textsc{{Leja}},
+  \textsc{{Conroy}} et \textsc{{Speagle}}}]{JohnsonProspector}
+\textsc{{Johnson} B.~D.}, \textsc{{Leja} J.}, \textsc{{Conroy} C.} et
+  \textsc{{Speagle} J.~S.} 2021, «~{Stellar Population Inference with
+  Prospector}~»,
   \href{http://dx.doi.org/10.3847/1538-4365/abef67}{\color{magenta}\apjs},
   \href{https://ui.adsabs.harvard.edu/abs/2021ApJS..254...22J}{254, 22}
 
-\bibitem[{{Jones} {et~al.}(2017){Jones}, {Scolnic}, {Riess}, {Kessler}, {Rest},
-  {Kirshner}, {Berger}, {Ortega}, {Foley}, {Chornock}, {Challis}, {Burgett},
-  {Chambers}, {Draper}, {Flewelling}, {Huber}, {Kaiser}, {Kudritzki},
-  {Metcalfe}, {Wainscoat}, \& {Waters}}]{JonesScolnic17SNcontam}
-{Jones}, D.~O., {Scolnic}, D.~M., {Riess}, A.~G., {et~al.} 2017,
+\bibitem[{\textsc{{Jones}} {et~al.}(2017)\textsc{{Jones}}, \textsc{{Scolnic}},
+  \textsc{{Riess}}, \textsc{{Kessler}}, \textsc{{Rest}}, \textsc{{Kirshner}},
+  \textsc{{Berger}}, \textsc{{Ortega}}, \textsc{{Foley}}, \textsc{{Chornock}},
+  \textsc{{Challis}}, \textsc{{Burgett}}, \textsc{{Chambers}},
+  \textsc{{Draper}}, \textsc{{Flewelling}}, \textsc{{Huber}},
+  \textsc{{Kaiser}}, \textsc{{Kudritzki}}, \textsc{{Metcalfe}},
+  \textsc{{Wainscoat}} et \textsc{{Waters}}}]{JonesScolnic17SNcontam}
+\textsc{{Jones} D.~O.}, \textsc{{Scolnic} D.~M.}, \textsc{{Riess} A.~G.}
+  {et~al.} 2017, «~{Measuring the Properties of Dark Energy with
+  Photometrically Classified Pan-STARRS Supernovae. I. Systematic Uncertainty
+  from Core-collapse Supernova Contamination}~»,
   \href{http://dx.doi.org/10.3847/1538-4357/aa767b}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2017ApJ...843....6J}{843, 6}
 
-\bibitem[{{Kauffmann} {et~al.}(2003){Kauffmann}, {Heckman}, {White}, {Charlot},
-  {Tremonti}, {Brinchmann}, {Bruzual}, {Peng}, {Seibert}, {Bernardi},
-  {Blanton}, {Brinkmann}, {Castander}, {Cs{\'a}bai}, {Fukugita}, {Ivezic},
-  {Munn}, {Nichol}, {Padmanabhan}, {Thakar}, {Weinberg}, \&
-  {York}}]{Kauffman2003}
-{Kauffmann}, G., {Heckman}, T.~M., {White}, S. D.~M., {et~al.} 2003,
+\bibitem[{\textsc{{Kaiser}} {et~al.}(2002)\textsc{{Kaiser}}, \textsc{{Aussel}},
+  \textsc{{Burke}}, \textsc{{Boesgaard}}, \textsc{{Chambers}}, \textsc{{Chun}},
+  \textsc{{Heasley}}, \textsc{{Hodapp}}, \textsc{{Hunt}}, \textsc{{Jedicke}},
+  \textsc{{Jewitt}}, \textsc{{Kudritzki}}, \textsc{{Luppino}},
+  \textsc{{Maberry}}, \textsc{{Magnier}}, \textsc{{Monet}}, \textsc{{Onaka}},
+  \textsc{{Pickles}}, \textsc{{Rhoads}}, \textsc{{Simon}}, \textsc{{Szalay}},
+  \textsc{{Szapudi}}, \textsc{{Tholen}}, \textsc{{Tonry}}, \textsc{{Waterson}}
+  et \textsc{{Wick}}}]{Kaiser2002}
+\textsc{{Kaiser} N.}, \textsc{{Aussel} H.}, \textsc{{Burke} B.~E.} {et~al.}
+  2002, «~{Pan-STARRS: A Large Synoptic Survey Telescope Array}~», dans
+  Society of Photo-Optical Instrumentation Engineers (SPIE) Conference Series,
+  Vol. 4836, {\em Survey and Other Telescope Technologies and Discoveries}, ed.
+  J.~A. {Tyson} \& S.~{Wolff},
+  \href{https://ui.adsabs.harvard.edu/abs/2002SPIE.4836..154K}{154--164}
+
+\bibitem[{\textsc{{Kaiser}} {et~al.}(2010)\textsc{{Kaiser}},
+  \textsc{{Burgett}}, \textsc{{Chambers}}, \textsc{{Denneau}},
+  \textsc{{Heasley}}, \textsc{{Jedicke}}, \textsc{{Magnier}},
+  \textsc{{Morgan}}, \textsc{{Onaka}} et \textsc{{Tonry}}}]{Kaiser2010}
+\textsc{{Kaiser} N.}, \textsc{{Burgett} W.}, \textsc{{Chambers} K.} {et~al.}
+  2010, «~{The Pan-STARRS wide-field optical/NIR imaging survey}~», dans
+  Society of Photo-Optical Instrumentation Engineers (SPIE) Conference Series,
+  Vol. 7733, {\em Ground-based and Airborne Telescopes III}, ed. L.~M. {Stepp},
+  R.~{Gilmozzi}, \& H.~J. {Hall},
+  \href{https://ui.adsabs.harvard.edu/abs/2010SPIE.7733E..0EK}{77330E}
+
+\bibitem[{\textsc{{Kauffmann}} {et~al.}(2003)\textsc{{Kauffmann}},
+  \textsc{{Heckman}}, \textsc{{White}}, \textsc{{Charlot}},
+  \textsc{{Tremonti}}, \textsc{{Brinchmann}}, \textsc{{Bruzual}},
+  \textsc{{Peng}}, \textsc{{Seibert}}, \textsc{{Bernardi}}, \textsc{{Blanton}},
+  \textsc{{Brinkmann}}, \textsc{{Castander}}, \textsc{{Cs{\'a}bai}},
+  \textsc{{Fukugita}}, \textsc{{Ivezic}}, \textsc{{Munn}}, \textsc{{Nichol}},
+  \textsc{{Padmanabhan}}, \textsc{{Thakar}}, \textsc{{Weinberg}} et
+  \textsc{{York}}}]{Kauffman2003}
+\textsc{{Kauffmann} G.}, \textsc{{Heckman} T.~M.}, \textsc{{White} S. D.~M.}
+  {et~al.} 2003, «~{Stellar masses and star formation histories for $10^{5}$
+  galaxies from the Sloan Digital Sky Survey}~»,
   \href{http://dx.doi.org/10.1046/j.1365-8711.2003.06291.x}{\color{magenta}\mnras},
   \href{https://ui.adsabs.harvard.edu/abs/2003MNRAS.341...33K}{341, 33}
 
-\bibitem[{{Kim} {et~al.}(2022){Kim}, {Rigault}, {Neill}, {Briday}, {Copin},
-  {Lezmy}, {Nicolas}, {Riddle}, {Sharma}, {Smith}, {Sollerman}, \&
-  {Walters}}]{Kimcontsep}
-{Kim}, Y.~L., {Rigault}, M., {Neill}, J.~D., {et~al.} 2022,
+\bibitem[{\textsc{{Kim}} {et~al.}(2022)\textsc{{Kim}}, \textsc{{Rigault}},
+  \textsc{{Neill}}, \textsc{{Briday}}, \textsc{{Copin}}, \textsc{{Lezmy}},
+  \textsc{{Nicolas}}, \textsc{{Riddle}}, \textsc{{Sharma}}, \textsc{{Smith}},
+  \textsc{{Sollerman}} et \textsc{{Walters}}}]{Kimcontsep}
+\textsc{{Kim} Y.~L.}, \textsc{{Rigault} M.}, \textsc{{Neill} J.~D.} {et~al.}
+  2022, «~{New Modules for the SEDMachine to Remove Contaminations from Cosmic
+  Rays and Non-target Light: BYECR and CONTSEP}~»,
   \href{http://dx.doi.org/10.1088/1538-3873/ac50a0}{\color{magenta}\pasp},
   \href{https://ui.adsabs.harvard.edu/abs/2022PASP..134b4505K}{134, 024505}
 
-\bibitem[{{Koleva} {et~al.}(2009){Koleva}, {Prugniel}, {Bouchard}, \&
-  {Wu}}]{KolevaUlyss}
-{Koleva}, M., {Prugniel}, P., {Bouchard}, A., \& {Wu}, Y. 2009,
+\bibitem[{\textsc{{Koleva}} {et~al.}(2009)\textsc{{Koleva}},
+  \textsc{{Prugniel}}, \textsc{{Bouchard}} et \textsc{{Wu}}}]{KolevaUlyss}
+\textsc{{Koleva} M.}, \textsc{{Prugniel} P.}, \textsc{{Bouchard} A.} et
+  \textsc{{Wu} Y.} 2009, «~{ULySS: a full spectrum fitting package}~»,
   \href{http://dx.doi.org/10.1051/0004-6361/200811467}{\color{magenta}\aap},
   \href{https://ui.adsabs.harvard.edu/abs/2009A&A...501.1269K}{501, 1269}
 
-\bibitem[{{Kormendy} \& {Ho}(2013)}]{Kormendy}
-{Kormendy}, J. \& {Ho}, L.~C. 2013,
+\bibitem[{\textsc{{Kormendy}} et \textsc{{Ho}}(2013)}]{Kormendy}
+\textsc{{Kormendy} J.} et \textsc{{Ho} L.~C.} 2013, «~{Coevolution (Or Not) of
+  Supermassive Black Holes and Host Galaxies}~»,
   \href{http://dx.doi.org/10.1146/annurev-astro-082708-101811}{\color{magenta}\araa},
   \href{https://ui.adsabs.harvard.edu/abs/2013ARA&A..51..511K}{51, 511}
 
-\bibitem[{{Lantz} {et~al.}(2004){Lantz}, {Aldering}, {Antilogus}, {Bonnaud},
-  {Capoani}, {Castera}, {Copin}, {Dubet}, {Gangler}, {Henault}, {Lemonnier},
-  {Pain}, {Pecontal}, {Pecontal}, \& {Smadja}}]{SNIFS2004}
-{Lantz}, B., {Aldering}, G., {Antilogus}, P., {et~al.} 2004, in Society of
-  Photo-Optical Instrumentation Engineers (SPIE) Conference Series, Vol. 5249,
-  Optical Design and Engineering, ed. L.~{Mazuray}, P.~J. {Rogers}, \&
-  R.~{Wartmann},
+\bibitem[{\textsc{{Lantz}} {et~al.}(2004)\textsc{{Lantz}}, \textsc{{Aldering}},
+  \textsc{{Antilogus}}, \textsc{{Bonnaud}}, \textsc{{Capoani}},
+  \textsc{{Castera}}, \textsc{{Copin}}, \textsc{{Dubet}}, \textsc{{Gangler}},
+  \textsc{{Henault}}, \textsc{{Lemonnier}}, \textsc{{Pain}},
+  \textsc{{Pecontal}}, \textsc{{Pecontal}} et \textsc{{Smadja}}}]{SNIFS2004}
+\textsc{{Lantz} B.}, \textsc{{Aldering} G.}, \textsc{{Antilogus} P.} {et~al.}
+  2004, «~{SNIFS: a wideband integral field spectrograph with microlens
+  arrays}~», dans Society of Photo-Optical Instrumentation Engineers (SPIE)
+  Conference Series, Vol. 5249, {\em Optical Design and Engineering}, ed.
+  L.~{Mazuray}, P.~J. {Rogers}, \& R.~{Wartmann},
   \href{https://ui.adsabs.harvard.edu/abs/2004SPIE.5249..146L}{146--155}
 
-\bibitem[{{Law} {et~al.}(2009){Law}, {Kulkarni}, {Dekany}, {Ofek}, {Quimby},
-  {Nugent}, {Surace}, {Grillmair}, {Bloom}, {Kasliwal}, {Bildsten}, {Brown},
-  {Cenko}, {Ciardi}, {Croner}, {Djorgovski}, {van Eyken}, {Filippenko}, {Fox},
-  {Gal-Yam}, {Hale}, {Hamam}, {Helou}, {Henning}, {Howell}, {Jacobsen},
-  {Laher}, {Mattingly}, {McKenna}, {Pickles}, {Poznanski}, {Rahmer}, {Rau},
-  {Rosing}, {Shara}, {Smith}, {Starr}, {Sullivan}, {Velur}, {Walters}, \&
-  {Zolkower}}]{LawPTF2009}
-{Law}, N.~M., {Kulkarni}, S.~R., {Dekany}, R.~G., {et~al.} 2009,
+\bibitem[{\textsc{{Law}} {et~al.}(2009)\textsc{{Law}}, \textsc{{Kulkarni}},
+  \textsc{{Dekany}}, \textsc{{Ofek}}, \textsc{{Quimby}}, \textsc{{Nugent}},
+  \textsc{{Surace}}, \textsc{{Grillmair}}, \textsc{{Bloom}},
+  \textsc{{Kasliwal}}, \textsc{{Bildsten}}, \textsc{{Brown}}, \textsc{{Cenko}},
+  \textsc{{Ciardi}}, \textsc{{Croner}}, \textsc{{Djorgovski}}, \textsc{{van
+  Eyken}}, \textsc{{Filippenko}}, \textsc{{Fox}}, \textsc{{Gal-Yam}},
+  \textsc{{Hale}}, \textsc{{Hamam}}, \textsc{{Helou}}, \textsc{{Henning}},
+  \textsc{{Howell}}, \textsc{{Jacobsen}}, \textsc{{Laher}},
+  \textsc{{Mattingly}}, \textsc{{McKenna}}, \textsc{{Pickles}},
+  \textsc{{Poznanski}}, \textsc{{Rahmer}}, \textsc{{Rau}}, \textsc{{Rosing}},
+  \textsc{{Shara}}, \textsc{{Smith}}, \textsc{{Starr}}, \textsc{{Sullivan}},
+  \textsc{{Velur}}, \textsc{{Walters}} et \textsc{{Zolkower}}}]{LawPTF2009}
+\textsc{{Law} N.~M.}, \textsc{{Kulkarni} S.~R.}, \textsc{{Dekany} R.~G.}
+  {et~al.} 2009, «~{The Palomar Transient Factory: System Overview,
+  Performance, and First Results}~»,
   \href{http://dx.doi.org/10.1086/648598}{\color{magenta}\pasp},
   \href{https://ui.adsabs.harvard.edu/abs/2009PASP..121.1395L}{121, 1395}
 
-\bibitem[{{Liu} \& {Modjaz}(2014)}]{Liu2014SNIbc}
-{Liu}, Y. \& {Modjaz}, M. 2014,
+\bibitem[{\textsc{{Liu}} et \textsc{{Modjaz}}(2014)}]{Liu2014SNIbc}
+\textsc{{Liu} Y.} et \textsc{{Modjaz} M.} 2014, «~{SuperNova IDentification
+  spectral templates of 70 stripped-envelope core-collapse supernovae}~»,
   \href{https://ui.adsabs.harvard.edu/abs/2014arXiv1405.1437L}{arXiv e-prints,
   arXiv:1405.1437}
 
-\bibitem[{{Liu} {et~al.}(2017){Liu}, {Modjaz}, \& {Bianco}}]{Liu2017SLSN}
-{Liu}, Y.-Q., {Modjaz}, M., \& {Bianco}, F.~B. 2017,
+\bibitem[{\textsc{{Liu}} {et~al.}(2017)\textsc{{Liu}}, \textsc{{Modjaz}} et
+  \textsc{{Bianco}}}]{Liu2017SLSN}
+\textsc{{Liu} Y.-Q.}, \textsc{{Modjaz} M.} et \textsc{{Bianco} F.~B.} 2017,
+  «~{Analyzing the Largest Spectroscopic Data Set of Hydrogen-poor
+  Super-luminous Supernovae}~»,
   \href{http://dx.doi.org/10.3847/1538-4357/aa7f74}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2017ApJ...845...85L}{845, 85}
 
-\bibitem[{{Liu} {et~al.}(2016){Liu}, {Modjaz}, {Bianco}, \& {Graur}}]{Liu2016}
-{Liu}, Y.-Q., {Modjaz}, M., {Bianco}, F.~B., \& {Graur}, O. 2016,
+\bibitem[{\textsc{{Liu}} {et~al.}(2016)\textsc{{Liu}}, \textsc{{Modjaz}},
+  \textsc{{Bianco}} et \textsc{{Graur}}}]{Liu2016}
+\textsc{{Liu} Y.-Q.}, \textsc{{Modjaz} M.}, \textsc{{Bianco} F.~B.} et
+  \textsc{{Graur} O.} 2016, «~{Analyzing the Largest Spectroscopic Data Set of
+  Stripped Supernovae to Improve Their Identifications and Constrain Their
+  Progenitors}~»,
   \href{http://dx.doi.org/10.3847/0004-637X/827/2/90}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2016ApJ...827...90L}{827, 90}
 
-\bibitem[{{Maraston}(2005)}]{Maraston2005}
-{Maraston}, C. 2005,
+\bibitem[{\textsc{{Maraston}}(2005)}]{Maraston2005}
+\textsc{{Maraston} C.} 2005, «~{Evolutionary population synthesis: models,
+  analysis of the ingredients and application to high-z galaxies}~»,
   \href{http://dx.doi.org/10.1111/j.1365-2966.2005.09270.x}{\color{magenta}\mnras},
   \href{https://ui.adsabs.harvard.edu/abs/2005MNRAS.362..799M}{362, 799}
 
-\bibitem[{{Masci} {et~al.}(2019){Masci}, {Laher}, {Rusholme}, {Shupe}, {Groom},
-  {Surace}, {Jackson}, {Monkewitz}, {Beck}, {Flynn}, {Terek}, {Landry},
-  {Hacopians}, {Desai}, {Howell}, {Brooke}, {Imel}, {Wachter}, {Ye}, {Lin},
-  {Cenko}, {Cunningham}, {Rebbapragada}, {Bue}, {Miller}, {Mahabal}, {Bellm},
-  {Patterson}, {Juric}, {Golkhou}, {Ofek}, {Walters}, {Graham}, {Kasliwal},
-  {Dekany}, {Kupfer}, {Burdge}, {Cannella}, {Barlow}, {Van Sistine}, {Giomi},
-  {Fremling}, {Blagorodnova}, {Levitan}, {Riddle}, {Smith}, {Helou}, {Prince},
-  \& {Kulkarni}}]{MasciZTF2019}
-{Masci}, F.~J., {Laher}, R.~R., {Rusholme}, B., {et~al.} 2019,
+\bibitem[{\textsc{{Masci}} {et~al.}(2019)\textsc{{Masci}}, \textsc{{Laher}},
+  \textsc{{Rusholme}}, \textsc{{Shupe}}, \textsc{{Groom}}, \textsc{{Surace}},
+  \textsc{{Jackson}}, \textsc{{Monkewitz}}, \textsc{{Beck}}, \textsc{{Flynn}},
+  \textsc{{Terek}}, \textsc{{Landry}}, \textsc{{Hacopians}}, \textsc{{Desai}},
+  \textsc{{Howell}}, \textsc{{Brooke}}, \textsc{{Imel}}, \textsc{{Wachter}},
+  \textsc{{Ye}}, \textsc{{Lin}}, \textsc{{Cenko}}, \textsc{{Cunningham}},
+  \textsc{{Rebbapragada}}, \textsc{{Bue}}, \textsc{{Miller}},
+  \textsc{{Mahabal}}, \textsc{{Bellm}}, \textsc{{Patterson}}, \textsc{{Juric}},
+  \textsc{{Golkhou}}, \textsc{{Ofek}}, \textsc{{Walters}}, \textsc{{Graham}},
+  \textsc{{Kasliwal}}, \textsc{{Dekany}}, \textsc{{Kupfer}}, \textsc{{Burdge}},
+  \textsc{{Cannella}}, \textsc{{Barlow}}, \textsc{{Van Sistine}},
+  \textsc{{Giomi}}, \textsc{{Fremling}}, \textsc{{Blagorodnova}},
+  \textsc{{Levitan}}, \textsc{{Riddle}}, \textsc{{Smith}}, \textsc{{Helou}},
+  \textsc{{Prince}} et \textsc{{Kulkarni}}}]{MasciZTF2019}
+\textsc{{Masci} F.~J.}, \textsc{{Laher} R.~R.}, \textsc{{Rusholme} B.} {et~al.}
+  2019, «~{The Zwicky Transient Facility: Data Processing, Products, and
+  Archive}~»,
   \href{http://dx.doi.org/10.1088/1538-3873/aae8ac}{\color{magenta}\pasp},
   \href{https://ui.adsabs.harvard.edu/abs/2019PASP..131a8003M}{131, 018003}
 
-\bibitem[{{McGregor} {et~al.}(2003){McGregor}, {Hart}, {Conroy}, {Pfitzner},
-  {Bloxham}, {Jones}, {Downing}, {Dawson}, {Young}, {Jarnyk}, \& {Van
-  Harmelen}}]{GeminiNIFS}
-{McGregor}, P.~J., {Hart}, J., {Conroy}, P.~G., {et~al.} 2003, in Society of
-  Photo-Optical Instrumentation Engineers (SPIE) Conference Series, Vol. 4841,
-  Instrument Design and Performance for Optical/Infrared Ground-based
-  Telescopes, ed. M.~{Iye} \& A.~F.~M. {Moorwood},
+\bibitem[{\textsc{{McGregor}} {et~al.}(2003)\textsc{{McGregor}},
+  \textsc{{Hart}}, \textsc{{Conroy}}, \textsc{{Pfitzner}}, \textsc{{Bloxham}},
+  \textsc{{Jones}}, \textsc{{Downing}}, \textsc{{Dawson}}, \textsc{{Young}},
+  \textsc{{Jarnyk}} et \textsc{{Van Harmelen}}}]{GeminiNIFS}
+\textsc{{McGregor} P.~J.}, \textsc{{Hart} J.}, \textsc{{Conroy} P.~G.} {et~al.}
+  2003, «~{Gemini near-infrared integral field spectrograph (NIFS)}~», dans
+  Society of Photo-Optical Instrumentation Engineers (SPIE) Conference Series,
+  Vol. 4841, {\em Instrument Design and Performance for Optical/Infrared
+  Ground-based Telescopes}, ed. M.~{Iye} \& A.~F.~M. {Moorwood},
   \href{https://ui.adsabs.harvard.edu/abs/2003SPIE.4841.1581M}{1581--1591}
 
-\bibitem[{{Minkowski} \& {Abell}(1963)}]{MinkowskiPOSS}
-{Minkowski}, R.~L. \& {Abell}, G.~O. 1963, in Basic Astronomical Data: Stars
-  and Stellar Systems, ed. K.~A. {Strand}, 481
+\bibitem[{\textsc{{Minkowski}} et \textsc{{Abell}}(1963)}]{MinkowskiPOSS}
+\textsc{{Minkowski} R.~L.} et \textsc{{Abell} G.~O.} 1963, dans {\em Basic
+  Astronomical Data: Stars and Stellar Systems}, ed. K.~A. {Strand}, 481
 
-\bibitem[{{Modjaz} {et~al.}(2016){Modjaz}, {Liu}, {Bianco}, \&
-  {Graur}}]{Mojdaz2016}
-{Modjaz}, M., {Liu}, Y.~Q., {Bianco}, F.~B., \& {Graur}, O. 2016,
+\bibitem[{\textsc{{Modjaz}} {et~al.}(2016)\textsc{{Modjaz}}, \textsc{{Liu}},
+  \textsc{{Bianco}} et \textsc{{Graur}}}]{Mojdaz2016}
+\textsc{{Modjaz} M.}, \textsc{{Liu} Y.~Q.}, \textsc{{Bianco} F.~B.} et
+  \textsc{{Graur} O.} 2016, «~{The Spectral SN-GRB Connection: Systematic
+  Spectral Comparisons between Type Ic Supernovae and Broad-lined Type Ic
+  Supernovae with and without Gamma-Ray Bursts}~»,
   \href{http://dx.doi.org/10.3847/0004-637X/832/2/108}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2016ApJ...832..108M}{832, 108}
 
-\bibitem[{{Muthukrishna} {et~al.}(2019){Muthukrishna}, {Parkinson}, \&
-  {Tucker}}]{MuthukrishnaDash}
-{Muthukrishna}, D., {Parkinson}, D., \& {Tucker}, B.~E. 2019,
+\bibitem[{\textsc{{Morgan}} et \textsc{{Kaiser}}(2008)}]{Morgan2008}
+\textsc{{Morgan} J.~S.} et \textsc{{Kaiser} N.} 2008, «~{Alignment of the
+  Pan-STARRS PS1 prototype telescope optics}~», dans Society of Photo-Optical
+  Instrumentation Engineers (SPIE) Conference Series, Vol. 7012, {\em
+  Ground-based and Airborne Telescopes II}, ed. L.~M. {Stepp} \& R.~{Gilmozzi},
+  \href{https://ui.adsabs.harvard.edu/abs/2008SPIE.7012E..1KM}{70121K}
+
+\bibitem[{\textsc{{Muthukrishna}} {et~al.}(2019)\textsc{{Muthukrishna}},
+  \textsc{{Parkinson}} et \textsc{{Tucker}}}]{MuthukrishnaDash}
+\textsc{{Muthukrishna} D.}, \textsc{{Parkinson} D.} et \textsc{{Tucker} B.~E.}
+  2019, «~{DASH: Deep Learning for the Automated Spectral Classification of
+  Supernovae and Their Hosts}~»,
   \href{http://dx.doi.org/10.3847/1538-4357/ab48f4}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2019ApJ...885...85M}{885, 85}
 
-\bibitem[{{Nicolas} {et~al.}(2021){Nicolas}, {Rigault}, {Copin}, {Graziani},
-  {Aldering}, {Briday}, {Kim}, {Nordin}, {Perlmutter}, \&
-  {Smith}}]{NoraNicolas21}
-{Nicolas}, N., {Rigault}, M., {Copin}, Y., {et~al.} 2021,
+\bibitem[{\textsc{{Nicolas}} {et~al.}(2021)\textsc{{Nicolas}},
+  \textsc{{Rigault}}, \textsc{{Copin}}, \textsc{{Graziani}},
+  \textsc{{Aldering}}, \textsc{{Briday}}, \textsc{{Kim}}, \textsc{{Nordin}},
+  \textsc{{Perlmutter}} et \textsc{{Smith}}}]{NoraNicolas21}
+\textsc{{Nicolas} N.}, \textsc{{Rigault} M.}, \textsc{{Copin} Y.} {et~al.}
+  2021, «~{Redshift evolution of the underlying type Ia supernova stretch
+  distribution}~»,
   \href{http://dx.doi.org/10.1051/0004-6361/202038447}{\color{magenta}\aap},
   \href{https://ui.adsabs.harvard.edu/abs/2021A&A...649A..74N}{649, A74}
 
-\bibitem[{{Noll} {et~al.}(2009){Noll}, {Burgarella}, {Giovannoli}, {Buat},
-  {Marcillac}, \& {Mu{\~n}oz-Mateos}}]{Noll2009}
-{Noll}, S., {Burgarella}, D., {Giovannoli}, E., {et~al.} 2009,
+\bibitem[{\textsc{{Noll}} {et~al.}(2009)\textsc{{Noll}}, \textsc{{Burgarella}},
+  \textsc{{Giovannoli}}, \textsc{{Buat}}, \textsc{{Marcillac}} et
+  \textsc{{Mu{\~n}oz-Mateos}}}]{Noll2009}
+\textsc{{Noll} S.}, \textsc{{Burgarella} D.}, \textsc{{Giovannoli} E.} {et~al.}
+  2009, «~{Analysis of galaxy spectral energy distributions from far-UV to
+  far-IR with CIGALE: studying a SINGS test sample}~»,
   \href{http://dx.doi.org/10.1051/0004-6361/200912497}{\color{magenta}\aap},
   \href{https://ui.adsabs.harvard.edu/abs/2009A&A...507.1793N}{507, 1793}
 
-\bibitem[{{Nordin} {et~al.}(2019){Nordin}, {Brinnel}, {van Santen}, {Bulla},
-  {Feindt}, {Franckowiak}, {Fremling}, {Gal-Yam}, {Giomi}, {Kowalski},
-  {Mahabal}, {Miranda}, {Rauch}, {Reusch}, {Rigault}, {Schulze}, {Sollerman},
-  {Stein}, {Yaron}, {van Velzen}, \& {Ward}}]{NordinAMPEL2019}
-{Nordin}, J., {Brinnel}, V., {van Santen}, J., {et~al.} 2019,
+\bibitem[{\textsc{{Nordin}} {et~al.}(2019)\textsc{{Nordin}},
+  \textsc{{Brinnel}}, \textsc{{van Santen}}, \textsc{{Bulla}},
+  \textsc{{Feindt}}, \textsc{{Franckowiak}}, \textsc{{Fremling}},
+  \textsc{{Gal-Yam}}, \textsc{{Giomi}}, \textsc{{Kowalski}},
+  \textsc{{Mahabal}}, \textsc{{Miranda}}, \textsc{{Rauch}}, \textsc{{Reusch}},
+  \textsc{{Rigault}}, \textsc{{Schulze}}, \textsc{{Sollerman}},
+  \textsc{{Stein}}, \textsc{{Yaron}}, \textsc{{van Velzen}} et
+  \textsc{{Ward}}}]{NordinAMPEL2019}
+\textsc{{Nordin} J.}, \textsc{{Brinnel} V.}, \textsc{{van Santen} J.} {et~al.}
+  2019, «~{Transient processing and analysis using AMPEL: alert management,
+  photometry, and evaluation of light curves}~»,
   \href{http://dx.doi.org/10.1051/0004-6361/201935634}{\color{magenta}\aap},
   \href{https://ui.adsabs.harvard.edu/abs/2019A&A...631A.147N}{631, A147}
 
-\bibitem[{{Ocvirk} {et~al.}(2006){Ocvirk}, {Pichon}, {Lançon}, \&
-  {Thi\'ebaut}}]{Ocvirk}
-{Ocvirk}, P., {Pichon}, C., {Lançon}, A., \& {Thi\'ebaut}, E. 2006,
+\bibitem[{\textsc{{Ocvirk}} {et~al.}(2006)\textsc{{Ocvirk}}, \textsc{{Pichon}},
+  \textsc{{Lançon}} et \textsc{{Thi\'ebaut}}}]{Ocvirk}
+\textsc{{Ocvirk} P.}, \textsc{{Pichon} C.}, \textsc{{Lançon} A.} et
+  \textsc{{Thi\'ebaut} E.} 2006, «~{STECMAP: STEllar Content from
+  high-resolution galactic spectra via Maximum A Posteriori}~»,
   \href{http://dx.doi.org/10.1111/j.1365-2966.2005.09182.x}{\color{magenta}\mnras},
   \href{https://ui.adsabs.harvard.edu/abs/2006MNRAS.365...46O}{365, 46}
 
-\bibitem[{{Papovich} {et~al.}(2001){Papovich}, {Dickinson}, \&
-  {Ferguson}}]{Papovich}
-{Papovich}, C., {Dickinson}, M., \& {Ferguson}, H.~C. 2001,
+\bibitem[{\textsc{{Oke}} et \textsc{{Gunn}}(1983)}]{Oke1983}
+\textsc{{Oke} J.~B.} et \textsc{{Gunn} J.~E.} 1983, «~{Secondary standard
+  stars for absolute spectrophotometry.}~»,
+  \href{http://dx.doi.org/10.1086/160817}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/1983ApJ...266..713O}{266, 713}
+
+\bibitem[{\textsc{{Papovich}} {et~al.}(2001)\textsc{{Papovich}},
+  \textsc{{Dickinson}} et \textsc{{Ferguson}}}]{Papovich}
+\textsc{{Papovich} C.}, \textsc{{Dickinson} M.} et \textsc{{Ferguson} H.~C.}
+  2001, «~{The Stellar Populations and Evolution of Lyman Break Galaxies}~»,
   \href{http://dx.doi.org/10.1086/322412}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2001ApJ...559..620P}{559, 620}
 
-\bibitem[{{Patterson} {et~al.}(2019){Patterson}, {Bellm}, {Rusholme}, {Masci},
-  {Juric}, {Krughoff}, {Golkhou}, {Graham}, {Kulkarni}, {Helou}, \& {Zwicky
-  Transient Facility Collaboration}}]{PattersonZTF2019}
-{Patterson}, M.~T., {Bellm}, E.~C., {Rusholme}, B., {et~al.} 2019,
+\bibitem[{\textsc{{Patterson}} {et~al.}(2019)\textsc{{Patterson}},
+  \textsc{{Bellm}}, \textsc{{Rusholme}}, \textsc{{Masci}}, \textsc{{Juric}},
+  \textsc{{Krughoff}}, \textsc{{Golkhou}}, \textsc{{Graham}},
+  \textsc{{Kulkarni}}, \textsc{{Helou}} et \textsc{{Zwicky Transient Facility
+  Collaboration}}}]{PattersonZTF2019}
+\textsc{{Patterson} M.~T.}, \textsc{{Bellm} E.~C.}, \textsc{{Rusholme} B.}
+  {et~al.} 2019, «~{The Zwicky Transient Facility Alert Distribution
+  System}~»,
   \href{http://dx.doi.org/10.1088/1538-3873/aae904}{\color{magenta}\pasp},
   \href{https://ui.adsabs.harvard.edu/abs/2019PASP..131a8001P}{131, 018001}
 
-\bibitem[{{Rau} {et~al.}(2009){Rau}, {Kulkarni}, {Law}, {Bloom}, {Ciardi},
-  {Djorgovski}, {Fox}, {Gal-Yam}, {Grillmair}, {Kasliwal}, {Nugent}, {Ofek},
-  {Quimby}, {Reach}, {Shara}, {Bildsten}, {Cenko}, {Drake}, {Filippenko},
-  {Helfand}, {Helou}, {Howell}, {Poznanski}, \& {Sullivan}}]{RauPTF2009}
-{Rau}, A., {Kulkarni}, S.~R., {Law}, N.~M., {et~al.} 2009,
-  \href{http://dx.doi.org/10.1086/605911}{\color{magenta}\pasp},
+\bibitem[{\textsc{{Rau}} {et~al.}(2009)\textsc{{Rau}}, \textsc{{Kulkarni}},
+  \textsc{{Law}}, \textsc{{Bloom}}, \textsc{{Ciardi}}, \textsc{{Djorgovski}},
+  \textsc{{Fox}}, \textsc{{Gal-Yam}}, \textsc{{Grillmair}},
+  \textsc{{Kasliwal}}, \textsc{{Nugent}}, \textsc{{Ofek}}, \textsc{{Quimby}},
+  \textsc{{Reach}}, \textsc{{Shara}}, \textsc{{Bildsten}}, \textsc{{Cenko}},
+  \textsc{{Drake}}, \textsc{{Filippenko}}, \textsc{{Helfand}},
+  \textsc{{Helou}}, \textsc{{Howell}}, \textsc{{Poznanski}} et
+  \textsc{{Sullivan}}}]{RauPTF2009}
+\textsc{{Rau} A.}, \textsc{{Kulkarni} S.~R.}, \textsc{{Law} N.~M.} {et~al.}
+  2009, «~{Exploring the Optical Transient Sky with the Palomar Transient
+  Factory}~», \href{http://dx.doi.org/10.1086/605911}{\color{magenta}\pasp},
   \href{https://ui.adsabs.harvard.edu/abs/2009PASP..121.1334R}{121, 1334}
 
-\bibitem[{{Rigault} {et~al.}(2019){Rigault}, {Neill}, {Blagorodnova}, {Dugas},
-  {Feeney}, {Walters}, {Brinnel}, {Copin}, {Fremling}, {Nordin}, \&
-  {Sollerman}}]{pysedm}
-{Rigault}, M., {Neill}, J.~D., {Blagorodnova}, N., {et~al.} 2019,
+\bibitem[{\textsc{{Rigault}} {et~al.}(2019)\textsc{{Rigault}},
+  \textsc{{Neill}}, \textsc{{Blagorodnova}}, \textsc{{Dugas}},
+  \textsc{{Feeney}}, \textsc{{Walters}}, \textsc{{Brinnel}}, \textsc{{Copin}},
+  \textsc{{Fremling}}, \textsc{{Nordin}} et \textsc{{Sollerman}}}]{pysedm}
+\textsc{{Rigault} M.}, \textsc{{Neill} J.~D.}, \textsc{{Blagorodnova} N.}
+  {et~al.} 2019, «~{Fully automated integral field spectrograph pipeline for
+  the SEDMachine: pysedm}~»,
   \href{http://dx.doi.org/10.1051/0004-6361/201935344}{\color{magenta}\aap},
   \href{https://ui.adsabs.harvard.edu/abs/2019A&A...627A.115R}{627, A115}
 
-\bibitem[{{Salim} {et~al.}(2007){Salim}, {Rich}, {Charlot}, {Brinchmann},
-  {Johnson}, {Schiminovich}, {Seibert}, {Mallery}, {Heckman}, {Forster},
-  {Friedman}, {Martin}, {Morrissey}, {Neff}, {Small}, {Wyder}, {Bianchi},
-  {Donas}, {Lee}, {Madore}, {Milliard}, {Szalay}, {Welsh}, \& {Yi}}]{Salim2007}
-{Salim}, S., {Rich}, R.~M., {Charlot}, S., {et~al.} 2007,
+\bibitem[{\textsc{{Salim}} {et~al.}(2007)\textsc{{Salim}}, \textsc{{Rich}},
+  \textsc{{Charlot}}, \textsc{{Brinchmann}}, \textsc{{Johnson}},
+  \textsc{{Schiminovich}}, \textsc{{Seibert}}, \textsc{{Mallery}},
+  \textsc{{Heckman}}, \textsc{{Forster}}, \textsc{{Friedman}},
+  \textsc{{Martin}}, \textsc{{Morrissey}}, \textsc{{Neff}}, \textsc{{Small}},
+  \textsc{{Wyder}}, \textsc{{Bianchi}}, \textsc{{Donas}}, \textsc{{Lee}},
+  \textsc{{Madore}}, \textsc{{Milliard}}, \textsc{{Szalay}}, \textsc{{Welsh}}
+  et \textsc{{Yi}}}]{Salim2007}
+\textsc{{Salim} S.}, \textsc{{Rich} R.~M.}, \textsc{{Charlot} S.} {et~al.}
+  2007, «~{UV Star Formation Rates in the Local Universe}~»,
   \href{http://dx.doi.org/10.1086/519218}{\color{magenta}\apjs},
   \href{https://ui.adsabs.harvard.edu/abs/2007ApJS..173..267S}{173, 267}
 
-\bibitem[{{Scolnic} {et~al.}(2021){Scolnic}, {Brout}, {Carr}, {Riess}, {Davis},
-  {Dwomoh}, {Jones}, {Ali}, {Charvu}, {Chen}, {Peterson}, {Popovic}, {Rose},
-  {Wood}, {Brown}, {Chambers}, {Coulter}, {Dettman}, {Dimitriadis},
-  {Filippenko}, {Foley}, {Jha}, {Kilpatrick}, {Kirshner}, {Pan}, {Rest},
-  {Rojas-Bravo}, {Siebert}, {Stahl}, \& {Zheng}}]{Scolnicpantheon21}
-{Scolnic}, D., {Brout}, D., {Carr}, A., {et~al.} 2021,
+\bibitem[{\textsc{{Scolnic}} {et~al.}(2021)\textsc{{Scolnic}},
+  \textsc{{Brout}}, \textsc{{Carr}}, \textsc{{Riess}}, \textsc{{Davis}},
+  \textsc{{Dwomoh}}, \textsc{{Jones}}, \textsc{{Ali}}, \textsc{{Charvu}},
+  \textsc{{Chen}}, \textsc{{Peterson}}, \textsc{{Popovic}}, \textsc{{Rose}},
+  \textsc{{Wood}}, \textsc{{Brown}}, \textsc{{Chambers}}, \textsc{{Coulter}},
+  \textsc{{Dettman}}, \textsc{{Dimitriadis}}, \textsc{{Filippenko}},
+  \textsc{{Foley}}, \textsc{{Jha}}, \textsc{{Kilpatrick}}, \textsc{{Kirshner}},
+  \textsc{{Pan}}, \textsc{{Rest}}, \textsc{{Rojas-Bravo}}, \textsc{{Siebert}},
+  \textsc{{Stahl}} et \textsc{{Zheng}}}]{Scolnicpantheon21}
+\textsc{{Scolnic} D.}, \textsc{{Brout} D.}, \textsc{{Carr} A.} {et~al.} 2021,
+  «~{The Pantheon+ Analysis: The Full Dataset and Light-Curve Release}~»,
   \href{https://ui.adsabs.harvard.edu/abs/2021arXiv211203863S}{arXiv e-prints,
   arXiv:2112.03863}
 
-\bibitem[{{Scolnic} \& {Kessler}(2016)}]{Scolnicbias2016}
-{Scolnic}, D. \& {Kessler}, R. 2016,
+\bibitem[{\textsc{{Scolnic}} et \textsc{{Kessler}}(2016)}]{Scolnicbias2016}
+\textsc{{Scolnic} D.} et \textsc{{Kessler} R.} 2016, «~{Measuring Type Ia
+  Supernova Populations of Stretch and Color and Predicting Distance
+  Biases}~»,
   \href{http://dx.doi.org/10.3847/2041-8205/822/2/L35}{\color{magenta}\apjl},
   \href{https://ui.adsabs.harvard.edu/abs/2016ApJ...822L..35S}{822, L35}
 
-\bibitem[{{Scolnic} {et~al.}(2018){Scolnic}, {Jones}, {Rest}, {Pan},
-  {Chornock}, {Foley}, {Huber}, {Kessler}, {Narayan}, {Riess}, {Rodney},
-  {Berger}, {Brout}, {Challis}, {Drout}, {Finkbeiner}, {Lunnan}, {Kirshner},
-  {Sanders}, {Schlafly}, {Smartt}, {Stubbs}, {Tonry}, {Wood-Vasey}, {Foley},
-  {Hand}, {Johnson}, {Burgett}, {Chambers}, {Draper}, {Hodapp}, {Kaiser},
-  {Kudritzki}, {Magnier}, {Metcalfe}, {Bresolin}, {Gall}, {Kotak}, {McCrum}, \&
-  {Smith}}]{Scolnicpantheon18}
-{Scolnic}, D.~M., {Jones}, D.~O., {Rest}, A., {et~al.} 2018,
+\bibitem[{\textsc{{Scolnic}} {et~al.}(2018)\textsc{{Scolnic}},
+  \textsc{{Jones}}, \textsc{{Rest}}, \textsc{{Pan}}, \textsc{{Chornock}},
+  \textsc{{Foley}}, \textsc{{Huber}}, \textsc{{Kessler}}, \textsc{{Narayan}},
+  \textsc{{Riess}}, \textsc{{Rodney}}, \textsc{{Berger}}, \textsc{{Brout}},
+  \textsc{{Challis}}, \textsc{{Drout}}, \textsc{{Finkbeiner}},
+  \textsc{{Lunnan}}, \textsc{{Kirshner}}, \textsc{{Sanders}},
+  \textsc{{Schlafly}}, \textsc{{Smartt}}, \textsc{{Stubbs}}, \textsc{{Tonry}},
+  \textsc{{Wood-Vasey}}, \textsc{{Foley}}, \textsc{{Hand}}, \textsc{{Johnson}},
+  \textsc{{Burgett}}, \textsc{{Chambers}}, \textsc{{Draper}},
+  \textsc{{Hodapp}}, \textsc{{Kaiser}}, \textsc{{Kudritzki}},
+  \textsc{{Magnier}}, \textsc{{Metcalfe}}, \textsc{{Bresolin}},
+  \textsc{{Gall}}, \textsc{{Kotak}}, \textsc{{McCrum}} et
+  \textsc{{Smith}}}]{Scolnicpantheon18}
+\textsc{{Scolnic} D.~M.}, \textsc{{Jones} D.~O.}, \textsc{{Rest} A.} {et~al.}
+  2018, «~{The Complete Light-curve Sample of Spectroscopically Confirmed SNe
+  Ia from Pan-STARRS1 and Cosmological Constraints from the Combined Pantheon
+  Sample}~»,
   \href{http://dx.doi.org/10.3847/1538-4357/aab9bb}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2018ApJ...859..101S}{859, 101}
 
-\bibitem[{{Silverman} {et~al.}(2012){Silverman}, {Foley}, {Filippenko},
-  {Ganeshalingam}, {Barth}, {Chornock}, {Griffith}, {Kong}, {Lee}, {Leonard},
-  {Matheson}, {Miller}, {Steele}, {Barris}, {Bloom}, {Cobb}, {Coil},
-  {Desroches}, {Gates}, {Ho}, {Jha}, {Kandrashoff}, {Li}, {Mandel}, {Modjaz},
-  {Moore}, {Mostardi}, {Papenkova}, {Park}, {Perley}, {Poznanski}, {Reuter},
-  {Scala}, {Serduke}, {Shields}, {Swift}, {Tonry}, {Van Dyk}, {Wang}, \&
-  {Wong}}]{Silverman2012}
-{Silverman}, J.~M., {Foley}, R.~J., {Filippenko}, A.~V., {et~al.} 2012,
+\bibitem[{\textsc{{Silverman}} {et~al.}(2012)\textsc{{Silverman}},
+  \textsc{{Foley}}, \textsc{{Filippenko}}, \textsc{{Ganeshalingam}},
+  \textsc{{Barth}}, \textsc{{Chornock}}, \textsc{{Griffith}}, \textsc{{Kong}},
+  \textsc{{Lee}}, \textsc{{Leonard}}, \textsc{{Matheson}}, \textsc{{Miller}},
+  \textsc{{Steele}}, \textsc{{Barris}}, \textsc{{Bloom}}, \textsc{{Cobb}},
+  \textsc{{Coil}}, \textsc{{Desroches}}, \textsc{{Gates}}, \textsc{{Ho}},
+  \textsc{{Jha}}, \textsc{{Kandrashoff}}, \textsc{{Li}}, \textsc{{Mandel}},
+  \textsc{{Modjaz}}, \textsc{{Moore}}, \textsc{{Mostardi}},
+  \textsc{{Papenkova}}, \textsc{{Park}}, \textsc{{Perley}},
+  \textsc{{Poznanski}}, \textsc{{Reuter}}, \textsc{{Scala}},
+  \textsc{{Serduke}}, \textsc{{Shields}}, \textsc{{Swift}}, \textsc{{Tonry}},
+  \textsc{{Van Dyk}}, \textsc{{Wang}} et \textsc{{Wong}}}]{Silverman2012}
+\textsc{{Silverman} J.~M.}, \textsc{{Foley} R.~J.}, \textsc{{Filippenko} A.~V.}
+  {et~al.} 2012, «~{Berkeley Supernova Ia Program - I. Observations, data
+  reduction and spectroscopic sample of 582 low-redshift Type Ia
+  supernovae}~»,
   \href{http://dx.doi.org/10.1111/j.1365-2966.2012.21270.x}{\color{magenta}\mnras},
   \href{https://ui.adsabs.harvard.edu/abs/2012MNRAS.425.1789S}{425, 1789}
 
-\bibitem[{Stubbs {et~al.}(2007)Stubbs, High, George, DeRose, Blondin, Tonry,
-  Chambers, Granett, Burke, \& Smith}]{Stubbs2007atm}
-Stubbs, C.~W., High, F.~W., George, M.~R., {et~al.} 2007,
+\bibitem[{\textsc{Stubbs} {et~al.}(2007)\textsc{Stubbs}, \textsc{High},
+  \textsc{George}, \textsc{DeRose}, \textsc{Blondin}, \textsc{Tonry},
+  \textsc{Chambers}, \textsc{Granett}, \textsc{Burke} et
+  \textsc{Smith}}]{Stubbs2007atm}
+\textsc{Stubbs C.~W.}, \textsc{High F.~W.}, \textsc{George M.~R.} {et~al.}
+  2007, «~Toward More Precise Survey Photometry for {PanSTARRS} and {LSST}:
+  Measuring Directly the Optical Transmission Spectrum of the Atmosphere~»,
   \href{http://dx.doi.org/10.1086/522208}{\color{magenta}Publications of the
   Astronomical Society of the Pacific}, 119, 1163
 
-\bibitem[{{Tinsley}(1980)}]{Tinsley1980}
-{Tinsley}, B.~M. 1980,
+\bibitem[{\textsc{{Tinsley}}(1980)}]{Tinsley1980}
+\textsc{{Tinsley} B.~M.} 1980, «~{Evolution of the Stars and Gas in
+  Galaxies}~»,
   \href{http://dx.doi.org/10.48550/arXiv.2203.02041}{\color{magenta}\fcp},
   \href{https://ui.adsabs.harvard.edu/abs/1980FCPh....5..287T}{5, 287}
 
-\bibitem[{{Tonry} \& {Davis}(1979)}]{TonryDavis}
-{Tonry}, J. \& {Davis}, M. 1979,
+\bibitem[{\textsc{{Tonry}} {et~al.}(1997)\textsc{{Tonry}}, \textsc{{Burke}} et
+  \textsc{{Schechter}}}]{Tonry1997OTA}
+\textsc{{Tonry} J.}, \textsc{{Burke} B.~E.} et \textsc{{Schechter} P.~L.} 1997,
+  «~{The Orthogonal Transfer CCD}~»,
+  \href{http://dx.doi.org/10.1086/133989}{\color{magenta}\pasp},
+  \href{https://ui.adsabs.harvard.edu/abs/1997PASP..109.1154T}{109, 1154}
+
+\bibitem[{\textsc{{Tonry}} et \textsc{{Davis}}(1979)}]{TonryDavis}
+\textsc{{Tonry} J.} et \textsc{{Davis} M.} 1979, «~{A survey of galaxy
+  redshifts. I. Data reduction techniques.}~»,
   \href{http://dx.doi.org/10.1086/112569}{\color{magenta}\aj},
   \href{https://ui.adsabs.harvard.edu/abs/1979AJ.....84.1511T}{84, 1511}
 
-\bibitem[{{Wade} \& {Horne}(1988)}]{Wade1988atm}
-{Wade}, R.~A. \& {Horne}, K. 1988,
+\bibitem[{\textsc{{Tonry}} {et~al.}(2006)\textsc{{Tonry}}, \textsc{{Onaka}},
+  \textsc{{Luppino}} et \textsc{{Isani}}}]{Tonry2006GPC1}
+\textsc{{Tonry} J.}, \textsc{{Onaka} P.}, \textsc{{Luppino} G.} et
+  \textsc{{Isani} S.} 2006, «~{The Pan-STARRS Gigapixel Camera}~», dans The
+  Advanced Maui Optical and Space Surveillance Technologies Conference,
+  \href{https://ui.adsabs.harvard.edu/abs/2006amos.confE..47T}{E47}
+
+\bibitem[{\textsc{{Tonry}} {et~al.}(2008)\textsc{{Tonry}}, \textsc{{Burke}},
+  \textsc{{Isani}}, \textsc{{Onaka}} et \textsc{{Cooper}}}]{Tonry2008GPC1}
+\textsc{{Tonry} J.~L.}, \textsc{{Burke} B.~E.}, \textsc{{Isani} S.},
+  \textsc{{Onaka} P.~M.} et \textsc{{Cooper} M.~J.} 2008, «~{Results from the
+  Pan-STARRS Orthogonal Transfer Array (OTA)}~», dans Society of Photo-Optical
+  Instrumentation Engineers (SPIE) Conference Series, Vol. 7021, {\em High
+  Energy, Optical, and Infrared Detectors for Astronomy III}, ed. D.~A. {Dorn}
+  \& A.~D. {Holland},
+  \href{https://ui.adsabs.harvard.edu/abs/2008SPIE.7021E..05T}{702105}
+
+\bibitem[{\textsc{{Tonry}} {et~al.}(2012)\textsc{{Tonry}}, \textsc{{Stubbs}},
+  \textsc{{Lykke}}, \textsc{{Doherty}}, \textsc{{Shivvers}},
+  \textsc{{Burgett}}, \textsc{{Chambers}}, \textsc{{Hodapp}},
+  \textsc{{Kaiser}}, \textsc{{Kudritzki}}, \textsc{{Magnier}},
+  \textsc{{Morgan}}, \textsc{{Price}} et \textsc{{Wainscoat}}}]{Tonry2012}
+\textsc{{Tonry} J.~L.}, \textsc{{Stubbs} C.~W.}, \textsc{{Lykke} K.~R.}
+  {et~al.} 2012, «~{The Pan-STARRS1 Photometric System}~»,
+  \href{http://dx.doi.org/10.1088/0004-637X/750/2/99}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2012ApJ...750...99T}{750, 99}
+
+\bibitem[{\textsc{{Wade}} et \textsc{{Horne}}(1988)}]{Wade1988atm}
+\textsc{{Wade} R.~A.} et \textsc{{Horne} K.} 1988, «~{The Radial Velocity
+  Curve and Peculiar TiO Distribution of the Red Secondary Star in Z
+  Chamaeleontis}~»,
   \href{http://dx.doi.org/10.1086/165905}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/1988ApJ...324..411W}{324, 411}
 
-\bibitem[{{Walcher} {et~al.}(2011){Walcher}, {Groves}, {Budav\'ari}, \&
-  {Dale}}]{Walcher2011}
-{Walcher}, J., {Groves}, B., {Budav\'ari}, T., \& {Dale}, D. 2011,
+\bibitem[{\textsc{{Walcher}} {et~al.}(2011)\textsc{{Walcher}},
+  \textsc{{Groves}}, \textsc{{Budav\'ari}} et \textsc{{Dale}}}]{Walcher2011}
+\textsc{{Walcher} J.}, \textsc{{Groves} B.}, \textsc{{Budav\'ari} T.} et
+  \textsc{{Dale} D.} 2011, «~{Fitting the integrated spectral energy
+  distributions of galaxies}~»,
   \href{http://dx.doi.org/10.1007/s10509-010-0458-z}{\color{magenta}\apss},
   \href{https://ui.adsabs.harvard.edu/abs/2011Ap&SS.331....1W}{331, 1}
 
-\bibitem[{{Wilkinson} {et~al.}(2017){Wilkinson}, {Maraston}, {Goddard},
-  {Thomas}, \& {Parikh}}]{WilkinsonFirefly}
-{Wilkinson}, D.~M., {Maraston}, C., {Goddard}, D., {Thomas}, D., \& {Parikh},
-  T. 2017,
+\bibitem[{\textsc{{Wilkinson}} {et~al.}(2017)\textsc{{Wilkinson}},
+  \textsc{{Maraston}}, \textsc{{Goddard}}, \textsc{{Thomas}} et
+  \textsc{{Parikh}}}]{WilkinsonFirefly}
+\textsc{{Wilkinson} D.~M.}, \textsc{{Maraston} C.}, \textsc{{Goddard} D.},
+  \textsc{{Thomas} D.} et \textsc{{Parikh} T.} 2017, «~{FIREFLY (Fitting
+  IteRativEly For Likelihood analYsis): a full spectral fitting code}~»,
   \href{http://dx.doi.org/10.1093/mnras/stx2215}{\color{magenta}\mnras},
   \href{https://ui.adsabs.harvard.edu/abs/2017MNRAS.472.4297W}{472, 4297}
 
-\bibitem[{{Witt} \& {Gordon}(2000)}]{WittGordon}
-{Witt}, A.~N. \& {Gordon}, K.~D. 2000,
+\bibitem[{\textsc{{Witt}} et \textsc{{Gordon}}(2000)}]{WittGordon}
+\textsc{{Witt} A.~N.} et \textsc{{Gordon} K.~D.} 2000, «~{Multiple Scattering
+  in Clumpy Media. II. Galactic Environments}~»,
   \href{http://dx.doi.org/10.1086/308197}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2000ApJ...528..799W}{528, 799}
 
-\bibitem[{{Worthey}(1994)}]{Worthey}
-{Worthey}, G. 1994,
+\bibitem[{\textsc{{Worthey}}(1994)}]{Worthey}
+\textsc{{Worthey} G.} 1994, «~{Comprehensive Stellar Population Models and the
+  Disentanglement of Age and Metallicity Effects}~»,
   \href{http://dx.doi.org/10.1086/192096}{\color{magenta}\apjs},
   \href{https://ui.adsabs.harvard.edu/abs/1994ApJS...95..107W}{95, 107}
 
-\bibitem[{{Yan} {et~al.}(2016){Yan}, {Bundy}, {Law}, {Bershady}, {Andrews},
-  {Cherinka}, {Diamond-Stanic}, {Drory}, {MacDonald}, {S{\'a}nchez-Gallego},
-  {Thomas}, {Wake}, {Weijmans}, {Westfall}, {Zhang}, {Arag{\'o}n-Salamanca},
-  {Belfiore}, {Bizyaev}, {Blanc}, {Blanton}, {Brownstein}, {Cappellari},
-  {D'Souza}, {Emsellem}, {Fu}, {Gaulme}, {Graham}, {Goddard}, {Gunn},
-  {Harding}, {Jones}, {Kinemuchi}, {Li}, {Li}, {Maiolino}, {Mao}, {Maraston},
-  {Masters}, {Merrifield}, {Oravetz}, {Pan}, {Parejko}, {Sanchez}, {Schlegel},
-  {Simmons}, {Thanjavur}, {Tinker}, {Tremonti}, {van den Bosch}, \&
-  {Zheng}}]{SDSSIFS}
-{Yan}, R., {Bundy}, K., {Law}, D.~R., {et~al.} 2016,
+\bibitem[{\textsc{{Yan}} {et~al.}(2016)\textsc{{Yan}}, \textsc{{Bundy}},
+  \textsc{{Law}}, \textsc{{Bershady}}, \textsc{{Andrews}}, \textsc{{Cherinka}},
+  \textsc{{Diamond-Stanic}}, \textsc{{Drory}}, \textsc{{MacDonald}},
+  \textsc{{S{\'a}nchez-Gallego}}, \textsc{{Thomas}}, \textsc{{Wake}},
+  \textsc{{Weijmans}}, \textsc{{Westfall}}, \textsc{{Zhang}},
+  \textsc{{Arag{\'o}n-Salamanca}}, \textsc{{Belfiore}}, \textsc{{Bizyaev}},
+  \textsc{{Blanc}}, \textsc{{Blanton}}, \textsc{{Brownstein}},
+  \textsc{{Cappellari}}, \textsc{{D'Souza}}, \textsc{{Emsellem}},
+  \textsc{{Fu}}, \textsc{{Gaulme}}, \textsc{{Graham}}, \textsc{{Goddard}},
+  \textsc{{Gunn}}, \textsc{{Harding}}, \textsc{{Jones}}, \textsc{{Kinemuchi}},
+  \textsc{{Li}}, \textsc{{Li}}, \textsc{{Maiolino}}, \textsc{{Mao}},
+  \textsc{{Maraston}}, \textsc{{Masters}}, \textsc{{Merrifield}},
+  \textsc{{Oravetz}}, \textsc{{Pan}}, \textsc{{Parejko}}, \textsc{{Sanchez}},
+  \textsc{{Schlegel}}, \textsc{{Simmons}}, \textsc{{Thanjavur}},
+  \textsc{{Tinker}}, \textsc{{Tremonti}}, \textsc{{van den Bosch}} et
+  \textsc{{Zheng}}}]{SDSSIFS}
+\textsc{{Yan} R.}, \textsc{{Bundy} K.}, \textsc{{Law} D.~R.} {et~al.} 2016,
+  «~{SDSS-IV MaNGA IFS Galaxy Survey{\textemdash}Survey Design, Execution, and
+  Initial Data Quality}~»,
   \href{http://dx.doi.org/10.3847/0004-6256/152/6/197}{\color{magenta}\aj},
   \href{https://ui.adsabs.harvard.edu/abs/2016AJ....152..197Y}{152, 197}
 
-\bibitem[{{York} {et~al.}(2000){York}, {Adelman}, {Anderson}, {Anderson},
-  {Annis}, {Bahcall}, {Bakken}, {Barkhouser}, {Bastian}, {Berman}, {Boroski},
-  {Bracker}, {Briegel}, {Briggs}, {Brinkmann}, {Brunner}, {Burles}, {Carey},
-  {Carr}, {Castander}, {Chen}, {Colestock}, {Connolly}, {Crocker}, {Csabai},
-  {Czarapata}, {Davis}, {Doi}, {Dombeck}, {Eisenstein}, {Ellman}, {Elms},
-  {Evans}, {Fan}, {Federwitz}, {Fiscelli}, {Friedman}, {Frieman}, {Fukugita},
-  {Gillespie}, {Gunn}, {Gurbani}, {de Haas}, {Haldeman}, {Harris}, {Hayes},
-  {Heckman}, {Hennessy}, {Hindsley}, {Holm}, {Holmgren}, {Huang}, {Hull},
-  {Husby}, {Ichikawa}, {Ichikawa}, {Ivezi\'c}, {Kent}, {Kim}, {Kinney},
-  {Klaene}, {Kleinman}, {Kleinman}, {Knapp}, {Korienek}, {Kron}, {Kunszt},
-  {Lamb}, {Lee}, {Leger}, {Limmongkol}, {Lindenmeyer}, {Long}, {Loomis},
-  {Loveday}, {Lucinio}, {Lupton}, {MacKinnon}, {Mannery}, {Mantsch}, {Margon},
-  {McGehee}, {McKay}, {Meiksin}, {Merelli}, {Monet}, {Munn}, {Narayanan},
-  {Nash}, {Neilsen}, {Neswold}, {Newberg}, {Nichol}, {Nicinski}, {Nonino},
-  {Okada}, {Okamura}, {Ostriker}, {Owen}, {Pauls}, {Peoples}, {Peterson},
-  {Petravick}, {Pier}, {Pope}, {Pordes}, {Prosapio}, {Rechenmacher}, {Quinn},
-  {Richards}, {Richmond}, {Rivetta}, {Rockosi}, {Ruthmansdorfer}, {Sandford},
-  {Schlegel}, {Schneider}, {Sekiguchi}, {Sergey}, {Shimasaku}, {Siegmund},
-  {Smee}, {Smith}, {Snedden}, {Stone}, {Stoughton}, {Strauss}, {Stubbs},
-  {SubbaRao}, {Szalay}, {Szapudi}, {Szokoly}, {Thakar}, {Tremonti}, {Tucker},
-  {Uomoto}, {Vanden Berk}, {Vogeley}, {Waddell}, {Wang}, {Watanabe},
-  {Weinberg}, {Yanny}, {Yasuda}, \& {SDSS Collaboration}}]{YorkSDSS2000}
-{York}, D.~G., {Adelman}, J., {Anderson}, John~E., J., {et~al.} 2000,
+\bibitem[{\textsc{{York}} {et~al.}(2000)\textsc{{York}}, \textsc{{Adelman}},
+  \textsc{{Anderson}}, \textsc{{Anderson}}, \textsc{{Annis}},
+  \textsc{{Bahcall}}, \textsc{{Bakken}}, \textsc{{Barkhouser}},
+  \textsc{{Bastian}}, \textsc{{Berman}}, \textsc{{Boroski}},
+  \textsc{{Bracker}}, \textsc{{Briegel}}, \textsc{{Briggs}},
+  \textsc{{Brinkmann}}, \textsc{{Brunner}}, \textsc{{Burles}},
+  \textsc{{Carey}}, \textsc{{Carr}}, \textsc{{Castander}}, \textsc{{Chen}},
+  \textsc{{Colestock}}, \textsc{{Connolly}}, \textsc{{Crocker}},
+  \textsc{{Csabai}}, \textsc{{Czarapata}}, \textsc{{Davis}}, \textsc{{Doi}},
+  \textsc{{Dombeck}}, \textsc{{Eisenstein}}, \textsc{{Ellman}},
+  \textsc{{Elms}}, \textsc{{Evans}}, \textsc{{Fan}}, \textsc{{Federwitz}},
+  \textsc{{Fiscelli}}, \textsc{{Friedman}}, \textsc{{Frieman}},
+  \textsc{{Fukugita}}, \textsc{{Gillespie}}, \textsc{{Gunn}},
+  \textsc{{Gurbani}}, \textsc{{de Haas}}, \textsc{{Haldeman}},
+  \textsc{{Harris}}, \textsc{{Hayes}}, \textsc{{Heckman}}, \textsc{{Hennessy}},
+  \textsc{{Hindsley}}, \textsc{{Holm}}, \textsc{{Holmgren}}, \textsc{{Huang}},
+  \textsc{{Hull}}, \textsc{{Husby}}, \textsc{{Ichikawa}}, \textsc{{Ichikawa}},
+  \textsc{{Ivezi\'c}}, \textsc{{Kent}}, \textsc{{Kim}}, \textsc{{Kinney}},
+  \textsc{{Klaene}}, \textsc{{Kleinman}}, \textsc{{Kleinman}},
+  \textsc{{Knapp}}, \textsc{{Korienek}}, \textsc{{Kron}}, \textsc{{Kunszt}},
+  \textsc{{Lamb}}, \textsc{{Lee}}, \textsc{{Leger}}, \textsc{{Limmongkol}},
+  \textsc{{Lindenmeyer}}, \textsc{{Long}}, \textsc{{Loomis}},
+  \textsc{{Loveday}}, \textsc{{Lucinio}}, \textsc{{Lupton}},
+  \textsc{{MacKinnon}}, \textsc{{Mannery}}, \textsc{{Mantsch}},
+  \textsc{{Margon}}, \textsc{{McGehee}}, \textsc{{McKay}}, \textsc{{Meiksin}},
+  \textsc{{Merelli}}, \textsc{{Monet}}, \textsc{{Munn}}, \textsc{{Narayanan}},
+  \textsc{{Nash}}, \textsc{{Neilsen}}, \textsc{{Neswold}}, \textsc{{Newberg}},
+  \textsc{{Nichol}}, \textsc{{Nicinski}}, \textsc{{Nonino}}, \textsc{{Okada}},
+  \textsc{{Okamura}}, \textsc{{Ostriker}}, \textsc{{Owen}}, \textsc{{Pauls}},
+  \textsc{{Peoples}}, \textsc{{Peterson}}, \textsc{{Petravick}},
+  \textsc{{Pier}}, \textsc{{Pope}}, \textsc{{Pordes}}, \textsc{{Prosapio}},
+  \textsc{{Rechenmacher}}, \textsc{{Quinn}}, \textsc{{Richards}},
+  \textsc{{Richmond}}, \textsc{{Rivetta}}, \textsc{{Rockosi}},
+  \textsc{{Ruthmansdorfer}}, \textsc{{Sandford}}, \textsc{{Schlegel}},
+  \textsc{{Schneider}}, \textsc{{Sekiguchi}}, \textsc{{Sergey}},
+  \textsc{{Shimasaku}}, \textsc{{Siegmund}}, \textsc{{Smee}}, \textsc{{Smith}},
+  \textsc{{Snedden}}, \textsc{{Stone}}, \textsc{{Stoughton}},
+  \textsc{{Strauss}}, \textsc{{Stubbs}}, \textsc{{SubbaRao}},
+  \textsc{{Szalay}}, \textsc{{Szapudi}}, \textsc{{Szokoly}}, \textsc{{Thakar}},
+  \textsc{{Tremonti}}, \textsc{{Tucker}}, \textsc{{Uomoto}}, \textsc{{Vanden
+  Berk}}, \textsc{{Vogeley}}, \textsc{{Waddell}}, \textsc{{Wang}},
+  \textsc{{Watanabe}}, \textsc{{Weinberg}}, \textsc{{Yanny}}, \textsc{{Yasuda}}
+  et \textsc{{SDSS Collaboration}}}]{YorkSDSS2000}
+\textsc{{York} D.~G.}, \textsc{{Adelman} J.}, \textsc{{Anderson}, John~E. J.}
+  {et~al.} 2000, «~{The Sloan Digital Sky Survey: Technical Summary}~»,
   \href{http://dx.doi.org/10.1086/301513}{\color{magenta}\aj},
   \href{https://ui.adsabs.harvard.edu/abs/2000AJ....120.1579Y}{120, 1579}
 

@@ -24,6 +24,8 @@
     "sec:sedfitting"
     "fig:specgalsdss"
     "sec:pipeline"
-    "fig:softdaghypergal"))
+    "fig:softdaghypergal"
+    "fig:easycasesedm"
+    "fig:easycaseextractionpysedm"))
  :latex)
 

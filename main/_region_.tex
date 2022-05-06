@@ -12,12 +12,17 @@
 \usepackage{subfiles}
 
 \usepackage[titles]{tocloft}
-\renewcommand{\thepart}{\Roman{part}:}
-\renewcommand\cftpartpresnum{Part~}
+\usepackage{xpatch}
+
+% \renewcommand\cftpartpresnum{Part~}
+\renewcommand\cftpartpresnum{\hfill}
+\renewcommand\cftpartleader{\hfill}
+\renewcommand{\thepart}{\Roman{part}}
 \newcommand{\addparttoc}[1]{%
 \addtocontents{toc}{\begingroup\def\protect\cftpartpresnum{}}
 \addcontentsline{toc}{part}{#1}
 \addtocontents{toc}{\endgroup}}
+
 \renewcommand{\listfigurename}{Table des figures}
 \renewcommand{\listtablename}{Liste de tableaux}
 
@@ -35,15 +40,15 @@
     \tableofcontents
     \listoffigures
     \listoftables
-    \subfile{../chapters/13_introduction}
+    \subfile{../chapters/13_introduction} 
     \part{Contexte Scientifique}
     \subfile{../chapters/01_cosmology}
     \subfile{../chapters/02_ztf}
     \subfile{../chapters/03_sedm}
     \part{Extraction de spectre de Supernovae}
     \subfile{../chapters/04_hypergal}
-    \subfile{../chapters/06_sedfit}
-    \subfile{../chapters/05_irf}
+    \subfile{../chapters/05_sedfit}
+    \subfile{../chapters/06_irf}
     \subfile{../chapters/07_scene}
     \part{Simulations et Résultats}
     \subfile{../chapters/08_simu}
@@ -51,7 +56,7 @@
     \subfile{../chapters/98_conclusions}
     %\bibliographystyle{abbrvnat}
     %\bibliographystyle{plainnat}
-    \bibliographystyle{aa_url}
+    \bibliographystyle{aa_url2}
     \bibliography{../chapters/99_references}
 \end{document}
 
@@ -70,4 +75,4 @@
 %%% TeX-master: t
 %%% End:
 
-\message{ !name(main.tex) !offset(-73) }
+\message{ !name(main.tex) !offset(-78) }
