@@ -1,12 +1,12 @@
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.1}Projection du cube intrinsèque}{\reset@font\mtcSfont 64}{section.7.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.1.1}Seeing relatif Panstarrs/SEDm}{\reset@font\mtcSSfont 64}{subsection.7.1.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.1.2}Projection spatiale dans l'espace SEDm}{\reset@font\mtcSSfont 64}{subsection.7.1.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.2}Modélisation de Scène}{\reset@font\mtcSfont 64}{section.7.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.2.1}Composante du fond: ciel et artefacts}{\reset@font\mtcSSfont 64}{subsection.7.2.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.2.2}Composante du point source: Supernova}{\reset@font\mtcSSfont 64}{subsection.7.2.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.2.3}Fitting de la scene}{\reset@font\mtcSSfont 64}{subsection.7.2.3}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.3}Extraction du point source}{\reset@font\mtcSfont 64}{section.7.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.3.1}Outputs de controle du pipeline}{\reset@font\mtcSSfont 64}{subsection.7.3.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.3.2}Isolation de la galaxie hôte}{\reset@font\mtcSSfont 64}{subsection.7.3.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.3.3}Isolation de la Supernova}{\reset@font\mtcSSfont 64}{subsection.7.3.3}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.4}Classification: \textsc {\texttt {SNID}}}{\reset@font\mtcSfont 64}{section.7.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.1}Projection du cube intrinsèque}{\reset@font\mtcSfont 68}{section.7.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.1.1}Seeing relatif Panstarrs/SEDm}{\reset@font\mtcSSfont 68}{subsection.7.1.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.1.2}Projection spatiale dans l'espace SEDm}{\reset@font\mtcSSfont 68}{subsection.7.1.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.2}Modélisation de Scène}{\reset@font\mtcSfont 68}{section.7.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.2.1}Composante du fond: ciel et artefacts}{\reset@font\mtcSSfont 68}{subsection.7.2.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.2.2}Composante du point source: Supernova}{\reset@font\mtcSSfont 68}{subsection.7.2.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.2.3}Fitting de la scene}{\reset@font\mtcSSfont 68}{subsection.7.2.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.3}Extraction du point source}{\reset@font\mtcSfont 68}{section.7.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.3.1}Outputs de controle du pipeline}{\reset@font\mtcSSfont 68}{subsection.7.3.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.3.2}Isolation de la galaxie hôte}{\reset@font\mtcSSfont 68}{subsection.7.3.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.3.3}Isolation de la Supernova}{\reset@font\mtcSSfont 68}{subsection.7.3.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.4}Classification: \textsc {\texttt {SNID}}}{\reset@font\mtcSfont 68}{section.7.4}}

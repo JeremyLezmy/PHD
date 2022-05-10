@@ -1,6 +1,6 @@
 \documentclass[../main/main.tex]{subfiles}
 \begin{document}
-
+\setcounter{chapter}{4}
 \chapter{Modélisation hyperspectrale}\label{ch:modelhyperspec}
 
 \minitoc
@@ -156,19 +156,172 @@ photométrique de PS1 est détaillé dans \citet{Tonry2012}.
 
 
 Nous présentons dans la Table\ref{tab:3pisteradian} quelques
-caractéristiques des filtres $grizy$ de PS1, ainsi que du relevé $3\pi$ Stéradian.
+caractéristiques des filtres $grizy$ de PS1, ainsi que du relevé $3\pi$
+Stéradian.
+
 \subsection{Utilisation des images PS1}
 \label{ssec:preprocessps1}
+
+Bien entendu nous n'utilisons pas les images brutes acquisent par PS1,
+mais celles ayant été traitées avec différentes étapes de corrections,
+qui constituera in fine la $1\iere$ Data Release de PS1.
+
+Ces étapes de traitement d'image sont détaillées dans
+\citet{Waters2020}.
+
+La section 3 de \citet{Waters2020} décrit la partie corrective des
+images:
+
+\begin{itemize}[label=$\diamondsuit$]
+  \itemsep0em 
+   \item \textbf{Soustraction du bias et du dark} pour prendre en compte le bruit
+     de lecture et le bruit thermique en fonction du temps d'exposition.
+   \item \textbf{Cartographie du bruit} (qui n'est pas forcément uniforme, mais peut
+     présenter un gradient).
+   \item \textbf{Division du flat} pour corriger les effets de vignettage. Les
+     flats sont pris avec une exposition du ciel à l'aube ou au
+     crépuscule.
+   \item  \textbf{Correction d'effets de franges} dans les images. Ces structures
+     d'interférences sont notamment visibles vers l'infrarouge, où les
+     longueurs d'ondes sont du même ordre de grandeur que l'épaisseur du
+     détecteur.
+   \item \textbf{Application d'un masque statique} pour les pixels du détecteur
+     défectueux ou ayant une réponse très faible dans toutes les expositions, et un \textbf{masque dynamique}
+     qui va varier pour chaque observation.
+   \item \textbf{Correction d'effet de persistence}, dû à la saturation d'un
+     pixel. Ce phénomène créé une trainée verticale partant du centre de
+     la source de forte luminosité.
+   \item \textbf{Correction des non-linéarités}, les pixels de la GPC1
+     n'ayant pas une réponse uniformément linéaire en fonction du niveau
+     de flux. Ce phénomène est d'autant plus prononcé aux bords du
+     détecteur et à bas flux.
+   \item \textbf{Correction de motifs} notamment horizontaux dus à des
+     effets de 
+     diaphonies entre deux lignes de pixels adjacentes.
+   \item \textbf{Modélisation et soustraction du fond du ciel}, une fois
+     que toutes les corrections précédentes ont été appliquées.
+\end{itemize}
+
+L'étape suivante de traitement des images, décrite dans la section 5 de
+\citet{Waters2020}, est une transformation géométrique, passant de l'espace du
+plan focal en un système de pixels cohérent vis à vis d'une localisation donnée
+du ciel. Cette transformation permet alors d'effectuer des opérations de
+combinaisons d'images superposants une partie commune du ciel. Dans ce
+nouveau système d'agencement, les pixels ont alors une taille de
+$0\farcs25$ de côté.
+
+
+La section 6 de \citet{Waters2020} traite justement de la procédure
+d'empilement d'images, permettant ainsi un meilleur ratio signal sur
+bruit (SNR) dans les zones du ciel communes à plusieurs expositions. Cet
+empilement est effectué de sorte que toutes les images aient un point
+zero de $ZP=\SI{25.0}{mag}$, et un airmass de $\chi=1$. Ce
+sont ces images traitées et empilées que nous utiliserons pour la
+modélisation hyperspectrale des galaxies hôtes.
+
+
+Nous utilisons pour cela le serveur libre d'accès aux images
+PS1\footnote{\url{https://ps1images.stsci.edu/cgi-bin/ps1cutouts}},
+permettant d'effectuer une requête d'images centrées sur une position du
+ciel arbitraire (RA, DEC), et de côté arbitraire X pixels, sachant que chaque pixel
+est de forme carré de $0\farcs25$ de côté. Les images peuvent être
+récupérées dans chacun des 5 filtres $g_{P1}$, $r_{P1}$, $i_{P1}$,
+$z_{P1}$ et/ou $y_{P1}$, avec un flux par pixel exprimé en unité de coups. Nous montrons dans la
+Figure~\ref{fig:pscutoutsZTF18accrorf} une image de $140\times140$
+pixels ($=35"\times35"$) centrée sur la position de détection par ZTF de
+ZTF18accrorf. 
+
+\begin{figure}[ht]
+  \begin{minipage}[c]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{../figures/05_sedfit/ps_cutouts_ZTF18accrorf.pdf}
+  \end{minipage}\hfill
+  \begin{minipage}[c]{0.52\textwidth}
+    \caption[Image RGB de PS1 centrée sur ZTF18accrorf.]{Image RGB
+      construite à partir des bandes $g_{P1}$, $r_{P1}$ et
+      $z_{P1}$ des images PS1. L'image fait $35"$ de côté et est centrée sur la position de
+      détection de ZTF18accrorf par ZTF, à $(\text{RA}, \text{DEC})=(17.1692\degree,20.0799\degree)$}\label{fig:pscutoutsZTF18accrorf}
+  \end{minipage}
+\end{figure}
 
 
 \section{\pkg{Cigale} et SEDFitting}
 \label{sec:cigale}
 
-\subsection{Présentation de Cigale}
+Ayant à présent accès aux images photométriques contenant le champ
+de vue de l'IFU de la SEDm, nous pouvons passer à l'étape suivante de
+notre raisonnement, à savoir la modélisation hyperspectrale. Pour cela,
+nous avons vu dans le chapitre précédent qu'il nous faut un outil
+permettant d'interpoler une SED à partir des données
+photométriques: un SED Fitter. 
+
+\subsection{Présentation de \pkg{Cigale}}
 \label{ssec:cigale}
 
-\subsection{Utilisation}
-\label{ssec:usecigale}
+\pkg{Cigale}, pour Code Investigating GALaxy Emission, est un modéliseur
+de SED basé sur une approche Bayesienne et écrit initialement en \pkg{FORTRAN} par \citet{Noll2009,Burgarella2005}. 
+Le code a ensuite été étendu avec de nombreux modules
+supplémentaires et
+entièrement réadapté en \pkg{PYTHON} par \citet{Boquien2019}. 
+
+L'idée générale est la construction dans un premier temps du modèle de
+population stellaire, puis d'ajouter les effets d'absorption par la
+poussière et les émissions nébulaires. Enfin, par conservation
+d'énergie, l'énergie absorbée par la poussière dans à basses longueurs
+d'onde est réémise dans l'infrarouge.
+
+La méthode de modélisation est basée sur un calcul progressif via
+l'utilisation d'une succession de modules,
+chacun correspondant à une unique composante ou processus physique. Pour
+chaque module, un set de paramètres est fixé par l'utilisateur. Le code
+va ainsi explorer la totalité des combinaisons possibles entres
+tous les modules et leur liberté via ces paramètres, où chaque
+combinaison résultera en un modèle différent de SED.
+
+La séquence de détermination d'un modèle se fait par les calculs suivants
+(section 3 de \citet{Boquien2019}) :
+
+\begin{enumerate}
+\item Histoire de la formation stellaire (SFH) de la galaxie.
+\item Spectre stellaire à partir de la SFH et du modèle de
+  population stellaire choisi par l'utilisateur.
+\item Emission nébulaire (continuum et raies d'émission).
+\item Atténuation des émissions stellaires et nébulaires suivant la
+    loi d'atténuation utilisée (également fixée par l'utilisateur), puis
+    calcul de la luminosité absorbée par la pousière.
+\item En se basant sur le principe d'équilibre énergétique, calcul de
+    l'émission par la poussière dans l'infrarouge  moyen et lointain
+    (énergie réémise à partir de celle absorbée aux courtes
+    longueurs d'onde - étape précédente).
+\item Emission d'un noyau actif.
+\item Décalage vers le rouge des modèles suivant le redshfit
+      d'entrée renseigné au préalable, et calcul de l'absorption du
+      milieu inter-galactique.
+  
+\end{enumerate}
+
+Nous ne détaillerons pas ici la technicité de la méthode Bayesienne ni
+la description de chacun des modules que propose \pkg{CIGALE} tant ils
+sont nombreux. Nous nous focaliserons donc sur l'utilisation que nous faisons
+de ce modéliseur de SED et son application sur les images photométriques
+de PS1.
+
+\subsection{Préparation des images photométriques}
+\label{ssec:preprocessimages}
+
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.99\textwidth]{../figures/05_sedfit/ps_cutouts_ZTF18accrorf_binned.pdf}
+  \caption[Illustration binning $2\times2$ sur les images PS1.]{Image RGB
+      construite à partir des bandes $g_{P1}$, $r_{P1}$ et
+      $z_{P1}$ des images PS1. L'image fait $35"$ de côté et est centrée sur la position de
+      détection de ZTF18accrorf par ZTF, à $(\text{RA}, \text{DEC})=(17.1692\degree,20.0799\degree)$}
+  \label{fig:pscutoutsZTF18accrorf_binned}
+\end{figure}
+
+\subsection{Configuration et utilisation de \pkg{CIGALE}}
+\label{ssec:cigaleconfig}
+
 
 \section{Construction du cube intrinsèque}
 
@@ -178,8 +331,8 @@ caractéristiques des filtres $grizy$ de PS1, ainsi que du relevé $3\pi$ Stéra
 \subsection{Construction du cube}
 % \label{ssec:xxx}
 
-%\bibliographystyle{../main/aa_url2}
-%\bibliography{99_references}
+\bibliographystyle{../main/aa_url2}
+\bibliography{99_references}
 
 \end{document}
 

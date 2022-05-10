@@ -28,8 +28,13 @@
     "eq:abmagbp"
     "tab:3pisteradian"
     "ssec:preprocessps1"
+    "fig:pscutoutsZTF18accrorf"
     "sec:cigale"
     "ssec:cigale"
-    "ssec:usecigale"))
+    "ssec:preprocessimages"
+    "fig:pscutoutsZTF18accrorf_binned"
+    "ssec:cigaleconfig")
+   (LaTeX-add-bibliographies
+    "99_references"))
  :latex)
 

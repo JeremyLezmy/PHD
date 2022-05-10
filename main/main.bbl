@@ -1,4 +1,4 @@
-\begin{thebibliography}{96}
+\begin{thebibliography}{97}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{\textsc{{Abdurro'uf}} {et~al.}(2021)\textsc{{Abdurro'uf}},
@@ -1002,6 +1002,19 @@
   distributions of galaxies}~»,
   \href{http://dx.doi.org/10.1007/s10509-010-0458-z}{\color{magenta}\apss},
   \href{https://ui.adsabs.harvard.edu/abs/2011Ap&SS.331....1W}{331, 1}
+
+\bibitem[{\textsc{{Waters}} {et~al.}(2020)\textsc{{Waters}},
+  \textsc{{Magnier}}, \textsc{{Price}}, \textsc{{Chambers}},
+  \textsc{{Burgett}}, \textsc{{Draper}}, \textsc{{Flewelling}},
+  \textsc{{Hodapp}}, \textsc{{Huber}}, \textsc{{Jedicke}}, \textsc{{Kaiser}},
+  \textsc{{Kudritzki}}, \textsc{{Lupton}}, \textsc{{Metcalfe}},
+  \textsc{{Rest}}, \textsc{{Sweeney}}, \textsc{{Tonry}}, \textsc{{Wainscoat}}
+  et \textsc{{Wood-Vasey}}}]{Waters2020}
+\textsc{{Waters} C.~Z.}, \textsc{{Magnier} E.~A.}, \textsc{{Price} P.~A.}
+  {et~al.} 2020, «~{Pan-STARRS Pixel Processing: Detrending, Warping,
+  Stacking}~»,
+  \href{http://dx.doi.org/10.3847/1538-4365/abb82b}{\color{magenta}\apjs},
+  \href{https://ui.adsabs.harvard.edu/abs/2020ApJS..251....4W}{251, 4}
 
 \bibitem[{\textsc{{Wilkinson}} {et~al.}(2017)\textsc{{Wilkinson}},
   \textsc{{Maraston}}, \textsc{{Goddard}}, \textsc{{Thomas}} et

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  6 MAY 2022 17:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  10 MAY 2022 17:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1546,7 +1546,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Chapitre 1.
+Chapitre 5.
 Package minitoc Info: I0006
 (minitoc)             05_sedfit.mtc1 is empty on input line 7.
 
@@ -1582,20 +1582,40 @@ e 90.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[3 <../figures/05_sedfit/ps1filters.png>] [4]
+<../figures/05_sedfit/ps_cutouts_ZTF18accrorf.pdf, id=116, 449.59282pt x 441.47
+495pt>
+File: ../figures/05_sedfit/ps_cutouts_ZTF18accrorf.pdf Graphic file (type pdf)
+<use ../figures/05_sedfit/ps_cutouts_ZTF18accrorf.pdf>
+Package pdftex.def Info: ../figures/05_sedfit/ps_cutouts_ZTF18accrorf.pdf  used
+ on input line 236.
+(pdftex.def)             Requested size: 204.85846pt x 201.16107pt.
+
 
 LaTeX Font Warning: Font shape `T1/cmtt/bx/sc' undefined
-(Font)              using `T1/cmtt/bx/n' instead on input line 164.
+(Font)              using `T1/cmtt/bx/n' instead on input line 247.
 
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 164.
-[3 <../figures/05_sedfit/ps1filters.png>] (./05_sedfit.bbl (./05_sedfit.brf)
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 247.
+LaTeX Font Info:    Font shape `T1/cmtt/bx/sc' in size <14.4> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 257.
+[5 <../figures/05_sedfit/ps_cutouts_ZTF18accrorf.pdf>]
+<../figures/05_sedfit/ps_cutouts_ZTF18accrorf_binned.pdf, id=144, 733.9536pt x 
+441.47495pt>
+File: ../figures/05_sedfit/ps_cutouts_ZTF18accrorf_binned.pdf Graphic file (typ
+e pdf)
+<use ../figures/05_sedfit/ps_cutouts_ZTF18accrorf_binned.pdf>
+Package pdftex.def Info: ../figures/05_sedfit/ps_cutouts_ZTF18accrorf_binned.pd
+f  used on input line 314.
+(pdftex.def)             Requested size: 450.69417pt x 271.09793pt.
+ (./05_sedfit.bbl
+(./05_sedfit.brf)
 \tf@brf=\write6
 \openout6 = `05_sedfit.brf'.
 
+ [6] [7 <../figures/05_sedfit/ps_cutouts_ZTF18accrorf_binned.pdf>] [8
 
-[4] [5
-
-])
+] [9])
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the 05_sedfit.maf file.
@@ -1618,7 +1638,7 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the 05_sedfit.log file.
 
-[6] (./05_sedfit.aux)
+[10] (./05_sedfit.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1626,40 +1646,47 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `05_sedfit.brf' has not changed.
-(rerunfilecheck)             Checksum: B3AC29FF47FC27F58FB0CF4B5C3C3AE5;858.
+(rerunfilecheck)             Checksum: E8B028C2B3C5EBB71B586F05A113391E;1286.
  ) 
 Here is how much of TeX's memory you used:
- 45675 strings out of 478994
- 972621 string characters out of 5858184
- 1531699 words of memory out of 5000000
- 61977 multiletter control sequences out of 15000+600000
- 428469 words of font info for 158 fonts, out of 8000000 for 9000
+ 45864 strings out of 478994
+ 975669 string characters out of 5858184
+ 1538063 words of memory out of 5000000
+ 62062 multiletter control sequences out of 15000+600000
+ 436246 words of font info for 211 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  137i,18n,133p,3274b,915s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<
-/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
-usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb
-></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
-usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
-r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/l
-ocal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loca
-l/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
-/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/t
-exlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/tex
-live/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texli
-ve/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive
-/2021/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2
-021/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/202
-1/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021/
-texmf-dist/fonts/type1/public/cm-super/sftc1200.pfb></usr/local/texlive/2021/te
-xmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2021/texm
-f-dist/fonts/type1/public/cm-super/sftt1728.pfb>
-Output written on 05_sedfit.pdf (6 pages, 2926948 bytes).
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
+st, replaced by a fixed one
+
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/
+usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</u
+sr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
+r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><
+/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
+usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
+r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
+local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/loc
+al/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/
+texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
+exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/tex
+live/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texli
+ve/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive
+/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2
+021/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/202
+1/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2021/
+texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2021/te
+xmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texm
+f-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-
+dist/fonts/type1/public/cm-super/sftc1200.pfb></usr/local/texlive/2021/texmf-di
+st/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2021/texmf-dist
+/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2021/texmf-dist/f
+onts/type1/public/cm-super/sftt1440.pfb></usr/local/texlive/2021/texmf-dist/fon
+ts/type1/public/cm-super/sftt1728.pfb>
+Output written on 05_sedfit.pdf (10 pages, 3234664 bytes).
 PDF statistics:
- 258 PDF objects out of 1000 (max. 8388607)
- 223 compressed objects within 3 object streams
- 39 named destinations out of 1000 (max. 500000)
- 56423 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 372 PDF objects out of 1000 (max. 8388607)
+ 322 compressed objects within 4 object streams
+ 58 named destinations out of 1000 (max. 500000)
+ 76921 words of extra memory for PDF output out of 89155 (max. 10000000)
 

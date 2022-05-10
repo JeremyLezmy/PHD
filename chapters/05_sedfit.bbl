@@ -1,5 +1,22 @@
-\begin{thebibliography}{14}
+\begin{thebibliography}{18}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{\textsc{{Boquien}} {et~al.}(2019)\textsc{{Boquien}},
+  \textsc{{Burgarella}}, \textsc{{Roehlly}}, \textsc{{Buat}},
+  \textsc{{Ciesla}}, \textsc{{Corre}}, \textsc{{Inoue}} et
+  \textsc{{Salas}}}]{Boquien2019}
+\textsc{{Boquien} M.}, \textsc{{Burgarella} D.}, \textsc{{Roehlly} Y.} {et~al.}
+  2019, «~{CIGALE: a python Code Investigating GALaxy Emission}~»,
+  \href{http://dx.doi.org/10.1051/0004-6361/201834156}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2019A&A...622A.103B}{622, A103}
+
+\bibitem[{\textsc{{Burgarella}} {et~al.}(2005)\textsc{{Burgarella}},
+  \textsc{{Buat}} et \textsc{{Iglesias-P\'aramo}}}]{Burgarella2005}
+\textsc{{Burgarella} D.}, \textsc{{Buat} V.} et \textsc{{Iglesias-P\'aramo} J.}
+  2005, «~{Star formation and dust attenuation properties in galaxies from a
+  statistical ultraviolet-to-far-infrared analysis}~»,
+  \href{http://dx.doi.org/10.1111/j.1365-2966.2005.09131.x}{\color{magenta}\mnras},
+  \href{https://ui.adsabs.harvard.edu/abs/2005MNRAS.360.1413B}{360, 1413}
 
 \bibitem[{\textsc{{Chambers}} {et~al.}(2016)\textsc{{Chambers}},
   \textsc{{Magnier}}, \textsc{{Metcalfe}}, \textsc{{Flewelling}},
@@ -119,6 +136,15 @@
   Ground-based and Airborne Telescopes II}, ed. L.~M. {Stepp} \& R.~{Gilmozzi},
   \href{https://ui.adsabs.harvard.edu/abs/2008SPIE.7012E..1KM}{70121K}
 
+\bibitem[{\textsc{{Noll}} {et~al.}(2009)\textsc{{Noll}}, \textsc{{Burgarella}},
+  \textsc{{Giovannoli}}, \textsc{{Buat}}, \textsc{{Marcillac}} et
+  \textsc{{Mu{\~n}oz-Mateos}}}]{Noll2009}
+\textsc{{Noll} S.}, \textsc{{Burgarella} D.}, \textsc{{Giovannoli} E.} {et~al.}
+  2009, «~{Analysis of galaxy spectral energy distributions from far-UV to
+  far-IR with CIGALE: studying a SINGS test sample}~»,
+  \href{http://dx.doi.org/10.1051/0004-6361/200912497}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2009A&A...507.1793N}{507, 1793}
+
 \bibitem[{\textsc{{Oke}} et \textsc{{Gunn}}(1983)}]{Oke1983}
 \textsc{{Oke} J.~B.} et \textsc{{Gunn} J.~E.} 1983, «~{Secondary standard
   stars for absolute spectrophotometry.}~»,
@@ -158,6 +184,19 @@
   {et~al.} 2012, «~{The Pan-STARRS1 Photometric System}~»,
   \href{http://dx.doi.org/10.1088/0004-637X/750/2/99}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2012ApJ...750...99T}{750, 99}
+
+\bibitem[{\textsc{{Waters}} {et~al.}(2020)\textsc{{Waters}},
+  \textsc{{Magnier}}, \textsc{{Price}}, \textsc{{Chambers}},
+  \textsc{{Burgett}}, \textsc{{Draper}}, \textsc{{Flewelling}},
+  \textsc{{Hodapp}}, \textsc{{Huber}}, \textsc{{Jedicke}}, \textsc{{Kaiser}},
+  \textsc{{Kudritzki}}, \textsc{{Lupton}}, \textsc{{Metcalfe}},
+  \textsc{{Rest}}, \textsc{{Sweeney}}, \textsc{{Tonry}}, \textsc{{Wainscoat}}
+  et \textsc{{Wood-Vasey}}}]{Waters2020}
+\textsc{{Waters} C.~Z.}, \textsc{{Magnier} E.~A.}, \textsc{{Price} P.~A.}
+  {et~al.} 2020, «~{Pan-STARRS Pixel Processing: Detrending, Warping,
+  Stacking}~»,
+  \href{http://dx.doi.org/10.3847/1538-4365/abb82b}{\color{magenta}\apjs},
+  \href{https://ui.adsabs.harvard.edu/abs/2020ApJS..251....4W}{251, 4}
 
 \bibitem[{\textsc{{York}} {et~al.}(2000)\textsc{{York}}, \textsc{{Adelman}},
   \textsc{{Anderson}}, \textsc{{Anderson}}, \textsc{{Annis}},

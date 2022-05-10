@@ -96,6 +96,7 @@
     "WittGordon"
     "Walcher2011"
     "WilkinsonFirefly"
+    "Waters2020"
     "SDSSIFS"
     "YorkSDSS2000"))
  :bibtex)

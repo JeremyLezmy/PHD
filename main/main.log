@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  6 MAY 2022 18:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  10 MAY 2022 17:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1688,14 +1688,14 @@ Chapitre 2.
 (./main.mtc2) [25
 
 ]
-<../chapters/../figures/02_ztf/p48.png, id=428, 1247.66125pt x 467.7475pt>
+<../chapters/../figures/02_ztf/p48.png, id=433, 1247.66125pt x 467.7475pt>
 File: ../chapters/../figures/02_ztf/p48.png Graphic file (type png)
 <use ../chapters/../figures/02_ztf/p48.png>
 Package pdftex.def Info: ../chapters/../figures/02_ztf/p48.png  used on input l
 ine 47.
 (pdftex.def)             Requested size: 341.43307pt x 127.9993pt.
  [26 <../chapters/../figures/02_ztf/p48.png>] [27]
-<../chapters/../figures/02_ztf/palomar_obs-min.png, id=447, 1060.96375pt x 700.
+<../chapters/../figures/02_ztf/palomar_obs-min.png, id=451, 1060.96375pt x 700.
 6175pt>
 File: ../chapters/../figures/02_ztf/palomar_obs-min.png Graphic file (type png)
 
@@ -1704,7 +1704,7 @@ Package pdftex.def Info: ../chapters/../figures/02_ztf/palomar_obs-min.png  use
 d on input line 177.
 (pdftex.def)             Requested size: 341.43307pt x 225.46365pt.
  [28 <../chapters/../figures/02_ztf/palomar_obs-min.png>]
-<../chapters/../figures/02_ztf/ztfcamera.png, id=456, 470.75874pt x 431.6125pt>
+<../chapters/../figures/02_ztf/ztfcamera.png, id=460, 470.75874pt x 431.6125pt>
 
 File: ../chapters/../figures/02_ztf/ztfcamera.png Graphic file (type png)
 <use ../chapters/../figures/02_ztf/ztfcamera.png>
@@ -1716,14 +1716,14 @@ Underfull \hbox (badness 1394) in paragraph at lines 207--207
 []\T1/cmr/m/n/10.95 (+20) (a) |Plan fo-cal de la ca-méra ZTF
  []
 
-<../chapters/../figures/02_ztf/p48details.png, id=461, 649.42625pt x 474.77374p
+<../chapters/../figures/02_ztf/p48details.png, id=465, 649.42625pt x 474.77374p
 t>
 File: ../chapters/../figures/02_ztf/p48details.png Graphic file (type png)
 <use ../chapters/../figures/02_ztf/p48details.png>
 Package pdftex.def Info: ../chapters/../figures/02_ztf/p48details.png  used on 
 input line 209.
 (pdftex.def)             Requested size: 227.62206pt x 166.40512pt.
-<../chapters/../figures/02_ztf/ztfcamerafov.png, id=466, 1132.23pt x 637.38126p
+<../chapters/../figures/02_ztf/ztfcamerafov.png, id=470, 1132.23pt x 637.38126p
 t>
 File: ../chapters/../figures/02_ztf/ztfcamerafov.png Graphic file (type png)
 <use ../chapters/../figures/02_ztf/ztfcamerafov.png>
@@ -1733,7 +1733,7 @@ n input line 218.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<../chapters/../figures/02_ztf/ztfperformances.png, id=469, 1233.60875pt x 338.
+<../chapters/../figures/02_ztf/ztfperformances.png, id=473, 1233.60875pt x 338.
 26375pt>
 File: ../chapters/../figures/02_ztf/ztfperformances.png Graphic file (type png)
 
@@ -1747,7 +1747,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [29 <../chapters/../figures/02_ztf/ztfcamera.png> <../chapters/../figures/02_zt
 f/p48details.png>] [30 <../chapters/../figures/02_ztf/ztfcamerafov.png>]
 [31 <../chapters/../figures/02_ztf/ztfperformances.png>]
-<../chapters/../figures/02_ztf/cumulsniaztf.png, id=536, 1487.5575pt x 702.625p
+<../chapters/../figures/02_ztf/cumulsniaztf.png, id=540, 1487.5575pt x 702.625p
 t>
 File: ../chapters/../figures/02_ztf/cumulsniaztf.png Graphic file (type png)
 <use ../chapters/../figures/02_ztf/cumulsniaztf.png>
@@ -1765,7 +1765,7 @@ Chapitre 3.
 (./main.mtc3) [33
 
 ]
-<../chapters/../figures/03_sedm/ifsgeneral.png, id=595, 823.075pt x 479.7925pt>
+<../chapters/../figures/03_sedm/ifsgeneral.png, id=599, 823.075pt x 479.7925pt>
 
 File: ../chapters/../figures/03_sedm/ifsgeneral.png Graphic file (type png)
 <use ../chapters/../figures/03_sedm/ifsgeneral.png>
@@ -1793,7 +1793,7 @@ LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [34]
-<../chapters/../figures/03_sedm/sedmoverview.png, id=618, 748.7975pt x 530.9837
+<../chapters/../figures/03_sedm/sedmoverview.png, id=622, 748.7975pt x 530.9837
 5pt>
 File: ../chapters/../figures/03_sedm/sedmoverview.png Graphic file (type png)
 <use ../chapters/../figures/03_sedm/sedmoverview.png>
@@ -1810,7 +1810,7 @@ Overfull \hbox (17.62482pt too wide) in paragraph at lines 173--184
  []
 
 [36 <../chapters/../figures/03_sedm/sedmoverview.png>]
-<../chapters/../figures/03_sedm/calibdag.png, id=641, 1339.0025pt x 753.81625pt
+<../chapters/../figures/03_sedm/calibdag.png, id=645, 1339.0025pt x 753.81625pt
 >
 File: ../chapters/../figures/03_sedm/calibdag.png Graphic file (type png)
 <use ../chapters/../figures/03_sedm/calibdag.png>
@@ -1832,7 +1832,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [37]
 [38 <../chapters/../figures/03_sedm/calibdag.png>]
-<../chapters/../figures/03_sedm/tracematchsedm.png, id=670, 732.7375pt x 359.34
+<../chapters/../figures/03_sedm/tracematchsedm.png, id=674, 732.7375pt x 359.34
 25pt>
 File: ../chapters/../figures/03_sedm/tracematchsedm.png Graphic file (type png)
 
@@ -1840,7 +1840,7 @@ File: ../chapters/../figures/03_sedm/tracematchsedm.png Graphic file (type png)
 Package pdftex.def Info: ../chapters/../figures/03_sedm/tracematchsedm.png  use
 d on input line 291.
 (pdftex.def)             Requested size: 241.27881pt x 118.32568pt.
-<../chapters/../figures/03_sedm/wavesolsedm.png, id=671, 751.80875pt x 443.6575
+<../chapters/../figures/03_sedm/wavesolsedm.png, id=675, 751.80875pt x 443.6575
 pt>
 File: ../chapters/../figures/03_sedm/wavesolsedm.png Graphic file (type png)
 <use ../chapters/../figures/03_sedm/wavesolsedm.png>
@@ -1854,7 +1854,7 @@ Underfull \vbox (badness 1168) has occurred while \output is active []
 
  [41]
 [42]
-<../chapters/../figures/03_sedm/pysedmoutput.png, id=778, 1253.68375pt x 789.95
+<../chapters/../figures/03_sedm/pysedmoutput.png, id=782, 1253.68375pt x 789.95
 125pt>
 File: ../chapters/../figures/03_sedm/pysedmoutput.png Graphic file (type png)
 <use ../chapters/../figures/03_sedm/pysedmoutput.png>
@@ -1862,7 +1862,7 @@ Package pdftex.def Info: ../chapters/../figures/03_sedm/pysedmoutput.png  used
 on input line 586.
 (pdftex.def)             Requested size: 450.69417pt x 283.98445pt.
  [43]
-<../chapters/../figures/03_sedm/cumulsnhostdist.png, id=806, 700.6175pt x 315.1
+<../chapters/../figures/03_sedm/cumulsnhostdist.png, id=810, 700.6175pt x 315.1
 775pt>
 File: ../chapters/../figures/03_sedm/cumulsnhostdist.png Graphic file (type png
 )
@@ -1871,7 +1871,7 @@ Package pdftex.def Info: ../chapters/../figures/03_sedm/cumulsnhostdist.png  us
 ed on input line 636.
 (pdftex.def)             Requested size: 250.38564pt x 112.63663pt.
  [44] [45 <../chapters/../figures/03_sedm/pysedmoutput.png>]
-<../chapters/../figures/03_sedm/stronghost.png, id=832, 956.57375pt x 374.39874
+<../chapters/../figures/03_sedm/stronghost.png, id=836, 956.57375pt x 374.39874
 pt>
 File: ../chapters/../figures/03_sedm/stronghost.png Graphic file (type png)
 <use ../chapters/../figures/03_sedm/stronghost.png>
@@ -1892,7 +1892,7 @@ LaTeX Font Info:    Font shape `T1/cmtt/bx/sc' in size <20.74> not available
 (./main.mtc4) [49
 
 ] [50]
-<../chapters/../figures/04_hypergal/specgalsdss.png, id=877, 1179.40625pt x 448
+<../chapters/../figures/04_hypergal/specgalsdss.png, id=881, 1179.40625pt x 448
 .67625pt>
 File: ../chapters/../figures/04_hypergal/specgalsdss.png Graphic file (type png
 )
@@ -1901,8 +1901,8 @@ Package pdftex.def Info: ../chapters/../figures/04_hypergal/specgalsdss.png  us
 ed on input line 141.
 (pdftex.def)             Requested size: 450.69417pt x 171.45721pt.
  [51 <../chapters/../figures/04_hypergal/specgalsdss.png>] [52]
-<../chapters/../figures/04_hypergal/softdaghypergal.png, id=998, 1256.695pt x 5
-44.0325pt>
+<../chapters/../figures/04_hypergal/softdaghypergal.png, id=1002, 1256.695pt x 
+544.0325pt>
 File: ../chapters/../figures/04_hypergal/softdaghypergal.png Graphic file (type
  png)
 <use ../chapters/../figures/04_hypergal/softdaghypergal.png>
@@ -1910,7 +1910,7 @@ Package pdftex.def Info: ../chapters/../figures/04_hypergal/softdaghypergal.png
   used on input line 256.
 (pdftex.def)             Requested size: 450.69417pt x 195.10443pt.
  [53 <../chapters/../figures/04_hypergal/softdaghypergal.png>] [54]
-<../chapters/../figures/04_hypergal/e3dcube_ZTF18accrorf.png, id=1033, 1011.78p
+<../chapters/../figures/04_hypergal/e3dcube_ZTF18accrorf.png, id=1037, 1011.78p
 t x 380.8629pt>
 File: ../chapters/../figures/04_hypergal/e3dcube_ZTF18accrorf.png Graphic file 
 (type png)
@@ -1918,7 +1918,7 @@ File: ../chapters/../figures/04_hypergal/e3dcube_ZTF18accrorf.png Graphic file
 Package pdftex.def Info: ../chapters/../figures/04_hypergal/e3dcube_ZTF18accror
 f.png  used on input line 337.
 (pdftex.def)             Requested size: 450.69417pt x 169.65489pt.
-<../chapters/../figures/04_hypergal/easycaseextractionpysedm.png, id=1034, 1125
+<../chapters/../figures/04_hypergal/easycaseextractionpysedm.png, id=1038, 1125
 .20375pt x 581.17125pt>
 File: ../chapters/../figures/04_hypergal/easycaseextractionpysedm.png Graphic f
 ile (type png)
@@ -1941,7 +1941,7 @@ Chapitre 5.
 (./main.mtc5) [57
 
 ]
-<../chapters/../figures/05_sedfit/GPC1focalplan.png, id=1080, 663.47874pt x 665
+<../chapters/../figures/05_sedfit/GPC1focalplan.png, id=1084, 663.47874pt x 665
 .48625pt>
 File: ../chapters/../figures/05_sedfit/GPC1focalplan.png Graphic file (type png
 )
@@ -1950,7 +1950,7 @@ Package pdftex.def Info: ../chapters/../figures/05_sedfit/GPC1focalplan.png  us
 ed on input line 68.
 (pdftex.def)             Requested size: 182.09486pt x 182.63864pt.
  [58 <../chapters/../figures/05_sedfit/GPC1focalplan.png>]
-<../chapters/../figures/05_sedfit/ps1filters.png, id=1101, 503.9628pt x 357.495
+<../chapters/../figures/05_sedfit/ps1filters.png, id=1105, 503.9628pt x 357.495
 6pt>
 File: ../chapters/../figures/05_sedfit/ps1filters.png Graphic file (type png)
 <use ../chapters/../figures/05_sedfit/ps1filters.png>
@@ -1961,45 +1961,66 @@ on input line 90.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[59 <../chapters/../figures/05_sedfit/ps1filters.png>] [60]
+<../chapters/../figures/05_sedfit/ps_cutouts_ZTF18accrorf.pdf, id=1145, 449.592
+82pt x 441.47495pt>
+File: ../chapters/../figures/05_sedfit/ps_cutouts_ZTF18accrorf.pdf Graphic file
+ (type pdf)
+<use ../chapters/../figures/05_sedfit/ps_cutouts_ZTF18accrorf.pdf>
+Package pdftex.def Info: ../chapters/../figures/05_sedfit/ps_cutouts_ZTF18accro
+rf.pdf  used on input line 236.
+(pdftex.def)             Requested size: 204.85846pt x 201.16107pt.
 LaTeX Font Info:    Font shape `T1/cmtt/bx/sc' in size <17.28> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 164.
-[59 <../chapters/../figures/05_sedfit/ps1filters.png>])
-(../chapters/../chapters/06_irf.tex [60]
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 247.
+LaTeX Font Info:    Font shape `T1/cmtt/bx/sc' in size <14.4> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 257.
+ [61 <../chapters/../figures/05_sedfit/ps_cutouts_ZTF18accrorf.pdf>]
+<../chapters/../figures/05_sedfit/ps_cutouts_ZTF18accrorf_binned.pdf, id=1171, 
+733.9536pt x 441.47495pt>
+File: ../chapters/../figures/05_sedfit/ps_cutouts_ZTF18accrorf_binned.pdf Graph
+ic file (type pdf)
+<use ../chapters/../figures/05_sedfit/ps_cutouts_ZTF18accrorf_binned.pdf>
+Package pdftex.def Info: ../chapters/../figures/05_sedfit/ps_cutouts_ZTF18accro
+rf_binned.pdf  used on input line 311.
+(pdftex.def)             Requested size: 450.69417pt x 271.09793pt.
+)
+(../chapters/../chapters/06_irf.tex [62] [63 <../chapters/../figures/05_sedfit/
+ps_cutouts_ZTF18accrorf_binned.pdf>] [64
+
+]
 Chapitre 6.
 \openout4 = `main.mtc'.
 
 \openout4 = `main.mtc'.
 
-(./main.mtc6) [61
-
-]) (../chapters/../chapters/07_scene.tex [62]
+(./main.mtc6) [65]) (../chapters/../chapters/07_scene.tex [66]
 Chapitre 7.
 \openout4 = `main.mtc'.
 
 \openout4 = `main.mtc'.
 
-(./main.mtc7) [63
+(./main.mtc7) [67
 
-]) [64] [65
+]) [68] [69
 
-] [66] (../chapters/../chapters/08_simu.tex
+] [70] (../chapters/../chapters/08_simu.tex
 Chapitre 8.
 \openout4 = `main.mtc'.
 
 \openout4 = `main.mtc'.
 
-(./main.mtc8) [67
+(./main.mtc8) [71
 
-]) (../chapters/../chapters/09_dr2.tex [68]
+]) (../chapters/../chapters/09_dr2.tex [72]
 Chapitre 9.
 \openout4 = `main.mtc'.
 
 \openout4 = `main.mtc'.
 
-(./main.mtc9) [69
+(./main.mtc9) [73
 
 ]
-<../chapters/../figures/02_ztf/ztfdr2stretchcolor.png, id=1207, 600.2425pt x 51
+<../chapters/../figures/02_ztf/ztfdr2stretchcolor.png, id=1285, 600.2425pt x 51
 2.91624pt>
 File: ../chapters/../figures/02_ztf/ztfdr2stretchcolor.png Graphic file (type p
 ng)
@@ -2007,8 +2028,8 @@ ng)
 Package pdftex.def Info: ../chapters/../figures/02_ztf/ztfdr2stretchcolor.png  
 used on input line 33.
 (pdftex.def)             Requested size: 409.71692pt x 350.11676pt.
- [70 <../chapters/../figures/02_ztf/ztfdr2stretchcolor.png>]
-<../chapters/../figures/02_ztf/ztfdr2stretchcolorcorrelation.png, id=1220, 566.
+ [74 <../chapters/../figures/02_ztf/ztfdr2stretchcolor.png>]
+<../chapters/../figures/02_ztf/ztfdr2stretchcolorcorrelation.png, id=1298, 566.
 115pt x 479.7925pt>
 File: ../chapters/../figures/02_ztf/ztfdr2stretchcolorcorrelation.png Graphic f
 ile (type png)
@@ -2053,21 +2074,21 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 68.
 
-) (../chapters/../chapters/98_conclusions.tex [71 <../chapters/../figures/02_zt
-f/ztfdr2stretchcolorcorrelation.png>] [72
+) (../chapters/../chapters/98_conclusions.tex [75 <../chapters/../figures/02_zt
+f/ztfdr2stretchcolorcorrelation.png>] [76
 
-] [73] [74]) (./main.bbl (./main.brf)
+] [77] [78]) (./main.bbl (./main.brf)
 \tf@brf=\write9
 \openout9 = `main.brf'.
 
 
-[75
+[79
 
 ]
 
 Package hyperref Warning: Suppressing empty link on input line 190.
 
-[76] [77] [78] [79] [80] [81])
+[80] [81] [82] [83] [84] [85])
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the main.maf file.
@@ -2079,26 +2100,34 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the main.log file.
 
-[82] (./main.aux)
+[86] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `main.brf' has not changed.
-(rerunfilecheck)             Checksum: 74A5D5A060F0AB3A95152EEC7F3A10FA;6509.
+
+Package rerunfilecheck Warning: File `main.brf' has changed.
+(rerunfilecheck)                Rerun to get bibliographical references right.
+
+Package rerunfilecheck Info: Checksums for `main.brf':
+(rerunfilecheck)             Before: E9AA9C51A487438C1647EC1D99770280;6729
+(rerunfilecheck)             After:  51C1AFD5CA4C0E332F9D92F5D8B3ADA2;6945.
  ) 
 Here is how much of TeX's memory you used:
- 47378 strings out of 478994
- 1000667 string characters out of 5858184
- 1728069 words of memory out of 5000000
- 62931 multiletter control sequences out of 15000+600000
- 454154 words of font info for 334 fonts, out of 8000000 for 9000
+ 47437 strings out of 478994
+ 1002011 string characters out of 5858184
+ 1730535 words of memory out of 5000000
+ 62955 multiletter control sequences out of 15000+600000
+ 455735 words of font info for 344 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,18n,116p,3269b,1117s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.20} has been referenced but does not ex
+pdfTeX warning (dest): name{Hfootnote.21} has been referenced but does not ex
 ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.20} has been referenced but does not exis
+t, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.19} has been referenced but does not exis
 t, replaced by a fixed one
@@ -2193,12 +2222,13 @@ blic/cm-super/sfti1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publ
 ic/cm-super/sfti1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public
 /cm-super/sftt1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/c
 m-super/sftt1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-
-super/sftt1728.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-su
-per/sftt2074.pfb>
-Output written on main.pdf (82 pages, 19958914 bytes).
+super/sftt1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-su
+per/sftt1728.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-supe
+r/sftt2074.pfb>
+Output written on main.pdf (86 pages, 20201374 bytes).
 PDF statistics:
- 2108 PDF objects out of 2487 (max. 8388607)
- 1899 compressed objects within 19 object streams
- 363 named destinations out of 1000 (max. 500000)
- 108477 words of extra memory for PDF output out of 128383 (max. 10000000)
+ 2195 PDF objects out of 2487 (max. 8388607)
+ 1974 compressed objects within 20 object streams
+ 378 named destinations out of 1000 (max. 500000)
+ 111047 words of extra memory for PDF output out of 128383 (max. 10000000)
 
