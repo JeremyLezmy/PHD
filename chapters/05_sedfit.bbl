@@ -1,5 +1,35 @@
-\begin{thebibliography}{18}
+\begin{thebibliography}{33}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{\textsc{{Battisti}} {et~al.}(2016)\textsc{{Battisti}},
+  \textsc{{Calzetti}} et \textsc{{Chary}}}]{Battisti2016}
+\textsc{{Battisti} A.~J.}, \textsc{{Calzetti} D.} et \textsc{{Chary} R.~R.}
+  2016, «~{Characterizing Dust Attenuation in Local Star-forming Galaxies: UV
+  and Optical Reddening}~»,
+  \href{http://dx.doi.org/10.3847/0004-637X/818/1/13}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2016ApJ...818...13B}{818, 13}
+
+\bibitem[{\textsc{{Battisti}} {et~al.}(2019)\textsc{{Battisti}}, \textsc{{da
+  Cunha}}, \textsc{{Grasha}}, \textsc{{Salvato}}, \textsc{{Daddi}},
+  \textsc{{Davies}}, \textsc{{Jin}}, \textsc{{Liu}}, \textsc{{Schinnerer}},
+  \textsc{{Vaccari}} et \textsc{{COSMOS Collaboration}}}]{Battisti2019}
+\textsc{{Battisti} A.~J.}, \textsc{{da Cunha} E.}, \textsc{{Grasha} K.}
+  {et~al.} 2019, «~{MAGPHYS+photo-z: Constraining the Physical Properties of
+  Galaxies with Unknown Redshifts}~»,
+  \href{http://dx.doi.org/10.3847/1538-4357/ab345d}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2019ApJ...882...61B}{882, 61}
+
+\bibitem[{\textsc{{Blagorodnova}} {et~al.}(2018)\textsc{{Blagorodnova}},
+  \textsc{{Neill}}, \textsc{{Walters}}, \textsc{{Kulkarni}},
+  \textsc{{Fremling}}, \textsc{{Ben-Ami}}, \textsc{{Dekany}}, \textsc{{Fucik}},
+  \textsc{{Konidaris}}, \textsc{{Nash}}, \textsc{{Ngeow}}, \textsc{{Ofek}},
+  \textsc{{O' Sullivan}}, \textsc{{Quimby}}, \textsc{{Ritter}} et
+  \textsc{{Vyhmeister}}}]{SEDM18}
+\textsc{{Blagorodnova} N.}, \textsc{{Neill} J.~D.}, \textsc{{Walters} R.}
+  {et~al.} 2018, «~{The SED Machine: A Robotic Spectrograph for Fast Transient
+  Classification}~»,
+  \href{http://dx.doi.org/10.1088/1538-3873/aaa53f}{\color{magenta}\pasp},
+  \href{https://ui.adsabs.harvard.edu/abs/2018PASP..130c5003B}{130, 035003}
 
 \bibitem[{\textsc{{Boquien}} {et~al.}(2019)\textsc{{Boquien}},
   \textsc{{Burgarella}}, \textsc{{Roehlly}}, \textsc{{Buat}},
@@ -10,6 +40,21 @@
   \href{http://dx.doi.org/10.1051/0004-6361/201834156}{\color{magenta}\aap},
   \href{https://ui.adsabs.harvard.edu/abs/2019A&A...622A.103B}{622, A103}
 
+\bibitem[{\textsc{{Bruzual}} et \textsc{{Charlot}}(2003)}]{BCO3}
+\textsc{{Bruzual} G.} et \textsc{{Charlot} S.} 2003, «~{Stellar population
+  synthesis at the resolution of 2003}~»,
+  \href{http://dx.doi.org/10.1046/j.1365-8711.2003.06897.x}{\color{magenta}\mnras},
+  \href{https://ui.adsabs.harvard.edu/abs/2003MNRAS.344.1000B}{344, 1000}
+
+\bibitem[{\textsc{{Buat}} {et~al.}(2018)\textsc{{Buat}}, \textsc{{Boquien}},
+  \textsc{{Malek}}, \textsc{{Corre}}, \textsc{{Salas}}, \textsc{{Roehlly}},
+  \textsc{{Shirley}} et \textsc{{Efstathiou}}}]{Buat2018}
+\textsc{{Buat} V.}, \textsc{{Boquien} M.}, \textsc{{Malek} K.} {et~al.} 2018,
+  «~{Dust attenuation and H{\ensuremath{\alpha}} emission in a sample of
+  galaxies observed with Herschel at 0.6 < z < 1.6}~»,
+  \href{http://dx.doi.org/10.1051/0004-6361/201833841}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2018A&A...619A.135B}{619, A135}
+
 \bibitem[{\textsc{{Burgarella}} {et~al.}(2005)\textsc{{Burgarella}},
   \textsc{{Buat}} et \textsc{{Iglesias-P\'aramo}}}]{Burgarella2005}
 \textsc{{Burgarella} D.}, \textsc{{Buat} V.} et \textsc{{Iglesias-P\'aramo} J.}
@@ -17,6 +62,11 @@
   statistical ultraviolet-to-far-infrared analysis}~»,
   \href{http://dx.doi.org/10.1111/j.1365-2966.2005.09131.x}{\color{magenta}\mnras},
   \href{https://ui.adsabs.harvard.edu/abs/2005MNRAS.360.1413B}{360, 1413}
+
+\bibitem[{\textsc{{Chabrier}}(2003)}]{Chabrier2003}
+\textsc{{Chabrier} G.} 2003, «~{Galactic Stellar and Substellar Initial Mass
+  Function}~», \href{http://dx.doi.org/10.1086/376392}{\color{magenta}\pasp},
+  \href{https://ui.adsabs.harvard.edu/abs/2003PASP..115..763C}{115, 763}
 
 \bibitem[{\textsc{{Chambers}} {et~al.}(2016)\textsc{{Chambers}},
   \textsc{{Magnier}}, \textsc{{Metcalfe}}, \textsc{{Flewelling}},
@@ -59,6 +109,50 @@
   {et~al.} 2016, «~{The Pan-STARRS1 Surveys}~»,
   \href{https://ui.adsabs.harvard.edu/abs/2016arXiv161205560C}{arXiv e-prints,
   arXiv:1612.05560}
+
+\bibitem[{\textsc{{Charlot}} et \textsc{{Fall}}(2000)}]{CharlotFall2000}
+\textsc{{Charlot} S.} et \textsc{{Fall} S.~M.} 2000, «~{A Simple Model for the
+  Absorption of Starlight by Dust in Galaxies}~»,
+  \href{http://dx.doi.org/10.1086/309250}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2000ApJ...539..718C}{539, 718}
+
+\bibitem[{\textsc{{Chevallard}} {et~al.}(2019)\textsc{{Chevallard}},
+  \textsc{{Curtis-Lake}}, \textsc{{Charlot}}, \textsc{{Ferruit}},
+  \textsc{{Giardino}}, \textsc{{Franx}}, \textsc{{Maseda}}, \textsc{{Amorin}},
+  \textsc{{Arribas}}, \textsc{{Bunker}}, \textsc{{Carniani}},
+  \textsc{{Husemann}}, \textsc{{Jakobsen}}, \textsc{{Maiolino}},
+  \textsc{{Pforr}}, \textsc{{Rawle}}, \textsc{{Rix}}, \textsc{{Smit}} et
+  \textsc{{Willott}}}]{Chevallard2019}
+\textsc{{Chevallard} J.}, \textsc{{Curtis-Lake} E.}, \textsc{{Charlot} S.}
+  {et~al.} 2019, «~{Simulating and interpreting deep observations in the
+  Hubble Ultra Deep Field with the JWST/NIRSpec low-resolution `prism'}~»,
+  \href{http://dx.doi.org/10.1093/mnras/sty2426}{\color{magenta}\mnras},
+  \href{https://ui.adsabs.harvard.edu/abs/2019MNRAS.483.2621C}{483, 2621}
+
+\bibitem[{\textsc{{da Cunha}} {et~al.}(2008)\textsc{{da Cunha}},
+  \textsc{{Charlot}} et \textsc{{Elbaz}}}]{Cunha2008MAGPHYS}
+\textsc{{da Cunha} E.}, \textsc{{Charlot} S.} et \textsc{{Elbaz} D.} 2008,
+  «~{A simple model to interpret the ultraviolet, optical and infrared
+  emission from galaxies}~»,
+  \href{http://dx.doi.org/10.1111/j.1365-2966.2008.13535.x}{\color{magenta}\mnras},
+  \href{https://ui.adsabs.harvard.edu/abs/2008MNRAS.388.1595D}{388, 1595}
+
+\bibitem[{\textsc{{Dale}} {et~al.}(2014)\textsc{{Dale}}, \textsc{{Helou}},
+  \textsc{{Magdis}}, \textsc{{Armus}}, \textsc{{Diaz-Santos}} et
+  \textsc{{Shi}}}]{Dale2014}
+\textsc{{Dale} D.~A.}, \textsc{{Helou} G.}, \textsc{{Magdis} G.~E.} {et~al.}
+  2014, «~{A Two-parameter Model for the Infrared/Submillimeter/Radio Spectral
+  Energy Distributions of Galaxies and Active Galactic Nuclei}~»,
+  \href{http://dx.doi.org/10.1088/0004-637X/784/1/83}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2014ApJ...784...83D}{784, 83}
+
+\bibitem[{\textsc{{Ferland}} {et~al.}(2013)\textsc{{Ferland}},
+  \textsc{{Porter}}, \textsc{{van Hoof}}, \textsc{{Williams}}, \textsc{{Abel}},
+  \textsc{{Lykins}}, \textsc{{Shaw}}, \textsc{{Henney}} et
+  \textsc{{Stancil}}}]{Ferland2013}
+\textsc{{Ferland} G.~J.}, \textsc{{Porter} R.~L.}, \textsc{{van Hoof} P.~A.~M.}
+  {et~al.} 2013, «~{The 2013 Release of Cloudy}~», \rmxaa,
+  \href{https://ui.adsabs.harvard.edu/abs/2013RMxAA..49..137F}{49, 137}
 
 \bibitem[{\textsc{{Fukugita}} {et~al.}(1996)\textsc{{Fukugita}},
   \textsc{{Ichikawa}}, \textsc{{Gunn}}, \textsc{{Doi}}, \textsc{{Shimasaku}} et
@@ -103,6 +197,12 @@
   J.~{Oschmann}, Jacobus~M.,
   \href{https://ui.adsabs.harvard.edu/abs/2004SPIE.5489..667H}{667--678}
 
+\bibitem[{\textsc{{Inoue}}(2011)}]{Inoue2011}
+\textsc{{Inoue} A.~K.} 2011, «~{Rest-frame ultraviolet-to-optical spectral
+  characteristics of extremely metal-poor and metal-free galaxies}~»,
+  \href{http://dx.doi.org/10.1111/j.1365-2966.2011.18906.x}{\color{magenta}\mnras},
+  \href{https://ui.adsabs.harvard.edu/abs/2011MNRAS.415.2920I}{415, 2920}
+
 \bibitem[{\textsc{{Kaiser}} {et~al.}(2002)\textsc{{Kaiser}}, \textsc{{Aussel}},
   \textsc{{Burke}}, \textsc{{Boesgaard}}, \textsc{{Chambers}}, \textsc{{Chun}},
   \textsc{{Heasley}}, \textsc{{Hodapp}}, \textsc{{Hunt}}, \textsc{{Jedicke}},
@@ -128,6 +228,26 @@
   Vol. 7733, {\em Ground-based and Airborne Telescopes III}, ed. L.~M. {Stepp},
   R.~{Gilmozzi}, \& H.~J. {Hall},
   \href{https://ui.adsabs.harvard.edu/abs/2010SPIE.7733E..0EK}{77330E}
+
+\bibitem[{\textsc{{Lo Faro}} {et~al.}(2017)\textsc{{Lo Faro}}, \textsc{{Buat}},
+  \textsc{{Roehlly}}, \textsc{{Alvarez-Marquez}}, \textsc{{Burgarella}},
+  \textsc{{Silva}} et \textsc{{Efstathiou}}}]{LoFaro2017}
+\textsc{{Lo Faro} B.}, \textsc{{Buat} V.}, \textsc{{Roehlly} Y.} {et~al.} 2017,
+  «~{Characterizing the UV-to-NIR shape of the dust attenuation curve of IR
+  luminous galaxies up to z {\ensuremath{\sim}} 2}~»,
+  \href{http://dx.doi.org/10.1093/mnras/stx1901}{\color{magenta}\mnras},
+  \href{https://ui.adsabs.harvard.edu/abs/2017MNRAS.472.1372L}{472, 1372}
+
+\bibitem[{\textsc{{Malek}} {et~al.}(2018)\textsc{{Malek}}, \textsc{{Buat}},
+  \textsc{{Roehlly}}, \textsc{{Burgarella}}, \textsc{{Hurley}},
+  \textsc{{Shirley}}, \textsc{{Duncan}}, \textsc{{Efstathiou}},
+  \textsc{{Papadopoulos}}, \textsc{{Vaccari}}, \textsc{{Farrah}},
+  \textsc{{Marchetti}} et \textsc{{Oliver}}}]{Malek2018}
+\textsc{{Malek} K.}, \textsc{{Buat} V.}, \textsc{{Roehlly} Y.} {et~al.} 2018,
+  «~{HELP: modelling the spectral energy distributions of Herschel detected
+  galaxies in the ELAIS N1 field}~»,
+  \href{http://dx.doi.org/10.1051/0004-6361/201833131}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2018A&A...620A..50M}{620, A50}
 
 \bibitem[{\textsc{{Morgan}} et \textsc{{Kaiser}}(2008)}]{Morgan2008}
 \textsc{{Morgan} J.~S.} et \textsc{{Kaiser} N.} 2008, «~{Alignment of the
@@ -197,6 +317,15 @@
   Stacking}~»,
   \href{http://dx.doi.org/10.3847/1538-4365/abb82b}{\color{magenta}\apjs},
   \href{https://ui.adsabs.harvard.edu/abs/2020ApJS..251....4W}{251, 4}
+
+\bibitem[{\textsc{{Wild}} {et~al.}(2007)\textsc{{Wild}}, \textsc{{Kauffmann}},
+  \textsc{{Heckman}}, \textsc{{Charlot}}, \textsc{{Lemson}},
+  \textsc{{Brinchmann}}, \textsc{{Reichard}} et \textsc{{Pasquali}}}]{Wild2007}
+\textsc{{Wild} V.}, \textsc{{Kauffmann} G.}, \textsc{{Heckman} T.} {et~al.}
+  2007, «~{Bursty stellar populations and obscured active galactic nuclei in
+  galaxy bulges}~»,
+  \href{http://dx.doi.org/10.1111/j.1365-2966.2007.12256.x}{\color{magenta}\mnras},
+  \href{https://ui.adsabs.harvard.edu/abs/2007MNRAS.381..543W}{381, 543}
 
 \bibitem[{\textsc{{York}} {et~al.}(2000)\textsc{{York}}, \textsc{{Adelman}},
   \textsc{{Anderson}}, \textsc{{Anderson}}, \textsc{{Annis}},

@@ -32,14 +32,15 @@
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Transmission des filtres Pan-STARRS1}}{59}{figure.caption.26}%
 \contentsline {figure}{\numberline {5.3}{\ignorespaces Image RGB de PS1 centrée sur ZTF18accrorf.}}{61}{figure.caption.29}%
 \contentsline {figure}{\numberline {5.4}{\ignorespaces Illustration binning $2\times 2$ sur les images PS1.}}{63}{figure.caption.30}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Image RGB de PS1 avec coupure SNR}}{64}{figure.caption.31}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Réponse impulsionnelle de la SEDm}{65}{chapter.6}%
+\contentsline {xchapter}{Réponse impulsionnelle de la SEDm}{69}{chapter.6}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Modélisation de Scène et Extraction de Source}{67}{chapter.7}%
-\contentsline {xpart}{Simulations et Résultats}{71}{part.3}%
+\contentsline {xchapter}{Modélisation de Scène et Extraction de Source}{71}{chapter.7}%
+\contentsline {xpart}{Simulations et Résultats}{75}{part.3}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Simulations de cubes de données et application d'\textsc {\texttt {HyperGal}} }{71}{chapter.8}%
+\contentsline {xchapter}{Simulations de cubes de données et application d'\textsc {\texttt {HyperGal}} }{75}{chapter.8}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Data Release 2 de ZTF}{73}{chapter.9}%
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Paramètres SALT2 de stretch et couleur pour la DR2 de ZTF}}{74}{figure.caption.31}%
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Correlation entre les paramètres SALT2 de stretch et couleur (ZTF-DR2)}}{75}{figure.caption.32}%
+\contentsline {xchapter}{Data Release 2 de ZTF}{77}{chapter.9}%
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Paramètres SALT2 de stretch et couleur pour la DR2 de ZTF}}{78}{figure.caption.35}%
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Correlation entre les paramètres SALT2 de stretch et couleur (ZTF-DR2)}}{79}{figure.caption.36}%

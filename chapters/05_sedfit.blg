@@ -3,45 +3,50 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: 05_sedfit.aux
 The style file: ../main/aa_url2.bst
 Database file #1: 99_references.bib
+Repeated entry---line 806 of file 99_references.bib
+ : @article{Dale2014
+ :                  ,
+I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 18 entries,
+You've used 33 entries,
             3173 wiz_defined-function locations,
-            875 strings with 17006 characters,
-and the built_in function-call counts, 29570 in all, are:
-= -- 1923
-> -- 3865
-< -- 8
-+ -- 1296
-- -- 1276
-* -- 4485
-:= -- 4925
-add.period$ -- 18
-call.type$ -- 18
-change.case$ -- 493
-chr.to.int$ -- 16
-cite$ -- 18
-duplicate$ -- 464
-empty$ -- 665
-format.name$ -- 1328
-if$ -- 5286
+            1019 strings with 22338 characters,
+and the built_in function-call counts, 40354 in all, are:
+= -- 2706
+> -- 4871
+< -- 12
++ -- 1638
+- -- 1603
+* -- 5974
+:= -- 6752
+add.period$ -- 33
+call.type$ -- 33
+change.case$ -- 662
+chr.to.int$ -- 31
+cite$ -- 33
+duplicate$ -- 766
+empty$ -- 1136
+format.name$ -- 1691
+if$ -- 7259
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 11
-newline$ -- 58
-num.names$ -- 78
-pop$ -- 520
+missing$ -- 26
+newline$ -- 103
+num.names$ -- 138
+pop$ -- 685
 preamble$ -- 1
-purify$ -- 493
+purify$ -- 662
 quote$ -- 0
-skip$ -- 387
+skip$ -- 628
 stack$ -- 0
-substring$ -- 482
-swap$ -- 1003
+substring$ -- 815
+swap$ -- 1283
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 162
+type$ -- 297
 warning$ -- 0
-while$ -- 81
+while$ -- 141
 width$ -- 0
-write$ -- 200
+write$ -- 365
+(There was 1 error message)

@@ -3,47 +3,52 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: aa_url2.bst
 Database file #1: ../chapters/99_references.bib
+Repeated entry---line 806 of file ../chapters/99_references.bib
+ : @article{Dale2014
+ :                  ,
+I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Warning--empty publisher in MinkowskiPOSS
-You've used 97 entries,
+You've used 109 entries,
             3173 wiz_defined-function locations,
-            1580 strings with 58265 characters,
-and the built_in function-call counts, 120968 in all, are:
-= -- 8054
-> -- 14861
-< -- 40
-+ -- 4988
-- -- 4888
-* -- 18053
-:= -- 20315
-add.period$ -- 97
-call.type$ -- 97
-change.case$ -- 2011
-chr.to.int$ -- 94
-cite$ -- 98
-duplicate$ -- 2137
-empty$ -- 3250
-format.name$ -- 5162
-if$ -- 21664
-int.to.chr$ -- 4
+            1681 strings with 62148 characters,
+and the built_in function-call counts, 129409 in all, are:
+= -- 8669
+> -- 15637
+< -- 44
++ -- 5253
+- -- 5140
+* -- 19215
+:= -- 21746
+add.period$ -- 109
+call.type$ -- 109
+change.case$ -- 2143
+chr.to.int$ -- 105
+cite$ -- 110
+duplicate$ -- 2378
+empty$ -- 3625
+format.name$ -- 5443
+if$ -- 23209
+int.to.chr$ -- 5
 int.to.str$ -- 1
-missing$ -- 82
-newline$ -- 295
-num.names$ -- 400
-pop$ -- 2042
+missing$ -- 94
+newline$ -- 331
+num.names$ -- 448
+pop$ -- 2171
 preamble$ -- 1
-purify$ -- 2010
+purify$ -- 2142
 quote$ -- 0
-skip$ -- 1762
+skip$ -- 1950
 stack$ -- 0
-substring$ -- 2408
-swap$ -- 3798
+substring$ -- 2669
+swap$ -- 4018
 text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 873
+type$ -- 981
 warning$ -- 1
-while$ -- 406
+while$ -- 454
 width$ -- 0
-write$ -- 1065
-(There was 1 warning)
+write$ -- 1197
+(There was 1 error message)

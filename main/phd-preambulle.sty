@@ -6,7 +6,10 @@
 \RequirePackage[french]{babel}
 \frenchbsetup{StandardLists=true}
 \RequirePackage{threeparttable}
+\RequirePackage{adjustbox}
 
+\newcommand\Tstrut{\rule{0pt}{2.6ex}}         % = `top' strut
+\newcommand\Bstrut{\rule[-0.9ex]{0pt}{0pt}}
 \makeatletter\@addtoreset{chapter}{part}\makeatother%
 
 % Test adding text
@@ -242,7 +245,7 @@
 \newcommand{\pkg}[1]{\textsc{\texttt{#1}}}
 \newcommand{\hypergal}{\pkg{HyperGal} }
 \newcommand{\pysedm}{\pkg{pysedm} }
-
+\newcommand{\cigale}{\pkg{CIGALE} }
 
 %Journal abbreviations
 \newcommand*{\apj}{The Astrophysical Journal}
@@ -250,6 +253,7 @@
 \newcommand*{\apjs}{The Astrophysical Journal, Supplement}
 \newcommand*{\aj}{The Astronomical Journal}
 \newcommand*{\jcp}{The Journal of Chemical Physics}
+\newcommand*{\rmxaa}{Revista Mexicana de Astronomía y Astrofísica}
 %% Fundamentals of Cosmic Physics
 \newcommand*{\fcp}{Fundamentals Cosmic Phys.}
 \newcommand*{\mnras}{Monthly Notices of the Royal Astronomical Society}
@@ -268,6 +272,7 @@
 \newcommand*{\physrep}{Physics Reports}
 \newcommand*\degr{\ensuremath{^\circ}}
 \newcommand*\arcmin{\ensuremath{^\prime}}
+\renewcommand*\arcsec{\ensuremath{^{\prime\prime}}}
 \newcommand*\farcm{\ensuremath{\overset{\prime}{.}}}
 \newcommand*\farcs{\ensuremath{\overset{\prime\prime}{.}}}
 \newcommand{\overbar}[1]{\mkern1.5mu\overline{\mkern-1.5mu#1\mkern-1.5mu}\mkern1.5mu}

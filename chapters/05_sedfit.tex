@@ -293,9 +293,10 @@ La séquence de détermination d'un modèle se fait par les calculs suivants
     (énergie réémise à partir de celle absorbée aux courtes
     longueurs d'onde - étape précédente).
 \item Emission d'un noyau actif.
-\item Décalage vers le rouge des modèles suivant le redshfit
-      d'entrée renseigné au préalable, et calcul de l'absorption du
-      milieu inter-galactique.
+\item Décalage vers le rouge des modèles suivant le redshfit, et calcul de l'absorption du
+      milieu inter-galactique. Le redshift peut être soit  arbitrairement fixé
+      par l'utilisateur, soit $0$ (la distance est alors fixée à
+      $10$pc), ou $-1$ et \pkg{CIGALE} tente alors de le fitter photométriquement.
   
 \end{enumerate}
 
@@ -308,25 +309,412 @@ de PS1.
 \subsection{Préparation des images photométriques}
 \label{ssec:preprocessimages}
 
+Avant de se lancer, quelques étapes de traitement sur nos images PS1
+sont nécessaires, \pkg{CIGALE} ayant besoin de données d'entrées sous un
+format spécifique.
+
+Notre premier réflexe a été de vérifier que l'on utilise pas des données
+sur-échantillonnées spatialement. En effet, nous rappellons qu'à la fin de
+ce processus de modélisation hyperspectrale nous serons en possession
+d'un cube avec un SED propre à chaque spaxel, et ce dans le même
+échantillonnage spatiale que les images photométriques utilisées. Le but
+étant par la suite de projeter ce cube dans l'espace de la SEDm, nous avons
+tout intérêt à s'assurer que nous ne perdrons pas d'information lors de
+la projection (sous-échantillonnage), mais également à l'inverse que
+nous n'appliquons pas \pkg{CIGALE} sur des données relativement
+sur-échantillonnées.
+
+La description de la SEDm dans \citet{SEDM18}, nous indique que le
+diamètre projeté des micro-lentilles dans le MLA est de l'ordre de
+$0\farcs75$. Les pixels des images PS1 étant carrés, et les spaxels du MLA étant hexagonaux, il s'agit surtout
+d'estimer leur taille effective si nous avions un agencement de spaxels
+de même forme. Les spécificités de l'IFU dans \citet{SEDM18} nous indiquent un
+agencement du MLA de $45\times52$ spaxels couvrant un champ de vue total de
+$28\times28\arcsec$. Ces informations nous indique que si le MLA
+était constitué de spaxels carrés, ceux-ci auraient un côté de l'ordre
+de $0\farcs57$. Nous verrons ultérieurement qu'en
+comparant plusieurs acquisitions de la SEDm ayant plusieurs sources dans
+le champ de vue, avec les images photométriques de PS1 sur la même
+localisation du ciel, que cette valeur est correcte à l'ordre du \%.
+
+Les pixels des images PS1 étant de $0\farcs25$ de côté, nous avons
+procédé à un regroupement $2\times2$ des pixels des images, comme
+illustré dans la Figure~\ref{fig:pscutoutsZTF18accrorf_binned}. Le flux
+du nouveau pixel est ainsi simplement la somme des flux des $4$ pixels
+dont il est issu, tout comme l'erreur associée.
 
 \begin{figure}
   \centering
   \includegraphics[width=0.99\textwidth]{../figures/05_sedfit/ps_cutouts_ZTF18accrorf_binned.pdf}
-  \caption[Illustration binning $2\times2$ sur les images PS1.]{Image RGB
-      construite à partir des bandes $g_{P1}$, $r_{P1}$ et
-      $z_{P1}$ des images PS1. L'image fait $35"$ de côté et est centrée sur la position de
-      détection de ZTF18accrorf par ZTF, à $(\text{RA}, \text{DEC})=(17.1692\degree,20.0799\degree)$}
+  \caption[Illustration binning $2\times2$ sur les images
+  PS1.]{Illustration du binning $2\times2$ sur l'image de la Figure~\ref{fig:pscutoutsZTF18accrorf}}
   \label{fig:pscutoutsZTF18accrorf_binned}
 \end{figure}
 
-\subsection{Configuration et utilisation de \pkg{CIGALE}}
+Par ailleurs, le flux (et l'erreur associée) des images étant en unité
+de coups, il nous faut les convertir en unité physique. Nous savons de
+\citet{Tonry2012} que le point zéro de
+toutes les bandes est de $\SI{25}{mag}$ dans le système de magnitude AB.
+
+Sachant la définition de la magnitude AB (Eq~\ref{eq:abmag}), et que
+$f_{\nu}=\frac{\lambda^{2}{c}}{f_{\lambda}}$ nous pouvons aisément passer des
+unités de coups en unité de flux physique avec un facteur multiplicatif:
+
+\begin{align*}
+   f_{\nu}[\erg\ \text{s}^{-1}\cm^{-2}\Hz^{-1}]&=
+                                                     10^{-(m_{AB}+48.6)/2.5}\\
+  \iff f_{\lambda}[\erg\ \text{s}^{-1}\cm^{-2}\ \text{\AA}^{-1}]&=
+                                                                  10^{-(m_{AB}+48.6)/2.5}\frac{c}{\lambda^{2}}\\
+  \implies f_{\lambda}[\erg\ \text{s}^{-1}\cm^{-2}\
+  \text{\AA}^{-1}]&=N_{c}\times 10^{-(m_{AB,0}+48.6)/2.5}\frac{c}{\lambda^{2}}
+\end{align*}
+
+Avec $N_{c}$ le flux en unité de coups, $\lambda$ la longueur d'onde
+pivot de la bande utilisée et $m_{AB,0}$ le point zéro commun aux 5
+bandes de PS1. \pkg{CIGALE} requiert un flux en unité de mJy, avec
+$1\text{Jy} = 10^{-23}\erg.\sec^{-1}\cm^{-2}\Hz^{-1}$, nous
+convertissons donc les flux dans cette unité.
+
+Par ailleurs, afin d'éviter d'appliquer le SED Fitter sur une zone sans
+galaxie (aka fond du ciel), nous effectuons une coupure dans les pixels
+où la SED sera modélisée en ne considérant que ceux où le ratio signal
+sur bruit (SNR) est supérieur à $3$ dans les $5$ bandes. Une
+illustration de cette coupure est montrée dans la Figure~\ref{fig:pscutoutsZTF18accrorf_cutsnr}. 
+
+\begin{figure}[ht]
+  \begin{minipage}[c]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{../figures/05_sedfit/ps_cutouts_ZTF18accrorf_snrcut.pdf}
+  \end{minipage}\hfill
+  \begin{minipage}[c]{0.53\textwidth}
+    \caption[Image RGB de PS1 avec coupure SNR]{Illustration de la
+      coupure SNR~$>3$ dans toutes les bandes PS1 avec l'image de la
+      Figure~\ref{fig:pscutoutsZTF18accrorf}, après binning $2\times2$.}\label{fig:pscutoutsZTF18accrorf_cutsnr}
+  \end{minipage}
+\end{figure}
+
+Enfin, à partir des informations de chaque image (flux et
+erreurs) nous créons un tableau que \pkg{CIGALE} pourra lire. Ce
+dernier contient une colonne \textit{ID}, une colonne \textit{redshift},
+et une colonne pour chaque filtre et erreur associée (par exemple
+\textit{ps1\_g} et \textit{ps1\_g\_err} pour le flux d'un pixel dans la bande
+$g_{P1}$ et l'erreur associée). Le redshift est habituellement obtenue à
+partir de la base de données spectrales de SDSS. Si aucun redshift spectroscopique
+n'est disponible, nous utilisons un redshift photométrique, ou un
+resdshift spectrale obtenu à partir d'une première extraction de spectre
+de la supernova étudiée. Nous montrons un exemple de tableau
+d'entrée qui sera lu par \pkg{CIGALE} dans la
+Table~\ref{tab:cigaleinput}.
+
+\begin{table}[ht]
+    \centerfloat
+    \begin{threeparttable}
+        \caption{Exemple de tableau d'entrée pour \pkg{CIGALE}}
+        \label{tab:cigaleinput}
+        
+        \begin{tabular}{lcccccccc}
+        \toprule
+           id &  redshift &     ps1\_g &  ps1\_g\_err &     ps1\_r &  ps1\_r\_err &   \ldots   &     ps1\_y &  ps1\_y\_err \\
+        \midrule
+           52 &      0.042 &  0.000698 &   0.000052 &  0.001043 &   0.000070 & \ldots &  0.001230 &   0.000373 \\
+          120 &      0.042 &  0.000586 &   0.000051 &  0.000901 &   0.000068 &  \ldots &  0.001214 &   0.000346 \\
+          121 &      0.042 &  0.001735 &   0.000058 &  0.002405 &   0.000072 &  \ldots &  0.002118 &   0.000350 \\
+          122 &      0.042 &  0.001982 &   0.000059 &  0.003414 &   0.000075 & \ldots &  0.003940 &   0.000389 \\
+          123 &      0.042 &  0.001114 &   0.000055 &  0.001932 &   0.000071 &  \ldots &  0.001633 &   0.000398 \\
+          \vdots & \vdots &\vdots &\vdots &\vdots &\vdots &\vdots &\vdots &\vdots \\
+          \bottomrule
+        \end{tabular}
+        \begin{tablenotes}[flushleft]
+        \item \textbf{Notes.} Chaque ligne (id) correspond à un pixel. Le redshift est le même pour tous les
+          pixels car on considère qu'ils appartiennent tous au même
+          objet. L'Unité des flux est en mJy.
+        \end{tablenotes}
+    \end{threeparttable}
+  \end{table}
+
+La géométrie et la position spaciale de chaque pixels sont alors mis en mémoire vis à vis de leur identifiant, et les pixels non sélectionnés par la coupure en SNR se verront attribués un spectre nulle lors de la construction du cube intrinsèque.
+
+\subsection{Configuration de \pkg{CIGALE}}
 \label{ssec:cigaleconfig}
+
+
+
+Nous utilisons dans le pipeline \hypergal la version 2020 de \cigale. Trois étapes sont nécessaires pour faire tourner le code : l'initialisation, la génération du fichier de configuration et enfin le lancement du fit. Ces étapes nécessitent la modification manuelle de fichiers \textit{.ini}, nous avons donc créé dans \hypergal une méthode d'automatisation de ces processus.
+
+L'initialisation a pour but de fixer le fichier de données a utiliser (Table~\ref{tab:cigaleinput}), le nombre de coeur sur la machine a utiliser et surtout les modules a partir desquels la grille de modèles sera calculée. Détaillons à présent les différentes composantes qui constitueront les ingrédients de notre modéliseur de SED.
+
+\subsubsection{Histoire de formation stellaire}
+
+Le premier module va définir le modèle d'histoire de formation stellaire (SFH) et ainsi le taux de formation stellaire (SFR) au cours du temps. La SFH décrit le processus de formation des étoiles au sein de la galaxie, qui va dépendre du temps et de l'espace,  et peut se produire de façon brutale (burst), progressive, voire les deux combinés. Nous avons choisi d'utiliser le module \textbf{\pkg{sfhdelayed}} proposé par \cigale, où la modélisation est de la forme suivante:
+\begin{equation}
+  \label{eq:sfhdelayed}
+  SFR(t)\propto \frac{t}{\tau^2}\times\exp(-t/\tau) \text{ pour $0\le t\le t_0$}
+\end{equation}
+
+Avec $t_0$ l'âge de commencement de la formation stellaire, et $\tau$ le moment où la SFR atteind son maximum. Cette forme permet une évolution lisse dans le temps, avec une croissance quasi-linéaire de la SFR jusqu'à un pic de taux de formation, suivant d'une lente décroissance quand $t>\tau$.
+Pour plus de flexibilité et prendre en compte un possible sursaut de formation stellaire, ce module permet également de rajouter une composante de burst exponentiel tardif, représentant un dernier évènement de fort taux de formation stellaire \citep{Malek2018}.
+Ainsi, la forme fonctionnelle de la SFR est:
+\begin{equation}
+  \label{eq:sfhdelayedburst}
+  SFR(t) = SFR(t)_{delayed} + SFR(t)_{burst}
+\end{equation}
+
+Où $SFR(t)_{delayed}$ est la composante de l'équation~\ref{eq:sfhdelayed}, et $SFR(t)_{burst}\propto e^{(-(t-t_{burst})/\tau_{burst})}$ quand $t>t_{burst}$, $0$ sinon. L'amplitude de ce \textit{burst} est fixée par le paramètre $f_{burst}$, qui est défini comme le ratio entre la masse d'étoiles formées durant cet évènement et la masse totale d'étoile. Les paramètres utilisés ($\tau$, $\tau_{burst}$, $t_0$, $t_{burst}$ et $f_{burst}$) sont présentés dans la Table~\ref{tab:cigaleparams}.
+
+\subsubsection{Population stellaire}
+Le second module décrit la population stellaire à laquelle la SFH va être appliquée, ce qui va permettre le calcul de la composante stellaire du spectre de la SED. Nous utilisons dans \hypergal la librairie de populations stellaire simple \textbf{\pkg{bco3}} (ou \pkg{GALAXEV}) de \citet{BCO3}, avec la fonction initiale de masse de \citet{Chabrier2003}. Cette librairie de population est disponible avec un large intervalle de paramètres de metallicité, allant de $0.0001$ à $0.05$, et fournit une résolution de l'ordre de $3$\AA\ sur l'intervalle de longueur d'onde $[3200-9500]$\AA\ (et une plus faible résolution au delà).
+
+
+\subsubsection{\'Emission nébulaire}
+
+Une part important de lumière émise par les étoiles les plus massives (dans le continuum Lyman) a pour effet de ioniser le gaz présent au sein de la galaxie. Ce phénomène engendre à son tour une émission énergétique non négligeable sous la forme de continuum et de raies. La librairie utilisée par \cigale pour modéliser l'émission nébulaire est basée sur \citet{Inoue2011}, et généré avec \pkg{CLOUDY 13.01} \citep{Ferland2013}.
+La modélisation qui en découle fixe les intensités relatives de 124 raies d'émissions dans la région $H_{II}$, et est paramétrisée par la métallicité $Z$ (identique à celui utilisé pour la population stellaire) et un paramètre d'ionisation $U$ sans dimension. Ce paramètre est défini tel que $\log(U)\equiv \log(n_{\gamma}/n_H)$ où $n_{\gamma}$ est la densité numérique de photon responsable de l'ionisation d'hydrogène et $n_H$ la densité numérique d'hydrogène.
+
+L'émission nébulaire ayant une forte contribution dans l'optique, nous explorons une large gamme de paramètres de métallicités $Z$ et de paramètres d'ionisation $U$, décrite dans la Table~\ref{tab:cigaleparams}.
+
+\subsubsection{Loi d'atténuation}
+
+La poussière contenue dans la galaxie absorbe fortement les radiations à courte longueur d'onde, notamment de l'ultraviolet au proche infrarouge, et cette énergie est ensuite ré-émise dans l'infrarouge moyen et lointain. Considérant le fait que \hypergal est conçu pour des objets jusqu'à un redshift de $z\approx0.1-0.15$, et que nous utilisons des images photométriques entre environ $4000$ et $10000$\AA, l'effet de l'atténuation par la poussière ne doit surtout pas être négligé.
+
+Nous adoptons le modèle développé par \citet{CharlotFall2000}, à travers le module \textbf{\pkg{dustatt\_modified\_CF00}} (CF00) de \cigale. L'idée de ce modèle est de considérer 2 populations d'étoiles: les étoiles jeunes ($<10^7$ années) qui résident encore dans le nuage qui lui a donné naissance (\textit{birth cloud}; BC), et les étoiles vieilles ($>10^7$ années) qui elles sont considérées comme appartenant au milieu interstellaire (ISM). L'atténuation est donc traitée différemment, dans le premier cas la contribution du nuage et du milieu interstellaire sont pris en compte, dans le second cas seul le milieu interstellaire. Une loi de puissance est utilisée dans les 2 cas, normalisée par l'atténuation dans la bande V ($\lambda_V=\SI{0.5}{\micro\metre}$):
+
+\begin{align*}
+  A_{\lambda}^{BC}=&A_{V}^{BC}\left(\frac{\lambda}{\lambda_V}\right)^{n_{BC}}\\
+  A_{\lambda}^{ISM}=&A_{V}^{ISM}\left(\frac{\lambda}{\lambda_V}\right)^{n_{ISM}}
+\end{align*}\\
+
+Et le ratio entre l'atténuation dans la bande V des étoiles jeunes et des étoiles vieilles est paramétré par:
+
+\begin{equation*}
+  \mu=\frac{A_{V}^{ISM}}{A_{V}^{ISM}+A_{V}^{BC}}
+\end{equation*}
+
+Où $\mu$ est un paramètre libre pour plus de fléxibilité et une
+meilleure estimation des raies d'émission $\text{H}_{\alpha}$
+\citep{Battisti2016,Buat2018,Malek2018,Chevallard2019}.
+Nous choisissons de fixer la pente de la loi de puissance pour l'atténuation du milieu interstellaire à $n_{ISM}=-0.7$ en suivant \citet{CharlotFall2000}. Cependant nous fixons l'autre pente (contribution du nuage) à $n_{BC}=-1.3$ pour prendre en compte les effets d'absorption des grains dans l'optique similairement à ceux présents dans la Voie Lactée et les nuages de Magellan \citep{LoFaro2017,Wild2007,Cunha2008MAGPHYS,Battisti2019}.
+
+\subsubsection{\'Emission de la poussière}
+
+La poussière ré-émet l'énergie absorbée entre l'UV et le proche IR dans
+le moyen et lointain IR. Cette contribution n'a donc que peu d'impact
+dans notre cas d'utilisation, étant donné que l'on étudie des galaxies
+proches ($z<0.15$) avec des bandes photométriques définies sur un
+interval de longueur d'onde
+${\lambda\lesssim10000}$\AA. Nous utilisons donc par défaut le module le plus
+simple décrivant cette contribution, \textbf{\pkg{dale2014}}
+\citep{Dale2014}. La paramétrisation est de la forme ${\d M_{\d}(U)\propto
+U^{-\alpha}\d U}$, entièrement défini par l'exposant $\alpha$, avec
+$M_{\d}$ la masse de poussière chauffée par le champ radiatif et $U$ l'intensité énergétique d'exposition.
+
+\subsubsection{Noyau galactique actif}
+
+Nous n'incluons pas de noyau galactique actif (AGN) dans notre paramétrisation de \cigale.
+
+\begin{table}[h]
+  \scriptsize
+  \centerfloat
+  \setlength\tabcolsep{14pt}
+  \renewcommand{\arraystretch}{1.5}
+    %\begin{threeparttable}
+        \caption{Paramètres d'entrées  pour chaque module de \cigale
+          utilisé.}
+        \label{tab:cigaleparams}
+        \makebox[\textwidth]{\begin{tabularx}{1.2\textwidth}{ccc}
+                               \toprule                               
+                               \textbf{Paramètre} & \textbf{Symbole} & \textbf{Intervalle}\\            
+                               \midrule
+                                                   & \textbf{Histoire de
+                                                     formation stellaire
+                                                     (SFH)} & \\
+                               \hline 
+          \textit{e-folding time} population stellaire principale &
+                                                                    $\tau_{main}$(Myr)& $1000$, $3000$, $5000$\\
+                               
+          \textit{e-folding time} population stellaire tardive &
+                                                                 $\tau_{burst}$(Myr)& $10000$\\
+                               
+          Âge population stellaire principale & $age_{main}$(Myr)&
+                                                                   $1000$, $2000$, $4000$, $8000$, $10000$, $12000$\\
+                               
+                               Âge du burst & $age_{burst}$(Myr)& $10$, $40$, $70$\\
+                               
+          Fraction massique de la population de burst & $f_{burst}$ &
+                                                                      $0$, $0.001$, $0.01$, $0.1$, $0.2$\\
+                               
+                               \hline
+                               
+                                                   & \textbf{Population stellaire} & \\
+                               \multicolumn{3}{c}{Modèles de population stellaire
+                                 \citet{BCO3}}\hspace{-1.1cm}\\
+                               
+                               
+                               \hline
+                               Fonction initiale de masse & IMF & \citet{Chabrier2003}\\
+                               
+          Metallicité & $Z$ & $0.0001$, $0.0004$, $0.004$, $0.008$,
+                              $0.02$, $0.05$\\
+                               
+                               \hline                               
+
+                                                   & \textbf{\'Emission
+                                                     nébulaire} & \\
+                               \hline
+                               
+                               Paramètre d'ionisation& $\log(U)$& $-4$, $-3$, $-2$, $-1$\\
+                               
+                               \hline
+                                                   & \textbf{Atténuation
+                                                     de la
+                                                     poussière}&\\
+                               \multicolumn{3}{c}{Basé sur
+                               \citep{CharlotFall2000} et \citet{Buat2018}}\hspace{-1.1cm}\\
+                               \hline
+                               Atténuation milieu interstaire dans la
+                               bande V & $A_{V}^{ISM}$&$0$, $0.3$,
+                                                        $0.7$, $1$,
+                                                        $1.3$, $1.7$,
+                                                        $2$\\
+                              
+                               $\frac{A_{V}^{ISM}}{A_{V}^{ISM}+A_{V}^{BC}}$
+                                                   & $\mu$ & $0.1$,
+                                                             $0.3$,
+                                                             $0.7$,
+                                                             $1$\\
+                               Pente loi de puissance BC & $n_{BC}$&
+                                                                     $-1.3$\\
+                               Pente loi de puissance ISM & $n_{BC}$& $-0.7$\\
+                               \hline
+                                                   & \textbf{\'Emission
+                                                     de la
+                                                     poussière}&\\
+                               \multicolumn{3}{c}{Librairie de \citet{Dale2014}}\hspace{-1.1cm}\\
+                               \hline
+                               Exposant $\alpha$ & $\alpha$ & $1$\\
+
+                               \bottomrule
+        \end{tabularx}}
+        \begin{tablenotes}[flushleft]
+        \item \textbf{Notes.} Chaque \textit{e-folding time} correspond au
+          temps caractéristique des 2 exponentielles décroissantes de
+          l'équation~\ref{eq:sfhdelayedburst}. 
+        \end{tablenotes}
+      %\end{threeparttable}
+      
+    \end{table}
+    
+\subsection{Utilisation}
+    
+La configuration que nous proposons dans la Table~\ref{tab:cigaleparams}
+nécessite le calcul d'une grille de $181440$ modèles. Sachant que notre
+but n'est pas de dériver de paramètres physiques (voir
+\citet{Boquien2019} pour la liste exhaustive), mais de seulement modéliser le
+SED pour chaque quintet de pixel, nous
+gagnons un temps de calcul non négligeable. 
+Avec une machine de $20$ coeur, le SED fitting dure environ $3$ minutes.
+
+
+Avant de construire le cube intrinsèque, nous récupérons l'information
+spatiale propre à chaque pixel, devenu nos nouveaux spaxels, afin de
+réaranger le même agencement que l'image dans la
+Figure~\ref{fig:pscutoutsZTF18accrorf_cutsnr}.
+
+La Figure~\ref{fig:cigalesinglespectra} montre deux exemples de SED
+fittées par \cigale, l'un à l'intérieur du bulbe galactique, l'autre à l'extérieur.
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=0.99\textwidth]{../figures/05_sedfit/cigalesinglespectra.png}
+  \caption[Exemples de SED fittés]{Exemples de SED fittés pour deux
+    pixels. \textit{À gauche} un pixel à l'extérieur du bulbe de la
+    galaxie, \textit{à droite} un pixel à l'intérieur. Les différentes
+    composantes de la SED totale sont indiqués dans les figures de
+    sortie de \cigale.}
+  \label{fig:cigalesinglespectra}
+\end{figure}
+
+L'obtention de la SED permet également de déterminer le flux intégré spectralement sur
+les bandes photométriques d'entrée, et ainsi d'estimer la robustesse de
+la modélisation et la présence éventuelle de structures dans les résidus. Nous montrons par exemple dans la
+Figure~\ref{fig:cigale_pullrms} la distribution du pull vis à vis de
+chaque bande de PS1, ainsi que le RMSE spectral en les considérant
+toutes.
+
+Le pull est défini comme la déviation entre le modèle et les données,
+pondérée par l'erreur sur ces dernières, tel que:
+\begin{equation}
+  \label{eq:pull}
+  p = \frac{y - \widetilde{y}}{\sigma}
+\end{equation}
+
+Avec $\widetilde{y}$ la prédiction du modèle, $y$ la donnée et $\sigma$
+l'erreur sur $y$.
+Le RMSE (ou erreur quadratique moyenne), est défini tel que:
+
+\begin{equation}
+  \label{eq:rms}
+  RMSE = \sqrt{\left(\frac{1}{N_{\lambda}}\sum_{\lambda}\left(\frac{y_{\lambda} - \widetilde{y}_{\lambda}}{y_{\lambda}}\right)^{2} \right)}
+\end{equation}
+
+Avec la même définition des paramètres que pour le pull et $N_{\lambda}$
+étant le nombre de données spectrales ($5$ dans notre cas). On notera la
+normalisation par $y_{\lambda}$, afin d'avoir une quantité plus
+facilement interprétable.
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=0.99\textwidth]{../figures/05_sedfit/cigale_pullrms_ZTF18accrorf.pdf}
+  \caption[Cartographie du pull et du RMS en sortie de
+  \cigale]{Cartographie du pull pour chaque bande PS1 et du RMS spectral en sortie de \cigale}
+  \label{fig:cigale_pullrms}
+\end{figure}
+
+Nous obtenons dans ce cas de figure une distribution sans structure
+apparente du pull et du RMS, avec une précision de l'ordre de $2-3$\%
+dans une majorité de la galaxie. On notera une déviation non néglieable
+sur les bords de la galaxie où la coupure $\text{SNR}>3$ n'est peut-être pas
+assez élevée et laisse passer quelques zones du ciel.
+
+Nous pouvons estimer le RMS spatial global à partir du RMS spectral de
+chaque pixel, tel que
+
+\begin{equation}
+\text{RMS}_{spatial} =\sqrt{\left(\frac{1}{N_{p}}\sum\limits_{p} \left(\text{RMS}^{2}_{p}\right)\right)}
+\end{equation}
+
+En considérant les $90$ premiers percentiles en RMS des pixels, nous obtenons avec les résultats montrés dans la
+Figure~\ref{fig:cigale_pullrms} que le $\text{RMS}_{spatial}=2.9\%$.
 
 
 \section{Construction du cube intrinsèque}
 
-\subsection{Sampling des spectres dans l'espace SEDm}
-%\label{ssec:xxx}
+\subsection{\'Echantillonage des spectres dans l'espace SEDm}
+% \label{ssec:xxx}
+
+Chaque pixel étant traité indépendamment par \cigale, leur échantillonnage
+spectral de sortie n'est pas homogène, et nécessite donc d'être uniformisé à
+notre cas d'utilisation, à savoir l'échantillonnage spectral de la SEDm.
+
+Les cubes de la SEDm sont construits numériquement avec les modules
+\pkg{pyifu}\footnote{\url{https://github.com/MickaelRigault/pyifu}} et
+\pkg{pysedm}, écrits en \pkg{python}, et sont composés de $220$ tranches spectrales
+étendues de $3700$\AA\ à $9300$\AA\, soit un échantillonnage spectrale
+d'environ $25.57$\AA.
+
+Comme nous l'illustrons dans la Figure~\ref{fig:cigalesampling},
+l'échantillonnage spectral des SED de sortie de \cigale est inférieur à
+$5$\AA, mais n'est pas uniforme.
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=0.99\textwidth]{../figures/05_sedfit/cigalesampling.pdf}
+  \caption[\'Echantillonage spectral d'une SED obtenue avec
+  \cigale]{\'Echantillonage spectral d'une SED obtenue avec \cigale. À
+    gauche la SED entre $3000$ et $10000$\AA, et à droite l'histogramme
+    de la taille d'échantillonage de cette SED.}}
+  \label{fig:cigalesampling}
+\end{figure}
+
+
 
 \subsection{Construction du cube}
 % \label{ssec:xxx}

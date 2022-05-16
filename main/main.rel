@@ -11,7 +11,7 @@
 
 (is-multi t)
 
-(bibview-cache ("ChambersPanstarrs" . "Chambers etal. 2016, {The Pan STARRS1 Surveys}, arXiv e-prints arXiv:1612") ("MuthukrishnaDash" . "Muthukrishna etal. 2019, {DASH: Deep Learning Automated Spectral, \\apj 885:85") ("FremlingZTFspec2020" . "Fremling etal. 2020, {The Zwicky Transient Facility Bright, \\apj 895:32") ("DekanyZTF2020" . "Dekany etal. 2020, {The Zwicky Trans. Facil. Observ., \\pasp 132:038001"))
+(bibview-cache ("Boquien2019" . "Boquien etal. 2019, {CIG. pyth. Code Invest. GALaxy, \\aap 622:A103") ("Tonry2008GPC1" . "Tonry etal. 2008, {Results from Pan STARRS Orthogonal, in: High Energy  Optical, 7021:702105") ("Tonry2006GPC1" . "Tonry etal. 2006, {The Pan STARRS Gigapixel Camera}, in: Advanced Maui Optical Space, E47") ("Hodapp2004a" . "Hodapp etal. 2004, {Optical design Pan STARRS telescopes}, in: Optical Design Engineering, 5249:165") ("Kaiser2010" . "Kaiser etal. 2010, {The Pan STARRS wide field, in: Ground based Airborne Telescopes, 7733:77330E") ("JohnsonProspector" . "Johnson etal. 2021, {Stell. Popul. Infer. with Prosp., \\apjs 254:22") ("Draine2007" . "Draine & Li 2007, {Infr. Emiss. from Interst. Dust., \\apj 657:810") ("Calzetti2000" . "Calzetti etal. 2000, {The Dust Content Opacity Actively, \\apj 533:682") ("ChambersPanstarrs" . "Chambers etal. 2016, {The Pan STARRS1 Surveys}, arXiv e-prints arXiv:1612") ("MuthukrishnaDash" . "Muthukrishna etal. 2019, {DASH: Deep Learning Automated Spectral, \\apj 885:85") ("FremlingZTFspec2020" . "Fremling etal. 2020, {The Zwicky Transient Facility Bright, \\apj 895:32") ("DekanyZTF2020" . "Dekany etal. 2020, {The Zwicky Trans. Facil. Observ., \\pasp 132:038001"))
 
 (master-dir . "/Users/lezmy/These_projects/PHD_LEZMY/main/")
 
@@ -53,7 +53,7 @@
 
 (eof "/Users/lezmy/These_projects/PHD_LEZMY/chapters/13_introduction.tex")
 
-(toc "toc" "Part I Contexte Scientifique" "/Users/lezmy/These_projects/PHD_LEZMY/main/main.tex" nil 0 "Part I" "\\part{Contexte Scientifique}" 1179)
+(toc "toc" "Part I Contexte Scientifique" "/Users/lezmy/These_projects/PHD_LEZMY/main/main.tex" nil 0 "Part I" "\\part{Contexte Scientifique}" 1276)
 
 (bof "/Users/lezmy/These_projects/PHD_LEZMY/chapters/01_cosmology.tex")
 
@@ -221,121 +221,165 @@
 
 (toc "toc" "      3.3.3 Calibration en flux" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/03_sedm.tex" nil 3 "3.3.3" "\\subsection{Calibration en flux}" 22984)
 
-("eq:1" "e" " " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/03_sedm.tex" nil)
+("eq:calibbutoon" "e" "S(\\lambda,t,z)=S^{\\star}(\\lambda,t)\\times\\mathcal{C}(\\lambda,t)\\times T_{atm}(\\lambda,t,z) " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/03_sedm.tex" nil)
+
+("eq:calibbutoon" "e" "S(\\lambda,t,z)=S^{\\star}(\\lambda,t)\\times\\left[\\mathcal{C}(\\lambda,t)+\\mathcal{ T}(\\lambda,t,z)\\righ" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/03_sedm.tex" nil)
+
+("eq:telluricpysedm" "e" "\\mathcal{T}(z) = \\mathcal{T}_{\\text{O}_{2}}\\times(c_{\\text{O}_{2}}+z^{\\rho_{\\text{O}_{2}}}) + \\mathc" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/03_sedm.tex" nil)
 
 (toc "toc" "    3.4 Classification" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/03_sedm.tex" nil 2 "3.4" "\\section{Classification}" 26745)
 
-(toc "toc" "    3.5 Limites" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/03_sedm.tex" nil 2 "3.5" "\\section{Limites}" 30715)
+("fig:pysedmoutput" "f" "Exemple d'extraction de source ponctuelle avec \\pysedm" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/03_sedm.tex" nil)
+
+(toc "toc" "    3.5 Contamination par la galaxie hôte" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/03_sedm.tex" nil 2 "3.5" "\\section{Contamination par la galaxie hôte}" 31703)
+
+("fig:cumulsnhostdist" "f" "Distribution cumulée du décalage angulaire entre les supernovae BTS et leur galaxie hôte" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/03_sedm.tex" nil)
+
+("fig:stronghost" "f" "Exemple de situation extrême de contamination de supernova par la galaxie hôte" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/03_sedm.tex" nil)
 
 (eof "/Users/lezmy/These_projects/PHD_LEZMY/chapters/03_sedm.tex")
 
-(toc "toc" "Part II Extraction de spectre de Supernovae" "/Users/lezmy/These_projects/PHD_LEZMY/main/main.tex" nil 0 "Part II" "\\part{Extraction de spectre de Supernovae}" 1318)
+(toc "toc" "Part II Extraction de spectre de Supernovae" "/Users/lezmy/These_projects/PHD_LEZMY/main/main.tex" nil 0 "Part II" "\\part{Extraction de spectre de Supernovae}" 1415)
 
 (bof "/Users/lezmy/These_projects/PHD_LEZMY/chapters/04_hypergal.tex")
 
-(toc "toc" "  4 \\hypergal : Une nouvelle méthode d'extraction de source ponctuelle" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/04_hypergal.tex" nil 1 "4" "\\chapter{\\hypergal : Une nouvelle méthode d'extraction de source ponctuelle}" 62)
+(toc "toc" "  4 \\hypergal: Modéliseur de scène pour l'extraction de sources ponctuelles" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/04_hypergal.tex" nil 1 "4" "\\chapter{\\hypergal: Modéliseur de scène pour l'extraction de sources ponctuelles}" 86)
 
-("ch:hypergal" "s" "-- XXX -- \\minitoc \\newpage \\section{Idée générale} \\section{SED Fitting} % \\section{Présentation du" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/04_hypergal.tex" nil)
+("ch:hypergal" "s" "\\minitoc \\vspace{2cm} La première partie de ce manuscrit était dédiée à la présentation du contexte " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/04_hypergal.tex" nil)
 
-(toc "toc" "    4.1 Idée générale" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/04_hypergal.tex" nil 2 "4.1" "\\section{Idée générale}" 189)
+(toc "toc" "    4.1 Idée générale" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/04_hypergal.tex" nil 2 "4.1" "\\section{Idée générale}" 1757)
 
-(toc "toc" "    4.2 SED Fitting" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/04_hypergal.tex" nil 2 "4.2" "\\section{SED Fitting}" 214)
+("sec:ideahypergal" "s" "\\subsection{Problématique} Le champ de vue de la SEDm étant étroit ($28\\times28\\arcsec$), nous avons" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/04_hypergal.tex" nil)
 
-("sec:xxx" "s" "\\section{Présentation du Pipeline} % " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/04_hypergal.tex" 237)
+(toc "toc" "      4.1.1 Problématique" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/04_hypergal.tex" nil 3 "4.1.1" "\\subsection{Problématique}" 1806)
 
-(toc "toc" "    4.3 Présentation du Pipeline" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/04_hypergal.tex" nil 2 "4.3" "\\section{Présentation du Pipeline}" 254)
+(toc "toc" "      4.1.2 La composante galactique" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/04_hypergal.tex" nil 3 "4.1.2" "\\subsection{La composante galactique}" 3197)
 
-("sec:xxx" "s" " " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/04_hypergal.tex" 290)
+(toc "toc" "    4.2 SED Fitting" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/04_hypergal.tex" nil 2 "4.2" "\\section{SED Fitting}" 5050)
+
+("sec:sedfitting" "s" "\\subsection{SED d'une galaxie} Bien évidemment il est impossible de parler de SED Fitter sans parler" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/04_hypergal.tex" nil)
+
+(toc "toc" "      4.2.1 SED d'une galaxie" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/04_hypergal.tex" nil 3 "4.2.1" "\\subsection{SED d'une galaxie}" 5094)
+
+("fig:specgalsdss" "f" "Exemple de spectres de galaxies" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/04_hypergal.tex" nil)
+
+(toc "toc" "      4.2.2 SED Fitter" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/04_hypergal.tex" nil 3 "4.2.2" "\\subsection{SED Fitter}" 9123)
+
+(toc "toc" "    4.3 Présentation du Pipeline" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/04_hypergal.tex" nil 2 "4.3" "\\section{Présentation du Pipeline}" 12882)
+
+("sec:pipeline" "s" "% \\begin{figure} \\centering \\includegraphics[width=0.99\\textwidth]{../figures/04_hypergal/softdaghyp" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/04_hypergal.tex" nil)
+
+("sec:xxx" "s" "\\begin{figure} \\centering \\includegraphics[width=0.99\\textwidth]{../figures/04_hypergal/softdaghyper" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/04_hypergal.tex" 12938)
+
+("fig:softdaghypergal" "f" "Présentation du pipeline \\hypergal" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/04_hypergal.tex" nil)
+
+(toc "toc" "      4.3.1 Cube intrinsèque" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/04_hypergal.tex" nil 3 "4.3.1" "\\subsection{Cube intrinsèque}" 13418)
+
+(toc "toc" "      4.3.2 Modélisation de scène 2D" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/04_hypergal.tex" nil 3 "4.3.2" "\\subsection{Modélisation de scène 2D}" 14777)
+
+(toc "toc" "      4.3.3 Modélisation chromatique et projection 3D" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/04_hypergal.tex" nil 3 "4.3.3" "\\subsection{Modélisation chromatique et projection 3D}" 15827)
+
+(toc "toc" "    4.4 Cas pédagogique de présentation" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/04_hypergal.tex" nil 2 "4.4" "\\section{Cas pédagogique de présentation}" 16769)
+
+("fig:easycasesedm" "f" "Cube 3D SEDm de ZTF18accrorf" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/04_hypergal.tex" nil)
+
+("fig:easycaseextractionpysedm" "f" "Extraction de ZTF18accrorf avec \\pysedm" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/04_hypergal.tex" nil)
 
 (eof "/Users/lezmy/These_projects/PHD_LEZMY/chapters/04_hypergal.tex")
 
-(bof "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_sedfit.tex")
+(bof "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_sedfit.tex")
 
-(toc "toc" "  5 Modélisation Hyperspectrale" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_sedfit.tex" nil 1 "5" "\\chapter{Modélisation Hyperspectrale}" 62)
+(toc "toc" "  5 Modélisation hyperspectrale" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_sedfit.tex" nil 1 "5" "\\chapter{Modélisation hyperspectrale}" 85)
 
-("ch:sedfit" "s" "-- XXX -- \\minitoc \\newpage \\section{Source photométrique: PS1} % \\subsection{Présentation du survey" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_sedfit.tex" nil)
+("ch:modelhyperspec" "s" "\\minitoc \\vspace{2cm} Ce chapitre est consacré l'étape de construction du cube intrinsèque de la gal" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_sedfit.tex" nil)
 
-(toc "toc" "    5.1 Source photométrique: PS1" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_sedfit.tex" nil 2 "5.1" "\\section{Source photométrique: PS1}" 148)
+(toc "toc" "    5.1 Source photométrique" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_sedfit.tex" nil 2 "5.1" "\\section{Source photométrique}" 864)
 
-("sec:xxx" "s" "\\subsection{Présentation du survey} % \\subsection{Utilisation des images PS1} %\\label{ssec:xxx} \\sec" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_sedfit.tex" 185)
+("sec:photosource" "s" "Notre cadre de recherche étant au sein de la collaboration ZTF, nous devons prévoir le fait que nous" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_sedfit.tex" nil)
 
-(toc "toc" "      5.1.1 Présentation du survey" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_sedfit.tex" nil 3 "5.1.1" "\\subsection{Présentation du survey}" 202)
+(toc "toc" "      5.1.1 Relevé astronomique Pan-STARRS1" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_sedfit.tex" nil 3 "5.1.1" "\\subsection{Relevé astronomique Pan-STARRS1}" 1827)
 
-("ssec:xxx" "s" "\\subsection{Utilisation des images PS1} % \\section{Cigale et SEDFitting} %\\label{sec:xxx} \\subsectio" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_sedfit.tex" 239)
+("ssec:ps1" "s" "Le relevé Pan-STARRS1 \\citep{ChambersPS1survey} est une installation innovante d’imagerie astronomiq" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_sedfit.tex" nil)
 
-(toc "toc" "      5.1.2 Utilisation des images PS1" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_sedfit.tex" nil 3 "5.1.2" "\\subsection{Utilisation des images PS1}" 257)
+("fig:gpc1focalplan" "f" "Plan focal de la Gigapixel Camera (PS1)" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_sedfit.tex" nil)
 
-("ssec:xxx" "s" "\\section{Cigale et SEDFitting} % \\subsection{Présentation de Cigale} %\\label{ssec:xxx} \\subsection{U" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_sedfit.tex" 298)
+("fig:ps1filters" "f" "Transmission des filtres Pan-STARRS1" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_sedfit.tex" nil)
 
-(toc "toc" "    5.2 Cigale et SEDFitting" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_sedfit.tex" nil 2 "5.2" "\\section{Cigale et SEDFitting}" 317)
+("eq:2" "e" " " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_sedfit.tex" nil)
 
-("sec:xxx" "s" "\\subsection{Présentation de Cigale} % \\subsection{Utilisation} % \\label{ssec:xxx} \\section{Construct" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_sedfit.tex" 349)
+(toc "toc" "      5.1.2 Utilisation des images PS1" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_sedfit.tex" nil 3 "5.1.2" "\\subsection{Utilisation des images PS1}" 7190)
 
-(toc "toc" "      5.2.1 Présentation de Cigale" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_sedfit.tex" nil 3 "5.2.1" "\\subsection{Présentation de Cigale}" 366)
+("ssec:preprocessps1" "s" "\\section{\\pkg{Cigale} et SEDFitting}  \\subsection{Présentation de Cigale} \\label{ssec:cigale} \\subse" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_sedfit.tex" nil)
 
-("ssec:xxx" "s" "\\subsection{Utilisation} %  \\section{Construction du cube intrinsèque} \\subsection{Sampling des spec" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_sedfit.tex" 403)
+(toc "toc" "    5.2 \\pkg{Cigale} et SEDFitting" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_sedfit.tex" nil 2 "5.2" "\\section{\\pkg{Cigale} et SEDFitting}" 11472)
 
-(toc "toc" "      5.2.2 Utilisation" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_sedfit.tex" nil 3 "5.2.2" "\\subsection{Utilisation}" 421)
+("sec:cigale" "s" "\\subsection{Présentation de Cigale}  \\subsection{Utilisation} \\label{ssec:usecigale} \\section{Constr" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_sedfit.tex" nil)
 
-("ssec:xxx" "s" "\\section{Construction du cube intrinsèque} \\subsection{Sampling des spectres dans l'espace SEDm} %  " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_sedfit.tex" 448)
+(toc "toc" "      5.2.1 Présentation de Cigale" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_sedfit.tex" nil 3 "5.2.1" "\\subsection{Présentation de Cigale}" 11890)
 
-(toc "toc" "    5.3 Construction du cube intrinsèque" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_sedfit.tex" nil 2 "5.3" "\\section{Construction du cube intrinsèque}" 466)
+("ssec:cigale" "s" "\\subsection{Utilisation}  \\section{Construction du cube intrinsèque} \\subsection{Sampling des spectr" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_sedfit.tex" nil)
 
-(toc "toc" "      5.3.1 Sampling des spectres dans l'espace SEDm" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_sedfit.tex" nil 3 "5.3.1" "\\subsection{Sampling des spectres dans l'espace SEDm}" 510)
+(toc "toc" "      5.2.2 Utilisation" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_sedfit.tex" nil 3 "5.2.2" "\\subsection{Utilisation}" 14494)
 
-("ssec:xxx" "s" "\\subsection{Construction du cube} %  " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_sedfit.tex" 566)
+("ssec:usecigale" "s" "\\section{Construction du cube intrinsèque} \\subsection{Sampling des spectres dans l'espace SEDm} % \\" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_sedfit.tex" nil)
 
-(toc "toc" "      5.3.2 Construction du cube" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_sedfit.tex" nil 3 "5.3.2" "\\subsection{Construction du cube}" 584)
+(toc "toc" "    5.3 Construction du cube intrinsèque" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_sedfit.tex" nil 2 "5.3" "\\section{Construction du cube intrinsèque}" 21252)
 
-("ssec:xxx" "s" " " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_sedfit.tex" 620)
+(toc "toc" "      5.3.1 Sampling des spectres dans l'espace SEDm" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_sedfit.tex" nil 3 "5.3.1" "\\subsection{Sampling des spectres dans l'espace SEDm}" 21296)
 
-(eof "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_sedfit.tex")
+("ssec:xxx" "s" "\\subsection{Construction du cube} %  %\\bibliographystyle{../main/aa_url} %\\bibliography{99_reference" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_sedfit.tex" 4725)
 
-(bof "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_irf.tex")
+(toc "toc" "      5.3.2 Construction du cube" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_sedfit.tex" nil 3 "5.3.2" "\\subsection{Construction du cube}" 21369)
 
-(toc "toc" "  6 Réponse impulsionnelle de la SEDm" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_irf.tex" nil 1 "6" "\\chapter{Réponse impulsionnelle de la SEDm}" 62)
+("ssec:xxx" "s" "%\\bibliographystyle{../main/aa_url} %\\bibliography{99_references} " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_sedfit.tex" 4779)
 
-("ch:irf" "s" "-- XXX -- \\minitoc \\newpage \\section{LSF} %  \\subsection{Lampe à arc} % \\label{ssec:xxx} \\subsection" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_irf.tex" nil)
+(eof "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_sedfit.tex")
 
-(toc "toc" "    6.1 LSF" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_irf.tex" nil 2 "6.1" "\\section{LSF}" 151)
+(bof "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_irf.tex")
 
-("sec:xxx" "s" "\\subsection{Lampe à arc} %  \\subsection{Détermination de la LSF} % \\label{ssec:xxx} \\section{PSF} %\\" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_irf.tex" 167)
+(toc "toc" "  6 Réponse impulsionnelle de la SEDm" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_irf.tex" nil 1 "6" "\\chapter{Réponse impulsionnelle de la SEDm}" 62)
 
-(toc "toc" "      6.1.1 Lampe à arc" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_irf.tex" nil 3 "6.1.1" "\\subsection{Lampe à arc}" 184)
+("ch:irf" "s" "-- XXX -- \\minitoc \\newpage \\section{Réponse impulsionnelle spectrale: LSF} %  \\subsection{Lampe à a" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_irf.tex" nil)
 
-("ssec:xxx" "s" "\\subsection{Détermination de la LSF} %  \\section{PSF} %\\label{ssec:xxx} \\subsection{Modèle de profil" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_irf.tex" 211)
+(toc "toc" "    6.1 Réponse impulsionnelle spectrale: LSF" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_irf.tex" nil 2 "6.1" "\\section{Réponse impulsionnelle spectrale: LSF}" 151)
 
-(toc "toc" "      6.1.2 Détermination de la LSF" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_irf.tex" nil 3 "6.1.2" "\\subsection{Détermination de la LSF}" 229)
+("sec:xxx" "s" "\\subsection{Lampe à arc} %  \\subsection{Détermination de la LSF} % \\label{ssec:xxx} \\section{Réponse" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_irf.tex" 201)
 
-("ssec:xxx" "s" "\\section{PSF} % \\subsection{Modèle de profil radial} %\\label{ssec:xxx} \\subsection{Entrainement du m" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_irf.tex" 268)
+(toc "toc" "      6.1.1 Lampe à arc" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_irf.tex" nil 3 "6.1.1" "\\subsection{Lampe à arc}" 218)
 
-(toc "toc" "    6.2 PSF" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_irf.tex" nil 2 "6.2" "\\section{PSF}" 286)
+("ssec:xxx" "s" "\\subsection{Détermination de la LSF} %  \\section{Réponse impulsionnelle spatiale: PSF} %\\label{ssec:" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_irf.tex" 245)
 
-("ssec:xxx" "s" "\\subsection{Modèle de profil radial} % \\subsection{Entrainement du modèle} \\subsection{Chromaticité " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_irf.tex" 301)
+(toc "toc" "      6.1.2 Détermination de la LSF" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_irf.tex" nil 3 "6.1.2" "\\subsection{Détermination de la LSF}" 263)
 
-(toc "toc" "      6.2.1 Modèle de profil radial" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_irf.tex" nil 3 "6.2.1" "\\subsection{Modèle de profil radial}" 319)
+("ssec:xxx" "s" "\\section{Réponse impulsionnelle spatiale: PSF} % \\subsection{Modèle de profil radial} %\\label{ssec:x" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_irf.tex" 302)
 
-("ssec:xxx" "s" "\\subsection{Entrainement du modèle} \\subsection{Chromaticité et ADR} \\section{Validation} %\\label{se" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_irf.tex" 357)
+(toc "toc" "    6.2 Réponse impulsionnelle spatiale: PSF" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_irf.tex" nil 2 "6.2" "\\section{Réponse impulsionnelle spatiale: PSF}" 320)
 
-(toc "toc" "      6.2.2 Entrainement du modèle" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_irf.tex" nil 3 "6.2.2" "\\subsection{Entrainement du modèle}" 375)
+("ssec:xxx" "s" "\\subsection{Modèle de profil radial} % \\subsection{Entrainement du modèle} \\subsection{Chromaticité " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_irf.tex" 368)
 
-(toc "toc" "      6.2.3 Chromaticité et ADR" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_irf.tex" nil 3 "6.2.3" "\\subsection{Chromaticité et ADR}" 412)
+(toc "toc" "      6.2.1 Modèle de profil radial" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_irf.tex" nil 3 "6.2.1" "\\subsection{Modèle de profil radial}" 386)
 
-("ssec:chromadr" "s" "\\section{Validation} % \\subsection{Calibration photométrique} %\\label{ssec:xxx} \\subsection{Résultat" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_irf.tex" nil)
+("ssec:xxx" "s" "\\subsection{Entrainement du modèle} \\subsection{Chromaticité et ADR} \\section{Validation} %\\label{se" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_irf.tex" 424)
 
-(toc "toc" "    6.3 Validation" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_irf.tex" nil 2 "6.3" "\\section{Validation}" 467)
+(toc "toc" "      6.2.2 Entrainement du modèle" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_irf.tex" nil 3 "6.2.2" "\\subsection{Entrainement du modèle}" 442)
 
-("sec:xxx" "s" "\\subsection{Calibration photométrique} % \\subsection{Résultats} %\\label{ssec:xxx} " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_irf.tex" 489)
+(toc "toc" "      6.2.3 Chromaticité et ADR" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_irf.tex" nil 3 "6.2.3" "\\subsection{Chromaticité et ADR}" 479)
 
-(toc "toc" "      6.3.1 Calibration photométrique" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_irf.tex" nil 3 "6.3.1" "\\subsection{Calibration photométrique}" 506)
+("ssec:chromadr" "s" "\\section{Validation} % \\subsection{Calibration photométrique} %\\label{ssec:xxx} \\subsection{Résultat" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_irf.tex" nil)
 
-("ssec:xxx" "s" "\\subsection{Résultats} % " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_irf.tex" 546)
+(toc "toc" "    6.3 Validation" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_irf.tex" nil 2 "6.3" "\\section{Validation}" 534)
 
-(toc "toc" "      6.3.2 Résultats" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_irf.tex" nil 3 "6.3.2" "\\subsection{Résultats}" 564)
+("sec:xxx" "s" "\\subsection{Calibration photométrique} % \\subsection{Résultats} %\\label{ssec:xxx} " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_irf.tex" 556)
 
-("ssec:xxx" "s" " " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_irf.tex" 588)
+(toc "toc" "      6.3.1 Calibration photométrique" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_irf.tex" nil 3 "6.3.1" "\\subsection{Calibration photométrique}" 573)
 
-(eof "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_irf.tex")
+("ssec:xxx" "s" "\\subsection{Résultats} % " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_irf.tex" 613)
+
+(toc "toc" "      6.3.2 Résultats" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_irf.tex" nil 3 "6.3.2" "\\subsection{Résultats}" 631)
+
+("ssec:xxx" "s" " " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_irf.tex" 655)
+
+(eof "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_irf.tex")
 
 (bof "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex")
 
@@ -391,49 +435,49 @@
 
 (eof "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex")
 
-(toc "toc" "Part III Simulations et Résultats" "/Users/lezmy/These_projects/PHD_LEZMY/main/main.tex" nil 0 "Part III" "\\part{Simulations et Résultats}" 1507)
+(toc "toc" "Part III Simulations et Résultats" "/Users/lezmy/These_projects/PHD_LEZMY/main/main.tex" nil 0 "Part III" "\\part{Simulations et Résultats}" 1604)
 
 (bof "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex")
 
-(toc "toc" "  8 Simulations de cubes de données et application d'\\hypergal" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil 1 "8" "\\chapter{Simulations de cubes de données et application d'\\hypergal}" 62)
+(toc "toc" "  8 Simulations de cubes de données et application d'\\hypergal" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil 1 "8" "\\chapter{Simulations de cubes de données et application d'\\hypergal}" 86)
 
 ("ch:res" "s" "-- XXX -- \\minitoc \\newpage \\section{Génération des simulations} % \\subsection{Cube de galaxies isol" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil)
 
-(toc "toc" "    8.1 Génération des simulations" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil 2 "8.1" "\\section{Génération des simulations}" 176)
+(toc "toc" "    8.1 Génération des simulations" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil 2 "8.1" "\\section{Génération des simulations}" 200)
 
-("sec:xxx" "s" "\\subsection{Cube de galaxies isolées} % \\subsection{Modèles de Supernovae} % \\label{ssec:xxx} \\subse" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" 214)
+("sec:xxx" "s" "\\subsection{Cube de galaxies isolées} % \\subsection{Modèles de Supernovae} % \\label{ssec:xxx} \\subse" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" 238)
 
-(toc "toc" "      8.1.1 Cube de galaxies isolées" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil 3 "8.1.1" "\\subsection{Cube de galaxies isolées}" 231)
+(toc "toc" "      8.1.1 Cube de galaxies isolées" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil 3 "8.1.1" "\\subsection{Cube de galaxies isolées}" 255)
 
-("ssec:xxx" "s" "\\subsection{Modèles de Supernovae} %  \\subsection{Marginalisations} % \\label{ssec:xxx} \\subsection{P" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" 270)
+("ssec:xxx" "s" "\\subsection{Modèles de Supernovae} %  \\subsection{Marginalisations} % \\label{ssec:xxx} \\subsection{P" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" 294)
 
-(toc "toc" "      8.1.2 Modèles de Supernovae" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil 3 "8.1.2" "\\subsection{Modèles de Supernovae}" 288)
+(toc "toc" "      8.1.2 Modèles de Supernovae" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil 3 "8.1.2" "\\subsection{Modèles de Supernovae}" 312)
 
-("ssec:xxx" "s" "\\subsection{Marginalisations} %  \\subsection{Paramètres libres d'étude: Distance et contraste} %\\lab" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" 325)
+("ssec:xxx" "s" "\\subsection{Marginalisations} %  \\subsection{Paramètres libres d'étude: Distance et contraste} %\\lab" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" 349)
 
-(toc "toc" "      8.1.3 Marginalisations" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil 3 "8.1.3" "\\subsection{Marginalisations}" 343)
+(toc "toc" "      8.1.3 Marginalisations" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil 3 "8.1.3" "\\subsection{Marginalisations}" 367)
 
-("ssec:xxx" "s" "\\subsection{Paramètres libres d'étude: Distance et contraste} % \\section{Résultats et Précision} %\\l" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" 375)
+("ssec:xxx" "s" "\\subsection{Paramètres libres d'étude: Distance et contraste} % \\section{Résultats et Précision} %\\l" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" 399)
 
-(toc "toc" "      8.1.4 Paramètres libres d'étude: Distance et contraste" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil 3 "8.1.4" "\\subsection{Paramètres libres d'étude: Distance et contraste}" 393)
+(toc "toc" "      8.1.4 Paramètres libres d'étude: Distance et contraste" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil 3 "8.1.4" "\\subsection{Paramètres libres d'étude: Distance et contraste}" 417)
 
-("ssec:xxx" "s" "\\section{Résultats et Précision} % \\subsection{Précision spectrophotométrique} %\\label{ssec:xxx} \\su" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" 456)
+("ssec:xxx" "s" "\\section{Résultats et Précision} % \\subsection{Précision spectrophotométrique} %\\label{ssec:xxx} \\su" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" 480)
 
-(toc "toc" "    8.2 Résultats et Précision" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil 2 "8.2" "\\section{Résultats et Précision}" 474)
+(toc "toc" "    8.2 Résultats et Précision" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil 2 "8.2" "\\section{Résultats et Précision}" 498)
 
-("sec:xxx" "s" "\\subsection{Précision spectrophotométrique} % \\subsection{Précision avec correction de continuum} % " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" 508)
+("sec:xxx" "s" "\\subsection{Précision spectrophotométrique} % \\subsection{Précision avec correction de continuum} % " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" 532)
 
-(toc "toc" "      8.2.1 Précision spectrophotométrique" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil 3 "8.2.1" "\\subsection{Précision spectrophotométrique}" 525)
+(toc "toc" "      8.2.1 Précision spectrophotométrique" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil 3 "8.2.1" "\\subsection{Précision spectrophotométrique}" 549)
 
-("ssec:xxx" "s" "\\subsection{Précision avec correction de continuum} %  \\subsection{Efficacité de classification} % \\" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" 570)
+("ssec:xxx" "s" "\\subsection{Précision avec correction de continuum} %  \\subsection{Efficacité de classification} % \\" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" 594)
 
-(toc "toc" "      8.2.2 Précision avec correction de continuum" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil 3 "8.2.2" "\\subsection{Précision avec correction de continuum}" 588)
+(toc "toc" "      8.2.2 Précision avec correction de continuum" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil 3 "8.2.2" "\\subsection{Précision avec correction de continuum}" 612)
 
-("ssec:xxx" "s" "\\subsection{Efficacité de classification} %  " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" 642)
+("ssec:xxx" "s" "\\subsection{Efficacité de classification} %  " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" 666)
 
-(toc "toc" "      8.2.3 Efficacité de classification" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil 3 "8.2.3" "\\subsection{Efficacité de classification}" 660)
+(toc "toc" "      8.2.3 Efficacité de classification" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil 3 "8.2.3" "\\subsection{Efficacité de classification}" 684)
 
-("ssec:xxx" "s" " " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" 704)
+("ssec:xxx" "s" " " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" 728)
 
 (eof "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex")
 
