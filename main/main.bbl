@@ -1,4 +1,4 @@
-\begin{thebibliography}{109}
+\begin{thebibliography}{110}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{\textsc{{Abdurro'uf}} {et~al.}(2021)\textsc{{Abdurro'uf}},
@@ -88,15 +88,26 @@
   \href{http://dx.doi.org/10.3847/1538-4357/ab345d}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2019ApJ...882...61B}{882, 61}
 
-\bibitem[{\textsc{{Bellm}} {et~al.}(2019)\textsc{{Bellm}}, \textsc{{Kulkarni}},
-  \textsc{{Graham}}, \textsc{{Dekany}}, \textsc{{Smith}}, \textsc{{Riddle}},
-  \textsc{{Masci}}, \textsc{{Helou}}, \textsc{{Prince}}, \textsc{{Adams}},
-  \textsc{{Barbarino}}, \textsc{{Barlow}}, \textsc{{Bauer}}, \textsc{{Beck}},
-  \textsc{{Belicki}}, \textsc{{Biswas}}, \textsc{{Blagorodnova}},
-  \textsc{{Bodewits}}, \textsc{{Bolin}}, \textsc{{Brinnel}}, \textsc{{Brooke}},
-  \textsc{{Bue}}, \textsc{{Bulla}}, \textsc{{Burruss}}, \textsc{{Cenko}},
-  \textsc{{Chang}}, \textsc{{Connolly}}, \textsc{{Coughlin}},
-  \textsc{{Cromer}}, \textsc{{Cunningham}}, \textsc{{De}},
+\bibitem[{\textsc{{Bellm}} {et~al.}(2019{\natexlab{a}})\textsc{{Bellm}},
+  \textsc{{Kulkarni}}, \textsc{{Barlow}}, \textsc{{Feindt}}, \textsc{{Graham}},
+  \textsc{{Goobar}}, \textsc{{Kupfer}}, \textsc{{Ngeow}}, \textsc{{Nugent}},
+  \textsc{{Ofek}}, \textsc{{Prince}}, \textsc{{Riddle}}, \textsc{{Walters}} et
+  \textsc{{Ye}}}]{Bellm19b}
+\textsc{{Bellm} E.~C.}, \textsc{{Kulkarni} S.~R.}, \textsc{{Barlow} T.}
+  {et~al.} 2019{\natexlab{a}}, «~{The Zwicky Transient Facility: Surveys and
+  Scheduler}~»,
+  \href{http://dx.doi.org/10.1088/1538-3873/ab0c2a}{\color{magenta}\pasp},
+  \href{https://ui.adsabs.harvard.edu/abs/2019PASP..131f8003B}{131, 068003}
+
+\bibitem[{\textsc{{Bellm}} {et~al.}(2019{\natexlab{b}})\textsc{{Bellm}},
+  \textsc{{Kulkarni}}, \textsc{{Graham}}, \textsc{{Dekany}}, \textsc{{Smith}},
+  \textsc{{Riddle}}, \textsc{{Masci}}, \textsc{{Helou}}, \textsc{{Prince}},
+  \textsc{{Adams}}, \textsc{{Barbarino}}, \textsc{{Barlow}}, \textsc{{Bauer}},
+  \textsc{{Beck}}, \textsc{{Belicki}}, \textsc{{Biswas}},
+  \textsc{{Blagorodnova}}, \textsc{{Bodewits}}, \textsc{{Bolin}},
+  \textsc{{Brinnel}}, \textsc{{Brooke}}, \textsc{{Bue}}, \textsc{{Bulla}},
+  \textsc{{Burruss}}, \textsc{{Cenko}}, \textsc{{Chang}}, \textsc{{Connolly}},
+  \textsc{{Coughlin}}, \textsc{{Cromer}}, \textsc{{Cunningham}}, \textsc{{De}},
   \textsc{{Delacroix}}, \textsc{{Desai}}, \textsc{{Duev}}, \textsc{{Eadie}},
   \textsc{{Farnham}}, \textsc{{Feeney}}, \textsc{{Feindt}}, \textsc{{Flynn}},
   \textsc{{Franckowiak}}, \textsc{{Frederick}}, \textsc{{Fremling}},
@@ -122,8 +133,8 @@
   \textsc{{Walters}}, \textsc{{Ward}}, \textsc{{Ye}}, \textsc{{Yu}},
   \textsc{{Yan}} et \textsc{{Zolkower}}}]{BellmZTF2019}
 \textsc{{Bellm} E.~C.}, \textsc{{Kulkarni} S.~R.}, \textsc{{Graham} M.~J.}
-  {et~al.} 2019, «~{The Zwicky Transient Facility: System Overview,
-  Performance, and First Results}~»,
+  {et~al.} 2019{\natexlab{b}}, «~{The Zwicky Transient Facility: System
+  Overview, Performance, and First Results}~»,
   \href{http://dx.doi.org/10.1088/1538-3873/aaecbe}{\color{magenta}\pasp},
   \href{https://ui.adsabs.harvard.edu/abs/2019PASP..131a8002B}{131, 018002}
 

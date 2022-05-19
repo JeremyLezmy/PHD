@@ -684,10 +684,9 @@ chaque pixel, tel que
 En considérant les $90$ premiers percentiles en RMS des pixels, nous obtenons avec les résultats montrés dans la
 Figure~\ref{fig:cigale_pullrms} que le $\text{RMS}_{spatial}=2.9\%$.
 
-
 \section{Construction du cube intrinsèque}
 
-\subsection{\'Echantillonage des spectres dans l'espace SEDm}
+\subsection{\'Echantillonnage des spectres dans l'espace SEDm}
 % \label{ssec:xxx}
 
 Chaque pixel étant traité indépendamment par \cigale, leur échantillonnage
@@ -697,30 +696,112 @@ notre cas d'utilisation, à savoir l'échantillonnage spectral de la SEDm.
 Les cubes de la SEDm sont construits numériquement avec les modules
 \pkg{pyifu}\footnote{\url{https://github.com/MickaelRigault/pyifu}} et
 \pkg{pysedm}, écrits en \pkg{python}, et sont composés de $220$ tranches spectrales
-étendues de $3700$\AA\ à $9300$\AA\, soit un échantillonnage spectrale
+étendues de $3700$\AA\ à $9300$\AA\, soit un échantillonnage spectral
 d'environ $25.57$\AA.
 
-Comme nous l'illustrons dans la Figure~\ref{fig:cigalesampling},
-l'échantillonnage spectral des SED de sortie de \cigale est inférieur à
-$5$\AA, mais n'est pas uniforme.
+Nous illustrons dans la Figure~\ref{fig:cigalesampling}
+l'échantillonnage spectral d'une SED obtenue avec \cigale, et sa
+projection dans l'espace spectral de la SEDm.
+Initialement, l'échantillonnage est inférieur à
+$5$\AA, mais n'est pas uniforme. Pour effectuer le ré-échantillonnage
+correspondant à l'espace spectral de la SEDm, nous commençons par
+interpoler la SED obtenue avec Cigale dans le même intervalle de
+longueur d'onde qui nous intéresse, mais avec un échantillonnage $100$
+fois plus fin: nous fittons une cubique sur l'intervalle
+[$3700$-$9300$]\AA\ sur $22000$ tranches.
+
+Nous procédons de cette façon car chaque valeur de flux correspond à un
+flux intégré, et non discret. 
+Nous appliquons ensuite une convolution par une fonction porte pour
+retrouver notre spectre dans l'espace spectral de la SEDm. 
 
 \begin{figure}[ht]
   \centering
   \includegraphics[width=0.99\textwidth]{../figures/05_sedfit/cigalesampling.pdf}
-  \caption[\'Echantillonage spectral d'une SED obtenue avec
-  \cigale]{\'Echantillonage spectral d'une SED obtenue avec \cigale. À
-    gauche la SED entre $3000$ et $10000$\AA, et à droite l'histogramme
-    de la taille d'échantillonage de cette SED.}}
-  \label{fig:cigalesampling}
+  \caption[\'Echantillonnage spectral d'une SED obtenue avec
+  \cigale]{\'Echantillonnage spectral d'une SED obtenue avec \cigale. \textit{À
+    gauche} la SED de sortie de \cigale entre $3500$ et $9500$\AA\ 
+    (courbe noir) et le ré-échantillonnage dans l'espace spectral de la SEDm
+    (courbe rouge). \textit{À droite} nous montrons l'histogramme
+    de la taille d'échantillonnage de cette SED à la sortie de \cigale.}\label{fig:cigalesampling}
 \end{figure}
-
-
 
 \subsection{Construction du cube}
 % \label{ssec:xxx}
 
-\bibliographystyle{../main/aa_url2}
-\bibliography{99_references}
+Ayant projeté toutes les SED dans l'espace spectral de la SEDm,
+nous sommes à présent en mesure de reconstruire notre cube intrinsèque
+de la galaxie hôte.
+
+Nous rappelons que nous avons effectué une coupure SNR$>3$ (section~\ref{ssec:preprocessimages}) dans toutes
+les bandes PS1 pour isoler les zones des images photométriques
+n'appartenant pas à une source astronomique. Pour ces zones nous fixons
+une SED nulle, le background ayant déjà été soustrait dans les images
+PS1 (section~\ref{ssec:preprocessps1}).
+
+Nous utilisons alors la mise en mémoire de la géométrie et localisation
+spatiale de chaque pixel avant l'utilisation de \cigale, pour procéder
+à l'agencement de nos spaxels.
+Nous montrons dans la Figure~\ref{fig:intcube_ZTF18accrorf} le cube intrinsèque
+ainsi reconstruit.
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=0.99\textwidth]{../figures/05_sedfit/intcube_ZTF18accrorf.png}
+  \caption[Cube intrinsèque de la galaxie hôte de ZTF18accrorf]{Cube
+    intrinsèque de la galaxie hôte de ZTF18accrorf. \textit{À droite}
+    l'image 2D du cube 3D avec toutes les tranches de longueur d'ondes
+    empilées. La croix rouge indique la position de détection de
+    ZTF18accrorf. Les spaxels sélectionnés en rouge et bleu servent à
+    illustrer l'aspect 3D du cube en montrant la SED
+    correspondante. \textit{À gauche} sont représentés les spectres intégrés de 3
+    différentes zones spatiales du cube. Les spectres bleu et rouge
+    correspondent aux spaxels de même couleur, et le spectre noir à
+    l'intégration total. La couverture spectrale des filtres de PS1 est
+
+    également représentée, avec pour chaque spectre les données
+  photométriques d'entrée (\textit{cercles verts}) et le résultat obtenu avec
+  \cigale (\textit{losanges}).}\label{fig:intcube_ZTF18accrorf}
+\end{figure}
+
+
+L'obtention du cube intrinsèque clôture l'étape de la modélisation hyperspectrale
+d'\hypergal. Le code dédié à la requête des images photométriques PS1 et
+leur traitement pour le SED fitting est contenu dans le module
+\pkg{hypergal.photometry}. L'utilisation de \cigale est entièrement
+automatisée dans le module \pkg{hypergal.spectroscopy.sedfitting}, avec
+la liberté laissée à l'utilisateur d'utiliser une configuration
+différente de celle implémentée par défaut
+(Table~\ref{tab:cigaleparams}) dans un fichier \textit{.json} . Ce
+module traite également la reconstruction du cube.
+
+La projection dans l'espace des observations de la SEDm n'est pas encore
+possible à ce stade, car nous n'avons pas pris en compte la réponse
+impulsionnelle de notre instrument. En effet, les réponses impulsionnelles spectrales
+(fonction d'étalement de raie; LSF) et
+spatiales (fonction d'étalement de point; PSF) de la SEDm ne sont pas
+les mêmes que celles présentes dans notre cube.
+
+Les SED obtenues avec
+\cigale sont basées sur la résolution spectrale des modèles de
+population stellaire. La librairie \pkg{bc03} que nous avons utilisés
+est basée sur des spectres ayant une résolution de $3$\AA\ sur
+l'intervalle [$3200$-$9500$]\AA\ (correspondant à une résolution de
+$R=\lambda/\d\lambda\approx2000$; \citet{BCO3}). Cette résolution,
+$20\times$ supérieur à celle de la SEDm, rend primordiale l'étude la
+LSF.
+
+La PSF de notre cube provient quant à elle de nos images
+photométriques PS1, qui est chromatique et que nous avons détaillé dans
+la Table~\ref{tab:3pisteradian} (un seeing typiquement de l'ordre de
+$\sim1\farcs1$ contre $\sim2\arcsec$ pour la SEDm).
+
+Le chapitre suivant de
+ce manuscrit a pour but de caractériser ces différentes réponses
+instrumentales.
+
+%\bibliographystyle{../main/aa_url2}
+%\bibliography{99_references}
 
 \end{document}
 

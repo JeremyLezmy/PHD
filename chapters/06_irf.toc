@@ -1,0 +1,12 @@
+\babel@toc {french}{}
+\contentsline {chapter}{\numberline {6}Réponse impulsionnelle de la SEDm}{1}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Réponse impulsionnelle spectrale: LSF}{2}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Lampes à arc}{2}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Détermination de la LSF}{2}{subsection.6.1.2}%
+\contentsline {section}{\numberline {6.2}Réponse impulsionnelle spatiale: PSF}{3}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Modèle de profil radial}{3}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Entrainement du modèle}{3}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Chromaticité et ADR}{3}{subsection.6.2.3}%
+\contentsline {section}{\numberline {6.3}Validation}{3}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Calibration photométrique}{3}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Résultats}{3}{subsection.6.3.2}%

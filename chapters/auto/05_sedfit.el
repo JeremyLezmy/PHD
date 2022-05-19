@@ -43,8 +43,7 @@
     "eq:pull"
     "eq:rms"
     "fig:cigale_pullrms"
-    "fig:cigalesampling")
-   (LaTeX-add-bibliographies
-    "99_references"))
+    "fig:cigalesampling"
+    "fig:intcube_ZTF18accrorf"))
  :latex)
 

@@ -5,42 +5,51 @@
 \addvspace {10\p@ }
 \contentsline {xchapter}{Zwicky Transient Facility}{25}{chapter.2}%
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Télescope Samuel Oshin P48 au Mont Palomar\relax }}{26}{figure.caption.9}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Observatoire de Palomar}}{28}{figure.caption.10}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Système d'imagerie ZTF et caméra}}{29}{figure.caption.11}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Champ de vue de la caméra ZTF comparé à celui d'autres relevés astronomiques \relax }}{30}{figure.caption.12}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Filtres et performances associées de la caméra ZTF}}{31}{figure.caption.13}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Nombre cumulé de SNIa observés par ZTF (phase 1)}}{32}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Champ de vue de la caméra ZTF comparé à celui d'autres relevés astronomiques \relax }}{27}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Observatoire de Palomar}}{29}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Système d'imagerie ZTF et caméra}}{30}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Transmission des filtres $g$, $r$ et $i$ de ZTF}}{30}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Profondeurs et FWHM associées aux filtres de la caméra ZTF}}{31}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Nombre cumulé de SNIa observés par ZTF (phase 1)}}{33}{figure.caption.15}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Un spectrographe 3D: La Spectral Energy Distribution machine}{33}{chapter.3}%
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Fonctionnement d'un IFS}}{35}{figure.caption.15}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Vue d'ensemble de la SEDm}}{36}{figure.caption.16}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Schéma d'application d'images de calibration Bias, Dark et Flat\relax }}{38}{figure.3.3}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Extraction de traces et solution en longueur d'onde pour la SEDm}}{39}{figure.caption.17}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Exemple d'extraction de source ponctuelle avec \textsc {\texttt {pysedm}} }}{45}{figure.caption.18}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Distribution cumulée du décalage angulaire entre les supernovae BTS et leur galaxie hôte}}{46}{figure.caption.19}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Exemple de situation extrême de contamination de supernova par la galaxie hôte}}{46}{figure.caption.20}%
-\contentsline {xpart}{Extraction de spectre de Supernovae}{49}{part.2}%
+\contentsline {xchapter}{Un spectrographe 3D: La Spectral Energy Distribution machine}{35}{chapter.3}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Fonctionnement d'un IFS}}{37}{figure.caption.16}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Vue d'ensemble de la SEDm}}{38}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Schéma d'application d'images de calibration Bias, Dark et Flat\relax }}{40}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Extraction de traces et solution en longueur d'onde pour la SEDm}}{41}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Exemple d'extraction de source ponctuelle avec \textsc {\texttt {pysedm}} }}{47}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Distribution cumulée du décalage angulaire entre les supernovae BTS et leur galaxie hôte}}{48}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Exemple de situation extrême de contamination de supernova par la galaxie hôte}}{48}{figure.caption.21}%
+\contentsline {xpart}{Extraction de spectre de Supernovae}{51}{part.2}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{\textsc {\texttt {HyperGal}} : Modéliseur de scène pour l'extraction de sources ponctuelles}{49}{chapter.4}%
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Exemple de spectres de galaxies}}{51}{figure.caption.21}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Présentation du pipeline \textsc {\texttt {HyperGal}} }}{53}{figure.caption.22}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Cube 3D SEDm de ZTF18accrorf}}{55}{figure.caption.23}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Extraction de ZTF18accrorf avec \textsc {\texttt {pysedm}} }}{56}{figure.caption.24}%
+\contentsline {xchapter}{\textsc {\texttt {HyperGal}} : Modéliseur de scène pour l'extraction de sources ponctuelles}{51}{chapter.4}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Exemple de spectres de galaxies}}{53}{figure.caption.22}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Présentation du pipeline \textsc {\texttt {HyperGal}} }}{55}{figure.caption.23}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Cube 3D SEDm de ZTF18accrorf}}{57}{figure.caption.24}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Extraction de ZTF18accrorf avec \textsc {\texttt {pysedm}} }}{58}{figure.caption.25}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Modélisation hyperspectrale}{57}{chapter.5}%
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Plan focal de la Gigapixel Camera (PS1)}}{58}{figure.caption.25}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Transmission des filtres Pan-STARRS1}}{59}{figure.caption.26}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Image RGB de PS1 centrée sur ZTF18accrorf.}}{61}{figure.caption.29}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Illustration binning $2\times 2$ sur les images PS1.}}{63}{figure.caption.30}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Image RGB de PS1 avec coupure SNR}}{64}{figure.caption.31}%
+\contentsline {xchapter}{Modélisation hyperspectrale}{59}{chapter.5}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Plan focal de la Gigapixel Camera (PS1)}}{60}{figure.caption.26}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Transmission des filtres Pan-STARRS1}}{61}{figure.caption.27}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Image RGB de PS1 centrée sur ZTF18accrorf.}}{63}{figure.caption.30}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Illustration binning $2\times 2$ sur les images PS1.}}{65}{figure.caption.31}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Image RGB de PS1 avec coupure SNR}}{66}{figure.caption.32}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Exemples de SED fittés}}{71}{figure.caption.36}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Cartographie du pull et du RMS en sortie de \textsc {\texttt {CIGALE}} }}{72}{figure.caption.37}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces \'Echantillonnage spectral d'une SED obtenue avec \textsc {\texttt {CIGALE}} }}{73}{figure.caption.38}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Cube intrinsèque de la galaxie hôte de ZTF18accrorf}}{74}{figure.caption.39}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Réponse impulsionnelle de la SEDm}{69}{chapter.6}%
+\contentsline {xchapter}{Réponse impulsionnelle de la SEDm}{75}{chapter.6}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Spectres des lampes à arc utilisées pour la SEDm}}{78}{figure.caption.42}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Distribution de la localisation des raies des lampes à arc}}{79}{figure.caption.43}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Distribution de l'écart type $\sigma _{line}$ des raies des lampes à arc}}{80}{figure.caption.44}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Chromaticité de la LSF}}{81}{figure.caption.45}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Modélisation de Scène et Extraction de Source}{71}{chapter.7}%
-\contentsline {xpart}{Simulations et Résultats}{75}{part.3}%
+\contentsline {xchapter}{Modélisation de Scène et Extraction de Source}{83}{chapter.7}%
+\contentsline {xpart}{Simulations et Résultats}{87}{part.3}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Simulations de cubes de données et application d'\textsc {\texttt {HyperGal}} }{75}{chapter.8}%
+\contentsline {xchapter}{Simulations de cubes de données et application d'\textsc {\texttt {HyperGal}} }{87}{chapter.8}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Data Release 2 de ZTF}{77}{chapter.9}%
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Paramètres SALT2 de stretch et couleur pour la DR2 de ZTF}}{78}{figure.caption.35}%
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Correlation entre les paramètres SALT2 de stretch et couleur (ZTF-DR2)}}{79}{figure.caption.36}%
+\contentsline {xchapter}{Data Release 2 de ZTF}{89}{chapter.9}%
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Paramètres SALT2 de stretch et couleur pour la DR2 de ZTF}}{90}{figure.caption.46}%
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Correlation entre les paramètres SALT2 de stretch et couleur (ZTF-DR2)}}{91}{figure.caption.47}%

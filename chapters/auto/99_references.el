@@ -8,6 +8,7 @@
     "Acquaviva2011"
     "Abdurro"
     "BellmZTF2019"
+    "Bellm19b"
     "Battisti2016"
     "Battisti2019"
     "SAURONifs"

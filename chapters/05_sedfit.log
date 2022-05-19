@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  16 MAY 2022 17:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  17 MAY 2022 14:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1711,35 +1711,38 @@ used on input line 665.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [13 <../figures/05_sedfit/cigalesinglespectra.png>]
-
-LaTeX Warning: Reference `fig:cigalesampling' on page 14 undefined on input lin
-e 703.
-
-<../figures/05_sedfit/cigalesampling.pdf, id=357, 914.33035pt x 369.4884pt>
+<../figures/05_sedfit/cigalesampling.pdf, id=358, 1076.82304pt x 357.7365pt>
 File: ../figures/05_sedfit/cigalesampling.pdf Graphic file (type pdf)
 <use ../figures/05_sedfit/cigalesampling.pdf>
 Package pdftex.def Info: ../figures/05_sedfit/cigalesampling.pdf  used on input
- line 709.
-(pdftex.def)             Requested size: 450.69417pt x 182.12775pt.
-! Extra }, or forgotten \endgroup.
-\@endfloatbox ...pagefalse \outer@nobreak \egroup 
-                                                  \color@endbox 
-l.715 \end{figure}
-                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+ line 720.
+(pdftex.def)             Requested size: 450.69417pt x 149.72427pt.
 
-(./05_sedfit.bbl (./05_sedfit.brf)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14 <../figures/05_sedfit/cigale_pullrms_ZTF18accrorf.pdf>]
+<../figures/05_sedfit/intcube_ZTF18accrorf.png, id=415, 1004.40846pt x 348.1968
+5pt>
+File: ../figures/05_sedfit/intcube_ZTF18accrorf.png Graphic file (type png)
+<use ../figures/05_sedfit/intcube_ZTF18accrorf.png>
+Package pdftex.def Info: ../figures/05_sedfit/intcube_ZTF18accrorf.png  used on
+ input line 750.
+(pdftex.def)             Requested size: 450.69417pt x 156.24614pt.
+
+Overfull \hbox (0.51456pt too wide) in paragraph at lines 768--777
+\T1/cmtt/m/sc/12 CIGALE \T1/cmr/m/n/12 (-20) est en-tiè-re-ment au-to-ma-ti-sée
+ dans le mo-dule \T1/cmtt/m/sc/12 hypergal.spectroscopy.sedfitting\T1/cmr/m/n/1
+2 (-20) ,
+ []
+
+[15 <../figures/05_sedfit/cigalesampling.pdf>] (./05_sedfit.bbl
+(./05_sedfit.brf)
 \tf@brf=\write6
 \openout6 = `05_sedfit.brf'.
 
- [14 <../figures/05_sedfit/cigale_pullrms_ZTF18accrorf.pdf>] [15 <../figures/05
-_sedfit/cigalesampling.pdf>] [16
+ [16 <../figures/05_sedfit/intcube_ZTF18accrorf.png>] [17
 
-] [17]
+]
 [18])
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
@@ -1770,18 +1773,15 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `05_sedfit.brf' has not changed.
-(rerunfilecheck)             Checksum: 3E857EECA7F89D569056D52025D67378;2728.
+(rerunfilecheck)             Checksum: B2B1601E14ED3C0D08EBE1A5882F9278;2777.
  ) 
 Here is how much of TeX's memory you used:
- 47183 strings out of 478994
- 998165 string characters out of 5858184
- 1563625 words of memory out of 5000000
- 63230 multiletter control sequences out of 15000+600000
- 441832 words of font info for 248 fonts, out of 8000000 for 9000
+ 47193 strings out of 478994
+ 998492 string characters out of 5858184
+ 1563861 words of memory out of 5000000
+ 63236 multiletter control sequences out of 15000+600000
+ 441881 words of font info for 249 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  137i,18n,148p,3274b,935s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exi
@@ -1800,32 +1800,33 @@ r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/
 local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/lo
 cal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
 l/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/
-texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/tex
-live/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texliv
-e/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
-/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2
-021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texli
-ve/2021/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texlive
-/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2
-021/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/202
-1/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2021/
-texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2021/te
-xmf-dist/fonts/type1/public/cm-super/sfcc0800.pfb></usr/local/texlive/2021/texm
-f-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2021/texmf-
-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2021/texmf-di
-st/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texmf-dist
-/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/f
-onts/type1/public/cm-super/sftc1200.pfb></usr/local/texlive/2021/texmf-dist/fon
-ts/type1/public/cm-super/sfti0800.pfb></usr/local/texlive/2021/texmf-dist/fonts
-/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/t
-ype1/public/cm-super/sftt1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/typ
-e1/public/cm-super/sftt1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1
-/public/cm-super/sftt1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/p
-ublic/cm-super/sftt1728.pfb>
-Output written on 05_sedfit.pdf (19 pages, 4281214 bytes).
+texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/te
+xlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texli
+ve/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
+2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
+021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/202
+1/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive
+/2021/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texlive/2
+021/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/202
+1/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2021/
+texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2021/te
+xmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2021/texm
+f-dist/fonts/type1/public/cm-super/sfcc0800.pfb></usr/local/texlive/2021/texmf-
+dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2021/texmf-di
+st/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2021/texmf-dist
+/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texmf-dist/f
+onts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/fon
+ts/type1/public/cm-super/sftc1200.pfb></usr/local/texlive/2021/texmf-dist/fonts
+/type1/public/cm-super/sfti0800.pfb></usr/local/texlive/2021/texmf-dist/fonts/t
+ype1/public/cm-super/sfti1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/typ
+e1/public/cm-super/sftt1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1
+/public/cm-super/sftt1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/p
+ublic/cm-super/sftt1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pub
+lic/cm-super/sftt1728.pfb>
+Output written on 05_sedfit.pdf (19 pages, 4815677 bytes).
 PDF statistics:
- 734 PDF objects out of 1000 (max. 8388607)
- 620 compressed objects within 7 object streams
- 102 named destinations out of 1000 (max. 500000)
- 85701 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 753 PDF objects out of 1000 (max. 8388607)
+ 636 compressed objects within 7 object streams
+ 103 named destinations out of 1000 (max. 500000)
+ 85706 words of extra memory for PDF output out of 89155 (max. 10000000)
 

@@ -3,52 +3,52 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: aa_url2.bst
 Database file #1: ../chapters/99_references.bib
-Repeated entry---line 806 of file ../chapters/99_references.bib
+Repeated entry---line 826 of file ../chapters/99_references.bib
  : @article{Dale2014
  :                  ,
 I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Warning--empty publisher in MinkowskiPOSS
-You've used 109 entries,
+You've used 110 entries,
             3173 wiz_defined-function locations,
-            1681 strings with 62148 characters,
-and the built_in function-call counts, 129409 in all, are:
-= -- 8669
-> -- 15637
+            1690 strings with 62612 characters,
+and the built_in function-call counts, 130515 in all, are:
+= -- 8744
+> -- 15764
 < -- 44
-+ -- 5253
-- -- 5140
-* -- 19215
-:= -- 21746
-add.period$ -- 109
-call.type$ -- 109
-change.case$ -- 2143
++ -- 5297
+- -- 5182
+* -- 19382
+:= -- 21931
+add.period$ -- 110
+call.type$ -- 110
+change.case$ -- 2161
 chr.to.int$ -- 105
-cite$ -- 110
-duplicate$ -- 2378
-empty$ -- 3625
-format.name$ -- 5443
-if$ -- 23209
-int.to.chr$ -- 5
+cite$ -- 111
+duplicate$ -- 2398
+empty$ -- 3659
+format.name$ -- 5487
+if$ -- 23408
+int.to.chr$ -- 6
 int.to.str$ -- 1
-missing$ -- 94
-newline$ -- 331
-num.names$ -- 448
-pop$ -- 2171
+missing$ -- 95
+newline$ -- 334
+num.names$ -- 452
+pop$ -- 2188
 preamble$ -- 1
-purify$ -- 2142
+purify$ -- 2160
 quote$ -- 0
-skip$ -- 1950
+skip$ -- 1966
 stack$ -- 0
-substring$ -- 2669
-swap$ -- 4018
+substring$ -- 2699
+swap$ -- 4052
 text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 981
+type$ -- 990
 warning$ -- 1
-while$ -- 454
+while$ -- 458
 width$ -- 0
-write$ -- 1197
+write$ -- 1208
 (There was 1 error message)
