@@ -1,0 +1,79 @@
+\begin{thebibliography}{11}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{\textsc{{Blagorodnova}} {et~al.}(2018)\textsc{{Blagorodnova}},
+  \textsc{{Neill}}, \textsc{{Walters}}, \textsc{{Kulkarni}},
+  \textsc{{Fremling}}, \textsc{{Ben-Ami}}, \textsc{{Dekany}}, \textsc{{Fucik}},
+  \textsc{{Konidaris}}, \textsc{{Nash}}, \textsc{{Ngeow}}, \textsc{{Ofek}},
+  \textsc{{O' Sullivan}}, \textsc{{Quimby}}, \textsc{{Ritter}} et
+  \textsc{{Vyhmeister}}}]{SEDM18}
+\textsc{{Blagorodnova} N.}, \textsc{{Neill} J.~D.}, \textsc{{Walters} R.}
+  {et~al.} 2018, «~{The SED Machine: A Robotic Spectrograph for Fast Transient
+  Classification}~»,
+  \href{http://dx.doi.org/10.1088/1538-3873/aaa53f}{\color{magenta}\pasp},
+  \href{https://ui.adsabs.harvard.edu/abs/2018PASP..130c5003B}{130, 035003}
+
+\bibitem[{\textsc{{Bruzual}} et \textsc{{Charlot}}(2003)}]{BCO3}
+\textsc{{Bruzual} G.} et \textsc{{Charlot} S.} 2003, «~{Stellar population
+  synthesis at the resolution of 2003}~»,
+  \href{http://dx.doi.org/10.1046/j.1365-8711.2003.06897.x}{\color{magenta}\mnras},
+  \href{https://ui.adsabs.harvard.edu/abs/2003MNRAS.344.1000B}{344, 1000}
+
+\bibitem[{\textsc{Buton}(2009)}]{Butonthese}
+\textsc{Buton C.} 2009, «~{Étalonnage spectro-photométrique du SuperNova
+  Integral Field Spectrograph dans le cadre du projet the Nearby Supernova
+  Factory}~», Theses, {Université Claude Bernard - Lyon I},
+  \href{https://tel.archives-ouvertes.fr/tel-00465853}{}
+
+\bibitem[{\textsc{{Fried}}(1966)}]{Fried1966}
+\textsc{{Fried} D.~L.} 1966, «~{Optical Resolution Through a Randomly
+  Inhomogeneous Medium for Very Long and Very Short Exposures}~», Journal of
+  the Optical Society of America (1917-1983),
+  \href{https://ui.adsabs.harvard.edu/abs/1966JOSA...56.1372F}{56, 1372}
+
+\bibitem[{\textsc{{King}}(1971)}]{King1971}
+\textsc{{King} I.~R.} 1971, «~{The Profile of a Star Image}~»,
+  \href{http://dx.doi.org/10.1086/129100}{\color{magenta}\pasp},
+  \href{https://ui.adsabs.harvard.edu/abs/1971PASP...83..199K}{83, 199}
+
+\bibitem[{\textsc{{Kolmogorov}}(1941)}]{Kolmogorov}
+\textsc{{Kolmogorov} A.} 1941, «~{The Local Structure of Turbulence in
+  Incompressible Viscous Fluid for Very Large Reynolds' Numbers}~», Akademiia
+  Nauk SSSR Doklady,
+  \href{https://ui.adsabs.harvard.edu/abs/1941DoSSR..30..301K}{30, 301}
+
+\bibitem[{\textsc{{Moffat}}(1969)}]{Moffat1969}
+\textsc{{Moffat} A.~F.~J.} 1969, «~{A Theoretical Investigation of Focal
+  Stellar Images in the Photographic Emulsion and Application to Photographic
+  Photometry}~», \aap,
+  \href{https://ui.adsabs.harvard.edu/abs/1969A&A.....3..455M}{3, 455}
+
+\bibitem[{\textsc{{Racine}}(1996)}]{Racine1996}
+\textsc{{Racine} R.} 1996, «~{The Telescope Point Spread Function}~»,
+  \href{http://dx.doi.org/10.1086/133788}{\color{magenta}\pasp},
+  \href{https://ui.adsabs.harvard.edu/abs/1996PASP..108..699R}{108, 699}
+
+\bibitem[{\textsc{{Rigault}} {et~al.}(2019)\textsc{{Rigault}},
+  \textsc{{Neill}}, \textsc{{Blagorodnova}}, \textsc{{Dugas}},
+  \textsc{{Feeney}}, \textsc{{Walters}}, \textsc{{Brinnel}}, \textsc{{Copin}},
+  \textsc{{Fremling}}, \textsc{{Nordin}} et \textsc{{Sollerman}}}]{pysedm}
+\textsc{{Rigault} M.}, \textsc{{Neill} J.~D.}, \textsc{{Blagorodnova} N.}
+  {et~al.} 2019, «~{Fully automated integral field spectrograph pipeline for
+  the SEDMachine: pysedm}~»,
+  \href{http://dx.doi.org/10.1051/0004-6361/201935344}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2019A&A...627A.115R}{627, A115}
+
+\bibitem[{\textsc{{Tokovinin}}(2002)}]{Tokovinin}
+\textsc{{Tokovinin} A.} 2002, «~{From Differential Image Motion to Seeing}~»,
+  \href{http://dx.doi.org/10.1086/342683}{\color{magenta}\pasp},
+  \href{https://ui.adsabs.harvard.edu/abs/2002PASP..114.1156T}{114, 1156}
+
+\bibitem[{\textsc{{Trujillo}} {et~al.}(2001)\textsc{{Trujillo}},
+  \textsc{{Aguerri}}, \textsc{{Cepa}} et \textsc{{Guti\'errez}}}]{Trujillo2001}
+\textsc{{Trujillo} I.}, \textsc{{Aguerri} J.~A.~L.}, \textsc{{Cepa} J.} et
+  \textsc{{Guti\'errez} C.~M.} 2001, «~{The effects of seeing on S{\'e}rsic
+  profiles - II. The Moffat PSF}~»,
+  \href{http://dx.doi.org/10.1046/j.1365-8711.2001.04937.x}{\color{magenta}\mnras},
+  \href{https://ui.adsabs.harvard.edu/abs/2001MNRAS.328..977T}{328, 977}
+
+\end{thebibliography}

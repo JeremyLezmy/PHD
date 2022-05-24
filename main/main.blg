@@ -10,45 +10,45 @@ I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Warning--empty publisher in MinkowskiPOSS
-You've used 110 entries,
+You've used 117 entries,
             3173 wiz_defined-function locations,
-            1690 strings with 62612 characters,
-and the built_in function-call counts, 130515 in all, are:
-= -- 8744
-> -- 15764
-< -- 44
-+ -- 5297
-- -- 5182
-* -- 19382
-:= -- 21931
-add.period$ -- 110
-call.type$ -- 110
-change.case$ -- 2161
-chr.to.int$ -- 105
-cite$ -- 111
-duplicate$ -- 2398
-empty$ -- 3659
-format.name$ -- 5487
-if$ -- 23408
+            1750 strings with 64028 characters,
+and the built_in function-call counts, 133315 in all, are:
+= -- 8973
+> -- 15869
+< -- 50
++ -- 5334
+- -- 5212
+* -- 19678
+:= -- 22415
+add.period$ -- 117
+call.type$ -- 117
+change.case$ -- 2199
+chr.to.int$ -- 112
+cite$ -- 118
+duplicate$ -- 2533
+empty$ -- 3878
+format.name$ -- 5526
+if$ -- 23953
 int.to.chr$ -- 6
 int.to.str$ -- 1
-missing$ -- 95
-newline$ -- 334
-num.names$ -- 452
-pop$ -- 2188
+missing$ -- 102
+newline$ -- 355
+num.names$ -- 480
+pop$ -- 2217
 preamble$ -- 1
-purify$ -- 2160
+purify$ -- 2198
 quote$ -- 0
-skip$ -- 1966
+skip$ -- 2083
 stack$ -- 0
-substring$ -- 2699
-swap$ -- 4052
+substring$ -- 2852
+swap$ -- 4100
 text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 990
+type$ -- 1053
 warning$ -- 1
-while$ -- 458
+while$ -- 486
 width$ -- 0
-write$ -- 1208
+write$ -- 1285
 (There was 1 error message)

@@ -25,7 +25,33 @@
     "fig:lineloc"
     "fig:linestd"
     "eq:legendre"
+    "eq:lsfmodel"
     "fig:lsf"
-    "ssec:chromadr"))
+    "fig:resolutionsedm"
+    "fig:lsfapplied"
+    "sec:psf"
+    "eq:transfertpsf"
+    "ssec:radialpsf"
+    "eq:psfmodel"
+    "eq:ellipticity"
+    "eq:axesratioellipse"
+    "eq:angleellipse"
+    "eq:7"
+    "fig:radialprofile"
+    "ssec:psftraining"
+    "fig:stdcorrmatrix"
+    "fig:alphabetachromcorr"
+    "eq:betaalpha"
+    "fig:chromslope_zp_alphabeta"
+    "fig:stdcorrmatrixbetafixed"
+    "fig:alphasigmachromcorr"
+    "fig:chromslope_zp_alphasigma"
+    "fig:"
+    "ssec:chromadr"
+    "sec:validationpsf"
+    "ssec:photocalibstd"
+    "ssec:resultscalib")
+   (LaTeX-add-bibliographies
+    "99_references"))
  :latex)
 

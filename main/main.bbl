@@ -1,4 +1,4 @@
-\begin{thebibliography}{110}
+\begin{thebibliography}{117}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{\textsc{{Abdurro'uf}} {et~al.}(2021)\textsc{{Abdurro'uf}},
@@ -527,6 +527,12 @@
   \href{http://dx.doi.org/10.3847/1538-4357/ab8943}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2020ApJ...895...32F}{895, 32}
 
+\bibitem[{\textsc{{Fried}}(1966)}]{Fried1966}
+\textsc{{Fried} D.~L.} 1966, «~{Optical Resolution Through a Randomly
+  Inhomogeneous Medium for Very Long and Very Short Exposures}~», Journal of
+  the Optical Society of America (1917-1983),
+  \href{https://ui.adsabs.harvard.edu/abs/1966JOSA...56.1372F}{56, 1372}
+
 \bibitem[{\textsc{{Fukugita}} {et~al.}(1996)\textsc{{Fukugita}},
   \textsc{{Ichikawa}}, \textsc{{Gunn}}, \textsc{{Doi}}, \textsc{{Shimasaku}} et
   \textsc{{Schneider}}}]{Fukugita1996}
@@ -723,12 +729,23 @@
   \href{http://dx.doi.org/10.1088/1538-3873/ac50a0}{\color{magenta}\pasp},
   \href{https://ui.adsabs.harvard.edu/abs/2022PASP..134b4505K}{134, 024505}
 
+\bibitem[{\textsc{{King}}(1971)}]{King1971}
+\textsc{{King} I.~R.} 1971, «~{The Profile of a Star Image}~»,
+  \href{http://dx.doi.org/10.1086/129100}{\color{magenta}\pasp},
+  \href{https://ui.adsabs.harvard.edu/abs/1971PASP...83..199K}{83, 199}
+
 \bibitem[{\textsc{{Koleva}} {et~al.}(2009)\textsc{{Koleva}},
   \textsc{{Prugniel}}, \textsc{{Bouchard}} et \textsc{{Wu}}}]{KolevaUlyss}
 \textsc{{Koleva} M.}, \textsc{{Prugniel} P.}, \textsc{{Bouchard} A.} et
   \textsc{{Wu} Y.} 2009, «~{ULySS: a full spectrum fitting package}~»,
   \href{http://dx.doi.org/10.1051/0004-6361/200811467}{\color{magenta}\aap},
   \href{https://ui.adsabs.harvard.edu/abs/2009A&A...501.1269K}{501, 1269}
+
+\bibitem[{\textsc{{Kolmogorov}}(1941)}]{Kolmogorov}
+\textsc{{Kolmogorov} A.} 1941, «~{The Local Structure of Turbulence in
+  Incompressible Viscous Fluid for Very Large Reynolds' Numbers}~», Akademiia
+  Nauk SSSR Doklady,
+  \href{https://ui.adsabs.harvard.edu/abs/1941DoSSR..30..301K}{30, 301}
 
 \bibitem[{\textsc{{Kormendy}} et \textsc{{Ho}}(2013)}]{Kormendy}
 \textsc{{Kormendy} J.} et \textsc{{Ho} L.~C.} 2013, «~{Coevolution (Or Not) of
@@ -859,6 +876,12 @@
   \href{http://dx.doi.org/10.3847/0004-637X/832/2/108}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2016ApJ...832..108M}{832, 108}
 
+\bibitem[{\textsc{{Moffat}}(1969)}]{Moffat1969}
+\textsc{{Moffat} A.~F.~J.} 1969, «~{A Theoretical Investigation of Focal
+  Stellar Images in the Photographic Emulsion and Application to Photographic
+  Photometry}~», \aap,
+  \href{https://ui.adsabs.harvard.edu/abs/1969A&A.....3..455M}{3, 455}
+
 \bibitem[{\textsc{{Morgan}} et \textsc{{Kaiser}}(2008)}]{Morgan2008}
 \textsc{{Morgan} J.~S.} et \textsc{{Kaiser} N.} 2008, «~{Alignment of the
   Pan-STARRS PS1 prototype telescope optics}~», dans Society of Photo-Optical
@@ -938,6 +961,11 @@
   System}~»,
   \href{http://dx.doi.org/10.1088/1538-3873/aae904}{\color{magenta}\pasp},
   \href{https://ui.adsabs.harvard.edu/abs/2019PASP..131a8001P}{131, 018001}
+
+\bibitem[{\textsc{{Racine}}(1996)}]{Racine1996}
+\textsc{{Racine} R.} 1996, «~{The Telescope Point Spread Function}~»,
+  \href{http://dx.doi.org/10.1086/133788}{\color{magenta}\pasp},
+  \href{https://ui.adsabs.harvard.edu/abs/1996PASP..108..699R}{108, 699}
 
 \bibitem[{\textsc{{Rau}} {et~al.}(2009)\textsc{{Rau}}, \textsc{{Kulkarni}},
   \textsc{{Law}}, \textsc{{Bloom}}, \textsc{{Ciardi}}, \textsc{{Djorgovski}},
@@ -1051,6 +1079,11 @@
   \href{http://dx.doi.org/10.48550/arXiv.2203.02041}{\color{magenta}\fcp},
   \href{https://ui.adsabs.harvard.edu/abs/1980FCPh....5..287T}{5, 287}
 
+\bibitem[{\textsc{{Tokovinin}}(2002)}]{Tokovinin}
+\textsc{{Tokovinin} A.} 2002, «~{From Differential Image Motion to Seeing}~»,
+  \href{http://dx.doi.org/10.1086/342683}{\color{magenta}\pasp},
+  \href{https://ui.adsabs.harvard.edu/abs/2002PASP..114.1156T}{114, 1156}
+
 \bibitem[{\textsc{{Tonry}} {et~al.}(1997)\textsc{{Tonry}}, \textsc{{Burke}} et
   \textsc{{Schechter}}}]{Tonry1997OTA}
 \textsc{{Tonry} J.}, \textsc{{Burke} B.~E.} et \textsc{{Schechter} P.~L.} 1997,
@@ -1090,6 +1123,14 @@
   {et~al.} 2012, «~{The Pan-STARRS1 Photometric System}~»,
   \href{http://dx.doi.org/10.1088/0004-637X/750/2/99}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2012ApJ...750...99T}{750, 99}
+
+\bibitem[{\textsc{{Trujillo}} {et~al.}(2001)\textsc{{Trujillo}},
+  \textsc{{Aguerri}}, \textsc{{Cepa}} et \textsc{{Guti\'errez}}}]{Trujillo2001}
+\textsc{{Trujillo} I.}, \textsc{{Aguerri} J.~A.~L.}, \textsc{{Cepa} J.} et
+  \textsc{{Guti\'errez} C.~M.} 2001, «~{The effects of seeing on S{\'e}rsic
+  profiles - II. The Moffat PSF}~»,
+  \href{http://dx.doi.org/10.1046/j.1365-8711.2001.04937.x}{\color{magenta}\mnras},
+  \href{https://ui.adsabs.harvard.edu/abs/2001MNRAS.328..977T}{328, 977}
 
 \bibitem[{\textsc{{Wade}} et \textsc{{Horne}}(1988)}]{Wade1988atm}
 \textsc{{Wade} R.~A.} et \textsc{{Horne} K.} 1988, «~{The Radial Velocity

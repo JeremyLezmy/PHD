@@ -1,6 +1,7 @@
 \documentclass[../main/main.tex]{subfiles}
 \begin{document}
-
+\dominitoc
+\faketableofcontents
 \setcounter{chapter}{1}
 \chapter{Zwicky Transient Facility}\label{ch:ztf}
 
@@ -14,14 +15,12 @@ classification de ces objets notamment par le biais d'une acquisition
 spectrale. Afin d'arriver à cet objectif, la première étape est de
 détecter ces évènements transitoires. Dans ce chapitre nous présenterons
 la collaboration Zwicky Transient Facility (ZTF par la suite), où la recherche et
-l'étude de tels objets sont au centre des activités. Nous nous
+l'étude de tels objets font partie des objectifs majeurs. Nous nous
 focaliserons particulièrement ici sur la section photométrique de
-ZTF. Nous commencerons par présenter la collaboration et les raisons de
-sa mise en place, puis nous rentrerons dans plus de technicité en
-présentant la caméra principale de ZTF et ses capacités
-photométriques. Enfin nous parlerons des enjeux cosmologiques et
-finirons avec quelques résultats depuis la mise en place de ce grand
-relevé astronomique.
+ZTF. Nous commencerons par présenter la collaboration et ses objectifs
+scientifiques, puis nous aborderons les caractéristiques de la caméra principale de ZTF et ses capacités
+photométriques. Enfin nous présenterons quelques statistiques et résultats
+de la DR1 vis à vis de la détection des SNeIa.
 \newpage
 \section{Presentation de la générale}
 \label{sec:ztfcollab}
@@ -36,7 +35,7 @@ mi-chemin de sa phase 2 qui s'étend de Décembre 2020 à Décembre 2023.
 
 Il succède au relevé Intermediate Palomar Transient Factory (IPTF, 2012-2017),
 lui-même prédécesseur de Palomar Transient Facility (PTF, 2009-2012)
-(\citet{RauPTF2009} et \citet{LawPTF2009}). Ces trois relevés grand
+\citep{RauPTF2009,LawPTF2009}. Ces trois relevés grand
 champs utilisent le télescope Samuel
 Oschin ($48$ pouces $\approx 1\text{m}22$) à l'Observatoire de Palomar en
 Californie (Fig.~\ref{fig:p48}).
@@ -47,8 +46,9 @@ bénéficie d'une nouvelle caméra offrant un champ de vue de $47
 \text{deg}^{2}$, équippé de 3 filtres $g$, $r$ et $i$. La
 Figure~\ref{fig:ztfcamerafov} montre le champ de vue de la caméra ZTF,
 en comparaison avec celui d'autres relevés astronomiques. La collaboration est également doté d'un spectrographe
-3D basse résolution ($R\approx100$; \citet{SEDM18}) monté sur le P48 à Palomar, qui est
-utilisé pour suivre et classifier les transients détectés par la caméra principale.
+3D basse résolution ($R\approx100$; \citet{SEDM18}) monté sur le P48 à
+Palomar, qui est notamment
+utilisé pour la classifciation des transients détectés par la caméra principale.
 
 \begin{figure}[h]
   \centering
@@ -102,7 +102,7 @@ de ZTF a vu un rééquilibrage avec 50\% du temps d'observation attribué
 au programme MSIP, et 30\% aux partenaires privés.
 
 Durant le temps d'observation public, ZTF effectue deux sondages distincts: le ciel
-Nord d'une part, qui est entièrement scanné tous les trois jours dans les
+Nord d'une part à haute cadence, qui est entièrement scanné tous les trois jours dans les
 filtres $g$ et $r$, et le plan
 Galactique d'autre part (lattitude $|b|<7\degree$), qui lui est entièrement observé chaque nuit
 également dans les filtres $g$ et $r$.
@@ -120,15 +120,15 @@ Les sections de recherches scientifiques au sein de ZTF sont nombreuses \citep{G
 \setlength\itemsep{1em}
     \item \underline{L'étude des AGN \& TDEs}:
   
-      Les AGN sont les Active Galactic Nuclei, des trous noirs
-      supermassifs qui accrètent de la matière du reste de la
-      galaxie. Les TDEs, ou Tidal Disruption Events, correspondent à des
-      phénomènes extrèmement lumineux résultants de cette accrétion de
-      matière.
+      Les AGN (\textit{Active Galactic Nuclei}), correspondent à une
+      région particulièrement lumineuse au coeur des galaxies. Ce sont
+      habituellement des trous noirs
+      supermassifs et leur disque d'accrétion. Les TDEs, ou \textit{Tidal Disruption Events}, correspondent à des
+      phénomènes extrèmement lumineux émanents de cette région.
 
     \item \underline{L'étude des Supernovae comme sonde cosmologique}
       
-      Utiliser leur caractéristique de chandelle standardisable pour
+      C'est l'utilisation de leur caractéristique de chandelle standardisable pour
       effectuer des mesures précises de distance dans l'Univers
       proche. Avant 2018, seulement $\approx500$ de ces évènements ont
       été observés dans l'Univers proche. En 3 ans ZTF a déterminé près
@@ -139,31 +139,32 @@ Les sections de recherches scientifiques au sein de ZTF sont nombreuses \citep{G
       Indépendamment de leur type, de nombreux mystères demeurent sur la
       physique même de l'explosion des Supernovae. ZTF permet d'obtenir
       un échantillon unique de plusieurs milliers de Supernovae tout
-      type confondu qui permet à l'équipe Bright Transient Survey
-      (BTS) d'obtenir des mesures non-biaisés de taux de Supernovae, de functions de
+      type confondu qui permet au groupe Bright Transient Survey
+      (BTS) d'obtenir des mesures non-biaisées de taux de Supernovae, de fonctions de
       luminosités, de propriétés de galaxies hôte etc.
 
     \item \underline{Voie Lactée et M31}
 
       Avec l'observation de plusieurs millions d'étoiles chaque nuit, tout un
       pôle d'étude s'est formé autour des objets internes à notre
-      galaxie, mais également dans la galaxie voisine M31, aka
-      Andromède. Cet échantillon gigantesque est utilisé pour étudier
-      les naines blanches dont la luminosité varie périodiquement,
+      galaxie, mais également dans la galaxie voisine M31, plus connue
+      sous le nom d'Andromède. Cet échantillon gigantesque est utilisé pour étudier
+      des naines blanches dont la luminosité varie périodiquement,
       d'autres avec des débris transitoires, les systèmes binaires avec
       émission de rayons-X, et de nombreux autres objets stellaires.
 
 
     \item \underline{L'Astrophysique Multimessager}
 
-      Cette toute nouvelle branche a vue le jour notamment grâce aux
+      Cette toute nouvelle branche de la physique a vue le jour notamment grâce aux
       premières détections d'ondes gravitationnelles ou de neutrinos. De
       tels phénomènes sont habituellement grossièrement localisés avec
       la détection de ce type de signal, ce qui rend difficile
-      l'identification de la source. Avec son champ de vue extrêmement
-      large et sa haute cadence, ZTF est capable de compléter la
+      l'identification de la source. Dans le cas où une contrepartie
+      électromagnétique existe, ZTF est alors capable de compléter la
       détection primaire avec une observation photométrique aux prémices de
-      l'évènement, si une contrepartie électromagnétique existe.
+      l'évènement, notamment grâce à son champ de vue extrêmement
+      large et sa haute cadence.
 
     \item \underline{Corps au sein du système Solaire}
 
@@ -423,8 +424,8 @@ suivant est tout naturellement dédiée à la présentation de cet
 instrument, l'extraction de spectre et sa classifcation.
 
 
-%\bibliographystyle{../main/aa_url}
-%\bibliography{99_references}
+\bibliographystyle{../main/aa_url}
+\bibliography{99_references}
 \end{document}
 
 %%% Local Variables:
