@@ -39,8 +39,6 @@
     "eq:telluricpysedm"
     "fig:pysedmoutput"
     "fig:cumulsnhostdist"
-    "fig:stronghost")
-   (LaTeX-add-bibliographies
-    "99_references"))
+    "fig:stronghost"))
  :latex)
 

@@ -1,10 +1,17 @@
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.1}Réponse impulsionnelle spectrale: LSF}{\reset@font\mtcSfont 2}{section.6.1}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.1.1}Lampes à arc}{\reset@font\mtcSSfont 2}{subsection.6.1.1}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.1.2}Détermination de la LSF}{\reset@font\mtcSSfont 2}{subsection.6.1.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.2}Réponse impulsionnelle spatiale: PSF}{\reset@font\mtcSfont 3}{section.6.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.2.1}Modèle de profil radial}{\reset@font\mtcSSfont 3}{subsection.6.2.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.2.2}Entrainement du modèle}{\reset@font\mtcSSfont 3}{subsection.6.2.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.2.3}Chromaticité et ADR}{\reset@font\mtcSSfont 3}{subsection.6.2.3}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.3}Validation}{\reset@font\mtcSfont 3}{section.6.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.3.1}Calibration photométrique}{\reset@font\mtcSSfont 3}{subsection.6.3.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.3.2}Résultats}{\reset@font\mtcSSfont 3}{subsection.6.3.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.2}Réponse impulsionnelle spatiale: PSF}{\reset@font\mtcSfont 9}{section.6.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.2.1}Modèle de profil radial}{\reset@font\mtcSSfont 9}{subsection.6.2.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.2.2}Entrainement du modèle}{\reset@font\mtcSSfont 11}{subsection.6.2.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {6.2.2.1}Première contrainte: $\alpha $ vs $\beta $}{\reset@font\mtcSSSfont 12}{subsubsection.6.2.2.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {6.2.2.2}Seconde contrainte: $\alpha $ vs $\sigma $}{\reset@font\mtcSSSfont 13}{subsubsection.6.2.2.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {6.2.2.3}Cas du poids relatif des distributions gaussienne/Moffat: $\eta $}{\reset@font\mtcSSSfont 15}{subsubsection.6.2.2.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {6.2.2.4}Profil radial contraint}{\reset@font\mtcSSSfont 15}{subsubsection.6.2.2.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.3}Extraction de la source ponctuelle}{\reset@font\mtcSfont 16}{section.6.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.3.1}Méthode d'extraction}{\reset@font\mtcSSfont 16}{subsection.6.3.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.3.2}R\'efraction atmosph\'erique diff\'erentielle}{\reset@font\mtcSSfont 16}{subsection.6.3.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.3.3}Ajustement chromatique}{\reset@font\mtcSSfont 18}{subsection.6.3.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.4}Validation}{\reset@font\mtcSfont 21}{section.6.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.4.1}Calibration photométrique}{\reset@font\mtcSSfont 21}{subsection.6.4.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.4.2}Résultats}{\reset@font\mtcSSfont 21}{subsection.6.4.2}}

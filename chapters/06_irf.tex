@@ -1,10 +1,10 @@
 \documentclass[../main/main.tex]{subfiles}
 \begin{document}
 
-%\dominitoc
-%\faketableofcontents
+\dominitoc
+\faketableofcontents
 \setcounter{chapter}{5}
-\chapter{Réponse impulsionnelle de la SEDm}\label{ch:irf}
+\chapter{Réponse impulsionnelle de la SEDm et extraction de source ponctuelle}\label{ch:irf}
 \minitoc
 \vspace{2cm}
 Le chapitre précédent était consacré à la modélisation hyperspectrale de
@@ -437,7 +437,7 @@ la SEDm. Afin de pallier à ces effets, nous introduisons un background
 polynomial d'ordre 2, de sorte que :
 
 \begin{equation}
-  \label{eq:7}
+  \label{eq:backgroundcurved}
   \text{Bkgd}(x,y) = (b_{xx}\times x^{2})+ (b_{yy}\times y^{2})+(b_{xy}\times xy)+(b_{x}\times x)+(b_{y}\times y) + b_{0}
 \end{equation}
 
@@ -471,7 +471,7 @@ données d'étoiles standards, observées avec la SEDm en 2021 toutes saisons
 confondues. 
 
 Dans un premier temps, nous procédons à un ajustement avec la fonction
-d'étalement de point entièrement libre, pour 9 méta-slices indépendantes
+d'étalement de point entièrement libre, pour 9 méta-tranches indépendantes
 entre $4500$ et $9000$ \AA. Nous avons choisi de ne pas considérer les
 longueurs d'ondes au delà de ces extrémités à cause des artefacts trop intenses
 générés lors de l'extraction des spectres du CCD, pouvant aller jusqu'à
@@ -628,25 +628,299 @@ Avec $\sigma_{1}$ et $\sigma_{0}$ fixés.
 %  \label{fig:corralphasigma_achrom}
 %\end{figure}
 
+\subsubsection{Cas du poids relatif des distributions gaussienne/Moffat:
+$\eta$}
+
+Le dernier paramètre de forme libre de notre modèle de PSF est le poids
+relatif entre la gaussienne et la Moffat, $\eta$. En refaisant le même
+travail que précédemment, à savoir relancer l'ajustement du modèle de
+PSF avec $\beta$ et $\sigma$ fixés en fonction de $\alpha$, nous nous
+rendons compte une absence totale de corrélation entre $\alpha$ et
+$\eta$, comme l'atteste la Figure~\ref{fig:alphaetachromcorr}.
+
+Afin d'éviter un scénario similaire à celui rencontré par
+\citet{Butonthese} avec le modèle de Kolmogorov, où le coude dans les données n'est pas
+bien représenté par le modèle de PSF, nous choisissons de laisser $\eta$
+libre dans notre fonction d'étalement de point.
 
 \begin{figure}[ht]
   \centering
-  \includegraphics[width=0.8\textwidth]{../figures/06_irf/STD_correlation_betasigmafixed.pdf}
-  \caption[]{}
-  \label{fig:}
+  \includegraphics[width=0.8\textwidth]{../figures/06_irf/STD_alpha_eta_chromatic_corr.pdf}
+  \caption[Chromaticité des corrélations entre $\alpha$ et $\eta$]{Chromaticité des corrélations entre $\alpha$ et $\eta$}
+  \label{fig:alphaetachromcorr}
 \end{figure}
 
+\subsubsection{Profil radial contraint}
 
+La Table~\ref{tab:betasigmapsf} présente les valeurs
+obtenues pour la pointe et l'ordonnée à l'origine des ajustements
+linéaires pour $\beta(\alpha)$ et $\sigma(\alpha)$. 
+
+\begin{table}[ht]
+  \centerfloat
+  \renewcommand{\arraystretch}{1.5}
+  \caption{Valeurs des paramètres des ajustements linéaires pour
+    $\beta(\alpha)$ et $\sigma(\alpha)$}
+  \label{tab:betasigmapsf}
+    \begin{threeparttable}
+        \begin{tabular}{lcc}
+        \toprule
+          \textbf{Paramètre} & $\beta$  & $\sigma$ \\
+        \midrule
+          \textbf{Pente} & $0.22$  &  $0.39$  \\
+          \textbf{Point Zéro} & $1.53$  & $0.42$    \\
+          
+          \bottomrule
+        \end{tabular}
+        %\begin{tablenotes}[flushleft]
+        %\item \textbf{Notes.} 
+        %\end{tablenotes}
+    \end{threeparttable}
+\end{table}
+
+Avec les contraintes ainsi ajoutés, le profil radial de
+l'équation~\ref{eq:psfmodel} s'écrit à présent:
+
+\begin{equation}
+  \label{eq:psfmodelconstraint}
+  PSF(r; \alpha, \eta) = N\left[\eta\times\exp\left(- \frac{r}{2(\sigma_{0}+\sigma_{1}\times\alpha)^{2}}\right) +
+    \left( 1+\left( \frac{r}{\alpha}\right)^{2}\right)^{-(\beta_{0}+\beta_{1}\times\alpha)} \right]
+\end{equation}
+
+Ce nouveau profil radial de la fonction d'étalement de point est ainsi
+utilisable pour une extraction 2D d'une source ponctuelle, à une
+longueur d'onde $\lambda$ donnée donc. Cependant le but est d'extraire
+le spectre de la source ponctuelle. Intuitivement, nous pourrions
+appliquer cette extraction 2D à toutes les tranches de notre cube de
+donnée. Mais ce processus, en plus de demander énormément de ressource
+numérique, supposerait d'une part que les tranches ne sont pas corrélées
+entre elles, et d'autre part que le ratio signal sur bruit serait
+suffisant à l'échelle d'un pixel spectral. Or cela est généralement faux
+dans les deux cas.
+
+Nous présentons ainsi une méthode d'extraction adéquate dans la section suivante. 
+
+
+\section{Extraction de la source ponctuelle}
+
+\subsection{Méthode d'extraction}\label{ssec:methodextraction}
+
+Puisqu'il n'est pas question d'extraire le flux d'une source ponctuelle
+à chaque tranche du cube de donnée, l'idée est plutôt d'effectuer un
+ajustement de la PSF sur $N$ méta-tranches du cube de
+données, où le signal sur bruit est suffisamment élevé, et ainsi récupérer
+un set de $N\times2D$ paramètres décrivant la PSF de la source et sa position 
+dans le MLA.
+
+En modélisant adéquatement la chromaticité de ces paramètres, nous
+fixons alors tous les paramètres d'ajustement sur l'ensemble du domaine
+spectral. In fine, nous extrayons le spectre de la source
+ponctuelle en ne laissant libre que les paramètres d'amplitude et de
+background pour chaque tranche du cube de donnée.
+
+Nous devons ainsi modéliser la chromaticité de $5$ paramètres: les
+paramètres de forme $\alpha$ et $\eta$, les paramètres d'ellipticité et
+d'orientation $\mathcal{A}$ et $\mathcal{B}$, et l'évolution de la
+position ($x_{0}$,$y_{0}$) de la source ponctuelle dans le MLA, causée
+par la réfraction atmosphérique.
+
+Commençons par aborder cet effet, présent indépendemment de l'étalement
+du point.
+
+
+\subsection{R\'efraction atmosph\'erique
+  diff\'erentielle}\label{ssec:adr}
+
+
+L'atmosphère ayant un indice de réfraction différent de celui du vide
+spatial, la lumière d'une source astronomique nous parvenant sur Terre
+est ainsi réfractée (3$\ieme$ loi de Snell/Descartes). Cet indice étant dépendant de la longueur d'onde, la
+réfraction induite par le passage de la lumière dans l'atmosphère va
+elle aussi être chromatique: chaque longueur d'onde est ainsi déviée
+avec un angle de réfraction différent, à la manière d'un prisme. C'est
+cet effet que l'on appelle réfraction atmosphérique différentielle
+(\textit{Atmospheric Differential Refraction}; ADR).
+
+On observe ainsi en spectroscopie un déplacement du centroïde des
+sources astronomiques du champ de vue le long des tranches spectrales.
+
+Le phénomène d'ADR dépend des conditions d'observations, en prenant en
+compte d'une part la position de l'objet dans le ciel par rapport au
+détecteur (contribution achromatique), et d'autre part
+l'indice de réfraction de l'atmosphère (contribution chromatique).
+
+Cet indice de réfraction varie avec la longueur d'onde de la lumière
+incidente, mais également avec différents paramètres de l'atmosphère. Il
+est donc nécessaire de bien connaître les différentes dépendances entre
+l'indice de réfraction et les conditions atmosphériques lors de
+l'observation pour modéliser correctement les effets de l'ADR.
+
+Nous utilisons pour cela les équations de \citet{Edlen1966} modifées
+par \citet{Birch1993, Birch1994} et référencées par \citet{Stone2001}\footnote{\url{https://emtoolbox.nist.gov/Wavelength/Documentation.asp}}.
+
+Nous présentons ci dessous les équations permettant de remonter à
+l'indice de réfraction. On notera $t$ pour la température (Celsius),
+$p$, $p_{v}$ et $p_{sv}$ pour les pressions (Pascal) atmosphérique,
+partielle et saturante de
+vapeur d'eau, et enfin RH l'humidité relative.
+
+On commence par déterminer $p_{v}$.
+En définissant les constantes et quantités:
+
+\begin{center}
+  \renewcommand{\arraystretch}{1.5}
+  \begin{tabular}{ll}
+   
+$A_1= -13.928169$ & $A_2 = 34.7078238$ \\
+$T= t + 273.15$ & $t_h = \frac{T}{273.16}$ \\
+  \multicolumn{2}{c}{$Y = A_1 \times(1 - t_h^{-1.5}) + A_2 \times (1 - t_h^{-1.25})$}
+\end{tabular}\\
+\end{center}
+
+On définit la pression saturante de vapeur d'eau par:
+\begin{equation}
+  \label{eq:pvs}
+    p_{sv}(t) = 611.657 \times e^{Y}
+\end{equation}
+
+Et on déduit la pression partielle de vapeur d'eau $p_v$ à partir de
+l'humidité relative $RH$ (en pourcentage) par:
+\begin{equation}
+ \label{eq:pv}
+    p_v(RH,t) = \frac{RH}{100}\times p_{vs}(t)
+\end{equation}
+
+Passons maintenant à la détermination de l'indice de réfraction $n(\lambda,RH,t,p)$
+On définit dans un premier temps les $7$ constantes ci dessous:
+
+\begin{center}
+  \renewcommand{\arraystretch}{1.5}
+\begin{tabular}{lll}
+$A= 8342.54$ & $B = 2406147$ &\\
+$C= 15998$ & $D = 96095.43$& $G = 0.003661$\\
+$E = 0.601 $& $F = 0.00972$ &  \\
+\end{tabular}
+\end{center}
+
+On défini alors les quantités intermédiaires suivantes, avec la longueur
+d'onde $\lambda$ en \textmu m:
+\begin{align*}
+    S =&  \lambda^{-2}\\
+    n_s =& 10^{-8}\left(\frac{A + B}{130 - S} + \frac{C}{38.9 - S}\right)\\
+    X =& \frac{\left(1 + 10^{-8} \times (E - F\times t) \times
+         p\right)}{(1 + G \times t)}\\
+    n(\lambda,t,p) =& 1 + p \times n_s \times \frac{X}{D}
+\end{align*}
+
+Avec $n(\lambda,t,p)$ l'indice de réfraction en négligeant la contribution de
+l'humidité relative. On exprime alors l'indice de réfraction avec toutes
+les dépendances par:
+\begin{equation}
+  \label{eq:refractindex}
+    n(\lambda,RH,t,p) = n(\lambda,t,p) - 10^{-10}\times \left(\frac{292.75}{t + 273.15}\right) \times \left(3.7345 - 0.0401 \times S\right)\times p_v(RH,p,t)
+\end{equation}
+
+Nous pouvons maintenant déterminer la déviation du centroïde de nos
+objets dans le MLA à partir des indices de réfraction à une longueur
+d'onde donnée, et une longueur d'onde de référence.
+
+En notant ($x_{0}$, $y_{0}$) les coordonnées spatiales à la longueur
+d'onde de référence $\lambda_{ref}$, les nouvelles coordonnées ($x_{\lambda}$, $y_{\lambda}$) à
+la longueur d'onde observée dues aux effets de l'ADR sont déterminées
+par la transformation:
+
+$$
+  \left\{
+    \begin{array}{ll}
+    x(\lambda)&= x_{ref} - \frac{1}{2}\left( \frac{1}{n^{2}(\lambda)} - \frac{1}{n^{2}(\lambda_{ref})}\right)\times \tan(d_{z})\sin(\theta) \\
+    y(\lambda)&= y_{ref} - \frac{1}{2}\left( \frac{1}{n^{2}(\lambda)} - \frac{1}{n^{2}(\lambda_{ref})}\right)\times \tan(d_{z})\cos(\theta)
+    \end{array}
+   \right.
+$$
+
+Avec $\theta$ l'angle parallactique et $d_{z} = \arccos{\left(\chi^{-1}\right)}$ la
+distance zénithale dans l'approximation d'une atmosphère plan-parallèle,
+et $\chi$ la masse d'air le long de la ligne de visée ($\chi=1$
+correspondant à un objet parfaitement au zénith).
+
+
+\subsection{Ajustement chromatique}\label{ssec:chrom}
+
+L'ADR et notre modèle de profil radial ayant été rigoureusement définis,
+nous pouvons à présent procéder à l'ajustement chromatique de notre
+source ponctuelle afin d'effectuer l'extraction 3D de son spectre.
+
+Dans un premier temps, nous procédons à l'ajustement de la PSF en
+incluant le ciel pour $9$ méta-tranches comprises entre $4500$ et
+$9000$\AA. L'épaisseur ainsi obtenue ($\sim500$\AA) permet d'avoir un
+signal sur bruit suffisamment élevé sans que l'ADR ne produise d'impact
+significatif.
+
+Pour chacune de ces méta-tranches, les paramètres d'amplitudes de la PSF
+et les $6$ coefficients du background polynomial (équation~\ref{eq:backgroundcurved}) sont des paramètres de nuisance.
+
+La Figure~\ref{fig:allmetastd} illustre l'ajustement de la fonction
+d'étalement de point (profil radial + coutours) de chacune des méta-tranches pour l'étoile
+standard 25d4655.
 
 \begin{figure}[ht]
   \centering
-  \includegraphics[width=0.7\textwidth]{../figures/06_irf/STD_profile_allmeta.pdf}
-  \caption[]{Profil radial et coutours des $9$ metaslices de la STD}
-  \label{fig:}
+  \includegraphics[width=0.9\textwidth]{../figures/06_irf/STD_profile_allmeta.pdf}
+  \caption[Profil radial et coutours des $9$ metaslices de la STD
+  25d4655]{Profil radial (\textit{à gauche}) et coutours d'intensité
+    (\textit{à droite}) des $9$ metaslices de la STD
+    25d4655. Les traits pleins du contour représentent les données et
+    les pointillées l'ajustement du modèle.}
+  \label{fig:allmetastd}
 \end{figure}
 
-\subsection{Chromaticité et ADR}\label{ssec:chromadr}
+La déviation chromatique du centroïde de la source ponctuelle due à
+l'ADR est présentée dans la Figure~\ref{fig:adr_std}. L'estimation des
+positions de références ($x_{ref}$, $y_{ref}$) associées aux 
+paramètres de masse d'air et d'angle parallactique permet ainsi de
+dériver la position de l'étoile dans le MLA à n'importe quelle longueur d'onde.
 
+\begin{figure}
+  \centering
+  \includegraphics[width=0.7\textwidth]{../figures/06_irf/adr_std.pdf}
+  \caption[Modélisation de la réfraction atmosphérique
+  différentielle]{Modélisation de la réfraction atmosphérique
+    différentielle pour l'étoile standard 25d4655}
+  \label{fig:adr_std}
+\end{figure}
+
+Il ne nous manque ainsi plus qu'à fixer la chromaticité de la fonction
+d'étalement de point.
+Nous présentons dans la Figure~\ref{fig:chromaticity_psf} l'évolution
+chromatique des paramètres de forme de la PSF. Nous ajustons les
+paramètres d'ellipticité et d'orientation $\mathcal{A}$ et $\mathcal{B}$
+par une constante, leur évolution étant relativement faible avec la longueur d'onde.
+
+Le poids entre la gaussienne et la Moffat $\eta$ est également ajusté
+par une constante. Bien que nous pouvons apercevoir des variations de
+l'ordre de $5$ à $10\%$ autour de la moyennne pondérée, nous n'observons pas
+de tendance chromatique dans son évolution.
+
+En ce qui concerne le paramètre de forme principal $\alpha$, nous
+utilisons pour l'ajustement une loi de puissance de la forme:
+
+\begin{equation}
+  \label{eq:alphachrom}
+  \alpha(\lambda)=\alpha_{ref}\left(\frac{\lambda}{\lambda_{ref}}\right)^{\rho}
+\end{equation}
+
+Avec $\alpha_{ref}$ et $\rho$ les paramètres d'ajustement de la chromaticité.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.9\textwidth]{../figures/06_irf/chromaticity_psf.pdf}
+  \caption[Chromaticité des paramètres de forme de la PSF]{Chromaticité
+    des paramètres de forme de la PSF pour l'étoile standard 25d4655.}
+  \label{fig:chromaticity_psf}
+\end{figure}
+
+
+\clearpage
 \section{Validation}\label{sec:validationpsf}
 
 \subsection{Calibration photométrique}\label{ssec:photocalibstd}

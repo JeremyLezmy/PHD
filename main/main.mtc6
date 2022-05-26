@@ -3,8 +3,15 @@
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.1.2}Détermination de la LSF}{\reset@font\mtcSSfont 76}{subsection.6.1.2}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.2}Réponse impulsionnelle spatiale: PSF}{\reset@font\mtcSfont 83}{section.6.2}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.2.1}Modèle de profil radial}{\reset@font\mtcSSfont 83}{subsection.6.2.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.2.2}Entrainement du modèle}{\reset@font\mtcSSfont 84}{subsection.6.2.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.2.3}Chromaticité et ADR}{\reset@font\mtcSSfont 84}{subsection.6.2.3}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.3}Validation}{\reset@font\mtcSfont 84}{section.6.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.3.1}Calibration photométrique}{\reset@font\mtcSSfont 84}{subsection.6.3.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.3.2}Résultats}{\reset@font\mtcSSfont 84}{subsection.6.3.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.2.2}Entrainement du modèle}{\reset@font\mtcSSfont 85}{subsection.6.2.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {6.2.2.1}Première contrainte: $\alpha $ vs $\beta $}{\reset@font\mtcSSSfont 86}{subsubsection.6.2.2.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {6.2.2.2}Seconde contrainte: $\alpha $ vs $\sigma $}{\reset@font\mtcSSSfont 87}{subsubsection.6.2.2.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {6.2.2.3}Cas du poids relatif des distributions gaussienne/Moffat: $\eta $}{\reset@font\mtcSSSfont 89}{subsubsection.6.2.2.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {6.2.2.4}Profil radial contraint}{\reset@font\mtcSSSfont 89}{subsubsection.6.2.2.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.3}Extraction de la source ponctuelle}{\reset@font\mtcSfont 90}{section.6.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.3.1}Méthode d'extraction}{\reset@font\mtcSSfont 90}{subsection.6.3.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.3.2}R\'efraction atmosph\'erique diff\'erentielle}{\reset@font\mtcSSfont 90}{subsection.6.3.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.3.3}Ajustement chromatique}{\reset@font\mtcSSfont 91}{subsection.6.3.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {6.4}Validation}{\reset@font\mtcSfont 91}{section.6.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.4.1}Calibration photométrique}{\reset@font\mtcSSfont 91}{subsection.6.4.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {6.4.2}Résultats}{\reset@font\mtcSSfont 91}{subsection.6.4.2}}

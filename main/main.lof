@@ -39,19 +39,27 @@
 \contentsline {figure}{\numberline {5.8}{\ignorespaces \'Echantillonnage spectral d'une SED obtenue avec \textsc {\texttt {CIGALE}} }}{73}{figure.caption.38}%
 \contentsline {figure}{\numberline {5.9}{\ignorespaces Cube intrinsèque de la galaxie hôte de ZTF18accrorf}}{74}{figure.caption.39}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Réponse impulsionnelle de la SEDm}{75}{chapter.6}%
+\contentsline {xchapter}{Réponse impulsionnelle de la SEDm et extraction de source ponctuelle}{75}{chapter.6}%
 \contentsline {figure}{\numberline {6.1}{\ignorespaces Spectres des lampes à arc utilisées pour la SEDm}}{77}{figure.caption.42}%
 \contentsline {figure}{\numberline {6.2}{\ignorespaces Distribution de la localisation des raies des lampes à arc}}{78}{figure.caption.43}%
 \contentsline {figure}{\numberline {6.3}{\ignorespaces Distribution de l'écart type $\sigma _{line}$ des raies des lampes à arc}}{79}{figure.caption.44}%
 \contentsline {figure}{\numberline {6.4}{\ignorespaces Chromaticité de la LSF}}{80}{figure.caption.45}%
 \contentsline {figure}{\numberline {6.5}{\ignorespaces Résolution de la SEDm}}{81}{figure.caption.46}%
 \contentsline {figure}{\numberline {6.6}{\ignorespaces Application de la LSF}}{82}{figure.caption.47}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Exemple de profil radial d'un étoile standard}}{85}{figure.caption.48}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Matrice de corrélation des paramètres de PSF.}}{86}{figure.caption.49}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Chromaticité des corrélations entre $\alpha $ et $\beta $}}{86}{figure.caption.50}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Chromaticité de la pente et du point zéro entre $\alpha $ et $\beta $}}{87}{figure.caption.51}%
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Matrice de corrélation des paramètres de PSF ($\beta (\alpha )$ fixé).}}{87}{figure.caption.52}%
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Chromaticité des corrélations entre $\alpha $ et $\sigma $}}{88}{figure.caption.53}%
+\contentsline {figure}{\numberline {6.13}{\ignorespaces Chromaticité de la pente et du point zéro entre $\alpha $ et $\sigma $}}{88}{figure.caption.54}%
+\contentsline {figure}{\numberline {6.14}{\ignorespaces Chromaticité des corrélations entre $\alpha $ et $\eta $}}{89}{figure.caption.55}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Modélisation de Scène et Extraction de Source}{85}{chapter.7}%
-\contentsline {xpart}{Simulations et Résultats}{89}{part.3}%
+\contentsline {xchapter}{Modélisation de Scène et Extraction de Source}{93}{chapter.7}%
+\contentsline {xpart}{Simulations et Résultats}{97}{part.3}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Simulations de cubes de données et application d'\textsc {\texttt {HyperGal}} }{89}{chapter.8}%
+\contentsline {xchapter}{Simulations de cubes de données et application d'\textsc {\texttt {HyperGal}} }{97}{chapter.8}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Data Release 2 de ZTF}{91}{chapter.9}%
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Paramètres SALT2 de stretch et couleur pour la DR2 de ZTF}}{92}{figure.caption.48}%
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Correlation entre les paramètres SALT2 de stretch et couleur (ZTF-DR2)}}{93}{figure.caption.49}%
+\contentsline {xchapter}{Data Release 2 de ZTF}{99}{chapter.9}%
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Paramètres SALT2 de stretch et couleur pour la DR2 de ZTF}}{100}{figure.caption.59}%
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Correlation entre les paramètres SALT2 de stretch et couleur (ZTF-DR2)}}{101}{figure.caption.60}%

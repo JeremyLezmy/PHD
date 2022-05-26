@@ -23,18 +23,18 @@
 \providecommand\HyField@AuxAddToFields[1]{}
 \providecommand\HyField@AuxAddToCoFields[2]{}
 \providecommand\BKM@entry[2]{}
-\BKM@entry{id=1,dest={636861707465722E36},srcline={7}}{5C3337365C3337375C303030525C3030305C3335315C303030705C3030306F5C3030306E5C303030735C303030655C3030305C3034305C303030695C3030306D5C303030705C303030755C3030306C5C303030735C303030695C3030306F5C3030306E5C3030306E5C303030655C3030306C5C3030306C5C303030655C3030305C3034305C303030645C303030655C3030305C3034305C3030306C5C303030615C3030305C3034305C303030535C303030455C303030445C3030306D}
+\BKM@entry{id=1,dest={636861707465722E36},srcline={7}}{5C3337365C3337375C303030525C3030305C3335315C303030705C3030306F5C3030306E5C303030735C303030655C3030305C3034305C303030695C3030306D5C303030705C303030755C3030306C5C303030735C303030695C3030306F5C3030306E5C3030306E5C303030655C3030306C5C3030306C5C303030655C3030305C3034305C303030645C303030655C3030305C3034305C3030306C5C303030615C3030305C3034305C303030535C303030455C303030445C3030306D5C3030305C3034305C303030655C303030745C3030305C3034305C303030655C303030785C303030745C303030725C303030615C303030635C303030745C303030695C3030306F5C3030306E5C3030305C3034305C303030645C303030655C3030305C3034305C303030735C3030306F5C303030755C303030725C303030635C303030655C3030305C3034305C303030705C3030306F5C3030306E5C303030635C303030745C303030755C303030655C3030306C5C3030306C5C30303065}
 \providecommand \oddpage@label [2]{}
 \babel@aux{french}{}
 \providecommand {\FN@pp@footnotehinttrue }{}
 \providecommand {\FN@pp@footnote@aux }[2]{}
 \FN@pp@footnotehinttrue 
-\@writefile{toc}{\contentsline {chapter}{\numberline {6}Réponse impulsionnelle de la SEDm}{1}{chapter.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}Réponse impulsionnelle de la SEDm et extraction de source ponctuelle}{1}{chapter.6}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{lof}{\contentsline {xchapter}{Réponse impulsionnelle de la SEDm}{1}{chapter.6}\protected@file@percent }
-\@writefile{lot}{\contentsline {xchapter}{Réponse impulsionnelle de la SEDm}{1}{chapter.6}\protected@file@percent }
-\newlabel{ch:irf}{{6}{1}{Réponse impulsionnelle de la SEDm}{chapter.6}{}}
+\@writefile{lof}{\contentsline {xchapter}{Réponse impulsionnelle de la SEDm et extraction de source ponctuelle}{1}{chapter.6}\protected@file@percent }
+\@writefile{lot}{\contentsline {xchapter}{Réponse impulsionnelle de la SEDm et extraction de source ponctuelle}{1}{chapter.6}\protected@file@percent }
+\newlabel{ch:irf}{{6}{1}{Réponse impulsionnelle de la SEDm et extraction de source ponctuelle}{chapter.6}{}}
 \BKM@entry{id=2,dest={73656374696F6E2E362E31},srcline={36}}{5C3337365C3337375C303030525C3030305C3335315C303030705C3030306F5C3030306E5C303030735C303030655C3030305C3034305C303030695C3030306D5C303030705C303030755C3030306C5C303030735C303030695C3030306F5C3030306E5C3030306E5C303030655C3030306C5C3030306C5C303030655C3030305C3034305C303030735C303030705C303030655C303030635C303030745C303030725C303030615C3030306C5C303030655C3030303A5C3030305C3034305C3030304C5C303030535C30303046}
 \BKM@entry{id=3,dest={73756273656374696F6E2E362E312E31},srcline={39}}{5C3337365C3337375C3030304C5C303030615C3030306D5C303030705C303030655C303030735C3030305C3034305C3030305C3334305C3030305C3034305C303030615C303030725C30303063}
 \citation{pysedm}
@@ -103,7 +103,7 @@
 \newlabel{eq:axesratioellipse}{{6.6}{10}{Modèle de profil radial}{equation.6.2.6}{}}
 \newlabel{eq:angleellipse}{{6.7}{10}{Modèle de profil radial}{equation.6.2.7}{}}
 \@writefile{brf}{\backcite{pysedm}{{10}{6.2.1}{equation.6.2.7}}}
-\newlabel{eq:7}{{6.8}{10}{Modèle de profil radial}{equation.6.2.8}{}}
+\newlabel{eq:backgroundcurved}{{6.8}{10}{Modèle de profil radial}{equation.6.2.8}{}}
 \BKM@entry{id=8,dest={73756273756273656374696F6E2E362E322E322E31},srcline={511}}{5C3337365C3337375C303030505C303030725C303030655C3030306D5C303030695C3030305C3335305C303030725C303030655C3030305C3034305C303030635C3030306F5C3030306E5C303030745C303030725C303030615C303030695C3030306E5C303030745C303030655C3030303A5C3030305C3034305C3030305C3034305C303030765C303030735C3030305C303430}
 \@writefile{lof}{\contentsline {figure}{\numberline {6.7}{\ignorespaces Exemple de profil radial d'un étoile standard}}{11}{figure.caption.9}\protected@file@percent }
 \newlabel{fig:radialprofile}{{6.7}{11}{Exemple de profil radial d'un étoile standard}{figure.caption.9}{}}
@@ -126,35 +126,75 @@
 \newlabel{eq:betaalpha}{{6.10}{14}{Seconde contrainte: $\alpha $ vs $\sigma $}{equation.6.2.10}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {6.13}{\ignorespaces Chromaticité de la pente et du point zéro entre $\alpha $ et $\sigma $}}{14}{figure.caption.15}\protected@file@percent }
 \newlabel{fig:chromslope_zp_alphasigma}{{6.13}{14}{Chromaticité de la pente et du point zéro entre $\alpha $ et $\sigma $}{figure.caption.15}{}}
-\BKM@entry{id=10,dest={73756273656374696F6E2E362E322E33},srcline={648}}{5C3337365C3337375C303030435C303030685C303030725C3030306F5C3030306D5C303030615C303030745C303030695C303030635C303030695C303030745C3030305C3335315C3030305C3034305C303030655C303030745C3030305C3034305C303030415C303030445C30303052}
-\BKM@entry{id=11,dest={73656374696F6E2E362E33},srcline={650}}{5C3337365C3337375C303030565C303030615C3030306C5C303030695C303030645C303030615C303030745C303030695C3030306F5C3030306E}
-\BKM@entry{id=12,dest={73756273656374696F6E2E362E332E31},srcline={652}}{5C3337365C3337375C303030435C303030615C3030306C5C303030695C303030625C303030725C303030615C303030745C303030695C3030306F5C3030306E5C3030305C3034305C303030705C303030685C3030306F5C303030745C3030306F5C3030306D5C3030305C3335315C303030745C303030725C303030695C303030715C303030755C30303065}
-\BKM@entry{id=13,dest={73756273656374696F6E2E362E332E32},srcline={654}}{5C3337365C3337375C303030525C3030305C3335315C303030735C303030755C3030306C5C303030745C303030615C303030745C30303073}
+\BKM@entry{id=10,dest={73756273756273656374696F6E2E362E322E322E33},srcline={632}}{5C3337365C3337375C303030435C303030615C303030735C3030305C3034305C303030645C303030755C3030305C3034305C303030705C3030306F5C303030695C303030645C303030735C3030305C3034305C303030725C303030655C3030306C5C303030615C303030745C303030695C303030665C3030305C3034305C303030645C303030655C303030735C3030305C3034305C303030645C303030695C303030735C303030745C303030725C303030695C303030625C303030755C303030745C303030695C3030306F5C3030306E5C303030735C3030305C3034305C303030675C303030615C303030755C303030735C303030735C303030695C303030655C3030306E5C3030306E5C303030655C3030302F5C3030304D5C3030306F5C303030665C303030665C303030615C303030745C3030303A5C3030305C303430}
+\citation{Butonthese}
+\BKM@entry{id=11,dest={73756273756273656374696F6E2E362E322E322E34},srcline={653}}{5C3337365C3337375C303030505C303030725C3030306F5C303030665C303030695C3030306C5C3030305C3034305C303030725C303030615C303030645C303030695C303030615C3030306C5C3030305C3034305C303030635C3030306F5C3030306E5C303030745C303030725C303030615C303030695C3030306E5C30303074}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.2.2.3}Cas du poids relatif des distributions gaussienne/Moffat: $\eta $}{15}{subsubsection.6.2.2.3}\protected@file@percent }
+\@writefile{brf}{\backcite{Butonthese}{{15}{6.2.2.3}{subsubsection.6.2.2.3}}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.14}{\ignorespaces Chromaticité des corrélations entre $\alpha $ et $\eta $}}{15}{figure.caption.16}\protected@file@percent }
+\newlabel{fig:alphaetachromcorr}{{6.14}{15}{Chromaticité des corrélations entre $\alpha $ et $\eta $}{figure.caption.16}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.2.2.4}Profil radial contraint}{15}{subsubsection.6.2.2.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {6.2}{\ignorespaces Valeurs des paramètres des ajustements linéaires pour $\beta (\alpha )$ et $\sigma (\alpha )$\relax }}{15}{table.caption.17}\protected@file@percent }
+\newlabel{tab:betasigmapsf}{{6.2}{15}{Valeurs des paramètres des ajustements linéaires pour $\beta (\alpha )$ et $\sigma (\alpha )$\relax }{table.caption.17}{}}
+\BKM@entry{id=12,dest={73656374696F6E2E362E33},srcline={704}}{5C3337365C3337375C303030455C303030785C303030745C303030725C303030615C303030635C303030745C303030695C3030306F5C3030306E5C3030305C3034305C303030645C303030655C3030305C3034305C3030306C5C303030615C3030305C3034305C303030735C3030306F5C303030755C303030725C303030635C303030655C3030305C3034305C303030705C3030306F5C3030306E5C303030635C303030745C303030755C303030655C3030306C5C3030306C5C30303065}
+\BKM@entry{id=13,dest={73756273656374696F6E2E362E332E31},srcline={706}}{5C3337365C3337375C3030304D5C3030305C3335315C303030745C303030685C3030306F5C303030645C303030655C3030305C3034305C303030645C303030275C303030655C303030785C303030745C303030725C303030615C303030635C303030745C303030695C3030306F5C3030306E}
+\BKM@entry{id=14,dest={73756273656374696F6E2E362E332E32},srcline={732}}{5C3337365C3337375C303030525C3030305C3335315C303030665C303030725C303030615C303030635C303030745C303030695C3030306F5C3030306E5C3030305C3034305C303030615C303030745C3030306D5C3030306F5C303030735C303030705C303030685C3030305C3335315C303030725C303030695C303030715C303030755C303030655C3030305C3034305C303030645C303030695C303030665C303030665C3030305C3335315C303030725C303030655C3030306E5C303030745C303030695C303030655C3030306C5C3030306C5C30303065}
+\newlabel{eq:psfmodelconstraint}{{6.11}{16}{Profil radial contraint}{equation.6.2.11}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.3}Extraction de la source ponctuelle}{16}{section.6.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.1}Méthode d'extraction}{16}{subsection.6.3.1}\protected@file@percent }
+\newlabel{ssec:methodextraction}{{6.3.1}{16}{Méthode d'extraction}{subsection.6.3.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.2}R\'efraction atmosph\'erique diff\'erentielle}{16}{subsection.6.3.2}\protected@file@percent }
+\newlabel{ssec:adr}{{6.3.2}{16}{R\'efraction atmosph\'erique diff\'erentielle}{subsection.6.3.2}{}}
+\citation{Edlen1966}
+\citation{Birch1993,Birch1994}
+\citation{Stone2001}
+\@writefile{brf}{\backcite{Edlen1966}{{17}{6.3.2}{subsection.6.3.2}}}
+\@writefile{brf}{\backcite{Birch1993}{{17}{6.3.2}{subsection.6.3.2}}}
+\@writefile{brf}{\backcite{Birch1994}{{17}{6.3.2}{subsection.6.3.2}}}
+\@writefile{brf}{\backcite{Stone2001}{{17}{6.3.2}{subsection.6.3.2}}}
+\FN@pp@footnote@aux{1}{17}
+\newlabel{eq:pvs}{{6.12}{17}{R\'efraction atmosph\'erique diff\'erentielle}{equation.6.3.12}{}}
+\newlabel{eq:pv}{{6.13}{17}{R\'efraction atmosph\'erique diff\'erentielle}{equation.6.3.13}{}}
+\BKM@entry{id=15,dest={73756273656374696F6E2E362E332E33},srcline={847}}{5C3337365C3337375C303030415C3030306A5C303030755C303030735C303030745C303030655C3030306D5C303030655C3030306E5C303030745C3030305C3034305C303030635C303030685C303030725C3030306F5C3030306D5C303030615C303030745C303030695C303030715C303030755C30303065}
+\newlabel{eq:refractindex}{{6.14}{18}{R\'efraction atmosph\'erique diff\'erentielle}{equation.6.3.14}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.3}Ajustement chromatique}{18}{subsection.6.3.3}\protected@file@percent }
+\newlabel{ssec:chrom}{{6.3.3}{18}{Ajustement chromatique}{subsection.6.3.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.15}{\ignorespaces Profil radial et coutours des $9$ metaslices de la STD 25d4655}}{19}{figure.caption.19}\protected@file@percent }
+\newlabel{fig:allmetastd}{{6.15}{19}{Profil radial et coutours des $9$ metaslices de la STD 25d4655}{figure.caption.19}{}}
+\newlabel{eq:alphachrom}{{6.15}{19}{Ajustement chromatique}{equation.6.3.15}{}}
+\FN@pp@footnotehinttrue 
+\@writefile{lof}{\contentsline {figure}{\numberline {6.16}{\ignorespaces Modélisation de la réfraction atmosphérique différentielle}}{20}{figure.caption.20}\protected@file@percent }
+\newlabel{fig:adr_std}{{6.16}{20}{Modélisation de la réfraction atmosphérique différentielle}{figure.caption.20}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.17}{\ignorespaces Chromaticité des paramètres de forme de la PSF}}{20}{figure.caption.21}\protected@file@percent }
+\newlabel{fig:chromaticity_psf}{{6.17}{20}{Chromaticité des paramètres de forme de la PSF}{figure.caption.21}{}}
+\BKM@entry{id=16,dest={73656374696F6E2E362E34},srcline={924}}{5C3337365C3337375C303030565C303030615C3030306C5C303030695C303030645C303030615C303030745C303030695C3030306F5C3030306E}
+\BKM@entry{id=17,dest={73756273656374696F6E2E362E342E31},srcline={926}}{5C3337365C3337375C303030435C303030615C3030306C5C303030695C303030625C303030725C303030615C303030745C303030695C3030306F5C3030306E5C3030305C3034305C303030705C303030685C3030306F5C303030745C3030306F5C3030306D5C3030305C3335315C303030745C303030725C303030695C303030715C303030755C30303065}
+\BKM@entry{id=18,dest={73756273656374696F6E2E362E342E32},srcline={928}}{5C3337365C3337375C303030525C3030305C3335315C303030735C303030755C3030306C5C303030745C303030615C303030745C30303073}
 \bibstyle{../main/aa_url2}
 \bibdata{99_references}
-\newlabel{fig:}{{6.14}{15}{}{figure.caption.16}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.3}Chromaticité et ADR}{15}{subsection.6.2.3}\protected@file@percent }
-\newlabel{ssec:chromadr}{{6.2.3}{15}{Chromaticité et ADR}{subsection.6.2.3}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.3}Validation}{15}{section.6.3}\protected@file@percent }
-\newlabel{sec:validationpsf}{{6.3}{15}{Validation}{section.6.3}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.1}Calibration photométrique}{15}{subsection.6.3.1}\protected@file@percent }
-\newlabel{ssec:photocalibstd}{{6.3.1}{15}{Calibration photométrique}{subsection.6.3.1}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.2}Résultats}{15}{subsection.6.3.2}\protected@file@percent }
-\newlabel{ssec:resultscalib}{{6.3.2}{15}{Résultats}{subsection.6.3.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.4}Validation}{21}{section.6.4}\protected@file@percent }
+\newlabel{sec:validationpsf}{{6.4}{21}{Validation}{section.6.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4.1}Calibration photométrique}{21}{subsection.6.4.1}\protected@file@percent }
+\newlabel{ssec:photocalibstd}{{6.4.1}{21}{Calibration photométrique}{subsection.6.4.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4.2}Résultats}{21}{subsection.6.4.2}\protected@file@percent }
+\newlabel{ssec:resultscalib}{{6.4.2}{21}{Résultats}{subsection.6.4.2}{}}
 \FN@pp@footnotehinttrue 
-\newlabel{fig:}{{6.15}{16}{}{figure.caption.17}{}}
-\bibcite{SEDM18}{{1}{2018}{{\textsc  {{Blagorodnova}} {et~al.}}}{{\textsc  {{Blagorodnova}}, \textsc  {{Neill}}, \textsc  {{Walters}}, \textsc  {{Kulkarni}}, \textsc  {{Fremling}}, \textsc  {{Ben-Ami}}, \textsc  {{Dekany}}, \textsc  {{Fucik}}, \textsc  {{Konidaris}}, \textsc  {{Nash}}, \textsc  {{Ngeow}}, \textsc  {{Ofek}}, \textsc  {{O' Sullivan}}, \textsc  {{Quimby}}, \textsc  {{Ritter}} et \textsc  {{Vyhmeister}}}}}
-\bibcite{BCO3}{{2}{2003}{{\textsc  {{Bruzual}} et \textsc  {{Charlot}}}}{{}}}
-\bibcite{Butonthese}{{3}{2009}{{\textsc  {Buton}}}{{}}}
-\bibcite{Fried1966}{{4}{1966}{{\textsc  {{Fried}}}}{{}}}
-\bibcite{King1971}{{5}{1971}{{\textsc  {{King}}}}{{}}}
-\bibcite{Kolmogorov}{{6}{1941}{{\textsc  {{Kolmogorov}}}}{{}}}
-\bibcite{Moffat1969}{{7}{1969}{{\textsc  {{Moffat}}}}{{}}}
-\bibcite{Racine1996}{{8}{1996}{{\textsc  {{Racine}}}}{{}}}
-\bibcite{pysedm}{{9}{2019}{{\textsc  {{Rigault}} {et~al.}}}{{\textsc  {{Rigault}}, \textsc  {{Neill}}, \textsc  {{Blagorodnova}}, \textsc  {{Dugas}}, \textsc  {{Feeney}}, \textsc  {{Walters}}, \textsc  {{Brinnel}}, \textsc  {{Copin}}, \textsc  {{Fremling}}, \textsc  {{Nordin}} et \textsc  {{Sollerman}}}}}
-\bibcite{Tokovinin}{{10}{2002}{{\textsc  {{Tokovinin}}}}{{}}}
-\bibcite{Trujillo2001}{{11}{2001}{{\textsc  {{Trujillo}} {et~al.}}}{{\textsc  {{Trujillo}}, \textsc  {{Aguerri}}, \textsc  {{Cepa}} et \textsc  {{Guti\'errez}}}}}
-\global\mtcsecondpartfalse
+\bibcite{Birch1993}{{1}{1993}{{\textsc  {{Birch}} et \textsc  {{Downs}}}}{{}}}
+\bibcite{Birch1994}{{2}{1994}{{\textsc  {{Birch}} et \textsc  {{Downs}}}}{{}}}
+\bibcite{SEDM18}{{3}{2018}{{\textsc  {{Blagorodnova}} {et~al.}}}{{\textsc  {{Blagorodnova}}, \textsc  {{Neill}}, \textsc  {{Walters}}, \textsc  {{Kulkarni}}, \textsc  {{Fremling}}, \textsc  {{Ben-Ami}}, \textsc  {{Dekany}}, \textsc  {{Fucik}}, \textsc  {{Konidaris}}, \textsc  {{Nash}}, \textsc  {{Ngeow}}, \textsc  {{Ofek}}, \textsc  {{O' Sullivan}}, \textsc  {{Quimby}}, \textsc  {{Ritter}} et \textsc  {{Vyhmeister}}}}}
+\bibcite{BCO3}{{4}{2003}{{\textsc  {{Bruzual}} et \textsc  {{Charlot}}}}{{}}}
+\bibcite{Butonthese}{{5}{2009}{{\textsc  {Buton}}}{{}}}
+\bibcite{Edlen1966}{{6}{1966}{{\textsc  {{Edl\'en}}}}{{}}}
+\bibcite{Fried1966}{{7}{1966}{{\textsc  {{Fried}}}}{{}}}
+\bibcite{King1971}{{8}{1971}{{\textsc  {{King}}}}{{}}}
+\bibcite{Kolmogorov}{{9}{1941}{{\textsc  {{Kolmogorov}}}}{{}}}
+\bibcite{Moffat1969}{{10}{1969}{{\textsc  {{Moffat}}}}{{}}}
+\bibcite{Racine1996}{{11}{1996}{{\textsc  {{Racine}}}}{{}}}
+\bibcite{pysedm}{{12}{2019}{{\textsc  {{Rigault}} {et~al.}}}{{\textsc  {{Rigault}}, \textsc  {{Neill}}, \textsc  {{Blagorodnova}}, \textsc  {{Dugas}}, \textsc  {{Feeney}}, \textsc  {{Walters}}, \textsc  {{Brinnel}}, \textsc  {{Copin}}, \textsc  {{Fremling}}, \textsc  {{Nordin}} et \textsc  {{Sollerman}}}}}
+\bibcite{Stone2001}{{13}{2001}{{\textsc  {Stone} et \textsc  {Zimmerman}}}{{}}}
+\bibcite{Tokovinin}{{14}{2002}{{\textsc  {{Tokovinin}}}}{{}}}
+\bibcite{Trujillo2001}{{15}{2001}{{\textsc  {{Trujillo}} {et~al.}}}{{\textsc  {{Trujillo}}, \textsc  {{Aguerri}}, \textsc  {{Cepa}} et \textsc  {{Guti\'errez}}}}}
 \@writefile{@@@}{\chapterbegin }
+\global\mtcsecondpartfalse
 \FN@pp@footnotehinttrue 
-\gdef \@abspage@last{17}
+\gdef \@abspage@last{24}
