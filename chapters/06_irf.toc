@@ -14,6 +14,6 @@
 \contentsline {subsection}{\numberline {6.3.1}Méthode d'extraction}{16}{subsection.6.3.1}%
 \contentsline {subsection}{\numberline {6.3.2}R\'efraction atmosph\'erique diff\'erentielle}{16}{subsection.6.3.2}%
 \contentsline {subsection}{\numberline {6.3.3}Ajustement chromatique}{18}{subsection.6.3.3}%
-\contentsline {section}{\numberline {6.4}Validation}{21}{section.6.4}%
-\contentsline {subsection}{\numberline {6.4.1}Calibration photométrique}{21}{subsection.6.4.1}%
-\contentsline {subsection}{\numberline {6.4.2}Résultats}{21}{subsection.6.4.2}%
+\contentsline {section}{\numberline {6.4}Calibration en flux}{21}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Méthode}{21}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Précision de la calibration}{23}{subsection.6.4.2}%

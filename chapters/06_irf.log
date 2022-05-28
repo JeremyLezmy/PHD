@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  26 MAY 2022 13:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  27 MAY 2022 19:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1906,26 +1906,87 @@ File: ../figures/06_irf/chromaticity_psf.pdf Graphic file (type pdf)
 <use ../figures/06_irf/chromaticity_psf.pdf>
 Package pdftex.def Info: ../figures/06_irf/chromaticity_psf.pdf  used on input 
 line 916.
-(pdftex.def)             Requested size: 409.71692pt x 151.49127pt.
+(pdftex.def)             Requested size: 386.96027pt x 143.0788pt.
+<../figures/06_irf/stdspectra_adu.pdf, id=470, 932.28299pt x 379.0417pt>
+File: ../figures/06_irf/stdspectra_adu.pdf Graphic file (type pdf)
+<use ../figures/06_irf/stdspectra_adu.pdf>
+Package pdftex.def Info: ../figures/06_irf/stdspectra_adu.pdf  used on input li
+ne 928.
+(pdftex.def)             Requested size: 386.96027pt x 157.3283pt.
 
 [19 <../figures/06_irf/STD_profile_allmeta.pdf>] [20 <../figures/06_irf/adr_std
 .pdf> <../figures/06_irf/chromaticity_psf.pdf
 
 pdfTeX warning: pdflatex (file ../figures/06_irf/chromaticity_psf.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
->] (./06_irf.bbl (./06_irf.brf)
+> <../figures/06_irf/stdspectra_adu.pdf
+
+pdfTeX warning: pdflatex (file ../figures/06_irf/stdspectra_adu.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Reference `ssec:calibpysedm' on page 21 undefined on input line 
+945.
+
+<../figures/06_irf/telluricspec.pdf, id=578, 932.28299pt x 368.57701pt>
+File: ../figures/06_irf/telluricspec.pdf Graphic file (type pdf)
+<use ../figures/06_irf/telluricspec.pdf>
+Package pdftex.def Info: ../figures/06_irf/telluricspec.pdf  used on input line
+ 970.
+(pdftex.def)             Requested size: 386.96027pt x 152.98471pt.
+[21
+
+ <../figures/06_irf/telluricspec.pdf>]
+
+LaTeX Warning: Reference `ssec:3dcubecons' on page 22 undefined on input line 1
+016.
+
+<../figures/06_irf/calibmodel.pdf, id=610, 786.6319pt x 612.73253pt>
+File: ../figures/06_irf/calibmodel.pdf Graphic file (type pdf)
+<use ../figures/06_irf/calibmodel.pdf>
+Package pdftex.def Info: ../figures/06_irf/calibmodel.pdf  used on input line 1
+023.
+(pdftex.def)             Requested size: 386.96027pt x 301.41026pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22 <../figures/06_irf/calibmodel.pdf>]
+<../figures/06_irf/fluxcalstd.pdf, id=636, 785.28685pt x 531.07314pt>
+File: ../figures/06_irf/fluxcalstd.pdf Graphic file (type pdf)
+<use ../figures/06_irf/fluxcalstd.pdf>
+Package pdftex.def Info: ../figures/06_irf/fluxcalstd.pdf  used on input line 1
+065.
+(pdftex.def)             Requested size: 386.96027pt x 261.68674pt.
+
+Underfull \vbox (badness 1117) has occurred while \output is active []
+
+ [23 <../figures/06_irf/fluxcalstd.pdf>]
+<../figures/06_irf/fluxcalstd_all_ratio.pdf, id=662, 1076.82304pt x 379.0417pt>
+
+File: ../figures/06_irf/fluxcalstd_all_ratio.pdf Graphic file (type pdf)
+<use ../figures/06_irf/fluxcalstd_all_ratio.pdf>
+Package pdftex.def Info: ../figures/06_irf/fluxcalstd_all_ratio.pdf  used on in
+put line 1108.
+(pdftex.def)             Requested size: 450.69417pt x 158.64119pt.
+<../figures/06_irf/rmsallstd_fluxcalibration.pdf, id=663, 1221.36305pt x 711.85
+951pt>
+File: ../figures/06_irf/rmsallstd_fluxcalibration.pdf Graphic file (type pdf)
+<use ../figures/06_irf/rmsallstd_fluxcalibration.pdf>
+Package pdftex.def Info: ../figures/06_irf/rmsallstd_fluxcalibration.pdf  used 
+on input line 1115.
+(pdftex.def)             Requested size: 450.69417pt x 262.67786pt.
+ (./06_irf.bbl (./06_irf.brf)
 \tf@brf=\write7
 \openout7 = `06_irf.brf'.
 
- [21
-
-] [22
+ [24 <../figures/06_irf/fluxcalstd_all_ratio.pdf>] [25 <../figures/06_irf/rmsal
+lstd_fluxcalibration.pdf>] [26
 
 ]
 
 Package hyperref Warning: Suppressing empty link on input line 40.
 
-[23])
+[27])
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the 06_irf.maf file.
@@ -1937,7 +1998,7 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the 06_irf.log file.
 
-[24] (./06_irf.aux)
+[28] (./06_irf.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1945,18 +2006,24 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `06_irf.brf' has not changed.
-(rerunfilecheck)             Checksum: 9A011765B3EF86D9031066001A0B43CE;1132.
+(rerunfilecheck)             Checksum: 54877A01D71BA20D57C66B98598EEE1E;1394.
  ) 
 Here is how much of TeX's memory you used:
- 47110 strings out of 478994
- 997997 string characters out of 5858184
- 1542878 words of memory out of 5000000
- 63184 multiletter control sequences out of 15000+600000
- 438211 words of font info for 236 fonts, out of 8000000 for 9000
+ 47198 strings out of 478994
+ 1000156 string characters out of 5858184
+ 1544349 words of memory out of 5000000
+ 63236 multiletter control sequences out of 15000+600000
+ 438721 words of font info for 244 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 137i,13n,148p,858b,915s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
+ 137i,13n,148p,885b,913s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exi
 st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
+, replaced by a fixed one
 
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/
 usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</u
@@ -1964,31 +2031,34 @@ sr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
 r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr
 /local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/
 local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/lo
-cal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loca
-l/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/
-texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/te
-xlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texli
-ve/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
-2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2
-021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/20
-21/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021
-/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2021/t
-exmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2021/tex
-mf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2021/texmf
--dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2021/texmf-d
-ist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2021/texmf-dis
-t/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2021/texmf-dist/
-fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2021/texmf-dist/fo
-nts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texmf-dist/font
-s/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/
-type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/ty
-pe1/public/cm-super/sftc1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type
-1/public/cm-super/sfti1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/
-public/cm-super/sftt1000.pfb>
-Output written on 06_irf.pdf (24 pages, 3004633 bytes).
+cal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/loca
+l/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/
+texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/te
+xlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texl
+ive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texliv
+e/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2
+021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2021/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/tex
+mf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2021/texmf
+-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2021/texmf-d
+ist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2021/texmf-dis
+t/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2021/texmf-dist/
+fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2021/texmf-dist/fo
+nts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2021/texmf-dist/font
+s/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2021/texmf-dist/fonts/
+type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2021/texmf-dist/fonts/ty
+pe1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type
+1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/
+public/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pu
+blic/cm-super/sftc1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publ
+ic/cm-super/sfti1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public
+/cm-super/sftt1000.pfb>
+Output written on 06_irf.pdf (28 pages, 3165484 bytes).
 PDF statistics:
- 768 PDF objects out of 1000 (max. 8388607)
- 622 compressed objects within 7 object streams
- 96 named destinations out of 1000 (max. 500000)
- 80626 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 935 PDF objects out of 1000 (max. 8388607)
+ 771 compressed objects within 8 object streams
+ 110 named destinations out of 1000 (max. 500000)
+ 80656 words of extra memory for PDF output out of 89155 (max. 10000000)
 

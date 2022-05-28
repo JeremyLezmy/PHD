@@ -177,7 +177,7 @@ $\rightarrow$ 3D nécessite d'identifier 3 éléments:
    \item La localisation de la lumière des spaxels sur le CCD: la trace.
    \item La correspondance entre la localisation de la trace sur le CCD et
      la position du spaxel dans le plan focal.
-   \item La cartographie de la dispertion spectral qui permet de
+   \item La cartographie de la dispersion spectral qui permet de
      convertir chaque pixel du CCD en longueur d'onde (et vice versa).
 \end{itemize}
 \end{minipage}
@@ -332,9 +332,9 @@ consulter \citet{pysedm} pour plus d'information technique):
   correction verticale de l'ensemble du réseau.
 \item Soustraction du background du CCD, construit à partir des pixels
   qui sont en dehors des traces. 
-\item Extraction des spectres en unité de count par pixel, projection dans
+\item Extraction des spectres en unité de coups par pixel, projection dans
   l'espace des longueur d'onde grâce à la solution en longueur d'onde,
-  puis création du cube grâce à la l'identification spatiale des spaxels.
+  puis création du cube grâce à l'identification spatiale des spaxels.
 \item Estimation de la déviation en longueur d'onde en mesurant les
   raies telluriques et du ciel (connues). Cette correction
   $\Delta\lambda$ est ensuite convertie en une correction horizontale
@@ -447,7 +447,7 @@ cette amplitude à chaque longueur d'onde du cube de données fournit
 ainsi le spectre de la source ponctuelle.
 
 
-\subsection{Calibration en flux}
+\subsection{Calibration en flux}\label{ssec:calibpysedm}
 
 Le spectre extrait dans la section~\ref{ssec:sourceextractpysedm} étant en
 unité de pseudo-ADU (Analog to Digital Units), il faut à présent procéder à sa
@@ -481,7 +481,7 @@ fortement simplifié et est exprimé tel que:
 
 Où $\mathcal{ T}$ représente l'absoption tellurique. Les spectres
 telluriques utilisées sont ceux du Kitt Peak National
-Observatory\footnote{\url{http://www.noao.edu/kpno/}}, scindés en deux
+Observatory\footnote{\url{http://www.noao.edu/kpno/}} \citep{Hinkle2003}, scindés en deux
 catégories de longueur d'onde: l'$\text{O}_{2}$ et
 l'$\text{H}_{2}\text{O}$.
 L'absoption tellurique est alors exprimée suivant:

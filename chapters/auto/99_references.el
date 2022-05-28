@@ -64,6 +64,7 @@
     "Hodapp2004a"
     "Hodapp2004b"
     "Hodapp2004c"
+    "Hinkle2003"
     "Inoue2011"
     "JonesScolnic17SNcontam"
     "JohnsonProspector"

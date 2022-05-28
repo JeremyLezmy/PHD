@@ -35,6 +35,7 @@
     "ssec:pysedmextractstar"
     "ssec:targetlocpysedm"
     "ssec:sourceextractpysedm"
+    "ssec:calibpysedm"
     "eq:calibbutoon"
     "eq:telluricpysedm"
     "fig:pysedmoutput"

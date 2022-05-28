@@ -59,9 +59,16 @@
     "fig:adr_std"
     "eq:alphachrom"
     "fig:chromaticity_psf"
+    "fig:stdspectrumadu"
     "sec:validationpsf"
     "ssec:photocalibstd"
-    "ssec:resultscalib")
+    "fig:telluriclines"
+    "eq:telluricpysedm2"
+    "fig:calibmodel"
+    "ssec:resultscalib"
+    "fig:fluxcalstd"
+    "fig:allratio_std"
+    "fig:")
    (LaTeX-add-bibliographies
     "99_references"))
  :latex)

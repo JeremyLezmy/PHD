@@ -913,20 +913,209 @@ Avec $\alpha_{ref}$ et $\rho$ les paramètres d'ajustement de la chromaticité.
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.9\textwidth]{../figures/06_irf/chromaticity_psf.pdf}
+  \includegraphics[width=0.85\textwidth]{../figures/06_irf/chromaticity_psf.pdf}
   \caption[Chromaticité des paramètres de forme de la PSF]{Chromaticité
     des paramètres de forme de la PSF pour l'étoile standard 25d4655.}
   \label{fig:chromaticity_psf}
 \end{figure}
 
+La Figure~\ref{fig:stdspectrumadu} montre finalement le spectre extrait de
+l'étoile standard 25d4655 en pseudo-ADU, qui est utilisé pour la calibration
+en flux. 
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.85\textwidth]{../figures/06_irf/stdspectra_adu.pdf}
+  \caption[Spectre extrait de l'étoile standard 25d4655 en
+  pseudo-ADU.]{Spectre extrait de l'étoile standard 25d4655 en
+    pseudo-ADU. Les bandes correspondent aux zones d'absorption
+    tellurique d'O$_{2}$ et d'H$_{2}$O \citep{Buton2013}.}
+  \label{fig:stdspectrumadu}
+\end{figure}
+
 
 \clearpage
-\section{Validation}\label{sec:validationpsf}
+\section{Calibration en flux}\label{sec:validationpsf}
 
-\subsection{Calibration photométrique}\label{ssec:photocalibstd}
+\subsection{Méthode}\label{ssec:photocalibstd}
 
-\subsection{Résultats}\label{ssec:resultscalib}
+Afin d'avoir une estimation de la précision de la calibration en flux
+avec notre modèle de PSF, nous utilisons la
+méthode de calibration implémentée dans \pkg{pysedm} \citep{pysedm} décrite dans le
+chapitre~\ref{ssec:calibpysedm}.
 
+On rappelle que, pour la SEDm, le formalisme utilisé pour décrire le
+spectre observé $S(\lambda,t,z)$ d'une source astronomique est tel que:
+
+\begin{equation*} 
+  S(\lambda,t,z)=S^{\star}(\lambda,t)\times\left[\mathcal{C}(\lambda,t)+\mathcal{ T}(\lambda,t,z)\right]
+\end{equation*}
+
+Avec $S^{\star}(\lambda,t)$ le spectre instrinsèque de la source en
+unités physiques ($erg/cm^2/s/$\AA), $\mathcal{C}(\lambda,t)$ la réponse
+instrumentale et $\mathcal{T}$ l'absoption tellurique.
+
+On utilise comme référence le spectre spectrophotométrique
+correspondant à l'étoile standard observée, obtenu dans les archives
+calspec\footnote{\url{https://archive.stsci.edu/hlsps/reference-atlases/cdbs/current_calspec/}}.
+
+Les spectres
+telluriques utilisées sont ceux du Kitt Peak National
+Observatory\footnote{\url{http://www.noao.edu/kpno/}} \citep{Hinkle2003}, scindés en deux
+catégories de longueur d'onde: l'$\text{O}_{2}$ et
+l'$\text{H}_{2}\text{O}$. La Figure~\ref{fig:telluriclines} montre les raies d'absorption telluriques utilisées.
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=0.85\textwidth]{../figures/06_irf/telluricspec.pdf}
+  \caption[Raies d'absorption telluriques]{Raies d'absorption
+    telluriques du Kitt Peak National Observatory \citep{Hinkle2003}, avec les composantes d'$\text{O}_{2}$ et
+    d'$\text{H}_{2}\text{O}$.}
+  \label{fig:telluriclines}
+\end{figure}
+
+L'absoption tellurique est exprimée suivant:
+
+\begin{equation*}
+  \label{eq:telluricpysedm2}
+  \mathcal{T}(z) =
+  \mathcal{T}_{\text{O}_{2}}\times(c_{\text{O}_{2}}+z^{\rho_{\text{O}_{2}}})
+  + \mathcal{T}_{\text{H}_{2}\text{O}}\times(c_{\text{H}_{2}\text{O}}+z^{\rho_{\text{H}_{2}\text{O}}})
+\end{equation*}
+
+Où les amplitudes relatives $c_{i}$ et les dépendances en masse d'air
+$\rho_{i}$ sont des paramètres libres. La réponse instrumentale
+$\mathcal{C}$ est quant à elle modélisée par un polynome de Legendre
+d'ordre $20$.
+
+
+Les composantes de réponse instrumentale $\mathcal{C}$ et
+d'absoption telluriques $\mathcal{T}$ sont alors simultanément
+ajustées en minimisant la quantité ~$(S_{ADU}/S_{ref}) - (\mathcal{C} +
+\mathcal{T})$, où la quantité $(\mathcal{C} + \mathcal{T})$ est appelée la courbe de
+sensibilité inverse.
+
+Ce procédé d'ajustement en distingant les composantes telluriques de la
+réponse instrumentale est nécessaire de par la dépendance en masse
+d'air de l'absorption tellurique. Lorsque l'on applique la
+calibration en flux ainsi obtenue sur une observation scientifique, nous
+pouvons ajuster la contribution tellurique en considérant la masse d'air
+présente lors de l'observation.
+
+La Figure~\ref{fig:calibmodel} illustre ainsi l'ajustement de ces deux
+contributions pour l'étoile standard 25d4655, après ré-échantillonnage
+des raies telluriques et du spectre spectrophotométrique Calspec dans
+l'espace spectral de la SEDm.
+
+Dans ce cas particulier, nous pouvons
+observer une légère déviation en longueur d'onde lors de l'ajustement
+des absorptions telluriques. Ce phénomène est assez rare, et résulte
+d'un mauvais alignement en longueur d'onde
+à partir des pixels du CCD qui a été mal/non
+corrigé lors de l'extraction du cube 3D (voir
+Chapitre~\ref{ssec:3dcubecons}, étape (d)). \citet{pysedm} fait
+également part d'un biais systématique de $\sim3$\AA\ dans la
+calibration en longueur d'onde en cours d'investigation. L'effet est d'autant plus
+exacerbé par l'intensité de la raie d'O$_{2}$ à $\sim7600$\AA.
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=0.85\textwidth]{../figures/06_irf/calibmodel.pdf}
+  \caption[Procédure d'ajustement de la calibration en flux]{Procédure
+    d'ajustement de la calibration en flux pour l'étoile standard
+    25d4655. \emph{En haut} est illustré le spectre extrait de l'étoile
+    standard en bleu, et le spectre de référence en orange. \emph{En
+      bas} nous montrons le résultat de l'ajustement du modèle composé
+    de la réponse instrumentale (en rouge) et de l'absorption tellurique
+  (en gris). Les données sur lesquelles l'ajustement est effectuée, le
+  ratio $\frac{S_{ADU}}{S_{ref}}$, est en bleu.}
+  \label{fig:calibmodel}
+\end{figure}
+
+\subsection{Précision de la calibration}\label{ssec:resultscalib}
+
+L'ajustement du modèle de sensibilité inversé présenté dans la section
+précédente permet ainsi de calibrer en flux les observations
+scientifiques. Afin d'estimer la précision de cette calibration, nous
+observons à nouveau une étoile standard (dans la même nuit ou la
+suivante), nous procédons à l'extraction de son spectre en pseudo-ADU,
+puis nous appliquons la calibration obtenue avec la précédente étoile.
+Cela nous permet alors de comparer cette étoile calibrée à partir d'une
+observation antérieur, avec son spectre de référence
+spectrophotométrique.
+
+Nous avons exploité tout ce chapitre l'étoile standard 25d4655, observée
+le 24/08/2021 à 10h 04m 49s. La même étoile a été ré-observée la même
+nuit une demi-heure plus tard, à 10h 38m 16s.
+
+Nous pouvons ainsi extraire le spectre en pseudo-ADU de cette seconde
+observation tel que détaillé dans la première section de ce chapitre,
+lui appliquer la calibration en flux déterminée à partir de la première
+observation, et ainsi vérifier la précision obtenue en comparant le
+spectre calibré avec celui de référence Calspec.
+Nous montrons ce résultat dans la Figure~\ref{fig:fluxcalstd}.
+Le RMS sur tout l'espace spectral est de $1.87\%$, avec une distribution
+du ratio entre les deux spectres n'excédant pas les $5\%$. Cette
+déviation apparaît notamment à la localisation des raies telluriques les
+plus intenses (O$_{2}$ à $\sim7600$\AA), due à une extraction du cube de
+la première observation de l'image CCD mal corrigée.
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=0.85\textwidth]{../figures/06_irf/fluxcalstd.pdf}
+  \caption[Précision de la calibration en flux pour une étoile
+  standard.]{Précision de la calibration en flux pour l'étoile standard
+    25d4655 (ID:10-38-16) à partir de l'observation de la même étoile standard
+    observée $\sim33$min plus tôt.\emph{En haut} sont présentés le
+    spectre extrait calibré (bleu) et celui de référence (orange) en
+    unités physiques. Les bandes bleues indiquent les zones
+    d'absorptions telluriques les plus intenses, dues à l'O$_{2}$. En
+    bas est représenté le ratio entre les flux. Le RMS spectral pour
+    cette calibration est de $1.87\%$.}
+  \label{fig:fluxcalstd}
+\end{figure}
+
+
+Dans ce cas de figure, les deux observations ayant eu lieu sur la même
+étoile à seulement une demi-heure d'intervalle nous avons supposé que
+l'extinction atmosphérique était constante avec le temps (faible délai
+entre les observations) et uniforme (faible déviation de la ligne de
+visée dans le ciel).
+
+Nous avons ainsi extrait le spectre de plus de $2000$ étoiles standard
+observées avec la SEDm entre Juin 2018 et Février 2022, et procédé
+à la méthode de calibration expliquée précédemment pour chaque paire d'étoile observée
+successivement dans le temps.
+Afin de corriger une éventuelle variation d'extinction atmosphérique
+entre deux observations, nous avons incorporé un terme gris
+(achromatique) normalisant ainsi le spectre extrait et celui de référence.
+
+La Figure~\ref{fig:allratio_std} présente ainsi le ratio (normalisé par
+un terme gris) entre les spectres extraits et calibrés en flux avec \hypergal de 2202 étoiles
+standards et leur spectre de référence Calspec ré-échantillonné dans
+l'espace spectral de la SEDm. On y présente le ratio moyen, dont la
+distribution oscille autour de $1$-$2\%$. En considérant également les
+enveloppes à $1\sigma$ et $2\sigma$, ces résultats nous indiquent une
+calibration de couleur de l'ordre de quelques pourcents, majoritairement
+en dessous des $5\%$.
+
+Nous pouvons également remarquer la dégradation importante aux
+extrémités du domaine spectral de la SEDm, notamment en deça de
+$4500$\AA, et au dessus de $8500$\AA.
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=0.99\textwidth]{../figures/06_irf/fluxcalstd_all_ratio.pdf}
+  \caption[]{}
+  \label{fig:allratio_std}
+\end{figure}
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=0.99\textwidth]{../figures/06_irf/rmsallstd_fluxcalibration.pdf}
+  \caption[]{}
+  \label{fig:}
+\end{figure}
 
 \bibliographystyle{../main/aa_url2}
 \bibliography{99_references}
