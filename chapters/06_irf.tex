@@ -1,8 +1,8 @@
 \documentclass[../main/main.tex]{subfiles}
 \begin{document}
 
-\dominitoc
-\faketableofcontents
+%\dominitoc
+%\faketableofcontents
 \setcounter{chapter}{5}
 \chapter{Réponse impulsionnelle de la SEDm et extraction de source ponctuelle}\label{ch:irf}
 \minitoc
@@ -93,7 +93,7 @@ d'onde (et a fortiori la LSF dans cette étude) au delà de $7500$\AA.
 
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=0.9\textwidth]{../figures/06_irf/arclamps.png}
+  \includegraphics[width=0.5\textwidth]{../figures/06_irf/arclamps.png}
   \caption[Spectres des lampes à arc utilisées pour la SEDm]{Spectres
     des lampes à arc utilisées pour la SEDm pour la nuit du 3 Juillet
     2020. De haut en bas, spectre de la lampe à mercure (Hg), à cadmium
@@ -207,7 +207,7 @@ connaissant l'échantillonnage du domaine spectral.
 
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=0.99\textwidth]{../figures/06_irf/LSF.pdf}
+  \includegraphics[width=0.85\textwidth]{../figures/06_irf/LSF.pdf}
   \caption[Chromaticité de la LSF]{Chromaticité de la LSF. Nous montrons
   ici l'évolution de l'écart type $\sigma$ des différentes raies
   d'émission pour les lampes à arc Cd, Hg et Xe en fonction de la
@@ -237,7 +237,7 @@ $R_{\lambda=6500\mathring{A}}\sim100$ et $R_{\lambda=8500\mathring{A}}\sim80$.\\
 
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=0.99\textwidth]{../figures/06_irf/SEDmResolution_wmodel.pdf}
+  \includegraphics[width=0.9\textwidth]{../figures/06_irf/SEDmResolution_wmodel.pdf}
   \caption[Résolution de la SEDm]{Résolution de la SEDm, où
     $R=\frac{\lambda}{\Delta\lambda}$, avec $\lambda$ la longueur d'onde
   de la raie d'émission et $\Delta\lambda$ leur largeur à mi
@@ -292,7 +292,7 @@ clairement visible.
 
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=0.99\textwidth]{../figures/06_irf/lsfapplied.png}
+  \includegraphics[width=0.9\textwidth]{../figures/06_irf/lsfapplied.png}
   \caption[Application de la LSF]{Application de la LSF aux spectres du
     cube intrinsèque obtenu dans le Chapitre~\ref{sec:intcube}
     (Figure~\ref{fig:intcube_ZTF18accrorf}). Nous montrons ici un exemple
@@ -865,7 +865,7 @@ standard 25d4655.
 
 \begin{figure}[ht]
   \centering
-  \includegraphics[width=0.9\textwidth]{../figures/06_irf/STD_profile_allmeta.pdf}
+  \includegraphics[width=0.95\textwidth]{../figures/06_irf/STD_profile_allmeta.pdf}
   \caption[Profil radial et coutours des $9$ metaslices de la STD
   25d4655]{Profil radial (\textit{à gauche}) et coutours d'intensité
     (\textit{à droite}) des $9$ metaslices de la STD
@@ -882,10 +882,14 @@ dériver la position de l'étoile dans le MLA à n'importe quelle longueur d'ond
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.7\textwidth]{../figures/06_irf/adr_std.pdf}
+  \includegraphics[width=0.6\textwidth]{../figures/06_irf/adr_std.pdf}
   \caption[Modélisation de la réfraction atmosphérique
   différentielle]{Modélisation de la réfraction atmosphérique
-    différentielle pour l'étoile standard 25d4655}
+    différentielle pour l'étoile standard 25d4655. Nous montrons ici
+    l'ajustement du centroïde ($x$,$y$) de la PSF par le modèle
+    d'ADR. Les deux graphes du haut représentent l'ajustement des deux
+    coordonnées en fonction de la longueur d'onde. Le graphe du bas
+    illustre l'effet de la réfraction atmosphérique.}
   \label{fig:adr_std}
 \end{figure}
 
@@ -913,9 +917,14 @@ Avec $\alpha_{ref}$ et $\rho$ les paramètres d'ajustement de la chromaticité.
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.85\textwidth]{../figures/06_irf/chromaticity_psf.pdf}
-  \caption[Chromaticité des paramètres de forme de la PSF]{Chromaticité
-    des paramètres de forme de la PSF pour l'étoile standard 25d4655.}
+  \includegraphics[width=0.7\textwidth]{../figures/06_irf/chromaticity_psf.pdf}
+  \caption[Chromaticité des paramètres de forme de la PSF]{Ajustement de
+    la chromaticité
+    des paramètres de forme de la PSF pour l'étoile standard
+    25d4655. \emph{À gauche} l'ajustement du paramètre $\alpha$ avec une
+  loi de puissance. \emph{À droite} de haut en bas, l'ajustement par une
+constante de $\eta$ (poids entre la gaussienne et la Moffat) et des
+paramètres d'ellipticité ($\mathcal{A}$) et d'orientation ($\mathcal{B}$). }
   \label{fig:chromaticity_psf}
 \end{figure}
 
@@ -925,10 +934,10 @@ en flux.
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.85\textwidth]{../figures/06_irf/stdspectra_adu.pdf}
+  \includegraphics[width=0.7\textwidth]{../figures/06_irf/stdspectra_adu.pdf}
   \caption[Spectre extrait de l'étoile standard 25d4655 en
   pseudo-ADU.]{Spectre extrait de l'étoile standard 25d4655 en
-    pseudo-ADU. Les bandes correspondent aux zones d'absorption
+    pseudo-ADU avec \hypergal. Les bandes correspondent aux zones d'absorption
     tellurique d'O$_{2}$ et d'H$_{2}$O \citep{Buton2013}.}
   \label{fig:stdspectrumadu}
 \end{figure}
@@ -1097,7 +1106,10 @@ l'espace spectral de la SEDm. On y présente le ratio moyen, dont la
 distribution oscille autour de $1$-$2\%$. En considérant également les
 enveloppes à $1\sigma$ et $2\sigma$, ces résultats nous indiquent une
 calibration de couleur de l'ordre de quelques pourcents, majoritairement
-en dessous des $5\%$.
+en dessous des $5\%$. On remarque également que la présence des raies
+telluriques à $\sim7600$\AA\ est fortement présente dès que l'on
+considére l'enveloppe à $1\sigma$, ce qui conforte l'hypothèse d'une
+erreur systématique dans les solutions en longueur d'onde.
 
 Nous pouvons également remarquer la dégradation importante aux
 extrémités du domaine spectral de la SEDm, notamment en deça de
@@ -1106,16 +1118,75 @@ $4500$\AA, et au dessus de $8500$\AA.
 \begin{figure}[ht]
   \centering
   \includegraphics[width=0.99\textwidth]{../figures/06_irf/fluxcalstd_all_ratio.pdf}
-  \caption[]{}
+  \caption[Moyenne du ratio entre le flux de 2202
+  étoiles standards et leur spectre de
+  référence.]{Moyenne du ratio entre le flux de 2202
+    étoiles standards calibrées avec \hypergal et leur spectre de
+    référence Calspec. Les enveloppes bleues représentent les déviations
+    standard à $1\sigma$ et $2\sigma$. Les traits horizontaux représentent
+    les limites $\pm5\%$ et l'unité.}
   \label{fig:allratio_std}
 \end{figure}
+
+La Figure~\ref{fig:rms_allstd} présente la distribution du RMS spectral
+des $2202$ calibrations 
+pour différents intervalles de longueur d'onde. Les caractéristiques de
+ces distributions sont présentées dans la Table~\ref{tab:rms_allstd_detail}. En
+considérant le domaine spectral de la SEDm dans son ensemble, la
+calibration en flux obtenue avec \hypergal est de l'ordre de $3.3\%$. En
+limitant le domaine spectral à $\lambda\in$[$4500$-$8500$]\AA\, nous
+atteignons une précision de l'ordre de $2\%$ avec une faible déviation
+standard de $0.7\%$. Les résultats sont similaires avec le domaine
+spectral $\lambda\in$[$5000$-$8000$]\AA. Dans les deux derniers
+intervalles spectraux considérés, le RMS spectral n'excède pas les $4\%$. 
 
 \begin{figure}[ht]
   \centering
   \includegraphics[width=0.99\textwidth]{../figures/06_irf/rmsallstd_fluxcalibration.pdf}
-  \caption[]{}
-  \label{fig:}
+  \caption[Distributions du RMS spectral des
+  calibrations en flux pour différents intervalles spectraux]{Distributions du RMS spectral des
+  calibrations en flux de 2202 étoiles standards pour différents
+  intervalles spectraux. \emph{En haut} sont représentés les
+  histogrammes des distributions et \emph{en bas} le box plot
+  correspondant. La distribution \emph{bleu} correspond au domaine
+  spectral entier de la SEDm, en \emph{orange} l'intervalle
+  $\lambda\in$[$4500$-$8500$]\AA, et en \emph{vert} l'intervalle
+  $\lambda\in$[$5000$-$8000$]\AA. Les box de la figure du bas montre
+  pour chaque distribution le minimum, le $1^{er}$ quartile ($25\%$ des
+  valeurs), la médiane, le $3^{ème}$ quartile ($75\%$ des
+  valeurs) et le maximum.}
+  \label{fig:rms_allstd}
 \end{figure}
+
+\begin{table}[ht]
+  \centerfloat
+  \renewcommand{\arraystretch}{1.2}
+  \caption[Description des distributions du RMS spectral des
+  calibrations en flux.]{Description des distributions du RMS spectral de la
+    Figure~\ref{fig:rms_allstd} pour chaque intervalle de longueur d'onde.}
+  \label{tab:rms_allstd_detail}
+  \begin{threeparttable}
+    \begin{tabular}{crrr}
+      \toprule
+      \textbf{Spectral RMS (\%)} & $\lambda \in [3700$-$9300]$\AA & $\lambda \in [4500$-$8500]$\AA  &$\lambda \in [5000$-$8000]$\AA \\
+      \midrule
+      Mean  &                                       3.35 &                                       2.17 &                                       2.04 \\
+      Std   &                                       1.34 &                                       0.70 &                                       0.59 \\
+      Min   &                                       1.19 &                                       1.05 &                                       0.97 \\
+      $1^{st}$ Quartile (25\%)   &                                       2.25 &                                       1.60 &                                       1.55 \\
+      Median (50\%)   &                                       3.07 &                                       2.03 &                                       1.97 \\
+      $3^{rd}$ Quartile (75\%)   &                                       4.30 &                                       2.63 &                                       2.45 \\
+      Max   &                                       6.62 &                                       4.03 &                                       3.56 \\
+      \bottomrule
+    \end{tabular}
+
+    % \begin{tablenotes}[flushleft]
+    % \item \textbf{Notes.} 
+    % \end{tablenotes}
+  \end{threeparttable}
+\end{table}
+
+  
 
 \bibliographystyle{../main/aa_url2}
 \bibliography{99_references}

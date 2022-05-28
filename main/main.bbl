@@ -1,4 +1,4 @@
-\begin{thebibliography}{117}
+\begin{thebibliography}{122}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{\textsc{{Abdurro'uf}} {et~al.}(2021)\textsc{{Abdurro'uf}},
@@ -143,6 +143,19 @@
   for source extraction.}~»,
   \href{http://dx.doi.org/10.1051/aas:1996164}{\color{magenta}\aaps},
   \href{https://ui.adsabs.harvard.edu/abs/1996A&AS..117..393B}{117, 393}
+
+\bibitem[{\textsc{{Birch}} et \textsc{{Downs}}(1993)}]{Birch1993}
+\textsc{{Birch} K.~P.} et \textsc{{Downs} M.~J.} 1993, «~{An Updated Edl{\'e}n
+  Equation for the Refractive Index of Air}~»,
+  \href{http://dx.doi.org/10.1088/0026-1394/30/3/004}{\color{magenta}Metrologia},
+  \href{https://ui.adsabs.harvard.edu/abs/1993Metro..30..155B}{30, 155}
+
+\bibitem[{\textsc{{Birch}} et \textsc{{Downs}}(1994)}]{Birch1994}
+\textsc{{Birch} K.~P.} et \textsc{{Downs} M.~J.} 1994, «~{LETTER TO THE
+  EDITOR: Correction to the Updated Edl{\'e}n Equation for the Refractive Index
+  of Air}~»,
+  \href{http://dx.doi.org/10.1088/0026-1394/31/4/006}{\color{magenta}Metrologia},
+  \href{https://ui.adsabs.harvard.edu/abs/1994Metro..31..315B}{31, 315}
 
 \bibitem[{\textsc{{Blagorodnova}} {et~al.}(2018)\textsc{{Blagorodnova}},
   \textsc{{Neill}}, \textsc{{Walters}}, \textsc{{Kulkarni}},
@@ -494,6 +507,11 @@
   Era}~», \href{http://dx.doi.org/10.1086/511055}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2007ApJ...657..810D}{657, 810}
 
+\bibitem[{\textsc{{Edl\'en}}(1966)}]{Edlen1966}
+\textsc{{Edl\'en} B.} 1966, «~{The Refractive Index of Air}~»,
+  \href{http://dx.doi.org/10.1088/0026-1394/2/2/002}{\color{magenta}Metrologia},
+  \href{https://ui.adsabs.harvard.edu/abs/1966Metro...2...71E}{2, 71}
+
 \bibitem[{\textsc{{Ferland}} {et~al.}(2013)\textsc{{Ferland}},
   \textsc{{Porter}}, \textsc{{van Hoof}}, \textsc{{Williams}}, \textsc{{Abel}},
   \textsc{{Lykins}}, \textsc{{Shaw}}, \textsc{{Henney}} et
@@ -601,6 +619,14 @@
   the atmospheric extinction and the absolute spectral-energy distribution of
   Vega.}~», \href{http://dx.doi.org/10.1086/153548}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/1975ApJ...197..593H}{197, 593}
+
+\bibitem[{\textsc{{Hinkle}} {et~al.}(2003)\textsc{{Hinkle}}, \textsc{{Wallace}}
+  et \textsc{{Livingston}}}]{Hinkle2003}
+\textsc{{Hinkle} K.~H.}, \textsc{{Wallace} L.} et \textsc{{Livingston} W.}
+  2003, «~{Atmospheric Transmission Above Kitt Peak, 0.5 to 5.5 microns}~»,
+  dans American Astronomical Society Meeting Abstracts, Vol. 203, American
+  Astronomical Society Meeting Abstracts,
+  \href{https://ui.adsabs.harvard.edu/abs/2003AAS...203.3803H}{38.03}
 
 \bibitem[{\textsc{{Hodapp}} {et~al.}(2004{\natexlab{a}})\textsc{{Hodapp}},
   \textsc{{Kaiser}}, \textsc{{Aussel}}, \textsc{{Burgett}},
@@ -1062,6 +1088,10 @@
   supernovae}~»,
   \href{http://dx.doi.org/10.1111/j.1365-2966.2012.21270.x}{\color{magenta}\mnras},
   \href{https://ui.adsabs.harvard.edu/abs/2012MNRAS.425.1789S}{425, 1789}
+
+\bibitem[{\textsc{Stone} et \textsc{Zimmerman}(2001)}]{Stone2001}
+\textsc{Stone J.} et \textsc{Zimmerman J.} 2001, «~Index of Refraction of
+  Air~»
 
 \bibitem[{\textsc{Stubbs} {et~al.}(2007)\textsc{Stubbs}, \textsc{High},
   \textsc{George}, \textsc{DeRose}, \textsc{Blondin}, \textsc{Tonry},
