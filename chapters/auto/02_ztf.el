@@ -31,6 +31,8 @@
     "fig:ztffilters"
     "fig:ztfperffilts"
     "sec:sniaztf"
-    "fig:cumulsniaztf"))
+    "fig:cumulsniaztf")
+   (LaTeX-add-bibliographies
+    "99_references"))
  :latex)
 

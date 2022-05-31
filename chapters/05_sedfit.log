@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  24 MAY 2022 13:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  30 MAY 2022 17:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1599,15 +1599,6 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package minitoc Info: I0024
-(minitoc)             PREPARING MINITOCS FROM 05_sedfit.toc on input line 5.
-Package minitoc Info: I0033
-(minitoc)             Writing 05_sedfit.mtc1.
-\openout4 = `05_sedfit.mtc1'.
-
-\tf@toc=\write6
-\openout6 = `05_sedfit.toc'.
-
 
 Chapitre 5.
 \openout4 = `05_sedfit.mtc'.
@@ -1744,8 +1735,8 @@ Overfull \hbox (0.51456pt too wide) in paragraph at lines 771--780
  []
 
 (./05_sedfit.bbl (./05_sedfit.brf)
-\tf@brf=\write7
-\openout7 = `05_sedfit.brf'.
+\tf@brf=\write6
+\openout6 = `05_sedfit.brf'.
 
  [15 <../figures/05_sedfit/cigalesampling.pdf>] [16 <../figures/05_sedfit/intcu
 be_ZTF18accrorf.png>] [17
@@ -1756,6 +1747,17 @@ Package minitoc Info: I0009
 (minitoc)             Creating the 05_sedfit.maf file.
 \openout4 = `05_sedfit.maf'.
 
+
+
+Package minitoc(hints) Warning: W0059
+(minitoc(hints))                You have used \minitoc, 
+(minitoc(hints))                but not \dominitoc.
+
+
+Package minitoc(hints) Warning: W0068
+(minitoc(hints))                You have used \minitoc but not 
+(minitoc(hints))                \tableofcontents
+(minitoc(hints))                nor \faketableofcontents.
 
 
 Package minitoc(hints) Warning: W0024
@@ -1773,10 +1775,10 @@ Package rerunfilecheck Info: File `05_sedfit.brf' has not changed.
 (rerunfilecheck)             Checksum: B2B1601E14ED3C0D08EBE1A5882F9278;2777.
  ) 
 Here is how much of TeX's memory you used:
- 47256 strings out of 478994
- 999409 string characters out of 5858184
+ 47254 strings out of 478994
+ 999399 string characters out of 5858184
  1563948 words of memory out of 5000000
- 63267 multiletter control sequences out of 15000+600000
+ 63266 multiletter control sequences out of 15000+600000
  447550 words of font info for 274 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  137i,18n,148p,3274b,935s stack positions out of 5000i,500n,10000p,200000b,80000s

@@ -3,7 +3,7 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: 05_sedfit.aux
 The style file: ../main/aa_url2.bst
 Database file #1: 99_references.bib
-Repeated entry---line 826 of file 99_references.bib
+Repeated entry---line 854 of file 99_references.bib
  : @article{Dale2014
  :                  ,
 I'm skipping whatever remains of this entry

@@ -30,7 +30,7 @@ finale de la modélisation hyperspectrale de la galaxie.
 Notre cadre de recherche étant au sein de la collaboration ZTF, nous
 devons prévoir le fait que nous aurons des alertes d'évènements
 transitoire dans tout le ciel Nord, couverture de la caméra. Par
-ailleurs, le but d'\hypergal étant une modélisation de scène d'une
+ailleurs, le but d'\hypergal\ étant une modélisation de scène d'une
 observation de la SEDm, la source photométrique utilisée doit avoir a
 minima la même profondeur en magnitude. Enfin, la projection se faisant
 de l'espace photométrique vers l'espace des observables de la SEDm, il
@@ -441,7 +441,7 @@ La géométrie et la position spaciale de chaque pixels sont alors mis en mémoi
 
 
 
-Nous utilisons dans le pipeline \hypergal la version 2020 de \cigale. Trois étapes sont nécessaires pour faire tourner le code : l'initialisation, la génération du fichier de configuration et enfin le lancement du fit. Ces étapes nécessitent la modification manuelle de fichiers \textit{.ini}, nous avons donc créé dans \hypergal une méthode d'automatisation de ces processus.
+Nous utilisons dans le pipeline \hypergal\ la version 2020 de \cigale. Trois étapes sont nécessaires pour faire tourner le code : l'initialisation, la génération du fichier de configuration et enfin le lancement du fit. Ces étapes nécessitent la modification manuelle de fichiers \textit{.ini}, nous avons donc créé dans \hypergal\ une méthode d'automatisation de ces processus.
 
 L'initialisation a pour but de fixer le fichier de données a utiliser (Table~\ref{tab:cigaleinput}), le nombre de coeur sur la machine a utiliser et surtout les modules a partir desquels la grille de modèles sera calculée. Détaillons à présent les différentes composantes qui constitueront les ingrédients de notre modéliseur de SED.
 
@@ -464,19 +464,19 @@ Ainsi, la forme fonctionnelle de la SFR est:
 Où $SFR(t)_{delayed}$ est la composante de l'équation~\ref{eq:sfhdelayed}, et $SFR(t)_{burst}\propto e^{(-(t-t_{burst})/\tau_{burst})}$ quand $t>t_{burst}$, $0$ sinon. L'amplitude de ce \textit{burst} est fixée par le paramètre $f_{burst}$, qui est défini comme le ratio entre la masse d'étoiles formées durant cet évènement et la masse totale d'étoile. Les paramètres utilisés ($\tau$, $\tau_{burst}$, $t_0$, $t_{burst}$ et $f_{burst}$) sont présentés dans la Table~\ref{tab:cigaleparams}.
 
 \subsubsection{Population stellaire}
-Le second module décrit la population stellaire à laquelle la SFH va être appliquée, ce qui va permettre le calcul de la composante stellaire du spectre de la SED. Nous utilisons dans \hypergal la librairie de populations stellaire simple \textbf{\pkg{bco3}} (ou \pkg{GALAXEV}) de \citet{BCO3}, avec la fonction initiale de masse de \citet{Chabrier2003}. Cette librairie de population est disponible avec un large intervalle de paramètres de metallicité, allant de $0.0001$ à $0.05$, et fournit une résolution de l'ordre de $3$\AA\ sur l'intervalle de longueur d'onde $[3200-9500]$\AA\ (et une plus faible résolution au delà).
+Le second module décrit la population stellaire à laquelle la SFH va être appliquée, ce qui va permettre le calcul de la composante stellaire du spectre de la SED. Nous utilisons dans \hypergal\ la librairie de populations stellaire simple \textbf{\pkg{bco3}} (ou \pkg{GALAXEV}) de \citet{BCO3}, avec la fonction initiale de masse de \citet{Chabrier2003}. Cette librairie de population est disponible avec un large intervalle de paramètres de metallicité, allant de $0.0001$ à $0.05$, et fournit une résolution de l'ordre de $3$\AA\ sur l'intervalle de longueur d'onde $[3200-9500]$\AA\ (et une plus faible résolution au delà).
 
 
 \subsubsection{\'Emission nébulaire}
 
-Une part important de lumière émise par les étoiles les plus massives (dans le continuum Lyman) a pour effet de ioniser le gaz présent au sein de la galaxie. Ce phénomène engendre à son tour une émission énergétique non négligeable sous la forme de continuum et de raies. La librairie utilisée par \cigale pour modéliser l'émission nébulaire est basée sur \citet{Inoue2011}, et généré avec \pkg{CLOUDY 13.01} \citep{Ferland2013}.
+Une part important de lumière émise par les étoiles les plus massives (dans le continuum Lyman) a pour effet de ioniser le gaz présent au sein de la galaxie. Ce phénomène engendre à son tour une émission énergétique non négligeable sous la forme de continuum et de raies. La librairie utilisée par \cigale\ pour modéliser l'émission nébulaire est basée sur \citet{Inoue2011}, et généré avec \pkg{CLOUDY 13.01} \citep{Ferland2013}.
 La modélisation qui en découle fixe les intensités relatives de 124 raies d'émissions dans la région $H_{II}$, et est paramétrisée par la métallicité $Z$ (identique à celui utilisé pour la population stellaire) et un paramètre d'ionisation $U$ sans dimension. Ce paramètre est défini tel que $\log(U)\equiv \log(n_{\gamma}/n_H)$ où $n_{\gamma}$ est la densité numérique de photon responsable de l'ionisation d'hydrogène et $n_H$ la densité numérique d'hydrogène.
 
 L'émission nébulaire ayant une forte contribution dans l'optique, nous explorons une large gamme de paramètres de métallicités $Z$ et de paramètres d'ionisation $U$, décrite dans la Table~\ref{tab:cigaleparams}.
 
 \subsubsection{Loi d'atténuation}
 
-La poussière contenue dans la galaxie absorbe fortement les radiations à courte longueur d'onde, notamment de l'ultraviolet au proche infrarouge, et cette énergie est ensuite ré-émise dans l'infrarouge moyen et lointain. Considérant le fait que \hypergal est conçu pour des objets jusqu'à un redshift de $z\approx0.1-0.15$, et que nous utilisons des images photométriques entre environ $4000$ et $10000$\AA, l'effet de l'atténuation par la poussière ne doit surtout pas être négligé.
+La poussière contenue dans la galaxie absorbe fortement les radiations à courte longueur d'onde, notamment de l'ultraviolet au proche infrarouge, et cette énergie est ensuite ré-émise dans l'infrarouge moyen et lointain. Considérant le fait que \hypergal\ est conçu pour des objets jusqu'à un redshift de $z\approx0.1-0.15$, et que nous utilisons des images photométriques entre environ $4000$ et $10000$\AA, l'effet de l'atténuation par la poussière ne doit surtout pas être négligé.
 
 Nous adoptons le modèle développé par \citet{CharlotFall2000}, à travers le module \textbf{\pkg{dustatt\_modified\_CF00}} (CF00) de \cigale. L'idée de ce modèle est de considérer 2 populations d'étoiles: les étoiles jeunes ($<10^7$ années) qui résident encore dans le nuage qui lui a donné naissance (\textit{birth cloud}; BC), et les étoiles vieilles ($>10^7$ années) qui elles sont considérées comme appartenant au milieu interstellaire (ISM). L'atténuation est donc traitée différemment, dans le premier cas la contribution du nuage et du milieu interstellaire sont pris en compte, dans le second cas seul le milieu interstellaire. Une loi de puissance est utilisée dans les 2 cas, normalisée par l'atténuation dans la bande V ($\lambda_V=\SI{0.5}{\micro\metre}$):
 
@@ -803,8 +803,8 @@ Le chapitre suivant de
 ce manuscrit a pour but de caractériser ces différentes réponses
 instrumentales.
 
-%\bibliographystyle{../main/aa_url2}
-%\bibliography{99_references}
+\bibliographystyle{../main/aa_url2}
+\bibliography{99_references}
 
 \end{document}
 

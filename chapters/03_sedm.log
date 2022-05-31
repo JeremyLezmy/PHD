@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  24 MAY 2022 14:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  31 MAY 2022 16:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1602,15 +1602,6 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package minitoc Info: I0024
-(minitoc)             PREPARING MINITOCS FROM 03_sedm.toc on input line 4.
-Package minitoc Info: I0033
-(minitoc)             Writing 03_sedm.mtc1.
-\openout4 = `03_sedm.mtc1'.
-
-\tf@toc=\write6
-\openout6 = `03_sedm.toc'.
-
 
 Chapitre 3.
 \openout4 = `03_sedm.mtc'.
@@ -1629,23 +1620,81 @@ LaTeX Warning: Reference `fig:palomar_obs' on page 1 undefined on input line 25
 
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<../figures/03_sedm/ifsgeneral.png, id=72, 823.075pt x 479.7925pt>
+
+Package natbib Warning: Citation `BaconIFUlens' on page 2 undefined on input li
+ne 54.
+
+
+Package natbib Warning: Citation `SAURONifs' on page 2 undefined on input line 
+56.
+
+
+Package natbib Warning: Citation `ATLAS3D' on page 2 undefined on input line 57
+.
+
+
+Package natbib Warning: Citation `SNIFS2004' on page 2 undefined on input line 
+57.
+
+
+Package natbib Warning: Citation `SDSSIFS' on page 2 undefined on input line 67
+.
+
+
+Package natbib Warning: Citation `BardenIFUfiber' on page 2 undefined on input 
+line 68.
+
+
+Package natbib Warning: Citation `allingtonIFUlensfiber' on page 2 undefined on
+ input line 69.
+
+
+Package natbib Warning: Citation `BowenIFUslicer' on page 2 undefined on input 
+line 79.
+
+
+Package natbib Warning: Citation `ContentIFUslicer' on page 2 undefined on inpu
+t line 79.
+
+
+Package natbib Warning: Citation `GeminiNIFS' on page 2 undefined on input line
+ 81.
+
+<../figures/03_sedm/ifsgeneral.png, id=52, 823.075pt x 479.7925pt>
 File: ../figures/03_sedm/ifsgeneral.png Graphic file (type png)
 <use ../figures/03_sedm/ifsgeneral.png>
 Package pdftex.def Info: ../figures/03_sedm/ifsgeneral.png  used on input line 
 95.
 (pdftex.def)             Requested size: 409.71692pt x 238.83409pt.
 
+Package natbib Warning: Citation `allingtonIFS' on page 2 undefined on input li
+ne 99.
+
+
+Package natbib Warning: Citation `allingtonIFS' on page 2 undefined on input li
+ne 99.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [2]
-<../figures/03_sedm/sedmoverview.png, id=99, 748.7975pt x 530.98375pt>
+
+Package natbib Warning: Citation `SEDM18' on page 3 undefined on input line 115
+.
+
+<../figures/03_sedm/sedmoverview.png, id=62, 748.7975pt x 530.98375pt>
 File: ../figures/03_sedm/sedmoverview.png Graphic file (type png)
 <use ../figures/03_sedm/sedmoverview.png>
 Package pdftex.def Info: ../figures/03_sedm/sedmoverview.png  used on input lin
 e 126.
 (pdftex.def)             Requested size: 409.71692pt x 290.53496pt.
+
+Package natbib Warning: Citation `SEDM18' on page 3 undefined on input line 135
+.
+
+
+Package natbib Warning: Citation `SEDM18' on page 3 undefined on input line 135
+.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1655,7 +1704,10 @@ Overfull \hbox (17.62482pt too wide) in paragraph at lines 174--185
 []$[]$
  []
 
-[4 <../figures/03_sedm/sedmoverview.png>]
+
+Underfull \vbox (badness 3849) has occurred while \output is active []
+
+ [4 <../figures/03_sedm/sedmoverview.png>]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
 92.
 
@@ -1666,63 +1718,195 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<../figures/03_sedm/calibdag.png, id=127, 1339.0025pt x 753.81625pt>
+
+
+Package natbib Warning: Citation `pysedm' on page 5 undefined on input line 193
+.
+
+<../figures/03_sedm/calibdag.png, id=82, 1339.0025pt x 753.81625pt>
 File: ../figures/03_sedm/calibdag.png Graphic file (type png)
 <use ../figures/03_sedm/calibdag.png>
 Package pdftex.def Info: ../figures/03_sedm/calibdag.png  used on input line 24
 0.
 (pdftex.def)             Requested size: 349.15662pt x 196.56271pt.
 
-
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 242.
 See the caption package documentation for explanation.
 
 
-Underfull \vbox (badness 1953) detected at line 244
+Underfull \vbox (badness 2846) detected at line 244
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5]
+
+Package natbib Warning: Citation `Barbary2016Sep' on page 6 undefined on input 
+line 252.
+
+
+Package natbib Warning: Citation `Bertinsextractor' on page 6 undefined on inpu
+t line 253.
+
 [6 <../figures/03_sedm/calibdag.png>]
-<../figures/03_sedm/tracematchsedm.png, id=160, 732.7375pt x 359.3425pt>
+<../figures/03_sedm/tracematchsedm.png, id=108, 732.7375pt x 359.3425pt>
 File: ../figures/03_sedm/tracematchsedm.png Graphic file (type png)
 <use ../figures/03_sedm/tracematchsedm.png>
 Package pdftex.def Info: ../figures/03_sedm/tracematchsedm.png  used on input l
 ine 292.
 (pdftex.def)             Requested size: 241.27881pt x 118.32568pt.
-<../figures/03_sedm/wavesolsedm.png, id=161, 751.80875pt x 443.6575pt>
+<../figures/03_sedm/wavesolsedm.png, id=109, 751.80875pt x 443.6575pt>
 File: ../figures/03_sedm/wavesolsedm.png Graphic file (type png)
 <use ../figures/03_sedm/wavesolsedm.png>
 Package pdftex.def Info: ../figures/03_sedm/wavesolsedm.png  used on input line
  293.
 (pdftex.def)             Requested size: 204.85846pt x 120.89258pt.
- [7 <../figures/03_sedm/tracematchsedm.png> <../figures/03_sedm/wavesolsedm.png
->] [8]
+
+
+Package natbib Warning: Citation `pysedm' on page 7 undefined on input line 298
+.
+
+
+Package natbib Warning: Citation `pysedm' on page 7 undefined on input line 298
+.
+
+
+Package natbib Warning: Citation `pysedm' on page 7 undefined on input line 307
+.
+
+
+Package natbib Warning: Citation `pysedm' on page 7 undefined on input line 327
+.
+
+[7 <../figures/03_sedm/tracematchsedm.png> <../figures/03_sedm/wavesolsedm.png>
+] [8]
+
+Package natbib Warning: Citation `Butonthese' on page 9 undefined on input line
+ 416.
+
+
+Package natbib Warning: Citation `Buton2013' on page 9 undefined on input line 
+417.
+
+
+Package natbib Warning: Citation `pysedm' on page 9 undefined on input line 418
+.
+
 
 LaTeX Warning: Reference `ssec:chromadr' on page 9 undefined on input line 437.
 
 
 
+Package natbib Warning: Citation `Buton2013' on page 9 undefined on input line 
+456.
+
+
 Underfull \vbox (badness 1168) has occurred while \output is active []
 
  [9]
+
+Package natbib Warning: Citation `Hayes1975atm' on page 10 undefined on input l
+ine 471.
+
+
+Package natbib Warning: Citation `Wade1988atm' on page 10 undefined on input li
+ne 471.
+
+
+Package natbib Warning: Citation `Stubbs2007atm' on page 10 undefined on input 
+line 471.
+
+
+Package natbib Warning: Citation `Hinkle2003' on page 10 undefined on input lin
+e 484.
+
+
+Package natbib Warning: Citation `Bohlinstdcalpsec' on page 10 undefined on inp
+ut line 504.
+
 [10]
-<../figures/03_sedm/pysedmoutput.png, id=268, 1253.68375pt x 789.95125pt>
+
+Package natbib Warning: Citation `HowellSuperfit' on page 11 undefined on input
+ line 534.
+
+
+Package natbib Warning: Citation `BlondinSNID' on page 11 undefined on input li
+ne 534.
+
+
+Package natbib Warning: Citation `TonryDavis' on page 11 undefined on input lin
+e 537.
+
+
+Package natbib Warning: Citation `MuthukrishnaDash' on page 11 undefined on inp
+ut line 539.
+
+
+Package natbib Warning: Citation `BlondinSNID' on page 11 undefined on input li
+ne 545.
+
+
+Package natbib Warning: Citation `BlondinSNID' on page 11 undefined on input li
+ne 559.
+
+
+Package natbib Warning: Citation `MuthukrishnaDash' on page 11 undefined on inp
+ut line 573.
+
+
+Package natbib Warning: Citation `Liu2014SNIbc' on page 11 undefined on input l
+ine 574.
+
+
+Package natbib Warning: Citation `Mojdaz2016' on page 11 undefined on input lin
+e 575.
+
+
+Package natbib Warning: Citation `Liu2016' on page 11 undefined on input line 5
+75.
+
+
+Package natbib Warning: Citation `Silverman2012' on page 11 undefined on input 
+line 576.
+
+
+Package natbib Warning: Citation `GutierrezSNII' on page 11 undefined on input 
+line 577.
+
+
+Package natbib Warning: Citation `Liu2017SLSN' on page 11 undefined on input li
+ne 578.
+
+<../figures/03_sedm/pysedmoutput.png, id=159, 1253.68375pt x 789.95125pt>
 File: ../figures/03_sedm/pysedmoutput.png Graphic file (type png)
 <use ../figures/03_sedm/pysedmoutput.png>
 Package pdftex.def Info: ../figures/03_sedm/pysedmoutput.png  used on input lin
 e 587.
 (pdftex.def)             Requested size: 450.69417pt x 283.98445pt.
- [11]
-<../figures/03_sedm/cumulsnhostdist.png, id=296, 700.6175pt x 315.1775pt>
+[11]
+
+Package natbib Warning: Citation `FremlingZTFspec2020' on page 12 undefined on 
+input line 627.
+
+<../figures/03_sedm/cumulsnhostdist.png, id=175, 700.6175pt x 315.1775pt>
 File: ../figures/03_sedm/cumulsnhostdist.png Graphic file (type png)
 <use ../figures/03_sedm/cumulsnhostdist.png>
 Package pdftex.def Info: ../figures/03_sedm/cumulsnhostdist.png  used on input 
 line 637.
 (pdftex.def)             Requested size: 250.38564pt x 112.63663pt.
+
+Package natbib Warning: Citation `FremlingZTFspec2020' on page 12 undefined on 
+input line 645.
+
+
+Package natbib Warning: Citation `FremlingZTFspec2020' on page 12 undefined on 
+input line 645.
+
+
+Package natbib Warning: Citation `Kimcontsep' on page 12 undefined on input lin
+e 651.
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/bx/sc' undefined
@@ -1732,34 +1916,52 @@ LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <12> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 656.
 LaTeX Font Info:    Font shape `T1/cmtt/bx/sc' in size <12> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 666.
+
+Package natbib Warning: Citation `Kimcontsep' on page 12 undefined on input lin
+e 670.
+
+
+Package natbib Warning: Citation `ChambersPanstarrs' on page 12 undefined on in
+put line 671.
+
+
+Package natbib Warning: Citation `Kimcontsep' on page 12 undefined on input lin
+e 681.
+
 [12] [13 <../figures/03_sedm/pysedmoutput.png>]
-<../figures/03_sedm/stronghost.png, id=326, 956.57375pt x 374.39874pt>
+<../figures/03_sedm/stronghost.png, id=189, 956.57375pt x 374.39874pt>
 File: ../figures/03_sedm/stronghost.png Graphic file (type png)
 <use ../figures/03_sedm/stronghost.png>
 Package pdftex.def Info: ../figures/03_sedm/stronghost.png  used on input line 
 695.
 (pdftex.def)             Requested size: 432.48051pt x 169.27196pt.
- (./03_sedm.bbl (./03_sedm.brf)
-\tf@brf=\write7
-\openout7 = `03_sedm.brf'.
 
 
-[14 <../figures/03_sedm/cumulsnhostdist.png> <../figures/03_sedm/stronghost.png
->] [15
+Package natbib Warning: There were undefined citations.
 
-])
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the 03_sedm.maf file.
 \openout4 = `03_sedm.maf'.
 
 
+Package minitoc(hints) Warning: W0059
+(minitoc(hints))                You have used \minitoc, 
+(minitoc(hints))                but not \dominitoc.
+
+
+Package minitoc(hints) Warning: W0068
+(minitoc(hints))                You have used \minitoc but not 
+(minitoc(hints))                \tableofcontents
+(minitoc(hints))                nor \faketableofcontents.
+
 
 Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the 03_sedm.log file.
 
-[16] (./03_sedm.aux)
+[14 <../figures/03_sedm/cumulsnhostdist.png> <../figures/03_sedm/stronghost.png
+>] (./03_sedm.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1769,17 +1971,15 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `03_sedm.brf' has not changed.
-(rerunfilecheck)             Checksum: F88FBB8C02C586F8C3BB5B5CC678197F;2379.
  ) 
 Here is how much of TeX's memory you used:
- 47181 strings out of 478994
- 997740 string characters out of 5858184
- 1558018 words of memory out of 5000000
- 63245 multiletter control sequences out of 15000+600000
- 441914 words of font info for 248 fonts, out of 8000000 for 9000
+ 46951 strings out of 478994
+ 993608 string characters out of 5858184
+ 1547821 words of memory out of 5000000
+ 63037 multiletter control sequences out of 15000+600000
+ 442703 words of font info for 259 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 137i,12n,148p,1423b,917s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 137i,12n,148p,827b,911s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -1822,10 +2022,10 @@ ts/type1/public/cm-super/sftc1200.pfb></usr/local/texlive/2021/texmf-dist/fonts
 /type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/t
 ype1/public/cm-super/sftt1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/typ
 e1/public/cm-super/sftt1200.pfb>
-Output written on 03_sedm.pdf (16 pages, 4937247 bytes).
+Output written on 03_sedm.pdf (14 pages, 4919207 bytes).
 PDF statistics:
- 607 PDF objects out of 1000 (max. 8388607)
- 531 compressed objects within 6 object streams
- 96 named destinations out of 1000 (max. 500000)
+ 339 PDF objects out of 1000 (max. 8388607)
+ 276 compressed objects within 3 object streams
+ 59 named destinations out of 1000 (max. 500000)
  89261 words of extra memory for PDF output out of 106986 (max. 10000000)
 

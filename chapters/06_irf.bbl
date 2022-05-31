@@ -1,4 +1,4 @@
-\begin{thebibliography}{17}
+\begin{thebibliography}{18}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{\textsc{{Birch}} et \textsc{{Downs}}(1993)}]{Birch1993}
@@ -66,6 +66,12 @@
   Inhomogeneous Medium for Very Long and Very Short Exposures}~», Journal of
   the Optical Society of America (1917-1983),
   \href{https://ui.adsabs.harvard.edu/abs/1966JOSA...56.1372F}{56, 1372}
+
+\bibitem[{\textsc{{Hayes}} et \textsc{{Latham}}(1975)}]{Hayes1975atm}
+\textsc{{Hayes} D.~S.} et \textsc{{Latham} D.~W.} 1975, «~{A rediscussion of
+  the atmospheric extinction and the absolute spectral-energy distribution of
+  Vega.}~», \href{http://dx.doi.org/10.1086/153548}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/1975ApJ...197..593H}{197, 593}
 
 \bibitem[{\textsc{{Hinkle}} {et~al.}(2003)\textsc{{Hinkle}}, \textsc{{Wallace}}
   et \textsc{{Livingston}}}]{Hinkle2003}

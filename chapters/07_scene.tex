@@ -1,47 +1,73 @@
 \documentclass[../main/main.tex]{subfiles}
 \begin{document}
-
-\chapter{Modélisation de Scène et Extraction de Source}\label{ch:res}
-
--- XXX --
-
+\dominitoc
+\faketableofcontents
+\setcounter{chapter}{6}
+\chapter{Modélisation de scène et extraction de sources}\label{ch:res}
 \minitoc
+\vspace{2cm}
+Ce chapitre est consacré à la description de la dernière étape du pipeline \hypergal, la
+modélisation de scène. Les chapitres précédents ont permis dans un
+premier temps la
+construction du cube intrinsèque de la galaxie hôte. Puis nous avons
+procédé à sa projection dans
+l'espace spectral de la SEDm à partir de la réponse impulsionnelle
+spectrale de l'instrument. Enfin, nous avons également construit un modèle
+de PSF robuste permettant la modélisation de sources ponctuelles.
+
+Dans ce chapite, nous allons tout d'abord détailler le processus de
+modélisation de scène, puis nous présenterons les résultats d'extraction des
+différentes composantes qui la composent. Après avoir montré ces
+résultats pour un cas idéal, nous montrerons quelques extractions de cas
+plus complexes obtenus avec \hypergal.
 \newpage
 
-\section{Projection du cube intrinsèque}
+\section{Modélisation de scène}
+% \label{sec:xxx}
+
+\subsection{Projection du cube intrinsèque}
 %\label{sec:xxx}
 
-\subsection{Seeing relatif Panstarrs/SEDm}
+\subsubsection{Seeing relatif Panstarrs/SEDm}
 %\label{ssec:xxx}
 
-\subsection{Projection spatiale dans l'espace SEDm}
+\subsubsection{Projection spatiale dans l'espace SEDm}
 %\label{ssec:xxx}
 
+\subsection{Composantes de la scène}
 
-\section{Modélisation de Scène}
-%\label{sec:xxx}
-
-\subsection{Composante du fond: ciel et artefacts}
-%\label{ssec:xxx}
-
-\subsection{Composante du point source: Supernova}
+\subsubsection{Composante du fond: ciel et artefacts}
 % \label{ssec:xxx}
 
-\subsection{Fitting de la scene}
+\subsubsection{Composante de la galaxie hôte}
+%\label{ssec:xxx}
+
+\subsubsection{Composante de la supernova}
 % \label{ssec:xxx}
 
-\section{Extraction du point source}
+\subsection{Ajustement de la scene}
+% \label{ssec:xxx}
+
+\section{Extraction des composantes}
 
 \subsection{Outputs de controle du pipeline}
 % \label{ssec:xxx}
 
-\subsection{Isolation de la galaxie hôte}
+\subsection{Extraction de la galaxie hôte}
 % \label{ssec:xxx}
 
-\subsection{Isolation de la Supernova}
+\subsection{Extraction de la Supernova}
 % \label{ssec:xxx}
 
 \section{Classification: \pkg{SNID}}
 % \label{ssec:xxx}
 
+\bibliographystyle{../main/aa_url2}
+\bibliography{99_references}
+
 \end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:

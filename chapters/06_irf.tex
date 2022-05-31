@@ -1,15 +1,15 @@
 \documentclass[../main/main.tex]{subfiles}
 \begin{document}
 
-%\dominitoc
-%\faketableofcontents
+\dominitoc
+\faketableofcontents
 \setcounter{chapter}{5}
 \chapter{Réponse impulsionnelle de la SEDm et extraction de source ponctuelle}\label{ch:irf}
 \minitoc
 \vspace{2cm}
 Le chapitre précédent était consacré à la modélisation hyperspectrale de
-la galaxie hôte en utilisant localement le SED fitter \cigale sur des
-images photométrique de PS1. Cette étape d'\hypergal nous fournit le
+la galaxie hôte en utilisant localement le SED fitter \cigale\ sur des
+images photométriques de PS1. Cette étape d'\hypergal\ nous fournit le
 cube intrinsèque de la galaxie, composé de spaxels ayant chacun un
 spectre qui lui est propre.
 
@@ -18,7 +18,7 @@ adaptées à l'espace des observations dans lequel nous souhaitons projeter
 le cube, à savoir celui de la SEDm. Nous devons pour cela considérer la
 réponse impulsionnelle de notre instrument.
 
-Par ailleurs, l'objectif d'\hypergal étant d'être un modéliseur de
+Par ailleurs, l'objectif d'\hypergal\ étant d'être un modéliseur de
 scène, nous serons forcément amenés à modéliser la supernova. Cet objet
 étant une source ponctuelle, elle est entièrement définie par le profil
 de PSF, qui est la réponse impulsionnelle spatiale de la SEDm.
@@ -28,9 +28,9 @@ détermination de la réponse impulsionnelle spectrale (LSF) de la SEDm,
 et son application au cube intrinsèque. Puis nous introduirons un modèle
 de profil radial pour la réponse impulsionnelle spatiale, que nous
 entraînerons grâce à l'observation d'étoiles standards (sources
-ponctuelles). Enfin procéderons à la validation de ce modèle de PSF par
+ponctuelles). Enfin nous procéderons à la validation de ce modèle de PSF par
 une analyse de la calibration spectrophotométriques à partir de ces
-étoiles standards. 
+étoiles standards.
 \newpage
 
 \section{Réponse impulsionnelle spectrale: LSF}
@@ -118,12 +118,12 @@ temps, nous utilisons les solutions en longueurs d'onde de $65$ nuits
 étalées entre 2018 et 2022. Nous récupérons ainsi les positions et
 écarts types modélisés pour chaque raie d'émission pour chaque spaxel de
 chaque nuit. La solution en longueur d'onde nous permet également de
-passer de passer de l'espace des pixels du CCD à l'espace des longeurs d'onde.
+passer de l'espace des pixels du CCD à l'espace des longeurs d'onde.
 
-Nous utilisons la médiane de la localisation fittée de chaque raie
+Nous utilisons la médiane de la localisation ajustée de chaque raie
 parmi tous les
-spaxels, de même pour les écarts types, afin d'éviter les potentiels
-outliers, notamment sur les bords du MLA (voir \citet{pysedm}). Les Figure~\ref{fig:lineloc} et
+spaxels, de même pour les écarts types, afin d'éviter les potentielles
+valeurs aberrantes, notamment sur les bords du MLA (voir \citet{pysedm}). Les Figure~\ref{fig:lineloc} et
 \ref{fig:linestd} montrent la distribution des localisations et écart
 types médians des 65 nuits pour chaque raie d'émission.
 
@@ -186,10 +186,9 @@ Notre modèle de LSF chromatique est donc exprimé tel que:
   \label{eq:lsfmodel}
   \sigma(\lambda)=\sum\limits_{i}^{n=2}C_{i}P_{i}(\lambda)
 \end{equation}
-
-Avec$P_{i}$ étant les polynomes de Legendre de degré $i$ et les $C_{i}$
+avec $P_{i}$ étant les polynomes de Legendre de degré $i$ et les $C_{i}$
 les coefficients associés. Nous montrons dans la Figure~\ref{fig:lsf} la modélisation de la LSF
-chromatique, avec les coefficients $C_{i}$ fittés:
+chromatique, avec les coefficients $C_{i}$ ajustés:
 
 \begin{align*}
   C_{0}&=19.65\pm 0.32\\
@@ -202,7 +201,7 @@ la Figure~\ref{fig:lsf} la distribution des écarts types sous forme de
 violon, la dispersion de la position de la raie étant trop faible pour
 être discernable sur la figure. Nous présentons la LSF
 $\sigma_{\lambda}$ en unité de longueur d'onde mais également en unité
-de tranche équivalente pour la SEDm,
+de pixel spectral pour la SEDm,
 connaissant l'échantillonnage du domaine spectral.
 
 \begin{figure}[h!]
@@ -269,7 +268,7 @@ $R_{\lambda=6500\mathring{A}}\sim100$ et $R_{\lambda=8500\mathring{A}}\sim80$.\\
 %\end{figure}
 
 Nous fixons ainsi le modèle chromatique de LSF de la SEDm. Sachant que la résolution
-des spectres obtenus avec \cigale est de l'ordre de $3$\AA\ sur
+des spectres obtenus avec \cigale\ est de l'ordre de $3$\AA\ sur
 l'intervalle [$3200$-$9500$]\AA\ (correspondant à une résolution de
 $R=\lambda/\d\lambda\approx2000$; \citet{BCO3}), nous choisissons
 de convoluer directement les spectres du cube intrinsèque par la LSF de
@@ -316,11 +315,11 @@ impulsionnelle spectrale de la SEDm. Nous présentons ici celle de la
 réponse impulsionnelle spatiale, faite à partir d'observations d'étoiles standards (STDs) qui
 sont des sources ponctuelles dans le champ de vue de l'IFS.
 
-En associant l'imperfecion du système optique et la présence des
+En associant l'imperfection du système optique et la présence des
 turbulences atmosphériques \citep{Kolmogorov} dont l'hétérogénéité est dynamique, la structure d'une image
 varie aléatoirement au cours du temps dans le champ de vue du
 télescope. Une exposition de quelques secondes est habituellement
-suffisant pour moyenner ces fluctuations et fixer l'image. Nous
+suffisante pour moyenner ces fluctuations et fixer l'image. Nous
 pouvons alors relier  $O(\alpha,\lambda)$ le flux d'une source dans un direction $\alpha$ du
 ciel à la longueur d'onde $\lambda$, et $\langle
 I(\alpha,\lambda)\rangle$ la moyenne temporelle du flux observé
@@ -332,8 +331,7 @@ transformation:
   \langle I(\alpha,\lambda)\rangle = O(\alpha,\lambda) \otimes \langle
   S(\alpha, \lambda)\rangle
 \end{equation}
-
-Avec $\langle S(\alpha, \lambda)\rangle$ l'image moyenne dans le plan focal d'une
+avec $\langle S(\alpha, \lambda)\rangle$ l'image moyenne dans le plan focal d'une
 source ponctuelle observée à l'infini, qui n'est autre que notre
 fonction d'étalement de point (PSF). Sa transformée de Fourrier, notée
 $\langle \widetilde{S}(\alpha, \lambda)\rangle$, est la fonction
@@ -368,7 +366,7 @@ mais une telle représentation, quoiqu'efficace pour la représentation du
 coeur d'une source ponctuelle ne permet pas d'ajuster les ailes du
 profil radial.
 
-Cette partie de la PSF peut cependant être modéliser par une
+Cette partie de la PSF peut cependant être modélisée par une
 loi de puissance qui décroît moins vite que la gaussienne, comme
 introduit par \citet{Moffat1969}. Des modèles de PSF basés sur cette
 fonction homonyme (Moffat) ont par exemple était proposés par
@@ -433,7 +431,7 @@ et une constante devrait suffir à la modéliser. Dans notre cas, les
 cubes extraits avec \pkg{pysedm} \citep{pysedm} présentent régulièrement
 des artefacts indésirables notamment sur les bords du cube, et sont
 d'autant plus intenses aux extrémités de l'espace spectral couvert par
-la SEDm. Afin de pallier à ces effets, nous introduisons un background
+la SEDm. Afin de palier à ces effets, nous introduisons un background
 polynomial d'ordre 2, de sorte que :
 
 \begin{equation}
@@ -467,8 +465,7 @@ simple source ponctuelle devient trop important.
 Nous nous sommes ainsi penchés sur l'étude des corrélations entre ces
 paramètres et leur chromaticité, afin de contraindre notre modèle de
 PSF. Pour faire cela, nous avons utilisé environ $150$ cubes de
-données d'étoiles standards, observées avec la SEDm en 2021 toutes saisons
-confondues. 
+données d'étoiles standards, observées avec la SEDm en 2021.
 
 Dans un premier temps, nous procédons à un ajustement avec la fonction
 d'étalement de point entièrement libre, pour 9 méta-tranches indépendantes
@@ -521,7 +518,7 @@ $\chi^{2}$, en pondérant donc par les erreurs.
 \begin{figure}[ht]
   \centering
   \includegraphics[width=0.8\textwidth]{../figures/06_irf/STD_alpha_beta_chromatic_corr.pdf}
-  \caption[Chromaticité des corrélations entre $\alpha$ et $\beta$]{Chromaticité des corrélations entre $\alpha$ et $\beta$}
+  \caption[Chromaticité des corrélations entre $\alpha$ et $\beta$]{Chromaticité des corrélations entre $\alpha$ et $\beta$.}
   \label{fig:alphabetachromcorr}
 \end{figure}
 
@@ -539,13 +536,12 @@ combinaison linéaire tel que
   \label{eq:betaalpha}
   \beta(\alpha) = \beta_{1}\times \alpha + \beta_{0}
 \end{equation}
-
-Avec $\beta_{1}$ et $\beta_{0}$ fixés.
+avec $\beta_{1}$ et $\beta_{0}$ fixés.
 
 \begin{figure}[ht]
   \centering
   \includegraphics[width=0.7\textwidth]{../figures/06_irf/chromaticitybeta_alpha_corr.pdf}
-  \caption[Chromaticité de la pente et du point zéro entre $\alpha$ et $\beta$]{Chromaticité de la pente et du point zéro entre $\alpha$ et $\beta$}
+  \caption[Chromaticité de la pente et du point zéro entre $\alpha$ et $\beta$]{Chromaticité de la pente et du point zéro entre $\alpha$ et $\beta$.}
   \label{fig:chromslope_zp_alphabeta}
 \end{figure}
 
@@ -593,14 +589,14 @@ entre eux.
 \begin{figure}[ht]
   \centering
   \includegraphics[width=0.8\textwidth]{../figures/06_irf/STD_alpha_sigma_chromatic_corr.pdf}
-  \caption[Chromaticité des corrélations entre $\alpha$ et $\sigma$]{Chromaticité des corrélations entre $\alpha$ et $\sigma$}
+  \caption[Chromaticité des corrélations entre $\alpha$ et $\sigma$]{Chromaticité des corrélations entre $\alpha$ et $\sigma$.}
   \label{fig:alphasigmachromcorr}
 \end{figure}
 
 Tout comme précédement, la chromaticité de ces ajustements est représenté dans la
 Figure~\ref{fig:chromslope_zp_alphasigma}, où nous montrons l'évolution
 du point zéro et de la pente en fonction de la
-longueur d'onde de la meta-tranche considéré. On observe cette fois ci des effets
+longueur d'onde de la meta-tranche considérée. On observe cette fois ci des effets
 chromatiques de l'ordre de seulement $3\%$ pour la pente, et de $8\%$ pour le
 point zéro.
 Nous avons à nouveau choisi d'ignorer ces effets chromatiques, et de fixer
@@ -611,13 +607,12 @@ combinaison linéaire tel que
   \label{eq:betaalpha}
   \sigma(\alpha) = \sigma_{1}\times \alpha + \sigma_{0}
 \end{equation}
-
-Avec $\sigma_{1}$ et $\sigma_{0}$ fixés.
+avec $\sigma_{1}$ et $\sigma_{0}$ fixés.
 
 \begin{figure}[ht]
   \centering
   \includegraphics[width=0.7\textwidth]{../figures/06_irf/chromaticitysigma_alpha_corr.pdf}
-  \caption[Chromaticité de la pente et du point zéro entre $\alpha$ et $\sigma$]{Chromaticité de la pente et du point zéro entre $\alpha$ et $\sigma$}
+  \caption[Chromaticité de la pente et du point zéro entre $\alpha$ et $\sigma$]{Chromaticité de la pente et du point zéro entre $\alpha$ et $\sigma$.}
   \label{fig:chromslope_zp_alphasigma}
 \end{figure}
 
@@ -628,7 +623,7 @@ Avec $\sigma_{1}$ et $\sigma_{0}$ fixés.
 %  \label{fig:corralphasigma_achrom}
 %\end{figure}
 
-\subsubsection{Cas du poids relatif des distributions gaussienne/Moffat:
+\subsubsection{Poids relatif des distributions gaussienne/Moffat:
 $\eta$}
 
 Le dernier paramètre de forme libre de notre modèle de PSF est le poids
@@ -646,7 +641,7 @@ libre dans notre fonction d'étalement de point.
 \begin{figure}[ht]
   \centering
   \includegraphics[width=0.8\textwidth]{../figures/06_irf/STD_alpha_eta_chromatic_corr.pdf}
-  \caption[Chromaticité des corrélations entre $\alpha$ et $\eta$]{Chromaticité des corrélations entre $\alpha$ et $\eta$}
+  \caption[Chromaticité des corrélations entre $\alpha$ et $\eta$]{Chromaticité des corrélations entre $\alpha$ et $\eta$.}
   \label{fig:alphaetachromcorr}
 \end{figure}
 
@@ -660,7 +655,7 @@ linéaires pour $\beta(\alpha)$ et $\sigma(\alpha)$.
   \centerfloat
   \renewcommand{\arraystretch}{1.5}
   \caption{Valeurs des paramètres des ajustements linéaires pour
-    $\beta(\alpha)$ et $\sigma(\alpha)$}
+    $\beta(\alpha)$ et $\sigma(\alpha)$.}
   \label{tab:betasigmapsf}
     \begin{threeparttable}
         \begin{tabular}{lcc}
@@ -692,8 +687,8 @@ utilisable pour une extraction 2D d'une source ponctuelle, à une
 longueur d'onde $\lambda$ donnée donc. Cependant le but est d'extraire
 le spectre de la source ponctuelle. Intuitivement, nous pourrions
 appliquer cette extraction 2D à toutes les tranches de notre cube de
-donnée. Mais ce processus, en plus de demander énormément de ressource
-numérique, supposerait d'une part que les tranches ne sont pas corrélées
+donnée. Mais ce processus, en plus de demander énormément de ressources
+numériques, supposerait d'une part que les tranches ne sont pas corrélées
 entre elles, et d'autre part que le ratio signal sur bruit serait
 suffisant à l'échelle d'un pixel spectral. Or cela est généralement faux
 dans les deux cas.
@@ -709,7 +704,7 @@ Puisqu'il n'est pas question d'extraire le flux d'une source ponctuelle
 à chaque tranche du cube de donnée, l'idée est plutôt d'effectuer un
 ajustement de la PSF sur $N$ méta-tranches du cube de
 données, où le signal sur bruit est suffisamment élevé, et ainsi récupérer
-un set de $N\times2D$ paramètres décrivant la PSF de la source et sa position 
+un jeu de $N\times2D$ paramètres décrivant la PSF de la source et sa position 
 dans le MLA.
 
 En modélisant adéquatement la chromaticité de ces paramètres, nous
@@ -783,7 +778,7 @@ On définit la pression saturante de vapeur d'eau par:
     p_{sv}(t) = 611.657 \times e^{Y}
 \end{equation}
 
-Et on déduit la pression partielle de vapeur d'eau $p_v$ à partir de
+On déduit la pression partielle de vapeur d'eau $p_v$ à partir de
 l'humidité relative $RH$ (en pourcentage) par:
 \begin{equation}
  \label{eq:pv}
@@ -912,8 +907,7 @@ utilisons pour l'ajustement une loi de puissance de la forme:
   \label{eq:alphachrom}
   \alpha(\lambda)=\alpha_{ref}\left(\frac{\lambda}{\lambda_{ref}}\right)^{\rho}
 \end{equation}
-
-Avec $\alpha_{ref}$ et $\rho$ les paramètres d'ajustement de la chromaticité.
+avec $\alpha_{ref}$ et $\rho$ les paramètres d'ajustement de la chromaticité.
 
 \begin{figure}
   \centering
@@ -957,12 +951,22 @@ On rappelle que, pour la SEDm, le formalisme utilisé pour décrire le
 spectre observé $S(\lambda,t,z)$ d'une source astronomique est tel que:
 
 \begin{equation*} 
-  S(\lambda,t,z)=S^{\star}(\lambda,t)\times\left[\mathcal{C}(\lambda,t)+\mathcal{ T}(\lambda,t,z)\right]
+  S(\lambda,t,z)=S^{\star}(\lambda,t)\times\mathcal{C}_{atm}(\lambda,t,z)\times\mathcal{C}_{inst}(\lambda,t)\times\mathcal{T}(\lambda,t,z)
 \end{equation*}
+avec $S^{\star}(\lambda,t)$ le spectre instrinsèque de la source en
+unités physiques ($erg/cm^2/s/$\AA), $\mathcal{C}_{atm}(\lambda,t,z)$
+l'extinction atmosphérique, $\mathcal{C}_{inst}(\lambda,t)$ la réponse
+instrumentale et $\mathcal{T}(\lambda,t,z)$ l'absorption tellurique. L'extinction
+atmosphérique utilisée pour le Mont Palomar est celle de
+\citep{Hayes1975atm}, et est appliquée lors de la création des cubes
+SEDm. Le spectre extrait en pseudo-ADU de la
+Figure~\ref{fig:stdspectrumadu} est donc déjà corrigé de cette composante.
 
-Avec $S^{\star}(\lambda,t)$ le spectre instrinsèque de la source en
-unités physiques ($erg/cm^2/s/$\AA), $\mathcal{C}(\lambda,t)$ la réponse
-instrumentale et $\mathcal{T}$ l'absoption tellurique.
+L'absorption tellurique est re-paramétrisé de sorte que $\mathcal{T} =
+1-\mathcal{E}_{tell}$, avec $\mathcal{E}_{tell}$ le débit tellurique, ce qui nous donne finalement:
+\begin{equation*} 
+  S_{ADU}(\lambda,t,z) = \frac{S(\lambda,t,z)}{\mathcal{C}_{atm}(\lambda,t,z)}=S^{\star}(\lambda,t)\times\mathcal{C}_{inst}(\lambda,t)\times\left(1-\mathcal{E}_{tell}(\lambda,t,z)\right)
+\end{equation*}
 
 On utilise comme référence le spectre spectrophotométrique
 correspondant à l'étoile standard observée, obtenu dans les archives
@@ -972,18 +976,20 @@ Les spectres
 telluriques utilisées sont ceux du Kitt Peak National
 Observatory\footnote{\url{http://www.noao.edu/kpno/}} \citep{Hinkle2003}, scindés en deux
 catégories de longueur d'onde: l'$\text{O}_{2}$ et
-l'$\text{H}_{2}\text{O}$. La Figure~\ref{fig:telluriclines} montre les raies d'absorption telluriques utilisées.
+l'$\text{H}_{2}\text{O}$. La Figure~\ref{fig:telluriclines} montre les
+raies d'absorption telluriques utilisées.
 
 \begin{figure}[ht]
   \centering
   \includegraphics[width=0.85\textwidth]{../figures/06_irf/telluricspec.pdf}
   \caption[Raies d'absorption telluriques]{Raies d'absorption
     telluriques du Kitt Peak National Observatory \citep{Hinkle2003}, avec les composantes d'$\text{O}_{2}$ et
-    d'$\text{H}_{2}\text{O}$.}
+    d'$\text{H}_{2}\text{O}$. La projection dans l'espace spectral de la
+  SEDm est montrée en rouge.}
   \label{fig:telluriclines}
 \end{figure}
 
-L'absoption tellurique est exprimée suivant:
+La dépendance en masse d'air de l'absorption tellurique est exprimée suivant:
 
 \begin{equation*}
   \label{eq:telluricpysedm2}
@@ -991,18 +997,18 @@ L'absoption tellurique est exprimée suivant:
   \mathcal{T}_{\text{O}_{2}}\times(c_{\text{O}_{2}}+z^{\rho_{\text{O}_{2}}})
   + \mathcal{T}_{\text{H}_{2}\text{O}}\times(c_{\text{H}_{2}\text{O}}+z^{\rho_{\text{H}_{2}\text{O}}})
 \end{equation*}
-
-Où les amplitudes relatives $c_{i}$ et les dépendances en masse d'air
+où les amplitudes relatives $c_{i}$ et les coefficients
 $\rho_{i}$ sont des paramètres libres. La réponse instrumentale
-$\mathcal{C}$ est quant à elle modélisée par un polynome de Legendre
+$\mathcal{C}_{inst}$ est quant à elle modélisée par un polynome de Legendre
 d'ordre $20$.
 
 
-Les composantes de réponse instrumentale $\mathcal{C}$ et
-d'absoption telluriques $\mathcal{T}$ sont alors simultanément
-ajustées en minimisant la quantité ~$(S_{ADU}/S_{ref}) - (\mathcal{C} +
-\mathcal{T})$, où la quantité $(\mathcal{C} + \mathcal{T})$ est appelée la courbe de
-sensibilité inverse.
+Les composantes de réponse instrumentale $\mathcal{C}_{inst}$ et
+d'absorption telluriques $\mathcal{T}$ sont alors simultanément
+ajustées en minimisant la quantité ~$(S_{ADU}/S_{ref}) - \mathcal{C}_{inst}(1-
+\mathcal{E}_{tell})$, où la quantité $\mathcal{C}_{inst}(1-
+\mathcal{E}_{tell})$ est appelée la courbe de
+sensibilité.
 
 Ce procédé d'ajustement en distingant les composantes telluriques de la
 réponse instrumentale est nécessaire de par la dépendance en masse
@@ -1100,7 +1106,7 @@ entre deux observations, nous avons incorporé un terme gris
 (achromatique) normalisant ainsi le spectre extrait et celui de référence.
 
 La Figure~\ref{fig:allratio_std} présente ainsi le ratio (normalisé par
-un terme gris) entre les spectres extraits et calibrés en flux avec \hypergal de 2202 étoiles
+un terme gris) entre les spectres extraits et calibrés en flux avec \hypergal\ de 2202 étoiles
 standards et leur spectre de référence Calspec ré-échantillonné dans
 l'espace spectral de la SEDm. On y présente le ratio moyen, dont la
 distribution oscille autour de $1$-$2\%$. En considérant également les
@@ -1133,7 +1139,7 @@ des $2202$ calibrations
 pour différents intervalles de longueur d'onde. Les caractéristiques de
 ces distributions sont présentées dans la Table~\ref{tab:rms_allstd_detail}. En
 considérant le domaine spectral de la SEDm dans son ensemble, la
-calibration en flux obtenue avec \hypergal est de l'ordre de $3.3\%$. En
+calibration en flux obtenue avec \hypergal\ est de l'ordre de $3.3\%$. En
 limitant le domaine spectral à $\lambda\in$[$4500$-$8500$]\AA\, nous
 atteignons une précision de l'ordre de $2\%$ avec une faible déviation
 standard de $0.7\%$. Les résultats sont similaires avec le domaine
@@ -1160,23 +1166,23 @@ intervalles spectraux considérés, le RMS spectral n'excède pas les $4\%$.
 
 \begin{table}[ht]
   \centerfloat
-  \renewcommand{\arraystretch}{1.2}
+  \renewcommand{\arraystretch}{1.4}
   \caption[Description des distributions du RMS spectral des
   calibrations en flux.]{Description des distributions du RMS spectral de la
     Figure~\ref{fig:rms_allstd} pour chaque intervalle de longueur d'onde.}
   \label{tab:rms_allstd_detail}
   \begin{threeparttable}
-    \begin{tabular}{crrr}
+    \begin{tabular}{cccc}
       \toprule
-      \textbf{Spectral RMS (\%)} & $\lambda \in [3700$-$9300]$\AA & $\lambda \in [4500$-$8500]$\AA  &$\lambda \in [5000$-$8000]$\AA \\
+      \textbf{RMS spectral (\%)} & $\lambda \in [3700$-$9300]$\AA & $\lambda \in [4500$-$8500]$\AA  &$\lambda \in [5000$-$8000]$\AA \\
       \midrule
-      Mean  &                                       3.35 &                                       2.17 &                                       2.04 \\
-      Std   &                                       1.34 &                                       0.70 &                                       0.59 \\
-      Min   &                                       1.19 &                                       1.05 &                                       0.97 \\
-      $1^{st}$ Quartile (25\%)   &                                       2.25 &                                       1.60 &                                       1.55 \\
-      Median (50\%)   &                                       3.07 &                                       2.03 &                                       1.97 \\
-      $3^{rd}$ Quartile (75\%)   &                                       4.30 &                                       2.63 &                                       2.45 \\
-      Max   &                                       6.62 &                                       4.03 &                                       3.56 \\
+      Moyenne  &                                       3.35 &                                       2.17 &                                       2.04 \\
+      Déviation standard   &                                       1.34 &                                       0.70 &                                       0.59 \\
+      Minimum   &                                       1.19 &                                       1.05 &                                       0.97 \\
+      $1^{er}$ quartile (25\%)   &                                       2.25 &                                       1.60 &                                       1.55 \\
+      Médiane (50\%)   &                                       3.07 &                                       2.03 &                                       1.97 \\
+      $3^{rd}$ quartile (75\%)   &                                       4.30 &                                       2.63 &                                       2.45 \\
+      Maximum   &                                       6.62 &                                       4.03 &                                       3.56 \\
       \bottomrule
     \end{tabular}
 

@@ -3,17 +3,17 @@
 \contentsline {section}{\numberline {6.1}Réponse impulsionnelle spectrale: LSF}{2}{section.6.1}%
 \contentsline {subsection}{\numberline {6.1.1}Lampes à arc}{2}{subsection.6.1.1}%
 \contentsline {subsection}{\numberline {6.1.2}Détermination de la LSF}{2}{subsection.6.1.2}%
-\contentsline {section}{\numberline {6.2}Réponse impulsionnelle spatiale: PSF}{9}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Modèle de profil radial}{9}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}Entrainement du modèle}{11}{subsection.6.2.2}%
-\contentsline {subsubsection}{\numberline {6.2.2.1}Première contrainte: $\alpha $ vs $\beta $}{12}{subsubsection.6.2.2.1}%
-\contentsline {subsubsection}{\numberline {6.2.2.2}Seconde contrainte: $\alpha $ vs $\sigma $}{13}{subsubsection.6.2.2.2}%
-\contentsline {subsubsection}{\numberline {6.2.2.3}Cas du poids relatif des distributions gaussienne/Moffat: $\eta $}{15}{subsubsection.6.2.2.3}%
-\contentsline {subsubsection}{\numberline {6.2.2.4}Profil radial contraint}{15}{subsubsection.6.2.2.4}%
-\contentsline {section}{\numberline {6.3}Extraction de la source ponctuelle}{16}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Méthode d'extraction}{16}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}R\'efraction atmosph\'erique diff\'erentielle}{16}{subsection.6.3.2}%
-\contentsline {subsection}{\numberline {6.3.3}Ajustement chromatique}{18}{subsection.6.3.3}%
-\contentsline {section}{\numberline {6.4}Calibration en flux}{21}{section.6.4}%
-\contentsline {subsection}{\numberline {6.4.1}Méthode}{21}{subsection.6.4.1}%
-\contentsline {subsection}{\numberline {6.4.2}Précision de la calibration}{23}{subsection.6.4.2}%
+\contentsline {section}{\numberline {6.2}Réponse impulsionnelle spatiale: PSF}{8}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Modèle de profil radial}{8}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Entrainement du modèle}{10}{subsection.6.2.2}%
+\contentsline {subsubsection}{\numberline {6.2.2.1}Première contrainte: $\alpha $ vs $\beta $}{11}{subsubsection.6.2.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.2.2}Seconde contrainte: $\alpha $ vs $\sigma $}{12}{subsubsection.6.2.2.2}%
+\contentsline {subsubsection}{\numberline {6.2.2.3}Poids relatif des distributions gaussienne/Moffat: $\eta $}{14}{subsubsection.6.2.2.3}%
+\contentsline {subsubsection}{\numberline {6.2.2.4}Profil radial contraint}{14}{subsubsection.6.2.2.4}%
+\contentsline {section}{\numberline {6.3}Extraction de la source ponctuelle}{15}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Méthode d'extraction}{15}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}R\'efraction atmosph\'erique diff\'erentielle}{15}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}Ajustement chromatique}{17}{subsection.6.3.3}%
+\contentsline {section}{\numberline {6.4}Calibration en flux}{20}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Méthode}{20}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Précision de la calibration}{21}{subsection.6.4.2}%

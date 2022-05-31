@@ -45,6 +45,8 @@
     "fig:cigale_pullrms"
     "sec:intcube"
     "fig:cigalesampling"
-    "fig:intcube_ZTF18accrorf"))
+    "fig:intcube_ZTF18accrorf")
+   (LaTeX-add-bibliographies
+    "99_references"))
  :latex)
 
