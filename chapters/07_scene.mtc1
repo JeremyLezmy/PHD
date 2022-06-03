@@ -1,14 +1,13 @@
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.1}Modélisation de scène}{\reset@font\mtcSfont 2}{section.7.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.1.1}Projection du cube intrinsèque}{\reset@font\mtcSSfont 2}{subsection.7.1.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {7.1.1.1}Seeing relatif Panstarrs/SEDm}{\reset@font\mtcSSSfont 2}{subsubsection.7.1.1.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {7.1.1.2}Projection spatiale dans l'espace SEDm}{\reset@font\mtcSSSfont 2}{subsubsection.7.1.1.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.1.2}Composantes de la scène}{\reset@font\mtcSSfont 2}{subsection.7.1.2}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {7.1.2.1}Composante du fond: ciel et artefacts}{\reset@font\mtcSSSfont 2}{subsubsection.7.1.2.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {7.1.2.2}Composante de la galaxie hôte}{\reset@font\mtcSSSfont 2}{subsubsection.7.1.2.2}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {7.1.2.3}Composante de la supernova}{\reset@font\mtcSSSfont 2}{subsubsection.7.1.2.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.1.3}Ajustement de la scene}{\reset@font\mtcSSfont 2}{subsection.7.1.3}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.2}Extraction des composantes}{\reset@font\mtcSfont 2}{section.7.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.2.1}Outputs de controle du pipeline}{\reset@font\mtcSSfont 2}{subsection.7.2.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.2.2}Extraction de la galaxie hôte}{\reset@font\mtcSSfont 2}{subsection.7.2.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.2.3}Extraction de la Supernova}{\reset@font\mtcSSfont 2}{subsection.7.2.3}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.3}Classification: \textsc {\texttt {SNID}}}{\reset@font\mtcSfont 2}{section.7.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.1.1}Présentation de la méthode}{\reset@font\mtcSSfont 2}{subsection.7.1.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.1.2}Projection du cube intrinsèque}{\reset@font\mtcSSfont 2}{subsection.7.1.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.1.3}Composantes de la scène}{\reset@font\mtcSSfont 4}{subsection.7.1.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {7.1.3.1}Composante du fond: ciel et artefacts}{\reset@font\mtcSSSfont 4}{subsubsection.7.1.3.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {7.1.3.2}Composante de la supernova}{\reset@font\mtcSSSfont 5}{subsubsection.7.1.3.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.1.4}Ajustement de la scene 2D}{\reset@font\mtcSSfont 5}{subsection.7.1.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.1.5}Ajustement chromatique}{\reset@font\mtcSSfont 6}{subsection.7.1.5}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.2}Extraction des composantes}{\reset@font\mtcSfont 9}{section.7.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.2.1}Outputs de controle du pipeline}{\reset@font\mtcSSfont 9}{subsection.7.2.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.2.2}Extraction de la galaxie hôte}{\reset@font\mtcSSfont 9}{subsection.7.2.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.2.3}Extraction de la Supernova}{\reset@font\mtcSSfont 9}{subsection.7.2.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.3}Classification: \textsc {\texttt {SNID}}}{\reset@font\mtcSfont 9}{section.7.3}}

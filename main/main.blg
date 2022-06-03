@@ -7,48 +7,50 @@ Repeated entry---line 854 of file ../chapters/99_references.bib
  : @article{Dale2014
  :                  ,
 I'm skipping whatever remains of this entry
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--entry type for "kelsey_jordahl_2020_3946761" isn't style-file defined
+--line 1242 of file ../chapters/99_references.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty publisher in MinkowskiPOSS
-You've used 122 entries,
+You've used 124 entries,
             3173 wiz_defined-function locations,
-            1786 strings with 64920 characters,
-and the built_in function-call counts, 135531 in all, are:
-= -- 9161
-> -- 15973
-< -- 55
-+ -- 5369
-- -- 5242
-* -- 19920
-:= -- 22779
-add.period$ -- 122
-call.type$ -- 122
-change.case$ -- 2229
-chr.to.int$ -- 117
-cite$ -- 123
-duplicate$ -- 2646
-empty$ -- 4029
-format.name$ -- 5575
-if$ -- 24383
+            1798 strings with 65745 characters,
+and the built_in function-call counts, 137720 in all, are:
+= -- 9307
+> -- 16265
+< -- 56
++ -- 5467
+- -- 5338
+* -- 20242
+:= -- 23165
+add.period$ -- 124
+call.type$ -- 124
+change.case$ -- 2268
+chr.to.int$ -- 119
+cite$ -- 125
+duplicate$ -- 2681
+empty$ -- 4069
+format.name$ -- 5677
+if$ -- 24760
 int.to.chr$ -- 6
 int.to.str$ -- 1
 missing$ -- 105
-newline$ -- 370
-num.names$ -- 500
-pop$ -- 2253
+newline$ -- 376
+num.names$ -- 508
+pop$ -- 2291
 preamble$ -- 1
-purify$ -- 2228
+purify$ -- 2267
 quote$ -- 0
-skip$ -- 2171
+skip$ -- 2195
 stack$ -- 0
-substring$ -- 2944
-swap$ -- 4153
+substring$ -- 2966
+swap$ -- 4221
 text.length$ -- 12
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1098
+type$ -- 1116
 warning$ -- 1
-while$ -- 505
+while$ -- 511
 width$ -- 0
-write$ -- 1338
+write$ -- 1356
 (There was 1 error message)

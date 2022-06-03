@@ -17,16 +17,16 @@
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Vue d'ensemble de la SEDm}}{38}{figure.caption.17}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Schéma d'application d'images de calibration Bias, Dark et Flat\relax }}{40}{figure.3.3}%
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Extraction de traces et solution en longueur d'onde pour la SEDm}}{41}{figure.caption.18}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Exemple d'extraction de source ponctuelle avec \textsc {\texttt {pysedm}} }}{47}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Exemple d'extraction de source ponctuelle avec \textsc {\texttt {pysedm}}\relax }}{47}{figure.caption.19}%
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Distribution cumulée du décalage angulaire entre les supernovae BTS et leur galaxie hôte}}{48}{figure.caption.20}%
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Exemple de situation extrême de contamination de supernova par la galaxie hôte}}{48}{figure.caption.21}%
 \contentsline {xpart}{Extraction de spectre de Supernovae}{51}{part.2}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{\textsc {\texttt {HyperGal}} : Modéliseur de scène pour l'extraction de sources ponctuelles}{51}{chapter.4}%
+\contentsline {xchapter}{\textsc {\texttt {HyperGal}}\relax : Modéliseur de scène pour l'extraction de sources ponctuelles}{51}{chapter.4}%
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Exemple de spectres de galaxies}}{53}{figure.caption.22}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Présentation du pipeline \textsc {\texttt {HyperGal}} }}{55}{figure.caption.23}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Présentation du pipeline \textsc {\texttt {HyperGal}}\relax }}{55}{figure.caption.23}%
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Cube 3D SEDm de ZTF18accrorf}}{57}{figure.caption.24}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Extraction de ZTF18accrorf avec \textsc {\texttt {pysedm}} }}{58}{figure.caption.25}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Extraction de ZTF18accrorf avec \textsc {\texttt {pysedm}}\relax }}{58}{figure.caption.25}%
 \addvspace {10\p@ }
 \contentsline {xchapter}{Modélisation hyperspectrale}{59}{chapter.5}%
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Plan focal de la Gigapixel Camera (PS1)}}{60}{figure.caption.26}%
@@ -35,16 +35,16 @@
 \contentsline {figure}{\numberline {5.4}{\ignorespaces Illustration binning $2\times 2$ sur les images PS1.}}{65}{figure.caption.31}%
 \contentsline {figure}{\numberline {5.5}{\ignorespaces Image RGB de PS1 avec coupure SNR}}{66}{figure.caption.32}%
 \contentsline {figure}{\numberline {5.6}{\ignorespaces Exemples de SED fittés}}{71}{figure.caption.36}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Cartographie du pull et du RMS en sortie de \textsc {\texttt {CIGALE}} }}{72}{figure.caption.37}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces \'Echantillonnage spectral d'une SED obtenue avec \textsc {\texttt {CIGALE}} }}{73}{figure.caption.38}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Cartographie du pull et du RMS en sortie de \textsc {\texttt {CIGALE}}\relax }}{72}{figure.caption.37}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces \'Echantillonnage spectral d'une SED obtenue avec \textsc {\texttt {CIGALE}}\relax }}{73}{figure.caption.38}%
 \contentsline {figure}{\numberline {5.9}{\ignorespaces Cube intrinsèque de la galaxie hôte de ZTF18accrorf}}{74}{figure.caption.39}%
 \addvspace {10\p@ }
 \contentsline {xchapter}{Réponse impulsionnelle de la SEDm et extraction de source ponctuelle}{75}{chapter.6}%
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Spectres des lampes à arc utilisées pour la SEDm}}{77}{figure.caption.42}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Distribution de la localisation des raies des lampes à arc}}{78}{figure.caption.43}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Distribution de l'écart type $\sigma _{line}$ des raies des lampes à arc}}{79}{figure.caption.44}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Chromaticité de la LSF}}{80}{figure.caption.45}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Résolution de la SEDm}}{81}{figure.caption.46}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Spectres des lampes à arc utilisées pour la SEDm}}{78}{figure.caption.42}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Distribution de la localisation des raies des lampes à arc}}{79}{figure.caption.43}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Distribution de l'écart type $\sigma _{line}$ des raies des lampes à arc}}{80}{figure.caption.44}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Chromaticité de la LSF}}{81}{figure.caption.45}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Résolution de la SEDm}}{82}{figure.caption.46}%
 \contentsline {figure}{\numberline {6.6}{\ignorespaces Application de la LSF}}{82}{figure.caption.47}%
 \contentsline {figure}{\numberline {6.7}{\ignorespaces Exemple de profil radial d'un étoile standard}}{85}{figure.caption.48}%
 \contentsline {figure}{\numberline {6.8}{\ignorespaces Matrice de corrélation des paramètres de PSF.}}{86}{figure.caption.49}%
@@ -59,14 +59,18 @@
 \contentsline {figure}{\numberline {6.17}{\ignorespaces Chromaticité des paramètres de forme de la PSF}}{94}{figure.caption.60}%
 \contentsline {figure}{\numberline {6.18}{\ignorespaces Spectre extrait de l'étoile standard 25d4655 en pseudo-ADU.}}{94}{figure.caption.61}%
 \contentsline {figure}{\numberline {6.19}{\ignorespaces Raies d'absorption telluriques}}{95}{figure.caption.62}%
-\contentsline {figure}{\numberline {6.20}{\ignorespaces Procédure d'ajustement de la calibration en flux}}{96}{figure.caption.63}%
-\contentsline {figure}{\numberline {6.21}{\ignorespaces Précision de la calibration en flux pour une étoile standard.}}{97}{figure.caption.64}%
+\contentsline {figure}{\numberline {6.20}{\ignorespaces Procédure d'ajustement de la calibration en flux}}{97}{figure.caption.63}%
+\contentsline {figure}{\numberline {6.21}{\ignorespaces Précision de la calibration en flux pour une étoile standard.}}{98}{figure.caption.64}%
+\contentsline {figure}{\numberline {6.22}{\ignorespaces Moyenne du ratio entre le flux de 2202 étoiles standards et leur spectre de référence.}}{99}{figure.caption.65}%
+\contentsline {figure}{\numberline {6.23}{\ignorespaces Distributions du RMS spectral des calibrations en flux pour différents intervalles spectraux}}{100}{figure.caption.66}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Modélisation de Scène et Extraction de Source}{101}{chapter.7}%
-\contentsline {xpart}{Simulations et Résultats}{105}{part.3}%
+\contentsline {xchapter}{Modélisation de scène et extraction de sources}{101}{chapter.7}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Concordance des champs de vue PS1 et SEDm.}}{103}{figure.caption.69}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Projection de la galaxie hôte dans le MLA.}}{104}{figure.caption.70}%
+\contentsline {xpart}{Simulations et Résultats}{107}{part.3}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Simulations de cubes de données et application d'\textsc {\texttt {HyperGal}} }{105}{chapter.8}%
+\contentsline {xchapter}{Simulations de cubes de données et application d'\textsc {\texttt {HyperGal}}\relax }{107}{chapter.8}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Data Release 2 de ZTF}{107}{chapter.9}%
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Paramètres SALT2 de stretch et couleur pour la DR2 de ZTF}}{108}{figure.caption.67}%
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Correlation entre les paramètres SALT2 de stretch et couleur (ZTF-DR2)}}{109}{figure.caption.68}%
+\contentsline {xchapter}{Data Release 2 de ZTF}{109}{chapter.9}%
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Paramètres SALT2 de stretch et couleur pour la DR2 de ZTF}}{110}{figure.caption.71}%
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Correlation entre les paramètres SALT2 de stretch et couleur (ZTF-DR2)}}{111}{figure.caption.72}%

@@ -8,20 +8,21 @@
 \contentsline {xchapter}{Un spectrographe 3D: La Spectral Energy Distribution machine}{35}{chapter.3}%
 \contentsline {xpart}{Extraction de spectre de Supernovae}{51}{part.2}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{\textsc {\texttt {HyperGal}} : Modéliseur de scène pour l'extraction de sources ponctuelles}{51}{chapter.4}%
+\contentsline {xchapter}{\textsc {\texttt {HyperGal}}\relax : Modéliseur de scène pour l'extraction de sources ponctuelles}{51}{chapter.4}%
 \addvspace {10\p@ }
 \contentsline {xchapter}{Modélisation hyperspectrale}{59}{chapter.5}%
 \contentsline {table}{\numberline {5.1}{\ignorespaces Caractéristiques des filtres $grizy$ de PAN-STARRS1 et du relevé $3\pi $ Stéradian.\relax }}{62}{table.caption.29}%
 \contentsline {table}{\numberline {5.2}{\ignorespaces Exemple de tableau d'entrée pour \textsc {\texttt {CIGALE}}\relax }}{67}{table.caption.34}%
-\contentsline {table}{\numberline {5.3}{\ignorespaces Paramètres d'entrées pour chaque module de \textsc {\texttt {CIGALE}} utilisé.\relax }}{70}{table.caption.35}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces Paramètres d'entrées pour chaque module de \textsc {\texttt {CIGALE}}\relax utilisé.\relax }}{70}{table.caption.35}%
 \addvspace {10\p@ }
 \contentsline {xchapter}{Réponse impulsionnelle de la SEDm et extraction de source ponctuelle}{75}{chapter.6}%
-\contentsline {table}{\numberline {6.1}{\ignorespaces Raies d'émission lampes à arc\relax }}{76}{table.caption.41}%
-\contentsline {table}{\numberline {6.2}{\ignorespaces Valeurs des paramètres des ajustements linéaires pour $\beta (\alpha )$ et $\sigma (\alpha )$\relax }}{89}{table.caption.56}%
+\contentsline {table}{\numberline {6.1}{\ignorespaces Raies d'émission lampes à arc\relax }}{77}{table.caption.41}%
+\contentsline {table}{\numberline {6.2}{\ignorespaces Valeurs des paramètres des ajustements linéaires pour $\beta (\alpha )$ et $\sigma (\alpha )$.\relax }}{89}{table.caption.56}%
+\contentsline {table}{\numberline {6.3}{\ignorespaces Description des distributions du RMS spectral des calibrations en flux.}}{99}{table.caption.67}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Modélisation de Scène et Extraction de Source}{101}{chapter.7}%
-\contentsline {xpart}{Simulations et Résultats}{105}{part.3}%
+\contentsline {xchapter}{Modélisation de scène et extraction de sources}{101}{chapter.7}%
+\contentsline {xpart}{Simulations et Résultats}{107}{part.3}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Simulations de cubes de données et application d'\textsc {\texttt {HyperGal}} }{105}{chapter.8}%
+\contentsline {xchapter}{Simulations de cubes de données et application d'\textsc {\texttt {HyperGal}}\relax }{107}{chapter.8}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Data Release 2 de ZTF}{107}{chapter.9}%
+\contentsline {xchapter}{Data Release 2 de ZTF}{109}{chapter.9}%

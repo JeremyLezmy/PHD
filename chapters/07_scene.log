@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  31 MAY 2022 16:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  3 JUN 2022 17:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1616,7 +1616,7 @@ Chapitre 7.
 
 (./07_scene.mtc1
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-4.
+3.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
@@ -1628,21 +1628,143 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+<../figures/07_scene/scaleadapted.png, id=47, 715.32846pt x 350.94312pt>
+File: ../figures/07_scene/scaleadapted.png Graphic file (type png)
+<use ../figures/07_scene/scaleadapted.png>
+Package pdftex.def Info: ../figures/07_scene/scaleadapted.png  used on input li
+ne 79.
+(pdftex.def)             Requested size: 409.71692pt x 201.0089pt.
+
+[2]
+<../figures/07_scene/projecthost.png, id=70, 715.2321pt x 354.123pt>
+File: ../figures/07_scene/projecthost.png Graphic file (type png)
+<use ../figures/07_scene/projecthost.png>
+Package pdftex.def Info: ../figures/07_scene/projecthost.png  used on input lin
+e 139.
+(pdftex.def)             Requested size: 409.71692pt x 202.85724pt.
+ [3 <../figures/07_scene/scaleadapted.png>]
+
+LaTeX Warning: Reference `ch:irf' on page 4 undefined on input line 170.
+
+
+LaTeX Warning: Reference `ch:irf' on page 4 undefined on input line 205.
+
+[4 <../figures/07_scene/projecthost.png>]
+
+LaTeX Warning: Reference `fig:allratio_std' on page 5 undefined on input line 2
+33.
+
+<../figures/07_scene/artefactssedmcube.pdf, id=96, 715.47299pt x 436.79988pt>
+File: ../figures/07_scene/artefactssedmcube.pdf Graphic file (type pdf)
+<use ../figures/07_scene/artefactssedmcube.pdf>
+Package pdftex.def Info: ../figures/07_scene/artefactssedmcube.pdf  used on inp
+ut line 250.
+(pdftex.def)             Requested size: 273.14923pt x 166.75882pt.
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 334--346
+[]$[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--346
+
+ []
+
+[5]
+<../figures/07_scene/fitted_metasliceZTF18accrorf_0.png, id=119, 1084.46297pt x
+ 313.44531pt>
+File: ../figures/07_scene/fitted_metasliceZTF18accrorf_0.png Graphic file (type
+ png)
+<use ../figures/07_scene/fitted_metasliceZTF18accrorf_0.png>
+Package pdftex.def Info: ../figures/07_scene/fitted_metasliceZTF18accrorf_0.png
+  used on input line 361.
+(pdftex.def)             Requested size: 364.19667pt x 105.26428pt.
+<../figures/07_scene/fitted_metasliceZTF18accrorf_1.png, id=120, 1084.46297pt x
+ 293.00323pt>
+File: ../figures/07_scene/fitted_metasliceZTF18accrorf_1.png Graphic file (type
+ png)
+<use ../figures/07_scene/fitted_metasliceZTF18accrorf_1.png>
+Package pdftex.def Info: ../figures/07_scene/fitted_metasliceZTF18accrorf_1.png
+  used on input line 362.
+(pdftex.def)             Requested size: 364.19667pt x 98.39923pt.
+<../figures/07_scene/fitted_metasliceZTF18accrorf_2.png, id=121, 1084.46297pt x
+ 293.00323pt>
+File: ../figures/07_scene/fitted_metasliceZTF18accrorf_2.png Graphic file (type
+ png)
+<use ../figures/07_scene/fitted_metasliceZTF18accrorf_2.png>
+Package pdftex.def Info: ../figures/07_scene/fitted_metasliceZTF18accrorf_2.png
+  used on input line 363.
+(pdftex.def)             Requested size: 364.19667pt x 98.39923pt.
+<../figures/07_scene/fitted_metasliceZTF18accrorf_3.png, id=122, 1084.46297pt x
+ 293.00323pt>
+File: ../figures/07_scene/fitted_metasliceZTF18accrorf_3.png Graphic file (type
+ png)
+<use ../figures/07_scene/fitted_metasliceZTF18accrorf_3.png>
+Package pdftex.def Info: ../figures/07_scene/fitted_metasliceZTF18accrorf_3.png
+  used on input line 364.
+(pdftex.def)             Requested size: 364.19667pt x 98.39923pt.
+<../figures/07_scene/fitted_metasliceZTF18accrorf_4.png, id=123, 1084.46297pt x
+ 293.00323pt>
+File: ../figures/07_scene/fitted_metasliceZTF18accrorf_4.png Graphic file (type
+ png)
+<use ../figures/07_scene/fitted_metasliceZTF18accrorf_4.png>
+Package pdftex.def Info: ../figures/07_scene/fitted_metasliceZTF18accrorf_4.png
+  used on input line 365.
+(pdftex.def)             Requested size: 364.19667pt x 98.39923pt.
+<../figures/07_scene/fitted_metasliceZTF18accrorf_5.png, id=124, 1084.46297pt x
+ 293.00323pt>
+File: ../figures/07_scene/fitted_metasliceZTF18accrorf_5.png Graphic file (type
+ png)
+<use ../figures/07_scene/fitted_metasliceZTF18accrorf_5.png>
+Package pdftex.def Info: ../figures/07_scene/fitted_metasliceZTF18accrorf_5.png
+  used on input line 366.
+(pdftex.def)             Requested size: 364.19667pt x 98.39923pt.
+
+
+LaTeX Warning: Float too large for page by 39.4301pt on input line 378.
+
+<../figures/07_scene/heatmapcorrelation_metaslice.pdf, id=126, 945.44594pt x 51
+5.98853pt>
+File: ../figures/07_scene/heatmapcorrelation_metaslice.pdf Graphic file (type p
+df)
+<use ../figures/07_scene/heatmapcorrelation_metaslice.pdf>
+Package pdftex.def Info: ../figures/07_scene/heatmapcorrelation_metaslice.pdf  
+used on input line 385.
+(pdftex.def)             Requested size: 432.48051pt x 236.02701pt.
+
+Overfull \hbox (0.6459pt too wide) in paragraph at lines 402--404
+[]\T1/cmr/m/n/12 (-20) Nous uti-li-sons éga-le-ment pour l'el-lip-ti-cité et l'
+orien-ta-tion de la PSF re-la-tive (SEDm/PS1)
+ []
+
+[6 <../figures/07_scene/artefactssedmcube.pdf>] [7 <../figures/07_scene/fitted_
+metasliceZTF18accrorf_0.png> <../figures/07_scene/fitted_metasliceZTF18accrorf_
+1.png> <../figures/07_scene/fitted_metasliceZTF18accrorf_2.png> <../figures/07_
+scene/fitted_metasliceZTF18accrorf_3.png> <../figures/07_scene/fitted_metaslice
+ZTF18accrorf_4.png> <../figures/07_scene/fitted_metasliceZTF18accrorf_5.png>]
+[8 <../figures/07_scene/heatmapcorrelation_metaslice.pdf>]
+<../figures/07_scene/chromaticity_targetZTF18accrorf.pdf, id=214, 1073.50009pt 
+x 403.16988pt>
+File: ../figures/07_scene/chromaticity_targetZTF18accrorf.pdf Graphic file (typ
+e pdf)
+<use ../figures/07_scene/chromaticity_targetZTF18accrorf.pdf>
+Package pdftex.def Info: ../figures/07_scene/chromaticity_targetZTF18accrorf.pd
+f  used on input line 416.
+(pdftex.def)             Requested size: 318.66948pt x 119.67845pt.
+
 
 LaTeX Font Warning: Font shape `T1/cmtt/bx/sc' undefined
-(Font)              using `T1/cmtt/bx/n' instead on input line 62.
+(Font)              using `T1/cmtt/bx/n' instead on input line 438.
 
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 62.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 438.
 (./07_scene.bbl (./07_scene.brf)
 \tf@brf=\write7
 \openout7 = `07_scene.brf'.
 
- [2]
+ [9 <../figures/07_scene/chromaticity_targetZTF18accrorf.pdf>] [10
 
-Package natbib Warning: Empty `thebibliography' environment on input line 4.
-
-)
+])
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the 07_scene.maf file.
@@ -1654,38 +1776,69 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the 07_scene.log file.
 
-[3
-
-] (./07_scene.aux)
+[11] (./07_scene.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `07_scene.brf' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: 884FE1D3CD4DB6ECB011B442CF73C960;285.
  ) 
 Here is how much of TeX's memory you used:
- 46545 strings out of 478994
- 987644 string characters out of 5858184
- 1531933 words of memory out of 5000000
- 62893 multiletter control sequences out of 15000+600000
- 426820 words of font info for 131 fonts, out of 8000000 for 9000
+ 46930 strings out of 478994
+ 995230 string characters out of 5858184
+ 1544783 words of memory out of 5000000
+ 63071 multiletter control sequences out of 15000+600000
+ 440464 words of font info for 230 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 137i,11n,148p,772b,776s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
-</usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></
-usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></us
-r/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/
-local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/lo
-cal/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/loca
-l/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/
-texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/te
-xlive/2021/texmf-dist/fonts/type1/public/cm-super/sftc1095.pfb></usr/local/texl
-ive/2021/texmf-dist/fonts/type1/public/cm-super/sftc1200.pfb></usr/local/texliv
-e/2021/texmf-dist/fonts/type1/public/cm-super/sftt1728.pfb>
-Output written on 07_scene.pdf (3 pages, 134645 bytes).
+ 137i,14n,148p,772b,782s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
+, replaced by a fixed one
+
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</
+usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
+sr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr
+/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/l
+ocal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loc
+al/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local
+/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/t
+exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/tex
+live/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texliv
+e/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2
+021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/20
+21/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/202
+1/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/t
+exmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texlive/2021/tex
+mf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2021/texmf
+-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2021/texmf-d
+ist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2021/texmf-dis
+t/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2021/texmf-dist/
+fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2021/texmf-dist/fo
+nts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2021/texmf-dist/font
+s/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2021/texmf-dist/fonts/
+type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/ty
+pe1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type
+1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/
+public/cm-super/sfrm2488.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pu
+blic/cm-super/sftc1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publ
+ic/cm-super/sftc1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public
+/cm-super/sfti1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/c
+m-super/sftt1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-
+super/sftt1728.pfb>
+Output written on 07_scene.pdf (11 pages, 11661567 bytes).
 PDF statistics:
- 141 PDF objects out of 1000 (max. 8388607)
- 124 compressed objects within 2 object streams
- 20 named destinations out of 1000 (max. 500000)
- 54917 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 403 PDF objects out of 1000 (max. 8388607)
+ 330 compressed objects within 4 object streams
+ 52 named destinations out of 1000 (max. 500000)
+ 87732 words of extra memory for PDF output out of 89155 (max. 10000000)
 

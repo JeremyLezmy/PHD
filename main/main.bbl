@@ -1,4 +1,4 @@
-\begin{thebibliography}{122}
+\begin{thebibliography}{124}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{\textsc{{Abdurro'uf}} {et~al.}(2021)\textsc{{Abdurro'uf}},
@@ -559,6 +559,10 @@
   \href{http://dx.doi.org/10.1086/117915}{\color{magenta}\aj},
   \href{https://ui.adsabs.harvard.edu/abs/1996AJ....111.1748F}{111, 1748}
 
+\bibitem[{\textsc{Gillies} {et~al.}(2007--)}]{shapely2007}
+\textsc{Gillies S.} {et~al.} 2007--, «~Shapely: manipulation and analysis of
+  geometric objects~»
+
 \bibitem[{\textsc{{Graham}} {et~al.}(2019)\textsc{{Graham}},
   \textsc{{Kulkarni}}, \textsc{{Bellm}}, \textsc{{Adams}},
   \textsc{{Barbarino}}, \textsc{{Blagorodnova}}, \textsc{{Bodewits}},
@@ -704,6 +708,18 @@
   from Core-collapse Supernova Contamination}~»,
   \href{http://dx.doi.org/10.3847/1538-4357/aa767b}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2017ApJ...843....6J}{843, 6}
+
+\bibitem[{\textsc{Jordahl} {et~al.}(2020)\textsc{Jordahl}, \textsc{den
+  Bossche}, \textsc{Fleischmann}, \textsc{Wasserman}, \textsc{McBride},
+  \textsc{Gerard}, \textsc{Tratner}, \textsc{Perry}, \textsc{Badaracco},
+  \textsc{Farmer}, \textsc{Hjelle}, \textsc{Snow}, \textsc{Cochran},
+  \textsc{Gillies}, \textsc{Culbertson}, \textsc{Bartos}, \textsc{Eubank},
+  \textsc{maxalbert}, \textsc{Bilogur}, \textsc{Rey}, \textsc{Ren},
+  \textsc{Arribas-Bel}, \textsc{Wasser}, \textsc{Wolf}, \textsc{Journois},
+  \textsc{Wilson}, \textsc{Greenhall}, \textsc{Holdgraf}, \textsc{Filipe} et
+  \textsc{Leblanc}}]{kelsey_jordahl_2020_3946761}
+\textsc{Jordahl K.}, \textsc{den Bossche J.~V.}, \textsc{Fleischmann M.}
+  {et~al.} 2020, «~geopandas/geopandas: v0.8.1~»
 
 \bibitem[{\textsc{{Kaiser}} {et~al.}(2002)\textsc{{Kaiser}}, \textsc{{Aussel}},
   \textsc{{Burke}}, \textsc{{Boesgaard}}, \textsc{{Chambers}}, \textsc{{Chun}},

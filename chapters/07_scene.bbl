@@ -1,4 +1,47 @@
-\begin{thebibliography}{0}
+\begin{thebibliography}{5}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{\textsc{Dembinski} {et~al.}(2020)\textsc{Dembinski},
+  \textsc{Ongmongkolkul}, \textsc{Deil}, \textsc{Hurtado}, \textsc{Schreiner},
+  \textsc{Feickert}, \textsc{Andrew}, \textsc{Burr}, \textsc{Rost},
+  \textsc{Pearce}, \textsc{Geiger}, \textsc{Wiedemann}, \textsc{Gonzalo},
+  \textsc{Gorelli} et \textsc{Zapata}}]{iminuit}
+\textsc{Dembinski H.}, \textsc{Ongmongkolkul P.}, \textsc{Deil C.} {et~al.}
+  2020, «~scikit-hep/iminuit: v1.5.4~»
+
+\bibitem[{\textsc{Gillies} {et~al.}(2007--)}]{shapely2007}
+\textsc{Gillies S.} {et~al.} 2007--, «~Shapely: manipulation and analysis of
+  geometric objects~»
+
+\bibitem[{\textsc{James} et \textsc{Roos}(1975)}]{James:1975dr}
+\textsc{James F.} et \textsc{Roos M.} 1975, «~{Minuit: A System for Function
+  Minimization and Analysis of the Parameter Errors and Correlations}~»,
+  \href{http://dx.doi.org/10.1016/0010-4655(75)90039-9}{\color{magenta}Comput.
+  Phys. Commun.}, 10, 343
+
+\bibitem[{\textsc{Jordahl} {et~al.}(2020)\textsc{Jordahl}, \textsc{den
+  Bossche}, \textsc{Fleischmann}, \textsc{Wasserman}, \textsc{McBride},
+  \textsc{Gerard}, \textsc{Tratner}, \textsc{Perry}, \textsc{Badaracco},
+  \textsc{Farmer}, \textsc{Hjelle}, \textsc{Snow}, \textsc{Cochran},
+  \textsc{Gillies}, \textsc{Culbertson}, \textsc{Bartos}, \textsc{Eubank},
+  \textsc{maxalbert}, \textsc{Bilogur}, \textsc{Rey}, \textsc{Ren},
+  \textsc{Arribas-Bel}, \textsc{Wasser}, \textsc{Wolf}, \textsc{Journois},
+  \textsc{Wilson}, \textsc{Greenhall}, \textsc{Holdgraf}, \textsc{Filipe} et
+  \textsc{Leblanc}}]{kelsey_jordahl_2020_3946761}
+\textsc{Jordahl K.}, \textsc{den Bossche J.~V.}, \textsc{Fleischmann M.}
+  {et~al.} 2020, «~geopandas/geopandas: v0.8.1~»
+
+\bibitem[{\textsc{{Waters}} {et~al.}(2020)\textsc{{Waters}},
+  \textsc{{Magnier}}, \textsc{{Price}}, \textsc{{Chambers}},
+  \textsc{{Burgett}}, \textsc{{Draper}}, \textsc{{Flewelling}},
+  \textsc{{Hodapp}}, \textsc{{Huber}}, \textsc{{Jedicke}}, \textsc{{Kaiser}},
+  \textsc{{Kudritzki}}, \textsc{{Lupton}}, \textsc{{Metcalfe}},
+  \textsc{{Rest}}, \textsc{{Sweeney}}, \textsc{{Tonry}}, \textsc{{Wainscoat}}
+  et \textsc{{Wood-Vasey}}}]{Waters2020}
+\textsc{{Waters} C.~Z.}, \textsc{{Magnier} E.~A.}, \textsc{{Price} P.~A.}
+  {et~al.} 2020, «~{Pan-STARRS Pixel Processing: Detrending, Warping,
+  Stacking}~»,
+  \href{http://dx.doi.org/10.3847/1538-4365/abb82b}{\color{magenta}\apjs},
+  \href{https://ui.adsabs.harvard.edu/abs/2020ApJS..251....4W}{251, 4}
 
 \end{thebibliography}
