@@ -6,8 +6,8 @@
 {\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {7.1.3.2}Composante de la supernova}{\reset@font\mtcSSSfont 5}{subsubsection.7.1.3.2}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.1.4}Ajustement de la scene 2D}{\reset@font\mtcSSfont 5}{subsection.7.1.4}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.1.5}Ajustement chromatique}{\reset@font\mtcSSfont 6}{subsection.7.1.5}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.2}Extraction des composantes}{\reset@font\mtcSfont 9}{section.7.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.2.1}Outputs de controle du pipeline}{\reset@font\mtcSSfont 9}{subsection.7.2.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.2.2}Extraction de la galaxie hôte}{\reset@font\mtcSSfont 9}{subsection.7.2.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.2.3}Extraction de la Supernova}{\reset@font\mtcSSfont 9}{subsection.7.2.3}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.3}Classification: \textsc {\texttt {SNID}}}{\reset@font\mtcSfont 9}{section.7.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.2}Extraction des sources}{\reset@font\mtcSfont 11}{section.7.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.2.1}Extraction de la galaxie hôte}{\reset@font\mtcSSfont 11}{subsection.7.2.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.2.2}Extraction de la Supernova}{\reset@font\mtcSSfont 14}{subsection.7.2.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.3}Classification: \textsc {\texttt {SNID}}}{\reset@font\mtcSfont 18}{section.7.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.4}Cas complexes}{\reset@font\mtcSfont 18}{section.7.4}}

@@ -19,7 +19,7 @@ Dans ce chapite, nous allons tout d'abord détailler le processus de
 modélisation de scène, puis nous présenterons les résultats d'extraction des
 différentes composantes qui la composent. Après avoir montré ces
 résultats pour un cas idéal, nous montrerons quelques extractions de cas
-plus complexes obtenus avec \hypergal.
+plus complexes obtenues avec \hypergal.
 \newpage
 
 \section{Modélisation de scène}
@@ -30,7 +30,11 @@ plus complexes obtenus avec \hypergal.
 
 La modélisation de scène implémentée dans \hypergal\ va globalement
 suivre la méthode utilisée pour l'extraction de source ponctuelle,
-présentée dans le chapitre précédent.
+présentée dans le chapitre précédent. Les cubes de données (observations) utilisés sont
+préalablement calibrés en flux, en utilisant la courbe de sensibilité
+inverse obtenue à partir de l'étoile standard observée la plus
+récente. Les rayons cosmiques sont également retirés à l'aide du module
+\pkg{ByeCr} \citep{Kimcontsep}.
 
 L'idée est de modéliser la scène pour $N$ méta-tranches couvrant un
 domaine spectral pertinent de la SEDm. En effectuant un ajustement de la
@@ -232,7 +236,7 @@ spectral $\lambda\in$[$5000$,$8500$]\AA. Ce choix est motivé par la
 précision spectrale de la calibration en flux de la
 Figure~\ref{fig:allratio_std} du chapitre précédent. Bien que notre
 modèle de fond ait été conçu pour prévenir de potentiels artefacts
-strucutrés, ceux-ci deviennent trop intenses au delà de ce domaine
+strucutrés, ceux-ci deviennent parfois trop intenses au delà de ce domaine
 spectral. En se restreignant à cet intervalle, nous réduisons le risque
 de valeurs d'ajustements aberrantes pouvant compliquer par la suite l'ajustement
 chromatique. De plus, la majorité des supernovae observées par la
@@ -348,7 +352,7 @@ Nous présentons dans la Figure~\ref{fig:metaslicescene} l'ajustement des
 $6$ méta-tranches par \hypergal\ pour ZTF18accrorf. Pour chaque longueur
 d'onde, nous montrons la scène ajustée, la scène observée, et le résidu
 avec le RMS spatial associé. Dans le cas de cette observation, notre RMS
-spatial varie de $1.8\%$ à $3.9\%$. Nous pouvons également remarqué
+spatial varie de $1.8\%$ à $3.9\%$. Nous pouvons également remarquer
 l'augmentation de RMS pour la méta-tranche la plus \textit{bleue}
 centrée sur $5285$\AA, probablement à cause d'un fond de plus en plus
 structuré comme illustré dans la Figure~\ref{fig:artefactssedmcube}. La
@@ -399,6 +403,22 @@ de la Moffat), et
 une constante pour $\eta$ (poids gaussienne/Moffat), $\mathcal{A}$ et
 $\mathcal{B}$ (ellipticité et orientation).
 
+Nous montrons dans la Figure~\ref{fig:chromaticity_target} la
+modélisation chromatique de ces 4 paramètres. 
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=0.78\textwidth]{../figures/07_scene/chromaticity_targetZTF18accrorf.pdf}
+  \caption[Chromaticité des paramètres de forme de la PSF de la supernova ZTF18accrorf]{Ajustement de
+    la chromaticité
+    des paramètres de forme de la PSF pour la supernova ZTF18accrorf, à
+    partir des 6 méta-tranches. \emph{À gauche} l'ajustement du paramètre $\alpha$ avec une
+    loi de puissance. \emph{À droite} de haut en bas, l'ajustement par une
+    constante de $\eta$ (poids entre la gaussienne et la Moffat) et des
+    paramètres d'ellipticité ($\mathcal{A}$) et d'orientation ($\mathcal{B}$). }
+  \label{fig:chromaticity_target}
+\end{figure}
+
 Nous utilisons également pour l'ellipticité et l'orientation de la PSF
 relative (SEDm/PS1) une modélisation chromatique par une constante.
 
@@ -410,34 +430,347 @@ source ponctuelle:
   \sigma(\lambda)=\sigma_{ref}\left(\frac{\lambda}{\lambda_{ref}}\right)^{\rho_{g}}
 \end{equation}
 
+De la même façon que pour la source ponctuelle, nous montrons dans la Figure~\ref{fig:chromaticity_host} la
+modélisation chromatique des paramètres décrivant la PSF relative par
+laquelle nous avons convolué les méta-tranches du cube intrinsèque.
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=0.78\textwidth]{../figures/07_scene/chromaticity_hostZTF18accrorf.pdf}
+  \caption[Chromaticité des paramètres de forme de la PSF relative
+  SEDm/PS1 pour l'hôte de ZTF18accrorf]{Ajustement de
+    la chromaticité
+    des paramètres de forme de la PSF relative SEDm/PS1 pour la galaxie
+    hôte de la supernova ZTF18accrorf, à
+    partir des 6 méta-tranches. \emph{À gauche} l'ajustement du paramètre $\sigma$ avec une
+    loi de puissance. \emph{À droite} de haut en bas, les
+    paramètres d'ellipticité ($\mathcal{A}_{G}$) et d'orientation ($\mathcal{B}_{G}$).}
+  \label{fig:chromaticity_host}
+\end{figure}
+
+Enfin, à partir de l'ajustement de la position d'ancrage lors de la
+projection pour chaque méta-tranche, nous modélisons les paramètres de la réfraction atmosphérique
+différentielle pour cette observation. Cet ajustement est illustré dans
+la Figure~\ref{fig:adr_ZTF18accrorf}.
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=0.78\textwidth]{../figures/07_scene/adr_ZTF18accrorf.pdf}
+  \caption[Modélisation de la réfraction atmosphérique
+  différentielle pour ZTF18accrorf]{Modélisation de la réfraction atmosphérique
+    différentielle pour ZTF18accrorf. Nous montrons ici
+    l'ajustement de la position d'ancrage ($x_{0}$,$y_{0}$) qui
+    représente le centroïde de la supernova par le modèle
+    d'ADR présenté dans le chapitre~\ref{ch:irf}. Les deux graphes du haut représentent l'ajustement des deux
+    coordonnées en fonction de la longueur d'onde. Le graphe du bas
+    illustre l'effet de la réfraction atmosphérique.}
+  \label{fig:adr_ZTF18accrorf}
+\end{figure}
+
+Si pour une raison quelconque l'ajustement d'une méta-tranche n'a pas
+convergé, celle-ci est ignorée lors de l'ajustement chromatique. D'autre
+part, nous limitons l'impacte de potentielles valeurs aberrantes en
+utilisant une fonction de perte de Huber \citep{Huber1964}. Plus
+exactement, nous utilisons la fonction de perte \textit{pseudo-Huber}
+d'ordre 1 (appelée \textit{soft-l1}),
+qui est une approximation lisse de la fonction originale, définie elle par
+morceau.
+Si on considère comme l'analogie méchanique à un ajustement de
+$\chi^{2}$ un système avec des forces attractives, alors les points de
+données attirent le modèle avec une force possédant un potentiel $V(a)$
+pour un décalage quadratique $a$. La Figure~\ref{fig:softl1} montre la
+forme d'un potentiel standard (fonction de perte linéaire), en
+comparaison avec un potentiel pseudo-Huber d'ordre 1. On voit que
+l'utilisation de ce potentiel permet d'affaiblir le poids des valeurs
+aberrantes, ce qui permet de ne pas faire dévier excessivement
+l'ajustement du modèle.
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=0.6\textwidth]{../figures/07_scene/softl1.pdf}
+  \caption[Fonction de perte \textit{pseudo-Huber}]{Mise en évidence du
+    poids plus faible accordé aux valeurs aberrantes avec la fonction de perte \textit{pseudo-Huber}.}
+  \label{fig:softl1}
+\end{figure}
+
+\begin{frshaded*}
+  \footnotesize  
+  \centerline{\emph{Estimation des valeurs initiales pour la modélisation
+      de scène des méta-tranches.}}  
+  Toute la procédure expliquée précédemment, de l'ajustement 2D des
+  méta-tranches à l'ajustement chromatique, est également réalisée directement entre les images PS1 et les
+  méta-tranches à transmission équivalentes du cube SEDm. Nous
+  effectuons cette étape préliminaire simultanément
+  avec la construction du cube intrinsèque afin d'optimiser le temps de
+  calcul et les ressources numériques utilisées.
+  Ces ajustements permettent d'obtenir un
+  jeu de paramètres initial pour l'ajustement de scène principal.
+\end{frshaded*}
+
+Une fois l'ajustement de la chromaticité des paramètres de la scène
+effectué, nous fixons tous les paramètres et procédons à l'ajustement
+de toutes les tranches du cube en laissant libre les paramètres de
+nuisances. Le coefficient d'amplitude correctif de la galaxie $G$ et
+également laissé libre pour toutes les tranches. Nous avons remarqué que cela
+permet de prévenir les
+potentiels sur/sous-estimations de l'intensité des raies modélisées dans
+le cube intrinsèque, d'éventuels fluctuations causées par une
+calibration en flux de mauvaise qualité ou encore des résidus
+telluriques dans le cube SEDm. Nous reviendrons sur ce point à la fin de
+cette section lors de l'extraction des sources pour illustrer nos propos.
+
+La Figure~\ref{fig:fullsceneZTF18accrorf} montre le résultat final de la
+modélisation de scène effectuée avec \hypergal\ pour la supernova
+ZTF18accrorf. Nous y présentons l'image 2D du cube de données SEDm et du cube
+modélisé empilés entre $5000$\AA\ et $8500$\AA. Afin de contrôler la
+qualité de l'ajustement, nous montrons également le pull spectral et le
+RMS spectral pour chaque spaxel.
+
+Le RMS spectral est calculé comme dans l'équation~\ref{eq:rms}. Le
+pull spectral est quant à lui calculé après intégration du spectre pour
+un spaxel donné de la façon suivante:
+
+\begin{equation}
+  \label{eq:pullspectral}
+  p_{spx}=\frac{\sum\limits_{\lambda}\left( y_{\lambda}-\widetilde{y}_{\lambda}\right)}{\sqrt{\sum\limits_{\lambda}\sigma_{\lambda}^{2}}}
+\end{equation}
+avec $\widetilde{y}$ la prédiction du modèle, $y$ la donnée dans le cube
+SEDm et $\sigma$ l'erreur sur $y$.
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.7\textwidth]{../figures/07_scene/chromaticity_targetZTF18accrorf.pdf}
-  \caption[Chromaticité des paramètres de forme de la PSF de la supernova ZTF18accrorf]{Ajustement de
-    la chromaticité
-    des paramètres de forme de la PSF pour la supernova ZTF18accrorf, à
-    partir des 6 méta-tranches. \emph{À gauche} l'ajustement du paramètre $\alpha$ avec une
-    loi de puissance. \emph{À droite} de haut en bas, l'ajustement par une
-    constante de $\eta$ (poids entre la gaussienne et la Moffat) et des
-    paramètres d'ellipticité ($\mathcal{A}$) et d'orientation ($\mathcal{B}$). }
-  \label{fig:chromaticity_target}
+  \includegraphics[width=0.8\textwidth]{../figures/07_scene/scene_rmspull_ZTF18accrorf.png}
+  \caption[Modélisation de scène complète pour
+  ZTF18accrorf.]{Modélisation de scène complète pour
+    ZTF18accrorf. \emph{En haut} nous montrons \emph{de gauche à droite}:
+  le cube de données SEDm empilé entre $5000$ et $8500$, puis le cube
+  modélisé par \hypergal\ empilé également sur le même domaine
+  spectral. La croix rouge indique la position ajustée de ZTF18accrorf à
+$7000$\AA, et la croix noire la position de la galaxie hôte. \emph{En
+  bas} nous montrons \emph{de gauche à droite}: le pull spectral tel que
+définit dans l'équation~\ref{eq:pullspectral}, et le RMS spectral en
+\%. Le pull nous permet de contrôler la présence éventuelle de structures dans le
+résidu, ce qui n'est pas le cas ici. Le RMS quant à lui nous indique une
+précision de l'ordre de $4\%$ sur le domaine spectral considéré au
+niveau des sources présentes dans le champ de vue de la SEDm. Les
+fluctuations du fond induisent un RMS spectral de l'ordre de $6$-$7\%$,
+et nous pouvons clairement voir les conséquences de l'artefact en haut à
+gauche du cube de données.}
+  \label{fig:fullsceneZTF18accrorf}
 \end{figure}
 
+\section{Extraction des sources}
 
-\section{Extraction des composantes}
-
-\subsection{Outputs de controle du pipeline}
-% \label{ssec:xxx}
+Une fois la modélisation de scène complétée, résultant en
+un cube 3D dans l'espace des observations de la SEDm, nous sommes en mesure
+d'extraire chacune des composantes: le fond, la galaxie hôte et la source
+ponctuelle. 
 
 \subsection{Extraction de la galaxie hôte}
 % \label{ssec:xxx}
 
+Afin d'extraire la galaxie hôte du cube de données, nous l'isolons en
+soustrayant les modèles de fond et de la source ponctuelle au cube SEDm.
+
+Une galaxie n'étant pas une source ponctuelle, nous devons
+définir une ouverture afin d'en extraire le spectre.
+
+Nous utilisons pour cela l'outil \pkg{sep}\footnote{\url{http://github.com/kbarbary/sep}}
+\citep{Barbary2016Sep} (implémentation python de \pkg{Sextractor}
+\cite{Bertinsextractor}), en définissant une ellipse d'ouverture dans
+les images PS1 que nous
+projetons ensuite dans le MLA de la SEDm à l'aide des
+solutions WCS des deux espaces. Nous négligeons
+les effets d'ADR dans cette procédure, étant donné qu'ils induisent rarement un déplacement de plus d'un
+spaxel dans le champ de vue. Nous illustrons dans la
+Figure~\ref{fig:hostspecZTF18accrorf} l'extraction du spectre de la
+galaxie hôte de ZTF18accrorf, en considérant les spaxels mis en
+évidences sur l'image du cube empilée. Ce que nous montrons ici n'est
+pas le spectre de la galaxie modélisée, mais bien celui de la galaxie
+dans le cube de données de la SEDm, auquel nous avons retiré les modèles
+de fond et de la source ponctuelle.
+
+De la même façon que la modélisation
+hyperspectrale de la galaxie (et du fond) nous permet de lever la
+contamination de la supernova, la modélisation de la supernova nous
+permet également de réduire la contamination de la galaxie et de
+l'isoler dans les cubes d'observation.
+
+Connaissant également a priori le redshift utilisé pour la modélisation
+de la galaxie, nous indiquons la position déduite de quelques raies
+d'absorption et
+d'émission\footnote{\url{http://astronomy.nmsu.edu/drewski/tableofemissionlines.html}}\footnote{\url{http://classic.sdss.org/dr6/algorithms/linestable.html}}
+dans l'air \citep{Morton1991}, afin de visualiser la cohérence entre le
+spectre isolé dans les données et le redshift utilisé. Dans le cas de
+cette galaxie, nous pouvons par exemple voir la concordance entre le redshift
+$z=0.042$ et la position de la raie H$\alpha$.
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=0.9\textwidth]{../figures/07_scene/output_host_ZTF18accrorf.pdf}
+  \caption[Extraction du spectre de la galaxie hôte de
+  ZTF18accrorf]{Extraction du spectre de la galaxie hôte de
+    ZTF18accrorf. \emph{À droite} nous montrons le cube de données de la
+  SEDm, auquel nous avons soustrait les modèles de fond et de la source
+  ponctuelle afin d'isoler la galaxie hôte. Les spaxels sélectionnés par
+les losanges noirs indiquent ceux appartenant à l'ouverture utilisée
+pour l'extraction du spectre. \emph{À gauche} nous montrons donc le
+spectre extrait et l'erreur associée contenus dans cette ouverture. Tout le domaine spectral
+de la SEDm est affiché, et les bandes grises indiquent les zones
+auxquelles nous accordons généralement une faible fiabilité ($\lambda<5000$\AA\ et
+$\lambda>8500$\AA) due aux artefacts
+présents dans les cubes SEDm. Nous montrons également la position
+théorique de quelques raies d'émission et d'absorption sachant le
+redshift utilisé, et nous pouvons voir ici la bonne cohérence avec le
+spectre extrait.}
+  \label{fig:hostspecZTF18accrorf}
+\end{figure}
+
 \subsection{Extraction de la Supernova}
 % \label{ssec:xxx}
 
+De la même façon qu'avec la galaxie hôte, nous pouvons vérifier la
+l'isolation de la supernova dans le cube de données en y soustrayant le
+modèle de fond et de la galaxie. La
+Figure~\ref{fig:targetisolatedZTF18accrorf} illustre ainsi le cube SEDm
+de l'observation auquel nous avons retiré les deux autres composantes,
+et nous pouvons voir à quel point la supernova est bien définie sans
+structure résiduelle apparente. Nous pouvons par exemple définir une
+ouverture arbitraire (ici circulaire de $8$ spaxels $\sim4\farcs5$ de
+rayon) centrée sur la position de la source ponctuelle et porter un
+visuel sur le pull et le RMS spectral dans cette ouverture. Pour cette
+observation nous pouvons par exemple voir un RMS spectral de l'ordre de
+$3$-$4\%$ au niveau de la position de la supernova dans le cube, et
+aucune structure résiduelle apparente (en provenance d'une mauvaise
+modélisation galactique par exemple).
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.99\textwidth]{../figures/07_scene/output_sn_ifu_ZTF18accrorf.pdf}
+  \caption[Isolation de la supernova ZTF18accrorf dans le cube
+  SEDm.]{Isolation de la supernova ZTF18accrorf dans le cube
+    SEDm. Chaque image de cube 3D correspond à un empilement entre
+    $5000$ et $8500$\AA. \emph{De gauche à droite}: (a) le cube de données SEDm auquel
+    nous avons soustrait le modèle de la galaxie et celui du fond, ce
+    qui met en évidence la qualité d'isolation de la supernova et à
+    fortiori la qualité de modélisation des deux autres composantes. (b)
+  Le cube modèle de la source ponctuelle limité à une ouverture
+  circulaire de $8$ spaxels ($\sim4\farcs5$) de
+rayon, définie par les spaxels mis en évidence dans (a) par les losanges
+noirs. (c) Le pull spectral et (d) le RMS spectral dans cette ouverture,
+tout deux définis comme dans la
+Figure~\ref{fig:fullsceneZTF18accrorf}. Nous pouvons voir ici l'absence
+de structure résiduelle, et un RMS spectral de l'ordre de $3$-$4\%$ au niveau de la position de ZTF18accrorf.}
+  \label{fig:targetisolatedZTF18accrorf}
+\end{figure}
+
+Nous pouvons également vérifier la robustesse du modèle de PSF que nous
+avons défini et contraint dans le chapitre précédent en superposant le
+modèle ajusté de profil radial aux données. Afin de permettre également
+un contrôle de la qualité de l'ajustement du fond de ciel, et la
+présence éventuelle de structure résiduelle, nous visualisons ce profil
+radial après soustraction du fond ajusté et du modèle hyperspectral de
+la galaxie hôte. Nous montrons ainsi dans la
+Figure~\ref{fig:radialprofileZTF18accrorf} le profil radial ajusté pour
+une des méta-tranches. Nous pouvons voir que le fond de ciel tend bien
+vers $0$, ce qui indique une bonne estimation de cette composante. Par
+ailleurs, nous n'observons pas de valeur aberrante dans la supernova
+isolée, ce qui à son tour traduit une soustraction galactique sans
+résidu notable.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.99\textwidth]{../figures/07_scene/output_sn_profile_ZTF18accrorf.pdf}
+  \caption[Profile radial et modèle de PSF pour une méta-tranche de
+  ZTF18accrorf.]{Profile radial et modèle de PSF pour la méta-tranche à
+    $7050$\AA\ de ZTF18accrorf. Le flux est ici normalisé à $1$. Les
+    points noirs indiquent les données de la méta-tranche du cube
+    d'observation de la SEDm, après soustraction du modèle de la galaxie
+  et du fond. Les courbes verte, bleue et rouge montrent respectivement
+  l'ajustement de la composante gaussienne, Moffat et profil radial
+  total du modèle de PSF pour cette méta-tranche. Le trait horizontal en
+pointillés indique un fond de ciel à $0$ si cette composante a été
+parfaitement soustraite. Les ailes du profil tendant clairement vers
+cette valeur, cela nous conforte quant à la qualité d'ajustement de
+cette composante. Connaissant la taille d'un spaxel, nous pouvons
+également déterminer la largeur à mi-hauteur à cette longueur d'onde, ici
+$2\farcs4$.}
+  \label{fig:radialprofileZTF18accrorf}
+\end{figure}
+
+L'ajustement de l'amplitude de la PSF de la supernova à chaque tranche
+nous permet ainsi d'en extraire le spectre, de la même façon qu'avec les
+étoiles standards. Nous montrons enfin dans la
+Figure~\ref{fig:spectraZTF18accrorf} le spectre extrait de ZTF18accrorf.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.99\textwidth]{../figures/07_scene/output_sn_spectra_ZTF18accrorf.pdf}
+  \caption[Spectre extrait de ZTF18accrorf avec \hypergal.]{Spectre
+    extrait de ZTF18accrorf avec \hypergal. Tout le domaine spectral de
+    la SEDm est affiché, et les bandes grises indiquent les zones
+    auxquelles nous accordons généralement une faible fiabilité.}
+  \label{fig:spectraZTF18accrorf}
+\end{figure}
+
+Dans la Figure~\ref{fig:allsourcesZTF18accrorf} nous montrons la
+superposition du spectre des 3 composantes (fond, galaxie, supernova),
+ainsi que l'ajustement du coefficient de correction $G$ du cube
+intrinsèque. L'objectif principal de cette visualisation et de vérifier
+une potentielle contamination entre les spectres, par exemple des raies
+d'emission de la galaxie, ce qui ne semble pas être le cas ici.
+Nous pouvons par ailleurs voir l'évolution chromatique du coefficient $G$,
+qui semble corriger dans le cube intrinsèque un excédant d'intensité de la raie d'émission O[III] vers
+$5200$\AA, et un déficit d'intensité de la raie H$\alpha$. Bien que nous
+n'ayons pas poussé l'analyse de cet effet, nous avons choisi pour le
+moment de laisser ce coefficient $G$ libre lors de l'ajustement
+linéaire des amplitudes par tranche spectrale, afin d'avoir cette
+liberté de correction.
+Le modèle de ciel présent dans cette figure correspond au coefficient
+de degré $0$ du modèle de fond $b_{0}$ (equation~\ref{eq:backgroundcurved2}).
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.99\textwidth]{../figures/07_scene/overlapped_component_ZTF18accrorf.pdf}
+  \caption[Superposition du spectre des 3 composantes de la scène
+  ZTF18accrorf.]{Superposition du spectre des 3 composantes de la scène d'observation de ZTF18accrorf: fond de
+    ciel en rouge,
+    galaxie en vert, supernova en noir.
+    Nous montrons également l'évolution chromatique de l'ajustement du coefficient de correction $G$ du cube
+    intrinsèque. Le but de cette superposition est de mettre en évidence
+    l'absence de contamination évidente entre les spectres notamment par
+    les raies d'émission de la galaxie. L'évolution du paramètre $G$
+    montre l'adaptation de l'intensité des raies O[III] et H$\alpha$ aux observations.}
+  \label{fig:allsourcesZTF18accrorf}
+\end{figure}
+
+Nous présentons finalement le schéma complet de toute la procédure de
+modélisation de scène avec \hypergal. Un script d'automatisation de tout
+ce processus est également disponible dans le code du pipeline, prenant
+en entrée le nom d'une cible observée avec ZTF (par exemple
+ZTF18accrorf), et/ou le chemin d'accès au cube de données. Les
+informations relatives à l'évènement transitoire étudié (redshift, RA/DEC) sont
+automatiquement récupérées sur le serveur
+Fritz\footnote{\url{https://fritz.science/}} \citep{skyportal2019,
+  duev2019real, Kasliwal_2019, Duev2021}, mais peuvent également être
+imposées en argument. \hypergal est conçu pour être suffisamment
+flexible et adaptable à n'importe quel cube 3D.
+Par défaut, le pipeline est optimisé avec la librairie de calculs
+parallèles \pkg{DASK}\footnote{\url{https://www.dask.org}} \citep{Dask}.
+
+\begin{sidewaysfigure}
+  \centering
+  \includegraphics[width=0.99\textwidth]{../figures/07_scene/Fulldaghypergal.pdf}
+  \caption{Schéma complet du fonctionnement d'\hypergal.}
+  \label{fig:fulldag}
+\end{sidewaysfigure}
+
 \section{Classification: \pkg{SNID}}
 % \label{ssec:xxx}
+
+\section{Cas complexes}
+% \label{ssec:xxx}
+
 
 \bibliographystyle{../main/aa_url2}
 \bibliography{99_references}

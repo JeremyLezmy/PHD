@@ -1,5 +1,20 @@
-\begin{thebibliography}{5}
+\begin{thebibliography}{15}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{\textsc{Barbary}(2016)}]{Barbary2016Sep}
+\textsc{Barbary K.} 2016, «~SEP: Source Extractor as a library~»,
+  \href{http://dx.doi.org/10.21105/joss.00058}{\color{magenta}Journal of Open
+  Source Software}, 1, 58
+
+\bibitem[{\textsc{{Bertin}} et \textsc{{Arnouts}}(1996)}]{Bertinsextractor}
+\textsc{{Bertin} E.} et \textsc{{Arnouts} S.} 1996, «~{SExtractor: Software
+  for source extraction.}~»,
+  \href{http://dx.doi.org/10.1051/aas:1996164}{\color{magenta}\aaps},
+  \href{https://ui.adsabs.harvard.edu/abs/1996A&AS..117..393B}{117, 393}
+
+\bibitem[{\textsc{{Dask Development Team}}(2016)}]{Dask}
+\textsc{{Dask Development Team}}. 2016, Dask: Library for dynamic task
+  scheduling
 
 \bibitem[{\textsc{Dembinski} {et~al.}(2020)\textsc{Dembinski},
   \textsc{Ongmongkolkul}, \textsc{Deil}, \textsc{Hurtado}, \textsc{Schreiner},
@@ -9,9 +24,29 @@
 \textsc{Dembinski H.}, \textsc{Ongmongkolkul P.}, \textsc{Deil C.} {et~al.}
   2020, «~scikit-hep/iminuit: v1.5.4~»
 
+\bibitem[{\textsc{Duev} {et~al.}(2019)\textsc{Duev}, \textsc{Mahabal},
+  \textsc{Masci}, \textsc{Graham}, \textsc{Rusholme}, \textsc{Walters},
+  \textsc{Karmarkar}, \textsc{Frederick}, \textsc{Kasliwal},
+  \textsc{Rebbapragada} {et~al.}}]{duev2019real}
+\textsc{Duev D.~A.}, \textsc{Mahabal A.}, \textsc{Masci F.~J.} {et~al.} 2019,
+  «~Real-bogus classification for the Zwicky Transient Facility using deep
+  learning~», Monthly Notices of the Royal Astronomical Society, 489, 3582
+
+\bibitem[{\textsc{{Duev}} et \textsc{{van der Walt}}(2021)}]{Duev2021}
+\textsc{{Duev} D.~A.} et \textsc{{van der Walt} S.~J.} 2021,
+  «~{Phenomenological classification of the Zwicky Transient Facility
+  astronomical event alerts}~»,
+  \href{https://ui.adsabs.harvard.edu/abs/2021arXiv211112142D}{arXiv e-prints,
+  arXiv:2111.12142}
+
 \bibitem[{\textsc{Gillies} {et~al.}(2007--)}]{shapely2007}
 \textsc{Gillies S.} {et~al.} 2007--, «~Shapely: manipulation and analysis of
   geometric objects~»
+
+\bibitem[{\textsc{Huber}(1964)}]{Huber1964}
+\textsc{Huber P.~J.} 1964, «~{Robust Estimation of a Location Parameter}~»,
+  \href{http://dx.doi.org/10.1214/aoms/1177703732}{\color{magenta}The Annals of
+  Mathematical Statistics}, 35, 73
 
 \bibitem[{\textsc{James} et \textsc{Roos}(1975)}]{James:1975dr}
 \textsc{James F.} et \textsc{Roos M.} 1975, «~{Minuit: A System for Function
@@ -30,6 +65,39 @@
   \textsc{Leblanc}}]{kelsey_jordahl_2020_3946761}
 \textsc{Jordahl K.}, \textsc{den Bossche J.~V.}, \textsc{Fleischmann M.}
   {et~al.} 2020, «~geopandas/geopandas: v0.8.1~»
+
+\bibitem[{\textsc{Kasliwal} {et~al.}(2019)\textsc{Kasliwal}, \textsc{Cannella},
+  \textsc{Bagdasaryan}, \textsc{Hung}, \textsc{Feindt}, \textsc{Singer},
+  \textsc{Coughlin}, \textsc{Fremling}, \textsc{Walters}, \textsc{Duev},
+  \textsc{Itoh} et \textsc{Quimby}}]{Kasliwal_2019}
+\textsc{Kasliwal M.~M.}, \textsc{Cannella C.}, \textsc{Bagdasaryan A.} {et~al.}
+  2019, «~The {GROWTH} Marshal: A Dynamic Science Portal for Time-domain
+  Astronomy~»,
+  \href{http://dx.doi.org/10.1088/1538-3873/aafbc2}{\color{magenta}Publications
+  of the Astronomical Society of the Pacific}, 131, 038003
+
+\bibitem[{\textsc{{Kim}} {et~al.}(2022)\textsc{{Kim}}, \textsc{{Rigault}},
+  \textsc{{Neill}}, \textsc{{Briday}}, \textsc{{Copin}}, \textsc{{Lezmy}},
+  \textsc{{Nicolas}}, \textsc{{Riddle}}, \textsc{{Sharma}}, \textsc{{Smith}},
+  \textsc{{Sollerman}} et \textsc{{Walters}}}]{Kimcontsep}
+\textsc{{Kim} Y.~L.}, \textsc{{Rigault} M.}, \textsc{{Neill} J.~D.} {et~al.}
+  2022, «~{New Modules for the SEDMachine to Remove Contaminations from Cosmic
+  Rays and Non-target Light: BYECR and CONTSEP}~»,
+  \href{http://dx.doi.org/10.1088/1538-3873/ac50a0}{\color{magenta}\pasp},
+  \href{https://ui.adsabs.harvard.edu/abs/2022PASP..134b4505K}{134, 024505}
+
+\bibitem[{\textsc{{Morton}}(1991)}]{Morton1991}
+\textsc{{Morton} D.~C.} 1991, «~{Atomic Data for Resonance Absorption Lines.
+  I. Wavelengths Longward of the Lyman Limit}~»,
+  \href{http://dx.doi.org/10.1086/191601}{\color{magenta}\apjs},
+  \href{https://ui.adsabs.harvard.edu/abs/1991ApJS...77..119M}{77, 119}
+
+\bibitem[{\textsc{van~der Walt} {et~al.}(2019)\textsc{van~der Walt},
+  \textsc{Crellin-Quick} et \textsc{Bloom}}]{skyportal2019}
+\textsc{van~der Walt S.~J.}, \textsc{Crellin-Quick A.} et \textsc{Bloom J.~S.}
+  2019, «~{SkyPortal}: An Astronomical Data Platform~»,
+  \href{http://dx.doi.org/10.21105/joss.01247}{\color{magenta}Journal of Open
+  Source Software}, 4
 
 \bibitem[{\textsc{{Waters}} {et~al.}(2020)\textsc{{Waters}},
   \textsc{{Magnier}}, \textsc{{Price}}, \textsc{{Chambers}},

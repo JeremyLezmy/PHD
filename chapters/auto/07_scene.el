@@ -29,8 +29,19 @@
     "eq:chi2hypergal"
     "fig:metaslicescene"
     "fig:corrmatrixmetaslice"
+    "fig:chromaticity_target"
     "eq:sigmahostchrom"
-    "fig:chromaticity_target")
+    "fig:chromaticity_host"
+    "fig:adr_ZTF18accrorf"
+    "fig:softl1"
+    "eq:pullspectral"
+    "fig:fullsceneZTF18accrorf"
+    "fig:hostspecZTF18accrorf"
+    "fig:targetisolatedZTF18accrorf"
+    "fig:radialprofileZTF18accrorf"
+    "fig:spectraZTF18accrorf"
+    "fig:allsourcesZTF18accrorf"
+    "fig:fulldag")
    (LaTeX-add-bibliographies
     "99_references"))
  :latex)

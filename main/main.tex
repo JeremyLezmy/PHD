@@ -26,7 +26,16 @@
 \renewcommand{\listfigurename}{Table des figures}
 \renewcommand{\listtablename}{Liste de tableaux}
 \setcounter{tocdepth}{4}
-%\setcounter{minitocdepth}{4}
+% \setcounter{minitocdepth}{4}
+
+\let\oldFootnote\footnote\newcommand\nextToken\relax
+
+\renewcommand\footnote[1]{%
+    \oldFootnote{#1}\futurelet\nextToken\isFootnote}
+
+\newcommand\isFootnote{%
+  \ifx\footnote\nextToken\textsuperscript{,}\fi}
+
 \begin{document}
     \subfile{../chapters/00_cover}
     \subfile{../chapters/10_remerciements}

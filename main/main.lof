@@ -67,10 +67,24 @@
 \contentsline {xchapter}{Modélisation de scène et extraction de sources}{101}{chapter.7}%
 \contentsline {figure}{\numberline {7.1}{\ignorespaces Concordance des champs de vue PS1 et SEDm.}}{103}{figure.caption.69}%
 \contentsline {figure}{\numberline {7.2}{\ignorespaces Projection de la galaxie hôte dans le MLA.}}{104}{figure.caption.70}%
-\contentsline {xpart}{Simulations et Résultats}{107}{part.3}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Exemple d'artefacts dans les cubes de données SEDm.}}{106}{figure.caption.71}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Ajustement des méta-tranches pour la modélisation de scène de ZTF18accrorf. }}{107}{figure.caption.74}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Matrice de corrélation des paramètres d'ajustement de scène pour une méta-tranche.}}{108}{figure.caption.75}%
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Chromaticité des paramètres de forme de la PSF de la supernova ZTF18accrorf}}{109}{figure.caption.76}%
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Chromaticité des paramètres de forme de la PSF relative SEDm/PS1 pour l'hôte de ZTF18accrorf}}{109}{figure.caption.77}%
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Modélisation de la réfraction atmosphérique différentielle pour ZTF18accrorf}}{110}{figure.caption.78}%
+\contentsline {figure}{\numberline {7.9}{\ignorespaces Fonction de perte \textit {pseudo-Huber}}}{111}{figure.caption.79}%
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Modélisation de scène complète pour ZTF18accrorf.}}{112}{figure.caption.80}%
+\contentsline {figure}{\numberline {7.11}{\ignorespaces Extraction du spectre de la galaxie hôte de ZTF18accrorf}}{113}{figure.caption.81}%
+\contentsline {figure}{\numberline {7.12}{\ignorespaces Isolation de la supernova ZTF18accrorf dans le cube SEDm.}}{114}{figure.caption.82}%
+\contentsline {figure}{\numberline {7.13}{\ignorespaces Profile radial et modèle de PSF pour une méta-tranche de ZTF18accrorf.}}{115}{figure.caption.83}%
+\contentsline {figure}{\numberline {7.14}{\ignorespaces Spectre extrait de ZTF18accrorf avec \textsc {\texttt {HyperGal}}\relax .}}{115}{figure.caption.84}%
+\contentsline {figure}{\numberline {7.15}{\ignorespaces Superposition du spectre des 3 composantes de la scène ZTF18accrorf.}}{116}{figure.caption.85}%
+\contentsline {figure}{\numberline {7.16}{\ignorespaces Schéma complet du fonctionnement d'\textsc {\texttt {HyperGal}}\relax .\relax }}{117}{figure.caption.86}%
+\contentsline {xpart}{Simulations et Résultats}{121}{part.3}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Simulations de cubes de données et application d'\textsc {\texttt {HyperGal}}\relax }{107}{chapter.8}%
+\contentsline {xchapter}{Simulations de cubes de données et application d'\textsc {\texttt {HyperGal}}\relax }{121}{chapter.8}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Data Release 2 de ZTF}{109}{chapter.9}%
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Paramètres SALT2 de stretch et couleur pour la DR2 de ZTF}}{110}{figure.caption.71}%
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Correlation entre les paramètres SALT2 de stretch et couleur (ZTF-DR2)}}{111}{figure.caption.72}%
+\contentsline {xchapter}{Data Release 2 de ZTF}{123}{chapter.9}%
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Paramètres SALT2 de stretch et couleur pour la DR2 de ZTF}}{124}{figure.caption.87}%
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Correlation entre les paramètres SALT2 de stretch et couleur (ZTF-DR2)}}{125}{figure.caption.88}%

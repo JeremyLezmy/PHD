@@ -7,7 +7,6 @@
 \frenchbsetup{StandardLists=true}
 \RequirePackage{threeparttable}
 \RequirePackage{adjustbox}
-
 \newcommand\Tstrut{\rule{0pt}{2.6ex}}         % = `top' strut
 \newcommand\Bstrut{\rule[-0.9ex]{0pt}{0pt}}
 \makeatletter\@addtoreset{chapter}{part}\makeatother%
@@ -105,6 +104,7 @@
 \RequirePackage{textcomp}
 \RequirePackage{gensymb}
 
+\RequirePackage{rotating}
 % Resume enumerate
 \RequirePackage{enumitem}
 
@@ -126,7 +126,7 @@
 % Pretty units
 \RequirePackage{siunitx}
 % Reset footnote per page
-\RequirePackage[perpage]{footmisc}
+\RequirePackage[perpage, multiple]{footmisc}
 
 \sisetup{%
   detect-all,

@@ -1,4 +1,4 @@
-\begin{thebibliography}{124}
+\begin{thebibliography}{128}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{\textsc{{Abdurro'uf}} {et~al.}(2021)\textsc{{Abdurro'uf}},
@@ -488,6 +488,14 @@
   \href{http://dx.doi.org/10.1088/1538-3873/ab4ca2}{\color{magenta}\pasp},
   \href{https://ui.adsabs.harvard.edu/abs/2020PASP..132c8001D}{132, 038001}
 
+\bibitem[{\textsc{Dembinski} {et~al.}(2020)\textsc{Dembinski},
+  \textsc{Ongmongkolkul}, \textsc{Deil}, \textsc{Hurtado}, \textsc{Schreiner},
+  \textsc{Feickert}, \textsc{Andrew}, \textsc{Burr}, \textsc{Rost},
+  \textsc{Pearce}, \textsc{Geiger}, \textsc{Wiedemann}, \textsc{Gonzalo},
+  \textsc{Gorelli} et \textsc{Zapata}}]{iminuit}
+\textsc{Dembinski H.}, \textsc{Ongmongkolkul P.}, \textsc{Deil C.} {et~al.}
+  2020, «~scikit-hep/iminuit: v1.5.4~»
+
 \bibitem[{\textsc{{Dhawan}} {et~al.}(2022)\textsc{{Dhawan}}, \textsc{{Goobar}},
   \textsc{{Smith}}, \textsc{{Johansson}}, \textsc{{Rigault}},
   \textsc{{Nordin}}, \textsc{{Biswas}}, \textsc{{Goldstein}},
@@ -681,11 +689,22 @@
   \href{http://dx.doi.org/10.1086/497119}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2005ApJ...634.1190H}{634, 1190}
 
+\bibitem[{\textsc{Huber}(1964)}]{Huber1964}
+\textsc{Huber P.~J.} 1964, «~{Robust Estimation of a Location Parameter}~»,
+  \href{http://dx.doi.org/10.1214/aoms/1177703732}{\color{magenta}The Annals of
+  Mathematical Statistics}, 35, 73
+
 \bibitem[{\textsc{{Inoue}}(2011)}]{Inoue2011}
 \textsc{{Inoue} A.~K.} 2011, «~{Rest-frame ultraviolet-to-optical spectral
   characteristics of extremely metal-poor and metal-free galaxies}~»,
   \href{http://dx.doi.org/10.1111/j.1365-2966.2011.18906.x}{\color{magenta}\mnras},
   \href{https://ui.adsabs.harvard.edu/abs/2011MNRAS.415.2920I}{415, 2920}
+
+\bibitem[{\textsc{James} et \textsc{Roos}(1975)}]{James:1975dr}
+\textsc{James F.} et \textsc{Roos M.} 1975, «~{Minuit: A System for Function
+  Minimization and Analysis of the Parameter Errors and Correlations}~»,
+  \href{http://dx.doi.org/10.1016/0010-4655(75)90039-9}{\color{magenta}Comput.
+  Phys. Commun.}, 10, 343
 
 \bibitem[{\textsc{{Johnson}} {et~al.}(2021)\textsc{{Johnson}}, \textsc{{Leja}},
   \textsc{{Conroy}} et \textsc{{Speagle}}}]{JohnsonProspector}
@@ -930,6 +949,12 @@
   Instrumentation Engineers (SPIE) Conference Series, Vol. 7012, {\em
   Ground-based and Airborne Telescopes II}, ed. L.~M. {Stepp} \& R.~{Gilmozzi},
   \href{https://ui.adsabs.harvard.edu/abs/2008SPIE.7012E..1KM}{70121K}
+
+\bibitem[{\textsc{{Morton}}(1991)}]{Morton1991}
+\textsc{{Morton} D.~C.} 1991, «~{Atomic Data for Resonance Absorption Lines.
+  I. Wavelengths Longward of the Lyman Limit}~»,
+  \href{http://dx.doi.org/10.1086/191601}{\color{magenta}\apjs},
+  \href{https://ui.adsabs.harvard.edu/abs/1991ApJS...77..119M}{77, 119}
 
 \bibitem[{\textsc{{Muthukrishna}} {et~al.}(2019)\textsc{{Muthukrishna}},
   \textsc{{Parkinson}} et \textsc{{Tucker}}}]{MuthukrishnaDash}

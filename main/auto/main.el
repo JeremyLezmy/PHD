@@ -41,7 +41,10 @@
     "xpatch")
    (TeX-add-symbols
     '("addparttoc" 1)
-    "protect")
+    "nextToken"
+    "isFootnote"
+    "protect"
+    "oldFootnote")
    (LaTeX-add-bibliographies
     "../chapters/99_references"))
  :latex)
