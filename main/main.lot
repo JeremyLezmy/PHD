@@ -16,14 +16,14 @@
 \contentsline {table}{\numberline {5.3}{\ignorespaces Paramètres d'entrées pour chaque module de \textsc {\texttt {CIGALE}}\relax utilisé.\relax }}{70}{table.caption.35}%
 \addvspace {10\p@ }
 \contentsline {xchapter}{Réponse impulsionnelle de la SEDm et extraction de source ponctuelle}{75}{chapter.6}%
-\contentsline {table}{\numberline {6.1}{\ignorespaces Raies d'émission lampes à arc\relax }}{77}{table.caption.41}%
-\contentsline {table}{\numberline {6.2}{\ignorespaces Valeurs des paramètres des ajustements linéaires pour $\beta (\alpha )$ et $\sigma (\alpha )$.\relax }}{89}{table.caption.56}%
-\contentsline {table}{\numberline {6.3}{\ignorespaces Description des distributions du RMS spectral des calibrations en flux.}}{99}{table.caption.67}%
+\contentsline {table}{\numberline {6.1}{\ignorespaces Raies d'émission lampes à arc\relax }}{76}{table.caption.41}%
+\contentsline {table}{\numberline {6.2}{\ignorespaces Valeurs des paramètres des ajustements linéaires pour $\beta (\alpha )$ et $\sigma (\alpha )$.\relax }}{88}{table.caption.56}%
+\contentsline {table}{\numberline {6.3}{\ignorespaces Description des distributions du RMS spectral des calibrations en flux.}}{98}{table.caption.67}%
 \addvspace {10\p@ }
 \contentsline {xchapter}{Modélisation de scène et extraction de sources}{101}{chapter.7}%
 \contentsline {table}{\numberline {7.1}{\ignorespaces Paramètres de modélisation de scène 2D avec \textsc {\texttt {HyperGal}}\relax .}}{108}{table.caption.73}%
-\contentsline {xpart}{Simulations et Résultats}{121}{part.3}%
+\contentsline {xpart}{Simulations et Résultats}{125}{part.3}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Simulations de cubes de données et application d'\textsc {\texttt {HyperGal}}\relax }{121}{chapter.8}%
+\contentsline {xchapter}{Validation du pipeline \textsc {\texttt {HyperGal}}\relax }{125}{chapter.8}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Data Release 2 de ZTF}{123}{chapter.9}%
+\contentsline {xchapter}{Data Release 2 de ZTF}{127}{chapter.9}%

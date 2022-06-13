@@ -1,4 +1,4 @@
-\begin{thebibliography}{128}
+\begin{thebibliography}{133}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{\textsc{{Abdurro'uf}} {et~al.}(2021)\textsc{{Abdurro'uf}},
@@ -475,6 +475,10 @@
   \href{http://dx.doi.org/10.1088/0004-637X/784/1/83}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2014ApJ...784...83D}{784, 83}
 
+\bibitem[{\textsc{{Dask Development Team}}(2016)}]{Dask}
+\textsc{{Dask Development Team}}. 2016, Dask: Library for dynamic task
+  scheduling
+
 \bibitem[{\textsc{{Dekany}} {et~al.}(2020)\textsc{{Dekany}}, \textsc{{Smith}},
   \textsc{{Riddle}}, \textsc{{Feeney}}, \textsc{{Porter}}, \textsc{{Hale}},
   \textsc{{Zolkower}}, \textsc{{Belicki}}, \textsc{{Kaye}}, \textsc{{Henning}},
@@ -514,6 +518,21 @@
   Interstellar Dust. IV. The Silicate-Graphite-PAH Model in the Post-Spitzer
   Era}~», \href{http://dx.doi.org/10.1086/511055}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2007ApJ...657..810D}{657, 810}
+
+\bibitem[{\textsc{Duev} {et~al.}(2019)\textsc{Duev}, \textsc{Mahabal},
+  \textsc{Masci}, \textsc{Graham}, \textsc{Rusholme}, \textsc{Walters},
+  \textsc{Karmarkar}, \textsc{Frederick}, \textsc{Kasliwal},
+  \textsc{Rebbapragada} {et~al.}}]{duev2019real}
+\textsc{Duev D.~A.}, \textsc{Mahabal A.}, \textsc{Masci F.~J.} {et~al.} 2019,
+  «~Real-bogus classification for the Zwicky Transient Facility using deep
+  learning~», Monthly Notices of the Royal Astronomical Society, 489, 3582
+
+\bibitem[{\textsc{{Duev}} et \textsc{{van der Walt}}(2021)}]{Duev2021}
+\textsc{{Duev} D.~A.} et \textsc{{van der Walt} S.~J.} 2021,
+  «~{Phenomenological classification of the Zwicky Transient Facility
+  astronomical event alerts}~»,
+  \href{https://ui.adsabs.harvard.edu/abs/2021arXiv211112142D}{arXiv e-prints,
+  arXiv:2111.12142}
 
 \bibitem[{\textsc{{Edl\'en}}(1966)}]{Edlen1966}
 \textsc{{Edl\'en} B.} 1966, «~{The Refractive Index of Air}~»,
@@ -765,6 +784,16 @@
   Vol. 7733, {\em Ground-based and Airborne Telescopes III}, ed. L.~M. {Stepp},
   R.~{Gilmozzi}, \& H.~J. {Hall},
   \href{https://ui.adsabs.harvard.edu/abs/2010SPIE.7733E..0EK}{77330E}
+
+\bibitem[{\textsc{Kasliwal} {et~al.}(2019)\textsc{Kasliwal}, \textsc{Cannella},
+  \textsc{Bagdasaryan}, \textsc{Hung}, \textsc{Feindt}, \textsc{Singer},
+  \textsc{Coughlin}, \textsc{Fremling}, \textsc{Walters}, \textsc{Duev},
+  \textsc{Itoh} et \textsc{Quimby}}]{Kasliwal_2019}
+\textsc{Kasliwal M.~M.}, \textsc{Cannella C.}, \textsc{Bagdasaryan A.} {et~al.}
+  2019, «~The {GROWTH} Marshal: A Dynamic Science Portal for Time-domain
+  Astronomy~»,
+  \href{http://dx.doi.org/10.1088/1538-3873/aafbc2}{\color{magenta}Publications
+  of the Astronomical Society of the Pacific}, 131, 038003
 
 \bibitem[{\textsc{{Kauffmann}} {et~al.}(2003)\textsc{{Kauffmann}},
   \textsc{{Heckman}}, \textsc{{White}}, \textsc{{Charlot}},
@@ -1202,6 +1231,13 @@
   profiles - II. The Moffat PSF}~»,
   \href{http://dx.doi.org/10.1046/j.1365-8711.2001.04937.x}{\color{magenta}\mnras},
   \href{https://ui.adsabs.harvard.edu/abs/2001MNRAS.328..977T}{328, 977}
+
+\bibitem[{\textsc{van~der Walt} {et~al.}(2019)\textsc{van~der Walt},
+  \textsc{Crellin-Quick} et \textsc{Bloom}}]{skyportal2019}
+\textsc{van~der Walt S.~J.}, \textsc{Crellin-Quick A.} et \textsc{Bloom J.~S.}
+  2019, «~{SkyPortal}: An Astronomical Data Platform~»,
+  \href{http://dx.doi.org/10.21105/joss.01247}{\color{magenta}Journal of Open
+  Source Software}, 4
 
 \bibitem[{\textsc{{Wade}} et \textsc{{Horne}}(1988)}]{Wade1988atm}
 \textsc{{Wade} R.~A.} et \textsc{{Horne} K.} 1988, «~{The Radial Velocity

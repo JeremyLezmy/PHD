@@ -78,23 +78,23 @@
 \contentsline {subsection}{\numberline {5.3.1}\'Echantillonnage des spectres dans l'espace SEDm}{72}{subsection.5.3.1}%
 \contentsline {subsection}{\numberline {5.3.2}Construction du cube}{72}{subsection.5.3.2}%
 \contentsline {chapter}{\numberline {6}Réponse impulsionnelle de la SEDm et extraction de source ponctuelle}{75}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Réponse impulsionnelle spectrale: LSF}{77}{section.6.1}%
-\contentsline {subsection}{\numberline {6.1.1}Lampes à arc}{77}{subsection.6.1.1}%
-\contentsline {subsection}{\numberline {6.1.2}Détermination de la LSF}{77}{subsection.6.1.2}%
-\contentsline {section}{\numberline {6.2}Réponse impulsionnelle spatiale: PSF}{83}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Modèle de profil radial}{83}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}Entrainement du modèle}{85}{subsection.6.2.2}%
-\contentsline {subsubsection}{\numberline {6.2.2.1}Première contrainte: $\alpha $ vs $\beta $}{86}{subsubsection.6.2.2.1}%
-\contentsline {subsubsection}{\numberline {6.2.2.2}Seconde contrainte: $\alpha $ vs $\sigma $}{87}{subsubsection.6.2.2.2}%
-\contentsline {subsubsection}{\numberline {6.2.2.3}Poids relatif des distributions gaussienne/Moffat: $\eta $}{89}{subsubsection.6.2.2.3}%
-\contentsline {subsubsection}{\numberline {6.2.2.4}Profil radial contraint}{89}{subsubsection.6.2.2.4}%
-\contentsline {section}{\numberline {6.3}Extraction de la source ponctuelle}{90}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Méthode d'extraction}{90}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}R\'efraction atmosph\'erique diff\'erentielle}{90}{subsection.6.3.2}%
-\contentsline {subsection}{\numberline {6.3.3}Ajustement chromatique}{92}{subsection.6.3.3}%
-\contentsline {section}{\numberline {6.4}Calibration en flux}{95}{section.6.4}%
-\contentsline {subsection}{\numberline {6.4.1}Méthode}{95}{subsection.6.4.1}%
-\contentsline {subsection}{\numberline {6.4.2}Précision de la calibration}{96}{subsection.6.4.2}%
+\contentsline {section}{\numberline {6.1}Réponse impulsionnelle spectrale: LSF}{76}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Lampes à arc}{76}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Détermination de la LSF}{76}{subsection.6.1.2}%
+\contentsline {section}{\numberline {6.2}Réponse impulsionnelle spatiale: PSF}{82}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Modèle de profil radial}{82}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Entrainement du modèle}{84}{subsection.6.2.2}%
+\contentsline {subsubsection}{\numberline {6.2.2.1}Première contrainte: $\alpha $ vs $\beta $}{85}{subsubsection.6.2.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.2.2}Seconde contrainte: $\alpha $ vs $\sigma $}{86}{subsubsection.6.2.2.2}%
+\contentsline {subsubsection}{\numberline {6.2.2.3}Poids relatif des distributions gaussienne/Moffat: $\eta $}{88}{subsubsection.6.2.2.3}%
+\contentsline {subsubsection}{\numberline {6.2.2.4}Profil radial contraint}{88}{subsubsection.6.2.2.4}%
+\contentsline {section}{\numberline {6.3}Extraction de la source ponctuelle}{89}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Méthode d'extraction}{89}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}R\'efraction atmosph\'erique diff\'erentielle}{89}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}Ajustement chromatique}{91}{subsection.6.3.3}%
+\contentsline {section}{\numberline {6.4}Calibration en flux}{94}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Méthode}{94}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Précision de la calibration}{95}{subsection.6.4.2}%
 \contentsline {chapter}{\numberline {7}Modélisation de scène et extraction de sources}{101}{chapter.7}%
 \contentsline {section}{\numberline {7.1}Modélisation de scène}{102}{section.7.1}%
 \contentsline {subsection}{\numberline {7.1.1}Présentation de la méthode}{102}{subsection.7.1.1}%
@@ -107,27 +107,30 @@
 \contentsline {section}{\numberline {7.2}Extraction des sources}{111}{section.7.2}%
 \contentsline {subsection}{\numberline {7.2.1}Extraction de la galaxie hôte}{111}{subsection.7.2.1}%
 \contentsline {subsection}{\numberline {7.2.2}Extraction de la Supernova}{114}{subsection.7.2.2}%
-\contentsline {section}{\numberline {7.3}Classification: \textsc {\texttt {SNID}}}{116}{section.7.3}%
-\contentsline {section}{\numberline {7.4}Cas complexes}{116}{section.7.4}%
-\contentsline {part}{III\hspace {1em}Simulations et Résultats}{119}{part.3}%
-\contentsline {xpart}{Simulations et Résultats}{121}{part.3}%
-\contentsline {chapter}{\numberline {8}Simulations de cubes de données et application d'\textsc {\texttt {HyperGal}}\relax }{121}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Génération des simulations}{122}{section.8.1}%
-\contentsline {subsection}{\numberline {8.1.1}Cube de galaxies isolées}{122}{subsection.8.1.1}%
-\contentsline {subsection}{\numberline {8.1.2}Modèles de Supernovae}{122}{subsection.8.1.2}%
-\contentsline {subsection}{\numberline {8.1.3}Marginalisations}{122}{subsection.8.1.3}%
-\contentsline {subsection}{\numberline {8.1.4}Paramètres libres d'étude: Distance et contraste}{122}{subsection.8.1.4}%
-\contentsline {section}{\numberline {8.2}Résultats et Précision}{122}{section.8.2}%
-\contentsline {subsection}{\numberline {8.2.1}Précision spectrophotométrique}{122}{subsection.8.2.1}%
-\contentsline {subsection}{\numberline {8.2.2}Précision avec correction de continuum}{122}{subsection.8.2.2}%
-\contentsline {subsection}{\numberline {8.2.3}Efficacité de classification}{122}{subsection.8.2.3}%
-\contentsline {chapter}{\numberline {9}Data Release 2 de ZTF}{123}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Présentation de la DR2 de ZTF}{124}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Production d'\textsc {\texttt {HyperGal}}\relax et résultats}{124}{section.9.2}%
-\contentsline {subsection}{\numberline {9.2.1}Classification et détermination de l'échantillon DR2-Cosmo}{124}{subsection.9.2.1}%
-\contentsline {subsection}{\numberline {9.2.2}Premiers résultats}{124}{subsection.9.2.2}%
-\contentsline {subsection}{\numberline {9.2.3}Des SNeIa à la cosmologie: $H_{0}$, $w$ et $f\sigma _{8}$}{125}{subsection.9.2.3}%
+\contentsline {section}{\numberline {7.3}Classification: \textsc {\texttt {SNID}}}{118}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Cas complexes}{119}{section.7.4}%
+\contentsline {subsection}{\numberline {7.4.1}ZTF19acbjlnt}{119}{subsection.7.4.1}%
+\contentsline {subsection}{\numberline {7.4.2}ZTF19abormno}{121}{subsection.7.4.2}%
+\contentsline {subsection}{\numberline {7.4.3}ZTF20ablhlio}{122}{subsection.7.4.3}%
+\contentsline {part}{III\hspace {1em}Simulations et Résultats}{123}{part.3}%
+\contentsline {xpart}{Simulations et Résultats}{125}{part.3}%
+\contentsline {chapter}{\numberline {8}Validation du pipeline \textsc {\texttt {HyperGal}}\relax }{125}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Génération des simulations}{126}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1}Cube de galaxies isolées}{126}{subsection.8.1.1}%
+\contentsline {subsection}{\numberline {8.1.2}Modèles de Supernovae}{126}{subsection.8.1.2}%
+\contentsline {subsection}{\numberline {8.1.3}Marginalisations}{126}{subsection.8.1.3}%
+\contentsline {subsection}{\numberline {8.1.4}Paramètres libres d'étude: Distance et contraste}{126}{subsection.8.1.4}%
+\contentsline {section}{\numberline {8.2}Résultats et Précision}{126}{section.8.2}%
+\contentsline {subsection}{\numberline {8.2.1}Précision spectrophotométrique}{126}{subsection.8.2.1}%
+\contentsline {subsection}{\numberline {8.2.2}Précision avec correction de continuum}{126}{subsection.8.2.2}%
+\contentsline {subsection}{\numberline {8.2.3}Efficacité de classification}{126}{subsection.8.2.3}%
+\contentsline {chapter}{\numberline {9}Data Release 2 de ZTF}{127}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Présentation de la DR2 de ZTF}{128}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Production d'\textsc {\texttt {HyperGal}}\relax et résultats}{128}{section.9.2}%
+\contentsline {subsection}{\numberline {9.2.1}Classification et détermination de l'échantillon DR2-Cosmo}{128}{subsection.9.2.1}%
+\contentsline {subsection}{\numberline {9.2.2}Premiers résultats}{128}{subsection.9.2.2}%
+\contentsline {subsection}{\numberline {9.2.3}Des SNeIa à la cosmologie: $H_{0}$, $w$ et $f\sigma _{8}$}{129}{subsection.9.2.3}%
 \begingroup \def \cftpartpresnum {}
-\contentsline {part}{Conclusions \& perspectives}{125}{subsection.9.2.3}%
+\contentsline {part}{Conclusions \& perspectives}{129}{subsection.9.2.3}%
 \endgroup 
 \partbegin 

@@ -11,11 +11,11 @@
 
 (is-multi t)
 
-(bibview-cache ("Racine1996" . "Racine 1996, {The Telescope Point Spread Function}, \\pasp 108:699") ("BellmZTF2019" . "Bellm etal. 2019, {The Zwicky Transient Facility: System, \\pasp 131:018002") ("GrahamZTF2019" . "Graham etal. 2019, {The Zwicky Transient Facility: Science, \\pasp 131:078001") ("BCO3" . "Bruzual & Charlot 2003, {Stell. popul. synth. at resol., \\mnras 344:1000") ("Dale2014" . "Dale etal. 2014, {A Two param. Model Infr., \\apj 784:83") ("Buat2018" . "Buat etal. 2018, {Dust atten. H{\\ens. emiss. sample, \\aap 619:A135") ("Boquien2019" . "Boquien etal. 2019, {CIG. pyth. Code Invest. GALaxy, \\aap 622:A103") ("Tonry2008GPC1" . "Tonry etal. 2008, {Results from Pan STARRS Orthogonal, in: High Energy  Optical, 7021:702105") ("Tonry2006GPC1" . "Tonry etal. 2006, {The Pan STARRS Gigapixel Camera}, in: Advanced Maui Optical Space, E47") ("Hodapp2004a" . "Hodapp etal. 2004, {Optical design Pan STARRS telescopes}, in: Optical Design Engineering, 5249:165") ("Kaiser2010" . "Kaiser etal. 2010, {The Pan STARRS wide field, in: Ground based Airborne Telescopes, 7733:77330E") ("JohnsonProspector" . "Johnson etal. 2021, {Stell. Popul. Infer. with Prosp., \\apjs 254:22") ("Draine2007" . "Draine & Li 2007, {Infr. Emiss. from Interst. Dust., \\apj 657:810") ("Calzetti2000" . "Calzetti etal. 2000, {The Dust Content Opacity Actively, \\apj 533:682") ("ChambersPanstarrs" . "Chambers etal. 2016, {The Pan STARRS1 Surveys}, arXiv e-prints arXiv:1612") ("MuthukrishnaDash" . "Muthukrishna etal. 2019, {DASH: Deep Learning Automated Spectral, \\apj 885:85") ("FremlingZTFspec2020" . "Fremling etal. 2020, {The Zwicky Transient Facility Bright, \\apj 895:32") ("DekanyZTF2020" . "Dekany etal. 2020, {The Zwicky Trans. Facil. Observ., \\pasp 132:038001"))
+(bibview-cache ("Huber1964" . "Peter Huber 1964, {Robust Estimation Location Parameter}, The Annals of Mathematical Statistics 35:73") ("Waters2020" . "Waters etal. 2020, {Pan STARRS Pixel Processing: Detrending, \\apjs 251:4") ("Racine1996" . "Racine 1996, {The Telescope Point Spread Function}, \\pasp 108:699") ("BellmZTF2019" . "Bellm etal. 2019, {The Zwicky Transient Facility: System, \\pasp 131:018002") ("GrahamZTF2019" . "Graham etal. 2019, {The Zwicky Transient Facility: Science, \\pasp 131:078001") ("BCO3" . "Bruzual & Charlot 2003, {Stell. popul. synth. at resol., \\mnras 344:1000") ("Dale2014" . "Dale etal. 2014, {A Two param. Model Infr., \\apj 784:83") ("Buat2018" . "Buat etal. 2018, {Dust atten. H{\\ens. emiss. sample, \\aap 619:A135") ("Boquien2019" . "Boquien etal. 2019, {CIG. pyth. Code Invest. GALaxy, \\aap 622:A103") ("Tonry2008GPC1" . "Tonry etal. 2008, {Results from Pan STARRS Orthogonal, in: High Energy  Optical, 7021:702105") ("Tonry2006GPC1" . "Tonry etal. 2006, {The Pan STARRS Gigapixel Camera}, in: Advanced Maui Optical Space, E47") ("Hodapp2004a" . "Hodapp etal. 2004, {Optical design Pan STARRS telescopes}, in: Optical Design Engineering, 5249:165") ("Kaiser2010" . "Kaiser etal. 2010, {The Pan STARRS wide field, in: Ground based Airborne Telescopes, 7733:77330E") ("JohnsonProspector" . "Johnson etal. 2021, {Stell. Popul. Infer. with Prosp., \\apjs 254:22") ("Draine2007" . "Draine & Li 2007, {Infr. Emiss. from Interst. Dust., \\apj 657:810") ("Calzetti2000" . "Calzetti etal. 2000, {The Dust Content Opacity Actively, \\apj 533:682") ("ChambersPanstarrs" . "Chambers etal. 2016, {The Pan STARRS1 Surveys}, arXiv e-prints arXiv:1612") ("MuthukrishnaDash" . "Muthukrishna etal. 2019, {DASH: Deep Learning Automated Spectral, \\apj 885:85") ("FremlingZTFspec2020" . "Fremling etal. 2020, {The Zwicky Transient Facility Bright, \\apj 895:32") ("DekanyZTF2020" . "Dekany etal. 2020, {The Zwicky Trans. Facil. Observ., \\pasp 132:038001"))
 
 (master-dir . "/Users/lezmy/These_projects/PHD_LEZMY/main/")
 
-(label-numbers ("eq:" . 8))
+(label-numbers ("eq:" . 10))
 
 (bof "/Users/lezmy/These_projects/PHD_LEZMY/main/main.tex")
 
@@ -369,6 +369,10 @@
 
 ("ssec:xxx" "s" "Chaque pixel étant traité indépendamment par \\cigale, leur échantillonnage spectral de sortie n'est " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_sedfit.tex" 35757)
 
+("eq:10" "e" nil "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil "POSITION UNCERTAIN.  RESCAN TO FIX.")
+
+("eq:9" "e" nil "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil "")
+
 ("eq:2" "e" nil "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_irf.tex" nil "POSITION UNCERTAIN.  RESCAN TO FIX.")
 
 (toc "toc" "      5.3.2 Construction du cube" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_sedfit.tex" nil 3 "5.3.2" "\\subsection{Construction du cube}" 39834)
@@ -481,55 +485,89 @@
 
 (bof "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex")
 
-(toc "toc" "  7 Modélisation de Scène et Extraction de Source" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil 1 "7" "\\chapter{Modélisation de Scène et Extraction de Source}" 62)
+(toc "toc" "  7 Modélisation de scène et extraction de sources" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil 1 "7" "\\chapter{Modélisation de scène et extraction de sources}" 119)
 
-("ch:res" "s" "-- XXX -- \\minitoc \\newpage \\section{Projection du cube intrinsèque} % \\subsection{Seeing relatif Pa" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil)
+("ch:res" "s" "\\minitoc \\vspace{2cm} Ce chapitre est consacré à la description de la dernière étape du pipeline \\hy" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil)
 
-(toc "toc" "    7.1 Projection du cube intrinsèque" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil 2 "7.1" "\\section{Projection du cube intrinsèque}" 163)
+(toc "toc" "    7.1 Modélisation de scène" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil 2 "7.1" "\\section{Modélisation de scène}" 1025)
 
-("sec:xxx" "s" "\\subsection{Seeing relatif Panstarrs/SEDm} % \\subsection{Projection spatiale dans l'espace SEDm} %\\l" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" 205)
+("sec:xxx" "s" "\\subsection{Présentation de la méthode} % La modélisation de scène implémentée dans \\hypergal\\ va gl" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" 1056)
 
-(toc "toc" "      7.1.1 Seeing relatif Panstarrs/SEDm" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil 3 "7.1.1" "\\subsection{Seeing relatif Panstarrs/SEDm}" 222)
+(toc "toc" "      7.1.1 Présentation de la méthode" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil 3 "7.1.1" "\\subsection{Présentation de la méthode}" 1076)
 
-("ssec:xxx" "s" "\\subsection{Projection spatiale dans l'espace SEDm} % \\section{Modélisation de Scène} %\\label{sec:xx" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" 266)
+("sec:xxx" "s" "La modélisation de scène implémentée dans \\hypergal\\ va globalement suivre la méthode utilisée pour " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" 1114)
 
-(toc "toc" "      7.1.2 Projection spatiale dans l'espace SEDm" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil 3 "7.1.2" "\\subsection{Projection spatiale dans l'espace SEDm}" 284)
+(toc "toc" "      7.1.2 Projection du cube intrinsèque" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil 3 "7.1.2" "\\subsection{Projection du cube intrinsèque}" 2499)
 
-("ssec:xxx" "s" "\\section{Modélisation de Scène} % \\subsection{Composante du fond: ciel et artefacts} %\\label{ssec:xx" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" 337)
+("sec:xxx" "s" "La projection du cube ne se fait pas en une opération, mais en projetant successivement chaque tranc" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" 2254)
 
-(toc "toc" "    7.2 Modélisation de Scène" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil 2 "7.2" "\\section{Modélisation de Scène}" 356)
+("fig:scaleadapted" "f" "Concordance des champs de vue PS1 et SEDm." "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil)
 
-("sec:xxx" "s" "\\subsection{Composante du fond: ciel et artefacts} % \\subsection{Composante du point source: Superno" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" 389)
+("fig:projecthost" "f" "Projection de la galaxie hôte dans le MLA." "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil)
 
-(toc "toc" "      7.2.1 Composante du fond: ciel et artefacts" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil 3 "7.2.1" "\\subsection{Composante du fond: ciel et artefacts}" 406)
+(toc "toc" "      7.1.3 Composantes de la scène" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil 3 "7.1.3" "\\subsection{Composantes de la scène}" 8311)
 
-("ssec:xxx" "s" "\\subsection{Composante du point source: Supernova} %  \\subsection{Fitting de la scene} % \\label{ssec" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" 458)
+(toc "toc" "        7.1.3.1 Composante du fond: ciel et artefacts" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil 4 "7.1.3.1" "\\subsubsection{Composante du fond: ciel et artefacts}" 8349)
 
-(toc "toc" "      7.2.2 Composante du point source: Supernova" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil 3 "7.2.2" "\\subsection{Composante du point source: Supernova}" 476)
+("ssec:xxx" "s" "Le fond du ciel ayant été retiré dans les images PS1 \\citep{Waters2020}, il nous faut modéliser cett" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" 8115)
 
-("ssec:xxx" "s" "\\subsection{Fitting de la scene} %  \\section{Extraction du point source} \\subsection{Outputs de cont" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" 529)
+("eq:backgroundcurved2" "e" "\\text{Bkgd}(x,y) = \\begin{pmatrix} b_{xx} & & & & & " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil)
 
-(toc "toc" "      7.2.3 Fitting de la scene" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil 3 "7.2.3" "\\subsection{Fitting de la scene}" 547)
+(toc "toc" "        7.1.3.2 Composante de la supernova" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil 4 "7.1.3.2" "\\subsubsection{Composante de la supernova}" 9390)
 
-("ssec:xxx" "s" "\\section{Extraction du point source} \\subsection{Outputs de controle du pipeline} %  \\subsection{Iso" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" 582)
+("ssec:xxx" "s" "L'autre composante de la scène n'est autre que la supernova, une source ponctuelle entièrement carac" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" 9145)
 
-(toc "toc" "    7.3 Extraction du point source" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil 2 "7.3" "\\section{Extraction du point source}" 600)
+("eq:psfmodelconstraint" "e" "PSF(r; \\alpha, \\eta) = N\\left[\\eta\\times\\exp\\left(- \\frac{r}{2(\\sigma_{0}+\\sigma_{1}\\times\\alpha)^{2" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil)
 
-(toc "toc" "      7.3.1 Outputs de controle du pipeline" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil 3 "7.3.1" "\\subsection{Outputs de controle du pipeline}" 638)
+(toc "toc" "      7.1.4 Ajustement de la scene 2D" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil 3 "7.1.4" "\\subsection{Ajustement de la scene 2D}" 10461)
 
-("ssec:xxx" "s" "\\subsection{Isolation de la galaxie hôte} %  \\subsection{Isolation de la Supernova} % \\label{ssec:xx" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" 685)
+("ssec:xxx" "s" "Toutes les composantes de la scène ayant été décrites, nous pouvons passer à l'ajustement de la scèn" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" 10212)
 
-(toc "toc" "      7.3.2 Isolation de la galaxie hôte" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil 3 "7.3.2" "\\subsection{Isolation de la galaxie hôte}" 703)
+("fig:artefactssedmcube" "f" "Exemple d'artefacts dans les cubes de données SEDm." "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil)
 
-("ssec:xxx" "s" "\\subsection{Isolation de la Supernova} %  \\section{Classification: \\pkg{SNID}} % \\label{ssec:xxx} " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" 747)
+("tab:paramshypergal" "t" "Paramètres de modélisation de scène 2D avec \\hypergal." "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil)
 
-(toc "toc" "      7.3.3 Isolation de la Supernova" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil 3 "7.3.3" "\\subsection{Isolation de la Supernova}" 765)
+("eq:chi2hypergal" "e" "\\chi^{2}=\\sum\\limits_{pixel}\\left(\\frac{(y_{p} - \\widetilde{y}_{p})^{2}}{\\sigma_{p}^{2}}\\right) " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil)
 
-("ssec:xxx" "s" "\\section{Classification: \\pkg{SNID}} %  " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" 806)
+("fig:metaslicescene" "f" "Ajustement des méta-tranches pour la modélisation de scène de ZTF18accrorf. " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil)
 
-(toc "toc" "    7.4 Classification: \\pkg{SNID}" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil 2 "7.4" "\\section{Classification: \\pkg{SNID}}" 824)
+("fig:corrmatrixmetaslice" "f" "Matrice de corrélation des paramètres d'ajustement de scène pour une méta-tranche." "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil)
 
-("ssec:xxx" "s" " " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" 863)
+(toc "toc" "      7.1.5 Ajustement chromatique" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil 3 "7.1.5" "\\subsection{Ajustement chromatique}" 18292)
+
+("ssec:xxx" "s" "L'ajustement de chaque méta-tranche nous donne ainsi un jeu de $N$ paramètres sur le domaine spectra" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" 18031)
+
+("fig:chromaticity_target" "f" "Chromaticité des paramètres de forme de la PSF de la supernova ZTF18accrorf" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil)
+
+("eq:sigmahostchrom" "e" "\\sigma(\\lambda)=\\sigma_{ref}\\left(\\frac{\\lambda}{\\lambda_{ref}}\\right)^{\\rho_{g}} " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil)
+
+("fig:chromaticity_host" "f" "Chromaticité des paramètres de forme de la PSF relative SEDm/PS1 pour l'hôte de ZTF18accrorf" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil)
+
+("fig:adr_ZTF18accrorf" "f" "Modélisation de la réfraction atmosphérique différentielle pour ZTF18accrorf" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil)
+
+("fig:softl1" "f" "Fonction de perte \\textit{pseudo-Huber}" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil)
+
+("eq:10" "e" " " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil)
+
+("fig:fullsceneZTF18accrorf" "f" " " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil)
+
+(toc "toc" "    7.2 Extraction des composantes" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil 2 "7.2" "\\section{Extraction des composantes}" 26773)
+
+(toc "toc" "      7.2.1 Outputs de controle du pipeline" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil 3 "7.2.1" "\\subsection{Outputs de controle du pipeline}" 26806)
+
+("ssec:xxx" "s" "\\subsection{Extraction de la galaxie hôte} %  \\subsection{Extraction de la Supernova} % \\label{ssec:" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" 24081)
+
+(toc "toc" "      7.2.2 Extraction de la galaxie hôte" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil 3 "7.2.2" "\\subsection{Extraction de la galaxie hôte}" 27029)
+
+("ssec:xxx" "s" "\\subsection{Extraction de la Supernova} %  \\section{Classification: \\pkg{SNID}} % \\label{ssec:xxx} \\" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" 24144)
+
+(toc "toc" "      7.2.3 Extraction de la Supernova" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil 3 "7.2.3" "\\subsection{Extraction de la Supernova}" 30238)
+
+("ssec:xxx" "s" "\\section{Classification: \\pkg{SNID}} %  \\bibliographystyle{../main/aa_url2} \\bibliography{99_referen" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" 24204)
+
+(toc "toc" "    7.3 Classification: \\pkg{SNID}" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil 2 "7.3" "\\section{Classification: \\pkg{SNID}}" 37917)
+
+("ssec:xxx" "s" "\\bibliographystyle{../main/aa_url2} \\bibliography{99_references} " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" 24261)
 
 (eof "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex")
 
