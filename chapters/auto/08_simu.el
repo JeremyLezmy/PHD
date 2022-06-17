@@ -19,6 +19,21 @@
     "subfiles"
     "subfiles10")
    (LaTeX-add-labels
-    "ch:simu"))
+    "ch:simu"
+    "fig:allhostsimu"
+    "fig:specsimueach"
+    "ssec:distancesimu"
+    "eq:contrast"
+    "eq:rapportSB"
+    "eq:SNR"
+    "fig:examplesimu"
+    "sec:simuresult"
+    "fig:simu_rms_snr_spectrophoto"
+    "fig:simu_rms_dist_spectrophoto"
+    "fig:simu_rms_snr_continuum_divided"
+    "fig:simu_rms_dist_continuum_divided"
+    "fig:typingimprove_snr")
+   (LaTeX-add-bibliographies
+    "99_references"))
  :latex)
 

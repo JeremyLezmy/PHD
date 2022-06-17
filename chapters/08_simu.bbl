@@ -1,0 +1,117 @@
+\begin{thebibliography}{8}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{\textsc{{Betoule}} {et~al.}(2014)\textsc{{Betoule}},
+  \textsc{{Kessler}}, \textsc{{Guy}}, \textsc{{Mosher}}, \textsc{{Hardin}},
+  \textsc{{Biswas}}, \textsc{{Astier}}, \textsc{{El-Hage}}, \textsc{{Konig}},
+  \textsc{{Kuhlmann}}, \textsc{{Marriner}}, \textsc{{Pain}},
+  \textsc{{Regnault}}, \textsc{{Balland}}, \textsc{{Bassett}},
+  \textsc{{Brown}}, \textsc{{Campbell}}, \textsc{{Carlberg}},
+  \textsc{{Cellier-Holzem}}, \textsc{{Cinabro}}, \textsc{{Conley}},
+  \textsc{{D'Andrea}}, \textsc{{DePoy}}, \textsc{{Doi}}, \textsc{{Ellis}},
+  \textsc{{Fabbro}}, \textsc{{Filippenko}}, \textsc{{Foley}},
+  \textsc{{Frieman}}, \textsc{{Fouchez}}, \textsc{{Galbany}},
+  \textsc{{Goobar}}, \textsc{{Gupta}}, \textsc{{Hill}}, \textsc{{Hlozek}},
+  \textsc{{Hogan}}, \textsc{{Hook}}, \textsc{{Howell}}, \textsc{{Jha}},
+  \textsc{{Le Guillou}}, \textsc{{Leloudas}}, \textsc{{Lidman}},
+  \textsc{{Marshall}}, \textsc{{M{\"o}ller}}, \textsc{{Mour{\~a}o}},
+  \textsc{{Neveu}}, \textsc{{Nichol}}, \textsc{{Olmstead}},
+  \textsc{{Palanque-Delabrouille}}, \textsc{{Perlmutter}}, \textsc{{Prieto}},
+  \textsc{{Pritchet}}, \textsc{{Richmond}}, \textsc{{Riess}},
+  \textsc{{Ruhlmann-Kleider}}, \textsc{{Sako}}, \textsc{{Schahmaneche}},
+  \textsc{{Schneider}}, \textsc{{Smith}}, \textsc{{Sollerman}},
+  \textsc{{Sullivan}}, \textsc{{Walton}} et \textsc{{Wheeler}}}]{Betoule2014}
+\textsc{{Betoule} M.}, \textsc{{Kessler} R.}, \textsc{{Guy} J.} {et~al.} 2014,
+  «~{Improved cosmological constraints from a joint analysis of the SDSS-II
+  and SNLS supernova samples}~»,
+  \href{http://dx.doi.org/10.1051/0004-6361/201423413}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2014A&A...568A..22B}{568, A22}
+
+\bibitem[{\textsc{{Dhawan}} {et~al.}(2022)\textsc{{Dhawan}}, \textsc{{Goobar}},
+  \textsc{{Smith}}, \textsc{{Johansson}}, \textsc{{Rigault}},
+  \textsc{{Nordin}}, \textsc{{Biswas}}, \textsc{{Goldstein}},
+  \textsc{{Nugent}}, \textsc{{Kim}}, \textsc{{Miller}}, \textsc{{Graham}},
+  \textsc{{Medford}}, \textsc{{Kasliwal}}, \textsc{{Kulkarni}},
+  \textsc{{Duev}}, \textsc{{Bellm}}, \textsc{{Rosnet}}, \textsc{{Riddle}} et
+  \textsc{{Sollerman}}}]{DhawanZTFDR1}
+\textsc{{Dhawan} S.}, \textsc{{Goobar} A.}, \textsc{{Smith} M.} {et~al.} 2022,
+  «~{The Zwicky Transient Facility Type Ia supernova survey: first data
+  release and results}~»,
+  \href{http://dx.doi.org/10.1093/mnras/stab3093}{\color{magenta}\mnras},
+  \href{https://ui.adsabs.harvard.edu/abs/2022MNRAS.510.2228D}{510, 2228}
+
+\bibitem[{\textsc{{Fremling}} {et~al.}(2020)\textsc{{Fremling}},
+  \textsc{{Miller}}, \textsc{{Sharma}}, \textsc{{Dugas}}, \textsc{{Perley}},
+  \textsc{{Taggart}}, \textsc{{Sollerman}}, \textsc{{Goobar}},
+  \textsc{{Graham}}, \textsc{{Neill}}, \textsc{{Nordin}}, \textsc{{Rigault}},
+  \textsc{{Walters}}, \textsc{{Andreoni}}, \textsc{{Bagdasaryan}},
+  \textsc{{Belicki}}, \textsc{{Cannella}}, \textsc{{Bellm}}, \textsc{{Cenko}},
+  \textsc{{De}}, \textsc{{Dekany}}, \textsc{{Frederick}}, \textsc{{Golkhou}},
+  \textsc{{Graham}}, \textsc{{Helou}}, \textsc{{Ho}}, \textsc{{Kasliwal}},
+  \textsc{{Kupfer}}, \textsc{{Laher}}, \textsc{{Mahabal}}, \textsc{{Masci}},
+  \textsc{{Riddle}}, \textsc{{Rusholme}}, \textsc{{Schulze}}, \textsc{{Shupe}},
+  \textsc{{Smith}}, \textsc{{van Velzen}}, \textsc{{Yan}}, \textsc{{Yao}},
+  \textsc{{Zhuang}} et \textsc{{Kulkarni}}}]{FremlingZTFspec2020}
+\textsc{{Fremling} C.}, \textsc{{Miller} A.~A.}, \textsc{{Sharma} Y.} {et~al.}
+  2020, «~{The Zwicky Transient Facility Bright Transient Survey. I.
+  Spectroscopic Classification and the Redshift Completeness of Local Galaxy
+  Catalogs}~»,
+  \href{http://dx.doi.org/10.3847/1538-4357/ab8943}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2020ApJ...895...32F}{895, 32}
+
+\bibitem[{\textsc{{Guy}} {et~al.}(2007)\textsc{{Guy}}, \textsc{{Astier}},
+  \textsc{{Baumont}}, \textsc{{Hardin}}, \textsc{{Pain}}, \textsc{{Regnault}},
+  \textsc{{Basa}}, \textsc{{Carlberg}}, \textsc{{Conley}}, \textsc{{Fabbro}},
+  \textsc{{Fouchez}}, \textsc{{Hook}}, \textsc{{Howell}}, \textsc{{Perrett}},
+  \textsc{{Pritchet}}, \textsc{{Rich}}, \textsc{{Sullivan}},
+  \textsc{{Antilogus}}, \textsc{{Aubourg}}, \textsc{{Bazin}},
+  \textsc{{Bronder}}, \textsc{{Filiol}}, \textsc{{Palanque-Delabrouille}},
+  \textsc{{Ripoche}} et \textsc{{Ruhlmann-Kleider}}}]{Guysalt22007}
+\textsc{{Guy} J.}, \textsc{{Astier} P.}, \textsc{{Baumont} S.} {et~al.} 2007,
+  «~{SALT2: using distant supernovae to improve the use of type Ia supernovae
+  as distance indicators}~»,
+  \href{http://dx.doi.org/10.1051/0004-6361:20066930}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2007A&A...466...11G}{466, 11}
+
+\bibitem[{\textsc{{Guy}} {et~al.}(2005)\textsc{{Guy}}, \textsc{{Astier}},
+  \textsc{{Nobili}}, \textsc{{Regnault}} et \textsc{{Pain}}}]{Guysalt2005}
+\textsc{{Guy} J.}, \textsc{{Astier} P.}, \textsc{{Nobili} S.},
+  \textsc{{Regnault} N.} et \textsc{{Pain} R.} 2005, «~{SALT: a spectral
+  adaptive light curve template for type Ia supernovae}~»,
+  \href{http://dx.doi.org/10.1051/0004-6361:20053025}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2005A&A...443..781G}{443, 781}
+
+\bibitem[{\textsc{{Guy}} {et~al.}(2010)\textsc{{Guy}}, \textsc{{Sullivan}},
+  \textsc{{Conley}}, \textsc{{Regnault}}, \textsc{{Astier}},
+  \textsc{{Balland}}, \textsc{{Basa}}, \textsc{{Carlberg}}, \textsc{{Fouchez}},
+  \textsc{{Hardin}}, \textsc{{Hook}}, \textsc{{Howell}}, \textsc{{Pain}},
+  \textsc{{Palanque-Delabrouille}}, \textsc{{Perrett}}, \textsc{{Pritchet}},
+  \textsc{{Rich}}, \textsc{{Ruhlmann-Kleider}}, \textsc{{Balam}},
+  \textsc{{Baumont}}, \textsc{{Ellis}}, \textsc{{Fabbro}}, \textsc{{Fakhouri}},
+  \textsc{{Fourmanoit}}, \textsc{{Gonz\'alez-Gait\'an}}, \textsc{{Graham}},
+  \textsc{{Hsiao}}, \textsc{{Kronborg}}, \textsc{{Lidman}}, \textsc{{Mourao}},
+  \textsc{{Perlmutter}}, \textsc{{Ripoche}}, \textsc{{Suzuki}} et
+  \textsc{{Walker}}}]{Guy2010}
+\textsc{{Guy} J.}, \textsc{{Sullivan} M.}, \textsc{{Conley} A.} {et~al.} 2010,
+  «~{The Supernova Legacy Survey 3-year sample: Type Ia supernovae photometric
+  distances and cosmological constraints}~»,
+  \href{http://dx.doi.org/10.1051/0004-6361/201014468}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2010A&A...523A...7G}{523, A7}
+
+\bibitem[{\textsc{{Rigault}} {et~al.}(2019)\textsc{{Rigault}},
+  \textsc{{Neill}}, \textsc{{Blagorodnova}}, \textsc{{Dugas}},
+  \textsc{{Feeney}}, \textsc{{Walters}}, \textsc{{Brinnel}}, \textsc{{Copin}},
+  \textsc{{Fremling}}, \textsc{{Nordin}} et \textsc{{Sollerman}}}]{pysedm}
+\textsc{{Rigault} M.}, \textsc{{Neill} J.~D.}, \textsc{{Blagorodnova} N.}
+  {et~al.} 2019, «~{Fully automated integral field spectrograph pipeline for
+  the SEDMachine: pysedm}~»,
+  \href{http://dx.doi.org/10.1051/0004-6361/201935344}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2019A&A...627A.115R}{627, A115}
+
+\bibitem[{\textsc{{Savitzky}} et \textsc{{Golay}}(1964)}]{SavitzkyGolay}
+\textsc{{Savitzky} A.} et \textsc{{Golay} M.~J.~E.} 1964, «~{Smoothing and
+  differentiation of data by simplified least squares procedures}~»,
+  Analytical Chemistry,
+  \href{https://ui.adsabs.harvard.edu/abs/1964AnaCh..36.1627S}{36, 1627}
+
+\end{thebibliography}

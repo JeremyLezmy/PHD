@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2021)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: 08_simu.aux
+The style file: ../main/aa_url2.bst
+Database file #1: 99_references.bib
+I was expecting a `,' or a `}'---line 834 of file 99_references.bib
+ :   
+ :   url={https://ui.adsabs.harvard.edu/abs/2019MNRAS.489.3582D/abstract}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 8 entries,
+            3173 wiz_defined-function locations,
+            773 strings with 10378 characters,
+and the built_in function-call counts, 13312 in all, are:
+= -- 843
+> -- 1821
+< -- 1
++ -- 611
+- -- 603
+* -- 2083
+:= -- 2265
+add.period$ -- 8
+call.type$ -- 8
+change.case$ -- 233
+chr.to.int$ -- 8
+cite$ -- 8
+duplicate$ -- 162
+empty$ -- 249
+format.name$ -- 623
+if$ -- 2327
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 8
+newline$ -- 28
+num.names$ -- 32
+pop$ -- 231
+preamble$ -- 1
+purify$ -- 233
+quote$ -- 0
+skip$ -- 126
+stack$ -- 0
+substring$ -- 168
+swap$ -- 435
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 72
+warning$ -- 0
+while$ -- 32
+width$ -- 0
+write$ -- 91
+(There was 1 error message)
