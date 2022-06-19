@@ -12,5 +12,5 @@
 \contentsline {subsection}{\numberline {8.1.5}Création des cubes de simulation}{6}{subsection.8.1.5}%
 \contentsline {section}{\numberline {8.2}Résultats et précision}{8}{section.8.2}%
 \contentsline {subsection}{\numberline {8.2.1}Précision spectrophotométrique}{9}{subsection.8.2.1}%
-\contentsline {subsection}{\numberline {8.2.2}Précision avec correction de continuum}{9}{subsection.8.2.2}%
-\contentsline {subsection}{\numberline {8.2.3}Efficacité de classification}{9}{subsection.8.2.3}%
+\contentsline {subsection}{\numberline {8.2.2}Précision avec correction de continuum}{13}{subsection.8.2.2}%
+\contentsline {subsection}{\numberline {8.2.3}Efficacité de classification}{13}{subsection.8.2.3}%

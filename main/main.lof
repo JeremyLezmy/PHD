@@ -88,7 +88,13 @@
 \contentsline {xpart}{Simulations et Résultats}{125}{part.3}%
 \addvspace {10\p@ }
 \contentsline {xchapter}{Validation du pipeline \textsc {\texttt {HyperGal}}\relax }{125}{chapter.8}%
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Cubes de galaxies hôtes utilisés pour les simulations.}}{127}{figure.caption.91}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Exemple de spectre pour chaque type de supernova pour les simulations.}}{128}{figure.caption.92}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Examples de cubes de simulation.}}{132}{figure.caption.93}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Corrélation SNR/contraste des simulations.}}{133}{figure.caption.94}%
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Corrélation des paramètres de la simulation (spectrophotométrique).}}{134}{figure.caption.95}%
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Corrélation des paramètres de la simulation (continuum corrigé).}}{137}{figure.caption.98}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Data Release 2 de ZTF}{127}{chapter.9}%
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Paramètres SALT2 de stretch et couleur pour la DR2 de ZTF}}{128}{figure.caption.91}%
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Correlation entre les paramètres SALT2 de stretch et couleur (ZTF-DR2)}}{129}{figure.caption.92}%
+\contentsline {xchapter}{Data Release 2 de ZTF}{143}{chapter.9}%
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Paramètres SALT2 de stretch et couleur pour la DR2 de ZTF}}{144}{figure.caption.103}%
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Correlation entre les paramètres SALT2 de stretch et couleur (ZTF-DR2)}}{145}{figure.caption.104}%

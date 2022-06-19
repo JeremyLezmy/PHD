@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  13 JUN 2022 17:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  19 JUN 2022 18:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1388,9 +1388,6 @@ LaTeX Warning: Label `' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `ch:res' multiply defined.
 
 
 LaTeX Warning: Label `ch:res' multiply defined.
@@ -2904,16 +2901,205 @@ Chapitre 8.
 
 (./main.mtc8) [125
 
-]) (../chapters/../chapters/09_dr2.tex [126]
+]
+
+LaTeX Warning: Reference `fig:allhostsimu' on page 126 undefined on input line 
+78.
+
+<../chapters/../figures/08_simu/allhostsimu.pdf, id=3058, 1076.82304pt x 546.14
+789pt>
+File: ../chapters/../figures/08_simu/allhostsimu.pdf Graphic file (type pdf)
+<use ../chapters/../figures/08_simu/allhostsimu.pdf>
+Package pdftex.def Info: ../chapters/../figures/08_simu/allhostsimu.pdf  used o
+n input line 82.
+(pdftex.def)             Requested size: 450.69417pt x 228.58052pt.
+[126]
+
+Package natbib Warning: Citation `SavitzkyGolay' on page 127 undefined on input
+ line 123.
+
+
+LaTeX Warning: Reference `fig:specsimueach' on page 127 undefined on input line
+ 127.
+
+<../chapters/../figures/08_simu/specsimueach.pdf, id=3064, 1077.22458pt x 846.2
+7391pt>
+File: ../chapters/../figures/08_simu/specsimueach.pdf Graphic file (type pdf)
+<use ../chapters/../figures/08_simu/specsimueach.pdf>
+Package pdftex.def Info: ../chapters/../figures/08_simu/specsimueach.pdf  used 
+on input line 133.
+(pdftex.def)             Requested size: 450.69417pt x 354.06383pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [127 <../chapters/../figures/08_simu/allhostsimu.pdf>]
+
+Package natbib Warning: Citation `Guysalt2005' on page 128 undefined on input l
+ine 166.
+
+
+Package natbib Warning: Citation `Guysalt22007' on page 128 undefined on input 
+line 166.
+
+
+Package natbib Warning: Citation `Guy2010' on page 128 undefined on input line 
+166.
+
+
+Package natbib Warning: Citation `Betoule2014' on page 128 undefined on input l
+ine 166.
+
+[128 <../chapters/../figures/08_simu/specsimueach.pdf>] [129]
+Underfull \hbox (badness 10000) in paragraph at lines 294--298
+
+ []
+
+[130]
+
+LaTeX Warning: Reference `ssec:distancesimu' on page 131 undefined on input lin
+e 327.
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 319--364
+[]$[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--364
+
+ []
+
+
+LaTeX Warning: Reference `fig:examplesimu' on page 131 undefined on input line 
+367.
+
+<../chapters/../figures/08_simu/examplesimu.pdf, id=3117, 1293.63306pt x 700.85
+245pt>
+File: ../chapters/../figures/08_simu/examplesimu.pdf Graphic file (type pdf)
+<use ../chapters/../figures/08_simu/examplesimu.pdf>
+Package pdftex.def Info: ../chapters/../figures/08_simu/examplesimu.pdf  used o
+n input line 372.
+(pdftex.def)             Requested size: 523.52794pt x 283.6298pt.
+[131] [132 <../chapters/../figures/08_simu/examplesimu.pdf>]
+
+LaTeX Warning: Reference `eq:logsnr' on page 133 undefined on input line 427.
+
+
+LaTeX Warning: Reference `fig:corr_SNR_contrast' on page 133 undefined on input
+ line 429.
+
+<../chapters/../figures/08_simu/corr_SNR_contrast.pdf, id=3148, 1239.76505pt x 
+486.69772pt>
+File: ../chapters/../figures/08_simu/corr_SNR_contrast.pdf Graphic file (type p
+df)
+<use ../chapters/../figures/08_simu/corr_SNR_contrast.pdf>
+Package pdftex.def Info: ../chapters/../figures/08_simu/corr_SNR_contrast.pdf  
+used on input line 434.
+(pdftex.def)             Requested size: 455.24411pt x 178.71631pt.
+
+LaTeX Warning: Reference `eq:logsnr' on page 133 undefined on input line 442.
+
+
+LaTeX Warning: Reference `eq:logsnr' on page 133 undefined on input line 442.
+
+
+LaTeX Warning: Reference `fig:corrheatmap_simuparams_spectrophoto' on page 133 
+undefined on input line 458.
+
+[133 <../chapters/../figures/08_simu/corr_SNR_contrast.pdf>]
+<../chapters/../figures/08_simu/corrheatmap_simu_params_spectrophoto.pdf, id=31
+79, 761.72427pt x 641.00955pt>
+File: ../chapters/../figures/08_simu/corrheatmap_simu_params_spectrophoto.pdf G
+raphic file (type pdf)
+<use ../chapters/../figures/08_simu/corrheatmap_simu_params_spectrophoto.pdf>
+Package pdftex.def Info: ../chapters/../figures/08_simu/corrheatmap_simu_params
+_spectrophoto.pdf  used on input line 469.
+(pdftex.def)             Requested size: 273.14923pt x 229.85362pt.
+
+
+LaTeX Warning: Reference `fig:simu_rms_snr_spectrophoto' on page 134 undefined 
+on input line 484.
+
+<../chapters/../figures/08_simu/simu_rms_snr_spectrophoto.png, id=3180, 1287.85
+14pt x 964.0818pt>
+File: ../chapters/../figures/08_simu/simu_rms_snr_spectrophoto.png Graphic file
+ (type png)
+<use ../chapters/../figures/08_simu/simu_rms_snr_spectrophoto.png>
+Package pdftex.def Info: ../chapters/../figures/08_simu/simu_rms_snr_spectropho
+to.png  used on input line 500.
+(pdftex.def)             Requested size: 455.24411pt x 340.78772pt.
+<../chapters/../figures/08_simu/simu_rms_dist_spectrophoto.png, id=3181, 1287.8
+514pt x 948.1824pt>
+File: ../chapters/../figures/08_simu/simu_rms_dist_spectrophoto.png Graphic fil
+e (type png)
+<use ../chapters/../figures/08_simu/simu_rms_dist_spectrophoto.png>
+Package pdftex.def Info: ../chapters/../figures/08_simu/simu_rms_dist_spectroph
+oto.png  used on input line 507.
+(pdftex.def)             Requested size: 455.24411pt x 335.16754pt.
+[134 <../chapters/../figures/08_simu/corrheatmap_simu_params_spectrophoto.pdf>]
+[135 <../chapters/../figures/08_simu/simu_rms_snr_spectrophoto.png>] [136 <../c
+hapters/../figures/08_simu/simu_rms_dist_spectrophoto.png>]
+<../chapters/../figures/08_simu/corrheatmap_simu_params.pdf, id=3217, 748.6297p
+t x 643.27939pt>
+File: ../chapters/../figures/08_simu/corrheatmap_simu_params.pdf Graphic file (
+type pdf)
+<use ../chapters/../figures/08_simu/corrheatmap_simu_params.pdf>
+Package pdftex.def Info: ../chapters/../figures/08_simu/corrheatmap_simu_params
+.pdf  used on input line 519.
+(pdftex.def)             Requested size: 273.14923pt x 234.70177pt.
+
+Underfull \hbox (badness 1325) in paragraph at lines 526--526
+\T1/cmr/m/n/12 (+20) son des pa-ra-mètres prin-ci-paux
+ []
+
+<../chapters/../figures/08_simu/continuumcorrection_ex.png, id=3218, 1148.94846
+pt x 581.19534pt>
+File: ../chapters/../figures/08_simu/continuumcorrection_ex.png Graphic file (t
+ype png)
+<use ../chapters/../figures/08_simu/continuumcorrection_ex.png>
+Package pdftex.def Info: ../chapters/../figures/08_simu/continuumcorrection_ex.
+png  used on input line 533.
+(pdftex.def)             Requested size: 546.29153pt x 276.3367pt.
+<../chapters/../figures/08_simu/simu_rms_snr_continuum_divided.png, id=3219, 12
+87.8514pt x 964.0818pt>
+File: ../chapters/../figures/08_simu/simu_rms_snr_continuum_divided.png Graphic
+ file (type png)
+<use ../chapters/../figures/08_simu/simu_rms_snr_continuum_divided.png>
+Package pdftex.def Info: ../chapters/../figures/08_simu/simu_rms_snr_continuum_
+divided.png  used on input line 541.
+(pdftex.def)             Requested size: 455.24411pt x 340.78772pt.
+<../chapters/../figures/08_simu/simu_rms_dist_continuum_divided.png, id=3220, 1
+287.8514pt x 948.1824pt>
+File: ../chapters/../figures/08_simu/simu_rms_dist_continuum_divided.png Graphi
+c file (type png)
+<use ../chapters/../figures/08_simu/simu_rms_dist_continuum_divided.png>
+Package pdftex.def Info: ../chapters/../figures/08_simu/simu_rms_dist_continuum
+_divided.png  used on input line 548.
+(pdftex.def)             Requested size: 455.24411pt x 335.16754pt.
+<../chapters/../figures/08_simu/typingimprove_snr.png, id=3221, 1293.633pt x 72
+6.3135pt>
+File: ../chapters/../figures/08_simu/typingimprove_snr.png Graphic file (type p
+ng)
+<use ../chapters/../figures/08_simu/typingimprove_snr.png>
+Package pdftex.def Info: ../chapters/../figures/08_simu/typingimprove_snr.png  
+used on input line 559.
+(pdftex.def)             Requested size: 546.29153pt x 306.71199pt.
+) (../chapters/../chapters/09_dr2.tex [137
+
+ <../chapters/../figures/08_simu/corrheatmap_simu_params.pdf>] [138 <../chapter
+s/../figures/08_simu/continuumcorrection_ex.png>] [139 <../chapters/../figures/
+08_simu/simu_rms_snr_continuum_divided.png>] [140 <../chapters/../figures/08_si
+mu/simu_rms_dist_continuum_divided.png>] [141 <../chapters/../figures/08_simu/t
+ypingimprove_snr.png>] [142
+
+]
 Chapitre 9.
 \openout4 = `main.mtc'.
 
 \openout4 = `main.mtc'.
 
-(./main.mtc9) [127
-
-]
-<../chapters/../figures/02_ztf/ztfdr2stretchcolor.png, id=3075, 600.2425pt x 51
+(./main.mtc9) [143]
+<../chapters/../figures/02_ztf/ztfdr2stretchcolor.png, id=3285, 600.2425pt x 51
 2.91624pt>
 File: ../chapters/../figures/02_ztf/ztfdr2stretchcolor.png Graphic file (type p
 ng)
@@ -2921,8 +3107,8 @@ ng)
 Package pdftex.def Info: ../chapters/../figures/02_ztf/ztfdr2stretchcolor.png  
 used on input line 33.
 (pdftex.def)             Requested size: 409.71692pt x 350.11676pt.
- [128 <../chapters/../figures/02_ztf/ztfdr2stretchcolor.png>]
-<../chapters/../figures/02_ztf/ztfdr2stretchcolorcorrelation.png, id=3088, 566.
+ [144 <../chapters/../figures/02_ztf/ztfdr2stretchcolor.png>]
+<../chapters/../figures/02_ztf/ztfdr2stretchcolorcorrelation.png, id=3299, 566.
 115pt x 479.7925pt>
 File: ../chapters/../figures/02_ztf/ztfdr2stretchcolorcorrelation.png Graphic f
 ile (type png)
@@ -2967,33 +3153,35 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 68.
 
-) (../chapters/../chapters/98_conclusions.tex [129 <../chapters/../figures/02_z
-tf/ztfdr2stretchcolorcorrelation.png>] [130
+) (../chapters/../chapters/98_conclusions.tex [145 <../chapters/../figures/02_z
+tf/ztfdr2stretchcolorcorrelation.png>] [146
 
-] [131] [132]) (./main.bbl
+] [147] [148]) (./main.bbl
 (./main.brf)
 \tf@brf=\write9
 \openout9 = `main.brf'.
 
- [133
+ [149
 
-] [134]
+] [150]
 
 Package hyperref Warning: Suppressing empty link on input line 248.
 
-[135] [136] [137] [138] [139] [140] [141] [142])
+[151] [152] [153] [154] [155] [156] [157] [158])
+
+Package natbib Warning: There were undefined citations.
+
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the main.maf file.
 \openout4 = `main.maf'.
 
 
-
 Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the main.log file.
 
-[143] (./main.aux)
+[159] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -3003,15 +3191,20 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `main.brf' has not changed.
-(rerunfilecheck)             Checksum: 61ECB25402FF8479429C06F688A01ED0;11025.
+
+Package rerunfilecheck Warning: File `main.brf' has changed.
+(rerunfilecheck)                Rerun to get bibliographical references right.
+
+Package rerunfilecheck Info: Checksums for `main.brf':
+(rerunfilecheck)             Before: 61ECB25402FF8479429C06F688A01ED0;11025
+(rerunfilecheck)             After:  730562686ECF90DDB8B984D5B128CBA1;11272.
  ) 
 Here is how much of TeX's memory you used:
- 49565 strings out of 478994
- 1051113 string characters out of 5858184
- 1762590 words of memory out of 5000000
- 64718 multiletter control sequences out of 15000+600000
- 461790 words of font info for 385 fonts, out of 8000000 for 9000
+ 49712 strings out of 478994
+ 1056174 string characters out of 5858184
+ 1762634 words of memory out of 5000000
+ 64801 multiletter control sequences out of 15000+600000
+ 462052 words of font info for 389 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,18n,131p,3270b,1147s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
@@ -3063,10 +3256,10 @@ ti1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti
 fb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1440.pfb
 ></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1728.pfb><
 /usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt2074.pfb>
-Output written on main.pdf (143 pages, 51074700 bytes).
+Output written on main.pdf (159 pages, 58162199 bytes).
 PDF statistics:
- 4269 PDF objects out of 4296 (max. 8388607)
- 3461 compressed objects within 35 object streams
- 563 named destinations out of 1000 (max. 500000)
- 119738 words of extra memory for PDF output out of 128383 (max. 10000000)
+ 4506 PDF objects out of 5155 (max. 8388607)
+ 3657 compressed objects within 37 object streams
+ 606 named destinations out of 1000 (max. 500000)
+ 119838 words of extra memory for PDF output out of 128383 (max. 10000000)
 

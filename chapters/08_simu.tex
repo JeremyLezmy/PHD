@@ -1,7 +1,7 @@
 \documentclass[../main/main.tex]{subfiles}
 \begin{document}
-\dominitoc
-\faketableofcontents
+%\dominitoc
+%\faketableofcontents
 \setcounter{chapter}{7}
 \chapter{Validation du pipeline
   \hypergal}\label{ch:simu}
@@ -277,7 +277,11 @@ entièrement caractérisée par une loi de Poisson, nous avons alors que:
   \frac{S_{r}}{\sqrt{S_{r}+B_{r}}} = c_{r}\times\sqrt{S_{r}+B_{r}}
 \end{equation}
 avec $S_{r}$ et $B_{r}$ en unités de coups. Avec un raisonnement similaire nous
-pouvons montrer que $SNR_{r}\approx R\times\sqrt{B_{r}}$.
+pouvons montrer que:
+\begin{equation}
+  \label{eq:logsnr}
+  SNR_{r}\approx R\times\sqrt{B_{r}} = \frac{C_{r}}{1-C_{r}}\times\sqrt{B_{r}}
+\end{equation} 
 
 En pratique, nous sommes en mesure de récupérer la quantité
 $\sigma_{B}$, car présente dans le cube SEDm avec la galaxie hôte
@@ -394,7 +398,7 @@ confrontation nous permet d'avoir également une idée de l'amélioration
 apportée avec ce nouvel outil d'extraction de spectre.
 
 Nous dénominerons dans la suite du manuscrit l'indice $_{HG}$ pour la
-méthode de modélisation de scène \hypergal, et $RMS_{PS}$ pour la méthode
+méthode de modélisation de scène \hypergal, et $_{PS}$ pour la méthode
 d'extraction de source ponctuelle basique.
 
 Dans cette section nous allons étudier 3 informations pour chacune des 2
@@ -418,9 +422,78 @@ méthodes:
   \end{samepage}
 \end{itemize}
 
-\subsection{Précision spectrophotométrique}
-%\label{ssec:xxx}
+Plutôt que d'utiliser le contraste comme paramètre d'étude, nous
+utiliserons le rapport signal sur bruit. Comme introduit dans
+l'équation~\ref{eq:logsnr}, le SNR est étroitement lié au
+contraste car linéairement proportionnel au rapport $R=S_{r}/B_{r}$. Nous illustrons cette corrélation dans la
+Figure~\ref{fig:corr_SNR_contrast}, montrons la relation linéaire entre
+le SNR et la quantité $R=\frac{C_{r}}{1-C_{r}}$.
 
+\begin{figure}[ht]
+  \centering
+  \makebox[\textwidth][c]{\includegraphics[width=1.\textwidth]{../figures/08_simu/corr_SNR_contrast.pdf}}%
+  \caption[Corrélation SNR/contraste des simulations.]{Corrélation
+    SNR/contraste des simulations et leur distribution respective. Nous
+    montrons dans cette figure en échelle logarithmique le rapport signal
+    sur bruit en fonction de la quantité $R=\frac{C_{r}}{1-C_{r}}$,
+    introduite dans l'équation~\ref{eq:logsnr}. La
+    droite en pointillés rouge indique la régression
+    linéaire. L'ordonnée à l'origine non nulle provient de la
+    contribution du fond, $\sqrt{B_{r}}$.}
+  \label{fig:corr_SNR_contrast}
+\end{figure}
+
+\subsection{Précision spectrophotométrique}\label{ssec:spectrophotoaccuracy}
+
+Commençons par étudier la capacité d'extraction spectrophotométrique d'\hypergal\ et de la méthode
+d'extraction simple. Pour ce faire nous calculons pour chaque simulation
+le RMS spectral, dans l'intervalle de longueur d'onde utile à la
+classification, c'est à dire [$4000$,$8000$] \AA. Nous regardons ensuite
+l'évolution de ce RMS en fonction du SNR d'une part, et de la distance
+angulaire entre la SN et la galaxie d'autre part.
+
+Dans un premier temps, nous avons vérifié les corrélations entre la
+distribution des RMS calculés des deux méthodes et les différents
+paramètres de la simulation
+(Figure~\ref{fig:corrheatmap_simuparams_spectrophoto}). Nous remarquons
+sans surprise
+que la précision d'extraction est fortement corrélée avec le SNR (et
+donc le contraste), mais très peu avec la distance séparant la SN de la
+galaxie. En effet, pour la méthode \hypergal\ le coefficient de Pearson
+entre la distance et le RMS est de seulement $-0.16$, traduisant une
+faible influence de ce paramètre. Cette contribution est cependant plus
+élevée pour la méthode classique d'extraction, montant à $-0.33$.
+
+\begin{figure}[ht]
+  \begin{minipage}[c]{0.6\textwidth}
+    \includegraphics[width=\textwidth]{../figures/08_simu/corrheatmap_simu_params_spectrophoto.pdf}
+  \end{minipage}\hfill
+  \begin{minipage}[c]{0.38\textwidth}
+    \caption[Corrélation des paramètres de la
+    simulation (spectrophotométrique).]{Carte des coefficients de corrélation de Pearson des
+      paramètres principaux de la
+    simulation dans l'étude spectrophotométrique. Nous mettons en évidences ici l'impact de la distance
+    sur le RMS quasiment inexistant pour la méthode \hypergal, mais
+    légèrement influente sur la méthode d'extraction simple. Le SNR
+    reste le paramètre ayant le plus d'impact sur la précision d'extraction.}\label{fig:corrheatmap_simuparams_spectrophoto}
+  \end{minipage}
+\end{figure}
+
+
+Passant maintenant à l'analyse de la distribution du RMS spectral.
+La Figure~\ref{fig:simu_rms_snr_spectrophoto} illustre l'évolution du
+RMS spectral en fonction du SNR, en considérant des intervalles
+contenant la même quantité de simulations.
+La première information ressortant clairement de ces résultats et
+l'amélioration indiscutable obtenue avec la modélisation hyperspectrale
+de la galaxie, quelque soit le SNR. Par ailleurs, La méthode d'extraction basique
+semble clairement inutilisable spectrophotométriquement sur l'ensemble
+de la simulation, ne descendant sous les $10\%$ de RMS qu'à partir d'un
+SNR$\approx100$.
+
+La modélisation de scène semble quant à elle
+approche un RMS$\approx10\%$ qu'à partir d'un SNR$\approx20-30$, et
+descend sous les $5\%$ vers un SNR$\approx60$. 
 
 \begin{figure}[ht]
   \centering
@@ -436,9 +509,32 @@ méthodes:
   \label{fig:simu_rms_dist_spectrophoto}
 \end{figure}
 
-
+\clearpage
 \subsection{Précision avec correction de continuum}
 % \label{ssec:xxx}
+
+
+\begin{figure}[ht]
+  \begin{minipage}[c]{0.6\textwidth}
+    \includegraphics[width=\textwidth]{../figures/08_simu/corrheatmap_simu_params.pdf}
+  \end{minipage}\hfill
+  \begin{minipage}[c]{0.38\textwidth}
+    \caption[Corrélation des paramètres de la
+    simulation (continuum corrigé).]{Carte des coefficients de corrélation de Pearson des
+      paramètres principaux de la
+    simulation après correction du continnuum. La distance n'a plus
+    aucune influence sur le RMS quelque soit la méthode.}\label{fig:corrheatmap_simuparams}
+  \end{minipage}
+\end{figure}
+
+
+\begin{figure}[ht]
+  \centering
+  \makebox[\textwidth][c]{\includegraphics[width=1.2\textwidth]{../figures/08_simu/continuumcorrection_ex.png}}%
+  \caption[]{}
+  \label{fig:continuumcorrection_ex}
+\end{figure}
+
 
 \begin{figure}[ht]
   \centering
@@ -465,8 +561,8 @@ méthodes:
   \label{fig:typingimprove_snr}
 \end{figure}
 
-\bibliographystyle{../main/aa_url2}
-\bibliography{99_references}
+%\bibliographystyle{../main/aa_url2}
+%\bibliography{99_references}
 \end{document}
 
 %%% Local Variables:

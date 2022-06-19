@@ -116,21 +116,26 @@
 \contentsline {xpart}{Simulations et Résultats}{125}{part.3}%
 \contentsline {chapter}{\numberline {8}Validation du pipeline \textsc {\texttt {HyperGal}}\relax }{125}{chapter.8}%
 \contentsline {section}{\numberline {8.1}Génération des simulations}{126}{section.8.1}%
-\contentsline {subsection}{\numberline {8.1.1}Cube de galaxies isolées}{126}{subsection.8.1.1}%
-\contentsline {subsection}{\numberline {8.1.2}Modèles de Supernovae}{126}{subsection.8.1.2}%
-\contentsline {subsection}{\numberline {8.1.3}Marginalisations}{126}{subsection.8.1.3}%
-\contentsline {subsection}{\numberline {8.1.4}Paramètres libres d'étude: Distance et contraste}{126}{subsection.8.1.4}%
-\contentsline {section}{\numberline {8.2}Résultats et Précision}{126}{section.8.2}%
-\contentsline {subsection}{\numberline {8.2.1}Précision spectrophotométrique}{126}{subsection.8.2.1}%
-\contentsline {subsection}{\numberline {8.2.2}Précision avec correction de continuum}{126}{subsection.8.2.2}%
-\contentsline {subsection}{\numberline {8.2.3}Efficacité de classification}{126}{subsection.8.2.3}%
-\contentsline {chapter}{\numberline {9}Data Release 2 de ZTF}{127}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Présentation de la DR2 de ZTF}{128}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Production d'\textsc {\texttt {HyperGal}}\relax et résultats}{128}{section.9.2}%
-\contentsline {subsection}{\numberline {9.2.1}Classification et détermination de l'échantillon DR2-Cosmo}{128}{subsection.9.2.1}%
-\contentsline {subsection}{\numberline {9.2.2}Premiers résultats}{128}{subsection.9.2.2}%
-\contentsline {subsection}{\numberline {9.2.3}Des SNeIa à la cosmologie: $H_{0}$, $w$ et $f\sigma _{8}$}{129}{subsection.9.2.3}%
+\contentsline {subsection}{\numberline {8.1.1}Méthode}{126}{subsection.8.1.1}%
+\contentsline {subsection}{\numberline {8.1.2}Cube de galaxies isolées}{126}{subsection.8.1.2}%
+\contentsline {subsection}{\numberline {8.1.3}Modèles de supernovae}{126}{subsection.8.1.3}%
+\contentsline {subsection}{\numberline {8.1.4}Marginalisations et paramètres d'étude}{128}{subsection.8.1.4}%
+\contentsline {subsubsection}{\numberline {8.1.4.1}Types et phases}{128}{subsubsection.8.1.4.1}%
+\contentsline {subsubsection}{\numberline {8.1.4.2}Seeing}{129}{subsubsection.8.1.4.2}%
+\contentsline {subsubsection}{\numberline {8.1.4.3}Distance supernova/centre galactique}{129}{subsubsection.8.1.4.3}%
+\contentsline {subsubsection}{\numberline {8.1.4.4}Constraste}{129}{subsubsection.8.1.4.4}%
+\contentsline {subsection}{\numberline {8.1.5}Création des cubes de simulation}{130}{subsection.8.1.5}%
+\contentsline {section}{\numberline {8.2}Résultats et précision}{132}{section.8.2}%
+\contentsline {subsection}{\numberline {8.2.1}Précision spectrophotométrique}{133}{subsection.8.2.1}%
+\contentsline {subsection}{\numberline {8.2.2}Précision avec correction de continuum}{137}{subsection.8.2.2}%
+\contentsline {subsection}{\numberline {8.2.3}Efficacité de classification}{137}{subsection.8.2.3}%
+\contentsline {chapter}{\numberline {9}Data Release 2 de ZTF}{143}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Présentation de la DR2 de ZTF}{144}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Production d'\textsc {\texttt {HyperGal}}\relax et résultats}{144}{section.9.2}%
+\contentsline {subsection}{\numberline {9.2.1}Classification et détermination de l'échantillon DR2-Cosmo}{144}{subsection.9.2.1}%
+\contentsline {subsection}{\numberline {9.2.2}Premiers résultats}{144}{subsection.9.2.2}%
+\contentsline {subsection}{\numberline {9.2.3}Des SNeIa à la cosmologie: $H_{0}$, $w$ et $f\sigma _{8}$}{145}{subsection.9.2.3}%
 \begingroup \def \cftpartpresnum {}
-\contentsline {part}{Conclusions \& perspectives}{129}{subsection.9.2.3}%
+\contentsline {part}{Conclusions \& perspectives}{145}{subsection.9.2.3}%
 \endgroup 
 \partbegin 

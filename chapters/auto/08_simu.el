@@ -26,14 +26,18 @@
     "eq:contrast"
     "eq:rapportSB"
     "eq:SNR"
+    "eq:logsnr"
     "fig:examplesimu"
     "sec:simuresult"
+    "fig:corr_SNR_contrast"
+    "ssec:spectrophotoaccuracy"
+    "fig:corrheatmap_simuparams_spectrophoto"
     "fig:simu_rms_snr_spectrophoto"
     "fig:simu_rms_dist_spectrophoto"
+    "fig:corrheatmap_simuparams"
+    "fig:continuumcorrection_ex"
     "fig:simu_rms_snr_continuum_divided"
     "fig:simu_rms_dist_continuum_divided"
-    "fig:typingimprove_snr")
-   (LaTeX-add-bibliographies
-    "99_references"))
+    "fig:typingimprove_snr"))
  :latex)
 
