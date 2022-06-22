@@ -1,7 +1,7 @@
 \documentclass[../main/main.tex]{subfiles}
 \begin{document}
-%\dominitoc
-%\faketableofcontents
+\dominitoc
+\faketableofcontents
 \setcounter{chapter}{7}
 \chapter{Validation du pipeline
   \hypergal}\label{ch:simu}
@@ -20,11 +20,15 @@ d'observation avec la SEDm.
 Dans ce chapitre nous présenterons dans un premier temps la procédure de
 génération des simulations, puis nous présenterons les résultats ainsi
 obtenus de
-l'utilisation d'\hypergal\ sur ces cubes simulés. 
+l'utilisation d'\hypergal\ sur ces cubes simulés. Nous feront également
+pour toutes les analyses une confrontation entre \hypergal\ et la
+méthode d'extraction simple, sans modélisation hyperspectral de la
+galxie hôte. Nous aurons ainsi une estimation de la robustesse absolue
+de notre pipeline, mais également de la robustesse relative avec celui
+utilisé par la collaboration ZTF pour la classification des supernovae. 
 \newpage
 
-\section{Génération des simulations}
-%\label{sec:xxx}
+\section{Génération des simulations}\label{sec:simugeneration}
 
 \subsection{Méthode}
 
@@ -41,7 +45,7 @@ contenant dans le champ de vue une galaxie et un fond réels.
 Le but est ainsi de rajouter une composante de supernova dans ces
 cubes en marginalisant sur les conditions d'observation habituelles
 comme le seeing, ou la proportion de chaque type de supernova, tout en explorant
-les conditions influants sur la robustesse d'\hypergal\ comme la distance
+les conditions impactant la robustesse d'\hypergal\ comme la distance
 entre la source ponctuelle et le centre galactique, et le rapport signal
 sur bruit.
 
@@ -53,11 +57,11 @@ et nous  détaillons dans cette section leur conception.
 
 La base de nos simulations proviennent donc d'observations réelles avec
 la SEDm de galaxies ayant accueilli au moins un an dans le passé une
-supernova.
+supernova. Ce délai nous permet de nous assurer de l'absence de résidu de l'explosion.
 Ces cubes sont donc naturellement dans l'espace de l'instrument pour
 lequel \hypergal\ a été conçu.
 
-Les effets d'ADR sont également présents, et il faut donc bien les
+Les effets d'ADR sont également présents, et il faut donc les
 caractériser avant d'inclure une composante de supernova pour que celle
 ci soit soumise aux mêmes effets chromatiques. 
 Bien que nous connaissons à priori la masse d'air et l'angle
@@ -65,7 +69,7 @@ parallactique au début de l'observation, nous ne connaissons pas ces
 paramètres effectifs, car ils varient au cours de l'exposition
 (de l'ordre d'une demi-heure de temps de pose).
 
-Nous avons pour cela inclus dans \hypergal\ la flexibilité de prendre en
+Nous avons pour cela inclu dans \hypergal\ la flexibilité de prendre en
 compte ou non n'importe laquelle des composantes de scène, et avons
 procéder à l'ajustement de scène avec uniquement la galaxie hôte dans le
 MLA. Tout comme détaillé au chapitre précédent, l'ajustement du
@@ -76,7 +80,8 @@ conditions idéales d'observations, les conditions habituelles et les
 conditions dégradées.
 
 Nous montrons dans la Figure~\ref{fig:allhostsimu} les cubes intégrés
-des galaxies hôtes utilisés pour les simulations.
+des galaxies hôtes utilisés pour les simulations, illustrant leur
+diversité de morphologie et de position dans le MLA.
 \begin{figure}[ht]
   \centering
   \includegraphics[width=0.99\textwidth]{../figures/08_simu/allhostsimu.pdf}
@@ -94,22 +99,24 @@ des galaxies hôtes utilisés pour les simulations.
 % \label{ssec:xxx}
 
 Afin de tester la précision d'extraction de spectre avec \hypergal, il nous faut inclure dans les cubes une source ponctuelle dont le
-spectre est connu a priori. Cette étude est indépendante de la forme du spectre, et donc du type
+spectre est connu a priori. L'étude seule de la précision d'extraction
+(par exemple avec un RMS spectral) est indépendante de la forme du spectre, et donc du type
 de la supernova.
 Cependant nous souhaitons également avoir une
 estimation de l'efficacité d'\hypergal\ à classifier les supernovae.
 Pour analyser ces deux aspects (précision et classification), il faut
-donc que le spectre de la source ponctuelle simulée soit connu a priori et que nous connaissons sa classification.
+donc que le spectre de la source ponctuelle simulée soit connu a priori et que nous connaissions sa classification.
 
-Par manque de temps et pour éviter de devoir générer des spectres avec
+Par manque de temps et afin d'éviter de devoir générer des spectres avec
 des outils inconnus, puis les projeter dans l'espace des observations de
 la SEDm (transmission, LSF, échantillonnage ...), nous avons choisi
 d'utiliser des spectres de supernovae déjà obtenus avec la SEDm, et
 classifiés avec SNID.
 
 Afin de s'assurer de la classification, nous n'avons sélectionné que des
-spectres avec un très haut r$lap$ (paramètre de qualité/confiance de SNID, considéré
-comme bon si r$lap>5$). Pour les spectres de supernovae de type Ia (les plus nombreuses), nous avons
+spectres avec un très haut r$lap$ (paramètre de qualité/confiance de SNID considéré
+comme bon si r$lap>5$, voir section 6.1 de \citet{BlondinSNID}). Pour
+les spectres de supernovae de type Ia (les plus nombreuses à être observées), nous avons
 sélectionné $70$ spectres avec un r$lap>25$ pour le meilleur modèle, et un r$lap>15$ pour les 30 premiers modèles.
 
 Sur un raisonnement similaire, nous avons sélectionné $7$ spectres de
@@ -122,7 +129,7 @@ pour la Ic).
 Nous procédons ensuite sur chacun de ces spectre à un lissage en
 appliquant un filtre de Savitzky-Golay \citep{SavitzkyGolay}. Afin de ne pas casser les
 structures des spectres, nous utilisons un lissage léger avec un
-polynôme d'ordre 3 sur une fenêtre de 5 pixels.
+polynôme d'ordre 3 sur une fenêtre de 5 pixels spectraux.
 
 Nous montrons dans la Figure~\ref{fig:specsimueach} un exemple de
 spectre après lissage pour chaque type de supernova, ainsi que le
@@ -438,8 +445,8 @@ le SNR et la quantité $R=\frac{C_{r}}{1-C_{r}}$.
     sur bruit en fonction de la quantité $R=\frac{C_{r}}{1-C_{r}}$,
     introduite dans l'équation~\ref{eq:logsnr}. La
     droite en pointillés rouge indique la régression
-    linéaire. L'ordonnée à l'origine non nulle provient de la
-    contribution du fond, $\sqrt{B_{r}}$.}
+    linéaire, et la dispersion autour de celle ci provient de la
+    contribution du fond, $\sqrt{B_{r}}$, propre à chaque simulation.}
   \label{fig:corr_SNR_contrast}
 \end{figure}
 
@@ -480,7 +487,7 @@ faible influence de ce paramètre. Cette contribution est cependant plus
 \end{figure}
 
 
-Passant maintenant à l'analyse de la distribution du RMS spectral.
+Passons maintenant à l'analyse de la distribution du RMS spectral.
 La Figure~\ref{fig:simu_rms_snr_spectrophoto} illustre l'évolution du
 RMS spectral en fonction du SNR, en considérant des intervalles
 contenant la même quantité de simulations.
@@ -491,29 +498,138 @@ semble clairement inutilisable spectrophotométriquement sur l'ensemble
 de la simulation, ne descendant sous les $10\%$ de RMS qu'à partir d'un
 SNR$\approx100$.
 
-La modélisation de scène semble quant à elle
-approche un RMS$\approx10\%$ qu'à partir d'un SNR$\approx20-30$, et
-descend sous les $5\%$ vers un SNR$\approx60$. 
+La modélisation de scène quant à elle
+approche un RMS$\approx10\%$ à partir d'un SNR$\approx40$, et
+descend sous les $5\%$ vers un SNR$\approx100$. 
+
+Nous montrons également la distribution des 3 permiers quartiles du
+rapport $\frac{RMS_{PS}}{RMS_{HG}}$, et nous pouvons visualiser une
+amélioration significative (environ un facteur $10$) entre les deux
+méthodes quelque soit l'intervalle de SNR considéré. 
 
 \begin{figure}[ht]
   \centering
-  \makebox[\textwidth][c]{\includegraphics[width=1.\textwidth]{../figures/08_simu/simu_rms_snr_spectrophoto.png}}%
-  \caption[]{}
+  \makebox[\textwidth][c]{\includegraphics[width=0.9\textwidth]{../figures/08_simu/simu_rms_snr_spectrophoto.png}}%
+  \caption[Distribution du RMS spectral en fonction du SNR.]{Distribution du RMS spectral en fonction du SNR  sur l'intervalle [$4000$,$8000$]\AA. Les
+    distributions sont présentées en boîtes, dont les 3 barres
+    centrales représentent les 3 quartiles ($25\%$, médiane et $50\%$). Nous illustrons ici une
+    distribution de RMS spectral pour chacune des deux méthodes
+    d'extraction et pour différents intervalles de SNR, chacun comptabilisant le
+    même nombre de simulation. Nous montrons \emph{en haut} le RMS en $\%$
+    en fonction du SNR. Les traits en pointillés indiquent les niveaux à
+    $1\%$, $5\%$ et $10\%$. \emph{En bas} nous montrons le rapport
+    $\frac{RMS_{PS}}{RMS_{HG}}$ pour illustrer l'amélioration apportée par
+    \hypergal. Nous ne montrons que la boîte représentant les 3 quartiles de
+    chaque distribution pour plus de clareté visuelle. Le trait en
+    pointillés rouge indique un rapport de $1$}
   \label{fig:simu_rms_snr_spectrophoto}
 \end{figure}
 
+La Figure~\ref{fig:simu_rms_dist_spectrophoto} présente la même analyse,
+cette fois ci en fonction d'intervalles de distance apparente entre la
+galaxie hôte et la supernova. Comme attendu à partir de la matrice de
+corrélation présentée précédemment, les distributions en RMS spectral
+obtenues avec \hypergal\ n'indiquent aucune corrélation avec la
+distance. La méthode d'extraction simple en revanche montre une
+forte dégradation lorsque la distance est inférieur à $4\arcsec$, et
+rejoint les performances d'\hypergal\ au dessus.
+
 \begin{figure}[ht]
   \centering
-  \makebox[\textwidth][c]{\includegraphics[width=1.\textwidth]{../figures/08_simu/simu_rms_dist_spectrophoto.png}}%
-  \caption[]{}
+  \makebox[\textwidth][c]{\includegraphics[width=0.9\textwidth]{../figures/08_simu/simu_rms_dist_spectrophoto.png}}%
+  \caption[Distribution du RMS spectral en fonction de la distance
+  hôte/SN.]{Distribution du RMS spectral en fonction du de la distance
+    hôte/SN en arcsec sur l'intervalle [$4000$,$8000$]\AA. Les
+    distributions sont présentées en boîtes, dont les 3 barres
+    centrales représentent les 3 quartiles ($25\%$, médiane et $50\%$). Nous illustrons ici une
+    distribution de RMS spectral pour chacune des deux méthodes
+    d'extraction et pour différents intervalles de distances, chacun comptabilisant le
+    même nombre de simulation. Nous montrons \emph{en haut} le RMS en $\%$
+    en fonction de la distance. Les traits en pointillés indiquent les niveaux à
+    $1\%$, $5\%$ et $10\%$. \emph{En bas} nous montrons le rapport
+    $\frac{RMS_{PS}}{RMS_{HG}}$ pour illustrer l'amélioration apportée par
+    \hypergal. Nous ne montrons que la boîte représentant les 3 quartiles de
+    chaque distribution pour plus de clareté visuelle. Le trait en
+    pointillés rouge indique un rapport de $1$}
   \label{fig:simu_rms_dist_spectrophoto}
 \end{figure}
+
+Quelque soit l'angle d'étude de la précision d'extraction photométrique,
+la méthode incluant la modélisation hyperspectrale de la galaxie hôte
+démontre une nette amélioration en comparaison avec une extraction
+basique comme celle proposée par \pysedm.
+
+Nous observons cependant que même le RMS spectral obtenu avec \hypergal
+ne permet pas d'étude scientifique
+spectrophotométrique avec la SEDm.
+
+Cet instrument, tout comme ce pipeline, ne sont heureusement pas conçus à
+cet effet mais à la classification des supernovae observées.
+
+Ce procédé utilise la structure du spectre au travers des raies
+d'absorptions/émissions caractéristiques de l'objet observé. La
+classification va donc se baser sur les corrélations entre le spectre
+extrait et une base de modèle dont la classification est a priori
+connue. En ce sens, nous avons choisi d'analyser le RMS spectral en
+retirant le continuum des spectres extraits, à l'instar de ce qui est
+effectué par \pkg{SNID} \citep{BlondinSNID}.
 
 \clearpage
 \subsection{Précision avec correction de continuum}
 % \label{ssec:xxx}
 
+Afin de faire en sorte que le RMS spectral sonde la structure du spectre
+extrait, indépendamment de l'amplitude relative avec le spectre de la
+simulation, nous divisons les deux spectres par leur continuum
+respectif. Bien que \pkg{SNID} utilise un polynome 
+d'ordre $13$ pour déterminer ce continuum, nous préférons procéder à
+cet ajustement avec un polynome
+d'ordre $5$ afin d'éviter un potentiel sur-ajustement de certaines
+caractéristiques des spectres.
 
+Nous illustrons cette correction dans la
+Figure~\ref{fig:continuumcorrection_ex}, où nous montrons la comparaison
+entre un spectre extrait et celui simulé, avant et après division du
+continuum. Nous pouvons visualiser dans cet exemple un effet de couleur
+lors de l'extraction menant à un RMS spectral spectrophotométrique de
+plus de $33\%$. En corrigeant par le continuum, on remarque que toutes
+les structures du spectres sont nettement extrait par \hypergal, et
+le RMS spectral tombe à $6\%$.
+
+\begin{figure}[ht]
+  \centering
+  \makebox[\textwidth][c]{\includegraphics[width=1.2\textwidth]{../figures/08_simu/continuumcorrection_ex.png}}%
+  \caption[Exemple de RMS spectral pour une simulation après correction
+  du continuum.]{Exemple de RMS spectral pour une simulation après
+    correction du continuum. Nous renseignons dans cet exemple les
+    caractéristiques de la simulation, où nous avons un SNR de $12.6$,
+    et une distance hôte/SN de $0\farcs86$. \emph{À gauche} nous
+    montrons la comparaison du spectre simulé (en bleu) et du spectre
+    extrait par \hypergal\ (en rouge), ainsi que le rapport entre les flux. Nous observons un effet de
+    couleur intense dégradant fortement le RMS spectrophotométrique sur
+    l'intervalle [$4000$,$8000$]\AA, atteignant plus de $33\%$. Les
+    courbes en pointillés représentent le continuum ajusté avec un
+    polynome d'ordre $5$. \emph{À droite} est présenté les mêmes
+    spectres mais cette fois ci après division par le continuum. On peut
+    voir que la
+    structure du spectre simulé est très bien retrouvé, et cette
+    correction ramène le RMS spectral à $\approx6\%$.}
+  \label{fig:continuumcorrection_ex}
+\end{figure}
+
+Comme pour le cas spectrophotométrique, nous montrons dans la
+Figure~\ref{fig:corrheatmap_simuparams} la carte des corrélations entre
+les RMS(après division par le continuum) obtenus avec deux méthodes d'extraction et les différents paramètres de
+la simulation. On remarque cette fois ci que la distance galaxie/SN
+seule ne présente aucune corrélation avec le RMS spectral obtenu lorsque
+l'on marginalise sur le SNR. La corrélation entre le RMS spectral et le
+SNR est très fort, $-0.93$ pour la méthode \hypergal, et $-0.83$ pour
+l'extraction simple. Nous pouvons raisonnablement en conclure que si l'objectif
+est une classification, et donc la capacité 
+d'extraction des caractéristiques du spectre, alors la connaissance du rapport signal sur
+bruit est suffisante pour estimer la qualité de l'extraction, et ce
+indépendamment de la distance entre la SN et sa galaxie hôte.
+ 
 \begin{figure}[ht]
   \begin{minipage}[c]{0.6\textwidth}
     \includegraphics[width=\textwidth]{../figures/08_simu/corrheatmap_simu_params.pdf}
@@ -527,42 +643,152 @@ descend sous les $5\%$ vers un SNR$\approx60$.
   \end{minipage}
 \end{figure}
 
+Avec cette information, il n'est pas vraiment d'intérêt à étudier
+l'évolution du RMS en fonction de la distance. Nous nous focalisons donc
+sur les résultats en fonction du SNR. La
+Figure~\ref{fig:simu_rms_snr_continuum_divided} présente ainsi la
+distribution en RMS spectral obtenue, après division par le continuum, en fonction de différents
+intervalles de SNR pour les deux méthodes d'extraction. Indépendamment
+de leur précision relative, nous apercevons que les deux méthodes
+obtiennent un RMS spectral $>25\%$ pour un SNR$<4$. Dans l'intervalle
+$4<\text{SNR}<8$, \hypergal\ commence à se démarquer avec un RMS allant
+de $10\%$ à $30\%$, présentant une amélioration médiane de $20\%$ par
+rapport à l'autre méthode d'extraction.  Le RMS médian à $10\%$ est
+atteint pour un SNR de $\approx10$, et de $5\%$ pour un SNR de
+$20$. Toutes les simulations avec un $\text{SNR}>40$ ont un RMS spectral
+$<5\%$, et le seuil des $2\%$ est franchi dans plus de $80\%$ des
+extractions pour un $\text{SNR}>60$.
 
-\begin{figure}[ht]
-  \centering
-  \makebox[\textwidth][c]{\includegraphics[width=1.2\textwidth]{../figures/08_simu/continuumcorrection_ex.png}}%
-  \caption[]{}
-  \label{fig:continuumcorrection_ex}
-\end{figure}
-
+Par rapport à la méthode d'extraction simple, \hypergal\ présente une
+amélioration médiane d'environ $20\%$ dès un SNR de $\approx5$, pour monter à
+environ $50\%$ entre $10<\text{SNR}<30$, et revenir progressivement à une amélioration
+médiane de l'ordre de $20\%$ jusqu'aux derniers intervalles de SNR
+étudiés ($>100$).
 
 \begin{figure}[ht]
   \centering
   \makebox[\textwidth][c]{\includegraphics[width=1.\textwidth]{../figures/08_simu/simu_rms_snr_continuum_divided.png}}%
-  \caption[]{}
+  \caption[Distribution du RMS spectral en fonction du SNR après
+  correction du continuum.]{Distribution du RMS spectral en fonction du SNR après
+    correction du continuum sur l'intervalle [$4000$,$8000$]\AA. Les
+    distributions sont présentées en boîtes, dont les 3 barres
+    centrales représentent les 3 quartiles ($25\%$, médiane et $50\%$). Nous illustrons ici une
+    distribution de RMS spectral pour chacune des deux méthodes
+    d'extraction et pour différents intervalles de SNR, chacun comptabilisant le
+    même nombre de simulation. Nous montrons \emph{en haut} le RMS en $\%$
+    en fonction du SNR. Les traits en pointillés indiquent les niveaux à
+    $1\%$, $5\%$ et $10\%$. \emph{En bas} nous montrons le rapport
+    $\frac{RMS_{PS}}{RMS_{HG}}$ pour illustrer l'amélioration apportée par
+    \hypergal. Nous ne montrons que la boîte représentant les 3 quartiles de
+    chaque distribution pour plus de clareté visuelle. Le trait en
+    pointillés rouge indique un rapport de $1$.}
   \label{fig:simu_rms_snr_continuum_divided}
 \end{figure}
+%\begin{figure}[ht]
+%  \centering
+%  \makebox[\textwidth][c]{\includegraphics[width=1.\textwidth]{../figures/08_simu/simu_rms_dist_continuum_divided.png}}%
+%  \caption[]{}
+%  \label{fig:simu_rms_dist_continuum_divided}
+%\end{figure}
 
-\begin{figure}[ht]
-  \centering
-  \makebox[\textwidth][c]{\includegraphics[width=1.\textwidth]{../figures/08_simu/simu_rms_dist_continuum_divided.png}}%
-  \caption[]{}
-  \label{fig:simu_rms_dist_continuum_divided}
-\end{figure}
+\clearpage
+\subsection{Efficacité de classification}\label{ssec:typingsimu}
 
-\subsection{Efficacité de classification}
-% \label{ssec:xxx}
+La dernière analyse de nos simulations, et la plus importante dans le
+cadre de la SEDm, est celle de l'efficacité d'\hypergal\ à classifier
+les supernovae simulées.
 
+Nous avons pour cela utilisé le même classifieur que ZTF, c'est à dire
+\pkg{SNID}. Les critères de confiance que nous accordons pour la classification
+sont cependant légèrement plus restreints, ayant régulièrement observé
+des faux positifs dans les figures de contrôle du pipeline \pysedm. Nous
+choisissons de fixer le r$lap$ minimal à r$lap_{min}=6$ pour le modèle
+ajustant le mieux le spectre extrait. Par ailleurs, pour valider une
+classification au moins $50\%$ des $10$ meilleurs modèles doivent être
+du même type que le premier. Si un seul des critères ci-dessus n'est pas
+respecté, alors nous classifions le spectre comme étant incertain.\\
+
+Nous montrons dans la Figure~\ref{fig:typingimprove_snr} les résultats
+de la classification obtenue avec \hypergal\ pour les $5000$
+simulations, ainsi que l'amélioration par rapport à la méthode
+d'extraction simple. Comme attendu avec l'étude du RMS spectral, il
+semble illusoire d'espérer une classification de confiance lorsque le
+SNR est inférieur à $4$. Une amélioration notable est visible dans
+l'intervalle de $4<\text{SNR}\leq8$ pour les supernovae de type Ia,
+\hypergal\ classifiant correctement $80\%$ d'entre elles. Cela
+s'explique par le grand nombre de caractéristiques du spectre de ce type
+de supernova, facilitant la classification. Les types Ibc et types II en
+revanche ne sont retrouvés qu'à $25\%$ et $30\%$ respectivement, certainement parce que
+ces spectres sont pauvrement structurés.
+
+Le succès de classification monte ensuite entre $8<\text{SNR}\leq13$ à près de $95\%$ pour les Ia
+, $88\%$ pour les types  Ibc et $57\%$ pour les types II.
+
+Plus de $99\%$ des types Ia sont correctement classifiées à partir d'un
+SNR de $13$, et plus de $96\%$ des toutes les supernovae sont
+correctement classifiées pour un SNR supérieur à $30$.
+
+L'amélioration vis à vis de la méthode d'extraction simple est
+clairement identifiée, avec $33\%$ de Ia en plus entre $4<\text{SNR}\leq8$,
+$27\%$ entre $8<\text{SNR}\leq13$, $15\%$ entre $13<\text{SNR}\leq20$ et
+$9\%$ entre $20<\text{SNR}\leq30$. Au delà l'amélioration est marginale,
+pour les Ia, mais reste de $19\%$ et $14\%$ pour les Ibc
+et II respectivement entre $30<\text{SNR}\leq45$. Nous n'observons plus d'amélioration
+notable lorsque le SNR est plus grand que
+$45$.
+
+Nous pouvons en déduire qu'\hypergal\ améliore drastiquement la
+classification des supernovae lorsque le SNR est compris entre $4$ et
+$45$, avec une zone optimale entre $8$ et $30$.
 
 \begin{figure}[ht]
   \centering
   \makebox[\textwidth][c]{\includegraphics[width=1.2\textwidth]{../figures/08_simu/typingimprove_snr.png}}%
-  \caption[]{}
+  \caption[Efficacité de classification des simulations.]{Efficacité de
+    classification des simulations. \emph{En haut} nous montrons le pourcentage
+  de classification réussie avec \hypergal\ pour chaque type de
+  supernova et différents intervalles de SNR. Nous avons concaténé les $4$
+  derniers intervalles de SNR car les résultats ne varient plus ou très
+  peu au delà d'un SNR de $45$. \emph{En bas} nous montrons
+  l'amélioration de classification par rapport à la méthode d'extraction
+simple. }
   \label{fig:typingimprove_snr}
 \end{figure}
 
-%\bibliographystyle{../main/aa_url2}
-%\bibliography{99_references}
+Nous examinons par ailleurs le taux de faux positifs pour les supernovae
+de type Ia, pouvant mener à une contamination des analyses cosmologiques
+si non pris en compte. La Figure~\ref{fig:falsepositivesIa} montre ainsi
+que pour l'intervalle $4<\text{SNR}\leq8$, malgré les $80\%$ de
+classification corrects des Ia et l'amélioration de $33\%$ par rapport à
+l'autre méthode d'extraction, nous avons près de $9\%$ de faux
+positifs. Ce pourcentage diminue progressivement à environ $7\%$ entre
+$8<\text{SNR}\leq13$, puis $5.5\%$ entre $13<\text{SNR}\leq20$ en enfin
+environ $2.5\%$ pour un SNR entre $20$ et $45$. Au delà
+d'un SNR de $45$, aucun faux positif n'est comptabilisé, autrement dit
+toutes les classifications Ia sont effectivement des Ia.
+
+À titre comparatif, la méthode d'extraction simple génère $12\%$ de faux
+positifs entre  $8<\text{SNR}\leq13$ puis oscille entre $6.5\%$ et
+$8.5\%$ dans l'intervalle $13<\text{SNR}\leq45$.
+
+\begin{figure}[ht]
+  \centering
+  \makebox[\textwidth][c]{\includegraphics[width=1.2\textwidth]{../figures/08_simu/falsepositivesIa.pdf}}%
+  \caption[Taux de faux positifs dans la classification des SNeIa.]{Taux de
+    faux positifs dans la classification des SNeIa pour les deux
+    méthodes d'extraction, en fonction du SNR. Le code couleur
+    correspond aux deux méthodes d'extraction.}
+  \label{fig:falsepositivesIa}
+\end{figure}
+
+Ces résultats illustrent ainsi une forte robustesse d'\hypergal\ à
+classifier les supernovae et notamment les SNeIa à partir d'un
+SNR$\approx10$, et surtout une amélioration conséquente vis à vis de
+l'ancienne méthode d'extraction, sans la modélisation hyperspectrale de
+la galaxie hôte. 
+
+\bibliographystyle{../main/aa_url2}
+\bibliography{99_references}
 \end{document}
 
 %%% Local Variables:

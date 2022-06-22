@@ -1,0 +1,21 @@
+\begin{thebibliography}{2}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{\textsc{{Nicolas}} {et~al.}(2021)\textsc{{Nicolas}},
+  \textsc{{Rigault}}, \textsc{{Copin}}, \textsc{{Graziani}},
+  \textsc{{Aldering}}, \textsc{{Briday}}, \textsc{{Kim}}, \textsc{{Nordin}},
+  \textsc{{Perlmutter}} et \textsc{{Smith}}}]{NoraNicolas21}
+\textsc{{Nicolas} N.}, \textsc{{Rigault} M.}, \textsc{{Copin} Y.} {et~al.}
+  2021, «~{Redshift evolution of the underlying type Ia supernova stretch
+  distribution}~»,
+  \href{http://dx.doi.org/10.1051/0004-6361/202038447}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2021A&A...649A..74N}{649, A74}
+
+\bibitem[{\textsc{{Scolnic}} et \textsc{{Kessler}}(2016)}]{Scolnicbias2016}
+\textsc{{Scolnic} D.} et \textsc{{Kessler} R.} 2016, «~{Measuring Type Ia
+  Supernova Populations of Stretch and Color and Predicting Distance
+  Biases}~»,
+  \href{http://dx.doi.org/10.3847/2041-8205/822/2/L35}{\color{magenta}\apjl},
+  \href{https://ui.adsabs.harvard.edu/abs/2016ApJ...822L..35S}{822, L35}
+
+\end{thebibliography}

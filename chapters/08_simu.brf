@@ -1,3 +1,4 @@
+\backcite {BlondinSNID}{{3}{8.1.3}{subsection.8.1.3}}
 \backcite {SavitzkyGolay}{{3}{8.1.3}{subsection.8.1.3}}
 \backcite {FremlingZTFspec2020}{{4}{8.1.4.1}{subsubsection.8.1.4.1}}
 \backcite {DhawanZTFDR1}{{4}{8.1.4.1}{subsubsection.8.1.4.1}}
@@ -7,3 +8,4 @@
 \backcite {Betoule2014}{{4}{8.1.4.1}{subsubsection.8.1.4.1}}
 \backcite {DhawanZTFDR1}{{5}{8.1.4.1}{subsubsection.8.1.4.1}}
 \backcite {pysedm}{{8}{8.2}{section.8.2}}
+\backcite {BlondinSNID}{{11}{8.2.1}{figure.caption.7}}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  19 JUN 2022 18:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  20 JUN 2022 20:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1650,142 +1650,143 @@ Package microtype Info: Loading generic protrusion settings for font family
 File: ../figures/08_simu/allhostsimu.pdf Graphic file (type pdf)
 <use ../figures/08_simu/allhostsimu.pdf>
 Package pdftex.def Info: ../figures/08_simu/allhostsimu.pdf  used on input line
- 82.
+ 87.
 (pdftex.def)             Requested size: 450.69417pt x 228.58052pt.
  [2]
-<../figures/08_simu/specsimueach.pdf, id=53, 1077.22458pt x 846.27391pt>
+<../figures/08_simu/specsimueach.pdf, id=55, 1077.22458pt x 846.27391pt>
 File: ../figures/08_simu/specsimueach.pdf Graphic file (type pdf)
 <use ../figures/08_simu/specsimueach.pdf>
 Package pdftex.def Info: ../figures/08_simu/specsimueach.pdf  used on input lin
-e 133.
+e 140.
 (pdftex.def)             Requested size: 450.69417pt x 354.06383pt.
-
-Underfull \vbox (badness 5563) has occurred while \output is active []
-
  [3 <../figures/08_simu/allhostsimu.pdf>] [4 <../figures/08_simu/specsimueach.p
 df>]
 
-LaTeX Warning: Reference `ch:irf' on page 5 undefined on input line 183.
+LaTeX Warning: Reference `ch:irf' on page 5 undefined on input line 190.
 
 
 LaTeX Warning: Reference `sec:validationpsf' on page 5 undefined on input line 
-189.
+196.
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 294--298
+Underfull \hbox (badness 10000) in paragraph at lines 301--305
 
  []
 
 [6]
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 319--364
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 326--371
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 319--364
+Underfull \hbox (badness 10000) in paragraph at lines 326--371
 
  []
 
-<../figures/08_simu/examplesimu.pdf, id=133, 1293.63306pt x 700.85245pt>
+<../figures/08_simu/examplesimu.pdf, id=136, 1293.63306pt x 700.85245pt>
 File: ../figures/08_simu/examplesimu.pdf Graphic file (type pdf)
 <use ../figures/08_simu/examplesimu.pdf>
 Package pdftex.def Info: ../figures/08_simu/examplesimu.pdf  used on input line
- 372.
+ 379.
 (pdftex.def)             Requested size: 523.52794pt x 283.6298pt.
 [7]
 
 LaTeX Warning: Reference `ssec:sourceextractpysedm' on page 8 undefined on inpu
-t line 390.
+t line 397.
 
 
-LaTeX Warning: Reference `sec:snid' on page 8 undefined on input line 414.
+LaTeX Warning: Reference `sec:snid' on page 8 undefined on input line 421.
 
 [8 <../figures/08_simu/examplesimu.pdf>]
-<../figures/08_simu/corr_SNR_contrast.pdf, id=169, 1239.76505pt x 486.69772pt>
+<../figures/08_simu/corr_SNR_contrast.pdf, id=172, 1239.76505pt x 486.69772pt>
 File: ../figures/08_simu/corr_SNR_contrast.pdf Graphic file (type pdf)
 <use ../figures/08_simu/corr_SNR_contrast.pdf>
 Package pdftex.def Info: ../figures/08_simu/corr_SNR_contrast.pdf  used on inpu
-t line 434.
+t line 441.
 (pdftex.def)             Requested size: 455.24411pt x 178.71631pt.
  [9 <../figures/08_simu/corr_SNR_contrast.pdf>]
-<../figures/08_simu/corrheatmap_simu_params_spectrophoto.pdf, id=203, 761.72427
+<../figures/08_simu/corrheatmap_simu_params_spectrophoto.pdf, id=206, 761.72427
 pt x 641.00955pt>
 File: ../figures/08_simu/corrheatmap_simu_params_spectrophoto.pdf Graphic file 
 (type pdf)
 <use ../figures/08_simu/corrheatmap_simu_params_spectrophoto.pdf>
 Package pdftex.def Info: ../figures/08_simu/corrheatmap_simu_params_spectrophot
-o.pdf  used on input line 469.
+o.pdf  used on input line 476.
 (pdftex.def)             Requested size: 273.14923pt x 229.85362pt.
-<../figures/08_simu/simu_rms_snr_spectrophoto.png, id=205, 1287.8514pt x 964.08
+<../figures/08_simu/simu_rms_snr_spectrophoto.png, id=208, 1287.8514pt x 964.08
 18pt>
 File: ../figures/08_simu/simu_rms_snr_spectrophoto.png Graphic file (type png)
 <use ../figures/08_simu/simu_rms_snr_spectrophoto.png>
 Package pdftex.def Info: ../figures/08_simu/simu_rms_snr_spectrophoto.png  used
- on input line 500.
-(pdftex.def)             Requested size: 455.24411pt x 340.78772pt.
-<../figures/08_simu/simu_rms_dist_spectrophoto.png, id=207, 1287.8514pt x 948.1
+ on input line 512.
+(pdftex.def)             Requested size: 409.71692pt x 306.70306pt.
+<../figures/08_simu/simu_rms_dist_spectrophoto.png, id=211, 1287.8514pt x 948.1
 824pt>
 File: ../figures/08_simu/simu_rms_dist_spectrophoto.png Graphic file (type png)
 
 <use ../figures/08_simu/simu_rms_dist_spectrophoto.png>
 Package pdftex.def Info: ../figures/08_simu/simu_rms_dist_spectrophoto.png  use
-d on input line 507.
-(pdftex.def)             Requested size: 455.24411pt x 335.16754pt.
+d on input line 539.
+(pdftex.def)             Requested size: 409.71692pt x 301.64499pt.
  [10 <../figures/08_simu/corrheatmap_simu_params_spectrophoto.pdf>]
 [11 <../figures/08_simu/simu_rms_snr_spectrophoto.png>] [12 <../figures/08_simu
 /simu_rms_dist_spectrophoto.png>]
-<../figures/08_simu/corrheatmap_simu_params.pdf, id=245, 748.6297pt x 643.27939
-pt>
-File: ../figures/08_simu/corrheatmap_simu_params.pdf Graphic file (type pdf)
-<use ../figures/08_simu/corrheatmap_simu_params.pdf>
-Package pdftex.def Info: ../figures/08_simu/corrheatmap_simu_params.pdf  used o
-n input line 519.
-(pdftex.def)             Requested size: 273.14923pt x 234.70177pt.
-
-Underfull \hbox (badness 1325) in paragraph at lines 526--526
-\T1/cmr/m/n/12 (+20) son des pa-ra-mètres prin-ci-paux
- []
-
-<../figures/08_simu/continuumcorrection_ex.png, id=246, 1148.94846pt x 581.1953
+<../figures/08_simu/continuumcorrection_ex.png, id=253, 1148.94846pt x 581.1953
 4pt>
 File: ../figures/08_simu/continuumcorrection_ex.png Graphic file (type png)
 <use ../figures/08_simu/continuumcorrection_ex.png>
 Package pdftex.def Info: ../figures/08_simu/continuumcorrection_ex.png  used on
- input line 533.
+ input line 601.
 (pdftex.def)             Requested size: 546.29153pt x 276.3367pt.
-<../figures/08_simu/simu_rms_snr_continuum_divided.png, id=247, 1287.8514pt x 9
+ [13
+
+ <../figures/08_simu/continuumcorrection_ex.png>]
+<../figures/08_simu/corrheatmap_simu_params.pdf, id=263, 748.6297pt x 643.27939
+pt>
+File: ../figures/08_simu/corrheatmap_simu_params.pdf Graphic file (type pdf)
+<use ../figures/08_simu/corrheatmap_simu_params.pdf>
+Package pdftex.def Info: ../figures/08_simu/corrheatmap_simu_params.pdf  used o
+n input line 635.
+(pdftex.def)             Requested size: 273.14923pt x 234.70177pt.
+
+Underfull \hbox (badness 1325) in paragraph at lines 642--642
+\T1/cmr/m/n/12 (+20) son des pa-ra-mètres prin-ci-paux
+ []
+
+<../figures/08_simu/simu_rms_snr_continuum_divided.png, id=265, 1287.8514pt x 9
 64.0818pt>
 File: ../figures/08_simu/simu_rms_snr_continuum_divided.png Graphic file (type 
 png)
 <use ../figures/08_simu/simu_rms_snr_continuum_divided.png>
 Package pdftex.def Info: ../figures/08_simu/simu_rms_snr_continuum_divided.png 
- used on input line 541.
+ used on input line 670.
 (pdftex.def)             Requested size: 455.24411pt x 340.78772pt.
-<../figures/08_simu/simu_rms_dist_continuum_divided.png, id=248, 1287.8514pt x 
-948.1824pt>
-File: ../figures/08_simu/simu_rms_dist_continuum_divided.png Graphic file (type
- png)
-<use ../figures/08_simu/simu_rms_dist_continuum_divided.png>
-Package pdftex.def Info: ../figures/08_simu/simu_rms_dist_continuum_divided.png
-  used on input line 548.
-(pdftex.def)             Requested size: 455.24411pt x 335.16754pt.
-<../figures/08_simu/typingimprove_snr.png, id=249, 1293.633pt x 726.3135pt>
+[14 <../figures/08_simu/corrheatmap_simu_params.pdf>] [15 <../figures/08_simu/s
+imu_rms_snr_continuum_divided.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 701--710
+
+ []
+
+<../figures/08_simu/typingimprove_snr.png, id=296, 1293.633pt x 726.3135pt>
 File: ../figures/08_simu/typingimprove_snr.png Graphic file (type png)
 <use ../figures/08_simu/typingimprove_snr.png>
 Package pdftex.def Info: ../figures/08_simu/typingimprove_snr.png  used on inpu
-t line 559.
+t line 746.
 (pdftex.def)             Requested size: 546.29153pt x 306.71199pt.
+<../figures/08_simu/falsepositivesIa.pdf, id=298, 1303.96535pt x 437.2335pt>
+File: ../figures/08_simu/falsepositivesIa.pdf Graphic file (type pdf)
+<use ../figures/08_simu/falsepositivesIa.pdf>
+Package pdftex.def Info: ../figures/08_simu/falsepositivesIa.pdf  used on input
+ line 776.
+(pdftex.def)             Requested size: 546.29153pt x 183.17647pt.
 (./08_simu.bbl (./08_simu.brf)
 \tf@brf=\write7
 \openout7 = `08_simu.brf'.
 
- [13
+ [16
 
- <../figures/08_simu/corrheatmap_simu_params.pdf>] [14 <../figures/08_simu/cont
-inuumcorrection_ex.png>] [15 <../figures/08_simu/simu_rms_snr_continuum_divided
-.png>] [16 <../figures/08_simu/simu_rms_dist_continuum_divided.png>] [17 <../fi
-gures/08_simu/typingimprove_snr.png>]
-[18
+] [17 <../figures/08_simu/typingimprove_snr.png> <../figures/08_simu/falseposit
+ivesIa.pdf>] [18
 
 ])
 Package minitoc Info: I0009
@@ -1807,14 +1808,14 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `08_simu.brf' has not changed.
-(rerunfilecheck)             Checksum: 52E0C78573238B7D73EB1760C38A0523;532.
+(rerunfilecheck)             Checksum: 62AFFD2EEFE45F9CBC8831624C058E75;641.
  ) 
 Here is how much of TeX's memory you used:
- 46916 strings out of 478994
- 995026 string characters out of 5858184
- 1543287 words of memory out of 5000000
- 63101 multiletter control sequences out of 15000+600000
- 428825 words of font info for 180 fonts, out of 8000000 for 9000
+ 46987 strings out of 478994
+ 995718 string characters out of 5858184
+ 1547000 words of memory out of 5000000
+ 63116 multiletter control sequences out of 15000+600000
+ 432785 words of font info for 209 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  137i,12n,148p,1510b,870s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
@@ -1839,11 +1840,12 @@ e/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/
 exmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2021/tex
 mf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf
 -dist/fonts/type1/public/cm-super/sftc1200.pfb></usr/local/texlive/2021/texmf-d
-ist/fonts/type1/public/cm-super/sftt2074.pfb>
-Output written on 08_simu.pdf (19 pages, 7500979 bytes).
+ist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2021/texmf-dis
+t/fonts/type1/public/cm-super/sftt2074.pfb>
+Output written on 08_simu.pdf (19 pages, 6630642 bytes).
 PDF statistics:
- 458 PDF objects out of 1000 (max. 8388607)
- 387 compressed objects within 4 object streams
- 66 named destinations out of 1000 (max. 500000)
- 52417 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 492 PDF objects out of 1000 (max. 8388607)
+ 421 compressed objects within 5 object streams
+ 67 named destinations out of 1000 (max. 500000)
+ 58561 words of extra memory for PDF output out of 61914 (max. 10000000)
 

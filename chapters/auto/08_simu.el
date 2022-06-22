@@ -20,6 +20,7 @@
     "subfiles10")
    (LaTeX-add-labels
     "ch:simu"
+    "sec:simugeneration"
     "fig:allhostsimu"
     "fig:specsimueach"
     "ssec:distancesimu"
@@ -34,10 +35,13 @@
     "fig:corrheatmap_simuparams_spectrophoto"
     "fig:simu_rms_snr_spectrophoto"
     "fig:simu_rms_dist_spectrophoto"
-    "fig:corrheatmap_simuparams"
     "fig:continuumcorrection_ex"
+    "fig:corrheatmap_simuparams"
     "fig:simu_rms_snr_continuum_divided"
-    "fig:simu_rms_dist_continuum_divided"
-    "fig:typingimprove_snr"))
+    "ssec:typingsimu"
+    "fig:typingimprove_snr"
+    "fig:falsepositivesIa")
+   (LaTeX-add-bibliographies
+    "99_references"))
  :latex)
 

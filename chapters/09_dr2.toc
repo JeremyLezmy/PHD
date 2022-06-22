@@ -1,0 +1,8 @@
+\babel@toc {french}{}
+\contentsline {chapter}{\numberline {9}Data Release 2 de ZTF}{1}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Présentation de la DR2 de ZTF}{2}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Statistiques sur les supernovae de type Ia}{2}{section.9.2}%
+\contentsline {subsection}{\numberline {9.2.1}Classification spectrale}{2}{subsection.9.2.1}%
+\contentsline {subsection}{\numberline {9.2.2}Photométrie}{2}{subsection.9.2.2}%
+\contentsline {subsection}{\numberline {9.2.3}Courbes de lumière}{2}{subsection.9.2.3}%
+\contentsline {subsection}{\numberline {9.2.4}Des SNeIa à la cosmologie: $H_{0}$, $w$ et $f\sigma _{8}$}{3}{subsection.9.2.4}%
