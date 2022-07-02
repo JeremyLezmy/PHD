@@ -3,27 +3,22 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: 07_scene.aux
 The style file: ../main/aa_url2.bst
 Database file #1: 99_references.bib
-I was expecting a `,' or a `}'---line 813 of file 99_references.bib
- :   
- :   url={https://ui.adsabs.harvard.edu/abs/2019MNRAS.489.3582D/abstract}
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
 Warning--entry type for "iminuit" isn't style-file defined
---line 1203 of file 99_references.bib
+--line 1398 of file 99_references.bib
 Warning--entry type for "kelsey_jordahl_2020_3946761" isn't style-file defined
---line 1334 of file 99_references.bib
+--line 1529 of file 99_references.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 You've used 15 entries,
             3173 wiz_defined-function locations,
-            820 strings with 9452 characters,
-and the built_in function-call counts, 10747 in all, are:
-= -- 780
-> -- 1055
+            821 strings with 9523 characters,
+and the built_in function-call counts, 10697 in all, are:
+= -- 777
+> -- 1046
 < -- 8
-+ -- 359
-- -- 342
-* -- 1438
-:= -- 1858
++ -- 356
+- -- 339
+* -- 1430
+:= -- 1848
 add.period$ -- 15
 call.type$ -- 15
 change.case$ -- 172
@@ -31,21 +26,21 @@ chr.to.int$ -- 15
 cite$ -- 15
 duplicate$ -- 285
 empty$ -- 426
-format.name$ -- 380
-if$ -- 1950
+format.name$ -- 377
+if$ -- 1941
 int.to.chr$ -- 1
 int.to.str$ -- 1
 missing$ -- 11
 newline$ -- 49
 num.names$ -- 60
-pop$ -- 162
+pop$ -- 163
 preamble$ -- 1
 purify$ -- 172
 quote$ -- 0
-skip$ -- 240
+skip$ -- 239
 stack$ -- 0
 substring$ -- 318
-swap$ -- 270
+swap$ -- 268
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
@@ -54,4 +49,4 @@ warning$ -- 0
 while$ -- 55
 width$ -- 0
 write$ -- 159
-(There was 1 error message)
+(There were 2 warnings)

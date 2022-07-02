@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  26 JUN 2022 20:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  3 JUL 2022 00:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1649,7 +1649,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 LaTeX Warning: Reference `ch:ztf' on page 2 undefined on input line 37.
 
-<../figures/09_dr2/ztf_skycoverage_and_cadence_landscape_lowq.pdf, id=47, 1369.
+<../figures/09_dr2/ztf_skycoverage_and_cadence_landscape_lowq.pdf, id=39, 1369.
 115pt x 626.34pt>
 File: ../figures/09_dr2/ztf_skycoverage_and_cadence_landscape_lowq.pdf Graphic 
 file (type pdf)
@@ -1658,14 +1658,14 @@ Package pdftex.def Info: ../figures/09_dr2/ztf_skycoverage_and_cadence_landscap
 e_lowq.pdf  used on input line 103.
 (pdftex.def)             Requested size: 523.52794pt x 239.50258pt.
 [2]
-<../figures/09_dr2/spec_instorigin_dr2.pdf, id=66, 929.8608pt x 499.3857pt>
+<../figures/09_dr2/spec_instorigin_dr2.pdf, id=59, 929.8608pt x 499.3857pt>
 File: ../figures/09_dr2/spec_instorigin_dr2.pdf Graphic file (type pdf)
 <use ../figures/09_dr2/spec_instorigin_dr2.pdf>
 Package pdftex.def Info: ../figures/09_dr2/spec_instorigin_dr2.pdf  used on inp
 ut line 142.
 (pdftex.def)             Requested size: 455.24411pt x 244.48776pt.
  [3 <../figures/09_dr2/ztf_skycoverage_and_cadence_landscape_lowq.pdf>]
-<../figures/09_dr2/target_peakmagg.pdf, id=88, 505.89pt x 216.81pt>
+<../figures/09_dr2/target_peakmagg.pdf, id=81, 505.89pt x 216.81pt>
 File: ../figures/09_dr2/target_peakmagg.pdf Graphic file (type pdf)
 <use ../figures/09_dr2/target_peakmagg.pdf>
 Package pdftex.def Info: ../figures/09_dr2/target_peakmagg.pdf  used on input l
@@ -1676,147 +1676,136 @@ ine 183.
 LaTeX Warning: Reference `ch:ztf' on page 4 undefined on input line 200.
 
 [4 <../figures/09_dr2/spec_instorigin_dr2.pdf>]
-<../figures/09_dr2/spec_instorigin_golden_dr2.pdf, id=116, 929.99594pt x 499.38
+<../figures/09_dr2/spec_instorigin_golden_dr2.pdf, id=109, 929.99594pt x 499.38
 57pt>
 File: ../figures/09_dr2/spec_instorigin_golden_dr2.pdf Graphic file (type pdf)
 <use ../figures/09_dr2/spec_instorigin_golden_dr2.pdf>
 Package pdftex.def Info: ../figures/09_dr2/spec_instorigin_golden_dr2.pdf  used
  on input line 217.
-(pdftex.def)             Requested size: 455.24411pt x 244.45729pt.
+(pdftex.def)             Requested size: 409.71692pt x 220.01231pt.
+<../figures/09_dr2/rlapdistribution_dr2.pdf, id=111, 732.97055pt x 366.5363pt>
+File: ../figures/09_dr2/rlapdistribution_dr2.pdf Graphic file (type pdf)
+<use ../figures/09_dr2/rlapdistribution_dr2.pdf>
+Package pdftex.def Info: ../figures/09_dr2/rlapdistribution_dr2.pdf  used on in
+put line 240.
+(pdftex.def)             Requested size: 341.43307pt x 170.73962pt.
+<../figures/09_dr2/spec_example_hypergaldr2.pdf, id=113, 557.09209pt x 697.4054
+9pt>
+File: ../figures/09_dr2/spec_example_hypergaldr2.pdf Graphic file (type pdf)
+<use ../figures/09_dr2/spec_example_hypergaldr2.pdf>
+Package pdftex.def Info: ../figures/09_dr2/spec_example_hypergaldr2.pdf  used o
+n input line 259.
+(pdftex.def)             Requested size: 318.66948pt x 398.95122pt.
 
 
-LaTeX Warning: Reference `ch:ztf' on page 5 undefined on input line 234.
+LaTeX Warning: Reference `ch:ztf' on page 5 undefined on input line 273.
 
 [5 <../figures/09_dr2/target_peakmagg.pdf>]
-<../figures/09_dr2/peakvsredshift_dr2.pdf, id=176, 710.08543pt x 709.89514pt>
+<../figures/09_dr2/peakvsredshift_dr2.pdf, id=174, 710.08543pt x 709.89514pt>
 File: ../figures/09_dr2/peakvsredshift_dr2.pdf Graphic file (type pdf)
 <use ../figures/09_dr2/peakvsredshift_dr2.pdf>
 Package pdftex.def Info: ../figures/09_dr2/peakvsredshift_dr2.pdf  used on inpu
-t line 274.
+t line 321.
 (pdftex.def)             Requested size: 455.24411pt x 455.13292pt.
- [6 <../figures/09_dr2/spec_instorigin_golden_dr2.pdf>] [7 <../figures/09_dr2/p
-eakvsredshift_dr2.pdf>]
-<../figures/09_dr2/lightcurve_example_dr2.pdf, id=211, 713.60628pt x 607.99265p
+ [6 <../figures/09_dr2/spec_instorigin_golden_dr2.pdf>] [7 <../figures/09_dr2/r
+lapdistribution_dr2.pdf> <../figures/09_dr2/spec_example_hypergaldr2.pdf
+
+pdfTeX warning: pdflatex (file ../figures/09_dr2/spec_example_hypergaldr2.pdf):
+ PDF inclusion: multiple pdfs with page group included in a single page
+>] [8 <../figures/09_dr2/peakvsredshift_dr2.pdf>]
+<../figures/09_dr2/lightcurve_example_dr2.pdf, id=232, 713.60628pt x 607.99265p
 t>
 File: ../figures/09_dr2/lightcurve_example_dr2.pdf Graphic file (type pdf)
 <use ../figures/09_dr2/lightcurve_example_dr2.pdf>
 Package pdftex.def Info: ../figures/09_dr2/lightcurve_example_dr2.pdf  used on 
-input line 303.
-(pdftex.def)             Requested size: 450.69417pt x 383.99294pt.
-<../figures/09_dr2/early_late_phase_dr2.pdf, id=213, 860.01299pt x 354.12299pt>
+input line 350.
+(pdftex.def)             Requested size: 441.58734pt x 376.2372pt.
+<../figures/09_dr2/early_late_phase_dr2.pdf, id=234, 860.01299pt x 354.12299pt>
 
 File: ../figures/09_dr2/early_late_phase_dr2.pdf Graphic file (type pdf)
 <use ../figures/09_dr2/early_late_phase_dr2.pdf>
 Package pdftex.def Info: ../figures/09_dr2/early_late_phase_dr2.pdf  used on in
-put line 325.
-(pdftex.def)             Requested size: 450.69417pt x 185.57692pt.
-<../figures/09_dr2/first_detect_dr2.pdf, id=214, 866.45477pt x 354.12299pt>
+put line 372.
+(pdftex.def)             Requested size: 409.71692pt x 168.70728pt.
+<../figures/09_dr2/first_detect_dr2.pdf, id=235, 866.45477pt x 354.12299pt>
 File: ../figures/09_dr2/first_detect_dr2.pdf Graphic file (type pdf)
 <use ../figures/09_dr2/first_detect_dr2.pdf>
 Package pdftex.def Info: ../figures/09_dr2/first_detect_dr2.pdf  used on input 
-line 326.
-(pdftex.def)             Requested size: 450.69417pt x 184.19904pt.
- [8
+line 373.
+(pdftex.def)             Requested size: 409.71692pt x 167.45366pt.
+ [9
 
  <../figures/09_dr2/lightcurve_example_dr2.pdf>]
-<../figures/09_dr2/phaseIadr2.pdf, id=234, 732.97055pt x 334.01482pt>
+<../figures/09_dr2/phaseIadr2.pdf, id=256, 732.97055pt x 334.01482pt>
 File: ../figures/09_dr2/phaseIadr2.pdf Graphic file (type pdf)
 <use ../figures/09_dr2/phaseIadr2.pdf>
 Package pdftex.def Info: ../figures/09_dr2/phaseIadr2.pdf  used on input line 3
-42.
-(pdftex.def)             Requested size: 450.69417pt x 205.37965pt.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 352.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 352.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 352.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 352.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 352.
-
-[9 <../figures/09_dr2/early_late_phase_dr2.pdf> <../figures/09_dr2/first_detect
-_dr2.pdf
+99.
+(pdftex.def)             Requested size: 409.71692pt x 186.70554pt.
+ [10 <../figures/09_dr2/early_late_phase_dr2.pdf> <../figures/09_dr2/first_dete
+ct_dr2.pdf
 
 pdfTeX warning: pdflatex (file ../figures/09_dr2/first_detect_dr2.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
 >]
-<../figures/09_dr2/stretch_color_redshift_dr2.pdf, id=265, 851.44508pt x 704.25
+<../figures/09_dr2/snidphase_vsphase_dr2.pdf, id=284, 799.40123pt x 474.93716pt
+>
+File: ../figures/09_dr2/snidphase_vsphase_dr2.pdf Graphic file (type pdf)
+<use ../figures/09_dr2/snidphase_vsphase_dr2.pdf>
+Package pdftex.def Info: ../figures/09_dr2/snidphase_vsphase_dr2.pdf  used on i
+nput line 423.
+(pdftex.def)             Requested size: 409.71692pt x 243.42499pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 438.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 438.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 438.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 438.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 438.
+
+<../figures/09_dr2/stretch_color_redshift_dr2.pdf, id=286, 851.44508pt x 704.25
 854pt>
 File: ../figures/09_dr2/stretch_color_redshift_dr2.pdf Graphic file (type pdf)
 <use ../figures/09_dr2/stretch_color_redshift_dr2.pdf>
 Package pdftex.def Info: ../figures/09_dr2/stretch_color_redshift_dr2.pdf  used
- on input line 366.
+ on input line 468.
 (pdftex.def)             Requested size: 500.77129pt x 414.1979pt.
-<../figures/09_dr2/stretch_color_driftmodel_dr2.pdf, id=273, 794.34308pt x 774.
+[11 <../figures/09_dr2/phaseIadr2.pdf>]
+<../figures/09_dr2/stretch_color_driftmodel_dr2.pdf, id=315, 794.34308pt x 774.
 93813pt>
 File: ../figures/09_dr2/stretch_color_driftmodel_dr2.pdf Graphic file (type pdf
 )
 <use ../figures/09_dr2/stretch_color_driftmodel_dr2.pdf>
 Package pdftex.def Info: ../figures/09_dr2/stretch_color_driftmodel_dr2.pdf  us
-ed on input line 391.
+ed on input line 527.
 (pdftex.def)             Requested size: 500.77129pt x 488.5447pt.
 
-Overfull \hbox (45.52718pt too wide) in paragraph at lines 391--397
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 527--544
  [][] 
  []
 
-[10 <../figures/09_dr2/phaseIadr2.pdf>] [11 <../figures/09_dr2/stretch_color_re
-dshift_dr2.pdf>] [12 <../figures/09_dr2/stretch_color_driftmodel_dr2.pdf>]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 407.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 407.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 407.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 409.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 409.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 411.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\sigma' on input line 411.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 411.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 411.
-
-(./09_dr2.bbl (./09_dr2.brf)
+[12 <../figures/09_dr2/snidphase_vsphase_dr2.pdf>] [13 <../figures/09_dr2/stret
+ch_color_redshift_dr2.pdf>] [14 <../figures/09_dr2/stretch_color_driftmodel_dr2
+.pdf>] (./09_dr2.bbl (./09_dr2.brf)
 \tf@brf=\write7
 \openout7 = `09_dr2.brf'.
 
- [13
+ [15
 
-] [14
+] [16
 
 ])
 Package minitoc Info: I0009
@@ -1830,7 +1819,7 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the 09_dr2.log file.
 
-[15] (./09_dr2.aux)
+[17] (./09_dr2.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1838,46 +1827,47 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `09_dr2.brf' has not changed.
-(rerunfilecheck)             Checksum: 8BEBA8BBB78EE5492563B0285BA0ED0F;642.
+(rerunfilecheck)             Checksum: D202309BACF39FD9E99581855D3C763F;642.
  ) 
 Here is how much of TeX's memory you used:
- 47042 strings out of 478994
- 996606 string characters out of 5858184
- 1548116 words of memory out of 5000000
- 63147 multiletter control sequences out of 15000+600000
- 443692 words of font info for 257 fonts, out of 8000000 for 9000
+ 47022 strings out of 478994
+ 996745 string characters out of 5858184
+ 1554023 words of memory out of 5000000
+ 63121 multiletter control sequences out of 15000+600000
+ 440586 words of font info for 240 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 137i,12n,148p,2416b,776s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 137i,12n,148p,2416b,774s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<
-/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
-sr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
-/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
-ocal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
-al/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local
-/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/te
-xlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
-live/2021/texmf-dist/fonts/type1/public/cm-super/sfbi1200.pfb></usr/local/texli
-ve/2021/texmf-dist/fonts/type1/public/cm-super/sfbi1440.pfb></usr/local/texlive
-/2021/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texlive/2
-021/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/202
-1/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2021/
-texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2021/te
-xmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2021/texm
-f-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2021/texmf-
-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2021/texmf-di
-st/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2021/texmf-dist
-/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2021/texmf-dist/f
-onts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/fon
-ts/type1/public/cm-super/sftc1200.pfb></usr/local/texlive/2021/texmf-dist/fonts
-/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/t
-ype1/public/cm-super/sfti1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/typ
-e1/public/cm-super/sftt2074.pfb>
-Output written on 09_dr2.pdf (15 pages, 1985364 bytes).
+/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
+usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
+r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
+cal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loca
+l/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/t
+exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
+xlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbi1200.pfb></usr/local/texl
+ive/2021/texmf-dist/fonts/type1/public/cm-super/sfbi1440.pfb></usr/local/texliv
+e/2021/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texlive/
+2021/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/20
+21/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2021
+/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2021/t
+exmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2021/tex
+mf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2021/texmf
+-dist/fonts/type1/public/cm-super/sfcc1000.pfb></usr/local/texlive/2021/texmf-d
+ist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2021/texmf-dis
+t/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2021/texmf-dist/
+fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texmf-dist/fo
+nts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2021/texmf-dist/font
+s/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/
+type1/public/cm-super/sftc1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/ty
+pe1/public/cm-super/sfti1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type
+1/public/cm-super/sfti1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/
+public/cm-super/sftt2074.pfb>
+Output written on 09_dr2.pdf (17 pages, 2053707 bytes).
 PDF statistics:
- 500 PDF objects out of 1000 (max. 8388607)
- 385 compressed objects within 4 object streams
- 47 named destinations out of 1000 (max. 500000)
- 93356 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 540 PDF objects out of 1000 (max. 8388607)
+ 415 compressed objects within 5 object streams
+ 49 named destinations out of 1000 (max. 500000)
+ 77475 words of extra memory for PDF output out of 89155 (max. 10000000)
 

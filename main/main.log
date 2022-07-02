@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  19 JUN 2022 18:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  3 JUL 2022 00:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1375,9 +1375,6 @@ LaTeX Warning: Unused global option(s):
 
 (./main.aux
 
-LaTeX Warning: Label `eq:calibbutoon' multiply defined.
-
-
 LaTeX Warning: Label `eq:betaalpha' multiply defined.
 
 
@@ -1388,9 +1385,6 @@ LaTeX Warning: Label `' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `ch:res' multiply defined.
 
 )
 \openout1 = `main.aux'.
@@ -1642,7 +1636,18 @@ ters/../figures//logos.jpg>])
 ])
 (../chapters/../chapters/11_resume.tex [3] [4
 
-])
+]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
+6.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+)
 (../chapters/../chapters/12_abstract.tex [5] [6
 
 ]) [7] [8
@@ -1693,25 +1698,15 @@ Package minitoc Info: I0033
  (./main.toc [9
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 5
-0.
-
-(/usr/local/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
 
 LaTeX Font Warning: Font shape `T1/cmtt/bx/sc' undefined
-(Font)              using `T1/cmtt/bx/n' instead on input line 50.
+(Font)              using `T1/cmtt/bx/n' instead on input line 57.
 
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 50.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 57.
 [10]
 LaTeX Font Info:    Font shape `T1/cmtt/bx/sc' in size <12> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 117.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 124.
  [11])
 \tf@toc=\write6
 \openout6 = `main.toc'.
@@ -1719,68 +1714,152 @@ LaTeX Font Info:    Font shape `T1/cmtt/bx/sc' in size <12> not available
  [12] (./main.lof [13
 
 ]
-Overfull \hbox (2.39392pt too wide) in paragraph at lines 71--71
+Overfull \hbox (2.39392pt too wide) in paragraph at lines 75--75
  [][] []\T1/cmr/m/n/12 (-20) Ajustement des méta-tranches pour la mo-dé-li-sa-t
 ion de scène de ZTF18accrorf. 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--71
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
  []  
  []
 
-)
+[14])
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
- [14] (./main.lot)
+ [15] [16
+
+] (./main.lot)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
- (../chapters/../chapters/13_introduction.tex [15
+ (../chapters/../chapters/13_introduction.tex
+[17] [18
 
-] [16
+] [19] [20]) [21
 
-]
-[17] [18]) [19
-
-] [20] (../chapters/../chapters/01_cosmology.tex
+] [22] (../chapters/../chapters/01_cosmology.tex
 Chapitre 1.
 \openout4 = `main.mtc'.
 
 \openout4 = `main.mtc'.
 
-(./main.mtc1) [21
+(./main.mtc1) [23
 
-] [22]
+] [24]
+<../chapters/../figures/01_cosmology/homogeneunivers.pdf, id=677, 612.2875pt x 
+325.215pt>
+File: ../chapters/../figures/01_cosmology/homogeneunivers.pdf Graphic file (typ
+e pdf)
+<use ../chapters/../figures/01_cosmology/homogeneunivers.pdf>
+Package pdftex.def Info: ../chapters/../figures/01_cosmology/homogeneunivers.pd
+f  used on input line 112.
+(pdftex.def)             Requested size: 341.43307pt x 181.34999pt.
+ [25 <../chapters/../figures/01_cosmology/homogeneunivers.pdf>]
+<../chapters/../figures/01_cosmology/CMB_Planck18.png, id=703, 192.72pt x 115.3
+911pt>
+File: ../chapters/../figures/01_cosmology/CMB_Planck18.png Graphic file (type p
+ng)
+<use ../chapters/../figures/01_cosmology/CMB_Planck18.png>
+Package pdftex.def Info: ../chapters/../figures/01_cosmology/CMB_Planck18.png  
+used on input line 154.
+(pdftex.def)             Requested size: 409.71692pt x 245.31815pt.
+ [26 <../chapters/../figures/01_cosmology/CMB_Planck18.png>] [27]
+[28]
+<../chapters/../figures/01_cosmology/Hubble.jpg, id=754, 1284.8pt x 774.895pt>
+File: ../chapters/../figures/01_cosmology/Hubble.jpg Graphic file (type jpg)
+<use ../chapters/../figures/01_cosmology/Hubble.jpg>
+Package pdftex.def Info: ../chapters/../figures/01_cosmology/Hubble.jpg  used o
+n input line 348.
+(pdftex.def)             Requested size: 341.43307pt x 205.92557pt.
+ [29 <../chapters/../figures/01_cosmology/Hubble.jpg>] [30]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\Lambda' on input line 49.
+(hyperref)                removing `\Lambda' on input line 474.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\spacefactor' on input line 49.
+(hyperref)                removing `\spacefactor' on input line 474.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@m' on input line 49.
+(hyperref)                removing `\@m' on input line 474.
 
-[23]) (../chapters/../chapters/02_ztf.tex [24]
+[31]
+<../chapters/../figures/01_cosmology/BAOpeak.pdf, id=798, 726.715pt x 718.685pt
+>
+File: ../chapters/../figures/01_cosmology/BAOpeak.pdf Graphic file (type pdf)
+<use ../chapters/../figures/01_cosmology/BAOpeak.pdf>
+Package pdftex.def Info: ../chapters/../figures/01_cosmology/BAOpeak.pdf  used 
+on input line 538.
+(pdftex.def)             Requested size: 250.38564pt x 247.6176pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\Lambda' on input line 575.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\spacefactor' on input line 575.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@m' on input line 575.
+
+[32] [33 <../chapters/../figures/01_cosmology/BAOpeak.pdf>]
+<../chapters/../figures/01_cosmology/Betoule_omegaM_omega_L.pdf, id=825, 744.78
+25pt x 517.935pt>
+File: ../chapters/../figures/01_cosmology/Betoule_omegaM_omega_L.pdf Graphic fi
+le (type pdf)
+<use ../chapters/../figures/01_cosmology/Betoule_omegaM_omega_L.pdf>
+Package pdftex.def Info: ../chapters/../figures/01_cosmology/Betoule_omegaM_ome
+ga_L.pdf  used on input line 626.
+(pdftex.def)             Requested size: 227.62206pt x 158.29001pt.
+<../chapters/../figures/01_cosmology/PlanckOmegakOmegam.pdf, id=826, 806.01125p
+t x 602.25pt>
+File: ../chapters/../figures/01_cosmology/PlanckOmegakOmegam.pdf Graphic file (
+type pdf)
+<use ../chapters/../figures/01_cosmology/PlanckOmegakOmegam.pdf>
+Package pdftex.def Info: ../chapters/../figures/01_cosmology/PlanckOmegakOmegam
+.pdf  used on input line 627.
+(pdftex.def)             Requested size: 227.62206pt x 170.07161pt.
+<../chapters/../figures/01_cosmology/BetoulewomegaM.pdf, id=844, 739.76375pt x 
+512.91624pt>
+File: ../chapters/../figures/01_cosmology/BetoulewomegaM.pdf Graphic file (type
+ pdf)
+<use ../chapters/../figures/01_cosmology/BetoulewomegaM.pdf>
+Package pdftex.def Info: ../chapters/../figures/01_cosmology/BetoulewomegaM.pdf
+  used on input line 656.
+(pdftex.def)             Requested size: 227.62206pt x 157.82059pt.
+<../chapters/../figures/01_cosmology/Planckw0wa.pdf, id=845, 693.59125pt x 491.
+8375pt>
+File: ../chapters/../figures/01_cosmology/Planckw0wa.pdf Graphic file (type pdf
+)
+<use ../chapters/../figures/01_cosmology/Planckw0wa.pdf>
+Package pdftex.def Info: ../chapters/../figures/01_cosmology/Planckw0wa.pdf  us
+ed on input line 657.
+(pdftex.def)             Requested size: 227.62206pt x 161.4063pt.
+)
+(../chapters/../chapters/02_ztf.tex [34 <../chapters/../figures/01_cosmology/Be
+toule_omegaM_omega_L.pdf> <../chapters/../figures/01_cosmology/PlanckOmegakOmeg
+am.pdf>] [35 <../chapters/../figures/01_cosmology/BetoulewomegaM.pdf> <../chapt
+ers/../figures/01_cosmology/Planckw0wa.pdf>] [36
+
+]
 Chapitre 2.
 \openout4 = `main.mtc'.
 
 \openout4 = `main.mtc'.
 
-(./main.mtc2) [25
-
-]
-<../chapters/../figures/02_ztf/p48.png, id=600, 1247.66125pt x 467.7475pt>
+(./main.mtc2) [37]
+<../chapters/../figures/02_ztf/p48.png, id=934, 1247.66125pt x 467.7475pt>
 File: ../chapters/../figures/02_ztf/p48.png Graphic file (type png)
 <use ../chapters/../figures/02_ztf/p48.png>
 Package pdftex.def Info: ../chapters/../figures/02_ztf/p48.png  used on input l
 ine 55.
 (pdftex.def)             Requested size: 341.43307pt x 127.9993pt.
-<../chapters/../figures/02_ztf/ztfcamerafov.png, id=602, 1132.23pt x 637.38126p
+<../chapters/../figures/02_ztf/ztfcamerafov.png, id=935, 1132.23pt x 637.38126p
 t>
 File: ../chapters/../figures/02_ztf/ztfcamerafov.png Graphic file (type png)
 <use ../chapters/../figures/02_ztf/ztfcamerafov.png>
@@ -1791,9 +1870,9 @@ n input line 63.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[26 <../chapters/../figures/02_ztf/p48.png>] [27 <../chapters/../figures/02_ztf
-/ztfcamerafov.png>] [28]
-<../chapters/../figures/02_ztf/palomar_obs-min.png, id=632, 1060.96375pt x 700.
+[38 <../chapters/../figures/02_ztf/p48.png>] [39 <../chapters/../figures/02_ztf
+/ztfcamerafov.png>] [40]
+<../chapters/../figures/02_ztf/palomar_obs-min.png, id=963, 1060.96375pt x 700.
 6175pt>
 File: ../chapters/../figures/02_ztf/palomar_obs-min.png Graphic file (type png)
 
@@ -1801,7 +1880,7 @@ File: ../chapters/../figures/02_ztf/palomar_obs-min.png Graphic file (type png)
 Package pdftex.def Info: ../chapters/../figures/02_ztf/palomar_obs-min.png  use
 d on input line 196.
 (pdftex.def)             Requested size: 341.43307pt x 225.46365pt.
-<../chapters/../figures/02_ztf/ztfcamera.png, id=636, 470.75874pt x 431.6125pt>
+<../chapters/../figures/02_ztf/ztfcamera.png, id=967, 470.75874pt x 431.6125pt>
 
 File: ../chapters/../figures/02_ztf/ztfcamera.png Graphic file (type png)
 <use ../chapters/../figures/02_ztf/ztfcamera.png>
@@ -1813,21 +1892,21 @@ Underfull \hbox (badness 1394) in paragraph at lines 224--224
 []\T1/cmr/m/n/10.95 (+20) (a) |Plan fo-cal de la ca-méra ZTF
  []
 
-<../chapters/../figures/02_ztf/p48details.png, id=641, 649.42625pt x 474.77374p
+<../chapters/../figures/02_ztf/p48details.png, id=972, 649.42625pt x 474.77374p
 t>
 File: ../chapters/../figures/02_ztf/p48details.png Graphic file (type png)
 <use ../chapters/../figures/02_ztf/p48details.png>
 Package pdftex.def Info: ../chapters/../figures/02_ztf/p48details.png  used on 
 input line 226.
 (pdftex.def)             Requested size: 227.62206pt x 166.40512pt.
-<../chapters/../figures/02_ztf/ZTFfilters.pdf, id=648, 504.91896pt x 358.64789p
+<../chapters/../figures/02_ztf/ZTFfilters.pdf, id=979, 504.91896pt x 358.64789p
 t>
 File: ../chapters/../figures/02_ztf/ZTFfilters.pdf Graphic file (type pdf)
 <use ../chapters/../figures/02_ztf/ZTFfilters.pdf>
 Package pdftex.def Info: ../chapters/../figures/02_ztf/ZTFfilters.pdf  used on 
 input line 244.
 (pdftex.def)             Requested size: 250.38564pt x 177.85138pt.
-<../chapters/../figures/02_ztf/ztfperformances.pdf, id=653, 1287.81125pt x 487.
+<../chapters/../figures/02_ztf/ztfperformances.pdf, id=984, 1287.81125pt x 487.
 8225pt>
 File: ../chapters/../figures/02_ztf/ztfperformances.pdf Graphic file (type pdf)
 
@@ -1838,12 +1917,12 @@ d on input line 256.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[29 <../chapters/../figures/02_ztf/palomar_obs-min.png>] [30 <../chapters/../fi
+[41 <../chapters/../figures/02_ztf/palomar_obs-min.png>] [42 <../chapters/../fi
 gures/02_ztf/ztfcamera.png> <../chapters/../figures/02_ztf/p48details.png> <../
-chapters/../figures/02_ztf/ZTFfilters.pdf>] [31 <../chapters/../figures/02_ztf/
+chapters/../figures/02_ztf/ZTFfilters.pdf>] [43 <../chapters/../figures/02_ztf/
 ztfperformances.pdf>]
-<../chapters/../figures/02_ztf/cumulsniaztf.png, id=721, 1487.5575pt x 702.625p
-t>
+<../chapters/../figures/02_ztf/cumulsniaztf.png, id=1052, 1487.5575pt x 702.625
+pt>
 File: ../chapters/../figures/02_ztf/cumulsniaztf.png Graphic file (type png)
 <use ../chapters/../figures/02_ztf/cumulsniaztf.png>
 Package pdftex.def Info: ../chapters/../figures/02_ztf/cumulsniaztf.png  used o
@@ -1853,8 +1932,8 @@ n input line 390.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[32]) (../chapters/../chapters/03_sedm.tex [33 <../chapters/../figures/02_ztf/c
-umulsniaztf.png>] [34
+[44]) (../chapters/../chapters/03_sedm.tex [45 <../chapters/../figures/02_ztf/c
+umulsniaztf.png>] [46
 
 ]
 Chapitre 3.
@@ -1862,9 +1941,9 @@ Chapitre 3.
 
 \openout4 = `main.mtc'.
 
-(./main.mtc3) [35]
-<../chapters/../figures/03_sedm/ifsgeneral.png, id=792, 823.075pt x 479.7925pt>
-
+(./main.mtc3) [47]
+<../chapters/../figures/03_sedm/ifsgeneral.png, id=1121, 823.075pt x 479.7925pt
+>
 File: ../chapters/../figures/03_sedm/ifsgeneral.png Graphic file (type png)
 <use ../chapters/../figures/03_sedm/ifsgeneral.png>
 Package pdftex.def Info: ../chapters/../figures/03_sedm/ifsgeneral.png  used on
@@ -1890,9 +1969,9 @@ LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[36]
-<../chapters/../figures/03_sedm/sedmoverview.png, id=816, 748.7975pt x 530.9837
-5pt>
+[48]
+<../chapters/../figures/03_sedm/sedmoverview.png, id=1145, 748.7975pt x 530.983
+75pt>
 File: ../chapters/../figures/03_sedm/sedmoverview.png Graphic file (type png)
 <use ../chapters/../figures/03_sedm/sedmoverview.png>
 Package pdftex.def Info: ../chapters/../figures/03_sedm/sedmoverview.png  used 
@@ -1902,14 +1981,14 @@ on input line 126.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[37 <../chapters/../figures/03_sedm/ifsgeneral.png>]
+[49 <../chapters/../figures/03_sedm/ifsgeneral.png>]
 Overfull \hbox (17.62482pt too wide) in paragraph at lines 174--185
 []$[]$
  []
 
-[38 <../chapters/../figures/03_sedm/sedmoverview.png>]
-<../chapters/../figures/03_sedm/calibdag.png, id=837, 1339.0025pt x 753.81625pt
->
+[50 <../chapters/../figures/03_sedm/sedmoverview.png>]
+<../chapters/../figures/03_sedm/calibdag.png, id=1166, 1339.0025pt x 753.81625p
+t>
 File: ../chapters/../figures/03_sedm/calibdag.png Graphic file (type png)
 <use ../chapters/../figures/03_sedm/calibdag.png>
 Package pdftex.def Info: ../chapters/../figures/03_sedm/calibdag.png  used on i
@@ -1928,63 +2007,58 @@ Underfull \vbox (badness 1953) detected at line 244
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39]
-[40 <../chapters/../figures/03_sedm/calibdag.png>]
-<../chapters/../figures/03_sedm/tracematchsedm.png, id=862, 732.7375pt x 359.34
-25pt>
+ [51]
+[52 <../chapters/../figures/03_sedm/calibdag.png>]
+<../chapters/../figures/03_sedm/tracematchsedm.png, id=1191, 732.7375pt x 359.3
+425pt>
 File: ../chapters/../figures/03_sedm/tracematchsedm.png Graphic file (type png)
 
 <use ../chapters/../figures/03_sedm/tracematchsedm.png>
 Package pdftex.def Info: ../chapters/../figures/03_sedm/tracematchsedm.png  use
 d on input line 292.
 (pdftex.def)             Requested size: 241.27881pt x 118.32568pt.
-<../chapters/../figures/03_sedm/wavesolsedm.png, id=863, 751.80875pt x 443.6575
-pt>
+<../chapters/../figures/03_sedm/wavesolsedm.png, id=1192, 751.80875pt x 443.657
+5pt>
 File: ../chapters/../figures/03_sedm/wavesolsedm.png Graphic file (type png)
 <use ../chapters/../figures/03_sedm/wavesolsedm.png>
 Package pdftex.def Info: ../chapters/../figures/03_sedm/wavesolsedm.png  used o
 n input line 293.
 (pdftex.def)             Requested size: 204.85846pt x 120.89258pt.
- [41 <../chapters/../figures/03_sedm/tracematchsedm.png> <../chapters/../figure
+ [53 <../chapters/../figures/03_sedm/tracematchsedm.png> <../chapters/../figure
 s/03_sedm/wavesolsedm.png>]
-[42]
-
-LaTeX Warning: Reference `ssec:chromadr' on page 43 undefined on input line 437
-.
-
-
+[54]
 Underfull \vbox (badness 1168) has occurred while \output is active []
 
- [43]
-[44]
-<../chapters/../figures/03_sedm/pysedmoutput.png, id=969, 1253.68375pt x 789.95
-125pt>
+ [55]
+[56]
+<../chapters/../figures/03_sedm/pysedmoutput.png, id=1291, 1253.68375pt x 789.9
+5125pt>
 File: ../chapters/../figures/03_sedm/pysedmoutput.png Graphic file (type png)
 <use ../chapters/../figures/03_sedm/pysedmoutput.png>
 Package pdftex.def Info: ../chapters/../figures/03_sedm/pysedmoutput.png  used 
-on input line 587.
+on input line 582.
 (pdftex.def)             Requested size: 450.69417pt x 283.98445pt.
- [45]
-<../chapters/../figures/03_sedm/cumulsnhostdist.png, id=994, 700.6175pt x 315.1
-775pt>
+ [57]
+<../chapters/../figures/03_sedm/cumulsnhostdist.png, id=1316, 700.6175pt x 315.
+1775pt>
 File: ../chapters/../figures/03_sedm/cumulsnhostdist.png Graphic file (type png
 )
 <use ../chapters/../figures/03_sedm/cumulsnhostdist.png>
 Package pdftex.def Info: ../chapters/../figures/03_sedm/cumulsnhostdist.png  us
-ed on input line 637.
+ed on input line 632.
 (pdftex.def)             Requested size: 250.38564pt x 112.63663pt.
- [46] [47 <../chapters/../figures/03_sedm/pysedmoutput.png>]
-<../chapters/../figures/03_sedm/stronghost.png, id=1020, 956.57375pt x 374.3987
+ [58] [59 <../chapters/../figures/03_sedm/pysedmoutput.png>]
+<../chapters/../figures/03_sedm/stronghost.png, id=1342, 956.57375pt x 374.3987
 4pt>
 File: ../chapters/../figures/03_sedm/stronghost.png Graphic file (type png)
 <use ../chapters/../figures/03_sedm/stronghost.png>
 Package pdftex.def Info: ../chapters/../figures/03_sedm/stronghost.png  used on
- input line 695.
+ input line 690.
 (pdftex.def)             Requested size: 432.48051pt x 169.27196pt.
-) [48 <../chapters/../figures/03_sedm/cumulsnhostdist.png> <../chapters/../figu
-res/03_sedm/stronghost.png>] [49
+) [60 <../chapters/../figures/03_sedm/cumulsnhostdist.png> <../chapters/../figu
+res/03_sedm/stronghost.png>] [61
 
-] [50] (../chapters/../chapters/04_hypergal.tex
+] [62] (../chapters/../chapters/04_hypergal.tex
 Chapitre 4.
 LaTeX Font Info:    Font shape `T1/cmtt/bx/sc' in size <20.74> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 6.
@@ -1992,10 +2066,10 @@ LaTeX Font Info:    Font shape `T1/cmtt/bx/sc' in size <20.74> not available
 
 \openout4 = `main.mtc'.
 
-(./main.mtc4) [51
+(./main.mtc4) [63
 
-] [52]
-<../chapters/../figures/04_hypergal/specgalsdss.png, id=1066, 1179.40625pt x 44
+] [64]
+<../chapters/../figures/04_hypergal/specgalsdss.png, id=1387, 1179.40625pt x 44
 8.67625pt>
 File: ../chapters/../figures/04_hypergal/specgalsdss.png Graphic file (type png
 )
@@ -2003,8 +2077,8 @@ File: ../chapters/../figures/04_hypergal/specgalsdss.png Graphic file (type png
 Package pdftex.def Info: ../chapters/../figures/04_hypergal/specgalsdss.png  us
 ed on input line 142.
 (pdftex.def)             Requested size: 450.69417pt x 171.45721pt.
- [53 <../chapters/../figures/04_hypergal/specgalsdss.png>] [54]
-<../chapters/../figures/04_hypergal/softdaghypergal.png, id=1174, 1256.695pt x 
+ [65 <../chapters/../figures/04_hypergal/specgalsdss.png>] [66]
+<../chapters/../figures/04_hypergal/softdaghypergal.png, id=1495, 1256.695pt x 
 544.0325pt>
 File: ../chapters/../figures/04_hypergal/softdaghypergal.png Graphic file (type
  png)
@@ -2012,8 +2086,8 @@ File: ../chapters/../figures/04_hypergal/softdaghypergal.png Graphic file (type
 Package pdftex.def Info: ../chapters/../figures/04_hypergal/softdaghypergal.png
   used on input line 257.
 (pdftex.def)             Requested size: 450.69417pt x 195.10443pt.
- [55 <../chapters/../figures/04_hypergal/softdaghypergal.png>] [56]
-<../chapters/../figures/04_hypergal/e3dcube_ZTF18accrorf.png, id=1204, 1011.78p
+ [67 <../chapters/../figures/04_hypergal/softdaghypergal.png>] [68]
+<../chapters/../figures/04_hypergal/e3dcube_ZTF18accrorf.png, id=1525, 1011.78p
 t x 380.8629pt>
 File: ../chapters/../figures/04_hypergal/e3dcube_ZTF18accrorf.png Graphic file 
 (type png)
@@ -2021,7 +2095,7 @@ File: ../chapters/../figures/04_hypergal/e3dcube_ZTF18accrorf.png Graphic file
 Package pdftex.def Info: ../chapters/../figures/04_hypergal/e3dcube_ZTF18accror
 f.png  used on input line 338.
 (pdftex.def)             Requested size: 450.69417pt x 169.65489pt.
-<../chapters/../figures/04_hypergal/easycaseextractionpysedm.png, id=1205, 1125
+<../chapters/../figures/04_hypergal/easycaseextractionpysedm.png, id=1526, 1125
 .20375pt x 581.17125pt>
 File: ../chapters/../figures/04_hypergal/easycaseextractionpysedm.png Graphic f
 ile (type png)
@@ -2033,18 +2107,18 @@ ysedm.png  used on input line 354.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (../chapters/../chapters/05_sedfit.tex [57 <../chapters/../figures/04_hyperga
-l/e3dcube_ZTF18accrorf.png>] [58 <../chapters/../figures/04_hypergal/easycaseex
+) (../chapters/../chapters/05_sedfit.tex [69 <../chapters/../figures/04_hyperga
+l/e3dcube_ZTF18accrorf.png>] [70 <../chapters/../figures/04_hypergal/easycaseex
 tractionpysedm.png>]
 Chapitre 5.
 \openout4 = `main.mtc'.
 
 \openout4 = `main.mtc'.
 
-(./main.mtc5) [59
+(./main.mtc5) [71
 
 ]
-<../chapters/../figures/05_sedfit/GPC1focalplan.png, id=1252, 663.47874pt x 665
+<../chapters/../figures/05_sedfit/GPC1focalplan.png, id=1573, 663.47874pt x 665
 .48625pt>
 File: ../chapters/../figures/05_sedfit/GPC1focalplan.png Graphic file (type png
 )
@@ -2052,8 +2126,8 @@ File: ../chapters/../figures/05_sedfit/GPC1focalplan.png Graphic file (type png
 Package pdftex.def Info: ../chapters/../figures/05_sedfit/GPC1focalplan.png  us
 ed on input line 71.
 (pdftex.def)             Requested size: 182.09486pt x 182.63864pt.
- [60 <../chapters/../figures/05_sedfit/GPC1focalplan.png>]
-<../chapters/../figures/05_sedfit/ps1filters.png, id=1273, 503.9628pt x 357.495
+ [72 <../chapters/../figures/05_sedfit/GPC1focalplan.png>]
+<../chapters/../figures/05_sedfit/ps1filters.png, id=1594, 503.9628pt x 357.495
 6pt>
 File: ../chapters/../figures/05_sedfit/ps1filters.png Graphic file (type png)
 <use ../chapters/../figures/05_sedfit/ps1filters.png>
@@ -2064,8 +2138,8 @@ on input line 93.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[61 <../chapters/../figures/05_sedfit/ps1filters.png>] [62]
-<../chapters/../figures/05_sedfit/ps_cutouts_ZTF18accrorf.pdf, id=1313, 449.592
+[73 <../chapters/../figures/05_sedfit/ps1filters.png>] [74]
+<../chapters/../figures/05_sedfit/ps_cutouts_ZTF18accrorf.pdf, id=1634, 449.592
 82pt x 441.47495pt>
 File: ../chapters/../figures/05_sedfit/ps_cutouts_ZTF18accrorf.pdf Graphic file
  (type pdf)
@@ -2077,8 +2151,8 @@ LaTeX Font Info:    Font shape `T1/cmtt/bx/sc' in size <17.28> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 250.
 LaTeX Font Info:    Font shape `T1/cmtt/bx/sc' in size <14.4> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 260.
- [63 <../chapters/../figures/05_sedfit/ps_cutouts_ZTF18accrorf.pdf>] [64]
-<../chapters/../figures/05_sedfit/ps_cutouts_ZTF18accrorf_binned.pdf, id=1352, 
+ [75 <../chapters/../figures/05_sedfit/ps_cutouts_ZTF18accrorf.pdf>] [76]
+<../chapters/../figures/05_sedfit/ps_cutouts_ZTF18accrorf_binned.pdf, id=1672, 
 733.9536pt x 441.47495pt>
 File: ../chapters/../figures/05_sedfit/ps_cutouts_ZTF18accrorf_binned.pdf Graph
 ic file (type pdf)
@@ -2089,8 +2163,8 @@ rf_binned.pdf  used on input line 351.
 
 Underfull \vbox (badness 1852) has occurred while \output is active []
 
- [65 <../chapters/../figures/05_sedfit/ps_cutouts_ZTF18accrorf_binned.pdf>]
-<../chapters/../figures/05_sedfit/ps_cutouts_ZTF18accrorf_snrcut.pdf, id=1379, 
+ [77 <../chapters/../figures/05_sedfit/ps_cutouts_ZTF18accrorf_binned.pdf>]
+<../chapters/../figures/05_sedfit/ps_cutouts_ZTF18accrorf_snrcut.pdf, id=1699, 
 506.7809pt x 498.663pt>
 File: ../chapters/../figures/05_sedfit/ps_cutouts_ZTF18accrorf_snrcut.pdf Graph
 ic file (type pdf)
@@ -2098,8 +2172,8 @@ ic file (type pdf)
 Package pdftex.def Info: ../chapters/../figures/05_sedfit/ps_cutouts_ZTF18accro
 rf_snrcut.pdf  used on input line 389.
 (pdftex.def)             Requested size: 204.85846pt x 201.57695pt.
- [66 <../chapters/../figures/05_sedfit/ps_cutouts_ZTF18accrorf_snrcut.pdf>] [67
-] [68]
+ [78 <../chapters/../figures/05_sedfit/ps_cutouts_ZTF18accrorf_snrcut.pdf>] [79
+] [80]
 Underfull \hbox (badness 10000) in paragraph at lines 486--487
 
  []
@@ -2112,8 +2186,8 @@ Overfull \hbox (13.30902pt too wide) in alignment at lines 598--598
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[69]
-<../chapters/../figures/05_sedfit/cigalesinglespectra.png, id=1499, 686.42046pt
+[81]
+<../chapters/../figures/05_sedfit/cigalesinglespectra.png, id=1818, 686.42046pt
  x 481.3182pt>
 File: ../chapters/../figures/05_sedfit/cigalesinglespectra.png Graphic file (ty
 pe png)
@@ -2121,8 +2195,8 @@ pe png)
 Package pdftex.def Info: ../chapters/../figures/05_sedfit/cigalesinglespectra.p
 ng  used on input line 629.
 (pdftex.def)             Requested size: 450.69417pt x 316.02586pt.
- [70]
-<../chapters/../figures/05_sedfit/cigale_pullrms_ZTF18accrorf.pdf, id=1511, 106
+ [82]
+<../chapters/../figures/05_sedfit/cigale_pullrms_ZTF18accrorf.pdf, id=1830, 106
 2.19835pt x 586.59103pt>
 File: ../chapters/../figures/05_sedfit/cigale_pullrms_ZTF18accrorf.pdf Graphic 
 file (type pdf)
@@ -2130,8 +2204,8 @@ file (type pdf)
 Package pdftex.def Info: ../chapters/../figures/05_sedfit/cigale_pullrms_ZTF18a
 ccrorf.pdf  used on input line 666.
 (pdftex.def)             Requested size: 450.69417pt x 248.89063pt.
- [71 <../chapters/../figures/05_sedfit/cigalesinglespectra.png>]
-<../chapters/../figures/05_sedfit/cigalesampling.pdf, id=1521, 1076.82304pt x 3
+ [83 <../chapters/../figures/05_sedfit/cigalesinglespectra.png>]
+<../chapters/../figures/05_sedfit/cigalesampling.pdf, id=1840, 1076.82304pt x 3
 57.7365pt>
 File: ../chapters/../figures/05_sedfit/cigalesampling.pdf Graphic file (type pd
 f)
@@ -2140,8 +2214,8 @@ Package pdftex.def Info: ../chapters/../figures/05_sedfit/cigalesampling.pdf  u
 sed on input line 721.
 (pdftex.def)             Requested size: 450.69417pt x 149.72427pt.
 
-[72 <../chapters/../figures/05_sedfit/cigale_pullrms_ZTF18accrorf.pdf>]
-<../chapters/../figures/05_sedfit/intcube_ZTF18accrorf.png, id=1572, 1004.40846
+[84 <../chapters/../figures/05_sedfit/cigale_pullrms_ZTF18accrorf.pdf>]
+<../chapters/../figures/05_sedfit/intcube_ZTF18accrorf.png, id=1892, 1004.40846
 pt x 348.19685pt>
 File: ../chapters/../figures/05_sedfit/intcube_ZTF18accrorf.png Graphic file (t
 ype png)
@@ -2150,18 +2224,18 @@ Package pdftex.def Info: ../chapters/../figures/05_sedfit/intcube_ZTF18accrorf.
 png  used on input line 751.
 (pdftex.def)             Requested size: 450.69417pt x 156.24614pt.
 )
-(../chapters/../chapters/06_irf.tex [73 <../chapters/../figures/05_sedfit/cigal
-esampling.pdf>] [74 <../chapters/../figures/05_sedfit/intcube_ZTF18accrorf.png>
+(../chapters/../chapters/06_irf.tex [85 <../chapters/../figures/05_sedfit/cigal
+esampling.pdf>] [86 <../chapters/../figures/05_sedfit/intcube_ZTF18accrorf.png>
 ]
 Chapitre 6.
 \openout4 = `main.mtc'.
 
 \openout4 = `main.mtc'.
 
-(./main.mtc6) [75
+(./main.mtc6) [87
 
 ]
-<../chapters/../figures/06_irf/arclamps.png, id=1632, 932.13846pt x 1076.823pt>
+<../chapters/../figures/06_irf/arclamps.png, id=1951, 932.13846pt x 1076.823pt>
 
 File: ../chapters/../figures/06_irf/arclamps.png Graphic file (type png)
 <use ../chapters/../figures/06_irf/arclamps.png>
@@ -2172,8 +2246,8 @@ put line 96.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[76]
-<../chapters/../figures/06_irf/lineloc.pdf, id=1642, 1231.7364pt x 1076.82304pt
+[88]
+<../chapters/../figures/06_irf/lineloc.pdf, id=1961, 1231.7364pt x 1076.82304pt
 >
 File: ../chapters/../figures/06_irf/lineloc.pdf Graphic file (type pdf)
 <use ../chapters/../figures/06_irf/lineloc.pdf>
@@ -2184,7 +2258,7 @@ ut line 144.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../chapters/../figures/06_irf/linestd.pdf, id=1645, 1228.1663pt x 1076.82304pt
+<../chapters/../figures/06_irf/linestd.pdf, id=1964, 1228.1663pt x 1076.82304pt
 >
 File: ../chapters/../figures/06_irf/linestd.pdf Graphic file (type pdf)
 <use ../chapters/../figures/06_irf/linestd.pdf>
@@ -2197,9 +2271,9 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Underfull \vbox (badness 1902) has occurred while \output is active []
 
- [77 <../chapters/../figures/06_irf/arclamps.png>] [78 <../chapters/../figures/
+ [89 <../chapters/../figures/06_irf/arclamps.png>] [90 <../chapters/../figures/
 06_irf/lineloc.pdf>]
-<../chapters/../figures/06_irf/LSF.pdf, id=1670, 1085.47574pt x 570.93298pt>
+<../chapters/../figures/06_irf/LSF.pdf, id=1989, 1085.47574pt x 570.93298pt>
 File: ../chapters/../figures/06_irf/LSF.pdf Graphic file (type pdf)
 <use ../chapters/../figures/06_irf/LSF.pdf>
 Package pdftex.def Info: ../chapters/../figures/06_irf/LSF.pdf  used on input l
@@ -2214,8 +2288,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 226--236
 
  []
 
-[79 <../chapters/../figures/06_irf/linestd.pdf>]
-<../chapters/../figures/06_irf/SEDmResolution_wmodel.pdf, id=1690, 1076.82304pt
+[91 <../chapters/../figures/06_irf/linestd.pdf>]
+<../chapters/../figures/06_irf/SEDmResolution_wmodel.pdf, id=2010, 1076.82304pt
  x 570.93298pt>
 File: ../chapters/../figures/06_irf/SEDmResolution_wmodel.pdf Graphic file (typ
 e pdf)
@@ -2227,7 +2301,7 @@ f  used on input line 239.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../chapters/../figures/06_irf/lsfapplied.png, id=1701, 859.86845pt x 428.41656
+<../chapters/../figures/06_irf/lsfapplied.png, id=2021, 859.86845pt x 428.41656
 pt>
 File: ../chapters/../figures/06_irf/lsfapplied.png Graphic file (type png)
 <use ../chapters/../figures/06_irf/lsfapplied.png>
@@ -2237,28 +2311,28 @@ input line 294.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[80 <../chapters/../figures/06_irf/LSF.pdf>] [81 <../chapters/../figures/06_irf
+[92 <../chapters/../figures/06_irf/LSF.pdf>] [93 <../chapters/../figures/06_irf
 /SEDmResolution_wmodel.pdf> <../chapters/../figures/06_irf/lsfapplied.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 333--341
 
  []
 
-[82
+[94
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 413--414
 
  []
 
-<../chapters/../figures/06_irf/psfprofile.pdf, id=1787, 916.08165pt x 408.28392
+<../chapters/../figures/06_irf/psfprofile.pdf, id=2106, 916.08165pt x 408.28392
 pt>
 File: ../chapters/../figures/06_irf/psfprofile.pdf Graphic file (type pdf)
 <use ../chapters/../figures/06_irf/psfprofile.pdf>
 Package pdftex.def Info: ../chapters/../figures/06_irf/psfprofile.pdf  used on 
 input line 451.
 (pdftex.def)             Requested size: 450.69417pt x 200.87074pt.
-[83]
-<../chapters/../figures/06_irf/STD_correlation.pdf, id=1798, 671.59433pt x 578.
+[95]
+<../chapters/../figures/06_irf/STD_correlation.pdf, id=2117, 671.59433pt x 578.
 71695pt>
 File: ../chapters/../figures/06_irf/STD_correlation.pdf Graphic file (type pdf)
 
@@ -2294,8 +2368,8 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [84 <../chapters/../figures/06_irf/psfprofile.pdf>]
-<../chapters/../figures/06_irf/STD_alpha_beta_chromatic_corr.pdf, id=1820, 1080
+ [96 <../chapters/../figures/06_irf/psfprofile.pdf>]
+<../chapters/../figures/06_irf/STD_alpha_beta_chromatic_corr.pdf, id=2139, 1080
 .49484pt x 862.18112pt>
 File: ../chapters/../figures/06_irf/STD_alpha_beta_chromatic_corr.pdf Graphic f
 ile (type pdf)
@@ -2303,14 +2377,14 @@ ile (type pdf)
 Package pdftex.def Info: ../chapters/../figures/06_irf/STD_alpha_beta_chromatic
 _corr.pdf  used on input line 520.
 (pdftex.def)             Requested size: 364.19667pt x 290.61179pt.
- [85 <../chapters/../figures/06_irf/STD_correlation.pdf> <../chapters/../figure
+ [97 <../chapters/../figures/06_irf/STD_correlation.pdf> <../chapters/../figure
 s/06_irf/STD_alpha_beta_chromatic_corr.pdf
 
 pdfTeX warning: pdflatex (file ../chapters/../figures/06_irf/STD_alpha_beta_chr
 omatic_corr.pdf): PDF inclusion: multiple pdfs with page group included in a si
 ngle page
 >]
-<../chapters/../figures/06_irf/chromaticitybeta_alpha_corr.pdf, id=1863, 842.04
+<../chapters/../figures/06_irf/chromaticitybeta_alpha_corr.pdf, id=2182, 842.04
 118pt x 448.97647pt>
 File: ../chapters/../figures/06_irf/chromaticitybeta_alpha_corr.pdf Graphic fil
 e (type pdf)
@@ -2343,7 +2417,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 555.
 
-<../chapters/../figures/06_irf/STD_correlation_matrix_betafixed.pdf, id=1865, 6
+<../chapters/../figures/06_irf/STD_correlation_matrix_betafixed.pdf, id=2184, 6
 71.59433pt x 578.71695pt>
 File: ../chapters/../figures/06_irf/STD_correlation_matrix_betafixed.pdf Graphi
 c file (type pdf)
@@ -2351,7 +2425,7 @@ c file (type pdf)
 Package pdftex.def Info: ../chapters/../figures/06_irf/STD_correlation_matrix_b
 etafixed.pdf  used on input line 569.
 (pdftex.def)             Requested size: 182.09486pt x 156.90912pt.
-<../chapters/../figures/06_irf/STD_alpha_sigma_chromatic_corr.pdf, id=1867, 109
+<../chapters/../figures/06_irf/STD_alpha_sigma_chromatic_corr.pdf, id=2186, 109
 1.91838pt x 862.18112pt>
 File: ../chapters/../figures/06_irf/STD_alpha_sigma_chromatic_corr.pdf Graphic 
 file (type pdf)
@@ -2359,14 +2433,14 @@ file (type pdf)
 Package pdftex.def Info: ../chapters/../figures/06_irf/STD_alpha_sigma_chromati
 c_corr.pdf  used on input line 591.
 (pdftex.def)             Requested size: 364.19667pt x 287.5728pt.
-[86 <../chapters/../figures/06_irf/chromaticitybeta_alpha_corr.pdf> <../chapter
+[98 <../chapters/../figures/06_irf/chromaticitybeta_alpha_corr.pdf> <../chapter
 s/../figures/06_irf/STD_correlation_matrix_betafixed.pdf
 
 pdfTeX warning: pdflatex (file ../chapters/../figures/06_irf/STD_correlation_ma
 trix_betafixed.pdf): PDF inclusion: multiple pdfs with page group included in a
  single page
 >]
-<../chapters/../figures/06_irf/chromaticitysigma_alpha_corr.pdf, id=1898, 849.0
+<../chapters/../figures/06_irf/chromaticitysigma_alpha_corr.pdf, id=2217, 849.0
 9108pt x 443.97647pt>
 File: ../chapters/../figures/06_irf/chromaticitysigma_alpha_corr.pdf Graphic fi
 le (type pdf)
@@ -2374,7 +2448,7 @@ le (type pdf)
 Package pdftex.def Info: ../chapters/../figures/06_irf/chromaticitysigma_alpha_
 corr.pdf  used on input line 614.
 (pdftex.def)             Requested size: 318.66948pt x 166.62625pt.
- [87 <../chapters/../figures/06_irf/STD_alpha_sigma_chromatic_corr.pdf> <../cha
+ [99 <../chapters/../figures/06_irf/STD_alpha_sigma_chromatic_corr.pdf> <../cha
 pters/../figures/06_irf/chromaticitysigma_alpha_corr.pdf
 
 pdfTeX warning: pdflatex (file ../chapters/../figures/06_irf/chromaticitysigma_
@@ -2393,7 +2467,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 627.
 
-<../chapters/../figures/06_irf/STD_alpha_eta_chromatic_corr.pdf, id=1936, 1080.
+<../chapters/../figures/06_irf/STD_alpha_eta_chromatic_corr.pdf, id=2256, 1080.
 49484pt x 862.18112pt>
 File: ../chapters/../figures/06_irf/STD_alpha_eta_chromatic_corr.pdf Graphic fi
 le (type pdf)
@@ -2401,9 +2475,9 @@ le (type pdf)
 Package pdftex.def Info: ../chapters/../figures/06_irf/STD_alpha_eta_chromatic_
 corr.pdf  used on input line 643.
 (pdftex.def)             Requested size: 364.19667pt x 290.61179pt.
-[88 <../chapters/../figures/06_irf/STD_alpha_eta_chromatic_corr.pdf>] [89]
-[90]
-<../chapters/../figures/06_irf/STD_profile_allmeta.pdf, id=1990, 1796.61166pt x
+[100 <../chapters/../figures/06_irf/STD_alpha_eta_chromatic_corr.pdf>] [101]
+[102]
+<../chapters/../figures/06_irf/STD_profile_allmeta.pdf, id=2309, 1796.61166pt x
  1447.56813pt>
 File: ../chapters/../figures/06_irf/STD_profile_allmeta.pdf Graphic file (type 
 pdf)
@@ -2411,15 +2485,15 @@ pdf)
 Package pdftex.def Info: ../chapters/../figures/06_irf/STD_profile_allmeta.pdf 
  used on input line 863.
 (pdftex.def)             Requested size: 432.48051pt x 348.4395pt.
-<../chapters/../figures/06_irf/adr_std.pdf, id=1992, 990.74573pt x 691.98859pt>
+<../chapters/../figures/06_irf/adr_std.pdf, id=2311, 990.74573pt x 691.98859pt>
 
 File: ../chapters/../figures/06_irf/adr_std.pdf Graphic file (type pdf)
 <use ../chapters/../figures/06_irf/adr_std.pdf>
 Package pdftex.def Info: ../chapters/../figures/06_irf/adr_std.pdf  used on inp
 ut line 880.
 (pdftex.def)             Requested size: 273.14923pt x 190.77788pt.
- [91]
-<../chapters/../figures/06_irf/chromaticity_psf.pdf, id=2000, 1073.50009pt x 39
+ [103]
+<../chapters/../figures/06_irf/chromaticity_psf.pdf, id=2319, 1073.50009pt x 39
 6.91988pt>
 File: ../chapters/../figures/06_irf/chromaticity_psf.pdf Graphic file (type pdf
 )
@@ -2427,16 +2501,16 @@ File: ../chapters/../figures/06_irf/chromaticity_psf.pdf Graphic file (type pdf
 Package pdftex.def Info: ../chapters/../figures/06_irf/chromaticity_psf.pdf  us
 ed on input line 914.
 (pdftex.def)             Requested size: 318.66948pt x 117.82318pt.
-<../chapters/../figures/06_irf/stdspectra_adu.pdf, id=2002, 932.28299pt x 379.0
+<../chapters/../figures/06_irf/stdspectra_adu.pdf, id=2321, 932.28299pt x 379.0
 417pt>
 File: ../chapters/../figures/06_irf/stdspectra_adu.pdf Graphic file (type pdf)
 <use ../chapters/../figures/06_irf/stdspectra_adu.pdf>
 Package pdftex.def Info: ../chapters/../figures/06_irf/stdspectra_adu.pdf  used
  on input line 931.
 (pdftex.def)             Requested size: 318.66948pt x 129.56651pt.
- [92 <../chapters/../figures/06_irf/STD_profile_allmeta.pdf>] [93 <../chapters/
-../figures/06_irf/adr_std.pdf> <../chapters/../figures/06_irf/chromaticity_psf.
-pdf
+ [104 <../chapters/../figures/06_irf/STD_profile_allmeta.pdf>]
+[105 <../chapters/../figures/06_irf/adr_std.pdf> <../chapters/../figures/06_irf
+/chromaticity_psf.pdf
 
 pdfTeX warning: pdflatex (file ../chapters/../figures/06_irf/chromaticity_psf.p
 df): PDF inclusion: multiple pdfs with page group included in a single page
@@ -2445,32 +2519,32 @@ df): PDF inclusion: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex (file ../chapters/../figures/06_irf/stdspectra_adu.pdf
 ): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<../chapters/../figures/06_irf/telluricspec.pdf, id=2110, 932.28299pt x 368.577
+<../chapters/../figures/06_irf/telluricspec.pdf, id=2429, 932.28299pt x 368.577
 01pt>
 File: ../chapters/../figures/06_irf/telluricspec.pdf Graphic file (type pdf)
 <use ../chapters/../figures/06_irf/telluricspec.pdf>
 Package pdftex.def Info: ../chapters/../figures/06_irf/telluricspec.pdf  used o
 n input line 984.
 (pdftex.def)             Requested size: 386.96027pt x 152.98471pt.
- [94
+ [106
 
  <../chapters/../figures/06_irf/telluricspec.pdf>]
-<../chapters/../figures/06_irf/calibmodel.pdf, id=2137, 786.6319pt x 612.73253p
+<../chapters/../figures/06_irf/calibmodel.pdf, id=2456, 786.6319pt x 612.73253p
 t>
 File: ../chapters/../figures/06_irf/calibmodel.pdf Graphic file (type pdf)
 <use ../chapters/../figures/06_irf/calibmodel.pdf>
 Package pdftex.def Info: ../chapters/../figures/06_irf/calibmodel.pdf  used on 
 input line 1038.
 (pdftex.def)             Requested size: 386.96027pt x 301.41026pt.
-<../chapters/../figures/06_irf/fluxcalstd.pdf, id=2139, 785.28685pt x 531.07314
+<../chapters/../figures/06_irf/fluxcalstd.pdf, id=2458, 785.28685pt x 531.07314
 pt>
 File: ../chapters/../figures/06_irf/fluxcalstd.pdf Graphic file (type pdf)
 <use ../chapters/../figures/06_irf/fluxcalstd.pdf>
 Package pdftex.def Info: ../chapters/../figures/06_irf/fluxcalstd.pdf  used on 
 input line 1080.
 (pdftex.def)             Requested size: 386.96027pt x 261.68674pt.
- [95]
-<../chapters/../figures/06_irf/fluxcalstd_all_ratio.pdf, id=2145, 1076.82304pt 
+ [107]
+<../chapters/../figures/06_irf/fluxcalstd_all_ratio.pdf, id=2464, 1076.82304pt 
 x 379.0417pt>
 File: ../chapters/../figures/06_irf/fluxcalstd_all_ratio.pdf Graphic file (type
  pdf)
@@ -2478,8 +2552,8 @@ File: ../chapters/../figures/06_irf/fluxcalstd_all_ratio.pdf Graphic file (type
 Package pdftex.def Info: ../chapters/../figures/06_irf/fluxcalstd_all_ratio.pdf
   used on input line 1126.
 (pdftex.def)             Requested size: 450.69417pt x 158.64119pt.
- [96 <../chapters/../figures/06_irf/calibmodel.pdf>]
-<../chapters/../figures/06_irf/rmsallstd_fluxcalibration.pdf, id=2171, 1221.363
+ [108 <../chapters/../figures/06_irf/calibmodel.pdf>]
+<../chapters/../figures/06_irf/rmsallstd_fluxcalibration.pdf, id=2490, 1221.363
 05pt x 711.85951pt>
 File: ../chapters/../figures/06_irf/rmsallstd_fluxcalibration.pdf Graphic file 
 (type pdf)
@@ -2487,18 +2561,10 @@ File: ../chapters/../figures/06_irf/rmsallstd_fluxcalibration.pdf Graphic file
 Package pdftex.def Info: ../chapters/../figures/06_irf/rmsallstd_fluxcalibratio
 n.pdf  used on input line 1151.
 (pdftex.def)             Requested size: 450.69417pt x 262.67786pt.
-
-
-LaTeX Warning: Command \` invalid in math mode on input line 1163.
-
-Missing character: There is no è in font cmr8!
-
-LaTeX Warning: Command \` invalid in math mode on input line 1163.
-
-Missing character: There is no è in font cmr8!
-) (../chapters/../chapters/07_scene.tex [97 <../chapters/../figures/06_irf/flux
-calstd.pdf>] [98 <../chapters/../figures/06_irf/fluxcalstd_all_ratio.pdf>]
-[99 <../chapters/../figures/06_irf/rmsallstd_fluxcalibration.pdf>] [100
+) (../chapters/../chapters/07_scene.tex
+[109 <../chapters/../figures/06_irf/fluxcalstd.pdf>] [110 <../chapters/../figur
+es/06_irf/fluxcalstd_all_ratio.pdf>] [111 <../chapters/../figures/06_irf/rmsall
+std_fluxcalibration.pdf>] [112
 
 ]
 Chapitre 7.
@@ -2506,25 +2572,25 @@ Chapitre 7.
 
 \openout4 = `main.mtc'.
 
-(./main.mtc7) [101]
-<../chapters/../figures/07_scene/scaleadapted.png, id=2262, 715.32846pt x 350.9
+(./main.mtc7) [113]
+<../chapters/../figures/07_scene/scaleadapted.png, id=2581, 715.32846pt x 350.9
 4312pt>
 File: ../chapters/../figures/07_scene/scaleadapted.png Graphic file (type png)
 <use ../chapters/../figures/07_scene/scaleadapted.png>
 Package pdftex.def Info: ../chapters/../figures/07_scene/scaleadapted.png  used
  on input line 83.
 (pdftex.def)             Requested size: 409.71692pt x 201.0089pt.
- [102]
-<../chapters/../figures/07_scene/projecthost.png, id=2272, 715.2321pt x 354.123
+ [114]
+<../chapters/../figures/07_scene/projecthost.png, id=2591, 715.2321pt x 354.123
 pt>
 File: ../chapters/../figures/07_scene/projecthost.png Graphic file (type png)
 <use ../chapters/../figures/07_scene/projecthost.png>
 Package pdftex.def Info: ../chapters/../figures/07_scene/projecthost.png  used 
 on input line 143.
 (pdftex.def)             Requested size: 409.71692pt x 202.85724pt.
- [103 <../chapters/../figures/07_scene/scaleadapted.png>] [104 <../chapters/../
+ [115 <../chapters/../figures/07_scene/scaleadapted.png>] [116 <../chapters/../
 figures/07_scene/projecthost.png>]
-<../chapters/../figures/07_scene/artefactssedmcube.pdf, id=2293, 715.47299pt x 
+<../chapters/../figures/07_scene/artefactssedmcube.pdf, id=2612, 715.47299pt x 
 436.79988pt>
 File: ../chapters/../figures/07_scene/artefactssedmcube.pdf Graphic file (type 
 pdf)
@@ -2542,8 +2608,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 338--350
 
  []
 
-[105]
-<../chapters/../figures/07_scene/fitted_metasliceZTF18accrorf_0.png, id=2311, 1
+[117]
+<../chapters/../figures/07_scene/fitted_metasliceZTF18accrorf_0.png, id=2630, 1
 084.46297pt x 313.44531pt>
 File: ../chapters/../figures/07_scene/fitted_metasliceZTF18accrorf_0.png Graphi
 c file (type png)
@@ -2551,7 +2617,7 @@ c file (type png)
 Package pdftex.def Info: ../chapters/../figures/07_scene/fitted_metasliceZTF18a
 ccrorf_0.png  used on input line 365.
 (pdftex.def)             Requested size: 364.19667pt x 105.26428pt.
-<../chapters/../figures/07_scene/fitted_metasliceZTF18accrorf_1.png, id=2312, 1
+<../chapters/../figures/07_scene/fitted_metasliceZTF18accrorf_1.png, id=2631, 1
 084.46297pt x 293.00323pt>
 File: ../chapters/../figures/07_scene/fitted_metasliceZTF18accrorf_1.png Graphi
 c file (type png)
@@ -2559,7 +2625,7 @@ c file (type png)
 Package pdftex.def Info: ../chapters/../figures/07_scene/fitted_metasliceZTF18a
 ccrorf_1.png  used on input line 366.
 (pdftex.def)             Requested size: 364.19667pt x 98.39923pt.
-<../chapters/../figures/07_scene/fitted_metasliceZTF18accrorf_2.png, id=2313, 1
+<../chapters/../figures/07_scene/fitted_metasliceZTF18accrorf_2.png, id=2632, 1
 084.46297pt x 293.00323pt>
 File: ../chapters/../figures/07_scene/fitted_metasliceZTF18accrorf_2.png Graphi
 c file (type png)
@@ -2567,7 +2633,7 @@ c file (type png)
 Package pdftex.def Info: ../chapters/../figures/07_scene/fitted_metasliceZTF18a
 ccrorf_2.png  used on input line 367.
 (pdftex.def)             Requested size: 364.19667pt x 98.39923pt.
-<../chapters/../figures/07_scene/fitted_metasliceZTF18accrorf_3.png, id=2314, 1
+<../chapters/../figures/07_scene/fitted_metasliceZTF18accrorf_3.png, id=2633, 1
 084.46297pt x 293.00323pt>
 File: ../chapters/../figures/07_scene/fitted_metasliceZTF18accrorf_3.png Graphi
 c file (type png)
@@ -2575,7 +2641,7 @@ c file (type png)
 Package pdftex.def Info: ../chapters/../figures/07_scene/fitted_metasliceZTF18a
 ccrorf_3.png  used on input line 368.
 (pdftex.def)             Requested size: 364.19667pt x 98.39923pt.
-<../chapters/../figures/07_scene/fitted_metasliceZTF18accrorf_4.png, id=2315, 1
+<../chapters/../figures/07_scene/fitted_metasliceZTF18accrorf_4.png, id=2634, 1
 084.46297pt x 293.00323pt>
 File: ../chapters/../figures/07_scene/fitted_metasliceZTF18accrorf_4.png Graphi
 c file (type png)
@@ -2583,7 +2649,7 @@ c file (type png)
 Package pdftex.def Info: ../chapters/../figures/07_scene/fitted_metasliceZTF18a
 ccrorf_4.png  used on input line 369.
 (pdftex.def)             Requested size: 364.19667pt x 98.39923pt.
-<../chapters/../figures/07_scene/fitted_metasliceZTF18accrorf_5.png, id=2316, 1
+<../chapters/../figures/07_scene/fitted_metasliceZTF18accrorf_5.png, id=2635, 1
 084.46297pt x 293.00323pt>
 File: ../chapters/../figures/07_scene/fitted_metasliceZTF18accrorf_5.png Graphi
 c file (type png)
@@ -2595,7 +2661,7 @@ ccrorf_5.png  used on input line 370.
 
 LaTeX Warning: Float too large for page by 39.4301pt on input line 382.
 
-<../chapters/../figures/07_scene/heatmapcorrelation_metaslice.pdf, id=2318, 945
+<../chapters/../figures/07_scene/heatmapcorrelation_metaslice.pdf, id=2637, 945
 .44594pt x 515.98853pt>
 File: ../chapters/../figures/07_scene/heatmapcorrelation_metaslice.pdf Graphic 
 file (type pdf)
@@ -2603,15 +2669,15 @@ file (type pdf)
 Package pdftex.def Info: ../chapters/../figures/07_scene/heatmapcorrelation_met
 aslice.pdf  used on input line 389.
 (pdftex.def)             Requested size: 432.48051pt x 236.02701pt.
-[106 <../chapters/../figures/07_scene/artefactssedmcube.pdf>] [107 <../chapters
+[118 <../chapters/../figures/07_scene/artefactssedmcube.pdf>] [119 <../chapters
 /../figures/07_scene/fitted_metasliceZTF18accrorf_0.png> <../chapters/../figure
 s/07_scene/fitted_metasliceZTF18accrorf_1.png> <../chapters/../figures/07_scene
 /fitted_metasliceZTF18accrorf_2.png> <../chapters/../figures/07_scene/fitted_me
 tasliceZTF18accrorf_3.png> <../chapters/../figures/07_scene/fitted_metasliceZTF
 18accrorf_4.png> <../chapters/../figures/07_scene/fitted_metasliceZTF18accrorf_
-5.png>] [108 <../chapters/../figures/07_scene/heatmapcorrelation_metaslice.pdf>
+5.png>] [120 <../chapters/../figures/07_scene/heatmapcorrelation_metaslice.pdf>
 ]
-<../chapters/../figures/07_scene/chromaticity_targetZTF18accrorf.pdf, id=2387, 
+<../chapters/../figures/07_scene/chromaticity_targetZTF18accrorf.pdf, id=2706, 
 1073.50009pt x 403.16988pt>
 File: ../chapters/../figures/07_scene/chromaticity_targetZTF18accrorf.pdf Graph
 ic file (type pdf)
@@ -2625,7 +2691,7 @@ Overfull \hbox (0.6459pt too wide) in paragraph at lines 422--424
 orien-ta-tion de la PSF re-la-tive (SEDm/PS1)
  []
 
-<../chapters/../figures/07_scene/chromaticity_hostZTF18accrorf.pdf, id=2389, 10
+<../chapters/../figures/07_scene/chromaticity_hostZTF18accrorf.pdf, id=2708, 10
 90.81207pt x 398.87376pt>
 File: ../chapters/../figures/07_scene/chromaticity_hostZTF18accrorf.pdf Graphic
  file (type pdf)
@@ -2633,7 +2699,7 @@ File: ../chapters/../figures/07_scene/chromaticity_hostZTF18accrorf.pdf Graphic
 Package pdftex.def Info: ../chapters/../figures/07_scene/chromaticity_hostZTF18
 accrorf.pdf  used on input line 439.
 (pdftex.def)             Requested size: 355.08984pt x 129.84544pt.
-<../chapters/../figures/07_scene/adr_ZTF18accrorf.pdf, id=2391, 1001.94981pt x 
+<../chapters/../figures/07_scene/adr_ZTF18accrorf.pdf, id=2710, 1001.94981pt x 
 691.98859pt>
 File: ../chapters/../figures/07_scene/adr_ZTF18accrorf.pdf Graphic file (type p
 df)
@@ -2641,22 +2707,22 @@ df)
 Package pdftex.def Info: ../chapters/../figures/07_scene/adr_ZTF18accrorf.pdf  
 used on input line 458.
 (pdftex.def)             Requested size: 355.08984pt x 245.24059pt.
-[109 <../chapters/../figures/07_scene/chromaticity_targetZTF18accrorf.pdf> <../
+[121 <../chapters/../figures/07_scene/chromaticity_targetZTF18accrorf.pdf> <../
 chapters/../figures/07_scene/chromaticity_hostZTF18accrorf.pdf
 
 pdfTeX warning: pdflatex (file ../chapters/../figures/07_scene/chromaticity_hos
 tZTF18accrorf.pdf): PDF inclusion: multiple pdfs with page group included in a 
 single page
 >]
-<../chapters/../figures/07_scene/softl1.pdf, id=2444, 570.93298pt x 281.85298pt
+<../chapters/../figures/07_scene/softl1.pdf, id=2763, 570.93298pt x 281.85298pt
 >
 File: ../chapters/../figures/07_scene/softl1.pdf Graphic file (type pdf)
 <use ../chapters/../figures/07_scene/softl1.pdf>
 Package pdftex.def Info: ../chapters/../figures/07_scene/softl1.pdf  used on in
 put line 490.
 (pdftex.def)             Requested size: 273.14923pt x 134.84921pt.
- [110 <../chapters/../figures/07_scene/adr_ZTF18accrorf.pdf>]
-<../chapters/../figures/07_scene/scene_rmspull_ZTF18accrorf.png, id=2475, 662.1
+ [122 <../chapters/../figures/07_scene/adr_ZTF18accrorf.pdf>]
+<../chapters/../figures/07_scene/scene_rmspull_ZTF18accrorf.png, id=2794, 662.1
 9969pt x 648.15866pt>
 File: ../chapters/../figures/07_scene/scene_rmspull_ZTF18accrorf.png Graphic fi
 le (type png)
@@ -2664,9 +2730,9 @@ le (type png)
 Package pdftex.def Info: ../chapters/../figures/07_scene/scene_rmspull_ZTF18acc
 rorf.png  used on input line 542.
 (pdftex.def)             Requested size: 364.19667pt x 356.47847pt.
- [111 <../chapters/../figures/07_scene/softl1.pdf>] [112 <../chapters/../figure
+ [123 <../chapters/../figures/07_scene/softl1.pdf>] [124 <../chapters/../figure
 s/07_scene/scene_rmspull_ZTF18accrorf.png>]
-<../chapters/../figures/07_scene/output_host_ZTF18accrorf.pdf, id=2509, 1058.45
+<../chapters/../figures/07_scene/output_host_ZTF18accrorf.pdf, id=2828, 1058.45
 757pt x 364.77986pt>
 File: ../chapters/../figures/07_scene/output_host_ZTF18accrorf.pdf Graphic file
  (type pdf)
@@ -2674,8 +2740,8 @@ File: ../chapters/../figures/07_scene/output_host_ZTF18accrorf.pdf Graphic file
 Package pdftex.def Info: ../chapters/../figures/07_scene/output_host_ZTF18accro
 rf.pdf  used on input line 609.
 (pdftex.def)             Requested size: 409.71692pt x 141.20044pt.
- [113 <../chapters/../figures/07_scene/output_host_ZTF18accrorf.pdf>]
-<../chapters/../figures/07_scene/output_sn_ifu_ZTF18accrorf.pdf, id=2534, 1023.
+ [125 <../chapters/../figures/07_scene/output_host_ZTF18accrorf.pdf>]
+<../chapters/../figures/07_scene/output_sn_ifu_ZTF18accrorf.pdf, id=2853, 1023.
 33936pt x 346.0067pt>
 File: ../chapters/../figures/07_scene/output_sn_ifu_ZTF18accrorf.pdf Graphic fi
 le (type pdf)
@@ -2683,7 +2749,7 @@ le (type pdf)
 Package pdftex.def Info: ../chapters/../figures/07_scene/output_sn_ifu_ZTF18acc
 rorf.pdf  used on input line 647.
 (pdftex.def)             Requested size: 450.69417pt x 152.38596pt.
-<../chapters/../figures/07_scene/output_sn_profile_ZTF18accrorf.pdf, id=2538, 1
+<../chapters/../figures/07_scene/output_sn_profile_ZTF18accrorf.pdf, id=2857, 1
 076.82304pt x 426.39299pt>
 File: ../chapters/../figures/07_scene/output_sn_profile_ZTF18accrorf.pdf Graphi
 c file (type pdf)
@@ -2691,7 +2757,7 @@ c file (type pdf)
 Package pdftex.def Info: ../chapters/../figures/07_scene/output_sn_profile_ZTF1
 8accrorf.pdf  used on input line 681.
 (pdftex.def)             Requested size: 450.69417pt x 178.45923pt.
-<../chapters/../figures/07_scene/output_sn_spectra_ZTF18accrorf.pdf, id=2540, 9
+<../chapters/../figures/07_scene/output_sn_spectra_ZTF18accrorf.pdf, id=2859, 9
 24.3167pt x 409.48604pt>
 File: ../chapters/../figures/07_scene/output_sn_spectra_ZTF18accrorf.pdf Graphi
 c file (type pdf)
@@ -2699,7 +2765,7 @@ c file (type pdf)
 Package pdftex.def Info: ../chapters/../figures/07_scene/output_sn_spectra_ZTF1
 8accrorf.pdf  used on input line 706.
 (pdftex.def)             Requested size: 450.69417pt x 199.66269pt.
- [114 <../chapters/../figures/07_scene/output_sn_ifu_ZTF18accrorf.pdf>] [115 <.
+ [126 <../chapters/../figures/07_scene/output_sn_ifu_ZTF18accrorf.pdf>] [127 <.
 ./chapters/../figures/07_scene/output_sn_profile_ZTF18accrorf.pdf> <../chapters
 /../figures/07_scene/output_sn_spectra_ZTF18accrorf.pdf
 
@@ -2707,7 +2773,7 @@ pdfTeX warning: pdflatex (file ../chapters/../figures/07_scene/output_sn_spectr
 a_ZTF18accrorf.pdf): PDF inclusion: multiple pdfs with page group included in a
  single page
 >]
-<../chapters/../figures/07_scene/overlapped_component_ZTF18accrorf.pdf, id=2601
+<../chapters/../figures/07_scene/overlapped_component_ZTF18accrorf.pdf, id=2920
 , 1293.63306pt x 570.21031pt>
 File: ../chapters/../figures/07_scene/overlapped_component_ZTF18accrorf.pdf Gra
 phic file (type pdf)
@@ -2715,8 +2781,8 @@ phic file (type pdf)
 Package pdftex.def Info: ../chapters/../figures/07_scene/overlapped_component_Z
 TF18accrorf.pdf  used on input line 732.
 (pdftex.def)             Requested size: 450.69417pt x 198.65433pt.
- [116 <../chapters/../figures/07_scene/overlapped_component_ZTF18accrorf.pdf>]
-<../chapters/../figures/07_scene/Fulldaghypergal.pdf, id=2639, 845.1575pt x 597
+ [128 <../chapters/../figures/07_scene/overlapped_component_ZTF18accrorf.pdf>]
+<../chapters/../figures/07_scene/Fulldaghypergal.pdf, id=2958, 845.1575pt x 597
 .23125pt>
 File: ../chapters/../figures/07_scene/Fulldaghypergal.pdf Graphic file (type pd
 f)
@@ -2728,9 +2794,9 @@ sed on input line 763.
 
 LaTeX Warning: Float too large for page by 41.01782pt on input line 767.
 
-[117 <../chapters/../figures/07_scene/Fulldaghypergal.pdf, page is rotated 270 
+[129 <../chapters/../figures/07_scene/Fulldaghypergal.pdf, page is rotated 270 
 degrees>]
-<../chapters/../figures/07_scene/ZTF18accrorf_snid_typing.pdf, id=2658, 650.43p
+<../chapters/../figures/07_scene/ZTF18accrorf_snid_typing.pdf, id=2977, 650.43p
 t x 216.81pt>
 File: ../chapters/../figures/07_scene/ZTF18accrorf_snid_typing.pdf Graphic file
  (type pdf)
@@ -2738,11 +2804,11 @@ File: ../chapters/../figures/07_scene/ZTF18accrorf_snid_typing.pdf Graphic file
 Package pdftex.def Info: ../chapters/../figures/07_scene/ZTF18accrorf_snid_typi
 ng.pdf  used on input line 813.
 (pdftex.def)             Requested size: 432.48051pt x 144.16359pt.
- [118
+ [130
 
 
  <../chapters/../figures/07_scene/ZTF18accrorf_snid_typing.pdf>]
-<../chapters/../figures/07_scene/scene_rmspull_ZTF19acbjlnt.png, id=2757, 1073.
+<../chapters/../figures/07_scene/scene_rmspull_ZTF19acbjlnt.png, id=3076, 1073.
 9322pt x 281.23354pt>
 File: ../chapters/../figures/07_scene/scene_rmspull_ZTF19acbjlnt.png Graphic fi
 le (type png)
@@ -2750,7 +2816,7 @@ le (type png)
 Package pdftex.def Info: ../chapters/../figures/07_scene/scene_rmspull_ZTF19acb
 jlnt.png  used on input line 864.
 (pdftex.def)             Requested size: 409.71692pt x 107.29468pt.
-<../chapters/../figures/07_scene/output_host_ZTF19acbjlnt.png, id=2758, 1187.10
+<../chapters/../figures/07_scene/output_host_ZTF19acbjlnt.png, id=3077, 1187.10
 703pt x 370.88963pt>
 File: ../chapters/../figures/07_scene/output_host_ZTF19acbjlnt.png Graphic file
  (type png)
@@ -2758,7 +2824,7 @@ File: ../chapters/../figures/07_scene/output_host_ZTF19acbjlnt.png Graphic file
 Package pdftex.def Info: ../chapters/../figures/07_scene/output_host_ZTF19acbjl
 nt.png  used on input line 865.
 (pdftex.def)             Requested size: 386.96027pt x 120.89424pt.
-<../chapters/../figures/07_scene/output_target_ZTF19acbjlnt.png, id=2759, 1198.
+<../chapters/../figures/07_scene/output_target_ZTF19acbjlnt.png, id=3078, 1198.
 52568pt x 372.47958pt>
 File: ../chapters/../figures/07_scene/output_target_ZTF19acbjlnt.png Graphic fi
 le (type png)
@@ -2766,7 +2832,7 @@ le (type png)
 Package pdftex.def Info: ../chapters/../figures/07_scene/output_target_ZTF19acb
 jlnt.png  used on input line 866.
 (pdftex.def)             Requested size: 386.96027pt x 120.25873pt.
-<../chapters/../figures/07_scene/ZTF19acbjlnt_snid_typing.pdf, id=2760, 650.43p
+<../chapters/../figures/07_scene/ZTF19acbjlnt_snid_typing.pdf, id=3079, 650.43p
 t x 216.81pt>
 File: ../chapters/../figures/07_scene/ZTF19acbjlnt_snid_typing.pdf Graphic file
  (type pdf)
@@ -2775,7 +2841,7 @@ Package pdftex.def Info: ../chapters/../figures/07_scene/ZTF19acbjlnt_snid_typi
 ng.pdf  used on input line 867.
 (pdftex.def)             Requested size: 386.96027pt x 128.98865pt.
 
-[119] [120 <../chapters/../figures/07_scene/scene_rmspull_ZTF19acbjlnt.png> <..
+[131] [132 <../chapters/../figures/07_scene/scene_rmspull_ZTF19acbjlnt.png> <..
 /chapters/../figures/07_scene/output_host_ZTF19acbjlnt.png> <../chapters/../fig
 ures/07_scene/output_target_ZTF19acbjlnt.png> <../chapters/../figures/07_scene/
 ZTF19acbjlnt_snid_typing.pdf>]
@@ -2814,7 +2880,7 @@ Package geometry Warning: `a4paper': not available in `\newgeometry'; skipped.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<../chapters/../figures/07_scene/scene_rmspull_ZTF19abormno.png, id=2849, 1060.
+<../chapters/../figures/07_scene/scene_rmspull_ZTF19abormno.png, id=3168, 1060.
 71712pt x 281.23354pt>
 File: ../chapters/../figures/07_scene/scene_rmspull_ZTF19abormno.png Graphic fi
 le (type png)
@@ -2822,7 +2888,7 @@ le (type png)
 Package pdftex.def Info: ../chapters/../figures/07_scene/scene_rmspull_ZTF19abo
 rmno.png  used on input line 882.
 (pdftex.def)             Requested size: 409.71692pt x 108.62926pt.
-<../chapters/../figures/07_scene/output_host_ZTF19abormno.png, id=2850, 1187.10
+<../chapters/../figures/07_scene/output_host_ZTF19abormno.png, id=3169, 1187.10
 703pt x 370.88963pt>
 File: ../chapters/../figures/07_scene/output_host_ZTF19abormno.png Graphic file
  (type png)
@@ -2830,7 +2896,7 @@ File: ../chapters/../figures/07_scene/output_host_ZTF19abormno.png Graphic file
 Package pdftex.def Info: ../chapters/../figures/07_scene/output_host_ZTF19aborm
 no.png  used on input line 883.
 (pdftex.def)             Requested size: 386.96027pt x 120.89424pt.
-<../chapters/../figures/07_scene/output_target_ZTF19abormno.png, id=2851, 1187.
+<../chapters/../figures/07_scene/output_target_ZTF19abormno.png, id=3170, 1187.
 10703pt x 372.47958pt>
 File: ../chapters/../figures/07_scene/output_target_ZTF19abormno.png Graphic fi
 le (type png)
@@ -2838,7 +2904,7 @@ le (type png)
 Package pdftex.def Info: ../chapters/../figures/07_scene/output_target_ZTF19abo
 rmno.png  used on input line 884.
 (pdftex.def)             Requested size: 386.96027pt x 121.41249pt.
-<../chapters/../figures/07_scene/ZTF19abormno_snid_typing.pdf, id=2852, 650.43p
+<../chapters/../figures/07_scene/ZTF19abormno_snid_typing.pdf, id=3171, 650.43p
 t x 216.81pt>
 File: ../chapters/../figures/07_scene/ZTF19abormno_snid_typing.pdf Graphic file
  (type pdf)
@@ -2846,13 +2912,13 @@ File: ../chapters/../figures/07_scene/ZTF19abormno_snid_typing.pdf Graphic file
 Package pdftex.def Info: ../chapters/../figures/07_scene/ZTF19abormno_snid_typi
 ng.pdf  used on input line 885.
 (pdftex.def)             Requested size: 386.96027pt x 128.98865pt.
-[121
+[133
 
  <../chapters/../figures/07_scene/scene_rmspull_ZTF19abormno.png> <../chapters/
 ../figures/07_scene/output_host_ZTF19abormno.png> <../chapters/../figures/07_sc
 ene/output_target_ZTF19abormno.png> <../chapters/../figures/07_scene/ZTF19aborm
 no_snid_typing.pdf>]
-<../chapters/../figures/07_scene/scene_rmspull_ZTF20ablhlio.png, id=2938, 1073.
+<../chapters/../figures/07_scene/scene_rmspull_ZTF20ablhlio.png, id=3257, 1073.
 9322pt x 281.23354pt>
 File: ../chapters/../figures/07_scene/scene_rmspull_ZTF20ablhlio.png Graphic fi
 le (type png)
@@ -2860,7 +2926,7 @@ le (type png)
 Package pdftex.def Info: ../chapters/../figures/07_scene/scene_rmspull_ZTF20abl
 hlio.png  used on input line 899.
 (pdftex.def)             Requested size: 409.71692pt x 107.29468pt.
-<../chapters/../figures/07_scene/output_host_ZTF20ablhlio.png, id=2939, 1187.10
+<../chapters/../figures/07_scene/output_host_ZTF20ablhlio.png, id=3258, 1187.10
 703pt x 370.88963pt>
 File: ../chapters/../figures/07_scene/output_host_ZTF20ablhlio.png Graphic file
  (type png)
@@ -2868,7 +2934,7 @@ File: ../chapters/../figures/07_scene/output_host_ZTF20ablhlio.png Graphic file
 Package pdftex.def Info: ../chapters/../figures/07_scene/output_host_ZTF20ablhl
 io.png  used on input line 900.
 (pdftex.def)             Requested size: 386.96027pt x 120.89424pt.
-<../chapters/../figures/07_scene/output_target_ZTF20ablhlio.png, id=2940, 1198.
+<../chapters/../figures/07_scene/output_target_ZTF20ablhlio.png, id=3259, 1198.
 52568pt x 372.47958pt>
 File: ../chapters/../figures/07_scene/output_target_ZTF20ablhlio.png Graphic fi
 le (type png)
@@ -2876,7 +2942,7 @@ le (type png)
 Package pdftex.def Info: ../chapters/../figures/07_scene/output_target_ZTF20abl
 hlio.png  used on input line 901.
 (pdftex.def)             Requested size: 386.96027pt x 120.25873pt.
-<../chapters/../figures/07_scene/ZTF20ablhlio_snid_typing.pdf, id=2941, 650.43p
+<../chapters/../figures/07_scene/ZTF20ablhlio_snid_typing.pdf, id=3260, 650.43p
 t x 216.81pt>
 File: ../chapters/../figures/07_scene/ZTF20ablhlio_snid_typing.pdf Graphic file
  (type pdf)
@@ -2884,213 +2950,157 @@ File: ../chapters/../figures/07_scene/ZTF20ablhlio_snid_typing.pdf Graphic file
 Package pdftex.def Info: ../chapters/../figures/07_scene/ZTF20ablhlio_snid_typi
 ng.pdf  used on input line 902.
 (pdftex.def)             Requested size: 386.96027pt x 128.98865pt.
- [122
+ [134
 
  <../chapters/../figures/07_scene/scene_rmspull_ZTF20ablhlio.png> <../chapters/
 ../figures/07_scene/output_host_ZTF20ablhlio.png> <../chapters/../figures/07_sc
 ene/output_target_ZTF20ablhlio.png> <../chapters/../figures/07_scene/ZTF20ablhl
-io_snid_typing.pdf>]) [123
+io_snid_typing.pdf>]) [135
 
 
-] [124]
+] [136]
 (../chapters/../chapters/08_simu.tex
 Chapitre 8.
 \openout4 = `main.mtc'.
 
 \openout4 = `main.mtc'.
 
-(./main.mtc8) [125
+(./main.mtc8) [137
 
 ]
-
-LaTeX Warning: Reference `fig:allhostsimu' on page 126 undefined on input line 
-78.
-
-<../chapters/../figures/08_simu/allhostsimu.pdf, id=3058, 1076.82304pt x 546.14
+<../chapters/../figures/08_simu/allhostsimu.pdf, id=3380, 1076.82304pt x 546.14
 789pt>
 File: ../chapters/../figures/08_simu/allhostsimu.pdf Graphic file (type pdf)
 <use ../chapters/../figures/08_simu/allhostsimu.pdf>
 Package pdftex.def Info: ../chapters/../figures/08_simu/allhostsimu.pdf  used o
-n input line 82.
+n input line 87.
 (pdftex.def)             Requested size: 450.69417pt x 228.58052pt.
-[126]
-
-Package natbib Warning: Citation `SavitzkyGolay' on page 127 undefined on input
- line 123.
-
-
-LaTeX Warning: Reference `fig:specsimueach' on page 127 undefined on input line
- 127.
-
-<../chapters/../figures/08_simu/specsimueach.pdf, id=3064, 1077.22458pt x 846.2
+ [138]
+<../chapters/../figures/08_simu/specsimueach.pdf, id=3390, 1077.22458pt x 846.2
 7391pt>
 File: ../chapters/../figures/08_simu/specsimueach.pdf Graphic file (type pdf)
 <use ../chapters/../figures/08_simu/specsimueach.pdf>
 Package pdftex.def Info: ../chapters/../figures/08_simu/specsimueach.pdf  used 
-on input line 133.
+on input line 140.
 (pdftex.def)             Requested size: 450.69417pt x 354.06383pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [127 <../chapters/../figures/08_simu/allhostsimu.pdf>]
-
-Package natbib Warning: Citation `Guysalt2005' on page 128 undefined on input l
-ine 166.
-
-
-Package natbib Warning: Citation `Guysalt22007' on page 128 undefined on input 
-line 166.
-
-
-Package natbib Warning: Citation `Guy2010' on page 128 undefined on input line 
-166.
-
-
-Package natbib Warning: Citation `Betoule2014' on page 128 undefined on input l
-ine 166.
-
-[128 <../chapters/../figures/08_simu/specsimueach.pdf>] [129]
-Underfull \hbox (badness 10000) in paragraph at lines 294--298
+ [139 <../chapters/../figures/08_simu/allhostsimu.pdf>] [140 <../chapters/../fi
+gures/08_simu/specsimueach.pdf>] [141]
+Underfull \hbox (badness 10000) in paragraph at lines 301--305
 
  []
 
-[130]
-
-LaTeX Warning: Reference `ssec:distancesimu' on page 131 undefined on input lin
-e 327.
-
-
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 319--364
+[142]
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 326--371
 []$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 319--364
+Underfull \hbox (badness 10000) in paragraph at lines 326--371
 
  []
 
-
-LaTeX Warning: Reference `fig:examplesimu' on page 131 undefined on input line 
-367.
-
-<../chapters/../figures/08_simu/examplesimu.pdf, id=3117, 1293.63306pt x 700.85
+<../chapters/../figures/08_simu/examplesimu.pdf, id=3450, 1293.63306pt x 700.85
 245pt>
 File: ../chapters/../figures/08_simu/examplesimu.pdf Graphic file (type pdf)
 <use ../chapters/../figures/08_simu/examplesimu.pdf>
 Package pdftex.def Info: ../chapters/../figures/08_simu/examplesimu.pdf  used o
-n input line 372.
+n input line 379.
 (pdftex.def)             Requested size: 523.52794pt x 283.6298pt.
-[131] [132 <../chapters/../figures/08_simu/examplesimu.pdf>]
-
-LaTeX Warning: Reference `eq:logsnr' on page 133 undefined on input line 427.
-
-
-LaTeX Warning: Reference `fig:corr_SNR_contrast' on page 133 undefined on input
- line 429.
-
-<../chapters/../figures/08_simu/corr_SNR_contrast.pdf, id=3148, 1239.76505pt x 
+[143] [144 <../chapters/../figures/08_simu/examplesimu.pdf>]
+<../chapters/../figures/08_simu/corr_SNR_contrast.pdf, id=3483, 1239.76505pt x 
 486.69772pt>
 File: ../chapters/../figures/08_simu/corr_SNR_contrast.pdf Graphic file (type p
 df)
 <use ../chapters/../figures/08_simu/corr_SNR_contrast.pdf>
 Package pdftex.def Info: ../chapters/../figures/08_simu/corr_SNR_contrast.pdf  
-used on input line 434.
+used on input line 441.
 (pdftex.def)             Requested size: 455.24411pt x 178.71631pt.
-
-LaTeX Warning: Reference `eq:logsnr' on page 133 undefined on input line 442.
-
-
-LaTeX Warning: Reference `eq:logsnr' on page 133 undefined on input line 442.
-
-
-LaTeX Warning: Reference `fig:corrheatmap_simuparams_spectrophoto' on page 133 
-undefined on input line 458.
-
-[133 <../chapters/../figures/08_simu/corr_SNR_contrast.pdf>]
-<../chapters/../figures/08_simu/corrheatmap_simu_params_spectrophoto.pdf, id=31
-79, 761.72427pt x 641.00955pt>
+ [145 <../chapters/../figures/08_simu/corr_SNR_contrast.pdf>]
+<../chapters/../figures/08_simu/corrheatmap_simu_params_spectrophoto.pdf, id=35
+15, 761.72427pt x 641.00955pt>
 File: ../chapters/../figures/08_simu/corrheatmap_simu_params_spectrophoto.pdf G
 raphic file (type pdf)
 <use ../chapters/../figures/08_simu/corrheatmap_simu_params_spectrophoto.pdf>
 Package pdftex.def Info: ../chapters/../figures/08_simu/corrheatmap_simu_params
-_spectrophoto.pdf  used on input line 469.
+_spectrophoto.pdf  used on input line 476.
 (pdftex.def)             Requested size: 273.14923pt x 229.85362pt.
-
-
-LaTeX Warning: Reference `fig:simu_rms_snr_spectrophoto' on page 134 undefined 
-on input line 484.
-
-<../chapters/../figures/08_simu/simu_rms_snr_spectrophoto.png, id=3180, 1287.85
+<../chapters/../figures/08_simu/simu_rms_snr_spectrophoto.png, id=3517, 1287.85
 14pt x 964.0818pt>
 File: ../chapters/../figures/08_simu/simu_rms_snr_spectrophoto.png Graphic file
  (type png)
 <use ../chapters/../figures/08_simu/simu_rms_snr_spectrophoto.png>
 Package pdftex.def Info: ../chapters/../figures/08_simu/simu_rms_snr_spectropho
-to.png  used on input line 500.
-(pdftex.def)             Requested size: 455.24411pt x 340.78772pt.
-<../chapters/../figures/08_simu/simu_rms_dist_spectrophoto.png, id=3181, 1287.8
+to.png  used on input line 512.
+(pdftex.def)             Requested size: 409.71692pt x 306.70306pt.
+<../chapters/../figures/08_simu/simu_rms_dist_spectrophoto.png, id=3519, 1287.8
 514pt x 948.1824pt>
 File: ../chapters/../figures/08_simu/simu_rms_dist_spectrophoto.png Graphic fil
 e (type png)
 <use ../chapters/../figures/08_simu/simu_rms_dist_spectrophoto.png>
 Package pdftex.def Info: ../chapters/../figures/08_simu/simu_rms_dist_spectroph
-oto.png  used on input line 507.
-(pdftex.def)             Requested size: 455.24411pt x 335.16754pt.
-[134 <../chapters/../figures/08_simu/corrheatmap_simu_params_spectrophoto.pdf>]
-[135 <../chapters/../figures/08_simu/simu_rms_snr_spectrophoto.png>] [136 <../c
-hapters/../figures/08_simu/simu_rms_dist_spectrophoto.png>]
-<../chapters/../figures/08_simu/corrheatmap_simu_params.pdf, id=3217, 748.6297p
-t x 643.27939pt>
-File: ../chapters/../figures/08_simu/corrheatmap_simu_params.pdf Graphic file (
-type pdf)
-<use ../chapters/../figures/08_simu/corrheatmap_simu_params.pdf>
-Package pdftex.def Info: ../chapters/../figures/08_simu/corrheatmap_simu_params
-.pdf  used on input line 519.
-(pdftex.def)             Requested size: 273.14923pt x 234.70177pt.
-
-Underfull \hbox (badness 1325) in paragraph at lines 526--526
-\T1/cmr/m/n/12 (+20) son des pa-ra-mètres prin-ci-paux
- []
-
-<../chapters/../figures/08_simu/continuumcorrection_ex.png, id=3218, 1148.94846
+oto.png  used on input line 539.
+(pdftex.def)             Requested size: 409.71692pt x 301.64499pt.
+ [146 <../chapters/../figures/08_simu/corrheatmap_simu_params_spectrophoto.pdf>
+] [147 <../chapters/../figures/08_simu/simu_rms_snr_spectrophoto.png>] [148 <..
+/chapters/../figures/08_simu/simu_rms_dist_spectrophoto.png>]
+<../chapters/../figures/08_simu/continuumcorrection_ex.png, id=3555, 1148.94846
 pt x 581.19534pt>
 File: ../chapters/../figures/08_simu/continuumcorrection_ex.png Graphic file (t
 ype png)
 <use ../chapters/../figures/08_simu/continuumcorrection_ex.png>
 Package pdftex.def Info: ../chapters/../figures/08_simu/continuumcorrection_ex.
-png  used on input line 533.
+png  used on input line 601.
 (pdftex.def)             Requested size: 546.29153pt x 276.3367pt.
-<../chapters/../figures/08_simu/simu_rms_snr_continuum_divided.png, id=3219, 12
+ [149
+
+ <../chapters/../figures/08_simu/continuumcorrection_ex.png>]
+<../chapters/../figures/08_simu/corrheatmap_simu_params.pdf, id=3562, 748.6297p
+t x 643.27939pt>
+File: ../chapters/../figures/08_simu/corrheatmap_simu_params.pdf Graphic file (
+type pdf)
+<use ../chapters/../figures/08_simu/corrheatmap_simu_params.pdf>
+Package pdftex.def Info: ../chapters/../figures/08_simu/corrheatmap_simu_params
+.pdf  used on input line 635.
+(pdftex.def)             Requested size: 273.14923pt x 234.70177pt.
+
+Underfull \hbox (badness 1325) in paragraph at lines 642--642
+\T1/cmr/m/n/12 (+20) son des pa-ra-mètres prin-ci-paux
+ []
+
+<../chapters/../figures/08_simu/simu_rms_snr_continuum_divided.png, id=3564, 12
 87.8514pt x 964.0818pt>
 File: ../chapters/../figures/08_simu/simu_rms_snr_continuum_divided.png Graphic
  file (type png)
 <use ../chapters/../figures/08_simu/simu_rms_snr_continuum_divided.png>
 Package pdftex.def Info: ../chapters/../figures/08_simu/simu_rms_snr_continuum_
-divided.png  used on input line 541.
+divided.png  used on input line 670.
 (pdftex.def)             Requested size: 455.24411pt x 340.78772pt.
-<../chapters/../figures/08_simu/simu_rms_dist_continuum_divided.png, id=3220, 1
-287.8514pt x 948.1824pt>
-File: ../chapters/../figures/08_simu/simu_rms_dist_continuum_divided.png Graphi
-c file (type png)
-<use ../chapters/../figures/08_simu/simu_rms_dist_continuum_divided.png>
-Package pdftex.def Info: ../chapters/../figures/08_simu/simu_rms_dist_continuum
-_divided.png  used on input line 548.
-(pdftex.def)             Requested size: 455.24411pt x 335.16754pt.
-<../chapters/../figures/08_simu/typingimprove_snr.png, id=3221, 1293.633pt x 72
+[150 <../chapters/../figures/08_simu/corrheatmap_simu_params.pdf>] [151 <../cha
+pters/../figures/08_simu/simu_rms_snr_continuum_divided.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 701--710
+
+ []
+
+<../chapters/../figures/08_simu/typingimprove_snr.png, id=3595, 1293.633pt x 72
 6.3135pt>
 File: ../chapters/../figures/08_simu/typingimprove_snr.png Graphic file (type p
 ng)
 <use ../chapters/../figures/08_simu/typingimprove_snr.png>
 Package pdftex.def Info: ../chapters/../figures/08_simu/typingimprove_snr.png  
-used on input line 559.
+used on input line 746.
 (pdftex.def)             Requested size: 546.29153pt x 306.71199pt.
-) (../chapters/../chapters/09_dr2.tex [137
+<../chapters/../figures/08_simu/falsepositivesIa.pdf, id=3597, 1303.96535pt x 4
+37.2335pt>
+File: ../chapters/../figures/08_simu/falsepositivesIa.pdf Graphic file (type pd
+f)
+<use ../chapters/../figures/08_simu/falsepositivesIa.pdf>
+Package pdftex.def Info: ../chapters/../figures/08_simu/falsepositivesIa.pdf  u
+sed on input line 776.
+(pdftex.def)             Requested size: 546.29153pt x 183.17647pt.
+) (../chapters/../chapters/09_dr2.tex [152
 
- <../chapters/../figures/08_simu/corrheatmap_simu_params.pdf>] [138 <../chapter
-s/../figures/08_simu/continuumcorrection_ex.png>] [139 <../chapters/../figures/
-08_simu/simu_rms_snr_continuum_divided.png>] [140 <../chapters/../figures/08_si
-mu/simu_rms_dist_continuum_divided.png>] [141 <../chapters/../figures/08_simu/t
-ypingimprove_snr.png>] [142
+] [153 <../chapters/../figures/08_simu/typingimprove_snr.png> <../chapters/../f
+igures/08_simu/falsepositivesIa.pdf>] [154
 
 ]
 Chapitre 9.
@@ -3098,115 +3108,217 @@ Chapitre 9.
 
 \openout4 = `main.mtc'.
 
-(./main.mtc9) [143]
-<../chapters/../figures/02_ztf/ztfdr2stretchcolor.png, id=3285, 600.2425pt x 51
-2.91624pt>
-File: ../chapters/../figures/02_ztf/ztfdr2stretchcolor.png Graphic file (type p
-ng)
-<use ../chapters/../figures/02_ztf/ztfdr2stretchcolor.png>
-Package pdftex.def Info: ../chapters/../figures/02_ztf/ztfdr2stretchcolor.png  
-used on input line 33.
-(pdftex.def)             Requested size: 409.71692pt x 350.11676pt.
- [144 <../chapters/../figures/02_ztf/ztfdr2stretchcolor.png>]
-<../chapters/../figures/02_ztf/ztfdr2stretchcolorcorrelation.png, id=3299, 566.
-115pt x 479.7925pt>
-File: ../chapters/../figures/02_ztf/ztfdr2stretchcolorcorrelation.png Graphic f
-ile (type png)
-<use ../chapters/../figures/02_ztf/ztfdr2stretchcolorcorrelation.png>
-Package pdftex.def Info: ../chapters/../figures/02_ztf/ztfdr2stretchcolorcorrel
-ation.png  used on input line 58.
-(pdftex.def)             Requested size: 409.71692pt x 347.2513pt.
+(./main.mtc9) [155]
+<../chapters/../figures/09_dr2/ztf_skycoverage_and_cadence_landscape_lowq.pdf, 
+id=3639, 1369.115pt x 626.34pt>
+File: ../chapters/../figures/09_dr2/ztf_skycoverage_and_cadence_landscape_lowq.
+pdf Graphic file (type pdf)
+<use ../chapters/../figures/09_dr2/ztf_skycoverage_and_cadence_landscape_lowq.p
+df>
+Package pdftex.def Info: ../chapters/../figures/09_dr2/ztf_skycoverage_and_cade
+nce_landscape_lowq.pdf  used on input line 103.
+(pdftex.def)             Requested size: 523.52794pt x 239.50258pt.
+ [156]
+<../chapters/../figures/09_dr2/spec_instorigin_dr2.pdf, id=3648, 929.8608pt x 4
+99.3857pt>
+File: ../chapters/../figures/09_dr2/spec_instorigin_dr2.pdf Graphic file (type 
+pdf)
+<use ../chapters/../figures/09_dr2/spec_instorigin_dr2.pdf>
+Package pdftex.def Info: ../chapters/../figures/09_dr2/spec_instorigin_dr2.pdf 
+ used on input line 142.
+(pdftex.def)             Requested size: 455.24411pt x 244.48776pt.
+ [157 <../chapters/../figures/09_dr2/ztf_skycoverage_and_cadence_landscape_lowq
+.pdf>]
+<../chapters/../figures/09_dr2/target_peakmagg.pdf, id=3669, 505.89pt x 216.81p
+t>
+File: ../chapters/../figures/09_dr2/target_peakmagg.pdf Graphic file (type pdf)
+
+<use ../chapters/../figures/09_dr2/target_peakmagg.pdf>
+Package pdftex.def Info: ../chapters/../figures/09_dr2/target_peakmagg.pdf  use
+d on input line 183.
+(pdftex.def)             Requested size: 455.24411pt x 195.10733pt.
+ [158 <../chapters/../figures/09_dr2/spec_instorigin_dr2.pdf>]
+<../chapters/../figures/09_dr2/spec_instorigin_golden_dr2.pdf, id=3693, 929.995
+94pt x 499.3857pt>
+File: ../chapters/../figures/09_dr2/spec_instorigin_golden_dr2.pdf Graphic file
+ (type pdf)
+<use ../chapters/../figures/09_dr2/spec_instorigin_golden_dr2.pdf>
+Package pdftex.def Info: ../chapters/../figures/09_dr2/spec_instorigin_golden_d
+r2.pdf  used on input line 217.
+(pdftex.def)             Requested size: 409.71692pt x 220.01231pt.
+<../chapters/../figures/09_dr2/rlapdistribution_dr2.pdf, id=3695, 732.97055pt x
+ 366.5363pt>
+File: ../chapters/../figures/09_dr2/rlapdistribution_dr2.pdf Graphic file (type
+ pdf)
+<use ../chapters/../figures/09_dr2/rlapdistribution_dr2.pdf>
+Package pdftex.def Info: ../chapters/../figures/09_dr2/rlapdistribution_dr2.pdf
+  used on input line 240.
+(pdftex.def)             Requested size: 341.43307pt x 170.73962pt.
+<../chapters/../figures/09_dr2/spec_example_hypergaldr2.pdf, id=3697, 557.09209
+pt x 697.40549pt>
+File: ../chapters/../figures/09_dr2/spec_example_hypergaldr2.pdf Graphic file (
+type pdf)
+<use ../chapters/../figures/09_dr2/spec_example_hypergaldr2.pdf>
+Package pdftex.def Info: ../chapters/../figures/09_dr2/spec_example_hypergaldr2
+.pdf  used on input line 259.
+(pdftex.def)             Requested size: 318.66948pt x 398.95122pt.
+ [159 <../chapters/../figures/09_dr2/target_peakmagg.pdf>]
+<../chapters/../figures/09_dr2/peakvsredshift_dr2.pdf, id=3756, 710.08543pt x 7
+09.89514pt>
+File: ../chapters/../figures/09_dr2/peakvsredshift_dr2.pdf Graphic file (type p
+df)
+<use ../chapters/../figures/09_dr2/peakvsredshift_dr2.pdf>
+Package pdftex.def Info: ../chapters/../figures/09_dr2/peakvsredshift_dr2.pdf  
+used on input line 321.
+(pdftex.def)             Requested size: 455.24411pt x 455.13292pt.
+
+[160 <../chapters/../figures/09_dr2/spec_instorigin_golden_dr2.pdf>] [161 <../c
+hapters/../figures/09_dr2/rlapdistribution_dr2.pdf> <../chapters/../figures/09_
+dr2/spec_example_hypergaldr2.pdf
+
+pdfTeX warning: pdflatex (file ../chapters/../figures/09_dr2/spec_example_hyper
+galdr2.pdf): PDF inclusion: multiple pdfs with page group included in a single 
+page
+>] [162 <../chapters/../figures/09_dr2/peakvsredshift_dr2.pdf>]
+<../chapters/../figures/09_dr2/lightcurve_example_dr2.pdf, id=3809, 713.60628pt
+ x 607.99265pt>
+File: ../chapters/../figures/09_dr2/lightcurve_example_dr2.pdf Graphic file (ty
+pe pdf)
+<use ../chapters/../figures/09_dr2/lightcurve_example_dr2.pdf>
+Package pdftex.def Info: ../chapters/../figures/09_dr2/lightcurve_example_dr2.p
+df  used on input line 350.
+(pdftex.def)             Requested size: 441.58734pt x 376.2372pt.
+<../chapters/../figures/09_dr2/early_late_phase_dr2.pdf, id=3811, 860.01299pt x
+ 354.12299pt>
+File: ../chapters/../figures/09_dr2/early_late_phase_dr2.pdf Graphic file (type
+ pdf)
+<use ../chapters/../figures/09_dr2/early_late_phase_dr2.pdf>
+Package pdftex.def Info: ../chapters/../figures/09_dr2/early_late_phase_dr2.pdf
+  used on input line 372.
+(pdftex.def)             Requested size: 409.71692pt x 168.70728pt.
+<../chapters/../figures/09_dr2/first_detect_dr2.pdf, id=3812, 866.45477pt x 354
+.12299pt>
+File: ../chapters/../figures/09_dr2/first_detect_dr2.pdf Graphic file (type pdf
+)
+<use ../chapters/../figures/09_dr2/first_detect_dr2.pdf>
+Package pdftex.def Info: ../chapters/../figures/09_dr2/first_detect_dr2.pdf  us
+ed on input line 373.
+(pdftex.def)             Requested size: 409.71692pt x 167.45366pt.
+ [163
+
+ <../chapters/../figures/09_dr2/lightcurve_example_dr2.pdf>]
+<../chapters/../figures/09_dr2/phaseIadr2.pdf, id=3831, 732.97055pt x 334.01482
+pt>
+File: ../chapters/../figures/09_dr2/phaseIadr2.pdf Graphic file (type pdf)
+<use ../chapters/../figures/09_dr2/phaseIadr2.pdf>
+Package pdftex.def Info: ../chapters/../figures/09_dr2/phaseIadr2.pdf  used on 
+input line 399.
+(pdftex.def)             Requested size: 409.71692pt x 186.70554pt.
+ [164 <../chapters/../figures/09_dr2/early_late_phase_dr2.pdf> <../chapters/../
+figures/09_dr2/first_detect_dr2.pdf
+
+pdfTeX warning: pdflatex (file ../chapters/../figures/09_dr2/first_detect_dr2.p
+df): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<../chapters/../figures/09_dr2/snidphase_vsphase_dr2.pdf, id=3855, 799.40123pt 
+x 474.93716pt>
+File: ../chapters/../figures/09_dr2/snidphase_vsphase_dr2.pdf Graphic file (typ
+e pdf)
+<use ../chapters/../figures/09_dr2/snidphase_vsphase_dr2.pdf>
+Package pdftex.def Info: ../chapters/../figures/09_dr2/snidphase_vsphase_dr2.pd
+f  used on input line 423.
+(pdftex.def)             Requested size: 409.71692pt x 243.42499pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 68.
+(hyperref)                removing `math shift' on input line 438.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 68.
+(hyperref)                removing `subscript' on input line 438.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 68.
+(hyperref)                removing `math shift' on input line 438.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 68.
+(hyperref)                removing `math shift' on input line 438.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 68.
+(hyperref)                removing `math shift' on input line 438.
 
+<../chapters/../figures/09_dr2/stretch_color_redshift_dr2.pdf, id=3857, 851.445
+08pt x 704.25854pt>
+File: ../chapters/../figures/09_dr2/stretch_color_redshift_dr2.pdf Graphic file
+ (type pdf)
+<use ../chapters/../figures/09_dr2/stretch_color_redshift_dr2.pdf>
+Package pdftex.def Info: ../chapters/../figures/09_dr2/stretch_color_redshift_d
+r2.pdf  used on input line 468.
+(pdftex.def)             Requested size: 500.77129pt x 414.1979pt.
+[165 <../chapters/../figures/09_dr2/phaseIadr2.pdf>]
+<../chapters/../figures/09_dr2/stretch_color_driftmodel_dr2.pdf, id=3883, 794.3
+4308pt x 774.93813pt>
+File: ../chapters/../figures/09_dr2/stretch_color_driftmodel_dr2.pdf Graphic fi
+le (type pdf)
+<use ../chapters/../figures/09_dr2/stretch_color_driftmodel_dr2.pdf>
+Package pdftex.def Info: ../chapters/../figures/09_dr2/stretch_color_driftmodel
+_dr2.pdf  used on input line 527.
+(pdftex.def)             Requested size: 500.77129pt x 488.5447pt.
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 68.
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 527--544
+ [][] 
+ []
 
+[166 <../chapters/../figures/09_dr2/snidphase_vsphase_dr2.pdf>] [167 <../chapte
+rs/../figures/09_dr2/stretch_color_redshift_dr2.pdf>] [168 <../chapters/../figu
+res/09_dr2/stretch_color_driftmodel_dr2.pdf>])
+(../chapters/../chapters/98_conclusions.tex [169
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\sigma' on input line 68.
+] [170
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 68.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 68.
-
-) (../chapters/../chapters/98_conclusions.tex [145 <../chapters/../figures/02_z
-tf/ztfdr2stretchcolorcorrelation.png>] [146
-
-] [147] [148]) (./main.bbl
-(./main.brf)
+] [171] [172])
+(./main.bbl (./main.brf)
 \tf@brf=\write9
 \openout9 = `main.brf'.
 
- [149
+ [173
 
-] [150]
+] [174]
 
-Package hyperref Warning: Suppressing empty link on input line 248.
+Package hyperref Warning: Suppressing empty link on input line 274.
 
-[151] [152] [153] [154] [155] [156] [157] [158])
-
-Package natbib Warning: There were undefined citations.
-
+[175] [176] [177] [178] [179] [180] [181] [182] [183])
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the main.maf file.
 \openout4 = `main.maf'.
 
 
+
 Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the main.log file.
 
-[159] (./main.aux)
+[184] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
-
-Package rerunfilecheck Warning: File `main.brf' has changed.
-(rerunfilecheck)                Rerun to get bibliographical references right.
-
-Package rerunfilecheck Info: Checksums for `main.brf':
-(rerunfilecheck)             Before: 61ECB25402FF8479429C06F688A01ED0;11025
-(rerunfilecheck)             After:  730562686ECF90DDB8B984D5B128CBA1;11272.
+Package rerunfilecheck Info: File `main.brf' has not changed.
+(rerunfilecheck)             Checksum: B7C0A91FD11EC61411D43F17D70A3124;13764.
  ) 
 Here is how much of TeX's memory you used:
- 49712 strings out of 478994
- 1056174 string characters out of 5858184
- 1762634 words of memory out of 5000000
- 64801 multiletter control sequences out of 15000+600000
- 462052 words of font info for 389 fonts, out of 8000000 for 9000
+ 50199 strings out of 478994
+ 1068428 string characters out of 5858184
+ 1634066 words of memory out of 5000000
+ 65122 multiletter control sequences out of 15000+600000
+ 468443 words of font info for 423 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,18n,131p,3270b,1147s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 117i,18n,131p,4324b,1177s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<
 /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
@@ -3227,39 +3339,41 @@ e/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2
 1/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/t
 exmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/20
-21/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texlive/2021
-/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2021/t
-exmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2021/tex
-mf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2021/texmf
--dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2021/texmf-d
-ist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2021/texmf-dis
-t/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2021/texmf-dist/
-fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2021/texmf-dist/fo
-nts/type1/public/cm-super/sfcc0800.pfb></usr/local/texlive/2021/texmf-dist/font
-s/type1/public/cm-super/sfcc1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/
-type1/public/cm-super/sfcc1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/ty
-pe1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type
-1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/
-public/cm-super/sfrm0800.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pu
-blic/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publ
-ic/cm-super/sfrm1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public
-/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/c
-m-super/sfrm1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-
-super/sfrm2488.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-su
-per/sftc1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-supe
-r/sftc1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/
-sfti0800.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sf
-ti1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti
-1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti12
-00.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1000
-.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1200.p
-fb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1440.pfb
-></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1728.pfb><
-/usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt2074.pfb>
-Output written on main.pdf (159 pages, 58162199 bytes).
+21/texmf-dist/fonts/type1/public/cm-super/sfbi1200.pfb></usr/local/texlive/2021
+/texmf-dist/fonts/type1/public/cm-super/sfbi1440.pfb></usr/local/texlive/2021/t
+exmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texlive/2021/tex
+mf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2021/texmf
+-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2021/texmf-d
+ist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2021/texmf-dis
+t/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2021/texmf-dist/
+fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2021/texmf-dist/fo
+nts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2021/texmf-dist/font
+s/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2021/texmf-dist/fonts/
+type1/public/cm-super/sfcc0800.pfb></usr/local/texlive/2021/texmf-dist/fonts/ty
+pe1/public/cm-super/sfcc1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type
+1/public/cm-super/sfcc1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/
+public/cm-super/sfcc1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pu
+blic/cm-super/sfrm0600.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publ
+ic/cm-super/sfrm0800.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public
+/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/c
+m-super/sfrm1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-
+super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-su
+per/sfrm1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-supe
+r/sfrm2488.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/
+sftc1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sf
+tc1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti
+0800.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti10
+00.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1095
+.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1200.p
+fb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb
+></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb><
+/usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1440.pfb></u
+sr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1728.pfb></usr
+/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt2074.pfb>
+Output written on main.pdf (184 pages, 61527034 bytes).
 PDF statistics:
- 4506 PDF objects out of 5155 (max. 8388607)
- 3657 compressed objects within 37 object streams
- 606 named destinations out of 1000 (max. 500000)
- 119838 words of extra memory for PDF output out of 128383 (max. 10000000)
+ 5311 PDF objects out of 6186 (max. 8388607)
+ 4316 compressed objects within 44 object streams
+ 701 named destinations out of 1000 (max. 500000)
+ 132826 words of extra memory for PDF output out of 154059 (max. 10000000)
 

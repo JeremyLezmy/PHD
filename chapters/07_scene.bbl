@@ -24,13 +24,14 @@
 \textsc{Dembinski H.}, \textsc{Ongmongkolkul P.}, \textsc{Deil C.} {et~al.}
   2020, «~scikit-hep/iminuit: v1.5.4~»
 
-\bibitem[{\textsc{Duev} {et~al.}(2019)\textsc{Duev}, \textsc{Mahabal},
-  \textsc{Masci}, \textsc{Graham}, \textsc{Rusholme}, \textsc{Walters},
-  \textsc{Karmarkar}, \textsc{Frederick}, \textsc{Kasliwal},
-  \textsc{Rebbapragada} {et~al.}}]{duev2019real}
-\textsc{Duev D.~A.}, \textsc{Mahabal A.}, \textsc{Masci F.~J.} {et~al.} 2019,
-  «~Real-bogus classification for the Zwicky Transient Facility using deep
-  learning~», Monthly Notices of the Royal Astronomical Society, 489, 3582
+\bibitem[{\textsc{{Duev}} {et~al.}(2019)\textsc{{Duev}}, \textsc{{Mahabal}},
+  \textsc{{Masci}}, \textsc{{Graham}}, \textsc{{Rusholme}}, \textsc{{Walters}},
+  \textsc{{Karmarkar}}, \textsc{{Frederick}}, \textsc{{Kasliwal}} et
+  \textsc{{Rebbapragada}}}]{duev2019real}
+\textsc{{Duev} D.~A.}, \textsc{{Mahabal} A.}, \textsc{{Masci} F.~J.} {et~al.}
+  2019, «~Real-bogus classification for the Zwicky Transient Facility using
+  deep learning~», Monthly Notices of the Royal Astronomical Society, 489,
+  3582
 
 \bibitem[{\textsc{{Duev}} et \textsc{{van der Walt}}(2021)}]{Duev2021}
 \textsc{{Duev} D.~A.} et \textsc{{van der Walt} S.~J.} 2021,

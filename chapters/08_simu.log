@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  20 JUN 2022 20:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  3 JUL 2022 00:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1811,10 +1811,10 @@ Package rerunfilecheck Info: File `08_simu.brf' has not changed.
 (rerunfilecheck)             Checksum: 62AFFD2EEFE45F9CBC8831624C058E75;641.
  ) 
 Here is how much of TeX's memory you used:
- 46987 strings out of 478994
- 995718 string characters out of 5858184
- 1547000 words of memory out of 5000000
- 63116 multiletter control sequences out of 15000+600000
+ 46988 strings out of 478994
+ 995722 string characters out of 5858184
+ 1547046 words of memory out of 5000000
+ 63117 multiletter control sequences out of 15000+600000
  432785 words of font info for 209 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  137i,12n,148p,1510b,870s stack positions out of 5000i,500n,10000p,200000b,80000s

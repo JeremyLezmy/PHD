@@ -1,29 +1,30 @@
 \babel@toc {french}{}
-\contentsline {xpart}{Contexte Scientifique}{21}{part.1}%
+\contentsline {xpart}{Contexte scientifique}{23}{part.1}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Contexte cosmologique}{21}{chapter.1}%
+\contentsline {xchapter}{Contexte cosmologique}{23}{chapter.1}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Zwicky Transient Facility}{25}{chapter.2}%
+\contentsline {xchapter}{Zwicky Transient Facility}{37}{chapter.2}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Un spectrographe 3D: La Spectral Energy Distribution machine}{35}{chapter.3}%
-\contentsline {xpart}{Extraction de spectre de Supernovae}{51}{part.2}%
+\contentsline {xchapter}{Un spectrographe 3D: La Spectral Energy Distribution machine}{47}{chapter.3}%
+\contentsline {xpart}{Extraction de spectre de Supernovae}{63}{part.2}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{\textsc {\texttt {HyperGal}}\relax : Modéliseur de scène pour l'extraction de sources ponctuelles}{51}{chapter.4}%
+\contentsline {xchapter}{\textsc {\texttt {HyperGal}}\relax : Modéliseur de scène pour l'extraction de sources ponctuelles}{63}{chapter.4}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Modélisation hyperspectrale}{59}{chapter.5}%
-\contentsline {table}{\numberline {5.1}{\ignorespaces Caractéristiques des filtres $grizy$ de PAN-STARRS1 et du relevé $3\pi $ Stéradian.\relax }}{62}{table.caption.29}%
-\contentsline {table}{\numberline {5.2}{\ignorespaces Exemple de tableau d'entrée pour \textsc {\texttt {CIGALE}}\relax }}{67}{table.caption.34}%
-\contentsline {table}{\numberline {5.3}{\ignorespaces Paramètres d'entrées pour chaque module de \textsc {\texttt {CIGALE}}\relax utilisé.\relax }}{70}{table.caption.35}%
+\contentsline {xchapter}{Modélisation hyperspectrale}{71}{chapter.5}%
+\contentsline {table}{\numberline {5.1}{\ignorespaces Caractéristiques des filtres $grizy$ de PAN-STARRS1 et du relevé $3\pi $ Stéradian.\relax }}{74}{table.caption.35}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Exemple de tableau d'entrée pour \textsc {\texttt {CIGALE}}\relax }}{79}{table.caption.40}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces Paramètres d'entrées pour chaque module de \textsc {\texttt {CIGALE}}\relax utilisé.\relax }}{82}{table.caption.41}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Réponse impulsionnelle de la SEDm et extraction de source ponctuelle}{75}{chapter.6}%
-\contentsline {table}{\numberline {6.1}{\ignorespaces Raies d'émission lampes à arc\relax }}{76}{table.caption.41}%
-\contentsline {table}{\numberline {6.2}{\ignorespaces Valeurs des paramètres des ajustements linéaires pour $\beta (\alpha )$ et $\sigma (\alpha )$.\relax }}{88}{table.caption.56}%
-\contentsline {table}{\numberline {6.3}{\ignorespaces Description des distributions du RMS spectral des calibrations en flux.}}{98}{table.caption.67}%
+\contentsline {xchapter}{Réponse impulsionnelle de la SEDm et extraction de source ponctuelle}{87}{chapter.6}%
+\contentsline {table}{\numberline {6.1}{\ignorespaces Raies d'émission lampes à arc\relax }}{88}{table.caption.47}%
+\contentsline {table}{\numberline {6.2}{\ignorespaces Valeurs des paramètres des ajustements linéaires pour $\beta (\alpha )$ et $\sigma (\alpha )$.\relax }}{100}{table.caption.62}%
+\contentsline {table}{\numberline {6.3}{\ignorespaces Description des distributions du RMS spectral des calibrations en flux.}}{110}{table.caption.73}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Modélisation de scène et extraction de sources}{101}{chapter.7}%
-\contentsline {table}{\numberline {7.1}{\ignorespaces Paramètres de modélisation de scène 2D avec \textsc {\texttt {HyperGal}}\relax .}}{108}{table.caption.73}%
-\contentsline {xpart}{Simulations et Résultats}{125}{part.3}%
+\contentsline {xchapter}{Modélisation de scène et extraction de sources}{113}{chapter.7}%
+\contentsline {table}{\numberline {7.1}{\ignorespaces Paramètres de modélisation de scène 2D avec \textsc {\texttt {HyperGal}}\relax .}}{120}{table.caption.79}%
+\contentsline {xpart}{Validation et résultats}{137}{part.3}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Validation du pipeline \textsc {\texttt {HyperGal}}\relax }{125}{chapter.8}%
+\contentsline {xchapter}{Validation du pipeline \textsc {\texttt {HyperGal}}\relax }{137}{chapter.8}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Data Release 2 de ZTF}{143}{chapter.9}%
+\contentsline {xchapter}{Application d'\textsc {\texttt {HyperGal}}\relax \ à la Data Release 2 de ZTF}{155}{chapter.9}%
+\contentsline {table}{\numberline {9.1}{\ignorespaces Statistiques médianes effectuées à partir des 431k expositions prisent par ZTF durant sa phase 1.\relax }}{156}{table.caption.110}%

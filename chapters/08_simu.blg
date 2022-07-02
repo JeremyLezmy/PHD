@@ -3,10 +3,9 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: 08_simu.aux
 The style file: ../main/aa_url2.bst
 Database file #1: 99_references.bib
-I was expecting a `,' or a `}'---line 834 of file 99_references.bib
- :   
- :   url={https://ui.adsabs.harvard.edu/abs/2019MNRAS.489.3582D/abstract}
-(Error may have been on previous line)
+Repeated entry---line 524 of file 99_references.bib
+ : @article{Betoule2014
+ :                     ,
 I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 You've used 9 entries,

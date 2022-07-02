@@ -434,7 +434,7 @@ Quant à la position, sa chromaticité est due à la réfraction de la
 lumière par l'atmosphère. C'est ce qu'on appelle l'ADR (Atmospheric
 Differential Refraction). Nous détaillerons en détail cet effet et sa
 modélisation dans la
-Partie II de ce manuscrit (Section~\ref{ssec:chromadr}).
+Partie II de ce manuscrit (Section~\ref{ssec:adr}).
 Ainsi, les paramètres des modèles de chromaticités sont à leur tour
 fittés à partir du set de paramètres obtenu avec les N$\times$2D
 meta-tranches.
@@ -454,37 +454,32 @@ unité de pseudo-ADU (Analog to Digital Units), il faut à présent procéder à
 calibration afin de pouvoir l'exprimer en unité de flux physique.
 Le spectre d'une source astronomique observée peut être exprimé suivant
 le formalisme suivant \citep{Buton2013}:
-\begin{equation}
-  \label{eq:calibbutoon}
-  S(\lambda,t,z)=S^{\star}(\lambda,t)\times\mathcal{C}(\lambda,t)\times T_{atm}(\lambda,t,z)
-\end{equation}
-Avec $S^{\star}(\lambda,t)$ le spectre instrinsèque de la source en
-unités physiques ($erg/cm^2/s/$\AA), $\mathcal{C}(\lambda,t)$ la réponse
-instrumentale, et $T_{atm}(\lambda,t,z)$ la transmission atmosphérique, qui
-dépend de la masse d'air le long de la ligne de visée. Calibrer un
-spectre revient donc à déterminer $\mathcal{C}$ et $T_{atm}$ pour isoler $S^{\star}$.
-
-En toute rigueur, la transmission atmosphérique devrait être décomposée
-en composantes physiques bien connues comme la diffusion de Rayleigh, la
-diffusion aérosol,
-l'absorption de l'ozone et l'absoption telluriques
-(\citet{Hayes1975atm}, \citet{Wade1988atm}, \citet{Stubbs2007atm} ).
-
-Dans le cadre de la SEDm, le but n'étant pas de faire une étude
-spectrophotométrique des sources observées, ce formalisme a été
-fortement simplifié et est exprimé tel que:
 
 \begin{equation}
   \label{eq:calibbutoon}
-  S(\lambda,t,z)=S^{\star}(\lambda,t)\times\left[\mathcal{C}(\lambda,t)+\mathcal{ T}(\lambda,t,z)\right]
+  S(\lambda,t,z)=S^{\star}(\lambda,t)\times\mathcal{C}_{atm}(\lambda,t,z)\times\mathcal{C}_{inst}(\lambda,t)\times\mathcal{T}(\lambda,t,z)
 \end{equation}
+avec $S^{\star}(\lambda,t)$ le spectre instrinsèque de la source en
+unités physiques ($erg/cm^2/s/$\AA), $\mathcal{C}_{atm}(\lambda,t,z)$
+l'extinction atmosphérique, $\mathcal{C}_{inst}(\lambda,t)$ la réponse
+instrumentale et $\mathcal{T}(\lambda,t,z)$ l'absorption tellurique qui
+dépend de la masse d'air le long de la ligne de visée. L'extinction
+atmosphérique utilisée pour le Mont Palomar est celle de
+\citep{Hayes1975atm}, et est appliquée lors de la création des cubes
+SEDm. Le spectre extrait en pseudo-ADU est donc déjà corrigé de cette
+composante, et la calibration revient finalement à déterminer $\mathcal{C}_{inst}(\lambda,t)$ et $\mathcal{T}(\lambda,t,z)$ pour isoler $S^{\star}$.
 
-Où $\mathcal{ T}$ représente l'absoption tellurique. Les spectres
+Le formalisme de calibration de notre spectre en pseudo-ADU est ainsi: 
+\begin{equation*} 
+  S_{pADU}(\lambda,t,z) = \frac{S(\lambda,t,z)}{\mathcal{C}_{atm}(\lambda,t,z)}=S^{\star}(\lambda,t)\times\mathcal{C}_{inst}(\lambda,t)\times\mathcal{T}(\lambda,t,z)
+\end{equation*}
+
+Les spectres
 telluriques utilisées sont ceux du Kitt Peak National
 Observatory\footnote{\url{http://www.noao.edu/kpno/}} \citep{Hinkle2003}, scindés en deux
 catégories de longueur d'onde: l'$\text{O}_{2}$ et
 l'$\text{H}_{2}\text{O}$.
-L'absoption tellurique est alors exprimée suivant:
+L'absoption tellurique, dépendant de la masse d'air, est alors exprimée suivant:
 
 \begin{equation}
   \label{eq:telluricpysedm}
@@ -494,9 +489,9 @@ L'absoption tellurique est alors exprimée suivant:
 \end{equation}
 Où les amplitudes relatives $c_{i}$ et les dépendances en masse d'air
 $\rho_{i}$ sont des paramètres libres. Quant à la réponse instrumentale
-$\mathcal{C}$, elle est modélisée par un polynome de Legendre d'ordre $20$.
+$\mathcal{C}_{inst}$, elle est modélisée par un polynome de Legendre d'ordre $20$.
 
-La détermination des composantes $\mathcal{C}$ et $\mathcal{T}$ est alors la suivante:
+La détermination des composantes $\mathcal{C}_{inst}$ et $\mathcal{T}$ est alors la suivante:
 
 \begin{enumerate}[(a)]
   \itemsep=0em
@@ -507,9 +502,9 @@ La détermination des composantes $\mathcal{C}$ et $\mathcal{T}$ est alors la su
   (Section~\ref{ssec:sourceextractpysedm}).
 \item On récupère dans les archives calspec\footnote{\url{https://archive.stsci.edu/hlsps/reference-atlases/cdbs/current_calspec/}} le spectre
   spectrophotométrique correspondant à l'étoile standard observée.
-\item Les composantes de réponse instrumentale $\mathcal{C}$ et
+\item Les composantes de réponse instrumentale $\mathcal{C}_{inst}$ et
   d'absoption telluriques $\mathcal{T}$ sont fittées simultanément en
-  minimisant la quantité ~$(S_{ADU}/S_{ref}) - (\mathcal{C} + \mathcal{T})$.
+  minimisant la quantité ~$(S_{pADU}/S_{ref}) - (\mathcal{C}_{inst}\times\mathcal{T})$.
 \end{enumerate}
 
 Au moins une étoile standard est observée chaque nuit. La calibration
@@ -517,10 +512,10 @@ d'une observation scientifique se fait en considérant la masse d'air
 associée (l'absorption tellurique est airmass-dépendante). On obtient
 alors le spectre calibré simplement en effectuant l'opération:
 \begin{equation*}
-  S^{\star}(\lambda,t,z)=\frac{S_{ADU}(\lambda,t)}{\mathcal{C}(\lambda,t)+\mathcal{T}(\lambda,t,z)}
+  S^{\star}(\lambda,t,z)=\frac{S_{pADU}(\lambda,t)}{\mathcal{C}_{inst}(\lambda,t)\times\mathcal{T}(\lambda,t,z)}
 \end{equation*}
 
-On appelle la quantité $(\mathcal{C} + \mathcal{T})$ la courbe de
+On appelle la quantité $(\mathcal{C}_{inst}\times\mathcal{T})$ la courbe de
 sensibilité inverse.
 La précision de la calibration en flux des spectres de science acquis
 avec la SEDm en utilisant le pipeline \pysedm\ est de l'ordre de quelques pourcents.

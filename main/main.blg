@@ -3,61 +3,60 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: aa_url2.bst
 Database file #1: ../chapters/99_references.bib
-I was expecting a `,' or a `}'---line 834 of file ../chapters/99_references.bib
- :   
- :   url={https://ui.adsabs.harvard.edu/abs/2019MNRAS.489.3582D/abstract}
-(Error may have been on previous line)
+Repeated entry---line 524 of file ../chapters/99_references.bib
+ : @article{Betoule2014
+ :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 910 of file ../chapters/99_references.bib
+Repeated entry---line 949 of file ../chapters/99_references.bib
  : @article{Dale2014
  :                  ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "iminuit" isn't style-file defined
---line 1279 of file ../chapters/99_references.bib
+--line 1398 of file ../chapters/99_references.bib
 Warning--entry type for "kelsey_jordahl_2020_3946761" isn't style-file defined
---line 1410 of file ../chapters/99_references.bib
+--line 1529 of file ../chapters/99_references.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty publisher in MinkowskiPOSS
-You've used 138 entries,
+You've used 156 entries,
             3173 wiz_defined-function locations,
-            1905 strings with 71492 characters,
-and the built_in function-call counts, 151626 in all, are:
-= -- 10255
-> -- 17885
-< -- 62
-+ -- 6014
-- -- 5869
-* -- 22251
-:= -- 25539
-add.period$ -- 138
-call.type$ -- 138
-change.case$ -- 2500
-chr.to.int$ -- 133
-cite$ -- 139
-duplicate$ -- 2954
-empty$ -- 4486
-format.name$ -- 6244
-if$ -- 27250
-int.to.chr$ -- 6
+            2059 strings with 86983 characters,
+and the built_in function-call counts, 188806 in all, are:
+= -- 12547
+> -- 23243
+< -- 73
++ -- 7811
+- -- 7645
+* -- 28141
+:= -- 31867
+add.period$ -- 156
+call.type$ -- 156
+change.case$ -- 3165
+chr.to.int$ -- 148
+cite$ -- 157
+duplicate$ -- 3306
+empty$ -- 5043
+format.name$ -- 8049
+if$ -- 33725
+int.to.chr$ -- 9
 int.to.str$ -- 1
-missing$ -- 117
-newline$ -- 418
-num.names$ -- 564
-pop$ -- 2518
+missing$ -- 135
+newline$ -- 472
+num.names$ -- 636
+pop$ -- 3175
 preamble$ -- 1
-purify$ -- 2499
+purify$ -- 3164
 quote$ -- 0
-skip$ -- 2422
+skip$ -- 2696
 stack$ -- 0
-substring$ -- 3280
-swap$ -- 4619
+substring$ -- 3649
+swap$ -- 5883
 text.length$ -- 12
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1242
+type$ -- 1404
 warning$ -- 1
-while$ -- 564
+while$ -- 636
 width$ -- 0
-write$ -- 1505
+write$ -- 1700
 (There were 2 error messages)

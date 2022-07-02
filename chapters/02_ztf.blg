@@ -3,6 +3,11 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: 02_ztf.aux
 The style file: ../main/aa_url.bst
 Database file #1: 99_references.bib
+I was expecting a `,' or a `}'---line 873 of file 99_references.bib
+ :   
+ :   url={https://ui.adsabs.harvard.edu/abs/2019MNRAS.489.3582D/abstract}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty publisher in MinkowskiPOSS
 You've used 16 entries,
@@ -46,4 +51,4 @@ warning$ -- 1
 while$ -- 65
 width$ -- 0
 write$ -- 162
-(There was 1 warning)
+(There was 1 error message)

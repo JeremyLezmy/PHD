@@ -4,5 +4,59 @@
 
 \chapter*{Abstract}
 \label{chap:abstract}
+\vspace{2cm}
+Nearly two decades ago, distances measured from type Ia supernovae 
+(SNeIa) were used to discover the accelerated expansion of the
+of the universe. While the accelerated expansion of the Universe is now
+commonly accepted, understanding what causes this effect is unknown
+and requires precise, unbiased measurements. 
+Supernovae (SNe) are divided into several categories which can only be
+distinguished by their spectral properties, and of all SN types, only the SNeIa
+are used as a cosmological probe because of their properties of
+standardizable candles. With different types of SNe
+having different intrinsic luminosities,
+any misclassified objects will lead to a bias in the cosmological
+parameters.  
+
+Spectral classification is fairly straightforward for SNe occuring in
+isolated environments, but the closer an event occurs close to the core of a
+galaxy, the more the spectral contamination intensifies and this analysis
+becomes difficult or even impossible.
+
+This PhD thesis has been carried out at the \textit{Institut de Physique des 2
+Infinis de Lyon} (IP2I Lyon) as part of the Zwicky Transient Facility (ZTF) wide field cosmological
+project, using data obtained from a low-resolution 3D
+spectrograph: the Spectral Energy Distribution machine
+(SEDm). The objective of this research work is to answer the
+problem of the classification of SNe in the case of strong spectral contamination by the host galaxy. 
+
+I present in this manuscript a new method to separate signal from SN
+from that of the galaxy in the form
+of a scene modeling tool, \hypergal, which allows us to confidently
+extract and classify SN previously missed or mis-classified. The core of
+this pipeline is based on the use of
+photometric data of the host galaxy, taken before the
+SN explosion. Using the knowledge of the physics of galaxies, we model
+the spectral properties of the host, adjusting and scaling appropriately
+to create a 3D cube model of the
+isolated host galaxy. Convolving this model to the instrumental response
+of SEDm, we produce a projection of this hyperspectral model in the
+space of the observations. Modeling the SN as a wavelength dependent
+point source, and fitting both the galaxy and supernova simultaneously,
+we have produced a scene modelling pipeline that can extract the
+properties of the SN from highly contaminated environments. 
+This model is validated on simulated samples of SN drawn from observed
+data.
+
+At the end of this manuscript, I present the preliminary scientific results from the
+ZTF-DR2 dataset of the Type Ia Supernovae $\&$ Cosmology group
+of ZTF, composed of $\sim3000$ SNeIa where the vast majority of which has been classified with this
+new extraction technique.
+
 
 \end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:

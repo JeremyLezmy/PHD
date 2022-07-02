@@ -11,11 +11,11 @@
 
 (is-multi t)
 
-(bibview-cache ("Huber1964" . "Peter Huber 1964, {Robust Estimation Location Parameter}, The Annals of Mathematical Statistics 35:73") ("Waters2020" . "Waters etal. 2020, {Pan STARRS Pixel Processing: Detrending, \\apjs 251:4") ("Racine1996" . "Racine 1996, {The Telescope Point Spread Function}, \\pasp 108:699") ("BellmZTF2019" . "Bellm etal. 2019, {The Zwicky Transient Facility: System, \\pasp 131:018002") ("GrahamZTF2019" . "Graham etal. 2019, {The Zwicky Transient Facility: Science, \\pasp 131:078001") ("BCO3" . "Bruzual & Charlot 2003, {Stell. popul. synth. at resol., \\mnras 344:1000") ("Dale2014" . "Dale etal. 2014, {A Two param. Model Infr., \\apj 784:83") ("Buat2018" . "Buat etal. 2018, {Dust atten. H{\\ens. emiss. sample, \\aap 619:A135") ("Boquien2019" . "Boquien etal. 2019, {CIG. pyth. Code Invest. GALaxy, \\aap 622:A103") ("Tonry2008GPC1" . "Tonry etal. 2008, {Results from Pan STARRS Orthogonal, in: High Energy  Optical, 7021:702105") ("Tonry2006GPC1" . "Tonry etal. 2006, {The Pan STARRS Gigapixel Camera}, in: Advanced Maui Optical Space, E47") ("Hodapp2004a" . "Hodapp etal. 2004, {Optical design Pan STARRS telescopes}, in: Optical Design Engineering, 5249:165") ("Kaiser2010" . "Kaiser etal. 2010, {The Pan STARRS wide field, in: Ground based Airborne Telescopes, 7733:77330E") ("JohnsonProspector" . "Johnson etal. 2021, {Stell. Popul. Infer. with Prosp., \\apjs 254:22") ("Draine2007" . "Draine & Li 2007, {Infr. Emiss. from Interst. Dust., \\apj 657:810") ("Calzetti2000" . "Calzetti etal. 2000, {The Dust Content Opacity Actively, \\apj 533:682") ("ChambersPanstarrs" . "Chambers etal. 2016, {The Pan STARRS1 Surveys}, arXiv e-prints arXiv:1612") ("MuthukrishnaDash" . "Muthukrishna etal. 2019, {DASH: Deep Learning Automated Spectral, \\apj 885:85") ("FremlingZTFspec2020" . "Fremling etal. 2020, {The Zwicky Transient Facility Bright, \\apj 895:32") ("DekanyZTF2020" . "Dekany etal. 2020, {The Zwicky Trans. Facil. Observ., \\pasp 132:038001"))
+(bibview-cache ("PerleyBTSII2020" . "Perley etal. 2020, {The Zwicky Transient Facility Bright, \\apj 904:35") ("Butonthese" . "Buton 2009, {Étal. spectro phot. du SuperN., {Université Claude Bernard - Lyon I}") ("Guysalt22007" . "Guy etal. 2007, {SALT2: using distant supernovae improve, \\aap 466:11") ("Huber1964" . "Peter Huber 1964, {Robust Estimation Location Parameter}, The Annals of Mathematical Statistics 35:73") ("Waters2020" . "Waters etal. 2020, {Pan STARRS Pixel Processing: Detrending, \\apjs 251:4") ("Racine1996" . "Racine 1996, {The Telescope Point Spread Function}, \\pasp 108:699") ("BellmZTF2019" . "Bellm etal. 2019, {The Zwicky Transient Facility: System, \\pasp 131:018002") ("GrahamZTF2019" . "Graham etal. 2019, {The Zwicky Transient Facility: Science, \\pasp 131:078001") ("BCO3" . "Bruzual & Charlot 2003, {Stell. popul. synth. at resol., \\mnras 344:1000") ("Dale2014" . "Dale etal. 2014, {A Two param. Model Infr., \\apj 784:83") ("Buat2018" . "Buat etal. 2018, {Dust atten. H{\\ens. emiss. sample, \\aap 619:A135") ("Boquien2019" . "Boquien etal. 2019, {CIG. pyth. Code Invest. GALaxy, \\aap 622:A103") ("Tonry2008GPC1" . "Tonry etal. 2008, {Results from Pan STARRS Orthogonal, in: High Energy  Optical, 7021:702105") ("Tonry2006GPC1" . "Tonry etal. 2006, {The Pan STARRS Gigapixel Camera}, in: Advanced Maui Optical Space, E47") ("Hodapp2004a" . "Hodapp etal. 2004, {Optical design Pan STARRS telescopes}, in: Optical Design Engineering, 5249:165") ("Kaiser2010" . "Kaiser etal. 2010, {The Pan STARRS wide field, in: Ground based Airborne Telescopes, 7733:77330E") ("JohnsonProspector" . "Johnson etal. 2021, {Stell. Popul. Infer. with Prosp., \\apjs 254:22") ("Draine2007" . "Draine & Li 2007, {Infr. Emiss. from Interst. Dust., \\apj 657:810") ("Calzetti2000" . "Calzetti etal. 2000, {The Dust Content Opacity Actively, \\apj 533:682") ("ChambersPanstarrs" . "Chambers etal. 2016, {The Pan STARRS1 Surveys}, arXiv e-prints arXiv:1612") ("MuthukrishnaDash" . "Muthukrishna etal. 2019, {DASH: Deep Learning Automated Spectral, \\apj 885:85") ("FremlingZTFspec2020" . "Fremling etal. 2020, {The Zwicky Transient Facility Bright, \\apj 895:32") ("DekanyZTF2020" . "Dekany etal. 2020, {The Zwicky Trans. Facil. Observ., \\pasp 132:038001"))
 
 (master-dir . "/Users/lezmy/These_projects/PHD_LEZMY/main/")
 
-(label-numbers ("eq:" . 10))
+(label-numbers ("eq:" . 12))
 
 (bof "/Users/lezmy/These_projects/PHD_LEZMY/main/main.tex")
 
@@ -369,11 +369,13 @@
 
 ("ssec:xxx" "s" "Chaque pixel étant traité indépendamment par \\cigale, leur échantillonnage spectral de sortie n'est " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_sedfit.tex" 35757)
 
-("eq:10" "e" nil "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil "POSITION UNCERTAIN.  RESCAN TO FIX.")
+("eq:11" "e" "" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" "LOST LABEL.  RESCAN TO FIX.")
 
-("eq:9" "e" nil "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" nil "")
+("eq:10" "e" "" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" "LOST LABEL.  RESCAN TO FIX.")
 
-("eq:2" "e" nil "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_irf.tex" nil "POSITION UNCERTAIN.  RESCAN TO FIX.")
+("eq:9" "e" "" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/07_scene.tex" "LOST LABEL.  RESCAN TO FIX.")
+
+("eq:2" "e" "" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_irf.tex" "LOST LABEL.  RESCAN TO FIX.")
 
 (toc "toc" "      5.3.2 Construction du cube" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/05_sedfit.tex" nil 3 "5.3.2" "\\subsection{Construction du cube}" 39834)
 
@@ -449,7 +451,7 @@
 
 ("fig:alphabetachromcorr" "f" "Chromaticité des corrélations entre $\\alpha$ et $\\beta$" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_irf.tex" nil)
 
-("eq:8" "e" nil "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_irf.tex" nil "")
+("eq:8" "e" "" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_irf.tex" "LOST LABEL.  RESCAN TO FIX.")
 
 ("fig:chromslope_zp_alphabeta" "f" "Chromaticité de la pente et du point zéro entre $\\alpha$ et $\\beta$" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/06_irf.tex" nil)
 
@@ -575,45 +577,84 @@
 
 (bof "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex")
 
-(toc "toc" "  8 Simulations de cubes de données et application d'\\hypergal" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil 1 "8" "\\chapter{Simulations de cubes de données et application d'\\hypergal}" 86)
+(toc "toc" "  1 Validation du pipeline \\hypergal" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil 1 "1" "\\chapter{Validation du pipeline
+  \\hypergal}" 119)
 
-("ch:res" "s" "-- XXX -- \\minitoc \\newpage \\section{Génération des simulations} % \\subsection{Cube de galaxies isol" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil)
+("ch:simu" "s" "\\minitoc \\vspace{2cm} Nous avons présenté et détaillé dans le chapitre précédent le fonctionnement d" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil)
 
-(toc "toc" "    8.1 Génération des simulations" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil 2 "8.1" "\\section{Génération des simulations}" 200)
+(toc "toc" "    1.1 Génération des simulations" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil 2 "1.1" "\\section{Génération des simulations}" 1269)
 
-("sec:xxx" "s" "\\subsection{Cube de galaxies isolées} % \\subsection{Modèles de Supernovae} % \\label{ssec:xxx} \\subse" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" 238)
+("sec:xxx" "s" "\\subsection{Méthode} Afin de se rapprocher au plus près des conditions d'observation, nous avons pro" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" 936)
 
-(toc "toc" "      8.1.1 Cube de galaxies isolées" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil 3 "8.1.1" "\\subsection{Cube de galaxies isolées}" 255)
+(toc "toc" "      1.1.1 Méthode" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil 3 "1.1.1" "\\subsection{Méthode}" 1333)
 
-("ssec:xxx" "s" "\\subsection{Modèles de Supernovae} %  \\subsection{Marginalisations} % \\label{ssec:xxx} \\subsection{P" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" 294)
+(toc "toc" "      1.1.2 Cube de galaxies isolées" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil 3 "1.1.2" "\\subsection{Cube de galaxies isolées}" 2415)
 
-(toc "toc" "      8.1.2 Modèles de Supernovae" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil 3 "8.1.2" "\\subsection{Modèles de Supernovae}" 312)
+("ssec:xxx" "s" "La base de nos simulations proviennent donc d'observations réelles avec la SEDm de galaxies ayant ac" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" 2078)
 
-("ssec:xxx" "s" "\\subsection{Marginalisations} %  \\subsection{Paramètres libres d'étude: Distance et contraste} %\\lab" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" 349)
+("fig:allhostsimu" "f" "Cubes de galaxies hôtes utilisés pour les simulations." "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil)
 
-(toc "toc" "      8.1.3 Marginalisations" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil 3 "8.1.3" "\\subsection{Marginalisations}" 367)
+(toc "toc" "      1.1.3 Modèles de supernovae" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil 3 "1.1.3" "\\subsection{Modèles de supernovae}" 4596)
 
-("ssec:xxx" "s" "\\subsection{Paramètres libres d'étude: Distance et contraste} % \\section{Résultats et Précision} %\\l" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" 399)
+("ssec:xxx" "s" "Afin de tester la précision d'extraction de spectre avec \\hypergal, il nous faut inclure dans les cu" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" 4118)
 
-(toc "toc" "      8.1.4 Paramètres libres d'étude: Distance et contraste" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil 3 "8.1.4" "\\subsection{Paramètres libres d'étude: Distance et contraste}" 417)
+("fig:specsimueach" "f" "Exemple de spectre pour chaque type de supernova pour les simulations." "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil)
 
-("ssec:xxx" "s" "\\section{Résultats et Précision} % \\subsection{Précision spectrophotométrique} %\\label{ssec:xxx} \\su" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" 480)
+(toc "toc" "      1.1.4 Marginalisations et paramètres d'étude" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil 3 "1.1.4" "\\subsection{Marginalisations et paramètres d'étude}" 7442)
 
-(toc "toc" "    8.2 Résultats et Précision" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil 2 "8.2" "\\section{Résultats et Précision}" 498)
+("ssec:xxx" "s" "\\subsubsection{Types et phases} Dans le but de représenter dans nos simulations les proportions obse" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" 6845)
 
-("sec:xxx" "s" "\\subsection{Précision spectrophotométrique} % \\subsection{Précision avec correction de continuum} % " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" 532)
+(toc "toc" "        1.1.4.1 Types et phases" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil 4 "1.1.4.1" "\\subsubsection{Types et phases}" 7514)
 
-(toc "toc" "      8.2.1 Précision spectrophotométrique" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil 3 "8.2.1" "\\subsection{Précision spectrophotométrique}" 549)
+(toc "toc" "        1.1.4.2 Seeing" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil 4 "1.1.4.2" "\\subsubsection{Seeing}" 8885)
 
-("ssec:xxx" "s" "\\subsection{Précision avec correction de continuum} %  \\subsection{Efficacité de classification} % \\" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" 594)
+(toc "toc" "        1.1.4.3 Distance supernova/centre galactique" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil 4 "1.1.4.3" "\\subsubsection{Distance supernova/centre galactique}" 10081)
 
-(toc "toc" "      8.2.2 Précision avec correction de continuum" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil 3 "8.2.2" "\\subsection{Précision avec correction de continuum}" 612)
+("ssec:distancesimu" "s" "\\hypergal\\ a été conçu pour répondre à la problématique de la contamination par la galaxie hôte. Nou" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil)
 
-("ssec:xxx" "s" "\\subsection{Efficacité de classification} %  " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" 666)
+(toc "toc" "        1.1.4.4 Constraste" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil 4 "1.1.4.4" "\\subsubsection{Constraste}" 11589)
 
-(toc "toc" "      8.2.3 Efficacité de classification" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil 3 "8.2.3" "\\subsection{Efficacité de classification}" 684)
+("eq:contrast" "e" "c_{r} = \\frac{S_{r}}{S_{r}+B_{r}} " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil)
 
-("ssec:xxx" "s" " " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" 728)
+("eq:rapportSB" "e" "c_{r} = \\frac{R}{1+R} " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil)
+
+("eq:SNR" "e" "SNR_{r} \\triangleq \\frac{S_{r}}{\\sqrt{\\sigma_{S_{r}}^{2}+\\sigma_{B_{r}}^{2}}}\\approx \\frac{S_{r}}{\\s" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil)
+
+("eq:12" "e" " " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil)
+
+(toc "toc" "      1.1.5 Création des cubes de simulation" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil 3 "1.1.5" "\\subsection{Création des cubes de simulation}" 14414)
+
+("fig:examplesimu" "f" "Examples de cubes de simulation." "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil)
+
+("fig:corr_SNR_contrast" "f" " " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil)
+
+(toc "toc" "    1.2 Résultats et précision" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil 2 "1.2" "\\section{Résultats et précision}" 18593)
+
+("sec:simuresult" "s" "Après avoir généré nos cubes de simulation, nous avons fait tourner \\hypergal\\ suivant 2 méthodes: l" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil)
+
+(toc "toc" "      1.2.1 Précision spectrophotométrique" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil 3 "1.2.1" "\\subsection{Précision spectrophotométrique}" 22014)
+
+("ssec:xxx" "s" "\\begin{figure}[ht] \\centering \\makebox[\\textwidth][c]{\\includegraphics[width=1.\\textwidth]{../figure" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" 20440)
+
+("fig:simu_rms_snr_spectrophoto" "f" " " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil)
+
+("fig:simu_rms_dist_spectrophoto" "f" " " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil)
+
+(toc "toc" "      1.2.2 Précision avec correction de continuum" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil 3 "1.2.2" "\\subsection{Précision avec correction de continuum}" 28880)
+
+("ssec:xxx" "s" "\\begin{figure}[ht] \\centering \\makebox[\\textwidth][c]{\\includegraphics[width=1.2\\textwidth]{../figur" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" 20948)
+
+("fig:continuumcorrection_ex" "f" " " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil)
+
+("fig:simu_rms_snr_continuum_divided" "f" " " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil)
+
+("fig:simu_rms_dist_continuum_divided" "f" " " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil)
+
+(toc "toc" "      1.2.3 Efficacité de classification" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil 3 "1.2.3" "\\subsection{Efficacité de classification}" 35319)
+
+("ssec:xxx" "s" "\\begin{figure}[ht] \\centering \\makebox[\\textwidth][c]{\\includegraphics[width=1.2\\textwidth]{../figur" "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" 21676)
+
+("fig:typingimprove_snr" "f" " " "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex" nil)
 
 (eof "/Users/lezmy/These_projects/PHD_LEZMY/chapters/08_simu.tex")
 

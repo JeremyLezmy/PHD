@@ -12,4 +12,7 @@
 \contentsline {subsection}{\numberline {7.2.1}Extraction de la galaxie hôte}{11}{subsection.7.2.1}%
 \contentsline {subsection}{\numberline {7.2.2}Extraction de la Supernova}{14}{subsection.7.2.2}%
 \contentsline {section}{\numberline {7.3}Classification: \textsc {\texttt {SNID}}}{18}{section.7.3}%
-\contentsline {section}{\numberline {7.4}Cas complexes}{18}{section.7.4}%
+\contentsline {section}{\numberline {7.4}Cas complexes}{19}{section.7.4}%
+\contentsline {subsection}{\numberline {7.4.1}ZTF19acbjlnt}{19}{subsection.7.4.1}%
+\contentsline {subsection}{\numberline {7.4.2}ZTF19abormno}{21}{subsection.7.4.2}%
+\contentsline {subsection}{\numberline {7.4.3}ZTF20ablhlio}{22}{subsection.7.4.3}%

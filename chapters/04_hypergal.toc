@@ -1,5 +1,5 @@
 \babel@toc {french}{}
-\contentsline {chapter}{\numberline {4}\textsc {\texttt {HyperGal}} : Modéliseur de scène pour l'extraction de sources ponctuelles}{1}{chapter.4}%
+\contentsline {chapter}{\numberline {4}\textsc {\texttt {HyperGal}}\relax : Modéliseur de scène pour l'extraction de sources ponctuelles}{1}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Idée générale}{2}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Problématique}{2}{subsection.4.1.1}%
 \contentsline {subsection}{\numberline {4.1.2}La composante galactique}{2}{subsection.4.1.2}%

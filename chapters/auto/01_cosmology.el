@@ -3,6 +3,17 @@
  (lambda ()
    (TeX-add-to-alist 'LaTeX-provided-class-options
                      '(("subfiles" "../main/main.tex")))
+   (add-to-list 'LaTeX-verbatim-environments-local "lstlisting")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "lstinline")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "href")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperref")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperimage")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperbaseurl")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "nolinkurl")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "path")
+   (add-to-list 'LaTeX-verbatim-macros-with-delims-local "lstinline")
+   (add-to-list 'LaTeX-verbatim-macros-with-delims-local "path")
    (TeX-run-style-hooks
     "latex2e"
     "subfiles"
@@ -10,17 +21,44 @@
    (LaTeX-add-labels
     "cp:cosmo"
     "sec:11"
-    "ssec:RG"
-    "ssec:112"
-    "ssec:lambda"
-    "sec:MS"
-    "ssec:plat"
+    "eq:generalrelativity"
+    "eq:tenseurspacetime"
+    "eq:einsteinconstante"
+    "eq:einsteinreduce"
+    "eq:einsteinlambda"
+    "fig:homogenesdss"
+    "fig:cmb"
     "ssec:FLRW"
+    "eq:FLRW"
+    "eq:FLRW2"
+    "eq:Tmunu"
+    "eq:Tmunusimple"
+    "eq:redshift"
+    "eq:geodesiquephoton"
+    "eq:zcosmo"
+    "eq:22"
+    "eq:hubble"
+    "eq:hubbleconstante"
+    "fig:hubble"
+    "eq:Friedmann1"
+    "eq:Friedmann2"
+    "eq:conservationdensity"
+    "eq:30"
+    "eq:31"
+    "eq:rhoevol"
+    "eq:33"
+    "eq:friedmannOmega"
+    "eq:friedmannZ"
     "ssec:LCDM"
-    "sec:dist"
-    "ssec:age"
-    "ssec:dl"
-    "ssec:teltosn"
+    "fig:baopeak"
+    "eq:bao"
+    "fig:omegamomegal"
+    "fig:omegakomegam"
+    "fig:flatcontrainte"
+    "eq:wCPL"
+    "fig:womegam"
+    "fig:w0wa"
+    "fig:darkenergy"
     "sec:snia"
     "ssec:class"))
  :latex)

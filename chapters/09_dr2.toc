@@ -5,10 +5,7 @@
 \contentsline {subsection}{\numberline {9.2.1}Classification spectrale}{3}{subsection.9.2.1}%
 \contentsline {subsection}{\numberline {9.2.2}\textit {Golden sample}}{4}{subsection.9.2.2}%
 \contentsline {subsection}{\numberline {9.2.3}Redshift et profondeur}{5}{subsection.9.2.3}%
-\contentsline {subsection}{\numberline {9.2.4}Courbes de lumière}{8}{subsection.9.2.4}%
-\contentsline {subsubsection}{\numberline {9.2.4.1}Phases}{8}{subsubsection.9.2.4.1}%
-\contentsline {subsubsection}{\numberline {9.2.4.2}\textit {Stretch} ($x_{1}$) et couleur ($c$)}{9}{subsubsection.9.2.4.2}%
-\contentsline {section}{\numberline {9.3}Vers la cosmologie}{13}{section.9.3}%
-\contentsline {subsection}{\numberline {9.3.1}Taux d'expansion ($H_{0}$)}{13}{subsection.9.3.1}%
-\contentsline {subsection}{\numberline {9.3.2}\'Equation d'état de l'énergie sombre ($w$)}{13}{subsection.9.3.2}%
-\contentsline {subsection}{\numberline {9.3.3}Taux d'accroissement des structures ($f\sigma _{8}$)}{13}{subsection.9.3.3}%
+\contentsline {subsection}{\numberline {9.2.4}Courbes de lumière}{9}{subsection.9.2.4}%
+\contentsline {subsubsection}{\numberline {9.2.4.1}Phases}{9}{subsubsection.9.2.4.1}%
+\contentsline {subsubsection}{\numberline {9.2.4.2}\textit {Stretch} ($x_{1}$) et couleur ($c$)}{11}{subsubsection.9.2.4.2}%
+\contentsline {section}{\numberline {9.3}Conclusion}{15}{section.9.3}%

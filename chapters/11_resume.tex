@@ -4,5 +4,59 @@
 
 \chapter*{Résumé}
 \label{chap:resume}
+\vspace{2cm}
+Il y a près de deux décennies, les distances mesurées à partir des
+supernovae de type Ia (SNeIa) ont été utilisées pour découvrir
+l’accélération de l’expansion de l’Univers. Alors que ce phénomène est
+désormais communément admis, la compréhension de ses causes demeure
+inconnue et nécessite des mesures précises et non biaisées.
+Les supernovae (SNe) sont réparties en plusieurs catégories discernables
+par leurs propriétés spectrales, et de tous les types de SN, seules les
+SNeIa sont utilisées comme sonde cosmologique de par leurs propriétés de
+chandelles standardisables.
+Avec différents types de SNe possédant des luminosités intrinsèques
+différentes, tout objet mal classifié peut induire des biais dans la
+dérivation des paramètres cosmologiques.
+
+Actuellement la classification spectrale n'est possible que lorsque la SN est suffisamment
+isolée de sa galaxie hôte, mais plus l'évènement survient proche du cœur
+de la galaxie plus la contamination spectrale s'intensifie et cette analyse
+devient difficile voire impossible.
+
+Cette thèse de doctorat a été effectuée à l’Institut de Physique des 2
+Infinis de Lyon (IP2I Lyon) dans le cadre du relevé cosmologique grand champ \textit{Zwicky
+Transient Facility} (ZTF), avec l'utilisation d’un spectrographe 3D
+basse résolution: la \textit{Spectral Energy Distribution machine}
+(SEDm). L’objectif de ce travail de recherche est de répondre à la
+problématique de la classification des SNe dans le cas de
+contamination spectrale importante par la galaxie hôte. 
+
+Je présente dans ce manuscrit une nouvelle
+méthode de décontamination sous la forme d'un outil de modélisation de
+scène, \hypergal, permettant d'extraire le spectre de supernovae jusqu'alors
+inexploitables. Le cœur de ce pipeline repose sur l’utilisation de
+données photométriques de la galaxie hôte, prises en amont de
+l’explosion de la SNIa. En utilisant les connaissances de la physique
+des galaxies, nous modélisons à l’échelle locale les propriétés
+spectrales de l'hôte afin de créer un cube 3D modèle de la galaxie
+isolée. En convoluant ce modèle par la réponse impulsionnelle de la
+SEDm, nous effectuons une projection de cette modélisation
+hyperspectrale dans l'espace des observations. Modélisant par la suite
+la SN par une source ponctuelle chromatique, et ajustant simultanément la
+galaxie et la supernova aux observations, nous avons créé un pipeline
+modéliseur de scène pouvant extraire le spectre de la SN dans un
+environnement hautement contaminé. Cet outil est par la suite validé sur un
+échantillon simulé de SNe tirées de données observées.
+
+J’expose à la fin de ce manuscrit les résultats scientifiques
+préliminaires de la seconde \textit{data release} (DR2) du groupe \textit{Type Ia
+Supernovae $\&$ Cosmology} de ZTF, composée de $\sim3000$ SNeIa et dont la vaste majorité ont
+été classifiées avec cette nouvelle méthode d’extraction.
+
 
 \end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:

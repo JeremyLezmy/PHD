@@ -4,16 +4,16 @@
    (TeX-add-to-alist 'LaTeX-provided-package-options
                      '(("natbib" "authoryear") ("inputenc" "utf8") ("fontenc" "T1") ("babel" "french") ("geometry" "margin=2.5cm" "top=3cm" "bottom=3cm") ("enumitem" "shortlabels") ("sidecap" "rightcaption") ("hyperref" "pdftex" "linktoc=page" "backref=section" "colorlinks=true" "pdfstartview=FitV" "linkcolor=blue" "citecolor=blue" "urlcolor=blue" "hyperindex=true" "hyperfigures=false") ("xcolor" "svgnames" "dvipsnames" "table") ("footmisc" "perpage" "multiple")))
    (add-to-list 'LaTeX-verbatim-environments-local "lstlisting")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "path")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "nolinkurl")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperbaseurl")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperimage")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperref")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "href")
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "lstinline")
-   (add-to-list 'LaTeX-verbatim-macros-with-delims-local "path")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "href")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperref")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperimage")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperbaseurl")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "nolinkurl")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "path")
    (add-to-list 'LaTeX-verbatim-macros-with-delims-local "lstinline")
+   (add-to-list 'LaTeX-verbatim-macros-with-delims-local "path")
    (TeX-run-style-hooks
     "natbib"
     "inputenc"
@@ -91,6 +91,7 @@
     "araa"
     "prl"
     "jrasc"
+    "jcap"
     "nat"
     "aapr"
     "pasa"

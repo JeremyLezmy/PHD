@@ -965,7 +965,7 @@ Figure~\ref{fig:stdspectrumadu} est donc déjà corrigé de cette composante.
 L'absorption tellurique est re-paramétrisé de sorte que $\mathcal{T} =
 1-\mathcal{E}_{tell}$, avec $\mathcal{E}_{tell}$ le débit tellurique, ce qui nous donne finalement:
 \begin{equation*} 
-  S_{ADU}(\lambda,t,z) = \frac{S(\lambda,t,z)}{\mathcal{C}_{atm}(\lambda,t,z)}=S^{\star}(\lambda,t)\times\mathcal{C}_{inst}(\lambda,t)\times\left(1-\mathcal{E}_{tell}(\lambda,t,z)\right)
+  S_{pADU}(\lambda,t,z) = \frac{S(\lambda,t,z)}{\mathcal{C}_{atm}(\lambda,t,z)}=S^{\star}(\lambda,t)\times\mathcal{C}_{inst}(\lambda,t)\times\left(1-\mathcal{E}_{tell}(\lambda,t,z)\right)
 \end{equation*}
 
 On utilise comme référence le spectre spectrophotométrique
@@ -1005,7 +1005,7 @@ d'ordre $20$.
 
 Les composantes de réponse instrumentale $\mathcal{C}_{inst}$ et
 d'absorption telluriques $\mathcal{T}$ sont alors simultanément
-ajustées en minimisant la quantité ~$(S_{ADU}/S_{ref}) - \mathcal{C}_{inst}(1-
+ajustées en minimisant la quantité ~$(S_{pADU}/S_{ref}) - \mathcal{C}_{inst}(1-
 \mathcal{E}_{tell})$, où la quantité $\mathcal{C}_{inst}(1-
 \mathcal{E}_{tell})$ est appelée la courbe de
 sensibilité.
@@ -1043,7 +1043,7 @@ exacerbé par l'intensité de la raie d'O$_{2}$ à $\sim7600$\AA.
       bas} nous montrons le résultat de l'ajustement du modèle composé
     de la réponse instrumentale (en rouge) et de l'absorption tellurique
   (en gris). Les données sur lesquelles l'ajustement est effectuée, le
-  ratio $\frac{S_{ADU}}{S_{ref}}$, est en bleu.}
+  ratio $\frac{S_{pADU}}{S_{ref}}$, est en bleu.}
   \label{fig:calibmodel}
 \end{figure}
 
@@ -1158,8 +1158,8 @@ intervalles spectraux considérés, le RMS spectral n'excède pas les $4\%$.
   spectral entier de la SEDm, en \emph{orange} l'intervalle
   $\lambda\in$[$4500$-$8500$]\AA, et en \emph{vert} l'intervalle
   $\lambda\in$[$5000$-$8000$]\AA. Les box de la figure du bas montre
-  pour chaque distribution le minimum, le $1^{er}$ quartile ($25\%$ des
-  valeurs), la médiane, le $3^{ème}$ quartile ($75\%$ des
+  pour chaque distribution le minimum, le $1^{\text{er}}$ quartile ($25\%$ des
+  valeurs), la médiane, le $3^{\text{ème}}$ quartile ($75\%$ des
   valeurs) et le maximum.}
   \label{fig:rms_allstd}
 \end{figure}
@@ -1192,7 +1192,7 @@ intervalles spectraux considérés, le RMS spectral n'excède pas les $4\%$.
   \end{threeparttable}
 \end{table}
 
-  
+
 
 %\bibliographystyle{../main/aa_url2}
 %\bibliography{99_references}

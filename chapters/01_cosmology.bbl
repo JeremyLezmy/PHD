@@ -1,0 +1,354 @@
+\begin{thebibliography}{21}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{\textsc{{Betoule}} {et~al.}(2014)\textsc{{Betoule}},
+  \textsc{{Kessler}}, \textsc{{Guy}}, \textsc{{Mosher}}, \textsc{{Hardin}},
+  \textsc{{Biswas}}, \textsc{{Astier}}, \textsc{{El-Hage}}, \textsc{{Konig}},
+  \textsc{{Kuhlmann}}, \textsc{{Marriner}}, \textsc{{Pain}},
+  \textsc{{Regnault}}, \textsc{{Balland}}, \textsc{{Bassett}},
+  \textsc{{Brown}}, \textsc{{Campbell}}, \textsc{{Carlberg}},
+  \textsc{{Cellier-Holzem}}, \textsc{{Cinabro}}, \textsc{{Conley}},
+  \textsc{{D'Andrea}}, \textsc{{DePoy}}, \textsc{{Doi}}, \textsc{{Ellis}},
+  \textsc{{Fabbro}}, \textsc{{Filippenko}}, \textsc{{Foley}},
+  \textsc{{Frieman}}, \textsc{{Fouchez}}, \textsc{{Galbany}},
+  \textsc{{Goobar}}, \textsc{{Gupta}}, \textsc{{Hill}}, \textsc{{Hlozek}},
+  \textsc{{Hogan}}, \textsc{{Hook}}, \textsc{{Howell}}, \textsc{{Jha}},
+  \textsc{{Le Guillou}}, \textsc{{Leloudas}}, \textsc{{Lidman}},
+  \textsc{{Marshall}}, \textsc{{M{\"o}ller}}, \textsc{{Mour{\~a}o}},
+  \textsc{{Neveu}}, \textsc{{Nichol}}, \textsc{{Olmstead}},
+  \textsc{{Palanque-Delabrouille}}, \textsc{{Perlmutter}}, \textsc{{Prieto}},
+  \textsc{{Pritchet}}, \textsc{{Richmond}}, \textsc{{Riess}},
+  \textsc{{Ruhlmann-Kleider}}, \textsc{{Sako}}, \textsc{{Schahmaneche}},
+  \textsc{{Schneider}}, \textsc{{Smith}}, \textsc{{Sollerman}},
+  \textsc{{Sullivan}}, \textsc{{Walton}} et \textsc{{Wheeler}}}]{Betoule2014}
+\textsc{{Betoule} M.}, \textsc{{Kessler} R.}, \textsc{{Guy} J.} {et~al.} 2014,
+  «~{Improved cosmological constraints from a joint analysis of the SDSS-II
+  and SNLS supernova samples}~»,
+  \href{http://dx.doi.org/10.1051/0004-6361/201423413}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2014A&A...568A..22B}{568, A22}
+
+\bibitem[{\textsc{{Chevallier}} et \textsc{{Polarski}}(2001)}]{CPL2001}
+\textsc{{Chevallier} M.} et \textsc{{Polarski} D.} 2001, «~{Accelerating
+  Universes with Scaling Dark Matter}~»,
+  \href{http://dx.doi.org/10.1142/S0218271801000822}{\color{magenta}International
+  Journal of Modern Physics D},
+  \href{https://ui.adsabs.harvard.edu/abs/2001IJMPD..10..213C}{10, 213}
+
+\bibitem[{\textsc{{Einstein}}(1915{\natexlab{a}})}]{Einstein1915c}
+\textsc{{Einstein} A.} 1915{\natexlab{a}}, «~{Die Feldgleichungen der
+  Gravitation}~»,
+  \href{https://ui.adsabs.harvard.edu/abs/1915SPAW.......844E}{Sitzungsberichte
+  der Königlich Preu\ss ischen Akademie der Wissenschaften (Berlin), 844}
+
+\bibitem[{\textsc{{Einstein}}(1915{\natexlab{b}})}]{Einstein1915a}
+\textsc{{Einstein} A.} 1915{\natexlab{b}}, «~{Zur allgemeinen
+  Relativitätstheorie}~»,
+  \href{https://ui.adsabs.harvard.edu/abs/1915SPAW.......778E}{Sitzungsberichte
+  der Königlich Preu\ss ischen Akademie der Wissenschaften (Berlin), 778}
+
+\bibitem[{\textsc{{Einstein}}(1915{\natexlab{c}})}]{Einstein1915b}
+\textsc{{Einstein} A.} 1915{\natexlab{c}}, «~{Zur allgemeinen
+  Relativitätstheorie (Nachtrag)}~»,
+  \href{https://ui.adsabs.harvard.edu/abs/1915SPAW.......799E}{Sitzungsberichte
+  der Königlich Preu\ss ischen Akademie der Wissenschaften (Berlin), 799}
+
+\bibitem[{\textsc{{Eisenstein}} {et~al.}(2005)\textsc{{Eisenstein}},
+  \textsc{{Zehavi}}, \textsc{{Hogg}}, \textsc{{Scoccimarro}},
+  \textsc{{Blanton}}, \textsc{{Nichol}}, \textsc{{Scranton}}, \textsc{{Seo}},
+  \textsc{{Tegmark}}, \textsc{{Zheng}}, \textsc{{Anderson}}, \textsc{{Annis}},
+  \textsc{{Bahcall}}, \textsc{{Brinkmann}}, \textsc{{Burles}},
+  \textsc{{Castander}}, \textsc{{Connolly}}, \textsc{{Csabai}}, \textsc{{Doi}},
+  \textsc{{Fukugita}}, \textsc{{Frieman}}, \textsc{{Glazebrook}},
+  \textsc{{Gunn}}, \textsc{{Hendry}}, \textsc{{Hennessy}},
+  \textsc{{Ivezi{\'c}}}, \textsc{{Kent}}, \textsc{{Knapp}}, \textsc{{Lin}},
+  \textsc{{Loh}}, \textsc{{Lupton}}, \textsc{{Margon}}, \textsc{{McKay}},
+  \textsc{{Meiksin}}, \textsc{{Munn}}, \textsc{{Pope}}, \textsc{{Richmond}},
+  \textsc{{Schlegel}}, \textsc{{Schneider}}, \textsc{{Shimasaku}},
+  \textsc{{Stoughton}}, \textsc{{Strauss}}, \textsc{{SubbaRao}},
+  \textsc{{Szalay}}, \textsc{{Szapudi}}, \textsc{{Tucker}}, \textsc{{Yanny}} et
+  \textsc{{York}}}]{Eisenstein}
+\textsc{{Eisenstein} D.~J.}, \textsc{{Zehavi} I.}, \textsc{{Hogg} D.~W.}
+  {et~al.} 2005, «~{Detection of the Baryon Acoustic Peak in the Large-Scale
+  Correlation Function of SDSS Luminous Red Galaxies}~»,
+  \href{http://dx.doi.org/10.1086/466512}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2005ApJ...633..560E}{633, 560}
+
+\bibitem[{\textsc{{Friedmann}}(1922)}]{Friedmann1922}
+\textsc{{Friedmann} A.} 1922, «~{Über die Krümmung des Raumes}~»,
+  \href{http://dx.doi.org/10.1007/BF01332580}{\color{magenta}Zeitschrift fur
+  Physik}, \href{https://ui.adsabs.harvard.edu/abs/1922ZPhy...10..377F}{10,
+  377}
+
+\bibitem[{\textsc{{Hubble}}(1929)}]{Hubble1929}
+\textsc{{Hubble} E.} 1929, «~{A Relation between Distance and Radial Velocity
+  among Extra-Galactic Nebulae}~»,
+  \href{http://dx.doi.org/10.1073/pnas.15.3.168}{\color{magenta}Proceedings of
+  the National Academy of Science},
+  \href{https://ui.adsabs.harvard.edu/abs/1929PNAS...15..168H}{15, 168}
+
+\bibitem[{\textsc{{Laurent}} {et~al.}(2016)\textsc{{Laurent}}, \textsc{{Le
+  Goff}}, \textsc{{Burtin}}, \textsc{{Hamilton}}, \textsc{{Hogg}},
+  \textsc{{Myers}}, \textsc{{Ntelis}}, \textsc{{Pâris}}, \textsc{{Rich}},
+  \textsc{{Aubourg}}, \textsc{{Bautista}}, \textsc{{Delubac}}, \textsc{{du Mas
+  des Bourboux}}, \textsc{{Eftekharzadeh}}, \textsc{{Palanque Delabrouille}},
+  \textsc{{Petitjean}}, \textsc{{Rossi}}, \textsc{{Schneider}} et
+  \textsc{{Yeche}}}]{Laurent2016}
+\textsc{{Laurent} P.}, \textsc{{Le Goff} J.-M.}, \textsc{{Burtin} E.} {et~al.}
+  2016, «~{A 14 h$^{-3}$ Gpc$^{3}$ study of cosmic homogeneity using BOSS DR12
+  quasar sample}~»,
+  \href{http://dx.doi.org/10.1088/1475-7516/2016/11/060}{\color{magenta}\jcap},
+  \href{https://ui.adsabs.harvard.edu/abs/2016JCAP...11..060L}{2016, 060}
+
+\bibitem[{\textsc{{Lemaître}}(1927)}]{Lemaitre1927}
+\textsc{{Lemaître} G.} 1927, «~{Un Univers homog\`ene de masse constante et
+  de rayon croissant rendant compte de la vitesse radiale des n\'ebuleuses
+  extra-galactiques}~», Annales de la Société Scientifique de Bruxelles,
+  \href{https://ui.adsabs.harvard.edu/abs/1927ASSB...47...49L}{47, 49}
+
+\bibitem[{\textsc{{Lemaître}}(1933)}]{Lemaitre1933}
+\textsc{{Lemaître} G.} 1933, «~{L'Univers en expansion}~», Annales de la
+  Société; Scientifique de Bruxelles,
+  \href{https://ui.adsabs.harvard.edu/abs/1933ASSB...53...51L}{53, 51}
+
+\bibitem[{\textsc{{Linder}}(2003)}]{Linder2003}
+\textsc{{Linder} E.~V.} 2003, «~{Exploring the Expansion History of the
+  Universe}~»,
+  \href{http://dx.doi.org/10.1103/PhysRevLett.90.091301}{\color{magenta}\prl},
+  \href{https://ui.adsabs.harvard.edu/abs/2003PhRvL..90i1301L}{90, 091301}
+
+\bibitem[{\textsc{{Penzias}} et \textsc{{Wilson}}(1965)}]{Penzias1965}
+\textsc{{Penzias} A.~A.} et \textsc{{Wilson} R.~W.} 1965, «~{A Measurement of
+  Excess Antenna Temperature at 4080 Mc/s.}~»,
+  \href{http://dx.doi.org/10.1086/148307}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/1965ApJ...142..419P}{142, 419}
+
+\bibitem[{\textsc{{Perlmutter}} {et~al.}(1999)\textsc{{Perlmutter}},
+  \textsc{{Aldering}}, \textsc{{Goldhaber}}, \textsc{{Knop}},
+  \textsc{{Nugent}}, \textsc{{Castro}}, \textsc{{Deustua}}, \textsc{{Fabbro}},
+  \textsc{{Goobar}}, \textsc{{Groom}}, \textsc{{Hook}}, \textsc{{Kim}},
+  \textsc{{Kim}}, \textsc{{Lee}}, \textsc{{Nunes}}, \textsc{{Pain}},
+  \textsc{{Pennypacker}}, \textsc{{Quimby}}, \textsc{{Lidman}},
+  \textsc{{Ellis}}, \textsc{{Irwin}}, \textsc{{McMahon}},
+  \textsc{{Ruiz-Lapuente}}, \textsc{{Walton}}, \textsc{{Schaefer}},
+  \textsc{{Boyle}}, \textsc{{Filippenko}}, \textsc{{Matheson}},
+  \textsc{{Fruchter}}, \textsc{{Panagia}}, \textsc{{Newberg}}, \textsc{{Couch}}
+  et \textsc{{Project}}}]{Perlmutter1999}
+\textsc{{Perlmutter} S.}, \textsc{{Aldering} G.}, \textsc{{Goldhaber} G.}
+  {et~al.} 1999, «~{Measurements of {\ensuremath{\Omega}} and
+  {\ensuremath{\Lambda}} from 42 High-Redshift Supernovae}~»,
+  \href{http://dx.doi.org/10.1086/307221}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/1999ApJ...517..565P}{517, 565}
+
+\bibitem[{\textsc{{Planck Collaboration}}
+  {et~al.}(2020{\natexlab{a}})\textsc{{Planck Collaboration}},
+  \textsc{{Aghanim}}, \textsc{{Akrami}}, \textsc{{Ashdown}}, \textsc{{Aumont}},
+  \textsc{{Baccigalupi}}, \textsc{{Ballardini}}, \textsc{{Banday}},
+  \textsc{{Barreiro}}, \textsc{{Bartolo}}, \textsc{{Basak}}, \textsc{{Battye}},
+  \textsc{{Benabed}}, \textsc{{Bernard}}, \textsc{{Bersanelli}},
+  \textsc{{Bielewicz}}, \textsc{{Bock}}, \textsc{{Bond}}, \textsc{{Borrill}},
+  \textsc{{Bouchet}}, \textsc{{Boulanger}}, \textsc{{Bucher}},
+  \textsc{{Burigana}}, \textsc{{Butler}}, \textsc{{Calabrese}},
+  \textsc{{Cardoso}}, \textsc{{Carron}}, \textsc{{Challinor}},
+  \textsc{{Chiang}}, \textsc{{Chluba}}, \textsc{{Colombo}}, \textsc{{Combet}},
+  \textsc{{Contreras}}, \textsc{{Crill}}, \textsc{{Cuttaia}}, \textsc{{de
+  Bernardis}}, \textsc{{de Zotti}}, \textsc{{Delabrouille}},
+  \textsc{{Delouis}}, \textsc{{Di Valentino}}, \textsc{{Diego}},
+  \textsc{{Dor{\'e}}}, \textsc{{Douspis}}, \textsc{{Ducout}}, \textsc{{Dupac}},
+  \textsc{{Dusini}}, \textsc{{Efstathiou}}, \textsc{{Elsner}},
+  \textsc{{En{\ss}lin}}, \textsc{{Eriksen}}, \textsc{{Fantaye}},
+  \textsc{{Farhang}}, \textsc{{Fergusson}}, \textsc{{Fernandez-Cobos}},
+  \textsc{{Finelli}}, \textsc{{Forastieri}}, \textsc{{Frailis}},
+  \textsc{{Fraisse}}, \textsc{{Franceschi}}, \textsc{{Frolov}},
+  \textsc{{Galeotta}}, \textsc{{Galli}}, \textsc{{Ganga}},
+  \textsc{{G{\'e}nova-Santos}}, \textsc{{Gerbino}}, \textsc{{Ghosh}},
+  \textsc{{Gonz{\'a}lez-Nuevo}}, \textsc{{G{\'o}rski}}, \textsc{{Gratton}},
+  \textsc{{Gruppuso}}, \textsc{{Gudmundsson}}, \textsc{{Hamann}},
+  \textsc{{Handley}}, \textsc{{Hansen}}, \textsc{{Herranz}},
+  \textsc{{Hildebrandt}}, \textsc{{Hivon}}, \textsc{{Huang}}, \textsc{{Jaffe}},
+  \textsc{{Jones}}, \textsc{{Karakci}}, \textsc{{Keih{\"a}nen}},
+  \textsc{{Keskitalo}}, \textsc{{Kiiveri}}, \textsc{{Kim}}, \textsc{{Kisner}},
+  \textsc{{Knox}}, \textsc{{Krachmalnicoff}}, \textsc{{Kunz}},
+  \textsc{{Kurki-Suonio}}, \textsc{{Lagache}}, \textsc{{Lamarre}},
+  \textsc{{Lasenby}}, \textsc{{Lattanzi}}, \textsc{{Lawrence}}, \textsc{{Le
+  Jeune}}, \textsc{{Lemos}}, \textsc{{Lesgourgues}}, \textsc{{Levrier}},
+  \textsc{{Lewis}}, \textsc{{Liguori}}, \textsc{{Lilje}}, \textsc{{Lilley}},
+  \textsc{{Lindholm}}, \textsc{{L{\'o}pez-Caniego}}, \textsc{{Lubin}},
+  \textsc{{Ma}}, \textsc{{Mac{\'\i}as-P{\'e}rez}}, \textsc{{Maggio}},
+  \textsc{{Maino}}, \textsc{{Mandolesi}}, \textsc{{Mangilli}},
+  \textsc{{Marcos-Caballero}}, \textsc{{Maris}}, \textsc{{Martin}},
+  \textsc{{Martinelli}}, \textsc{{Mart{\'\i}nez-Gonz{\'a}lez}},
+  \textsc{{Matarrese}}, \textsc{{Mauri}}, \textsc{{McEwen}},
+  \textsc{{Meinhold}}, \textsc{{Melchiorri}}, \textsc{{Mennella}},
+  \textsc{{Migliaccio}}, \textsc{{Millea}}, \textsc{{Mitra}},
+  \textsc{{Miville-Desch{\^e}nes}}, \textsc{{Molinari}}, \textsc{{Montier}},
+  \textsc{{Morgante}}, \textsc{{Moss}}, \textsc{{Natoli}},
+  \textsc{{N{\o}rgaard-Nielsen}}, \textsc{{Pagano}}, \textsc{{Paoletti}},
+  \textsc{{Partridge}}, \textsc{{Patanchon}}, \textsc{{Peiris}},
+  \textsc{{Perrotta}}, \textsc{{Pettorino}}, \textsc{{Piacentini}},
+  \textsc{{Polastri}}, \textsc{{Polenta}}, \textsc{{Puget}}, \textsc{{Rachen}},
+  \textsc{{Reinecke}}, \textsc{{Remazeilles}}, \textsc{{Renzi}},
+  \textsc{{Rocha}}, \textsc{{Rosset}}, \textsc{{Roudier}},
+  \textsc{{Rubi{\~n}o-Mart{\'\i}n}}, \textsc{{Ruiz-Granados}},
+  \textsc{{Salvati}}, \textsc{{Sandri}}, \textsc{{Savelainen}},
+  \textsc{{Scott}}, \textsc{{Shellard}}, \textsc{{Sirignano}},
+  \textsc{{Sirri}}, \textsc{{Spencer}}, \textsc{{Sunyaev}},
+  \textsc{{Suur-Uski}}, \textsc{{Tauber}}, \textsc{{Tavagnacco}},
+  \textsc{{Tenti}}, \textsc{{Toffolatti}}, \textsc{{Tomasi}},
+  \textsc{{Trombetti}}, \textsc{{Valenziano}}, \textsc{{Valiviita}},
+  \textsc{{Van Tent}}, \textsc{{Vibert}}, \textsc{{Vielva}}, \textsc{{Villa}},
+  \textsc{{Vittorio}}, \textsc{{Wandelt}}, \textsc{{Wehus}}, \textsc{{White}},
+  \textsc{{White}}, \textsc{{Zacchei}} et \textsc{{Zonca}}}]{Planckparams2018}
+\textsc{{Planck Collaboration}}, \textsc{{Aghanim} N.}, \textsc{{Akrami} Y.}
+  {et~al.} 2020{\natexlab{a}}, «~{Planck 2018 results. VI. Cosmological
+  parameters}~»,
+  \href{http://dx.doi.org/10.1051/0004-6361/201833910}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2020A&A...641A...6P}{641, A6}
+
+\bibitem[{\textsc{{Planck Collaboration}}
+  {et~al.}(2020{\natexlab{b}})\textsc{{Planck Collaboration}},
+  \textsc{{Akrami}}, \textsc{{Ashdown}}, \textsc{{Aumont}},
+  \textsc{{Baccigalupi}}, \textsc{{Ballardini}}, \textsc{{Banday}},
+  \textsc{{Barreiro}}, \textsc{{Bartolo}}, \textsc{{Basak}},
+  \textsc{{Benabed}}, \textsc{{Bersanelli}}, \textsc{{Bielewicz}},
+  \textsc{{Bock}}, \textsc{{Bond}}, \textsc{{Borrill}}, \textsc{{Bouchet}},
+  \textsc{{Boulanger}}, \textsc{{Bucher}}, \textsc{{Burigana}},
+  \textsc{{Butler}}, \textsc{{Calabrese}}, \textsc{{Cardoso}},
+  \textsc{{Casaponsa}}, \textsc{{Chiang}}, \textsc{{Colombo}},
+  \textsc{{Combet}}, \textsc{{Contreras}}, \textsc{{Crill}}, \textsc{{de
+  Bernardis}}, \textsc{{de Zotti}}, \textsc{{Delabrouille}},
+  \textsc{{Delouis}}, \textsc{{Di Valentino}}, \textsc{{Diego}},
+  \textsc{{Dor\'e}}, \textsc{{Douspis}}, \textsc{{Ducout}}, \textsc{{Dupac}},
+  \textsc{{Efstathiou}}, \textsc{{Elsner}}, \textsc{{En\ss lin}},
+  \textsc{{Eriksen}}, \textsc{{Fantaye}}, \textsc{{Fernandez-Cobos}},
+  \textsc{{Finelli}}, \textsc{{Frailis}}, \textsc{{Fraisse}},
+  \textsc{{Franceschi}}, \textsc{{Frolov}}, \textsc{{Galeotta}},
+  \textsc{{Galli}}, \textsc{{Ganga}}, \textsc{{G\'enova-Santos}},
+  \textsc{{Gerbino}}, \textsc{{Ghosh}}, \textsc{{Gonz\'alez-Nuevo}},
+  \textsc{{G\'orski}}, \textsc{{Gruppuso}}, \textsc{{Gudmundsson}},
+  \textsc{{Hamann}}, \textsc{{Handley}}, \textsc{{Hansen}}, \textsc{{Herranz}},
+  \textsc{{Hivon}}, \textsc{{Huang}}, \textsc{{Jaffe}}, \textsc{{Jones}},
+  \textsc{{Keih\"anen}}, \textsc{{Keskitalo}}, \textsc{{Kiiveri}},
+  \textsc{{Kim}}, \textsc{{Krachmalnicoff}}, \textsc{{Kunz}},
+  \textsc{{Kurki-Suonio}}, \textsc{{Lagache}}, \textsc{{Lamarre}},
+  \textsc{{Lasenby}}, \textsc{{Lattanzi}}, \textsc{{Lawrence}}, \textsc{{Le
+  Jeune}}, \textsc{{Levrier}}, \textsc{{Liguori}}, \textsc{{Lilje}},
+  \textsc{{Lindholm}}, \textsc{{L\'opez-Caniego}}, \textsc{{Ma}},
+  \textsc{{Mac\'ias-P\'erez}}, \textsc{{Maggio}}, \textsc{{Maino}},
+  \textsc{{Mandolesi}}, \textsc{{Mangilli}}, \textsc{{Marcos-Caballero}},
+  \textsc{{Maris}}, \textsc{{Martin}}, \textsc{{Martinez-Gonz\'alez}},
+  \textsc{{Matarrese}}, \textsc{{Mauri}}, \textsc{{McEwen}},
+  \textsc{{Meinhold}}, \textsc{{Mennella}}, \textsc{{Migliaccio}},
+  \textsc{{Miville-Desch\^enes}}, \textsc{{Molinari}}, \textsc{{Moneti}},
+  \textsc{{Montier}}, \textsc{{Morgante}}, \textsc{{Moss}}, \textsc{{Natoli}},
+  \textsc{{Pagano}}, \textsc{{Paoletti}}, \textsc{{Partridge}},
+  \textsc{{Perrotta}}, \textsc{{Pettorino}}, \textsc{{Piacentini}},
+  \textsc{{Polenta}}, \textsc{{Puget}}, \textsc{{Rachen}}, \textsc{{Reinecke}},
+  \textsc{{Remazeilles}}, \textsc{{Renzi}}, \textsc{{Rocha}},
+  \textsc{{Rosset}}, \textsc{{Roudier}}, \textsc{{Rubi\~no-Mart\'in}},
+  \textsc{{Ruiz-Granados}}, \textsc{{Salvati}}, \textsc{{Savelainen}},
+  \textsc{{Scott}}, \textsc{{Shellard}}, \textsc{{Sirignano}},
+  \textsc{{Sunyaev}}, \textsc{{Suur-Uski}}, \textsc{{Tauber}},
+  \textsc{{Tavagnacco}}, \textsc{{Tenti}}, \textsc{{Toffolatti}},
+  \textsc{{Tomasi}}, \textsc{{Trombetti}}, \textsc{{Valenziano}},
+  \textsc{{Valiviita}}, \textsc{{Van Tent}}, \textsc{{Vielva}},
+  \textsc{{Villa}}, \textsc{{Vittorio}}, \textsc{{Wandelt}}, \textsc{{Wehus}},
+  \textsc{{Zacchei}}, \textsc{{Zibin}} et \textsc{{Zonca}}}]{Planckisotropy18}
+\textsc{{Planck Collaboration}}, \textsc{{Akrami} Y.}, \textsc{{Ashdown} M.}
+  {et~al.} 2020{\natexlab{b}}, «~{Planck 2018 results. VII. Isotropy and
+  statistics of the CMB}~»,
+  \href{http://dx.doi.org/10.1051/0004-6361/201935201}{\color{magenta}\aap},
+  \href{https://ui.adsabs.harvard.edu/abs/2020A&A...641A...7P}{641, A7}
+
+\bibitem[{\textsc{{Riess}} {et~al.}(1998)\textsc{{Riess}},
+  \textsc{{Filippenko}}, \textsc{{Challis}}, \textsc{{Clocchiatti}},
+  \textsc{{Diercks}}, \textsc{{Garnavich}}, \textsc{{Gilliland}},
+  \textsc{{Hogan}}, \textsc{{Jha}}, \textsc{{Kirshner}}, \textsc{{Leibundgut}},
+  \textsc{{Phillips}}, \textsc{{Reiss}}, \textsc{{Schmidt}},
+  \textsc{{Schommer}}, \textsc{{Smith}}, \textsc{{Spyromilio}},
+  \textsc{{Stubbs}}, \textsc{{Suntzeff}} et \textsc{{Tonry}}}]{Riess1998}
+\textsc{{Riess} A.~G.}, \textsc{{Filippenko} A.~V.}, \textsc{{Challis} P.}
+  {et~al.} 1998, «~{Observational Evidence from Supernovae for an Accelerating
+  Universe and a Cosmological Constant}~»,
+  \href{http://dx.doi.org/10.1086/300499}{\color{magenta}\aj},
+  \href{https://ui.adsabs.harvard.edu/abs/1998AJ....116.1009R}{116, 1009}
+
+\bibitem[{\textsc{{Robertson}}(1936)}]{Robertson1936}
+\textsc{{Robertson} H.~P.} 1936, «~{Kinematics and World-Structure III.}~»,
+  \href{http://dx.doi.org/10.1086/143726}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/1936ApJ....83..257R}{83, 257}
+
+\bibitem[{\textsc{{Scolnic}} {et~al.}(2018)\textsc{{Scolnic}},
+  \textsc{{Jones}}, \textsc{{Rest}}, \textsc{{Pan}}, \textsc{{Chornock}},
+  \textsc{{Foley}}, \textsc{{Huber}}, \textsc{{Kessler}}, \textsc{{Narayan}},
+  \textsc{{Riess}}, \textsc{{Rodney}}, \textsc{{Berger}}, \textsc{{Brout}},
+  \textsc{{Challis}}, \textsc{{Drout}}, \textsc{{Finkbeiner}},
+  \textsc{{Lunnan}}, \textsc{{Kirshner}}, \textsc{{Sanders}},
+  \textsc{{Schlafly}}, \textsc{{Smartt}}, \textsc{{Stubbs}}, \textsc{{Tonry}},
+  \textsc{{Wood-Vasey}}, \textsc{{Foley}}, \textsc{{Hand}}, \textsc{{Johnson}},
+  \textsc{{Burgett}}, \textsc{{Chambers}}, \textsc{{Draper}},
+  \textsc{{Hodapp}}, \textsc{{Kaiser}}, \textsc{{Kudritzki}},
+  \textsc{{Magnier}}, \textsc{{Metcalfe}}, \textsc{{Bresolin}},
+  \textsc{{Gall}}, \textsc{{Kotak}}, \textsc{{McCrum}} et
+  \textsc{{Smith}}}]{Scolnicpantheon18}
+\textsc{{Scolnic} D.~M.}, \textsc{{Jones} D.~O.}, \textsc{{Rest} A.} {et~al.}
+  2018, «~{The Complete Light-curve Sample of Spectroscopically Confirmed SNe
+  Ia from Pan-STARRS1 and Cosmological Constraints from the Combined Pantheon
+  Sample}~»,
+  \href{http://dx.doi.org/10.3847/1538-4357/aab9bb}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2018ApJ...859..101S}{859, 101}
+
+\bibitem[{\textsc{{Walker}}(1937)}]{Walker1937}
+\textsc{{Walker} A.~G.} 1937, «~{On Milne's Theory of World-Structure}~»,
+  \href{http://dx.doi.org/10.1112/plms/s2-42.1.90}{\color{magenta}Proceedings
+  of the London Mathematical Society},
+  \href{https://ui.adsabs.harvard.edu/abs/1937PLMS...42...90W}{42, 90}
+
+\bibitem[{\textsc{{York}} {et~al.}(2000)\textsc{{York}}, \textsc{{Adelman}},
+  \textsc{{Anderson}}, \textsc{{Anderson}}, \textsc{{Annis}},
+  \textsc{{Bahcall}}, \textsc{{Bakken}}, \textsc{{Barkhouser}},
+  \textsc{{Bastian}}, \textsc{{Berman}}, \textsc{{Boroski}},
+  \textsc{{Bracker}}, \textsc{{Briegel}}, \textsc{{Briggs}},
+  \textsc{{Brinkmann}}, \textsc{{Brunner}}, \textsc{{Burles}},
+  \textsc{{Carey}}, \textsc{{Carr}}, \textsc{{Castander}}, \textsc{{Chen}},
+  \textsc{{Colestock}}, \textsc{{Connolly}}, \textsc{{Crocker}},
+  \textsc{{Csabai}}, \textsc{{Czarapata}}, \textsc{{Davis}}, \textsc{{Doi}},
+  \textsc{{Dombeck}}, \textsc{{Eisenstein}}, \textsc{{Ellman}},
+  \textsc{{Elms}}, \textsc{{Evans}}, \textsc{{Fan}}, \textsc{{Federwitz}},
+  \textsc{{Fiscelli}}, \textsc{{Friedman}}, \textsc{{Frieman}},
+  \textsc{{Fukugita}}, \textsc{{Gillespie}}, \textsc{{Gunn}},
+  \textsc{{Gurbani}}, \textsc{{de Haas}}, \textsc{{Haldeman}},
+  \textsc{{Harris}}, \textsc{{Hayes}}, \textsc{{Heckman}}, \textsc{{Hennessy}},
+  \textsc{{Hindsley}}, \textsc{{Holm}}, \textsc{{Holmgren}}, \textsc{{Huang}},
+  \textsc{{Hull}}, \textsc{{Husby}}, \textsc{{Ichikawa}}, \textsc{{Ichikawa}},
+  \textsc{{Ivezi\'c}}, \textsc{{Kent}}, \textsc{{Kim}}, \textsc{{Kinney}},
+  \textsc{{Klaene}}, \textsc{{Kleinman}}, \textsc{{Kleinman}},
+  \textsc{{Knapp}}, \textsc{{Korienek}}, \textsc{{Kron}}, \textsc{{Kunszt}},
+  \textsc{{Lamb}}, \textsc{{Lee}}, \textsc{{Leger}}, \textsc{{Limmongkol}},
+  \textsc{{Lindenmeyer}}, \textsc{{Long}}, \textsc{{Loomis}},
+  \textsc{{Loveday}}, \textsc{{Lucinio}}, \textsc{{Lupton}},
+  \textsc{{MacKinnon}}, \textsc{{Mannery}}, \textsc{{Mantsch}},
+  \textsc{{Margon}}, \textsc{{McGehee}}, \textsc{{McKay}}, \textsc{{Meiksin}},
+  \textsc{{Merelli}}, \textsc{{Monet}}, \textsc{{Munn}}, \textsc{{Narayanan}},
+  \textsc{{Nash}}, \textsc{{Neilsen}}, \textsc{{Neswold}}, \textsc{{Newberg}},
+  \textsc{{Nichol}}, \textsc{{Nicinski}}, \textsc{{Nonino}}, \textsc{{Okada}},
+  \textsc{{Okamura}}, \textsc{{Ostriker}}, \textsc{{Owen}}, \textsc{{Pauls}},
+  \textsc{{Peoples}}, \textsc{{Peterson}}, \textsc{{Petravick}},
+  \textsc{{Pier}}, \textsc{{Pope}}, \textsc{{Pordes}}, \textsc{{Prosapio}},
+  \textsc{{Rechenmacher}}, \textsc{{Quinn}}, \textsc{{Richards}},
+  \textsc{{Richmond}}, \textsc{{Rivetta}}, \textsc{{Rockosi}},
+  \textsc{{Ruthmansdorfer}}, \textsc{{Sandford}}, \textsc{{Schlegel}},
+  \textsc{{Schneider}}, \textsc{{Sekiguchi}}, \textsc{{Sergey}},
+  \textsc{{Shimasaku}}, \textsc{{Siegmund}}, \textsc{{Smee}}, \textsc{{Smith}},
+  \textsc{{Snedden}}, \textsc{{Stone}}, \textsc{{Stoughton}},
+  \textsc{{Strauss}}, \textsc{{Stubbs}}, \textsc{{SubbaRao}},
+  \textsc{{Szalay}}, \textsc{{Szapudi}}, \textsc{{Szokoly}}, \textsc{{Thakar}},
+  \textsc{{Tremonti}}, \textsc{{Tucker}}, \textsc{{Uomoto}}, \textsc{{Vanden
+  Berk}}, \textsc{{Vogeley}}, \textsc{{Waddell}}, \textsc{{Wang}},
+  \textsc{{Watanabe}}, \textsc{{Weinberg}}, \textsc{{Yanny}}, \textsc{{Yasuda}}
+  et \textsc{{SDSS Collaboration}}}]{YorkSDSS2000}
+\textsc{{York} D.~G.}, \textsc{{Adelman} J.}, \textsc{{Anderson}, John~E. J.}
+  {et~al.} 2000, «~{The Sloan Digital Sky Survey: Technical Summary}~»,
+  \href{http://dx.doi.org/10.1086/301513}{\color{magenta}\aj},
+  \href{https://ui.adsabs.harvard.edu/abs/2000AJ....120.1579Y}{120, 1579}
+
+\end{thebibliography}
