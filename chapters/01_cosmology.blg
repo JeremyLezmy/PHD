@@ -3,55 +3,50 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: 01_cosmology.aux
 The style file: ../main/aa_url2.bst
 Database file #1: 99_references.bib
-Repeated entry---line 524 of file 99_references.bib
+Repeated entry---line 539 of file 99_references.bib
  : @article{Betoule2014
  :                     ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 873 of file 99_references.bib
- :   
- :   url={https://ui.adsabs.harvard.edu/abs/2019MNRAS.489.3582D/abstract}
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 21 entries,
+You've used 22 entries,
             3173 wiz_defined-function locations,
-            889 strings with 23597 characters,
-and the built_in function-call counts, 44686 in all, are:
-= -- 2753
-> -- 6461
-< -- 12
-+ -- 2166
-- -- 2142
-* -- 7091
-:= -- 7606
-add.period$ -- 21
-call.type$ -- 21
-change.case$ -- 798
-chr.to.int$ -- 18
-cite$ -- 21
-duplicate$ -- 412
-empty$ -- 652
-format.name$ -- 2180
-if$ -- 7778
+            899 strings with 23787 characters,
+and the built_in function-call counts, 45060 in all, are:
+= -- 2784
+> -- 6472
+< -- 13
++ -- 2170
+- -- 2145
+* -- 7130
+:= -- 7671
+add.period$ -- 22
+call.type$ -- 22
+change.case$ -- 803
+chr.to.int$ -- 19
+cite$ -- 22
+duplicate$ -- 431
+empty$ -- 683
+format.name$ -- 2184
+if$ -- 7851
 int.to.chr$ -- 4
 int.to.str$ -- 1
-missing$ -- 21
-newline$ -- 67
-num.names$ -- 84
-pop$ -- 788
+missing$ -- 22
+newline$ -- 70
+num.names$ -- 88
+pop$ -- 792
 preamble$ -- 1
-purify$ -- 798
+purify$ -- 803
 quote$ -- 0
-skip$ -- 326
+skip$ -- 342
 stack$ -- 0
-substring$ -- 441
-swap$ -- 1519
+substring$ -- 462
+swap$ -- 1525
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 189
+type$ -- 198
 warning$ -- 0
-while$ -- 84
+while$ -- 88
 width$ -- 0
-write$ -- 231
-(There were 2 error messages)
+write$ -- 242
+(There was 1 error message)

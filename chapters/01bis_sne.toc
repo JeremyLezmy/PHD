@@ -1,0 +1,15 @@
+\babel@toc {french}{}
+\contentsline {chapter}{\numberline {2}Cosmologie avec les Supernovae de type Ia}{1}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Zoologie et classification des supernovae}{2}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Caractéristiques principales}{2}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Mécanismes d'explosion}{2}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}Standardisation des SNeIa}{3}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Chandelles standardisables}{3}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Courbes de lumière et spectres de SNeIa}{4}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Propriétés des courbes de lumière}{7}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Modèle \textit {Spectral Adaptive Light-curve Template 2} (SALT2)}{8}{subsection.2.2.4}%
+\contentsline {subsubsection}{\numberline {2.2.4.1}Corrélations}{8}{subsubsection.2.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.2.4.2}Standardisation et SALT2}{9}{subsubsection.2.2.4.2}%
+\contentsline {section}{\numberline {2.3}SNeIa et cosmologie}{10}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Construction d'un diagramme de Hubble}{10}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Sonder l'équation d'état de l'énergie sombre avec les SNeIa}{11}{subsection.2.3.2}%

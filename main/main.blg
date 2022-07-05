@@ -2,61 +2,62 @@ This is BibTeX, Version 0.99d (TeX Live 2021)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: aa_url2.bst
+Reallocated field_info (elt_size=4) to 10012 items from 5000.
 Database file #1: ../chapters/99_references.bib
-Repeated entry---line 524 of file ../chapters/99_references.bib
+Repeated entry---line 539 of file ../chapters/99_references.bib
  : @article{Betoule2014
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 949 of file ../chapters/99_references.bib
+Repeated entry---line 978 of file ../chapters/99_references.bib
  : @article{Dale2014
  :                  ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "iminuit" isn't style-file defined
---line 1398 of file ../chapters/99_references.bib
+--line 1545 of file ../chapters/99_references.bib
 Warning--entry type for "kelsey_jordahl_2020_3946761" isn't style-file defined
---line 1529 of file ../chapters/99_references.bib
+--line 1695 of file ../chapters/99_references.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty publisher in MinkowskiPOSS
-You've used 156 entries,
+You've used 179 entries,
             3173 wiz_defined-function locations,
-            2059 strings with 86983 characters,
-and the built_in function-call counts, 188806 in all, are:
-= -- 12547
-> -- 23243
-< -- 73
-+ -- 7811
-- -- 7645
-* -- 28141
-:= -- 31867
-add.period$ -- 156
-call.type$ -- 156
-change.case$ -- 3165
-chr.to.int$ -- 148
-cite$ -- 157
-duplicate$ -- 3306
-empty$ -- 5043
-format.name$ -- 8049
-if$ -- 33725
+            2249 strings with 102857 characters,
+and the built_in function-call counts, 226131 in all, are:
+= -- 14920
+> -- 28311
+< -- 83
++ -- 9510
+- -- 9321
+* -- 33929
+:= -- 38199
+add.period$ -- 179
+call.type$ -- 179
+change.case$ -- 3815
+chr.to.int$ -- 171
+cite$ -- 180
+duplicate$ -- 3776
+empty$ -- 5776
+format.name$ -- 9777
+if$ -- 40289
 int.to.chr$ -- 9
 int.to.str$ -- 1
-missing$ -- 135
-newline$ -- 472
-num.names$ -- 636
-pop$ -- 3175
+missing$ -- 157
+newline$ -- 541
+num.names$ -- 729
+pop$ -- 3818
 preamble$ -- 1
-purify$ -- 3164
+purify$ -- 3814
 quote$ -- 0
-skip$ -- 2696
+skip$ -- 3076
 stack$ -- 0
-substring$ -- 3649
-swap$ -- 5883
-text.length$ -- 12
+substring$ -- 4160
+swap$ -- 7103
+text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1404
+type$ -- 1611
 warning$ -- 1
-while$ -- 636
+while$ -- 730
 width$ -- 0
-write$ -- 1700
+write$ -- 1952
 (There were 2 error messages)

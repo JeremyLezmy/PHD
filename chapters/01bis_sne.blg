@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2021)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: 01bis_sne.aux
+The style file: ../main/aa_url2.bst
+Database file #1: 99_references.bib
+Repeated entry---line 539 of file 99_references.bib
+ : @article{Betoule2014
+ :                     ,
+I'm skipping whatever remains of this entry
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 30 entries,
+            3173 wiz_defined-function locations,
+            985 strings with 30847 characters,
+and the built_in function-call counts, 60907 in all, are:
+= -- 3795
+> -- 8650
+< -- 10
++ -- 2897
+- -- 2867
+* -- 9621
+:= -- 10325
+add.period$ -- 30
+call.type$ -- 30
+change.case$ -- 1074
+chr.to.int$ -- 30
+cite$ -- 30
+duplicate$ -- 625
+empty$ -- 974
+format.name$ -- 2936
+if$ -- 10644
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 28
+newline$ -- 94
+num.names$ -- 122
+pop$ -- 1069
+preamble$ -- 1
+purify$ -- 1074
+quote$ -- 0
+skip$ -- 506
+stack$ -- 0
+substring$ -- 694
+swap$ -- 2051
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 270
+warning$ -- 0
+while$ -- 124
+width$ -- 0
+write$ -- 332
+(There was 1 error message)

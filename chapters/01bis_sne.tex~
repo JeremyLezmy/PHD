@@ -1,0 +1,27 @@
+\documentclass[../main/main.tex]{subfiles}
+\begin{document}
+%\dominitoc
+%\faketableofcontents
+\chapter{Cosmologie avec les Supernovae de type Ia}\label{ch:snia}
+
+\minitoc
+\vspace{2cm}
+
+\newpage
+
+
+\section{Zoologie des supernovae}
+\section{Classification}
+\section{Supernovae de type Ia et chandelles standards}
+\section{Standardisation des SNeIa}
+\section{SNeIa et cosmologie}
+
+
+%\bibliographystyle{../main/aa_url2}
+%\bibliography{99_references}
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:

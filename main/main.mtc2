@@ -1,7 +1,12 @@
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.1}Presentation de la générale}{\reset@font\mtcSfont 38}{section.2.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.1.1}Histoire et collaboration}{\reset@font\mtcSSfont 38}{subsection.2.1.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.1.2}Organisation de la recherche scientifique}{\reset@font\mtcSSfont 39}{subsection.2.1.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.2}La caméra ZTF}{\reset@font\mtcSfont 41}{section.2.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.1}Caractéristiques}{\reset@font\mtcSSfont 41}{subsection.2.2.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.2}Gestion des données}{\reset@font\mtcSSfont 42}{subsection.2.2.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.3}Observation des Supernovae Ia avec ZTF}{\reset@font\mtcSfont 43}{section.2.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.1}Zoologie et classification des supernovae}{\reset@font\mtcSfont 40}{section.2.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.1.1}Caractéristiques principales}{\reset@font\mtcSSfont 40}{subsection.2.1.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.1.2}Mécanismes d'explosion}{\reset@font\mtcSSfont 40}{subsection.2.1.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.2}Standardisation des SNeIa}{\reset@font\mtcSfont 41}{section.2.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.1}Chandelles standardisables}{\reset@font\mtcSSfont 41}{subsection.2.2.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.2}Courbes de lumière et spectres de SNeIa}{\reset@font\mtcSSfont 42}{subsection.2.2.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.3}Propriétés des courbes de lumière}{\reset@font\mtcSSfont 45}{subsection.2.2.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.2.4}Modèle \textit {Spectral Adaptive Light-curve Template 2} (SALT2)}{\reset@font\mtcSSfont 45}{subsection.2.2.4}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.2.4.1}Corrélations}{\reset@font\mtcSSSfont 45}{subsubsection.2.2.4.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {2.2.4.2}Standardisation et SALT2}{\reset@font\mtcSSSfont 47}{subsubsection.2.2.4.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.3}SNeIa et cosmologie}{\reset@font\mtcSfont 48}{section.2.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {2.3.1}Construction d'un diagramme de Hubble}{\reset@font\mtcSSfont 48}{subsection.2.3.1}}

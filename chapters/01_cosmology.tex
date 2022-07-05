@@ -198,6 +198,7 @@ suivante:
 
 Avec 
 \begin{equation}
+  \label{eq:chiflrw}
   S_{k}(\chi) =
   \begin{cases}
         \sin(\chi) & \text{si }  k=1 \\
@@ -268,20 +269,37 @@ La composante principale du redshift étant la contribution de
 l'expansion de l'Univers, nous pouvons facilement l'exprimer en fonction
 du facteur d'échelle $a(t)$.
 
-Supposons un photon émis au temps $t_{e}$ pendant un intervalle de temps
-$\delta t_{e}$ à $r = r_{e}$ , et ensuite réceptionné au temps $t_{0}$
-au niveau de l’observateur à $r = r_{0} = 0$ avec un intervalle de temps
-actuel $\delta t_{0}$.
-
+Supposons un photon émis au temps $t_{e}$ à $r = r_{e}$ , et ensuite réceptionné au temps $t_{0}$
+au niveau de l’observateur à $r = r_{0} = 0$.
 En utilisant le fait que pour un photon nous avons une géodésique nulle
-($\d s^{2}=0$) et que $r$ est une variable comobile,
-nous avons:
+($\d s^{2}=0$), nous avons que:
 
 \begin{equation}
-  \label{eq:geodesiquephoton}
-  c\int_{t_{e}}^{t_{0}}\frac{\d t}{a(t)}=\int_{0}^{r_{e}} \frac{\d
-    r}{\sqrt{1-kr^{2}}}=c\int_{t_{e}+\delta t_{e}}^{t_{0}+\delta t_{0}}\frac{\d t}{a(t)}
+  \label{eq:geodesiquephoton1}
+  \int_{0}^{r_{e}} \frac{\d r}{\sqrt{1-kr^{2}}}=c\int_{t_{e}}^{t_{0}}\frac{\d t}{a(t)}
 \end{equation}
+
+Or, en prenant un deuxième photon succesif émis par la source considérée
+à un temps $t_{e}+\lambda_{e}/c=t_{e}+\delta t_{e}$, et reçu à
+$t_{0}+\delta t_{0}$, nous avons également que :
+\begin{equation}
+  \label{eq:geodesiquephoton2}
+  \int_{0}^{r_{e}} \frac{\d r}{\sqrt{1-kr^{2}}}=c\int_{t_{e}+\delta t_{e}}^{t_{0}+\delta t_{0}}\frac{\d t}{a(t)}
+\end{equation}
+
+En supposant sans risque que le facteur d'échelle $a$ n'a pas varié pour
+une un temps de l'ordre de la période d'une onde électromagnétique dans
+le visible ($\sim10^{-15}s$), nous obtenons pour le deuxième photon que:
+\begin{equation}
+  \label{eq:developgeodesiquephoton2}
+  \int_{t_{e}+\delta t_{e}}^{t_{0}+\delta t_{0}}\frac{\d t}{a(t)} =
+  \int_{t_{e}}^{t_{0}}\frac{\d t}{a(t)} + \frac{\delta t_{0}}{a_{0}} - \frac{\delta_{t_{e}}}{a_{e}}
+\end{equation}
+
+En combinant les termes de droite des équations
+\ref{eq:geodesiquephoton1} et \ref{eq:geodesiquephoton2}, avec le
+développement de \ref{eq:developgeodesiquephoton2}, nous obtenons ainsi:
+
 \begin{equation*}
   \Rightarrow \frac{\delta t_{0}}{a_{0}} = \frac{\delta t_{e}}{a_{e}}
   \Leftrightarrow \frac{\delta t_{0}}{\delta t_{e}} = \frac{a_{0}}{a_{e}}
@@ -471,6 +489,145 @@ il est généralement plus adéquat de mesurer directement la quantité
 $\Omega_{i}h^{2}$, où $h=H/100$ km.s$^{-1}$.Mpc$^{-1}$.
 
 \subsection{Mesures de distances}
+
+\subsubsection*{Distance comobile}
+La distance comobile caractérise la distance entre deux objets
+de telle sorte qu'elle soit indépendante de l'expansion de
+l'Univers.
+
+Considérons le voyage d'un photon entre le moment d'émission $t=t_{e}$
+à un redshift $z=z_{e}$, et sa réception aujourd'hui à $t=t_{0}$ et
+$z=z_{0}=0$. Ce photon se déplacera le long d'une géodésique nulle ($\d
+s^{2}=0$), et l'équation \ref{eq:FLRW2} nous donne ainsi (pour $\theta$
+et $\phi$ constants) que:
+
+\begin{equation}
+  \label{eq:distcomobil}
+  d_{c}(z)\triangleq\chi(z)=\int^{t_{0}}_{t_{e}}\frac{c}{a(t')}\d
+  t'=\frac{c}{H_{0}}\int_{z=0}^{z=z_{e}}\frac{\d z'}{E(z')}
+\end{equation}
+avec $E(z)=H^{2}(z)/H_{0}^{2}$, définie par la première équation de
+Friedmann comme (eq~\ref{eq:friedmannZ}):
+\begin{equation}
+  \label{eq:Ez}
+  E(z)^{2}=\frac{H^{2}(z)}{H_{0}^{2}}=\Omega_{R,0}(1+z)^{4}
+  +\Omega_{M,0}(1+z)^{3} +\Omega_{k,0}(1+z)^{2}+\Omega_{\Lambda,0}
+\end{equation}
+
+\subsubsection*{Distance de diamètre angulaire}
+
+La distance de diamètre angulaire $d_{a}$ est définie comme le rapport entre le
+diamètre physique $D$ d'un objet et sa taille angulaire apparente
+$\Delta\theta$ par:
+\begin{equation}
+  \label{eq:angulardist1}
+  d_{a}=\frac{D}{\Delta\theta}
+\end{equation}
+Or, d'après la métrique FLRW (eq~\ref{eq:FLRW2}), un objet situé à une
+distance comobile $\chi$ à un temps $t$ et avec un angle apparent
+$\Delta\theta$ à une taille de:
+\begin{equation}
+  \label{eq:tailleangulardist}
+  D = a(t)S_{k}(\chi)\Delta\theta
+\end{equation}
+et donc, la distance angulaire s'exprime comme:
+\begin{equation}
+  \label{eq:angulardist2}
+  d_{a}=a(t)S_{k}(\chi)
+\end{equation}
+
+Avec le changement de variable $k\rightarrow
+-\frac{a_{0}^{2}H_{0}^{2}\Omega_{k,0}}{c^{2}}$, nous obtenons que:
+\begin{equation}
+  \label{eq:43}
+  S_{k}(\chi) = \frac{c}{a_{0}H_{0}\sqrt{\lvert\Omega_{k,0}\rvert}}S_{k}\left(\frac{a_{0}H_{0}\sqrt{\lvert\Omega_{k,0}\rvert}}{c}\chi(z)\right)
+\end{equation}
+
+Et ainsi, avec la définition de $\chi$ (eq~\ref{eq:distcomobil}), la
+distance de diamètre angulaire s'écrit:
+
+\begin{equation}
+  \label{eq:distangulargen}
+  d_{a}(z)=\frac{1}{1+z}\frac{c}{H_{0}\sqrt{\lvert\Omega_{k,0}\rvert}}S_{k}\left(\sqrt{\lvert\Omega_{k,0}\rvert}\int_{0}^{z}\frac{\d z'}{E(z')}\right)
+\end{equation}
+
+Dans le cas d'un univers plat ($k=0$ et $S_{k}(\chi)=\chi$), nous
+pouvons déduire immédiatement la relation:
+\begin{equation}
+  \label{eq:angulardistflat}
+  d_{a}(z)=\frac{d_{c}(z)}{1+z}
+\end{equation}
+
+
+\subsubsection*{Distance de luminosité}
+
+La distance de luminosité $d_{L}$ est la quantité reliant la luminosité
+intrinsèque d'une source et le flux reçu par un observateur à cette
+distance $d_{L}$. Cette relation décrit la dilution géométrique du flux
+avec le carré de la distance, telle que:
+\begin{equation}
+  \label{eq:45}
+  f=\frac{L}{4\pi D_{L}^{2}}
+\end{equation}
+
+En utilisant la forme de $S_{k}(\chi)$ définie dans l'eq~\ref{eq:43},
+nous pouvons direcement déterminer la surface $S$ d'une sphére centrée
+sur la source étudiée à la distance comobile $\chi$:
+\begin{equation}
+  \label{eq:spheredistlum}
+  S=4\pi
+  a_{0}^{2}\frac{c^{2}}{a_{0}^{2}H_{0}^{2}\Omega_{k,0}}S_{k}\left( \frac{a_{0}H_{0}\sqrt{\lvert\Omega_{k,0}\rvert}}{c}\chi(z)\right)
+\end{equation}
+
+Un photon émis à un temps $t$ est reçu par l'observateur à $t=t_{0}$
+avec une énergie diluée d'un facteur ($1+z$). Par ailleurs, deux photons
+successifs sont reçus dans un intervalle de temps lui aussi dilaté
+d'un facteur ($1+z$). La luminosité propre de la source étudiée dans le
+référentiel de l'observateur $L'$ est par conséquent diluée d'un facteur
+$(1+z)^{2}$. Le flux surfacique reçu, $f=L'/S$, s'exprime ainsi:
+\begin{equation}
+  \label{eq:47}
+  f=\frac{L}{4\pi
+  a_{0}^{2}\frac{c^{2}}{a_{0}^{2}H_{0}^{2}\Omega_{k,0}}S_{k}\left( \frac{a_{0}H_{0}\sqrt{\lvert\Omega_{k,0}\rvert}}{c}\chi(z)\right)}\times\frac{1}{(1+z)^{2}}
+\end{equation}
+
+En utilisant la relation de la dilution géométrique du flux
+(\ref{eq:45}) et l'expression de $\chi$ (\ref{eq:distcomobil}), on
+obtiens finalement la forme de la distance de luminosité:
+\begin{equation}
+  \label{eq:48}
+  d_{L}(z) = \frac{c(1+z)}{H_{0}\sqrt{\lvert\Omega_{k,0}\rvert}}S_{k}\left(\sqrt{\lvert\Omega_{k,0}\rvert}\int_{0}^{z}\frac{\d z'}{E(z')}\right)
+\end{equation}
+
+Nous pouvons noter que, quelque soit la courbure de l'Univers,
+$d_{L}(z)=(1+z)^{2}d_{a}(z)$. Dans le cadre d'un Univers plat, la
+distance de luminosité est reliée à la distance comobile par
+$d_{L}(z)=(1+z)\chi(z)=(1+z)d_{c}(z)$.
+
+\subsubsection*{Le module de distance}
+Comme illustré dans l'équation\ref{eq:48}, la distance de luminosité
+permet de contraindre les paramètres cosmologiques. Afin de remonter à
+cette information, il est nécessaire de connaître la luminosité
+intrinsèque de la source observée.
+
+On définit dans un premier temps la magnitude apparente $m$ d'un objet
+observé par:
+\begin{equation}
+  \label{eq:magapp}
+  m-m_{0}=-2.5\log_{10}\left(\frac{f}{f_{0}}\right) = -2.5\log_{10}\left(\frac{L}{L_{0}}\frac{d_{L,0}^{2}}{d_{L}^{2}}\right)
+\end{equation}
+avec $f$ le flux lumineux apparent de la source, et $m_{0}$ la magnitude
+apparente (connue) d'un objet de flux $f_{0}$ (connu) utilisé comme
+point zéro.
+
+On introduit la magnitude absolue $M$ de l'objet, défini comme étant
+sa magnitude si l'objet était situé à une distance de $d_{L,0}=10$
+pc. Cette quantité est ainsi associée à la luminosité intrinsèque de la
+source observée. Le module de distance est alors défini comme étant:
+\begin{equation}
+  \label{eq:distmodulemu}
+  \mu\triangleq m-M=5\log_{10}\left(\frac{d_{L}}{10\text{pc}}\right)
+\end{equation}
 \section{Sondes cosmologiques et modèle de concordance \lcdm}\label{ssec:LCDM}
 
 L'étude de la relativé générale aux échelles cosmologiques, de
@@ -479,13 +636,14 @@ l'utilisation d'observables, appelées \textit{sondes cosmologiques}.
 Les différents modèles cosmologiques et leurs prédictions sont ensuite
 testés par ses observations. L'utilisation de plusieurs sondes
 indépendantes permet
-par ailleurs de lever de fortes dégénerescences entre les paramètres
+par ailleurs de lever de potentielles dégénerescences entre les paramètres
 cosmologiques, et ainsi contraindre fortement les différents modèles
 existants.
 
 Nous présentons ici brièvement les principales sondes cosmologiques
 utilisées, et comment leur utilisation a permis de converger vers le
-modèle standard de la cosmologie moderne.
+modèle standard de la cosmologie moderne, le modèle \lcdm, décrivant un
+Univers plat ($k=0$) avec une constante cosmologique $\Lambda$.
 
 \subsection{Le fond diffus cosmologique}
 
@@ -496,7 +654,8 @@ notre Univers. Prédit par Lemaître en 1920 et découvert en 1965 par
 Univers, s'agissant du plus ancien rayonnement électromagnétique
 observable ($z\sim 1100$). Initialement à une température de l'ordre de
 $3000K$, l'expansion de l'Univers a considérablement dilué l'énergie des
-photons du CMB, amenant sa température actuelle à $T_{0}=2.725K$. Les
+photons du CMB, amenant sa température actuelle à
+$T_{0}=2.7260\pm0.0013K$ \citep{Fixsen2009}. Les
 premières études des fluctuations de température du CMB, faites avec les missions COBE et WMAP, ont
 permis de confirmer que son spectre est celui d'un corps noir
 quasi-parfait. Les mesures les plus récentes du CMB ont été effectuées avec la mission
@@ -504,7 +663,25 @@ Planck.
 Le spectre de puissance\footnote{transformée
 de Fourier de la fonction de corrélation à deux points} des anisotropies
 de ce rayonnement est prédictible par les modèles cosmologiques, et
-permet d'en contraindre fortement les paramètres.
+permet d'en contraindre fortement les paramètres. La
+Figure~\ref{fig:cmbTTplanck} présente l'ajustement du modèle standard
+\lcdm\ avec le spectre de puissance des fluctuations de température du
+CMB \citep{Planckparams2018}.
+
+\begin{figure}[ht]
+  \begin{minipage}[c]{0.55\textwidth}
+    \includegraphics[width=\textwidth]{../figures/01_cosmology/cmbTTplanck.pdf}
+  \end{minipage}\hfill
+  \begin{minipage}[c]{0.44\textwidth}
+    \caption[Spectre de puissance des anisotropies en température du
+    CMB.]{Spectre de puissance des anisotropies en température du
+    CMB. L'axe des abscisses représente le multipôle, où les grandes
+    échelles angulaires correspondent à un petit $l$ et inversement. Les
+    points rouges représentent les données, et la courbe bleu le
+    meilleur ajustement du modèle \lcdm. En bas sont illustrés les
+    résidus entre le modèle et les données. Figure de \citet{Planckparams2018}.}\label{fig:cmbTTplanck}
+  \end{minipage}
+\end{figure}
 
 \subsection{Les oscillations acoustiques des baryons}
 
@@ -512,15 +689,17 @@ Les oscillations acoustiques des baryons, une autre sonde cosmologique,
 correspondent à un phénomène trouvant sa source bien avant le découplage entre la
 matière baryonique et les photons. Au moment de l'inflation (phase
 d'expansion exponentielle de l'Univers $\sim10^{-35}s$ le Big Bang), des
-fluctuation de densité se sont propagées dans le plasma composant l'Univers
-primordial. Ces impulsions, entraînées par les baryons, ont ensuite
-généré des ondes acoustiques se propageant dans le plasma
-primordiale, résultant de la pression radiative des photons. Au moment
-de la recombinaison, cette corrélation entre photons et baryons cesse,
+fluctuations de densité se sont propagées dans le plasma composant l'Univers
+primordial. Alors que les zones de surdensités ainsi créées attirent
+gravitationnellement la matière vers elles, la pression radiative des
+photons contre cet effet, créant des oscillations acoustiques sphériques
+dans l'Univers primordial.
+
+Au moment de la recombinaison, les intéractions entre photons et baryons cessent,
 et les photons sont libres de voyager à la vitesse de la lumière. L'onde acoustique ne se
 propage plus et laisse ainsi une zone de surdensité à une distance
 caractéristique. Cette distance est celle 
-parcourue par l'onde entre sa création ($z=\inf$) et la
+parcourue par l'onde entre sa création ($z=\infty$) et la
 recombinaison ($z\sim1100$), appelée horizon sonore. Ce pic de densité est ainsi figé
 depuis le découplage baryon/photon. L'Univers étant en expansion, la
 taille caractéristique de cette empreinte est exprimée en distance
@@ -534,20 +713,22 @@ acoustiques primordiales.
 
 
 \begin{figure}[ht]
-  \begin{minipage}[c]{0.55\textwidth}
-    \includegraphics[width=\textwidth]{../figures/01_cosmology/BAOpeak.pdf}
-  \end{minipage}\hfill
+  
   \begin{minipage}[c]{0.42\textwidth}
     \caption[Mise en évidence du pic de BAO avec le relevé SDSS.]{Mise en
-    évidence du pic de BAO avec le relevé SDSS. Cette figure de
-    \citet{Eisenstein} montre la fonction de corrélation à deux points
-    des galaxies du relevé SDSS. Le pic à environ $105$ Mpc.h$^{-1}$ est
-  clairement visible, et caractérise le pic des BAO. Les lignes vertes,
-  rouges et bleues correspondent au modèle de concordance \lcdm\, que
-  nous introduirons plus tard, pour différentes valeurs de
-  $\Omega_{M,0}h^{2}$. La ligne magenta correspond à un modèle sans
-  constante cosmologique.}\label{fig:baopeak}
-  \end{minipage}
+      évidence du pic de BAO avec le relevé SDSS. Cette figure de
+      \citet{Eisenstein} montre la fonction de corrélation à deux points
+      des galaxies du relevé SDSS. Le pic à environ $105$ Mpc.h$^{-1}$ est
+      clairement visible, et caractérise le pic des BAO. Les lignes vertes,
+      rouges et bleues correspondent au modèle de concordance \lcdm\, que
+      nous introduirons plus tard, pour différentes valeurs de
+      $\Omega_{M,0}h^{2}$. La ligne magenta correspond à un modèle sans
+      constante cosmologique.}\label{fig:baopeak}
+    \end{minipage}
+    \begin{minipage}[c]{0.55\textwidth}
+      \includegraphics[width=\textwidth]{../figures/01_cosmology/BAOpeak.pdf}
+    \end{minipage}\hfill
+  
 \end{figure}
 
 La distance caractéristique $r_{d}$ est scindée
@@ -567,13 +748,52 @@ cosmologie aux données, et par conséquent de sonder l'évolution du taux
 d'expansion avec le redshift et de
 contraindre les paramètres cosmologiques.
 
-\subsection{Le lentillage gravitationnelle}
+\subsection{Les chandelles standard}
 
+Comme nous l'avons vu avec la dérivation des différentes distances
+cosmologiques, la distance de luminosité permet de contraindre les
+paramètres cosmologiques. Obtenir cette information nécessite cependant
+de connaître \textit{a
+  priori} la luminosité intrisèque de l'objet étudié.
 
-\subsection{Les supernovae de type Ia}
+Si cette luminosité absolue est reproductible, alors la source
+astronomique est qualifiée de chandelle standard. La mesure de sa
+luminosité apparente permet alors de remonter à sa distance de luminosité, et apporter des
+contraintes sur les paramètres cosmologiques. 
+
+Les supernovae de type Ia (SNeIa), classification particulière d'explosion
+d'étoile, sont un exemple de chandelle standard ayant permis la
+découverte de l'accélération de l'expansion de l'Univers
+\citep{Riess1998, Perlmutter1999}.
+
+La courbe de lumière des SNeIa (évolution de leur luminosité au cours du
+temps), est fortement caractéristique, permettant par une méthode de
+standardisation de remonter à leur luminosité intrinsèque. Nous montrons
+dans la Figure~\ref{fig:sneiabetoule} l'évolution des distances ainsi dérivées d'un échantillon de SNeIa en
+fonction de leur redshift. Le modèle ajusté aux données correpond au
+modèle standard de la cosmologie, le modèle \lcdm.
+
+\begin{figure}[ht]
+  \begin{minipage}[c]{0.55\textwidth}
+    \includegraphics[width=\textwidth]{../figures/01_cosmology/sneiabetoule.pdf}
+  \end{minipage}\hfill
+  \begin{minipage}[c]{0.42\textwidth}
+    \caption[Diagramme de Hubble à partir de SNeIa de plusieurs relevés
+    (SDSS, SNLS, HST)]{Diagramme de Hubble à partir de 740 SNeIa de plusieurs relevés
+    (SDSS, SNLS, HST). La partie haute de cette figure montre
+    l'évolution du module de distance en fonction du redshift
+  des SNeIa de l'échantillon. La courbe noire correspond au modèle
+  cosmologique \lcdm\ ajusté aux données. La partie du bas montre les résidus entre
+  les données et le modèle \lcdm. Figure de \citet{Betoule2014}.}\label{fig:sneiabetoule}
+  \end{minipage}
+\end{figure}
+
+Ces objets étant au coeur de ce travail de recherche, nous leur dédions une
+partie plus loin dans ce chapitre. 
+
 
 \subsection{Le modèle \lcdm}
-L'étude de nombreuses sondes indépendantes combinées (comme le fond diffus
+L'étude de ces nombreuses sondes indépendantes combinées (comme le fond diffus
 cosmologique, les oscillations acoustiques des baryons, les supernovae
 de type Ia, etc) permettent de converger vers un modèle unique: le
 modèle de concordance. Ce modèle cosmologique décrit un Univers plat
@@ -595,8 +815,8 @@ déplacement faible par rapport à celle de la lumière. La constante
 cosmologique permet d'expliquer l'accélération de l'expansion de
 l'Univers découverte à la fin du XX\ieme\ siècle.
 
-Ce modèle est appelé \lcdm\ (\textit{Lambda Cold Dark Matter}) en
-référence aux deux composantes exotiques décrites plus tôt, et
+Ce modèle, appelé \lcdm\ (\textit{Lambda Cold Dark Matter}) en
+référence aux deux composantes exotiques décrites plus tôt,
 correspond au modèle standard de la cosmologie moderne. On notera que
 malgré la prédiction de ces composantes sombre, le modèle \lcdm\ ne
 précise en aucun cas leur nature, encore inconnue à ce jour.
@@ -605,7 +825,7 @@ Composé de seulement six paramètres libres, le modèle de concordance
 rend compte de nombreuses observations cosmologiques comme le fond
 diffus cosmologique, les structures à grandes échelles de la
 distribution des galaxies, l'expansion accélérée de l'Univers,
-l'abondance des élémets légers (hydrogène, hélium, lithium) etc.
+l'abondance des éléments légers (hydrogène, hélium, lithium) etc.
 
 Les derniers résultats d'ajustement de ces paramètres libres du modèle \lcdm\ sur les
 observations (sondes cosmologiques) ont été présentés
@@ -619,7 +839,9 @@ Nous montrons dans la Figure~\ref{fig:flatcontrainte} les contraintes dans le pl
 sondes cosmologiques, permettant de réduire considérablement la
 dégénerescence entre les paramètres. Cette analyse effectuée en laissant
 la courbure libre dans l'ajustement des paramètres de \lcdm\ (dénommé o-\lcdm), fait clairement état
-de la compatibilité des données observationnelles avec un Univers plat.
+de la compatibilité des données observationnelles avec un Univers
+plat. Cette contrainte sur la courbure de l'Univers est principalement
+apportée par le fond diffus cosmologique. 
 
 \begin{figure}[ht]
 \centering
@@ -649,7 +871,13 @@ l'énergie sombre est en effet une constante cosmologique dans les
 équations d'Einstein, alors $w_{0}=-1$ et $w_{a}=0$. La
 Figure~\ref{fig:darkenergy} illustre les contraintes récentes,
 compatibles avec le modèle \lcdm, sur le
-paramètre $w$ et sur les composantes de la paramétrisation CPL $w_{0}$ et $w_{a}$.
+paramètre $w$ et sur les composantes de la paramétrisation CPL $w_{0}$
+et $w_{a}$.
+Les contraintes cosmologiques sur $w$
+sont dérivées de mesures de variations relatives de distance de
+luminosité en fonction du redshift. Les propriétés de chandelle standard
+des SNeIa en font ainsi une sonde cosmologique prafaitement adaptée à l'étude
+de l'énergie sombre.
 
 \begin{figure}[ht]
 \centering
@@ -664,16 +892,6 @@ paramètre $w$ et sur les composantes de la paramétrisation CPL $w_{0}$ et $w_{
   \citep{Scolnicpantheon18} et les BAO. Figure de \citet{Planckparams2018}.}
 \label{fig:darkenergy}
 \end{figure}
-
-\section{Supernovae et cosmologie}\label{sec:snia}
-
-\subsection{Zoologie des supernovae}
-\subsection{Classification}
-\subsection{Supernovae de type Ia et chandelles standards}
-\subsection{Standardisation des SNeIa}
-\subsection{SNeIa et cosmologie}\label{ssec:class}
-
-
 
 %\bibliographystyle{../main/aa_url2}
 %\bibliography{99_references}

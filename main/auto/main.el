@@ -24,6 +24,7 @@
     "../chapters/12_abstract"
     "../chapters/13_introduction"
     "../chapters/01_cosmology"
+    "../chapters/01bis_sne"
     "../chapters/02_ztf"
     "../chapters/03_sedm"
     "../chapters/04_hypergal"

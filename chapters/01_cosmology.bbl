@@ -1,4 +1,4 @@
-\begin{thebibliography}{21}
+\begin{thebibliography}{22}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{\textsc{{Betoule}} {et~al.}(2014)\textsc{{Betoule}},
@@ -72,6 +72,12 @@
   Correlation Function of SDSS Luminous Red Galaxies}~»,
   \href{http://dx.doi.org/10.1086/466512}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2005ApJ...633..560E}{633, 560}
+
+\bibitem[{\textsc{{Fixsen}}(2009)}]{Fixsen2009}
+\textsc{{Fixsen} D.~J.} 2009, «~{The Temperature of the Cosmic Microwave
+  Background}~»,
+  \href{http://dx.doi.org/10.1088/0004-637X/707/2/916}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2009ApJ...707..916F}{707, 916}
 
 \bibitem[{\textsc{{Friedmann}}(1922)}]{Friedmann1922}
 \textsc{{Friedmann} A.} 1922, «~{Über die Krümmung des Raumes}~»,
