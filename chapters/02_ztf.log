@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  2 JUL 2022 23:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  6 JUL 2022 17:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1622,34 +1622,39 @@ Package minitoc Info: I0033
 \openout6 = `02_ztf.toc'.
 
 
-Chapitre 2.
+Chapitre 3.
 \openout4 = `02_ztf.mtc'.
 
 \openout4 = `02_ztf.mtc'.
 
-(./02_ztf.mtc1) [1
+(./02_ztf.mtc1)
+
+LaTeX Warning: Reference `ch:sedm' on page 1 undefined on input line 22.
+
+[1
 
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
-1.
- (/usr/local/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
+5.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<../figures/02_ztf/p48.png, id=45, 1247.66125pt x 467.7475pt>
+<../figures/02_ztf/p48.png, id=46, 1247.66125pt x 467.7475pt>
 File: ../figures/02_ztf/p48.png Graphic file (type png)
 <use ../figures/02_ztf/p48.png>
-Package pdftex.def Info: ../figures/02_ztf/p48.png  used on input line 55.
+Package pdftex.def Info: ../figures/02_ztf/p48.png  used on input line 59.
 (pdftex.def)             Requested size: 341.43307pt x 127.9993pt.
-<../figures/02_ztf/ztfcamerafov.png, id=47, 1132.23pt x 637.38126pt>
+<../figures/02_ztf/ztfcamerafov.png, id=48, 1132.23pt x 637.38126pt>
 File: ../figures/02_ztf/ztfcamerafov.png Graphic file (type png)
 <use ../figures/02_ztf/ztfcamerafov.png>
 Package pdftex.def Info: ../figures/02_ztf/ztfcamerafov.png  used on input line
- 63.
+ 67.
 (pdftex.def)             Requested size: 409.71692pt x 230.6436pt.
 
 
@@ -1657,61 +1662,58 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [2 <../figures/02_ztf/p48.png>] [3 <../figures/02_ztf/ztfcamerafov.png>]
 [4]
-<../figures/02_ztf/palomar_obs-min.png, id=85, 1060.96375pt x 700.6175pt>
+<../figures/02_ztf/palomar_obs-min.png, id=94, 1060.96375pt x 700.6175pt>
 File: ../figures/02_ztf/palomar_obs-min.png Graphic file (type png)
 <use ../figures/02_ztf/palomar_obs-min.png>
 Package pdftex.def Info: ../figures/02_ztf/palomar_obs-min.png  used on input l
-ine 196.
+ine 204.
 (pdftex.def)             Requested size: 341.43307pt x 225.46365pt.
-<../figures/02_ztf/ztfcamera.png, id=89, 470.75874pt x 431.6125pt>
+<../figures/02_ztf/ztfcamera.png, id=98, 470.75874pt x 431.6125pt>
 File: ../figures/02_ztf/ztfcamera.png Graphic file (type png)
 <use ../figures/02_ztf/ztfcamera.png>
-Package pdftex.def Info: ../figures/02_ztf/ztfcamera.png  used on input line 22
-4.
+Package pdftex.def Info: ../figures/02_ztf/ztfcamera.png  used on input line 23
+3.
 (pdftex.def)             Requested size: 182.09486pt x 166.95174pt.
-<../figures/02_ztf/p48details.png, id=94, 649.42625pt x 474.77374pt>
+<../figures/02_ztf/p48details.png, id=103, 649.42625pt x 474.77374pt>
 File: ../figures/02_ztf/p48details.png Graphic file (type png)
 <use ../figures/02_ztf/p48details.png>
 Package pdftex.def Info: ../figures/02_ztf/p48details.png  used on input line 2
-26.
+35.
 (pdftex.def)             Requested size: 227.62206pt x 166.40512pt.
-<../figures/02_ztf/ZTFfilters.pdf, id=101, 504.91896pt x 358.64789pt>
+ [5 <../figures/02_ztf/palomar_obs-min.png>]
+<../figures/02_ztf/ZTFfilters.pdf, id=118, 504.91896pt x 358.64789pt>
 File: ../figures/02_ztf/ZTFfilters.pdf Graphic file (type pdf)
 <use ../figures/02_ztf/ZTFfilters.pdf>
 Package pdftex.def Info: ../figures/02_ztf/ZTFfilters.pdf  used on input line 2
-44.
+53.
 (pdftex.def)             Requested size: 250.38564pt x 177.85138pt.
-<../figures/02_ztf/ztfperformances.pdf, id=106, 1287.81125pt x 487.8225pt>
+<../figures/02_ztf/ztfperformances.pdf, id=123, 1287.81125pt x 487.8225pt>
 File: ../figures/02_ztf/ztfperformances.pdf Graphic file (type pdf)
 <use ../figures/02_ztf/ztfperformances.pdf>
 Package pdftex.def Info: ../figures/02_ztf/ztfperformances.pdf  used on input l
-ine 256.
+ine 265.
 (pdftex.def)             Requested size: 450.69417pt x 170.72554pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[5 <../figures/02_ztf/palomar_obs-min.png>] [6 <../figures/02_ztf/ztfcamera.png
-> <../figures/02_ztf/p48details.png> <../figures/02_ztf/ZTFfilters.pdf>]
-[7 <../figures/02_ztf/ztfperformances.pdf>]
-<../figures/02_ztf/cumulsniaztf.png, id=178, 1487.5575pt x 702.625pt>
+[6 <../figures/02_ztf/ztfcamera.png> <../figures/02_ztf/p48details.png> <../fig
+ures/02_ztf/ZTFfilters.pdf>] [7 <../figures/02_ztf/ztfperformances.pdf>]
+[8]
+<../figures/02_ztf/cumulsniaztf.png, id=202, 1487.5575pt x 702.625pt>
 File: ../figures/02_ztf/cumulsniaztf.png Graphic file (type png)
 <use ../figures/02_ztf/cumulsniaztf.png>
 Package pdftex.def Info: ../figures/02_ztf/cumulsniaztf.png  used on input line
- 390.
-(pdftex.def)             Requested size: 450.69417pt x 212.87975pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[8] (./02_ztf.bbl (./02_ztf.brf)
+ 402.
+(pdftex.def)             Requested size: 432.48051pt x 204.27065pt.
+ (./02_ztf.bbl (./02_ztf.brf)
 \tf@brf=\write7
 \openout7 = `02_ztf.brf'.
 
  [9 <../figures/02_ztf/cumulsniaztf.png>]
 [10
 
-])
+] [11])
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the 02_ztf.maf file.
@@ -1723,18 +1725,21 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the 02_ztf.log file.
 
-[11] (./02_ztf.aux)
+[12] (./02_ztf.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `02_ztf.brf' has not changed.
-(rerunfilecheck)             Checksum: B2107A6BE9675000EFFFD94AA9681A8A;1147.
+(rerunfilecheck)             Checksum: DA9549D0822AF9880FA39BEF26A2CBCC;1310.
  ) 
 Here is how much of TeX's memory you used:
- 47014 strings out of 478994
- 995302 string characters out of 5858184
- 1548609 words of memory out of 5000000
- 63174 multiletter control sequences out of 15000+600000
- 437170 words of font info for 222 fonts, out of 8000000 for 9000
+ 47054 strings out of 478994
+ 995782 string characters out of 5858184
+ 1563605 words of memory out of 5000000
+ 63188 multiletter control sequences out of 15000+600000
+ 438774 words of font info for 234 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 137i,12n,148p,1339b,888s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 137i,12n,148p,2774b,917s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<
 /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
@@ -1757,10 +1762,10 @@ exmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021/tex
 mf-dist/fonts/type1/public/cm-super/sftc1200.pfb></usr/local/texlive/2021/texmf
 -dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2021/texmf-d
 ist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on 02_ztf.pdf (11 pages, 10310391 bytes).
+Output written on 02_ztf.pdf (12 pages, 10304736 bytes).
 PDF statistics:
- 380 PDF objects out of 1000 (max. 8388607)
- 320 compressed objects within 4 object streams
- 44 named destinations out of 1000 (max. 500000)
- 80501 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 403 PDF objects out of 1000 (max. 8388607)
+ 342 compressed objects within 4 object streams
+ 47 named destinations out of 1000 (max. 500000)
+ 82549 words of extra memory for PDF output out of 89155 (max. 10000000)
 

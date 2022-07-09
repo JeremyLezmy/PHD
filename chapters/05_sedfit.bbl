@@ -1,4 +1,4 @@
-\begin{thebibliography}{33}
+\begin{thebibliography}{35}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{\textsc{{Battisti}} {et~al.}(2016)\textsc{{Battisti}},
@@ -68,7 +68,49 @@
   Function}~», \href{http://dx.doi.org/10.1086/376392}{\color{magenta}\pasp},
   \href{https://ui.adsabs.harvard.edu/abs/2003PASP..115..763C}{115, 763}
 
-\bibitem[{\textsc{{Chambers}} {et~al.}(2016)\textsc{{Chambers}},
+\bibitem[{\textsc{{Chambers}} {et~al.}(2016{\natexlab{a}})\textsc{{Chambers}},
+  \textsc{{Magnier}}, \textsc{{Metcalfe}}, \textsc{{Flewelling}},
+  \textsc{{Huber}}, \textsc{{Waters}}, \textsc{{Denneau}}, \textsc{{Draper}},
+  \textsc{{Farrow}}, \textsc{{Finkbeiner}}, \textsc{{Holmberg}},
+  \textsc{{Koppenhoefer}}, \textsc{{Price}}, \textsc{{Rest}},
+  \textsc{{Saglia}}, \textsc{{Schlafly}}, \textsc{{Smartt}},
+  \textsc{{Sweeney}}, \textsc{{Wainscoat}}, \textsc{{Burgett}},
+  \textsc{{Chastel}}, \textsc{{Grav}}, \textsc{{Heasley}}, \textsc{{Hodapp}},
+  \textsc{{Jedicke}}, \textsc{{Kaiser}}, \textsc{{Kudritzki}},
+  \textsc{{Luppino}}, \textsc{{Lupton}}, \textsc{{Monet}}, \textsc{{Morgan}},
+  \textsc{{Onaka}}, \textsc{{Shiao}}, \textsc{{Stubbs}}, \textsc{{Tonry}},
+  \textsc{{White}}, \textsc{{Ba{\~n}ados}}, \textsc{{Bell}}, \textsc{{Bender}},
+  \textsc{{Bernard}}, \textsc{{Boegner}}, \textsc{{Boffi}},
+  \textsc{{Botticella}}, \textsc{{Calamida}}, \textsc{{Casertano}},
+  \textsc{{Chen}}, \textsc{{Chen}}, \textsc{{Cole}}, \textsc{{Deacon}},
+  \textsc{{Frenk}}, \textsc{{Fitzsimmons}}, \textsc{{Gezari}},
+  \textsc{{Gibbs}}, \textsc{{Goessl}}, \textsc{{Goggia}}, \textsc{{Gourgue}},
+  \textsc{{Goldman}}, \textsc{{Grant}}, \textsc{{Grebel}}, \textsc{{Hambly}},
+  \textsc{{Hasinger}}, \textsc{{Heavens}}, \textsc{{Heckman}},
+  \textsc{{Henderson}}, \textsc{{Henning}}, \textsc{{Holman}}, \textsc{{Hopp}},
+  \textsc{{Ip}}, \textsc{{Isani}}, \textsc{{Jackson}}, \textsc{{Keyes}},
+  \textsc{{Koekemoer}}, \textsc{{Kotak}}, \textsc{{Le}}, \textsc{{Liska}},
+  \textsc{{Long}}, \textsc{{Lucey}}, \textsc{{Liu}}, \textsc{{Martin}},
+  \textsc{{Masci}}, \textsc{{McLean}}, \textsc{{Mindel}}, \textsc{{Misra}},
+  \textsc{{Morganson}}, \textsc{{Murphy}}, \textsc{{Obaika}},
+  \textsc{{Narayan}}, \textsc{{Nieto-Santisteban}}, \textsc{{Norberg}},
+  \textsc{{Peacock}}, \textsc{{Pier}}, \textsc{{Postman}}, \textsc{{Primak}},
+  \textsc{{Rae}}, \textsc{{Rai}}, \textsc{{Riess}}, \textsc{{Riffeser}},
+  \textsc{{Rix}}, \textsc{{R{\"o}ser}}, \textsc{{Russel}}, \textsc{{Rutz}},
+  \textsc{{Schilbach}}, \textsc{{Schultz}}, \textsc{{Scolnic}},
+  \textsc{{Strolger}}, \textsc{{Szalay}}, \textsc{{Seitz}}, \textsc{{Small}},
+  \textsc{{Smith}}, \textsc{{Soderblom}}, \textsc{{Taylor}},
+  \textsc{{Thomson}}, \textsc{{Taylor}}, \textsc{{Thakar}}, \textsc{{Thiel}},
+  \textsc{{Thilker}}, \textsc{{Unger}}, \textsc{{Urata}}, \textsc{{Valenti}},
+  \textsc{{Wagner}}, \textsc{{Walder}}, \textsc{{Walter}}, \textsc{{Watters}},
+  \textsc{{Werner}}, \textsc{{Wood-Vasey}} et
+  \textsc{{Wyse}}}]{ChambersPanstarrs}
+\textsc{{Chambers} K.~C.}, \textsc{{Magnier} E.~A.}, \textsc{{Metcalfe} N.}
+  {et~al.} 2016{\natexlab{a}}, «~{The Pan-STARRS1 Surveys}~»,
+  \href{https://ui.adsabs.harvard.edu/abs/2016arXiv161205560C}{arXiv e-prints,
+  arXiv:1612.05560}
+
+\bibitem[{\textsc{{Chambers}} {et~al.}(2016{\natexlab{b}})\textsc{{Chambers}},
   \textsc{{Magnier}}, \textsc{{Metcalfe}}, \textsc{{Flewelling}},
   \textsc{{Huber}}, \textsc{{Waters}}, \textsc{{Denneau}}, \textsc{{Draper}},
   \textsc{{Farrow}}, \textsc{{Finkbeiner}}, \textsc{{Holmberg}},
@@ -106,7 +148,7 @@
   \textsc{{Werner}}, \textsc{{Wood-Vasey}} et
   \textsc{{Wyse}}}]{ChambersPS1survey}
 \textsc{{Chambers} K.~C.}, \textsc{{Magnier} E.~A.}, \textsc{{Metcalfe} N.}
-  {et~al.} 2016, «~{The Pan-STARRS1 Surveys}~»,
+  {et~al.} 2016{\natexlab{b}}, «~{The Pan-STARRS1 Surveys}~»,
   \href{https://ui.adsabs.harvard.edu/abs/2016arXiv161205560C}{arXiv e-prints,
   arXiv:1612.05560}
 
@@ -153,6 +195,24 @@
 \textsc{{Ferland} G.~J.}, \textsc{{Porter} R.~L.}, \textsc{{van Hoof} P.~A.~M.}
   {et~al.} 2013, «~{The 2013 Release of Cloudy}~», \rmxaa,
   \href{https://ui.adsabs.harvard.edu/abs/2013RMxAA..49..137F}{49, 137}
+
+\bibitem[{\textsc{{Flewelling}} {et~al.}(2020)\textsc{{Flewelling}},
+  \textsc{{Magnier}}, \textsc{{Chambers}}, \textsc{{Heasley}},
+  \textsc{{Holmberg}}, \textsc{{Huber}}, \textsc{{Sweeney}}, \textsc{{Waters}},
+  \textsc{{Calamida}}, \textsc{{Casertano}}, \textsc{{Chen}},
+  \textsc{{Farrow}}, \textsc{{Hasinger}}, \textsc{{Henderson}},
+  \textsc{{Long}}, \textsc{{Metcalfe}}, \textsc{{Narayan}},
+  \textsc{{Nieto-Santisteban}}, \textsc{{Norberg}}, \textsc{{Rest}},
+  \textsc{{Saglia}}, \textsc{{Szalay}}, \textsc{{Thakar}}, \textsc{{Tonry}},
+  \textsc{{Valenti}}, \textsc{{Werner}}, \textsc{{White}}, \textsc{{Denneau}},
+  \textsc{{Draper}}, \textsc{{Hodapp}}, \textsc{{Jedicke}}, \textsc{{Kaiser}},
+  \textsc{{Kudritzki}}, \textsc{{Price}}, \textsc{{Wainscoat}},
+  \textsc{{Chastel}}, \textsc{{McLean}}, \textsc{{Postman}} et
+  \textsc{{Shiao}}}]{Flewelling2020}
+\textsc{{Flewelling} H.~A.}, \textsc{{Magnier} E.~A.}, \textsc{{Chambers}
+  K.~C.} {et~al.} 2020, «~{The Pan-STARRS1 Database and Data Products}~»,
+  \href{http://dx.doi.org/10.3847/1538-4365/abb82d}{\color{magenta}\apjs},
+  \href{https://ui.adsabs.harvard.edu/abs/2020ApJS..251....7F}{251, 7}
 
 \bibitem[{\textsc{{Fukugita}} {et~al.}(1996)\textsc{{Fukugita}},
   \textsc{{Ichikawa}}, \textsc{{Gunn}}, \textsc{{Doi}}, \textsc{{Shimasaku}} et

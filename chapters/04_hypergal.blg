@@ -1,43 +1,47 @@
 This is BibTeX, Version 0.99d (TeX Live 2021)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: 04_hypergal.aux
+White space in argument---line 60 of file 04_hypergal.aux
+ : \citation{CharyElbaz,Draine2007,Casey2012,Dale2014,Leja2017
+ :                                                             }
+I'm skipping whatever remains of this command
 The style file: ../main/aa_url.bst
 Database file #1: 99_references.bib
-Repeated entry---line 949 of file 99_references.bib
+Repeated entry---line 1016 of file 99_references.bib
  : @article{Dale2014
  :                  ,
 I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 You've used 35 entries,
             3128 wiz_defined-function locations,
-            1021 strings with 21145 characters,
-and the built_in function-call counts, 32115 in all, are:
-= -- 2359
-> -- 4115
-< -- 13
-+ -- 1370
-- -- 1335
-* -- 3250
-:= -- 5913
+            1022 strings with 21177 characters,
+and the built_in function-call counts, 32201 in all, are:
+= -- 2362
+> -- 4133
+< -- 12
++ -- 1376
+- -- 1341
+* -- 3264
+:= -- 5931
 add.period$ -- 35
 call.type$ -- 35
-change.case$ -- 585
+change.case$ -- 587
 chr.to.int$ -- 35
 cite$ -- 35
 duplicate$ -- 643
 empty$ -- 1023
-format.name$ -- 1436
-if$ -- 6256
+format.name$ -- 1440
+if$ -- 6270
 int.to.chr$ -- 1
 int.to.str$ -- 1
 missing$ -- 34
 newline$ -- 109
 num.names$ -- 140
-pop$ -- 592
+pop$ -- 594
 preamble$ -- 1
-purify$ -- 585
+purify$ -- 587
 quote$ -- 0
-skip$ -- 567
+skip$ -- 565
 stack$ -- 0
 substring$ -- 773
 swap$ -- 68
@@ -49,4 +53,4 @@ warning$ -- 0
 while$ -- 139
 width$ -- 0
 write$ -- 352
-(There was 1 error message)
+(There were 2 error messages)

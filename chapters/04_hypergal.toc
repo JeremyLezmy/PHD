@@ -1,13 +1,13 @@
 \babel@toc {french}{}
-\contentsline {chapter}{\numberline {4}\textsc {\texttt {HyperGal}}\relax : Modéliseur de scène pour l'extraction de sources ponctuelles}{1}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Idée générale}{2}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Problématique}{2}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}La composante galactique}{2}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}SED Fitting}{3}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}SED d'une galaxie}{3}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}SED Fitter}{4}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}Présentation du Pipeline}{5}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Cube intrinsèque}{6}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Modélisation de scène 2D}{6}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Modélisation chromatique et projection 3D}{6}{subsection.4.3.3}%
-\contentsline {section}{\numberline {4.4}Cas pédagogique de présentation}{7}{section.4.4}%
+\contentsline {chapter}{\numberline {5}\textsc {\texttt {HyperGal}}\relax : Modéliseur de scène pour l'extraction de sources ponctuelles}{1}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Idée générale}{2}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Problématique}{2}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}La composante galactique}{2}{subsection.5.1.2}%
+\contentsline {section}{\numberline {5.2}Ajustement de la distribution spectrale en énergie}{3}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}SED d'une galaxie}{3}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Ajusteur de SED}{4}{subsection.5.2.2}%
+\contentsline {section}{\numberline {5.3}Présentation générale du Pipeline}{5}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Cube intrinsèque}{5}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Modélisation de scène 2D}{6}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Modélisation chromatique et projection 3D}{7}{subsection.5.3.3}%
+\contentsline {section}{\numberline {5.4}Cas pédagogique de présentation}{7}{section.5.4}%

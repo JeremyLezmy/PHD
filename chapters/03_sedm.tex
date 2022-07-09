@@ -1,45 +1,44 @@
 \documentclass[../main/main.tex]{subfiles}
 \begin{document}
-%\dominitoc
-%\faketableofcontents
+\dominitoc
+\faketableofcontents
 \setcounter{chapter}{3}
-\chapter{Un spectrographe 3D: La Spectral Energy Distribution machine}\label{ch:sedm}
+\chapter{Un spectrographe 3D: la Spectral Energy Distribution machine}\label{ch:sedm}
 
 \minitoc
 \vspace{2cm}
 Dans le chapitre précédent, nous avons présenté la collaboration Zwicky
 Transient Facility et nous nous sommes focalisés sur la caméra
-principale de $47\text{deg}^{2}$ montée sur le P48 au Mont
+principale de $47\text{ deg}^{2}$ montée sur le P48 au Mont
 Palomar. Cette caméra permet à ZTF de détecter $10^{5}$ évènements
 transitoires ou variables, en scannant l'entièreté du ciel Nord visible
 chaque nuit,  à la vitesse
-vertigineuse de $3760\text{deg}^{2}$/heure. Parmi ces évènements,
+vertigineuse de $3760\text{ deg}^{2}$/heure. Parmi ces évènements,
 $\mathcal{O}(10)$ correspondent à de nouveux évènements transitoires non
-répertoriés: Les Supernovae. Comme expliqué dans le
-Chapitre~\ref{sec:snia}, seules les Supernovae de type Ia sont
+répertoriés: les supernovae. Comme expliqué dans le
+Chapitre~\ref{sec:snia}, seules les supernovae de type Ia sont
 d'intérêts dans la cosmologie, de part leur propriété de chandelle
-standardisable. Il faut donc les classifier. Pour cela on utilise leur
-spectre, dont les raies d'absorption/émission sont caractéristiques d'un
-type à l'autre de SN. Ainsi, ZTF possède également un spectrographe 3D
+standardisable. Il faut donc les classifier. Pour cela on utilise le
+spectre des SNe, dont les raies d'absorption et d'émission sont caractéristiques d'un
+type à l'autre de SN. Pour répondre à ce besoin, ZTF possède également un spectrographe 3D
 monté sur le télescope P60 au Mont Palomar
 (Figure~\ref{fig:palomar_obs}) spécialement conçu à cet effet. Nous
-présentons dans ce chapitre ce spectrographe, la Spectral Energy
-Distribution machine (SEDm).
+présentons dans ce chapitre ce spectrographe, la \textit{Spectral Energy
+Distribution machine} (SEDm).
 \newpage
 
 \section{Présentation de l'instrument}
 \label{sec:ifs}
 
 \subsection{Principe d'un IFS}
-Le spectrographe 3D SEDm est ce qu'on appelle un IFS pour Integral Field
-Spectrograph. Sans surprise, c'est un instrument qui permet de
-recueillir le spectre du ciel sur un champ de vue bidimensionnel.
+Le spectrographe SEDm est ce qu'on appelle un IFS pour \textit{Integral Field
+Spectrograph}. Sans surprise, c'est un instrument qui permet de
+recueillir le spectre d'un champ de vue bidimensionnel.
 Ainsi et indépendamment de la méthode utilisée, le produit final avec
 cet instrument correspond à
-un cube de données ayant 2 dimensions spatiales (($x$, $y$) ou (RA,
-Dec) ) et une dimension spectrale (longueur d'onde $\lambda$ ou une
-vitesse). Dans tout le manuscrit, cette notion de 3D/cube 3D fera
-systématiquement référence aux dimensions ''$x$, $y$, $\lambda$''.
+un cube de données ayant 2 dimensions spatiales (\{$x$, $y$\} ou \{RA,
+Dec\} ) et une dimension spectrale (longueur d'onde $\lambda$). Dans tout le manuscrit, la notion de 3D fera
+systématiquement référence aux dimensions \og $x$, $y$, $\lambda$\fg{}.
 
 Un IFS est composé de 2 parties: le spectrographe qui va disperser la
 lumière incidente, et l'IFU (Integrated Field Unit). Le rôle de l'IFU
@@ -52,33 +51,34 @@ Il existe 3 types principaux d'IFU, schématisés dans la Figure~\ref{fig:ifsgen
 \itemsep0em 
 \item \textbf{Le réseau de micro-lentilles} conceptualisé par
   \citet{BaconIFUlens} (qui s'apparente aux yeux composites
-  de certains insectes): C'est le système utilisé par la SEDm, mais
-  également par l'IFS SAURON \citep{SAURONifs} dans le projet ATLAS3D
+  de certains insectes): C'est le système utilisé par la SEDm, et
+  également par exemple par l'IFS SAURON \citep{SAURONifs} dans le projet ATLAS3D
   \citep{ATLAS3D} ou encore SNIFS \citep{SNIFS2004}. Dans ce système,
   l'image bi-dimensionnelle est fractionnée par un réseau de
-  micro-lentilles (le MLA, microlens array). Chaque élément est ensuite
-  concentré et dispersé par le spetrographe (voir
+  micro-lentilles (le MLA, \textit{microlens array}). Chaque élément est ensuite
+  concentré et dispersé par le spectrographe (voir
   Figure~\ref{fig:ifsgeneral}). Pour éviter au maximum le chevauchement des
   spectres sur le détecteur, le réseau de lentille est légèrement
-  incliné. Le désavantage principal de cette technique est le court
+  incliné. Le désavantage principal de cette technique est la
+  faible utilisation du CCD, et on peut noter l'inconvénient du court
   intervalle de longueur d'onde dispersable sans induire de chevauchement.
   
-\item \textbf{Le paquet de fibre} comme
+\item \textbf{Le paquet de fibres} comme
   avec l'IFS du relevé MaNGA d'SDSS \citep{SDSSIFS} qui peut
   être utilisé en combinaison \citep{BardenIFUfiber} ou non
   \citep{allingtonIFUlensfiber} de réseau de micro-lentilles.
   Ici la lumière n'est pas concentrée par des lentilles mais acheminée
   par un paquet de fibres optiques ``à la chaîne'' jusqu'à la fente du spectrographe. Le
   premier avantage est bien évidemment la flexibilité des fibres. Mais
-  en contrepartie l'échantillon du ciel disperé devient non contigu, à
+  en contrepartie l'échantillon du ciel dispersé devient non contigu, à
   cause de la forme circulaire des fibres. Il est possible de pallier à
   cet effet un ajoutant un réseau de micro-lentilles (lui contigu) entre
   le plan focal et le paquet de fibres.  
   
 \item \textbf{Le ``trancheur d'image''} qui est la méthode la plus
-  ancienne (\citet{BowenIFUslicer}, \citet{ContentIFUslicer}) utilisée
+  ancienne \citep{BowenIFUslicer,ContentIFUslicer} utilisée
   par exemple avec le NIFS
-  (near-infrared integral field spectrograph, \citet{GeminiNIFS}). Cette
+   \citep[\textit{near-infrared integral field spectrograph},][]{GeminiNIFS}. Cette
   méthode utilise un mirroir segmenté en fines sections
   horizontales. Chacune de ces sections va diriger la lumière incidente
   dans des directions légèrement différentes jusqu'à un second miroir
@@ -90,20 +90,20 @@ Il existe 3 types principaux d'IFU, schématisés dans la Figure~\ref{fig:ifsgen
   difficile à concevoir.
 \end{itemize}
 
-\begin{figure}[h]
+\begin{figure}[ht]
   \centering
   \includegraphics[width=0.9\textwidth]{../figures/03_sedm/ifsgeneral.png}
-  \caption[Fonctionnement d'un IFS]{Fonctionnement d'un IFS pour
-    différents types d'IFU. La SEDm utilise un système d'agencement de micro-lentilles (cas
+  \caption[Fonctionnement de différents types d'IFS]{Fonctionnement de
+    différents types d'IFS. La SEDm utilise un système d'agencement de micro-lentilles (cas
     du \textit{haut})
-    (\textit{Crédit M. Westmoquette, adaptée de \citet{allingtonIFS}})}
+    (\textit{Crédit M. Westmoquette, adaptée de \citet{allingtonIFS}}).}
   \label{fig:ifsgeneral}
 \end{figure}
 
 Les données brutes obtenues à partir d'un IFS sont ainsi sous la forme
 de multiples spectres (de plusieurs dizaines à plusieurs milliers)
 étalés (la trace) sur le détecteur, chacun ayant pour origine un élément individuel
-de l'IFU. Ces éléments sont en quelques sortes des pixels spatiaux, que
+de l'IFU. Ces éléments sont en quelque sorte des pixels spatiaux, que
 l'on contracte communément par le terme de spaxels. La reconstruction du
 cube de données se fait en extrayant chaque spectre du détecteur, et en
 les réarrangeant dans le même espace géométrique que le plan focal du
@@ -111,12 +111,12 @@ télescope (nous détaillerons ce processus dans la section suivante).
 
 \subsection{La SEDm}\label{ssec:sedm}
 
-Focalisons nous maintenant sur notre instrument, la Spectral Energy
-Distribution machine, présenté par \citet{SEDM18}. Comme mentionné plusieurs fois, celui ci est monté
-sur le télescope P60 (Cassegrain) au Mont Palomar depuis Août 2016. Une vue
-d'ensemble de l'instrument est présenté dans la
+Focalisons nous maintenant sur notre instrument, la \textit{Spectral Energy
+Distribution machine}, présenté par \citet{SEDM18}. Comme mentionné plusieurs fois, celui ci est monté
+sur le télescope P60 (Cassegrain) au Mont Palomar depuis août 2016. Une vue
+d'ensemble de l'instrument est présentée dans la
 Figure~\ref{fig:sedmoverview}, où l'on peut voir qu'il est composé de
-deux canaux: l'IFU et la ``Rainbow Camera'' (RC), montés sur un
+deux composantes: l'IFU et la ``Rainbow Camera'' (RC), montés sur un
 agencement en forme de T. Cette caméra d'acquisition multi-bande est
 accompagnée de 4 filtres photométriques $u'$, $g'$, $r'$ et $i'$.
 
@@ -126,17 +126,17 @@ accompagnée de 4 filtres photométriques $u'$, $g'$, $r'$ et $i'$.
   \includegraphics[width=0.9\textwidth]{../figures/03_sedm/sedmoverview.png}
   \caption[Vue d'ensemble de la SEDm]{Vue d'ensemble de la SEDm
     \citep{SEDM18}. La source de lumière du Cassegrain est indiqué par
-    la lumière rouge. L'instrument photométrique, la RC, est situé en
+    la flèche rouge. L'instrument photométrique, la RC, est situé en
     haut au centre et récolte directement la lumière. Pour l'IFU, la
     lumière est redirigée jusqu'à un miroir que l'on peut voir tout à
     gauche de la représentation. Elle est ensuite réfléchie dans le MLA
     (Lenslet). La lumière de chaque micro-lentille du MLA passe ensuite
-    dans le prisme (en marron au centre) pour y être dispersé et
-    focalisé par l'optique (IFU Barrel) sur le détecteur (IFU Camera).}
+    dans le prisme (en marron au centre) pour y être dispersée et
+    focalisée par l'optique (IFU Barrel) sur le détecteur (IFU Camera).}
   \label{fig:sedmoverview}
 \end{figure}
 
-Les 2 caméras de la SEDm sont des Princeton Instruments identiques:
+Les 2 détecteurs de la SEDm sont des Princeton Instruments identiques:
 une PIXIS 2048B et une PIXIS 2048B\_Excelon chacun avec 2048$\times$2048
 pixels de taille \SI{13.5}{\micro\metre}.
 
@@ -146,38 +146,81 @@ vue de $13\arcmin\times13\arcmin$ est divisé en 4 quadrants, un pour
 chacun des filtres $u'g'r'i'$.
 
 L'IFU de la SEDm fonctionne sur la méthode du réseau de micro-lentilles,
-le MLA. Celui ci couvre un champ de vue de $28\times28\arcsec$, avec
+le MLA. Celui-ci couvre un champ de vue de $28\arcsec\times28\arcsec$, avec
 $45\times52$ lentilles hexagonales. Le faisceau de lumière projeté par
 ces lentilles passe dans un triple prisme avec une résolution spectrale
 achromatique de $R=\frac{\lambda}{\Delta\lambda}\sim100$.
 Comme illustré dans la Figure~\ref{fig:sedmoverview}, c'est la RC qui
 est alignée avec la lumière directe en provenance du Cassegrain. Il faut donc en dévier une
-partie qui sera transmise à la caméra de l'IFU: cela est effectué avec un
+partie qui sera transmise à l'IFU: cela est effectué avec un
 prisme d'interception centré sur le faisceau incident, qui va rediriger
 le champ de $28\times28\arcsec$ vers un miroir. Les images
 photométriques de la RC ont donc en leur centre un masque qui correspond
 au champ de vue de l'IFU. Ainsi pour faire l'acquisition d'une cible
 avec l'IFU, il faut d'abord effectuer une acquisition avec la RC sur
-laquelle un fitter d'astrometrie est appliqué. Cette étape fournie une
+laquelle un ajustement d'astrométrie est appliqué. Cette étape fournie une
 information précise sur le pointage du télescope, et permet donc
-d'appliquer l'offset nécessaire pour positionner la cible au centre du
+d'appliquer le décalage nécessaire pour positionner la cible au centre du
 champ de vue de l'IFU.
 
+La Table~\ref{tab:sedmspecification} présente
+quelques caractéristiques de la RC et de l'IFU \citep{SEDM18}.
+
+\begin{table}[ht]
+  \centerfloat
+  \renewcommand{\arraystretch}{1.5}
+  \begin{threeparttable}
+    \caption{Spécification de la \textit{Rainbow Camera} et de l'IFU
+      de la SEDm \citep{SEDM18}.}
+    \label{tab:sedmspecification}
+    \begin{tabular}{cc||cc}
+      \toprule
+      \multicolumn{2}{c||}{RC} & \multicolumn{2}{c}{IFU} \\
+      \midrule
+      Caractéristique & Description & Caractéristique & Description\\
+      \midrule
+      FOV (par filtre) & $6\arcmin\times6\arcmin$ & FOV &
+                                             $28\arcsec\times28\arcsec$\\
+      Taille d'un pixel & $0\farcs394$ & Taille d'un pixel &
+                                                             $0\farcs125$\\
+      $\lambda_{eff}(u')$, $\Delta\lambda(u')$ & 355 nm, 67 nm & Taille
+                                                                du
+                                                                MLA (spaxels)
+                                    & $45\times52$\\
+      $\lambda_{eff}(g')$, $\Delta\lambda(g')$ & 477 nm, 148 nm & Diamètre
+                                                                d'une
+                                                                micro-lentille&
+                                                                          $0\farcs75$\\
+      $\lambda_{eff}(r')$, $\Delta\lambda(r')$ & 623 nm, 134 nm &
+                                                                  Résolution
+                                    & $\sim100$\\
+      
+      $\lambda_{eff}(i')$, $\Delta\lambda(i')$ & 762 nm, 170 nm &
+                                                                  Dispersion& $17.4$-$35$\AA/pix\\
+      \bottomrule
+    \end{tabular}
+    %\begin{tablenotes}[flushleft]
+    %\item \textbf{Notes.} 
+    %\end{tablenotes}
+  \end{threeparttable}
+\end{table}
+
+  
 \section{Extraction des spectres du CCD et création des cubes de données}
 \label{sec:pysedmcube}
 
 Dans cette section nous allons détailler la procédure et le pipeline
 associé permettant de reconstruire les cubes de données à partir des
-images bruts 2D obtenues sur le CCD de l'IFU. Ce passage 2D
+images brutes 2D obtenues sur le CCD de l'IFU. Ce passage 2D
 $\rightarrow$ 3D nécessite d'identifier 3 éléments:
 
 \begin{minipage}{\linewidth}
 \begin{itemize}[label=$\diamondsuit$]
   \itemsep0em 
-   \item La localisation de la lumière des spaxels sur le CCD: la trace.
-   \item La correspondance entre la localisation de la trace sur le CCD et
-     la position du spaxel dans le plan focal.
-   \item La cartographie de la dispersion spectral qui permet de
+   \item la localisation de la lumière des spaxels sur le CCD: la trace spectrale;
+   \item la correspondance entre la localisation de la trace sur le CCD et
+     la position du spaxel dans le plan focal;
+   \item la cartographie de la dispersion spectrale qui permet de
      convertir chaque pixel du CCD en longueur d'onde (et vice versa).
 \end{itemize}
 \end{minipage}
@@ -186,10 +229,10 @@ $\rightarrow$ 3D nécessite d'identifier 3 éléments:
 Ces trois étapes de calibration sont
 effectuées durant l'après-midi afin d'optimiser le temps
 d'observation. Durant les acquisitions scientifiques, certaines corrections que nous
-aborderons plus loin sont effectuées en temps réels.
+aborderons plus loin sont effectuées en temps réel.
 
-Toute cette démarche a été implémenté dans le pipeline public
-\pysedm\footnote{\url{https://github.com/MickaelRigault/pysedm}}, conçu
+Toute cette démarche a été implémentée dans le pipeline public
+\pysedm\footnote{\url{https://github.com/MickaelRigault/pysedm}}, présenté
 par \citet{pysedm} et la suite de cette section résumera une grande partie de cette
 publication.
 \subsection{Identification des traces}\label{ssec:tracematch}
@@ -215,20 +258,19 @@ corrigés sur les images du CCD).
         les bords du détecteur). Pour le mesurer, il faut illuminer le
         détecteur avec une lumière uniforme. 
         
-      \item \textbf{Le dark} lui permet de corriger le bruit dû aux longues
+      \item \textbf{Le dark} lui permet de corriger le signal dû aux longues
         expositions. Une caméra CCD (ou un capteur CMOS comme dans les
-        Reflex) génère un bruit thermique, dont l'intensité dépend de la
-        température, du temps de pose et des ISO. Pour diminuer ce bruit, on soustrait le dark aux images de
+        Reflex) génère un signal thermique, dont l'intensité dépend de la
+        température, du temps de pose. Pour retirer ce signal parasite, on soustrait le dark aux images de
         science. On créé les dark dans les mêmes conditions que les
-        observations (temps d'exposition, température, ISO etc). Ces images sont
+        observations (temps d'exposition, température, etc). Ces images sont
         prises dans le noir, avec un couvercle devant
         l'objectif ou un obturateur devant la caméra par exemple.
         
-      \item \textbf{Le bias} va quant à lui corriger le bruit inhérent à la
-        caméra: le bruit de lecture. Tout comme le dark, il se soustrait
-        aux images de science. Tout comme le dark, ces images ce fond
-        dans le noir, mais avec le temps d'exposition minimal
-        atteignable par la caméra.
+      \item \textbf{Le bias} va quant à lui corriger le niveau de base (piédestal) inhérent à la
+        caméra. Tout comme le dark, il se soustrait
+        aux images de science. Ces images se font
+        dans le noir, avec un temps d'exposition nul.
 
       \item \textbf{Le dark-flat} est comme le dark, mais pour les
         images flat.
@@ -239,7 +281,7 @@ corrigés sur les images du CCD).
     \begin{center}
       \includegraphics[width=0.8\textwidth]{../figures/03_sedm/calibdag.png}
       \captionsetup{font=footnotesize}
-    \captionof{figure}{Schéma d'application d'images de calibration Bias, Dark et Flat}
+    \captionof{figure}{Schéma d'application d'images de calibration Bias, Dark et Flat.}
     \end{center}
   \end{frshaded*}
 %\end{minipage}}
@@ -249,15 +291,16 @@ Figure~\ref{fig:tracematch}. L'isolation de la lumière dispersée par
 chaque spaxel se fait en définissant une ellipse
 via la méthode \pkg{extract} de
 \pkg{sep}\footnote{\url{http://github.com/kbarbary/sep}}
-\citep{Barbary2016Sep} (implémentation python de \pkg{Sextractor}
-\cite{Bertinsextractor}). La trace des spaxels est ensuite isolée en
+\citep{Barbary2016Sep}, qui est une implémentation python de \pkg{Sextractor}
+\citep{Bertinsextractor}. La trace des spaxels est ensuite isolée en
 considérant un rectangle à partir des informations de l'ellipse, de
-sorte que $95.5\%$ de la lumière soit encapsulée. L'intervalle de
+sorte que $95.5\%$ de la lumière soit inclue. L'intervalle de
 longueur d'onde ainsi isolé va de $3500$ à $\SI{9500}{\angstrom}$,
 respectivement de droite vers la gauche. Un masque 2D pondéré est
 ensuite créé prenant en compte la fraction de l'aire de chaque pixel
 présent dans le contour défini de la trace. Un spectre pour chaque
-spaxel est ainsi extrait en unité de ``count'' par pixel.
+spaxel est ainsi extrait en unité de coup par
+pixel. L'extraction se fait par sommation du produit \mbox{\og image CCD$\times$masque\fg{}} le long de l'axe vertical.
 
 \subsection{Solution en longueur d'onde}\label{ssec:wavesol}
 On passe maintenant à l'étape qui va permettre d'associer pour chaque pixel une
@@ -266,20 +309,20 @@ Pour cette calibration, on utilise 3 lampes à arc qui émettent de fortes
 raies d'emissions à des longueurs d'onde connues:
 
 \begin{description}[itemsep=0em]
-\item[Hg] Lampe à mercure avec 4 raies d'émission.
-\item[Cd] Lampe à cadmium avec 4 raies d'émission.
-\item[Xe] Lampe à xenon avec 6 raies d'émission.
+\item[Hg] une lampe à mercure, avec 4 raies d'émission;
+\item[Cd] une lampe à cadmium, avec 4 raies d'émission;
+\item[Xe] une lampe à xenon, avec 6 raies d'émission.
 \end{description}
 
 La procédure est la suivante (et illustré dans la Figure~\ref{fig:wavesol}):
 \begin{enumerate}[(a)]
 \item Exposition du CCD pour chaque lampe à arc.
 \item Extraction du spectre de chaque spaxel (en unité de pixel) pour chaque exposition.
-\item Fit indépendant pour chaque spaxel et pour chaque
+\item Ajustement indépendant pour chaque spaxel et pour chaque
   lampe. Pour cela un continuum polynomial de $3\ieme$ ordre est
   utilisé associé à une combinaison de Gaussiennes (autant qu'il y a de
   raies d'émission).
-\item Fit conjoint des $14$ centroids des raies d'émission en fonction de
+\item Ajustement conjoint des $14$ positions des raies d'émission en fonction de
   leur longueur d'onde attendue. Un polynome de degré 5 est utilisé pour
   cette étape.
 \end{enumerate}
@@ -290,12 +333,11 @@ de $3$\AA\ au centre de l'IFU, mais peut monter à $\sim10$\AA\ sur les bords.
 \begin{figure}[ht]
 \centering
 \subfloat[Extraction des contours de trace]{\label{fig:tracematch}{\includegraphics[width=0.53\textwidth]{../figures/03_sedm/tracematchsedm.png}}}\hfill
-\subfloat[Fit d'une solution de longueur d'onde pour un spaxel de l'IFU]{\label{fig:wavesol}{\includegraphics[width=0.45\textwidth]{../figures/03_sedm/wavesolsedm.png}}}
+\subfloat[Ajustement d'une solution de longueur d'onde pour un spaxel de l'IFU]{\label{fig:wavesol}{\includegraphics[width=0.45\textwidth]{../figures/03_sedm/wavesolsedm.png}}}
 \caption[Extraction de traces et solution en longueur
 d'onde pour la
-SEDm]{Extraction de traces (\textit{à gauche}) et fit de solution en longueur
-  d'onde (\textit{à droite}) pour la SEDm
-  (de \citet{pysedm})}
+SEDm]{Extraction de traces (\textit{à gauche}) et ajustement de solution en longueur
+  d'onde (\textit{à droite}) pour la SEDm. Figures de \citet{pysedm}.}
 \label{fig:calibsedm}
 \end{figure}
 
@@ -306,74 +348,74 @@ lentilles.
 Cette procédure est purement géométrique et est détaillée en 8 étapes
 dans la section 2.1.3 de \citet{pysedm}. Le résultat final est une
 grille hexagonale, avec pour chaque hexagone un identifiant associé au
-spaxel correspondant ainsi que les coordonnées de chaque vertex.
+spaxel correspondant ainsi que les coordonnées de chacun de ses sommets.
 Combinés aux spectres extraits de chaque spaxel, cela permet de
 cartographier la position de chaque spaxel, et ainsi reconstruire le
-MLA.
+cube.
 
 \subsection{Construction du cube 3D}\label{ssec:3dcubecons}
 Vient enfin la reconstruction d'un cube après une acquisition
 scientifique. Comme expliqué au début de ce chapitre,
 toutes les observations d'une nuit sont calibrées 
-à partir des informations de calibrations faites durant l'après-midi
-(bias, dark, flat, solution en longueur d'onde, localisation de trace
+à partir des informations de calibration faites durant l'après-midi
+(bias, dark, flat, solution en longueur d'onde, localisation de trace,
 etc).
 Cependant certains de ces paramètres peuvent varier au cours de la nuit,
 c'est pourquoi 2 étapes de corrections sont appliquées à chaque nouvelle
-exposition: Une pour la localisation des traces, l'autre pour la
+exposition: une pour la localisation des traces, l'autre pour la
 solution en longueur d'onde. Voici les étapes principales de
 reconstruction d'un cube 3D à partir d'une image 2D du CCD (on ne
 détaillera pas ici chacune des étapes mais nous invitons le lecteur à
-consulter \citet{pysedm} pour plus d'information technique):
+consulter \citet{pysedm} pour plus d'informations techniques):
 
 \begin{enumerate}[(a)]
 \itemsep=0em
-\item Optimisation de la localisation des traces en effectuant une
-  correction verticale de l'ensemble du réseau.
-\item Soustraction du background du CCD, construit à partir des pixels
-  qui sont en dehors des traces. 
-\item Extraction des spectres en unité de coups par pixel, projection dans
+\item optimisation de la localisation des traces en effectuant une
+  correction verticale de l'ensemble du réseau;
+\item soustraction du background du CCD, construit à partir des pixels
+  qui sont en dehors des traces;
+\item extraction des spectres en unité de coups par pixel, projection dans
   l'espace des longueur d'onde grâce à la solution en longueur d'onde,
-  puis création du cube grâce à l'identification spatiale des spaxels.
-\item Estimation de la déviation en longueur d'onde en mesurant les
+  puis création du cube grâce à l'identification spatiale des spaxels;
+\item estimation de la déviation en longueur d'onde en mesurant les
   raies telluriques et du ciel (connues). Cette correction
   $\Delta\lambda$ est ensuite convertie en une correction horizontale
-  $\Delta i$ de pixel.
-\item Répétition de l'étape (c) en corrigeant de la déviation $\Delta i$
+  $\Delta i$ de pixel;
+\item répétition de l'étape (c) en corrigeant de la déviation $\Delta i$
   mesurée dans (d) lors du passage de l'espace des pixels vers l'espace
-  des longueur d'onde.
-\item Application du cube Flat (exposition du dome) pour corriger la réponse relative des spaxels.
+  des longueurs d'onde;
+\item application du cube Flat (exposition du dome) pour corriger la réponse relative des spaxels.
 \end{enumerate}
 
-\section{Actuelle méthode d'extraction de source ponctuelle}
+\section{Méthode actuelle d'extraction de source ponctuelle}
 \label{ssec:pysedmextractstar}
 
 \subsection{Localisation de la cible}\label{ssec:targetlocpysedm}
 
-Avant d'extraire la source ponctuelle ciblée avec l'IFU, encore faut-il
+Avant d'extraire la source ponctuelle ciblée par l'IFU, encore faut-il
 pouvoir la localiser dans le MLA.
 
 Le faible champ de vue de l'IFU de la SEDm ne permet habituellement pas
 d'observer simultanément de nombreuses sources. En générale, seule la
 cible et sa galaxie hôte sont visibles dans la MLA, ce qui ne permet pas
-d'en résoudre la solution astrométrique.
+d'en déterminer la solution astrométrique.
 
 Une première option triviale est de la
 localiser manuellement. Mais l'automatisation de cette étape est bien
 entendue privilégiée. Dans le cas de l'observation d'une étoile standard isolée
 (pour la calibration photométrique), il est suffisant d'estimer sa
 position à partir des spaxels les plus brillants (ou la médiane de la
-position de N spaxels pour éviter un outlier comme un rayon cosmique).
+position de N spaxels pour éviter un point aberrant comme un rayon cosmique).
 
-Mais dans le cas de l'observation d'un transient, c'est un peu plus
-subtil. Cette dernière peut en effet être accompagnée de sa galaxie hôte
-dans le champ de vue, et la méthode des spaxels brillants ne marche en
+Mais dans le cas de l'observation d'un évènement transitoire, c'est un peu plus
+subtil. Cet objet peut en effet être accompagnée de sa galaxie hôte
+dans le champ de vue, et la méthode des spaxels brillants ne fonctionne en
 générale plus.
 
 Nous avons mentionné dans la section~\ref{ssec:sedm} que la SEDm était,
-en plus de l'IFU, équippée d'une Rainbow Camera, un canal
+en plus de l'IFU, équipée d'une Rainbow Camera, un canal
 photométrique avec un champ de vue bien plus important de
-$13\arcmin\times13\arcmin$. Le prisme d'interseption pour l'IFU étant
+$13\arcmin\times13\arcmin$. Le prisme d'interception pour l'IFU étant
 fixé, il est possible de déterminer une solution WCS (World Coordinate
 System) à partir des images de guidage, et de les projeter dans le MLA à
 une longueur d'onde de référence arbitraire. La solution WCS permet
@@ -381,21 +423,21 @@ ainsi de passer de l'espace des pixels/spaxels à l'espace des
 coordonnées célestes \textit{et vice versa}. Connaissant la position
 céleste de la cible (par détection photométrique avec la
 caméra ZTF), on peut ainsi déterminer sa position dans le MLA. Cette
-méthode est précise à environ $1-2\arcsec$ près.
+méthode est précise à environ $1-2\arcsec$ près \citep{pysedm}.
 
 \subsection{Extraction de la source ponctuelle}\label{ssec:sourceextractpysedm}
 
 Une fois la position de la cible connue, on peut à présent en extraire
 le spectre du cube de données. La première étape est de modéliser la
-source ponctuelle, qui est entièrement définie par sa position, sa fonction
+source ponctuelle, qui est entièrement définie à chaque longueur d'onde par sa position, sa fonction
 d'étalement de point (PSF), et son amplitude. Il faut à cela
-rajouter une composante de fond, le background, qui doit modéliser le
-ciel (constante) mais également la lumière de la galaxie hôte, considéré ici
-comme un background structuré.
+rajouter une composante de fond qui doit modéliser le
+fond de ciel (constante), mais également la galaxie hôte,
+une éventuelle composante structurée de lumière et diffusée dans l'instrument.
 
 Le processus d'extraction est la scission du cube 3D en N$\times$2D
 meta-tranches indépendantes (1 meta-tranche étant un empilement de $n$
-tranches pour un meilleur ratio signal/bruit), l'extraction de la source ponctuelle dans chacune
+tranches monochromatiques pour un meilleur rapport signal/bruit), l'extraction de la source ponctuelle dans chacune
 d'elles, et enfin l'extrapolation à tout le cube en modélisant la
 chromaticité.
 Dans un premier temps le pipeline \pysedm\ considère un disque de rayon $10$
@@ -407,42 +449,41 @@ de rayon $10$ spaxels).
 Raisonnons en 2D. Dans chaque meta-tranche nous avons à déterminer:
 \begin{itemize}[label=$\bullet$]
 \itemsep0em 
-\item \textbf{Le background}, qui est structuré à cause de la
+\item \textbf{Le fond}, structuré à cause de la
   présence potentielle de la galaxie hôte dans le champ de vue, est
-  modélisé par un polynome d'ordre $2$, et a ainsi $3$ paramètres libres. 
-\item \textbf{L'amplitude} de la source ponctuelle, $1$ paramètre libre.
-\item \textbf{La position} ($x$, $y$) de la source ponctuelle, $2$ paramètres libres.
+  modélisé par un plan incliné et a ainsi $3$ paramètres libres ($b_{0}$,$b_{x}$,$b_{y}$);
+\item \textbf{L'amplitude} de la source ponctuelle, $1$ paramètre libre;
+\item \textbf{La position} ($x$, $y$) de la source ponctuelle, $2$ paramètres libres;
 \item \textbf{La PSF} de la source ponctuelle, modélisée par une
-  combinaison linaire Gaussienne + Moffat (\citet{Butonthese},
-  \citet{Buton2013}). Ce modèle est paramétré avec $3$ paramètres libres
+  combinaison linéaire Gaussienne + Moffat \citep{Butonthese,Buton2013}. Ce modèle est paramétré avec $3$ paramètres libres
   dans \citet{pysedm}: le rayon de la Moffat, celui de la Gaussienne et
   le poids entre les deux distributions. Il faut également rajouter $2$ paramètres libres
   d'ellipticité (un pour l'angle, l'autre pour l'excentricité).
 \end{itemize}
 
-Tous ces paramètres sont fittés pour chaque meta-tranches prises
+Tous ces paramètres sont ajustés pour chaque meta-tranches prises
 indépendamment les unes des autres.
 
-Le set de paramètres ainsi obtenu est utilisé pour déterminer la
+Le jeu de paramètres ainsi obtenu est utilisé pour déterminer la
 chromaticité de la position et de la PSF. L'amplitude et
-le background sont des paramètres de nuisance à ce stade.
+le fond sont des paramètres de nuisance à ce stade.
 Dans \pysedm, la chromaticité de l'ellipticité, du rayon de la Moffat et du poids entre la
 Gaussienne et la Moffat sont modélisés par une constante. La
 chromaticité du rayon de la
 Gaussienne est modélisé par une loi de puissance.
 Quant à la position, sa chromaticité est due à la réfraction de la
-lumière par l'atmosphère. C'est ce qu'on appelle l'ADR (Atmospheric
-Differential Refraction). Nous détaillerons en détail cet effet et sa
+lumière par l'atmosphère. C'est ce qu'on appelle l'ADR (\textit{Atmospheric
+Differential Refraction}). Nous détaillerons en détail cet effet et sa
 modélisation dans la
 Partie II de ce manuscrit (Section~\ref{ssec:adr}).
 Ainsi, les paramètres des modèles de chromaticités sont à leur tour
-fittés à partir du set de paramètres obtenu avec les N$\times$2D
+ajustés à partir du jeu de paramètres obtenu avec les N$\times$2D
 meta-tranches.
 
 Une fois cela effectué, la PSF et la position de la cible sont fixées pour
 chaque longueur d'onde, et un dernier fit linéaire sur l'ensemble du
 cube est effectué pour les
-paramètres du background et de l'amplitude de la PSF. L'extraction de
+paramètres du fond et de l'amplitude de la PSF. L'extraction de
 cette amplitude à chaque longueur d'onde du cube de données fournit
 ainsi le spectre de la source ponctuelle.
 
@@ -450,8 +491,9 @@ ainsi le spectre de la source ponctuelle.
 \subsection{Calibration en flux}\label{ssec:calibpysedm}
 
 Le spectre extrait dans la section~\ref{ssec:sourceextractpysedm} étant en
-unité de pseudo-ADU (Analog to Digital Units), il faut à présent procéder à sa
+unité de pseudo-ADU (\textit{Analog to Digital Units}), il faut à présent procéder à sa
 calibration afin de pouvoir l'exprimer en unité de flux physique.
+
 Le spectre d'une source astronomique observée peut être exprimé suivant
 le formalisme suivant \citep{Buton2013}:
 
@@ -460,26 +502,25 @@ le formalisme suivant \citep{Buton2013}:
   S(\lambda,t,z)=S^{\star}(\lambda,t)\times\mathcal{C}_{atm}(\lambda,t,z)\times\mathcal{C}_{inst}(\lambda,t)\times\mathcal{T}(\lambda,t,z)
 \end{equation}
 avec $S^{\star}(\lambda,t)$ le spectre instrinsèque de la source en
-unités physiques ($erg/cm^2/s/$\AA), $\mathcal{C}_{atm}(\lambda,t,z)$
+unités physiques (erg.cm$^{-2}$.s$^{-1}$.\AA$^{-1}$), $\mathcal{C}_{atm}(\lambda,t,z)$
 l'extinction atmosphérique, $\mathcal{C}_{inst}(\lambda,t)$ la réponse
 instrumentale et $\mathcal{T}(\lambda,t,z)$ l'absorption tellurique qui
-dépend de la masse d'air le long de la ligne de visée. L'extinction
+dépend de la masse d'air $z$ le long de la ligne de visée. L'extinction
 atmosphérique utilisée pour le Mont Palomar est celle de
 \citep{Hayes1975atm}, et est appliquée lors de la création des cubes
 SEDm. Le spectre extrait en pseudo-ADU est donc déjà corrigé de cette
 composante, et la calibration revient finalement à déterminer $\mathcal{C}_{inst}(\lambda,t)$ et $\mathcal{T}(\lambda,t,z)$ pour isoler $S^{\star}$.
 
-Le formalisme de calibration de notre spectre en pseudo-ADU est ainsi: 
+Le formalisme de calibration de notre spectre s'écrit: 
 \begin{equation*} 
-  S_{pADU}(\lambda,t,z) = \frac{S(\lambda,t,z)}{\mathcal{C}_{atm}(\lambda,t,z)}=S^{\star}(\lambda,t)\times\mathcal{C}_{inst}(\lambda,t)\times\mathcal{T}(\lambda,t,z)
+  \tilde{S}(\lambda,t,z) = \frac{S(\lambda,t,z)}{\mathcal{C}_{atm}(\lambda,t,z)}=S^{\star}(\lambda,t)\times\mathcal{C}_{inst}(\lambda,t)\times\mathcal{T}(\lambda,t,z)
 \end{equation*}
 
-Les spectres
-telluriques utilisées sont ceux du Kitt Peak National
+Les spectres telluriques utilisés sont ceux du Kitt Peak National
 Observatory\footnote{\url{http://www.noao.edu/kpno/}} \citep{Hinkle2003}, scindés en deux
 catégories de longueur d'onde: l'$\text{O}_{2}$ et
 l'$\text{H}_{2}\text{O}$.
-L'absoption tellurique, dépendant de la masse d'air, est alors exprimée suivant:
+L'absorption tellurique, dépendant de la masse d'air, est exprimée suivant:
 
 \begin{equation}
   \label{eq:telluricpysedm}
@@ -491,36 +532,35 @@ Où les amplitudes relatives $c_{i}$ et les dépendances en masse d'air
 $\rho_{i}$ sont des paramètres libres. Quant à la réponse instrumentale
 $\mathcal{C}_{inst}$, elle est modélisée par un polynome de Legendre d'ordre $20$.
 
-La détermination des composantes $\mathcal{C}_{inst}$ et $\mathcal{T}$ est alors la suivante:
+La détermination des composantes $\mathcal{C}_{inst}$ et $\mathcal{T}$
+se fait selon les étapes suivantes:
 
 \begin{enumerate}[(a)]
   \itemsep=0em
-\item On observe des étoiles standard du catalogue Calspec
-  \citep{Bohlinstdcalpsec} avec la SEDm.
-\item On en extrait le spectre en pseudo-ADU avec la méthode
+\item on observe des étoiles standard du catalogue Calspec
+  \citep{Bohlinstdcalpsec} avec la SEDm;
+\item on en extrait le spectre en pseudo-ADU avec la méthode
   d'extraction de source ponctuelle
-  (Section~\ref{ssec:sourceextractpysedm}).
-\item On récupère dans les archives calspec\footnote{\url{https://archive.stsci.edu/hlsps/reference-atlases/cdbs/current_calspec/}} le spectre
-  spectrophotométrique correspondant à l'étoile standard observée.
-\item Les composantes de réponse instrumentale $\mathcal{C}_{inst}$ et
-  d'absoption telluriques $\mathcal{T}$ sont fittées simultanément en
-  minimisant la quantité ~$(S_{pADU}/S_{ref}) - (\mathcal{C}_{inst}\times\mathcal{T})$.
+  (Section~\ref{ssec:sourceextractpysedm});
+\item on récupère dans les archives calspec\footnote{\url{https://archive.stsci.edu/hlsps/reference-atlases/cdbs/current_calspec/}} le spectre
+  spectrophotométrique correspondant à l'étoile standard observée;
+\item les composantes de réponse instrumentale $\mathcal{C}_{inst}$ et
+  d'absorption telluriques $\mathcal{T}$ sont ajustés simultanément en
+  minimisant la quantité ~$(\tilde{S}/S_{calspec}) - (\mathcal{C}_{inst}\times\mathcal{T})$.
 \end{enumerate}
 
-Au moins une étoile standard est observée chaque nuit. La calibration
+Au moins une étoile standard est observée chaque nuit avec la SEDm. La calibration
 d'une observation scientifique se fait en considérant la masse d'air
-associée (l'absorption tellurique est airmass-dépendante). On obtient
+associée (l'absorption tellurique en étant dépendant). On obtient
 alors le spectre calibré simplement en effectuant l'opération:
 \begin{equation*}
-  S^{\star}(\lambda,t,z)=\frac{S_{pADU}(\lambda,t)}{\mathcal{C}_{inst}(\lambda,t)\times\mathcal{T}(\lambda,t,z)}
+  S^{\star}(\lambda,t,z)=\frac{\tilde{S}(\lambda,t)}{\mathcal{C}_{inst}(\lambda,t)\times\mathcal{T}(\lambda,t,z)}
 \end{equation*}
-
-On appelle la quantité $(\mathcal{C}_{inst}\times\mathcal{T})$ la courbe de
-sensibilité inverse.
 La précision de la calibration en flux des spectres de science acquis
-avec la SEDm en utilisant le pipeline \pysedm\ est de l'ordre de quelques pourcents.
+avec la SEDm en utilisant le pipeline \pysedm\ est de l'ordre de
+quelques pourcents \citep{pysedm}.
 
-\section{Classification}\label{sec:snid}
+\section{Classification spectrale}\label{sec:snid}
 
 Rappelons que le rôle premier de la SEDm au sein de la collaboration ZTF
 est la \underline{classification} des évènements transitoires. 
@@ -531,15 +571,16 @@ est un software écrit en \pkg{IDL} utilisant une méthode de
 minimisation de $\chi^{2}$, et \pkg{SNID} est quant à lui écrit
 en \pkg{fortran} et utilise l'algorithme de corrélation croisée de \citet{TonryDavis}.
 Nous pouvons également mentionner le plus récent classifieur de
-supernovae \pkg{DASH} \citep{MuthukrishnaDash}, utilisant une approche de deep learning.
+supernovae \pkg{DASH} \citep{MuthukrishnaDash}, utilisant une approche de \textit{deep learning}.
 
 Dans le pipeline de réduction de données de la SEDm, c'est le
 classifieur \pkg{SNID} qui est utilisé. Ce dernier est disponible publiquement\footnote{\url{https://people.lam.fr/blondin.stephane/software/snid/}} et
 régulièrement mis à jour. Pour effectuer l'analyse des corrélations
 entre le spectre d'entrée et la base de données, un pré-traitement est
-effectué (section 2.3 de \citet{BlondinSNID}). Celui ci consiste en (1) Binner le spectre d'entrée en coordonées
-$\ln(\lambda)$, (2) Diviser par le continnum du spectre estimé à partir
-d'une spline d'ordre $13$ et enfin (3) Appliquer un filtre passe-bande d'ordre $4$.
+effectué \citep[section 2.3 de][]{BlondinSNID}. Celui ci consiste en (1) rééchantillonner le spectre d'entrée en coordonnées
+$\ln(\lambda)$, (2) diviser par le continnum du spectre estimé à partir
+d'une spline d'ordre $13$ et enfin (3) appliquer un filtre passe-bande
+pour lisser le spectre.
 
 La fiabilité de la classification est quantifiée par $2$ paramètres: le
 ratio ``hauteur-bruit'' $r$ qui quantifie l'importance du pic de la
@@ -561,83 +602,88 @@ lorsque le paramètre de qualité $r\text{lap}>5$. Nous présentons dans la
 Figure~\ref{fig:pysedmoutput} un exemple d'extraction de source
 ponctuelle avec \pysedm\ et sa classification avec \pkg{SNID}.
 
-La banque de modèles utilisée comme référence pour la classification est
+La base de modèles utilisée comme référence pour la classification est
 une combinaison de plusieurs set de données:
 \begin{itemize}
-  \item Le set d'entraînement utilisé par \pkg{DASH}
+  \item le set d'entraînement utilisé par \pkg{DASH}
     \citep{MuthukrishnaDash}: celui-ci est composé du \pkg{template-2.0}
     de \pkg{SNID}, de SNIb/c de \citet{Liu2014SNIbc},
     \citet{Mojdaz2016} et \citet{Liu2016}, ainsi que des spectres du programme SN Ia 7.0
-    de Berkeley \citep{Silverman2012}.
-  \item Les spectres SNIIP de \citet{GutierrezSNII}.
-  \item Les spectres SLSN-Ic de \citet{Liu2017SLSN}.
-  \item Plusieurs SLSN-I, SLSN-IIn et TDE ajoutés par J.D.Neill.
+    de Berkeley \citep{Silverman2012};
+  \item les spectres SNIIP de \citet{GutierrezSNII};
+  \item les spectres SLSN-Ic de \citet{Liu2017SLSN};
+  \item plusieurs SLSN-I, SLSN-IIn et TDE ajoutés par J. D. Neill.
 \end{itemize}
 
-Les spectres pour lesquels la date du maximum de luminosité ont été
-retirés.
-La banque de données finale utilisée pour \pkg{SNID} contient 3288 spectres de 312 SNe Ia, 1055 spectres de 80 SNe Ib/c, 620 spectres de 33 SNe II, 207 spectres de 35 SLSNe, 29 spectres de 7 TDE, 15 spectres de 3 LBVs, 11 spectres de 11 galaxies, 11 spectres de M-stars, et 1 spectre de 1 AGN.
-\begin{figure}
+La base de données finale utilisée pour \pkg{SNID} contient 3288
+spectres de 312 SNe Ia, 1055 spectres de 80 SNe Ib/c, 620 spectres de 33
+SNe II, 207 spectres de 35 SLSNe, 29 spectres de 7 TDE, 15 spectres de 3
+LBVs, 11 spectres de 11 galaxies, 11 spectres de M-stars, et 1 spectre
+de 1 AGN.
+
+\begin{figure}[ht]
   
-  \includegraphics[width=0.99\textwidth]{../figures/03_sedm/pysedmoutput.png}
+  \includegraphics[width=0.95\textwidth]{../figures/03_sedm/pysedmoutput.png}
   \caption[Exemple d'extraction de source ponctuelle avec
   \pysedm]{Exemple d'extraction de source ponctuelle avec \pysedm:
-    ZTF20aaifyrs. \textit{En haut, de gauche à droite}: (a) Image 2D intégré
+    ZTF20aaifyrs. \textit{En haut, de gauche à droite}: (a) Image 2D intégrée
     du cube 3D extrait suivant les étapes de la section~\ref{sec:pysedmcube}. La croix orange indique la position estimée de la source
   ponctuelle à partir des images de guidages de la RC
   (section~\ref{ssec:targetlocpysedm}). Les marqueurs noirs
   correspondent aux spaxels considérés pour l'extraction de la source. (b) Meta-tranche intégrée entre
-  $\lambda=[5750-6167]$\AA\, centré sur la position estimée de la source
-ponctuelle et de rayon $10$ spaxels. (c) Modèle fitté avec la composante
-de background et la PSF (section~\ref{ssec:sourceextractpysedm}). (d)
-Résidu Data-Modèle, le signal résiduel en bas correspond à un bout de la
+  $\lambda=[5750-6167]$\AA\, centrée sur la position estimée de la source
+ponctuelle et de rayon $10$ spaxels. (c) Modèle ajusté avec la composante
+de fond et la PSF (section~\ref{ssec:sourceextractpysedm}). (d)
+Résidu données-modèle, le signal résiduel en bas correspond à un bout de la
 galaxie hôte. (e) Profil radial de la source ponctuelle, exprimé en
-pseudo-ADU en fonction du rayon elliptique après soustraction du modèle de background. La courbe bleue
+pseudo-ADU (échelle linéaire) en fonction du rayon elliptique après soustraction du modèle de fond. La courbe bleue
 représente la composante Gaussienne, la courbe verte la Moffat et la
 courbe orange le profil modélisé total. Les données sont représentées par les
 marqueurs gris avec leur barre d'erreur. \textit{En bas}: Spectre
-extrait en noir, et le meilleur modèle de supernova fitté par \pkg{SNID}
-en rouge. On peut clairement voir ici que la source ponctuelle extraite
-est une Supernova de type Ia proche de son pic de luminosité.}
+extrait en noir, et le meilleur modèle de supernova ajusté par \pkg{SNID}
+en rouge. Ce modèle est celui d'une SNIa proche de son maximum de
+luminosité (phase $p=+1$ jour). On peut clairement voir ici que la source ponctuelle extraite
+est une supernova de type Ia.}
   \label{fig:pysedmoutput}
 \end{figure}
+%\clearpage
+\section{Amélioration de l'extraction}
 
-\section{Contamination par la galaxie hôte}
-
-Il est indéniable que le pipeline \pysedm, de par sa polyvalence et son
-automatisation, est d'une grande efficacité en ce qui concerne la
+Il est indéniable que le pipeline \pysedm est d'une grande efficacité en ce qui concerne la
 réduction de données et l'extraction de sources ponctuelles.
 
-Cependant cela n'est rendu possible que lorsque la source ponctuelle est
+La méthode d'extraction utilisée n'est cependant possible que lorsque la
+source ponctuelle est relativement
 isolée de sa galaxie hôte dans le champ de vue de l'IFU. Dans le cas
 contraire, nous entrons dans un régime de contamination qui nuit à la
 qualité de l'extraction, et a fortiori peut empêcher la classification
-spectral de la supernova. Sachant que la FWHM d'une source ponctuelle
+spectrale de la supernova. Sachant que la FWHM d'une source ponctuelle
 est de l'ordre de $2\arcsec$ pour la SEDm, il est raisonnable de
 considérer une contamination croissante par la galaxie hôte lorsque la
-distance angulaire passe en deça des $4\arcsec$, jusqu'à être presque
+séparation angulaire passe en deça des $4\arcsec$, jusqu'à être presque
 confondu dans le coeur de la galaxie hôte en deça de $2\arcsec$
 (n'oublions pas que le bulbe de la galaxie
-est également étendue). Hors nous pouvons voir dans la
+est également étendu). Hors nous pouvons voir dans la
 Figure~\ref{fig:cumulsnhostdist} \citep{FremlingZTFspec2020}, que près
-de $60\%$ des SNeIa sont à une distance angulaire inférieur à
+de $60\%$ des SNeIa sont à une distance angulaire inférieure à
 $4\arcsec$, et $40\%$ pour les supernovae à effondrement de coeur. Cette
 fraction passe à $45\%$ et $25\%$ en deça de $2\arcsec$ pour les SNeIa
 et CC SNe respectivement, et environ $20\%$
 et $10\%$ en deça de $1\arcsec$.
 
 
-\begin{figure}
-  \begin{minipage}[c]{0.55\textwidth}
+\begin{figure}[ht]
+  \begin{minipage}[c]{0.53\textwidth}
     \includegraphics[width=\textwidth]{../figures/03_sedm/cumulsnhostdist.png}
   \end{minipage}\hfill
-  \begin{minipage}[c]{0.42\textwidth}
-    \caption[Distribution cumulée du décalage angulaire entre les supernovae BTS et leur galaxie hôte]{Distribution cumulée du décalage angulaire, en
-    secondes d'arc, entre les supernovae BTS et leur galaxie hôte
-    (Figure 6 de \citet{FremlingZTFspec2020}). L'anagramme ``CC'' fait référence au
+  \begin{minipage}[c]{0.43\textwidth}
+    \caption[Distribution cumulée du décalage angulaire entre les
+    supernovae BTS et leur galaxie hôte]{Distribution cumulée du décalage angulaire, en
+    secondes d'arc, entre les supernovae de l'échantillon BTS (\textit{Bright Transient Survey}) et leur galaxie hôte.
+    Figure 6 de \citet{FremlingZTFspec2020}. L'acronyme ``CC'' fait référence au
     terme ``Core-Collapse''. Les supernovae de type Ia ont
   un redshift en moyenne plus élevé, ce qui explique cette
-  distribution de plus faible distance angulaire comparé aux autres types.}\label{fig:cumulsnhostdist}
+  distribution de plus faible distance angulaire comparée aux autres types.}\label{fig:cumulsnhostdist}
   \end{minipage}
 \end{figure}
 
@@ -649,33 +695,35 @@ modules \pkg{byecr} et \pkg{contsep}:
 \begin{itemize}[label=$\bullet$]
 \itemsep0em 
 \item \textbf{\pkg{BYECR}} a pour rôle de retirer
-les rayons cosmiques après construction des cubes de données, afin
-d'utiliser les informations spatiales. Ce module va
+les rayons cosmiques après construction des cubes de données. Ce module va
 normaliser le flux de chaque voxel en le divisant par le flux moyen dans
 un interval de $[-10,10]$ tranches spectrales. Une
-comparaison est ensuite effectué entre le flux du voxel considéré  et celui de ses $6$
+comparaison est ensuite effectuée entre le flux du voxel considéré et celui de ses $6$
 (structure hexagonale)
 voisins. Un écart supérieur à $5\sigma$ est considéré comme une présence
-d'un rayon cosmic, et le voxel en question est ainsi ignoré lors de
-l'extraction spectral de la source ponctuelle.
+d'un rayon cosmique, et le voxel en question est ainsi masqué lors de
+l'extraction spectrale de la source ponctuelle.
 \item \textbf{\pkg{CONSTEP}} Le but ici est de tenter d'ignorer
   automatiquement les spaxels où le flux est dominé par celui de la
   galaxie hôte. L'idée est de trouver le contour d'isomagnitude le moins
   brillant qui sépare la galaxie de la source
   ponctuelle. \citet{Kimcontsep} (Section 2.2 et Figure 2) utilise les images dans
   la bande $r$ du relevé PANSTARRS \citep{ChambersPanstarrs}, dans
-  lesquels une source ponctuelle fictive de magnitude $16$ est insérée à
-  la position céleste de détection. Cela permet alors de récupérer les
-  contours d'isomagnitude, et ainsi ne sélectionner ``que'' les spaxels
-  de la source ponctuelle lors de son extraction.
+  lesquelles une source ponctuelle fictive est insérée à
+  la position céleste de détection. En récupérant les
+  contours d'isomagnitude, \pkg{CONSTEP} ne sélectionne ``que'' les spaxels
+  de la source ponctuelle lors de son extraction en évitant ceux dominés
+  par la
+  galaxie hôte.
 \end{itemize}
 
-Vis à vis du problème de la contamination par la galaxie hôte, seul \pkg{contsep}
-est d'intérêt. Seulement, celui ci n'apporte qu'une augmentation de
+Seul \pkg{contsep} est d'intérêt pour le problème de contamination par
+la galaxie hôte. Seulement, celui ci n'apporte qu'une augmentation de
 l'ordre de $0.5\%$ du nombre de spectres classifiés (Table 2 de
 \citet{Kimcontsep}), aucun changement notable dans la distribution des
 $r\text{lap}$ obtenus avec \pkg{SNID}, et une amélioration globale de la
-classifcation de $1.5\%$ en se basant sur celles de l'échantillon BTS comme référence.
+classifcation de $1.5\%$ en se basant sur celles de l'échantillon BTS
+(\textit{Bright Transient Survey}) comme référence.
 
 En effet, \pkg{contsep} n'apporte (presque) aucun bénéfice dans le cas où
 l'astrométrie dans le MLA est peu précise et/ou quand la source ponctuelle n'est pas
@@ -683,14 +731,15 @@ séparée du coeur de la galaxie hôte.
 
 La Figure~\ref{fig:stronghost} illustre une telle situation, dans un cas
 extrême où la supernova (ici ZTF19acbjlnt) explose quasiment dans la ligne de visée du
-coeur de la galaxie.
+coeur de la galaxie ($\sim0\farcs8$).
 
-\begin{figure}
+\begin{figure}[ht]
   \centering
   \includegraphics[width=0.95\textwidth]{../figures/03_sedm/stronghost.png}
   \caption[Exemple de situation extrême de contamination de supernova
   par la galaxie hôte]{Exemple de situation extrême de contamination de
-    supernova par la galaxie hôte: ZTF19acbjlnt. \textit{À gauche} est représenté
+    supernova par la galaxie hôte: ZTF19acbjlnt, située à $\sim0\farcs8$
+    du centre de sa galaxie hôte. \textit{À gauche} est représenté
     une image 2D du cube intégrée entre $[5000-8000]$\AA. La croix
     orange indique la position estimée de la supernova à partir des
     images de guidage de la RC. Les marqueurs noirs indiquent les
@@ -698,17 +747,25 @@ coeur de la galaxie.
     noir et la tentative de classification par \pkg{SNID}. On voit ici
     clairement que c'est à la fois le coeur de la galaxie et la
     supernova qui ont été extraits. L'extraction avec \pkg{contsep} ne
-    change rien au résultat.}
+    change pas le résultat, le module ne faisant pas de distinction entre la SN et
+    la galaxie.}
   \label{fig:stronghost}
 \end{figure}
 
 Un moyen de lever cette contamination serait d'être en mesure de
 modéliser la galaxie elle-même, afin de complètement isoler la source
 ponctuelle dans le cube de données et ainsi procéder à une extraction
-propre. 
+propre.\\
 
-%\bibliographystyle{../main/aa_url}
-%\bibliography{99_references}
+L'objectif de cette thèse est donc de développer dans un premier temps une méthode de
+modélisation hyperspectrale de la galaxie hôte, en se servant
+de données acquises en amont de l'explosion de la supernova. Puis,
+plutôt que de simplement soustraire cette modélisation pour isoler la
+supernova, nous proposons dans ce travail de recherche le développement d'un modéliseur de
+scène ajustant simultanément toutes les composantes présentes dans le cube de données.
+
+\bibliographystyle{../main/aa_url}
+\bibliography{99_references}
 \end{document}
 
 %%% Local Variables:

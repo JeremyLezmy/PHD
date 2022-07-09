@@ -50,6 +50,7 @@
     "textcomp"
     "gensymb"
     "rotating"
+    "comment"
     "booktabs"
     "multirow"
     "tabularx"

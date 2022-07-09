@@ -17,6 +17,12 @@
 {Arnouts}, S. \& {Ilbert}, O. 2011, {LePHARE: Photometric Analysis for Redshift
   Estimate}, Astrophysics Source Code Library, record ascl:1108.009
 
+\bibitem[{{Bongard} {et~al.}(2011){Bongard}, {Soulez}, {Thi\'ebaut}, \&
+  {Pecontal}}]{Bongard2011}
+{Bongard}, S., {Soulez}, F., {Thi\'ebaut}, E., \& {Pecontal}, E. 2011,
+  \href{http://dx.doi.org/10.1111/j.1365-2966.2011.19480.x}{\color{magenta}\mnras},
+  \href{https://ui.adsabs.harvard.edu/abs/2011MNRAS.418..258B}{418, 258}
+
 \bibitem[{{Boquien} {et~al.}(2019){Boquien}, {Burgarella}, {Roehlly}, {Buat},
   {Ciesla}, {Corre}, {Inoue}, \& {Salas}}]{Boquien2019}
 {Boquien}, M., {Burgarella}, D., {Roehlly}, Y., {et~al.} 2019,
@@ -151,11 +157,6 @@
 {Koleva}, M., {Prugniel}, P., {Bouchard}, A., \& {Wu}, Y. 2009,
   \href{http://dx.doi.org/10.1051/0004-6361/200811467}{\color{magenta}\aap},
   \href{https://ui.adsabs.harvard.edu/abs/2009A&A...501.1269K}{501, 1269}
-
-\bibitem[{{Kormendy} \& {Ho}(2013)}]{Kormendy}
-{Kormendy}, J. \& {Ho}, L.~C. 2013,
-  \href{http://dx.doi.org/10.1146/annurev-astro-082708-101811}{\color{magenta}\araa},
-  \href{https://ui.adsabs.harvard.edu/abs/2013ARA&A..51..511K}{51, 511}
 
 \bibitem[{{Maraston}(2005)}]{Maraston2005}
 {Maraston}, C. 2005,

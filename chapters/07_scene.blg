@@ -4,49 +4,49 @@ The top-level auxiliary file: 07_scene.aux
 The style file: ../main/aa_url2.bst
 Database file #1: 99_references.bib
 Warning--entry type for "iminuit" isn't style-file defined
---line 1398 of file 99_references.bib
+--line 1603 of file 99_references.bib
 Warning--entry type for "kelsey_jordahl_2020_3946761" isn't style-file defined
---line 1529 of file 99_references.bib
+--line 1753 of file 99_references.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 15 entries,
+You've used 16 entries,
             3173 wiz_defined-function locations,
-            821 strings with 9523 characters,
-and the built_in function-call counts, 10697 in all, are:
-= -- 777
-> -- 1046
+            832 strings with 10083 characters,
+and the built_in function-call counts, 11905 in all, are:
+= -- 858
+> -- 1191
 < -- 8
-+ -- 356
-- -- 339
-* -- 1430
-:= -- 1848
-add.period$ -- 15
-call.type$ -- 15
-change.case$ -- 172
-chr.to.int$ -- 15
-cite$ -- 15
-duplicate$ -- 285
-empty$ -- 426
-format.name$ -- 377
-if$ -- 1941
++ -- 405
+- -- 387
+* -- 1611
+:= -- 2051
+add.period$ -- 16
+call.type$ -- 16
+change.case$ -- 192
+chr.to.int$ -- 16
+cite$ -- 16
+duplicate$ -- 305
+empty$ -- 460
+format.name$ -- 427
+if$ -- 2158
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 11
-newline$ -- 49
-num.names$ -- 60
-pop$ -- 163
+missing$ -- 12
+newline$ -- 52
+num.names$ -- 64
+pop$ -- 182
 preamble$ -- 1
-purify$ -- 172
+purify$ -- 192
 quote$ -- 0
-skip$ -- 239
+skip$ -- 258
 stack$ -- 0
-substring$ -- 318
-swap$ -- 268
+substring$ -- 348
+swap$ -- 304
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 135
+type$ -- 144
 warning$ -- 0
-while$ -- 55
+while$ -- 59
 width$ -- 0
-write$ -- 159
+write$ -- 170
 (There were 2 warnings)

@@ -24,6 +24,7 @@
     "fig:ifsgeneral"
     "ssec:sedm"
     "fig:sedmoverview"
+    "tab:sedmspecification"
     "sec:pysedmcube"
     "ssec:tracematch"
     "ssec:wavesol"
@@ -41,6 +42,8 @@
     "sec:snid"
     "fig:pysedmoutput"
     "fig:cumulsnhostdist"
-    "fig:stronghost"))
+    "fig:stronghost")
+   (LaTeX-add-bibliographies
+    "99_references"))
  :latex)
 

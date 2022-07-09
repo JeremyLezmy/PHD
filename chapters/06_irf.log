@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  3 JUL 2022 00:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  8 JUL 2022 21:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1182,6 +1182,10 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 \rot@float@box=\box122
 \rot@mess@toks=\toks50
 )
+(/usr/local/texlive/2021/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write6
+
+Excluding comment 'comment')
 (/usr/local/texlive/2021/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen357
@@ -1621,11 +1625,11 @@ Package minitoc Info: I0033
 (minitoc)             Writing 06_irf.mtc1.
 \openout4 = `06_irf.mtc1'.
 
-\tf@toc=\write6
-\openout6 = `06_irf.toc'.
+\tf@toc=\write7
+\openout7 = `06_irf.toc'.
 
 
-Chapitre 6.
+Chapitre 7.
 \openout4 = `06_irf.mtc'.
 
 \openout4 = `06_irf.mtc'.
@@ -1646,223 +1650,225 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
-LaTeX Warning: Reference `ssec:wavesol' on page 2 undefined on input line 44.
+LaTeX Warning: Reference `ssec:wavesol' on page 2 undefined on input line 45.
 
 
 LaTeX Warning: Reference `ch:sedm' on page 2 undefined on input line 53.
 
-<../figures/06_irf/arclamps.png, id=49, 932.13846pt x 1076.823pt>
+<../figures/06_irf/arclamps.png, id=50, 932.13846pt x 1076.823pt>
 File: ../figures/06_irf/arclamps.png Graphic file (type png)
 <use ../figures/06_irf/arclamps.png>
 Package pdftex.def Info: ../figures/06_irf/arclamps.png  used on input line 96.
 
-(pdftex.def)             Requested size: 227.62206pt x 262.94489pt.
+(pdftex.def)             Requested size: 318.66948pt x 368.13599pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [2]
-<../figures/06_irf/lineloc.pdf, id=69, 1231.7364pt x 1076.82304pt>
-File: ../figures/06_irf/lineloc.pdf Graphic file (type pdf)
-<use ../figures/06_irf/lineloc.pdf>
-Package pdftex.def Info: ../figures/06_irf/lineloc.pdf  used on input line 144.
-
-(pdftex.def)             Requested size: 450.69417pt x 394.01479pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<../figures/06_irf/linestd.pdf, id=72, 1228.1663pt x 1076.82304pt>
+<../figures/06_irf/mapsigmaCd.pdf, id=67, 411.8339pt x 350.1626pt>
+File: ../figures/06_irf/mapsigmaCd.pdf Graphic file (type pdf)
+<use ../figures/06_irf/mapsigmaCd.pdf>
+Package pdftex.def Info: ../figures/06_irf/mapsigmaCd.pdf  used on input line 1
+30.
+(pdftex.def)             Requested size: 247.88315pt x 210.76172pt.
+<../figures/06_irf/timefct_Cdline.pdf, id=69, 917.3571pt x 286.9119pt>
+File: ../figures/06_irf/timefct_Cdline.pdf Graphic file (type pdf)
+<use ../figures/06_irf/timefct_Cdline.pdf>
+Package pdftex.def Info: ../figures/06_irf/timefct_Cdline.pdf  used on input li
+ne 148.
+(pdftex.def)             Requested size: 450.69417pt x 140.96017pt.
+ [3 <../figures/06_irf/arclamps.png>] Excluding 'comment' comment.
+<../figures/06_irf/linestd.pdf, id=86, 1228.1663pt x 1076.82304pt>
 File: ../figures/06_irf/linestd.pdf Graphic file (type pdf)
 <use ../figures/06_irf/linestd.pdf>
-Package pdftex.def Info: ../figures/06_irf/linestd.pdf  used on input line 159.
+Package pdftex.def Info: ../figures/06_irf/linestd.pdf  used on input line 193.
 
 (pdftex.def)             Requested size: 450.69417pt x 395.14853pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \vbox (badness 1902) has occurred while \output is active []
-
- [3 <../figures/06_irf/arclamps.png>] [4 <../figures/06_irf/lineloc.pdf>]
-<../figures/06_irf/LSF.pdf, id=110, 1085.47574pt x 570.93298pt>
+Excluding 'comment' comment.
+<../figures/06_irf/LSF.pdf, id=88, 1085.0241pt x 570.93298pt>
 File: ../figures/06_irf/LSF.pdf Graphic file (type pdf)
 <use ../figures/06_irf/LSF.pdf>
-Package pdftex.def Info: ../figures/06_irf/LSF.pdf  used on input line 209.
-(pdftex.def)             Requested size: 386.96027pt x 203.53201pt.
+Package pdftex.def Info: ../figures/06_irf/LSF.pdf  used on input line 246.
+(pdftex.def)             Requested size: 432.48051pt x 227.56766pt.
+ [4 <../figures/06_irf/mapsigmaCd.pdf> <../figures/06_irf/timefct_Cdline.pdf
 
+pdfTeX warning: pdflatex (file ../figures/06_irf/timefct_Cdline.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 226--236
+Underfull \hbox (badness 10000) in paragraph at lines 261--271
 
  []
 
-[5 <../figures/06_irf/linestd.pdf>]
 <../figures/06_irf/SEDmResolution_wmodel.pdf, id=130, 1076.82304pt x 570.93298p
 t>
 File: ../figures/06_irf/SEDmResolution_wmodel.pdf Graphic file (type pdf)
 <use ../figures/06_irf/SEDmResolution_wmodel.pdf>
 Package pdftex.def Info: ../figures/06_irf/SEDmResolution_wmodel.pdf  used on i
-nput line 239.
+nput line 274.
 (pdftex.def)             Requested size: 409.71692pt x 217.22684pt.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Reference `fig:cigalesampling' on page 6 undefined on input line
- 287.
+LaTeX Warning: Reference `fig:cigalesampling' on page 5 undefined on input line
+ 315.
 
-<../figures/06_irf/lsfapplied.png, id=140, 859.86845pt x 428.41656pt>
+[5 <../figures/06_irf/linestd.pdf>]
+<../figures/06_irf/lsfapplied.png, id=161, 859.86845pt x 428.41656pt>
 File: ../figures/06_irf/lsfapplied.png Graphic file (type png)
 <use ../figures/06_irf/lsfapplied.png>
-Package pdftex.def Info: ../figures/06_irf/lsfapplied.png  used on input line 2
-94.
+Package pdftex.def Info: ../figures/06_irf/lsfapplied.png  used on input line 3
+22.
 (pdftex.def)             Requested size: 409.71692pt x 204.14061pt.
 
-LaTeX Warning: Reference `sec:intcube' on page 6 undefined on input line 302.
+
+LaTeX Warning: Reference `sec:intcube' on page 6 undefined on input line 330.
 
 
 LaTeX Warning: Reference `fig:intcube_ZTF18accrorf' on page 6 undefined on inpu
-t line 302.
+t line 330.
 
 
 LaTeX Warning: Reference `fig:cigalesampling' on page 6 undefined on input line
- 302.
+ 330.
 
 
-LaTeX Warning: Reference `sec:intcube' on page 6 undefined on input line 302.
+LaTeX Warning: Reference `sec:intcube' on page 6 undefined on input line 330.
 
 
 LaTeX Warning: Reference `fig:intcube_ZTF18accrorf' on page 6 undefined on inpu
-t line 302.
+t line 330.
 
 
 LaTeX Warning: Reference `fig:cigalesampling' on page 6 undefined on input line
- 302.
+ 330.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [6 <../figures/06_irf/LSF.pdf>] [7 <../figures/06_irf/SEDmResolution_wmodel.pdf
 > <../figures/06_irf/lsfapplied.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 333--341
+Underfull \hbox (badness 10000) in paragraph at lines 361--369
 
  []
 
 [8
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 413--414
+Underfull \hbox (badness 10000) in paragraph at lines 451--452
 
  []
 
-<../figures/06_irf/psfprofile.pdf, id=228, 916.08165pt x 408.28392pt>
+<../figures/06_irf/psfprofile.pdf, id=243, 916.08165pt x 408.28392pt>
 File: ../figures/06_irf/psfprofile.pdf Graphic file (type pdf)
 <use ../figures/06_irf/psfprofile.pdf>
 Package pdftex.def Info: ../figures/06_irf/psfprofile.pdf  used on input line 4
-51.
+88.
 (pdftex.def)             Requested size: 450.69417pt x 200.87074pt.
 [9]
-<../figures/06_irf/STD_correlation.pdf, id=240, 671.59433pt x 578.71695pt>
+<../figures/06_irf/STD_correlation.pdf, id=257, 671.59433pt x 578.71695pt>
 File: ../figures/06_irf/STD_correlation.pdf Graphic file (type pdf)
 <use ../figures/06_irf/STD_correlation.pdf>
 Package pdftex.def Info: ../figures/06_irf/STD_correlation.pdf  used on input l
-ine 487.
+ine 524.
 (pdftex.def)             Requested size: 182.09486pt x 156.90912pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 508.
+(hyperref)                removing `math shift' on input line 545.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\alpha' on input line 508.
+(hyperref)                removing `\alpha' on input line 545.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 508.
+(hyperref)                removing `math shift' on input line 545.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 508.
+(hyperref)                removing `math shift' on input line 545.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beta' on input line 508.
+(hyperref)                removing `\beta' on input line 545.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 508.
+(hyperref)                removing `math shift' on input line 545.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [10 <../figures/06_irf/psfprofile.pdf>]
-<../figures/06_irf/STD_alpha_beta_chromatic_corr.pdf, id=262, 1080.49484pt x 86
+<../figures/06_irf/STD_alpha_beta_chromatic_corr.pdf, id=279, 1076.82304pt x 86
 2.18112pt>
 File: ../figures/06_irf/STD_alpha_beta_chromatic_corr.pdf Graphic file (type pd
 f)
 <use ../figures/06_irf/STD_alpha_beta_chromatic_corr.pdf>
 Package pdftex.def Info: ../figures/06_irf/STD_alpha_beta_chromatic_corr.pdf  u
-sed on input line 520.
-(pdftex.def)             Requested size: 364.19667pt x 290.61179pt.
+sed on input line 557.
+(pdftex.def)             Requested size: 364.19667pt x 291.59846pt.
  [11 <../figures/06_irf/STD_correlation.pdf> <../figures/06_irf/STD_alpha_beta_
 chromatic_corr.pdf
 
 pdfTeX warning: pdflatex (file ../figures/06_irf/STD_alpha_beta_chromatic_corr.
 pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<../figures/06_irf/chromaticitybeta_alpha_corr.pdf, id=308, 842.04118pt x 448.9
-7647pt>
+<../figures/06_irf/chromaticitybeta_alpha_corr.pdf, id=322, 853.37448pt x 462.1
+6316pt>
 File: ../figures/06_irf/chromaticitybeta_alpha_corr.pdf Graphic file (type pdf)
 
 <use ../figures/06_irf/chromaticitybeta_alpha_corr.pdf>
 Package pdftex.def Info: ../figures/06_irf/chromaticitybeta_alpha_corr.pdf  use
-d on input line 543.
-(pdftex.def)             Requested size: 318.66948pt x 169.91403pt.
+d on input line 580.
+(pdftex.def)             Requested size: 318.66948pt x 172.5844pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 555.
+(hyperref)                removing `math shift' on input line 592.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\alpha' on input line 555.
+(hyperref)                removing `\alpha' on input line 592.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 555.
+(hyperref)                removing `math shift' on input line 592.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 555.
+(hyperref)                removing `math shift' on input line 592.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\sigma' on input line 555.
+(hyperref)                removing `\sigma' on input line 592.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 555.
+(hyperref)                removing `math shift' on input line 592.
 
-<../figures/06_irf/STD_correlation_matrix_betafixed.pdf, id=310, 671.59433pt x 
+<../figures/06_irf/STD_correlation_matrix_betafixed.pdf, id=324, 671.59433pt x 
 578.71695pt>
 File: ../figures/06_irf/STD_correlation_matrix_betafixed.pdf Graphic file (type
  pdf)
 <use ../figures/06_irf/STD_correlation_matrix_betafixed.pdf>
 Package pdftex.def Info: ../figures/06_irf/STD_correlation_matrix_betafixed.pdf
-  used on input line 569.
+  used on input line 606.
 (pdftex.def)             Requested size: 182.09486pt x 156.90912pt.
-<../figures/06_irf/STD_alpha_sigma_chromatic_corr.pdf, id=312, 1091.91838pt x 8
+<../figures/06_irf/STD_alpha_sigma_chromatic_corr.pdf, id=326, 1076.82304pt x 8
 62.18112pt>
 File: ../figures/06_irf/STD_alpha_sigma_chromatic_corr.pdf Graphic file (type p
 df)
 <use ../figures/06_irf/STD_alpha_sigma_chromatic_corr.pdf>
 Package pdftex.def Info: ../figures/06_irf/STD_alpha_sigma_chromatic_corr.pdf  
-used on input line 591.
-(pdftex.def)             Requested size: 364.19667pt x 287.5728pt.
+used on input line 628.
+(pdftex.def)             Requested size: 364.19667pt x 291.59846pt.
 [12 <../figures/06_irf/chromaticitybeta_alpha_corr.pdf> <../figures/06_irf/STD_
 correlation_matrix_betafixed.pdf
 
@@ -1870,136 +1876,132 @@ pdfTeX warning: pdflatex (file ../figures/06_irf/STD_correlation_matrix_betafix
 ed.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 
 >]
-<../figures/06_irf/chromaticitysigma_alpha_corr.pdf, id=346, 849.09108pt x 443.
-97647pt>
+<../figures/06_irf/chromaticitysigma_alpha_corr.pdf, id=360, 862.54688pt x 455.
+2187pt>
 File: ../figures/06_irf/chromaticitysigma_alpha_corr.pdf Graphic file (type pdf
 )
 <use ../figures/06_irf/chromaticitysigma_alpha_corr.pdf>
 Package pdftex.def Info: ../figures/06_irf/chromaticitysigma_alpha_corr.pdf  us
-ed on input line 614.
-(pdftex.def)             Requested size: 318.66948pt x 166.62625pt.
- [13 <../figures/06_irf/STD_alpha_sigma_chromatic_corr.pdf> <../figures/06_irf/
-chromaticitysigma_alpha_corr.pdf
-
-pdfTeX warning: pdflatex (file ../figures/06_irf/chromaticitysigma_alpha_corr.p
-df): PDF inclusion: multiple pdfs with page group included in a single page
->]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 627.
+ed on input line 650.
+(pdftex.def)             Requested size: 318.66948pt x 168.17822pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\eta' on input line 627.
+(hyperref)                removing `math shift' on input line 663.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 627.
+(hyperref)                removing `\eta' on input line 663.
 
-<../figures/06_irf/STD_alpha_eta_chromatic_corr.pdf, id=386, 1080.49484pt x 862
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 663.
+
+<../figures/06_irf/STD_alpha_eta_chromatic_corr.pdf, id=364, 1076.82304pt x 862
 .18112pt>
 File: ../figures/06_irf/STD_alpha_eta_chromatic_corr.pdf Graphic file (type pdf
 )
 <use ../figures/06_irf/STD_alpha_eta_chromatic_corr.pdf>
 Package pdftex.def Info: ../figures/06_irf/STD_alpha_eta_chromatic_corr.pdf  us
-ed on input line 643.
-(pdftex.def)             Requested size: 364.19667pt x 290.61179pt.
-[14 <../figures/06_irf/STD_alpha_eta_chromatic_corr.pdf>] [15] [16]
-<../figures/06_irf/STD_profile_allmeta.pdf, id=449, 1796.61166pt x 1447.56813pt
+ed on input line 679.
+(pdftex.def)             Requested size: 364.19667pt x 291.59846pt.
+[13 <../figures/06_irf/STD_alpha_sigma_chromatic_corr.pdf>] [14 <../figures/06_
+irf/chromaticitysigma_alpha_corr.pdf>] [15 <../figures/06_irf/STD_alpha_eta_chr
+omatic_corr.pdf>] [16]
+<../figures/06_irf/STD_profile_allmeta.pdf, id=455, 1782.48895pt x 1447.56813pt
 >
 File: ../figures/06_irf/STD_profile_allmeta.pdf Graphic file (type pdf)
 <use ../figures/06_irf/STD_profile_allmeta.pdf>
 Package pdftex.def Info: ../figures/06_irf/STD_profile_allmeta.pdf  used on inp
-ut line 863.
-(pdftex.def)             Requested size: 432.48051pt x 348.4395pt.
-<../figures/06_irf/adr_std.pdf, id=451, 990.74573pt x 691.98859pt>
+ut line 894.
+(pdftex.def)             Requested size: 500.77129pt x 406.66368pt.
+<../figures/06_irf/adr_std.pdf, id=457, 1006.61116pt x 695.763pt>
 File: ../figures/06_irf/adr_std.pdf Graphic file (type pdf)
 <use ../figures/06_irf/adr_std.pdf>
-Package pdftex.def Info: ../figures/06_irf/adr_std.pdf  used on input line 880.
+Package pdftex.def Info: ../figures/06_irf/adr_std.pdf  used on input line 911.
 
-(pdftex.def)             Requested size: 273.14923pt x 190.77788pt.
+(pdftex.def)             Requested size: 450.69417pt x 311.51923pt.
  [17]
-<../figures/06_irf/chromaticity_psf.pdf, id=462, 1073.50009pt x 396.91988pt>
+<../figures/06_irf/chromaticity_psf.pdf, id=469, 1075.27809pt x 401.0907pt>
 File: ../figures/06_irf/chromaticity_psf.pdf Graphic file (type pdf)
 <use ../figures/06_irf/chromaticity_psf.pdf>
 Package pdftex.def Info: ../figures/06_irf/chromaticity_psf.pdf  used on input 
-line 914.
-(pdftex.def)             Requested size: 318.66948pt x 117.82318pt.
-<../figures/06_irf/stdspectra_adu.pdf, id=464, 932.28299pt x 379.0417pt>
+line 947.
+(pdftex.def)             Requested size: 450.69417pt x 168.11421pt.
+<../figures/06_irf/stdspectra_adu.pdf, id=471, 932.28299pt x 379.0417pt>
 File: ../figures/06_irf/stdspectra_adu.pdf Graphic file (type pdf)
 <use ../figures/06_irf/stdspectra_adu.pdf>
 Package pdftex.def Info: ../figures/06_irf/stdspectra_adu.pdf  used on input li
-ne 931.
-(pdftex.def)             Requested size: 318.66948pt x 129.56651pt.
-
-[18 <../figures/06_irf/STD_profile_allmeta.pdf>] [19 <../figures/06_irf/adr_std
-.pdf> <../figures/06_irf/chromaticity_psf.pdf
+ne 964.
+(pdftex.def)             Requested size: 409.71692pt x 166.58221pt.
+ [18 <../figures/06_irf/STD_profile_allmeta.pdf>]
+[19 <../figures/06_irf/adr_std.pdf> <../figures/06_irf/chromaticity_psf.pdf
 
 pdfTeX warning: pdflatex (file ../figures/06_irf/chromaticity_psf.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
-> <../figures/06_irf/stdspectra_adu.pdf
-
-pdfTeX warning: pdflatex (file ../figures/06_irf/stdspectra_adu.pdf): PDF inclu
-sion: multiple pdfs with page group included in a single page
 >]
 
 LaTeX Warning: Reference `ssec:calibpysedm' on page 20 undefined on input line 
-948.
+982.
 
 <../figures/06_irf/telluricspec.pdf, id=573, 932.28299pt x 368.57701pt>
 File: ../figures/06_irf/telluricspec.pdf Graphic file (type pdf)
 <use ../figures/06_irf/telluricspec.pdf>
 Package pdftex.def Info: ../figures/06_irf/telluricspec.pdf  used on input line
- 984.
-(pdftex.def)             Requested size: 386.96027pt x 152.98471pt.
-[20
-
- <../figures/06_irf/telluricspec.pdf>]
+ 1017.
+(pdftex.def)             Requested size: 432.48051pt x 170.9816pt.
+[20 <../figures/06_irf/stdspectra_adu.pdf>]
 
 LaTeX Warning: Reference `ssec:3dcubecons' on page 21 undefined on input line 1
-031.
+059.
 
-<../figures/06_irf/calibmodel.pdf, id=603, 786.6319pt x 612.73253pt>
+<../figures/06_irf/calibmodel.pdf, id=603, 797.36523pt x 623.68231pt>
 File: ../figures/06_irf/calibmodel.pdf Graphic file (type pdf)
 <use ../figures/06_irf/calibmodel.pdf>
 Package pdftex.def Info: ../figures/06_irf/calibmodel.pdf  used on input line 1
-038.
-(pdftex.def)             Requested size: 386.96027pt x 301.41026pt.
-<../figures/06_irf/fluxcalstd.pdf, id=605, 785.28685pt x 531.07314pt>
+066.
+(pdftex.def)             Requested size: 432.48051pt x 338.27754pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21 <../figures/06_irf/telluricspec.pdf>] [22 <../figures/06_irf/calibmodel.pd
+f>]
+<../figures/06_irf/fluxcalstd.pdf, id=646, 804.50269pt x 541.48961pt>
 File: ../figures/06_irf/fluxcalstd.pdf Graphic file (type pdf)
 <use ../figures/06_irf/fluxcalstd.pdf>
 Package pdftex.def Info: ../figures/06_irf/fluxcalstd.pdf  used on input line 1
-080.
-(pdftex.def)             Requested size: 386.96027pt x 261.68674pt.
-[21]
-<../figures/06_irf/fluxcalstd_all_ratio.pdf, id=614, 1076.82304pt x 379.0417pt>
+112.
+(pdftex.def)             Requested size: 432.48051pt x 291.0863pt.
+
+[23 <../figures/06_irf/fluxcalstd.pdf>]
+<../figures/06_irf/fluxcalstd_all_ratio.pdf, id=667, 1076.82304pt x 379.0417pt>
 
 File: ../figures/06_irf/fluxcalstd_all_ratio.pdf Graphic file (type pdf)
 <use ../figures/06_irf/fluxcalstd_all_ratio.pdf>
 Package pdftex.def Info: ../figures/06_irf/fluxcalstd_all_ratio.pdf  used on in
-put line 1126.
+put line 1166.
 (pdftex.def)             Requested size: 450.69417pt x 158.64119pt.
- [22 <../figures/06_irf/calibmodel.pdf>]
-<../figures/06_irf/rmsallstd_fluxcalibration.pdf, id=641, 1221.36305pt x 711.85
+<../figures/06_irf/rmsallstd_fluxcalibration.pdf, id=670, 1221.36305pt x 711.85
 951pt>
 File: ../figures/06_irf/rmsallstd_fluxcalibration.pdf Graphic file (type pdf)
 <use ../figures/06_irf/rmsallstd_fluxcalibration.pdf>
 Package pdftex.def Info: ../figures/06_irf/rmsallstd_fluxcalibration.pdf  used 
-on input line 1151.
+on input line 1188.
 (pdftex.def)             Requested size: 450.69417pt x 262.67786pt.
- (./06_irf.bbl (./06_irf.brf)
-\tf@brf=\write7
-\openout7 = `06_irf.brf'.
+ [24 <../figures/06_irf/fluxcalstd_all_ratio.pdf>] [25 <../figures/06_irf/rmsal
+lstd_fluxcalibration.pdf>] (./06_irf.bbl (./06_irf.brf)
+\tf@brf=\write8
+\openout8 = `06_irf.brf'.
 
-
-[23 <../figures/06_irf/fluxcalstd.pdf>] [24 <../figures/06_irf/fluxcalstd_all_r
-atio.pdf>] [25 <../figures/06_irf/rmsallstd_fluxcalibration.pdf>] [26
+ [26
 
 ]
 
 Package hyperref Warning: Suppressing empty link on input line 40.
 
-[27])
+[27
+
+])
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the 06_irf.maf file.
@@ -2019,16 +2021,16 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `06_irf.brf' has not changed.
-(rerunfilecheck)             Checksum: 25C589890B987F5E2DAE6612F825FAD7;1449.
+(rerunfilecheck)             Checksum: 243909741E4D0CCA9E0B181079C0E5FC;1449.
  ) 
 Here is how much of TeX's memory you used:
- 47286 strings out of 478994
- 1001432 string characters out of 5858184
- 1545555 words of memory out of 5000000
- 63313 multiletter control sequences out of 15000+600000
- 438985 words of font info for 248 fonts, out of 8000000 for 9000
+ 47348 strings out of 478994
+ 1002610 string characters out of 5858184
+ 1547647 words of memory out of 5000000
+ 63362 multiletter control sequences out of 15000+600000
+ 440788 words of font info for 253 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 137i,13n,148p,885b,913s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 137i,16n,148p,885b,909s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<
 /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
@@ -2037,32 +2039,34 @@ sr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></us
 r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/
 local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/lo
 cal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loca
-l/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/
-texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/te
-xlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texl
-ive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive
-/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/20
-21/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/202
-1/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/t
-exmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2021/tex
-mf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2021/texmf
--dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2021/texmf-d
-ist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2021/texmf-dis
-t/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2021/texmf-dist/
-fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2021/texmf-dist/fo
-nts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2021/texmf-dist/font
-s/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2021/texmf-dist/fonts/
-type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/ty
-pe1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type
-1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/
-public/cm-super/sftc1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pu
-blic/cm-super/sfti1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publ
-ic/cm-super/sftt1000.pfb>
-Output written on 06_irf.pdf (28 pages, 3199700 bytes).
+l/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/
+texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/te
+xlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texl
+ive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texliv
+e/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2
+021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2021/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/tex
+mf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2021/texmf
+-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2021/texmf-d
+ist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2021/texmf-dis
+t/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2021/texmf-dist/
+fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2021/texmf-dist/fo
+nts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2021/texmf-dist/font
+s/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2021/texmf-dist/fonts/
+type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2021/texmf-dist/fonts/ty
+pe1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type
+1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/
+public/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pu
+blic/cm-super/sfrm2074.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publ
+ic/cm-super/sftc1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public
+/cm-super/sfti1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/c
+m-super/sftt1000.pfb>
+Output written on 06_irf.pdf (28 pages, 3375055 bytes).
 PDF statistics:
- 943 PDF objects out of 1000 (max. 8388607)
- 778 compressed objects within 8 object streams
+ 954 PDF objects out of 1000 (max. 8388607)
+ 784 compressed objects within 8 object streams
  110 named destinations out of 1000 (max. 500000)
- 80656 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 84757 words of extra memory for PDF output out of 89155 (max. 10000000)
 

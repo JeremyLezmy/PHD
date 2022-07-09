@@ -1,7 +1,7 @@
 \documentclass[../main/main.tex]{subfiles}
 \begin{document}
-%\dominitoc
-%\faketableofcontents
+\dominitoc
+\faketableofcontents
 \setcounter{chapter}{4}
 \chapter{\hypergal: Modéliseur de scène pour l'extraction de sources ponctuelles}\label{ch:hypergal}
 
@@ -45,31 +45,31 @@ C'est pour répondre à cette problématique que nous introduisons
 
 \subsection{Problématique}
 
-Le champ de vue de la SEDm étant étroit ($28\times28\arcsec$), nous
+Le champ de vue de la SEDm étant étroit ($28\arcsec\times28\arcsec$), nous
 avons en général $3$ composantes qui composent la
 scène, à savoir le fond du ciel, la galaxie hôte et la source ponctuelle.
 
-La difficulté majeure d'une modélisation de scène spectrale provient de la chromaticité de chacune de ces
+La difficulté majeure d'une modélisation de scène hyperspectrale (3D) provient de la chromaticité de chacune de ces
 composantes, et plus particulièrement de la galaxie qui est une source
 structurée de forme et chromaticité variable.
 
-Une première idée serait d'attendre l'extinction de l'évènement
+Une première idée serait d'attendre l'atténuation de l'évènement
 transitoire, réobserver l'hôte, et projeter cette seconde acquisition
 dans l'espace de la première observation afin d'isoler la source
-ponctuelle. Une telle approche est envisageable pour une extraction de
+ponctuelle \citep{Bongard2011}. Une telle approche est envisageable pour une extraction de
 quelques cibles, mais en aucun cas à notre époque où les relevés grands
-champs et à haute cadence deviennent légions et observent des milliers
+champs et à haute cadence deviennent légion et observent des milliers
 de supernovae par an.
 
 Le but d'\hypergal\ est de pouvoir modéliser la scène observée
-par la SEDm après réduction des données, c'est à dire le cube 3D, à la
-volée des observations.
+par la SEDm après réduction des données, c'est à dire le cube 3D,
+directement après l'observation.
 
 Il va donc non seulement falloir trouver un moyen de modéliser chacune
 des composantes, mais également de les projeter dans l'espace des
-observations de la SEDm. Cela implique une étude profonde des caractéristiques de
+observations de la SEDm. Cela implique une étude approfondie des caractéristiques de
 l'instrument mais également de prendre en compte les conditions
-environnementales comme l'atmosphère le long de la ligne de visée.
+d'observation comme l'atmosphère le long de la ligne de visée.
 
 
 \subsection{La composante galactique}
@@ -79,51 +79,55 @@ avons des informations sur la galaxie hôte \underline{avant}
 l'apparition de l'évènement transitoire. En effet, d'autres relevés
 astronomiques comme le Sloan Digital Sky Survey (SDSS;
 \citet{YorkSDSS2000}) ou Panstarrs \citep{ChambersPanstarrs} ont couvert
-des portions communes de ciel avec ZTF, et permettent donc de remonter à
-des informations photométriques de la galaxie encore isolée de la supernova.
+des portions de ciel communes avec ZTF, et permettent donc de remonter à
+des informations photométriques de la galaxie encore exempte de la supernova.
 
-Sauf que nous souhaitons une modélisation spectrale. Il faut donc un
-moyen de passer de l'espace photométrique à l'espace spectral, autrement
-dit estimer la Spectral Energy Distribution (SED) de la galaxie. 
+Souhaitant une modélisation spectrale de la galaxie, il faut donc un
+moyen de passer de l'espace photométrique à l'espace hyperspectral, autrement
+dit estimer la distribution spectrale en énergie (\textit{Spectral Energy Distribution}, SED) de la galaxie. 
 
-Plus précisément encore, l'objectif est de pouvoir recréer un cube
-3Dcontenant uniquement la galaxie, afin de pouvoir le projeter dans
-l'espace de la SEDm en prenant en compte les propriétés de l'instrument et les
+L'objectif est de pouvoir recréer un cube
+3D contenant uniquement la galaxie et de le projeter dans
+l'espace de la SEDm, en prenant en compte les propriétés de l'instrument et les
 conditions d'observation. 
-Donc non seulement il faut être en mesure de passer de l'espace
-photométrique à l'espace spectral, mais il faut le faire localement pour
+La modélisation doit donc se faire localement pour
 que chaque spaxel du cube modèle ait son propre spectre associé.
 
 Une approche triviale de ce problème serait de partir d'images de
 plusieurs bandes
 photométriques de la galaxie, et interpoler un spectre pour chaque pixel
-de ces images à l'aide d'un
-simple polynome. Cela permettrait de créer un cube 3D avec une source structurée.
+de ces images à l'aide par exemple d'un
+simple polynome. Cela permettrait de créer un cube 3D \textit{ad hoc}
+avec une source spatialement structurée.
 Mais grâce à l'avènement de nombreux instruments terrestres et spatiaux
 lancés au cours des dernières décennies, nous avons une certaine
 connaissance de la composition d'une galaxie, et ainsi des différentes
 contributions qui forment sa SED.
 
-L'idée est donc d'utiliser un SED Fitter appliqué aux données
+L'idée est donc d'ajuster la distribution spectrale en énergie avec les données
 photométriques de la galaxie, afin de construire un cube 3D qui servira de base pour le modéliseur de scène.
 
-\section{SED Fitting}\label{sec:sedfitting}
+\section{Ajustement de la distribution spectrale en énergie}\label{sec:sedfitting}
 \subsection{SED d'une galaxie}
 
-Bien évidemment il est impossible de parler de SED Fitter sans parler
-des connaissances existantes sur le spectre d'une galaxie.
+La distribution spectrale en énergie est, par définition, l'évolution de
+l'énergie émise par un objet en fonction de la longueur d'onde, à la
+différence d'un spectre où on trace le flux ou la densité de flux.
+
+Avant d'utiliser un ajusteur de SED nous allons aborder
+quelques connaissances physiques existantes du spectre d'une galaxie.
 
 Des rayons $\gamma$ au domaine radio, la SED d'une galaxie est définie par sa composition en matière
 baryonique, et de leurs intéractions physiques complexes. En mettant de côté la matière
-noire, une galaxie est composée d'étoiles de tout âge, de gaz atomiques
-moléculaires ou ionisés, de poussières et
-potentiellement d'un trou noir supermassif \citep{Kormendy}. Les étoiles
+sombre qui n'intéragit pas avec le champ électromagnétique, une galaxie
+est principalement composée d'étoiles de tout âge, de gaz atomiques
+moléculaires ou ionisés et de poussières. Les étoiles
 qui composent la galaxies (entre $10^{8}$ et $10^{14}$) émettent la
-lumière qui nous permet de la détecter. D'autre part, le gaz interstellaire
+lumière qui nous permet de la détecter. Le gaz interstellaire
 et la poussière vont quant à eux principalement altérer la SED: le gaz en ajoutant des raies
 d'émission et d'absorption, la poussière en provocant une atténuation par
-absorption dans l'UV/proche infrarouge et une diffusion des radiations, puis en
-ré-émettant dans l'infrarouge moyen/lointain.
+absorption et diffusion des radiations dans l'UV jusqu'au proche infrarouge, puis en
+ré-émettant cette énergie dans l'infrarouge moyen/lointain.
 
 L'état de ces composantes et
 leurs intéractions nous renseignent sur les propriétés physiques fondamentales
@@ -143,10 +147,10 @@ présentés dans la Figure~\ref{fig:specgalsdss}.
   \caption[Exemple de spectres de galaxies]{Exemple de spectres de
     galaxies (crédit SDSS). \textit{À gauche}, le spectre d'une galaxie
     spirale avec présence d'une forte raie d'émission
-    $\text{H}_{\alpha}$. Cela se traduit par une forte présence d'étoiles
+    $\text{H}\alpha$. Cela se traduit par une forte présence d'étoiles
   jeunes (bleues) et de gaz qui favorise la formation stellaire. \textit{À droite},
 le spectre d'une galaxie elliptique. On peut remarquer d'une part
-l'abscence de raie d'émission $\text{H}_{\alpha}$, d'autre part une
+l'abscence de raie d'émission $\text{H}\alpha$, d'autre part une
 forte perte en flux vers $4000$\AA. Cela trahit la très faible présence
 d'étoiles jeunes (bleues) dans la galaxie et un faible taux de formation
 stellaire.}
@@ -156,7 +160,7 @@ stellaire.}
 Modéliser une SED galactique revient donc à comprendre chacune de ces
 interactions et leur répercussions.
 
-Malgrès tout, certaines corrélations entre plusieurs paramètres rendent cette tâche
+Malgré tout, certaines corrélations entre plusieurs paramètres rendent cette tâche
 très difficile, comme par exemple la dégénerescence entre l'âge et la
 métallicité \citep{Worthey}, ou encore l'âge et l'atténuation
 \citep{Papovich}.
@@ -174,54 +178,53 @@ avec une approche plus théorique de modèles de transferts radiatifs
 \citep{WittGordon}.
 Comme mentionné précédemment, la poussière ré-émet dans l'infrarouge et
 l'étude et la modélisation de ce phénomène est un domaine actif de
-recherche \citep{Casey2012, Dale2014, Draine2007, CharyElbaz}.
+recherche \citep{CharyElbaz, Draine2007,Casey2012, Dale2014, Leja2017 }.
 
 La manipulation de modèles pour chaque processus physique en oeuvre dans
-une galaxie a permis l'émergence de nombreuses méthodes pour fitter une
+une galaxie a permis l'émergence de nombreuses méthodes pour ajuster une
 SED. Ces nouvelles techniques permettent ainsi d'inférer les propriétés intrinsèques des galaxies
 observées (locales, globales ou les deux), de pouvoir interpoler un
 spectre à partir d'informations photométriques ou encore d'en estimer le
 redshift.
 
-\subsection{SED Fitter}
+\subsection{Ajusteur de SED}
 
-Le fit d'une distribution énergétique spectrale d'une galaxie est la
+L'ajustement d'une distribution énergétique spectrale d'une galaxie est la
 méthode première permettant d'inférer ses propriétés physiques intrinsèques à
-partir d'observations. Ces propriétés peuvent ensuite être confrontés
+partir d'observations photométriques. Ces propriétés peuvent ensuite être confrontés
 aux prédictions provenant de théories d'évolution et formations de
-galaxies. De ce fait, l'utilisation de SED Fitter est une pratique très
+galaxies. De ce fait, l'utilisation d'un SED Fitter est une pratique très
 fréquente
 lorsqu'il s'agit de tester des hypothèses en astronomie extragalactique
 \citep{Tinsley1980, Walcher2011, Conroy2013, Chevallard2016, Briday22}. 
 
-Trois composantes sont nécessaires pour procéder à un fit de SED : un
+Trois composantes sont nécessaires pour procéder à un ajustement de SED : un
 modèle physique qui décrit les différentes contributions qui la
 composent, des données d'observations de la galaxie (photométriques
-et/ou spectroscopiques) et le fitteur lui-même qui va inférer la
+et/ou spectroscopiques) et l'ajusteur lui-même qui va inférer la
 combinaison adéquate entre les modèles physiques et les observations.
 
 De nombreuses techniques de SED Fitting ont été développées, certaines
 basées sur 
-la simple optimisation de maximum de vraisemblance, parfois appelée code
+la simple optimisation de vraisemblance, parfois appelée code
 d'inversion, comme dans \pkg{ULySS}\footnote{\url{http://ulyss.univ-lyon1.fr}}\citep{KolevaUlyss}, \pkg{FIREFLY}\footnote{\url{http://www.icg.port.ac.uk/firefly/}}
 \citep{WilkinsonFirefly} ou \pkg{LEPHARE}\footnote{\url{https://www.cfht.hawaii.edu/~arnouts/LEPHARE/lephare.html}} \citep{ArnoutsLephare} plus
 axé sur la détermination de redshift photométrique.
 
-Cette technique est très populaire de part sa rapidité de calcul et une
+Cette technique est très populaire de par sa rapidité de calcul et une
 certaine simplicité à mettre en place. Néanmoins ces avantages sont
-bridés par certaines limites. Par exemple, de part la haute
-non-Gaussianité de certains espaces de vraisemblance, un léger changement
+bridés par certaines limites. Par exemple un léger changement
 dans les données d'entrées (comme un bruit dans une image photométrique
 de galaxie) peut conduire à de grands écarts dans les paramètres
 inférés \citep{Ocvirk}.
-Par ailleurs, une méthode de maximum de vraisemblance peut être diffcile à adapter
+Par ailleurs, une méthode de maximum de vraisemblance peut être difficile à adapter
 à des modèles hautement non-linéaires comme l'émission par la poussière.
 
-Dans l'optique de résoudre ces problèmes, des techniques de forward-modeling
-Bayesien ont à leur tour été développées. Avec cette méthode, des
+Dans l'optique de résoudre ces problèmes, des techniques d'inférence
+bayésienne ont à leur tour été développées. Avec cette méthode, des
 grilles de paramètres sont pré-calculées puis comparées aux
 observations. Le calcul de vraisemblance est alors très rapidement
-déterminée, malgrés le fait que le nombre de modèle à calculer au
+déterminé, malgré le fait que le nombre de modèle à calculer au
 préalable croît exponentiellement à mesure que l'on rajoute des
 paramètres. Parmi les codes développés à partir de cette méthode, on peut citer \citet{Kauffman2003}, \citet{Salim2007}, le
 framework \pkg{CIGALE}\footnote{\url{https://cigale.lam.fr}}
@@ -229,7 +232,7 @@ framework \pkg{CIGALE}\footnote{\url{https://cigale.lam.fr}}
 \pkg{MAGPHYS}\footnote{\url{http://www.iap.fr/magphys/}}
 \citep{Cunha2008MAGPHYS}.
 
-Le succès du forward-modeling Bayesien a rapidement été adopté, et
+Cette approche, de par son succès, a rapidement été adoptée, et
 étendu à un couplage avec des algorithmes de Monte-Carlo par chaînes de
 Markov (MCMC) pour plus efficacement explorer l'espace des
 posterior. Cette extension, initiée par \citet{Acquaviva2011} avec
@@ -244,24 +247,24 @@ rapidement suivi de codes plus récents tels que
 \pkg{piXedfit}\footnote{\url{https://github.com/aabdurrouf/piXedfit}}
 \citep{Abdurro'ufPixedfit}.
 
-Nous terminerons la présentation des SED Fitter en mentionnant le site
+Nous terminerons la présentation des SED Fitters en mentionnant le site
 \url{sedfitting.org}, maintenu par Tamas Budavari, Daniel Dale, Brent
-Groves et Jakob Walcher qui regroupe la grande majorité des codes et set
+Groves et Jakob Walcher qui regroupe la grande majorité des codes et bases
 de modèles disponibles publiquement.
 
-\section{Présentation du Pipeline}\label{sec:pipeline}
+\section{Présentation générale du Pipeline}\label{sec:pipeline}
 %\label{sec:xxx}
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.99\textwidth]{../figures/04_hypergal/softdaghypergal.png}
+  \includegraphics[width=0.99\textwidth]{../figures/04_hypergal/softdaghypergal.pdf}
   \caption[Présentation du pipeline \hypergal]{Présentation du pipeline \hypergal.}
   \label{fig:softdaghypergal}
 \end{figure}
 
 Nous allons à présent introduire le modéliseur de scène \hypergal.
 Les étapes principales de ce pipeline sont présentées dans la
-Figure~\ref{fig:softdaghypergal}, et tracerons l'organisation de cette
+Figure~\ref{fig:softdaghypergal}, et traceront l'organisation de cette
 Partie du manuscrit.
 
 \subsection{Cube intrinsèque}
@@ -270,7 +273,7 @@ Comme abordé dans la section~\ref{sec:ideahypergal}, le coeur
 d'\hypergal\ repose sur la conception d'un cube 3D contenant la galaxie
 hôte isolée de sa supernova: c'est la modélisation hyperspectrale de la galaxie. Le but n'est pas de remonter aux propriétés
 intrinsèques de la galaxie, mais de simplement être en mesure
-d'interpoler un spectre cohérent à l'échelle local.
+d'interpoler un spectre cohérent à l'échelle locale.
 
 Cette étape, entièrement indépendante des observations de la
 SEDm, va nécessiter l'utilisation d'un SED Fitter, que nous avons
@@ -282,7 +285,7 @@ locales de la galaxie, ce qui permettra d'obtenir une multitude de
 spectres propre à chaque région de la galaxie. Avec un échantillonnage spectral
 adéquat, nous serons ainsi en mesure de reconstruire un cube 3D, dont
 les deux dimensions spatiales ($x$, $y$) seront définis par les images
-photométriques, et la dimension spectral par le SED Fitter. Le cube
+photométriques, et la dimension spectrale par le SED Fitter. Le cube
 résultant ne contiendra ainsi que la galaxie hôte, et sera appelé dans
 la suite de ce manuscrit \textit{cube intrinsèque}. Cette étape de
 modélisation hyperspectrale est détaillée dans le Chapitre~\ref{ch:modelhyperspec}.
@@ -302,54 +305,55 @@ spatial des deux espaces (source photométrique et MLA de la SEDm) ainsi que la 
 En plus de la composante galactique, nous caractériserons les composantes
 de supernova, de fond de ciel et de potentiels artefacts à modéliser
 pour compléter la scène.
-La projection de chaque meta-tranche dans l'espace SEDm sera fittée aux
-meta-tranches correspondantes de l'observation, dont la minimisation permettra de récupérer un set de
+La projection de chaque meta-tranche dans l'espace SEDm sera ajustée aux
+meta-tranches correspondantes de l'observation, dont la minimisation permettra de récupérer un jeu de
 $N\times2D$ paramètres.
 
 \subsection{Modélisation chromatique et projection 3D}
 
-Les $N\times2D$ paramètres sont ensuite utilisés pour fixer la chromaticité des composantes de la scène, comme la réponse impulsionnelle
+Les $N\times2D$ paramètres sont ensuite utilisés pour étudier et fixer la chromaticité des composantes de la scène, comme la réponse impulsionnelle
 spatiale de la SEDm (fonction d'étalement de point; PSF) ou la
 variation de la position des objets dans le MLA due à la réfraction de
-la lumière par l'atmosphère (ADR). Les modèles de chromaticités sont
-déterminés a priori, et les paramètres de ces modèles sont fittés à
+la lumière par l'atmosphère (ADR). Les modèles de chromaticité sont
+déterminés \textit{a priori}, et les paramètres de ces modèles sont ajustés à
 partir des $N\times2D$ paramètres obtenus de l'étape précédente.
 
-Une fois la chromaticité fixée, l'ensemble des paramètres de projection de chaque tranche
-du cube intrinsèque dans l'espace SEDm devient fixe, et seuls les
-paramètres d'amplitudes (fond de ciel, supernova...) sont fittés pour
+Une fois les chromaticités fixées, l'ensemble des paramètres de projection de chaque tranche
+du cube intrinsèque dans l'espace SEDm devient connue, et seuls les
+paramètres d'amplitudes (fond de ciel, supernova...) sont ajustés pour
 chaque longueur d'onde. Cette étape permet ainsi d'extraire les trois
-composantes de la scène d'observation de la SEDm, à savoir le background, la galaxie hôte et la
+composantes de la scène d'observation de la SEDm, à savoir le fond, la galaxie hôte et la
 source ponctuelle.
 
 \section{Cas pédagogique de présentation}
 
 Les chapitres suivants de cette partie du manuscrit seront consacrés à
-la description des différentes étapes du pipeline. Pour une illustration
+la description détaillée des différentes étapes du pipeline. Pour une illustration
 appropriée, nous utiliserons un cas pédagogique de modélisation de scène
-où la supernova est suffisamment distingable de sa galaxie hôte.
+où la supernova est suffisamment éloignée de sa galaxie hôte ($\sim4\arcsec$).
 
 La cible choisit est ZTF18accrorf, dont le cube extrait à partir d'une
 observation de la SEDm est présenté dans la
 Figure~\ref{fig:easycasesedm}.
 
-\begin{figure}[h]
+\begin{figure}[ht]
   \centering
   \includegraphics[width=0.99\textwidth]{../figures/04_hypergal/e3dcube_ZTF18accrorf.png}
   \caption[Cube 3D SEDm de ZTF18accrorf]{Cube 3D d'une observation de
     ZTF18accrorf avec la SEDm. La figure de gauche montre les spectres
     en unité de pseudo-ADU, dont le code couleur correspond aux spaxels
     sélectionnés dans la figure de droite. La forme similaire des trois
-    spectres malgrés une localisation différente des spaxels sous-jacents dans le MLA est due à la
+    spectres malgré une localisation différente des spaxels sous-jacents dans le MLA est due à la
     présence du spectre du ciel sur l'ensemble du champ de vue. La croix rouge indique la
     position estimée de la supernova à partir des informations de
     guidage avec la Rainbow Camera. Dans ce cas ci, la supernova est
-    assez aisément distingable de sa galaxie hôte.}
+    assez aisément distingable de sa galaxie hôte, avec une séparation
+    angulaire d'environ $4\arcsec$ et un redshift de $z=0.042$.}
   \label{fig:easycasesedm}
 \end{figure}
 
 
-\begin{figure}[h]
+\begin{figure}[ht]
   \centering
   \includegraphics[width=0.9\textwidth]{../figures/04_hypergal/easycaseextractionpysedm.png}
   \caption[Extraction de ZTF18accrorf avec \pysedm]{Extraction de
@@ -361,29 +365,30 @@ Figure~\ref{fig:easycasesedm}.
     droite} est représenté la modélisation d'une méta-tranche et le
   profil radial estimé. On voit clairement la composante de la galaxie
   hôte qui contamine l'extraction de la supernova. \textit{En bas} nous
-  montrons en unité de flux le spectre extrait par \pysedm en gris et le
+  montrons en unité de flux calibré le spectre extrait par \pysedm en gris et le
 meilleur modèle estimé par \pkg{SNID}. Même si certaines structures
 semblent rappeler le spectre d'une SNIa, comme les absorptions FeII,
 FeIII et MgII (entre $[4200-4600]$\AA, et entre $[4800-5200]$\AA), le
 niveau de confiance pour la classification reste très faible, comme
 l'atteste le $r\text{lap}=4.5$, et surtout le redshift estimé de
-$z=0.178$ bien au dessus de la profondeur en magnitude atteignable par ZTF.  }
+$z=0.178$ bien au dessus de la profondeur en magnitude atteignable par
+la SEDm ($z_{lim}\sim0.1$).  }
   \label{fig:easycaseextractionpysedm}
 \end{figure}
 
 
-Malgrès la localisation relativement excentrée de la source ponctuelle,
+Malgré la localisation relativement excentrée de la source ponctuelle,
 son faible contraste vis à vis de son hôte rend difficile son extraction
 automatique par le pipeline \pysedm. Nous illustrons cette tentative
 dans la Figure~\ref{fig:easycaseextractionpysedm}.
 
 Après la présentation d'\hypergal\ à travers ce cas pédagogique, nous
 montrerons un cas d'extraction extrême où la supernova est quasiment
-confondu avec le coeur de sa galaxie hôte.
+confondue avec le coeur de sa galaxie hôte.
 
 
-%\bibliographystyle{../main/aa_url}
-%\bibliography{99_references}
+\bibliographystyle{../main/aa_url}
+\bibliography{99_references}
 \end{document}
 
 %%% Local Variables:

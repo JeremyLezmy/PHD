@@ -36,6 +36,11 @@
 \newcommand\isFootnote{%
   \ifx\footnote\nextToken\textsuperscript{,}\fi}
 
+\sisetup{%
+     output-decimal-marker = {.},
+     inter-unit-product = \ensuremath{{}\cdot{}}
+   }
+   
 \begin{document}
     \subfile{../chapters/00_cover}
     \subfile{../chapters/10_remerciements}

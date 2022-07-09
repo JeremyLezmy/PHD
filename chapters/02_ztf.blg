@@ -3,52 +3,47 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: 02_ztf.aux
 The style file: ../main/aa_url.bst
 Database file #1: 99_references.bib
-I was expecting a `,' or a `}'---line 873 of file 99_references.bib
- :   
- :   url={https://ui.adsabs.harvard.edu/abs/2019MNRAS.489.3582D/abstract}
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty publisher in MinkowskiPOSS
-You've used 16 entries,
+You've used 18 entries,
             3128 wiz_defined-function locations,
-            840 strings with 20638 characters,
-and the built_in function-call counts, 33297 in all, are:
-= -- 2281
-> -- 5365
+            856 strings with 26657 characters,
+and the built_in function-call counts, 45953 in all, are:
+= -- 3108
+> -- 7648
 < -- 1
-+ -- 1794
-- -- 1777
-* -- 3468
-:= -- 6243
-add.period$ -- 16
-call.type$ -- 16
-change.case$ -- 656
-chr.to.int$ -- 15
-cite$ -- 17
-duplicate$ -- 296
-empty$ -- 508
-format.name$ -- 1812
-if$ -- 6448
++ -- 2555
+- -- 2536
+* -- 4804
+:= -- 8640
+add.period$ -- 18
+call.type$ -- 18
+change.case$ -- 917
+chr.to.int$ -- 17
+cite$ -- 19
+duplicate$ -- 333
+empty$ -- 579
+format.name$ -- 2576
+if$ -- 8887
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 15
-newline$ -- 52
-num.names$ -- 65
-pop$ -- 647
+missing$ -- 17
+newline$ -- 58
+num.names$ -- 73
+pop$ -- 910
 preamble$ -- 1
-purify$ -- 656
+purify$ -- 917
 quote$ -- 0
-skip$ -- 298
+skip$ -- 341
 stack$ -- 0
-substring$ -- 437
-swap$ -- 38
+substring$ -- 518
+swap$ -- 42
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 144
+type$ -- 162
 warning$ -- 1
-while$ -- 65
+while$ -- 73
 width$ -- 0
-write$ -- 162
-(There was 1 error message)
+write$ -- 181
+(There was 1 warning)

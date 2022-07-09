@@ -1,4 +1,4 @@
-\begin{thebibliography}{15}
+\begin{thebibliography}{16}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{\textsc{Barbary}(2016)}]{Barbary2016Sep}
@@ -11,6 +11,18 @@
   for source extraction.}~»,
   \href{http://dx.doi.org/10.1051/aas:1996164}{\color{magenta}\aaps},
   \href{https://ui.adsabs.harvard.edu/abs/1996A&AS..117..393B}{117, 393}
+
+\bibitem[{\textsc{{Blagorodnova}} {et~al.}(2018)\textsc{{Blagorodnova}},
+  \textsc{{Neill}}, \textsc{{Walters}}, \textsc{{Kulkarni}},
+  \textsc{{Fremling}}, \textsc{{Ben-Ami}}, \textsc{{Dekany}}, \textsc{{Fucik}},
+  \textsc{{Konidaris}}, \textsc{{Nash}}, \textsc{{Ngeow}}, \textsc{{Ofek}},
+  \textsc{{O' Sullivan}}, \textsc{{Quimby}}, \textsc{{Ritter}} et
+  \textsc{{Vyhmeister}}}]{SEDM18}
+\textsc{{Blagorodnova} N.}, \textsc{{Neill} J.~D.}, \textsc{{Walters} R.}
+  {et~al.} 2018, «~{The SED Machine: A Robotic Spectrograph for Fast Transient
+  Classification}~»,
+  \href{http://dx.doi.org/10.1088/1538-3873/aaa53f}{\color{magenta}\pasp},
+  \href{https://ui.adsabs.harvard.edu/abs/2018PASP..130c5003B}{130, 035003}
 
 \bibitem[{\textsc{{Dask Development Team}}(2016)}]{Dask}
 \textsc{{Dask Development Team}}. 2016, Dask: Library for dynamic task
@@ -40,8 +52,8 @@
   \href{https://ui.adsabs.harvard.edu/abs/2021arXiv211112142D}{arXiv e-prints,
   arXiv:2111.12142}
 
-\bibitem[{\textsc{Gillies} {et~al.}(2007--)}]{shapely2007}
-\textsc{Gillies S.} {et~al.} 2007--, «~Shapely: manipulation and analysis of
+\bibitem[{\textsc{Gillies} {et~al.}(2007)}]{shapely2007}
+\textsc{Gillies S.} {et~al.} 2007, «~Shapely: manipulation and analysis of
   geometric objects~»
 
 \bibitem[{\textsc{Huber}(1964)}]{Huber1964}

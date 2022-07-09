@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  2 JUL 2022 23:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  7 JUL 2022 15:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1622,7 +1622,7 @@ Package minitoc Info: I0033
 \openout6 = `04_hypergal.toc'.
 
 
-Chapitre 4.
+Chapitre 5.
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 6
 .
 (/usr/local/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
@@ -1646,61 +1646,67 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-<../figures/04_hypergal/specgalsdss.png, id=59, 1179.40625pt x 448.67625pt>
+<../figures/04_hypergal/specgalsdss.png, id=61, 1179.40625pt x 448.67625pt>
 File: ../figures/04_hypergal/specgalsdss.png Graphic file (type png)
 <use ../figures/04_hypergal/specgalsdss.png>
 Package pdftex.def Info: ../figures/04_hypergal/specgalsdss.png  used on input 
-line 142.
+line 146.
 (pdftex.def)             Requested size: 450.69417pt x 171.45721pt.
- [3 <../figures/04_hypergal/specgalsdss.png>] [4]
-<../figures/04_hypergal/softdaghypergal.png, id=177, 1256.695pt x 544.0325pt>
-File: ../figures/04_hypergal/softdaghypergal.png Graphic file (type png)
-<use ../figures/04_hypergal/softdaghypergal.png>
-Package pdftex.def Info: ../figures/04_hypergal/softdaghypergal.png  used on in
-put line 257.
-(pdftex.def)             Requested size: 450.69417pt x 195.10443pt.
- [5 <../figures/04_hypergal/softdaghypergal.png>]
+
+
+Package natbib Warning: Citation `Leja2017 ' on page 3 undefined on input line 
+181.
+
+[3]
+Underfull \vbox (badness 7522) has occurred while \output is active []
+
+ [4 <../figures/04_hypergal/specgalsdss.png>]
+<../figures/04_hypergal/softdaghypergal.pdf, id=171, 1261.71375pt x 655.44875pt
+>
+File: ../figures/04_hypergal/softdaghypergal.pdf Graphic file (type pdf)
+<use ../figures/04_hypergal/softdaghypergal.pdf>
+Package pdftex.def Info: ../figures/04_hypergal/softdaghypergal.pdf  used on in
+put line 260.
+(pdftex.def)             Requested size: 450.69417pt x 234.13112pt.
+ [5]
 
 LaTeX Warning: Reference `ch:modelhyperspec' on page 6 undefined on input line 
-288.
+291.
 
 
-LaTeX Warning: Reference `ch:irf' on page 6 undefined on input line 296.
+LaTeX Warning: Reference `ch:irf' on page 6 undefined on input line 299.
 
-[6]
-<../figures/04_hypergal/e3dcube_ZTF18accrorf.png, id=207, 1011.78pt x 380.8629p
+[6 <../figures/04_hypergal/softdaghypergal.pdf>]
+<../figures/04_hypergal/e3dcube_ZTF18accrorf.png, id=214, 1011.78pt x 380.8629p
 t>
 File: ../figures/04_hypergal/e3dcube_ZTF18accrorf.png Graphic file (type png)
 <use ../figures/04_hypergal/e3dcube_ZTF18accrorf.png>
 Package pdftex.def Info: ../figures/04_hypergal/e3dcube_ZTF18accrorf.png  used 
-on input line 338.
+on input line 341.
 (pdftex.def)             Requested size: 450.69417pt x 169.65489pt.
-<../figures/04_hypergal/easycaseextractionpysedm.png, id=208, 1125.20375pt x 58
+<../figures/04_hypergal/easycaseextractionpysedm.png, id=215, 1125.20375pt x 58
 1.17125pt>
 File: ../figures/04_hypergal/easycaseextractionpysedm.png Graphic file (type pn
 g)
 <use ../figures/04_hypergal/easycaseextractionpysedm.png>
 Package pdftex.def Info: ../figures/04_hypergal/easycaseextractionpysedm.png  u
-sed on input line 354.
+sed on input line 358.
 (pdftex.def)             Requested size: 409.71692pt x 211.61583pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-(./04_hypergal.bbl (./04_hypergal.brf)
+ [7 <../figures/04_hypergal/e3dcube_ZTF18accrorf.png>] (./04_hypergal.bbl (./04
+_hypergal.brf)
 \tf@brf=\write7
 \openout7 = `04_hypergal.brf'.
 
- [7 <../figures/04_hypergal/e3dcube_ZTF18accrorf.png>] [8 <../figures/04_hyperg
-al/easycaseextractionpysedm.png>]
-[9
+ [8 <../figures/04_hypergal/easycaseextractionpysedm.png>] [9
 
 ])
+
+Package natbib Warning: There were undefined citations.
+
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the 04_hypergal.maf file.
 \openout4 = `04_hypergal.maf'.
-
 
 
 Package minitoc(hints) Warning: W0024
@@ -1715,14 +1721,14 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `04_hypergal.brf' has not changed.
-(rerunfilecheck)             Checksum: 51708B496F3873AA7D3365C4E5FA1D68;1964.
+(rerunfilecheck)             Checksum: D86C5983CA385B23382E6FEE659901B6;1967.
  ) 
 Here is how much of TeX's memory you used:
- 47109 strings out of 478994
- 996782 string characters out of 5858184
- 1556117 words of memory out of 5000000
- 63260 multiletter control sequences out of 15000+600000
- 437836 words of font info for 220 fonts, out of 8000000 for 9000
+ 47108 strings out of 478994
+ 996817 string characters out of 5858184
+ 1557389 words of memory out of 5000000
+ 63259 multiletter control sequences out of 15000+600000
+ 437894 words of font info for 220 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  137i,12n,148p,1671b,919s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
@@ -1747,10 +1753,10 @@ st/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2021/texmf-dist
 /fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2021/texmf-dist/f
 onts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2021/texmf-dist/fon
 ts/type1/public/cm-super/sftt2074.pfb>
-Output written on 04_hypergal.pdf (10 pages, 1916919 bytes).
+Output written on 04_hypergal.pdf (10 pages, 2406567 bytes).
 PDF statistics:
- 475 PDF objects out of 1000 (max. 8388607)
- 429 compressed objects within 5 object streams
+ 484 PDF objects out of 1000 (max. 8388607)
+ 437 compressed objects within 5 object streams
  63 named destinations out of 1000 (max. 500000)
  81537 words of extra memory for PDF output out of 89155 (max. 10000000)
 

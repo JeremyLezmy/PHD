@@ -1837,6 +1837,17 @@ INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/graphics/rotating.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/base/ifthen.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/enumitem/enumitem.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/comment/comment.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/comment/comment.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/comment/comment.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/comment/comment.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/comment/comment.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/comment/comment.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/comment/comment.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/comment/comment.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/comment/comment.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/comment/comment.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/comment/comment.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/booktabs/booktabs.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/booktabs/booktabs.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/booktabs/booktabs.sty
@@ -2200,6 +2211,7 @@ INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecbx1095.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecrm0800.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecrm0600.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecti1200.tfm
 INPUT /usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecrm1728.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecbx1728.tfm
@@ -2209,7 +2221,6 @@ INPUT ../figures/03_sedm/ifsgeneral.png
 INPUT ../figures/03_sedm/ifsgeneral.png
 INPUT ../figures/03_sedm/ifsgeneral.png
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/eccc1200.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecti1200.tfm
 INPUT ../figures/03_sedm/sedmoverview.png
 INPUT ../figures/03_sedm/sedmoverview.png
 INPUT ../figures/03_sedm/sedmoverview.png

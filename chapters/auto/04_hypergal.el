@@ -26,6 +26,8 @@
     "sec:pipeline"
     "fig:softdaghypergal"
     "fig:easycasesedm"
-    "fig:easycaseextractionpysedm"))
+    "fig:easycaseextractionpysedm")
+   (LaTeX-add-bibliographies
+    "99_references"))
  :latex)
 

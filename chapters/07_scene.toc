@@ -1,18 +1,18 @@
 \babel@toc {french}{}
-\contentsline {chapter}{\numberline {7}Modélisation de scène et extraction de sources}{1}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Modélisation de scène}{2}{section.7.1}%
-\contentsline {subsection}{\numberline {7.1.1}Présentation de la méthode}{2}{subsection.7.1.1}%
-\contentsline {subsection}{\numberline {7.1.2}Projection du cube intrinsèque}{2}{subsection.7.1.2}%
-\contentsline {subsection}{\numberline {7.1.3}Composantes de la scène}{4}{subsection.7.1.3}%
-\contentsline {subsubsection}{\numberline {7.1.3.1}Composante du fond: ciel et artefacts}{4}{subsubsection.7.1.3.1}%
-\contentsline {subsubsection}{\numberline {7.1.3.2}Composante de la supernova}{5}{subsubsection.7.1.3.2}%
-\contentsline {subsection}{\numberline {7.1.4}Ajustement de la scene 2D}{5}{subsection.7.1.4}%
-\contentsline {subsection}{\numberline {7.1.5}Ajustement chromatique}{6}{subsection.7.1.5}%
-\contentsline {section}{\numberline {7.2}Extraction des sources}{11}{section.7.2}%
-\contentsline {subsection}{\numberline {7.2.1}Extraction de la galaxie hôte}{11}{subsection.7.2.1}%
-\contentsline {subsection}{\numberline {7.2.2}Extraction de la Supernova}{14}{subsection.7.2.2}%
-\contentsline {section}{\numberline {7.3}Classification: \textsc {\texttt {SNID}}}{18}{section.7.3}%
-\contentsline {section}{\numberline {7.4}Cas complexes}{19}{section.7.4}%
-\contentsline {subsection}{\numberline {7.4.1}ZTF19acbjlnt}{19}{subsection.7.4.1}%
-\contentsline {subsection}{\numberline {7.4.2}ZTF19abormno}{21}{subsection.7.4.2}%
-\contentsline {subsection}{\numberline {7.4.3}ZTF20ablhlio}{22}{subsection.7.4.3}%
+\contentsline {chapter}{\numberline {8}Modélisation de scène et extraction de source}{1}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Modélisation de scène}{2}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1}Présentation de la méthode}{2}{subsection.8.1.1}%
+\contentsline {subsection}{\numberline {8.1.2}Projection spatiale du cube intrinsèque}{2}{subsection.8.1.2}%
+\contentsline {subsection}{\numberline {8.1.3}Composantes non galactiques de la scène}{3}{subsection.8.1.3}%
+\contentsline {subsubsection}{\numberline {8.1.3.1}Composante du fond: ciel et artefacts}{3}{subsubsection.8.1.3.1}%
+\contentsline {subsubsection}{\numberline {8.1.3.2}Composante de la supernova}{4}{subsubsection.8.1.3.2}%
+\contentsline {subsection}{\numberline {8.1.4}Ajustement de la scene 2D}{4}{subsection.8.1.4}%
+\contentsline {subsection}{\numberline {8.1.5}Ajustement chromatique}{8}{subsection.8.1.5}%
+\contentsline {section}{\numberline {8.2}Extraction des sources}{11}{section.8.2}%
+\contentsline {subsection}{\numberline {8.2.1}Cube de la galaxie hôte}{13}{subsection.8.2.1}%
+\contentsline {subsection}{\numberline {8.2.2}Extraction de la Supernova}{13}{subsection.8.2.2}%
+\contentsline {section}{\numberline {8.3}Classification: \textsc {\texttt {SNID}}}{19}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Cas complexes}{20}{section.8.4}%
+\contentsline {subsection}{\numberline {8.4.1}ZTF19acbjlnt}{20}{subsection.8.4.1}%
+\contentsline {subsection}{\numberline {8.4.2}ZTF19abormno}{22}{subsection.8.4.2}%
+\contentsline {subsection}{\numberline {8.4.3}ZTF20ablhlio}{23}{subsection.8.4.3}%

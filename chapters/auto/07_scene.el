@@ -23,7 +23,6 @@
     "fig:scaleadapted"
     "fig:projecthost"
     "eq:backgroundcurved2"
-    "eq:psfmodelconstraint"
     "fig:artefactssedmcube"
     "tab:paramshypergal"
     "eq:chi2hypergal"
@@ -33,6 +32,8 @@
     "eq:sigmahostchrom"
     "fig:chromaticity_host"
     "fig:adr_ZTF18accrorf"
+    "eq:Hubber"
+    "eq:chi2hubber"
     "fig:softl1"
     "eq:pullspectral"
     "fig:fullsceneZTF18accrorf"
@@ -45,6 +46,8 @@
     "fig:allsourcesZTF18accrorf"
     "fig:fulldag"
     "sec:snidclassification"
-    "fig:snidZTF18accrorf"))
+    "fig:snidZTF18accrorf")
+   (LaTeX-add-bibliographies
+    "99_references"))
  :latex)
 

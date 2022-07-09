@@ -1,12 +1,12 @@
 \documentclass[../main/main.tex]{subfiles}
 \begin{document}
 
-%\dominitoc
-%\faketableofcontents
+\dominitoc
+\faketableofcontents
 \setcounter{chapter}{6}
 \chapter{Réponse impulsionnelle de la SEDm et extraction de source ponctuelle}\label{ch:irf}
 \minitoc
-\vspace{2cm}
+\vspace{1cm}
 Le chapitre précédent était consacré à la modélisation hyperspectrale de
 la galaxie hôte en utilisant localement le SED fitter \cigale\ sur des
 images photométriques de PS1. Cette étape d'\hypergal\ nous fournit le
@@ -16,7 +16,7 @@ spectre qui lui est propre.
 Les résolutions spectrales et spatiales ne sont cependant pas encore
 adaptées à l'espace des observations dans lequel nous souhaitons projeter
 le cube, à savoir celui de la SEDm. Nous devons pour cela considérer la
-réponse impulsionnelle de notre instrument.
+réponse impulsionnelle spectro-spatiale de notre instrument.
 
 Par ailleurs, l'objectif d'\hypergal\ étant d'être un modéliseur de
 scène, nous serons forcément amenés à modéliser la supernova. Cet objet
@@ -24,32 +24,32 @@ scène, nous serons forcément amenés à modéliser la supernova. Cet objet
 de PSF, qui est la réponse impulsionnelle spatiale de la SEDm.
 
 Dans ce chapitre nous commencerons par présenter la méthode de
-détermination de la réponse impulsionnelle spectrale (LSF) de la SEDm,
+détermination de la réponse impulsionnelle spectrale (\textit{Line
+  Spread Function}, LSF) de la SEDm,
 et son application au cube intrinsèque. Puis nous introduirons un modèle
-de profil radial pour la réponse impulsionnelle spatiale, que nous
+pour la réponse impulsionnelle spatiale, que nous
 entraînerons grâce à l'observation d'étoiles standards (sources
 ponctuelles). Enfin nous procéderons à la validation de ce modèle de PSF par
-une analyse de la calibration spectrophotométriques à partir de ces
+une analyse de la calibration spectrophotométrique à partir de ces
 étoiles standards.
 \newpage
 
-\section{Réponse impulsionnelle spectrale: LSF}
+\section{Réponse impulsionnelle spectrale}
 % \label{sec:xxx}
 
 \subsection{Lampes à arc}
 % \label{ssec:xxx}
 
-Afin de caratériser la réponse impulsionnelle spectrale de la SEDm, nous
-utilisons les lampes à arc que nous avons introduit dans le
+Afin de caractériser la réponse impulsionnelle spectrale de la SEDm, nous
+utilisons les lampes à arc que nous avons introduit au
 chapitre~\ref{ssec:wavesol}.
 
 Ces sources de lumière émettent un spectre avec d'intenses raies
-d'émissions caractéristiques de l'élément présent dans la lampe.
+d'émissions caractéristiques des éléments présents dans la lampe.
 
 Nous les utilisons initialement afin de déterminer la solution en longueur
 d'onde de chaque trace spectrale sur le CCD, ce qui permet d'associer une longueur d'onde à une localisation spatiale
-sur le détecteur du CCD.
-
+sur le détecteur.
 Ce processus, détaillé dans \citet{pysedm} et le chapitre~\ref{ch:sedm}
 de ce manuscrit, est effectué à l'aide de $3$ lampes à arc: au Xenon (Xe),
 Mercure (Hg) et Cadmium (Cd). La combinaison de ces $3$ lampes permet de
@@ -81,7 +81,7 @@ des lampes.
     \end{threeparttable}
   \end{table}
 
-La LSF de la SEDm pouvant très bien être chromatique, nous allons
+La réponse impulsionnelle spectrale de la SEDm pouvant très bien être chromatique, nous allons
 pouvoir tirer parti de la répartition de ces raies sur toute la plage
 spectrale. La Figure~\ref{fig:arclamps} montre le spectre (moyenné sur
 tout le MLA) des $3$ lampes à arc utilisées, en unité de flux par
@@ -93,12 +93,12 @@ d'onde (et a fortiori la LSF dans cette étude) au delà de $7500$\AA.
 
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=0.5\textwidth]{../figures/06_irf/arclamps.png}
-  \caption[Spectres des lampes à arc utilisées pour la SEDm]{Spectres
+  \includegraphics[width=0.7\textwidth]{../figures/06_irf/arclamps.png}
+  \caption[Spectres des lampes à arc utilisées pour la SEDm]{Spectres en pseudo-ADU
     des lampes à arc utilisées pour la SEDm pour la nuit du 3 Juillet
-    2020. De haut en bas, spectre de la lampe à mercure (Hg), à cadmium
+    2020. De haut en bas, lampe à mercure (Hg), à cadmium
     (Cd) et à Xenon (Xe). Ces spectres sont en unité de flux
-    (pseudo-ADU) par longueur d'onde, et sont donc reconstruits à partir
+    (pseudo-ADU) et sont reconstruits à partir
   de la solution en longueur d'onde correspondante. Chaque spectre
   correspond au spectre moyen sur tout le MLA.}
   \label{fig:arclamps}
@@ -107,39 +107,72 @@ d'onde (et a fortiori la LSF dans cette étude) au delà de $7500$\AA.
 \subsection{Détermination de la LSF}
 % \label{ssec:xxx}
 
-En toute rigueur, chaque spaxel possède sa propre réponse
+À l'instar du pipeline \pysedm, nous modélisons la fonction d'étalement
+spectrale par une gaussienne.
+En toute rigueur, chaque spaxel possède \textit{a priori} sa propre réponse
 impulsionnelle, et il faudrait déterminer la LSF pour chacun d'entre
 eux. En pratique, nous faisons la supposition que la LSF moyenne sur
 tout le MLA est suffisamment représentative de la réponse impulsionnelle
-spectrale de la SEDm à l'échelle locale.
+spectrale de la SEDm à l'échelle locale. Cette approximation est motivée
+par une distribution spatiale homogène et avec peu de variation de la
+LSF. La Figure~\ref{fig:mapsigmaCd} illustre cela pour une lampe à
+cadmium et sa raie à $6440$ \AA, où le nMAD\footnote{Médiane de la
+  déviation absolue. Pour un jeu de données X, de médiane $\tilde{X}$, le
+  MAD est défini comme $\text{MAD}=median(\lvert
+  X_{i}-\tilde{X}\rvert)$. Pour utiliser le MAD comme un estimateur
+  d'écart type, on définit $\text{nMAD}=k\times\text{MAD}$ avec $k\approx1.4826$ pour
+  un jeu de données gaussiennement distribué.} de cette distribution
+spatiale est de seulement $0.51$ \AA.
 
-Pour prendre en compte une potentielle variation de la LSF au cours du
-temps, nous utilisons les solutions en longueurs d'onde de $65$ nuits
+
+\begin{figure}[ht]
+  \begin{minipage}[c]{0.55\textwidth}
+    \includegraphics[width=0.99\textwidth]{../figures/06_irf/mapsigmaCd.pdf}
+  \end{minipage}\hfill
+  \begin{minipage}[c]{0.43\textwidth}
+    \caption[Distribution spatiale de la LSF pour une raie d'une lampe à
+    arc.]{Distribution spatiale du $\sigma$ de la modélisation
+      gaussienne pour une raie ($\lambda=6440$ \AA) d'une lampe à arc
+      (Cd). Le nMAD de cette distribution spatiale est de $0.51$ \AA.}\label{fig:mapsigmaCd}
+  \end{minipage}
+\end{figure}
+
+La variation temporelle de la LSF ne présentant pas de tendance
+particulière, nous supposons également la LSF stationnaire. La
+Figure~\ref{fig:timefct_Cdline} illustre cela en présentant l'évolution
+au cours du temps (65 nuits entre 2018 et 2022) de la médiane de l'écart type de la LSF (modélisée par
+une gaussienne) pour la raie à $6440$ \AA de la lampe à Cd.
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=0.99\textwidth]{../figures/06_irf/timefct_Cdline.pdf}
+  \caption[\'Evolution temporelle de la LSF pour une raie de la lampe à
+  CD entre 2018 et 2022.]{\'Evolution temporelle de la LSF pour une raie
+    ($\lambda=6440$ \AA) de la lampe à
+  CD entre 2018 et 2022.}
+  \label{fig:timefct_Cdline}
+\end{figure}
+Notre analyse de la réponse impulsionnelle spectrale est effectuée à
+partir de la solution en longueur d'onde de $65$ nuits
 étalées entre 2018 et 2022. Nous récupérons ainsi les positions et
-écarts types modélisés pour chaque raie d'émission pour chaque spaxel de
+écarts types des gaussiennes ajustés pour chaque raie d'émission pour chaque spaxel de
 chaque nuit. La solution en longueur d'onde nous permet également de
 passer de l'espace des pixels du CCD à l'espace des longeurs d'onde.
 
 Nous utilisons la médiane de la localisation ajustée de chaque raie
-parmi tous les
-spaxels, de même pour les écarts types, afin d'éviter les potentielles
-valeurs aberrantes, notamment sur les bords du MLA (voir \citet{pysedm}). Les Figure~\ref{fig:lineloc} et
-\ref{fig:linestd} montrent la distribution des localisations et écart
-types médians des 65 nuits pour chaque raie d'émission.
-
-On observe dans
-la majorité des solutions en longueur d'onde un biais systématique par
-rapport à la longueur d'onde de la raie de référence de l'ordre de
-$3$\AA\ pour les lampes Cd et Hg . Les deux dernières raies de Xenon sont très peu contraintes, et
-on peut apercevoir une dispersion de l'ordre de $20$\AA\ entre les
-différentes nuits d'étude. 
-
-La distribution des écarts types propres à chaque raie indique bien une
+parmi tous les spaxels. De même pour la largeur des gaussiennes, nous utilisons la
+médiane de leur distribution spatiale pour une lampe et
+une raie données, afin d'éviter les potentielles
+valeurs aberrantes notamment sur les bords du MLA (\citet{pysedm}). La
+Figure~\ref{fig:linestd} montre la distribution des largeurs médianes
+des gaussiennes ajustées pour les 65 nuits et pour chaque raie d'émission.
+ 
+La distribution des largeurs propres à chaque raie indique bien une
 évolution chromatique, avec une résolution spectrale plus fine dans le
 bleu que dans le rouge. La dispersion sur les nuits sélectionnées est de
 l'ordre de quelques \AA.
-
-\begin{figure}[h!]
+\begin{comment}
+\begin{figure}[ht]
   \centering
   \includegraphics[width=0.99\textwidth]{../figures/06_irf/lineloc.pdf}
   \caption[Distribution de la localisation des raies des lampes à
@@ -153,8 +186,9 @@ l'ordre de quelques \AA.
   \label{fig:lineloc}
 \end{figure}
 
+\end{comment}
 
-\begin{figure}[h!]
+\begin{figure}[ht]
   \centering
   \includegraphics[width=0.99\textwidth]{../figures/06_irf/linestd.pdf}
   \caption[Distribution de l'écart type $\sigma_{line}$ des raies des
@@ -167,9 +201,11 @@ l'ordre de quelques \AA.
 
 Sachant que les raies d'émission de la lampe à Xenon sont faiblement
 contraintes, nous choisissons de modéliser la chromaticité de la LSF en
-utilisant une combinaison linéaire de polynomes de Legendre de degré 2, afin d'éviter un effet
+utilisant un polynome de Legendre de degré 2, afin d'éviter un effet
 d'over-fitting aux extrémités.
 
+
+\begin{comment}
 Pour rappel, les polynômes de Legendre sont
 constitués d'une suite de polynômes $p_{n}(x)$ de degré
 $n$, et tous les polynômes de la suite sont orthogonaux deux à deux.
@@ -195,31 +231,30 @@ chromatique, avec les coefficients $C_{i}$ ajustés:
   C_{1}&=26.0\pm 0.6\\
   C_{2}&=7.3\pm 0.6
 \end{align*}
-
+\end{comment}
 Pour des raisons de clareté visuelle, nous avons choisi de montrer sur
 la Figure~\ref{fig:lsf} la distribution des écarts types sous forme de
 violon, la dispersion de la position de la raie étant trop faible pour
 être discernable sur la figure. Nous présentons la LSF
 $\sigma_{\lambda}$ en unité de longueur d'onde mais également en unité
 de pixel spectral pour la SEDm,
-connaissant l'échantillonnage du domaine spectral.
+connaissant l'échantillonnage du domaine spectral ($220$ tranches entre
+$3700$ et $9300$ \AA, soit un échantillonnage de $\sim25.6$ \AA).
 
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=0.85\textwidth]{../figures/06_irf/LSF.pdf}
+  \includegraphics[width=0.95\textwidth]{../figures/06_irf/LSF.pdf}
   \caption[Chromaticité de la LSF]{Chromaticité de la LSF. Nous montrons
-  ici l'évolution de l'écart type $\sigma$ des différentes raies
+  ici l'évolution de l'écart type $\sigma$ de la modélisation gaussienne
+  des différentes raies
   d'émission pour les lampes à arc Cd, Hg et Xe en fonction de la
   longueur d'onde. L'écart type $\sigma$ est présenté en unité de
   longueur d'onde ($\lambda$[\AA]) et en unité d'épaisseur de tranche
   dans les cubes 3D de la SEDm. Cette étude est réalisée à partir des
   solutions en longueurs d'onde de 65 nuits étalées entre 2018 et
-  2022. La dispersion de la position des raies étant très faible et ne
-  pouvant par conséquent être discernable sur la figure, nous présentons
-la dispersion des $\sigma$ sous forme de violon. Le code couleur indique
-la lampe à arc dont est issue la raie d'émission. Le modèle fitté
-(polynomes de Legendre d'ordre 2) est présenté en courbe noir, et les
-bandes grises indiquent l'erreur du modèle à 2 sigmas. }
+  2022. Le code couleur indique
+la lampe à arc dont est issue la raie d'émission et le modèle quadratique
+ajusté est présenté en courbe noir. }
   \label{fig:lsf}
 \end{figure}
 
@@ -271,16 +306,9 @@ Nous fixons ainsi le modèle chromatique de LSF de la SEDm. Sachant que la réso
 des spectres obtenus avec \cigale\ est de l'ordre de $3$\AA\ sur
 l'intervalle [$3200$-$9500$]\AA\ (correspondant à une résolution de
 $R=\lambda/\d\lambda\approx2000$; \citet{BCO3}), nous choisissons
-de convoluer directement les spectres du cube intrinsèque par la LSF de
+de convoluer directement les spectres du cube intrinsèque par la LSF
+chromatique de
 la SEDm.
-
-Cette convolution a donc la particularité d'être effectuée avec un
-kernel gaussien ayant un écart type variable. Pour effecter
-numériquement cette
-transformation, nous procédons à un
-étirement des spectres par l'inverse de la largeur du kernel à une
-position donnée. Nous pouvons alors effectuer une convolution avec un
-kernel fixe, puis ``reformer'' les spectres à leur échelle initiale.
 
 La Figure~\ref{fig:lsfapplied} montre par exemple l'application du
 modèle de LSF sur le spectre d'un spaxel du cube intrinsèque (le spectre
@@ -304,11 +332,11 @@ est représenté par le spectre \textit{rouge}.}
 \end{figure}
 
 Nous appliquons cette convolution pour tous les spaxels du cube
-intrinsèque, ce qui nous permet d'avoir notre galaxie hôte dans l'espace
+intrinsèque, ce qui nous permet de porter le cube de la galaxie hôte dans l'espace
 spectral de la SEDm.
 \clearpage
 
-\section{Réponse impulsionnelle spatiale: PSF}\label{sec:psf}
+\section{Réponse impulsionnelle spatiale}\label{sec:psf}
 
 La section précédente fut consacrée à la caractérisation de la réponse
 impulsionnelle spectrale de la SEDm. Nous présentons ici celle de la
@@ -320,23 +348,23 @@ turbulences atmosphériques \citep{Kolmogorov} dont l'hétérogénéité est dyn
 varie aléatoirement au cours du temps dans le champ de vue du
 télescope. Une exposition de quelques secondes est habituellement
 suffisante pour moyenner ces fluctuations et fixer l'image. Nous
-pouvons alors relier  $O(\alpha,\lambda)$ le flux d'une source dans un direction $\alpha$ du
+pouvons alors relier  $O(\vec{\alpha},\lambda)$ le flux d'une source dans un direction $\vec{\alpha}$ du
 ciel à la longueur d'onde $\lambda$, et $\langle
-I(\alpha,\lambda)\rangle$ la moyenne temporelle du flux observé
+I(\vec{\alpha},\lambda)\rangle$ la moyenne temporelle du flux observé
 décrivant l'image obtenue dans le plan focal par la
 transformation:
 
 \begin{equation}
   \label{eq:transfertpsf}
-  \langle I(\alpha,\lambda)\rangle = O(\alpha,\lambda) \otimes \langle
-  S(\alpha, \lambda)\rangle
+  \langle I(\vec{\alpha},\lambda)\rangle = O(\vec{\alpha},\lambda) \otimes \langle
+  S(\vec{\alpha}, \lambda)\rangle
 \end{equation}
-avec $\langle S(\alpha, \lambda)\rangle$ l'image moyenne dans le plan focal d'une
+avec $\langle S(\vec{\alpha}, \lambda)\rangle$ l'image moyenne dans le plan focal d'une
 source ponctuelle observée à l'infini, qui n'est autre que notre
-fonction d'étalement de point (PSF). Sa transformée de Fourrier, notée
-$\langle \widetilde{S}(\alpha, \lambda)\rangle$, est la fonction
+fonction d'étalement de point (PSF). Sa transformée de Fourier, notée
+$\langle \widetilde{S}(f)\rangle$, est la fonction
 de transfert du système optique dans son ensemble, qui n'est autre que
-le produit entre la fonction de transfert du télescope achromatique
+le produit entre la fonction de transfert du télescope
 $T(f)$, et la fonction de transfert de l'atmosphère $B(\lambda, f)$.\\
 
 La caractérisation de la PSF est donc cruciale pour une
@@ -352,7 +380,7 @@ impulsionnelle ainsi que les effets atmosphériques sur la localisation de la
 source ponctuelle dans le MLA.
 
 
-\subsection{Modèle de profil radial}\label{ssec:radialpsf}
+\subsection{Modèle de profil radial monochromatique}\label{ssec:radialpsf}
 
 Bien qu'il existe des modèles de PSF dérivés de la théorie des
 perturbations atmosphériques \citep{Kolmogorov, Fried1966,Tokovinin},
@@ -369,7 +397,7 @@ profil radial.
 Cette partie de la PSF peut cependant être modélisée par une
 loi de puissance qui décroît moins vite que la gaussienne, comme
 introduit par \citet{Moffat1969}. Des modèles de PSF basés sur cette
-fonction homonyme (Moffat) ont par exemple était proposés par
+fonction homonyme (Moffat) ont par exemple été proposés par
 \citet{Racine1996, Trujillo2001}.
 
 Nous choisissons d'adopter la modélisation proposée dans la thèse de
@@ -385,32 +413,32 @@ simple combinaison linéaire entre ces deux distributions:
   PSF(r) = N\left[\eta\times\exp\left(- \frac{r}{2\sigma^{2}}\right) +
     \left( 1+\left( \frac{r}{\alpha}\right)^{2}\right)^{-\beta} \right]
 \end{equation}
+où les paramètres $\eta$, $\sigma$, $\alpha$ et $\beta$ sont les paramètres
+de forme du profil radial, et $N$ un coefficient de normalisation que
+nous explicitons quelques lignes plus loin.
 
-Les paramètres $\eta$, $\sigma$, $\alpha$ et $\beta$ sont les paramètres
-de forme du profil radial. Il faut cependant prendre également en compte
-l'éventualité de défaut de focalisation et/ou de fortes variations de guidage du télescope, dont la conséquence sera
+Il faut cependant prendre également en compte
+l'éventualité de défaut de focalisation et/ou d'erreur de de guidage du télescope, dont la conséquence sera
 d'induire une ellipticité à notre source ponctuelle dans le plan focal,
 et ne sera ainsi plus une image circulaire.
 
 Le rayon $r$ de l'équation~\ref{eq:psfmodel} est ainsi un rayon
 elliptique, tel que:
-
 \begin{equation}
   \label{eq:ellipticity}
   r^{2}=r_{ell}^{2}=(x-x_{0})^{2}+\mathcal{A}(y-y_{0})^{2}+2\mathcal{B}(x-x_{0})\times(y-y_{0})
 \end{equation}
-
-Avec $x_{0}$ et $y_{0}$ les coordonnées du centre de la source
-ponctuelle.
+avec $x_{0}$ et $y_{0}$ les coordonnées du centre de la source
+ponctuelle. 
 
 Les paramètres $\mathcal{A}$ et $\mathcal{B}$ décrivent simultanément le
-rapport des deux axes $q$ et l'orientation de l'ellipticité $\phi$ tel
+rapport $q$ des deux axes et l'orientation $\phi$ de l'ellipticité tel
 que:
 
 \begin{equation}
   \label{eq:axesratioellipse}
-  q=1-\frac{\left( \sqrt{(1-\mathcal{A})^{2}+4\mathcal{B}^{2}}-(1+\mathcal{A})\right)}{\left( -\sqrt{(1-\mathcal{A})^{2}+4\mathcal{B}^{2}}-(1+\mathcal{A})\right)}
-\end{equation}\\
+  q=1+\frac{\left( \sqrt{(1-\mathcal{A})^{2}+4\mathcal{B}^{2}}-(1+\mathcal{A})\right)}{\left( \sqrt{(1-\mathcal{A})^{2}+4\mathcal{B}^{2}}+(1+\mathcal{A})\right)}
+\end{equation}
 
 \begin{equation}
   \label{eq:angleellipse}
@@ -420,13 +448,23 @@ que:
          \frac{\pi}{2}+\frac{1}{2}\cot^{-1}\left(\frac{1-\mathcal{A}}{2\mathcal{B}}\right) & \mbox{si } \mathcal{A}<1 
     \end{array}
 \right.
+\end{equation}\\
+
+Avec une ellipticité quelconque, le coefficient de
+normalisation $N$ est définie par:
+\begin{equation}
+  \label{eq:normgaussmoff}
+  N = \left(
+    \frac{\pi}{\sqrt{\mathcal{A}-\mathcal{B}^{2}}}\times\left(
+      2\eta\sigma^{2}+\frac{\alpha^{2}}{\beta -1}\right) \right)^{-1}
 \end{equation}
 
-
 Ce formalisme décrit ainsi entièrement la source ponctuelle à
-l'amplitude près. Il faut cependant également tenir compte du fond du
-ciel, le \textit{background}. Cette composante ce rajoute donc au profil
-de PSF. En temps normal, la composante du ciel est censée être uniforme,
+l'amplitude près.
+
+L'entraînement de notre modèle se faisant sur l'observation d'étoiles
+standard, nous ajoutons également une composante pour modéliser le fond du
+ciel. En temps normal, cette composante est censée être uniforme,
 et une constante devrait suffir à la modéliser. Dans notre cas, les
 cubes extraits avec \pkg{pysedm} \citep{pysedm} présentent régulièrement
 des artefacts indésirables notamment sur les bords du cube, et sont
@@ -436,10 +474,9 @@ polynomial d'ordre 2, de sorte que :
 
 \begin{equation}
   \label{eq:backgroundcurved}
-  \text{Bkgd}(x,y) = (b_{xx}\times x^{2})+ (b_{yy}\times y^{2})+(b_{xy}\times xy)+(b_{x}\times x)+(b_{y}\times y) + b_{0}
+  \text{Bkgd}(x,y) = b_{0} + (b_{x}\times x)+(b_{y}\times y) + (b_{xx}\times x^{2})+ (b_{yy}\times y^{2})+(b_{xy}\times xy)
 \end{equation}
-
-Avec $x$ et $y$ les coordonnées en spaxel de notre cube, et $b_{0}$ une
+avec $x$ et $y$ les coordonnées en spaxel de notre cube, et $b_{0}$ une
 constante qui n'est autre que la composante qui décrit le fond de ciel.
 
 Nous montrons dans la Figure~\ref{fig:radialprofile} un exemple de
@@ -454,7 +491,7 @@ d'étalement de point.
   \label{fig:radialprofile}
 \end{figure}
 
-\subsection{Entrainement du modèle}\label{ssec:psftraining}
+\subsection{Entrainement du modèle polychromatique}\label{ssec:psftraining}
 
 Notre modèle de PSF contient ainsi $4$ paramètres de forme ($\eta$,
 $\alpha$, $\beta$, $\sigma$) et $2$ paramètres de focalisation décrivant
@@ -464,7 +501,7 @@ simple source ponctuelle devient trop important.
 
 Nous nous sommes ainsi penchés sur l'étude des corrélations entre ces
 paramètres et leur chromaticité, afin de contraindre notre modèle de
-PSF. Pour faire cela, nous avons utilisé environ $150$ cubes de
+PSF couvrant différentes conditions d'observation (masse d'air, seeing, etc). Pour faire cela, nous avons utilisé environ $150$ cubes de
 données d'étoiles standards, observées avec la SEDm en 2021.
 
 Dans un premier temps, nous procédons à un ajustement avec la fonction
@@ -474,13 +511,13 @@ longueurs d'ondes au delà de ces extrémités à cause des artefacts trop inten
 générés lors de l'extraction des spectres du CCD, pouvant aller jusqu'à
 masquer la source astronomique dans le champ de vue du MLA.
 
-Nous avons ainsi commencé par chercher quels paramètres présentaient la
-plus forte corrélation avec les autres. La
+Nous avons  commencé par chercher quels paramètres présentaient la
+plus forte corrélation. La
 Figure~\ref{fig:stdcorrmatrix} met ainsi en évidence, d'une part, une très forte
 corrélation entre $\alpha$ et $\beta$, mais également le fait que
 $\alpha$ semble montrer le plus de corrélation avec les autres
 paramètres de forme. Nous choisissons ainsi $\alpha$ comme paramètre
-directeur de notre modèle de PSF.
+principal de notre modèle de PSF.
 
 \begin{figure}[ht]
   \begin{minipage}[c]{0.4\textwidth}
@@ -501,15 +538,15 @@ corrélations, et nous les fixons successivement.
 Cet entrainement est également réalisé chromatiquement. En effet, même
 si 2 paramètres sont fortement corrélés sur l'ensemble de l'interval
 spectral étudié, nous ne
-savons pas a priori si la forme de ces corrélations sont, ou non,
+savons pas \textit{a priori} si la forme de ces corrélations est, ou non,
 chromatiques. Nous analysons ainsi l'évolution de ces corrélations en
 fonction de la longueur d'onde.
 
-\subsubsection{Première contrainte: $\alpha$ vs $\beta$}
+\subsubsection{Première corrélation: $\alpha$ vs $\beta$}
 
 Le rayon ($\alpha$) et l'exposant ($\beta$) de la Moffat sont les deux
 paramètres qui présentent la plus forte corrélation et de façon significative, nous commençons
-donc par fixer celle ci. Nous présentons dans la
+donc par fixer celle-ci. Nous présentons dans la
 Figure~\ref{fig:alphabetachromcorr} les ajustements linéaires pour
 chaque méta-tranche. Cet ajustement est effectué par minimisation de
 $\chi^{2}$, en pondérant donc par les erreurs.
@@ -525,12 +562,12 @@ $\chi^{2}$, en pondérant donc par les erreurs.
 La chromaticité de ces ajustements est représenté dans la
 Figure~\ref{fig:chromslope_zp_alphabeta}, où nous montrons l'évolution
 du point zéro (ordonnée à l'origine) et de la pente en fonction de la
-longueur d'onde de la meta-tranche considéré. On observe des effets
+longueur d'onde de la meta-tranche considéré. On observe des fluctuations
 chromatiques de l'ordre de $12\%$ pour la pente, et de $6\%$ pour le
 point zéro.
 Nous avons choisi d'ignorer ces effets chromatiques, et de fixer
 $\beta(\alpha)$ indépendamment de la longueur d'onde comme une
-combinaison linéaire tel que
+combinaison linéaire tel que:
 
 \begin{equation}
   \label{eq:betaalpha}
@@ -552,7 +589,7 @@ avec $\beta_{1}$ et $\beta_{0}$ fixés.
 %  \label{fig:corralphabeta_achrom}
 %\end{figure}
 
-\subsubsection{Seconde contrainte: $\alpha$ vs $\sigma$}
+\subsubsection{Seconde corrélation: $\alpha$ vs $\sigma$}
 
 
 Après avoir fixé la corrélation entre $\alpha$ et $\beta$, on effectue
@@ -601,8 +638,7 @@ chromatiques de l'ordre de seulement $3\%$ pour la pente, et de $8\%$ pour le
 point zéro.
 Nous avons à nouveau choisi d'ignorer ces effets chromatiques, et de fixer
 $\sigma(\alpha)$ indépendamment de la longueur d'onde comme une
-combinaison linéaire tel que
-
+combinaison linéaire tel que:
 \begin{equation}
   \label{eq:betaalpha}
   \sigma(\alpha) = \sigma_{1}\times \alpha + \sigma_{0}
@@ -675,11 +711,10 @@ linéaires pour $\beta(\alpha)$ et $\sigma(\alpha)$.
 
 Avec les contraintes ainsi ajoutés, le profil radial de
 l'équation~\ref{eq:psfmodel} s'écrit à présent:
-
 \begin{equation}
   \label{eq:psfmodelconstraint}
-  PSF(r; \alpha, \eta) = N\left[\eta\times\exp\left(- \frac{r}{2(\sigma_{0}+\sigma_{1}\times\alpha)^{2}}\right) +
-    \left( 1+\left( \frac{r}{\alpha}\right)^{2}\right)^{-(\beta_{0}+\beta_{1}\times\alpha)} \right]
+  PSF(r; \alpha, \eta) = N(\alpha,\eta)\left[\eta\times\exp\left(- \frac{r}{2\sigma(\alpha)^{2}}\right) +
+    \left( 1+\left( \frac{r}{\alpha}\right)^{2}\right)^{-\beta(\alpha)} \right]
 \end{equation}
 
 Ce nouveau profil radial de la fonction d'étalement de point est ainsi
@@ -700,10 +735,10 @@ Nous présentons ainsi une méthode d'extraction adéquate dans la section suiva
 
 \subsection{Méthode d'extraction}\label{ssec:methodextraction}
 
-Puisqu'il n'est pas question d'extraire le flux d'une source ponctuelle
-à chaque tranche du cube de donnée, l'idée est plutôt d'effectuer un
-ajustement de la PSF sur $N$ méta-tranches du cube de
-données, où le signal sur bruit est suffisamment élevé, et ainsi récupérer
+Puisqu'il n'est pas question d'ajuster à la fois la PSF et l'amplitude à
+chaque tranche monochromatique du cube de donnée, l'idée est plutôt d'effectuer un
+ajustement de la PSF sur $N$ méta-tranches, où le signal sur bruit est
+suffisamment élevé. Nous récupérons par conséquent
 un jeu de $N\times2D$ paramètres décrivant la PSF de la source et sa position 
 dans le MLA.
 
@@ -717,7 +752,7 @@ Nous devons ainsi modéliser la chromaticité de $5$ paramètres: les
 paramètres de forme $\alpha$ et $\eta$, les paramètres d'ellipticité et
 d'orientation $\mathcal{A}$ et $\mathcal{B}$, et l'évolution de la
 position ($x_{0}$,$y_{0}$) de la source ponctuelle dans le MLA, causée
-par la réfraction atmosphérique.
+par la réfraction atmosphérique différentielle.
 
 Commençons par aborder cet effet, présent indépendemment de l'étalement
 du point.
@@ -729,20 +764,20 @@ du point.
 
 L'atmosphère ayant un indice de réfraction différent de celui du vide
 spatial, la lumière d'une source astronomique nous parvenant sur Terre
-est ainsi réfractée (3$\ieme$ loi de Snell/Descartes). Cet indice étant dépendant de la longueur d'onde, la
+est ainsi réfractée (3$\ieme$ loi de Snell-Descartes). Cet indice étant dépendant de la longueur d'onde, la
 réfraction induite par le passage de la lumière dans l'atmosphère va
 elle aussi être chromatique: chaque longueur d'onde est ainsi déviée
 avec un angle de réfraction différent, à la manière d'un prisme. C'est
 cet effet que l'on appelle réfraction atmosphérique différentielle
 (\textit{Atmospheric Differential Refraction}; ADR).
 
-On observe ainsi en spectroscopie un déplacement du centroïde des
+On observe ainsi (en spectroscopie comme en photométrie) un déplacement du centroïde des
 sources astronomiques du champ de vue le long des tranches spectrales.
 
 Le phénomène d'ADR dépend des conditions d'observations, en prenant en
 compte d'une part la position de l'objet dans le ciel par rapport au
-détecteur (contribution achromatique), et d'autre part
-l'indice de réfraction de l'atmosphère (contribution chromatique).
+détecteur, et d'autre part
+l'indice de réfraction de l'atmosphère.
 
 Cet indice de réfraction varie avec la longueur d'onde de la lumière
 incidente, mais également avec différents paramètres de l'atmosphère. Il
@@ -751,10 +786,11 @@ l'indice de réfraction et les conditions atmosphériques lors de
 l'observation pour modéliser correctement les effets de l'ADR.
 
 Nous utilisons pour cela les équations de \citet{Edlen1966} modifées
-par \citet{Birch1993, Birch1994} et référencées par \citet{Stone2001}\footnote{\url{https://emtoolbox.nist.gov/Wavelength/Documentation.asp}}.
+par \citet{Birch1993, Birch1994} et référencées par
+\citet{Stone2001}\footnote{\url{https://emtoolbox.nist.gov/Wavelength/Documentation.asp}}
+que nous présentons ci-dessous.
 
-Nous présentons ci dessous les équations permettant de remonter à
-l'indice de réfraction. On notera $t$ pour la température (Celsius),
+On notera $t$ pour la température (Celsius),
 $p$, $p_{v}$ et $p_{sv}$ pour les pressions (Pascal) atmosphérique,
 partielle et saturante de
 vapeur d'eau, et enfin RH l'humidité relative.
@@ -777,9 +813,8 @@ On définit la pression saturante de vapeur d'eau par:
   \label{eq:pvs}
     p_{sv}(t) = 611.657 \times e^{Y}
 \end{equation}
-
-On déduit la pression partielle de vapeur d'eau $p_v$ à partir de
-l'humidité relative $RH$ (en pourcentage) par:
+et la pression partielle de vapeur d'eau $p_v$, qui est déterminée à partir de
+l'humidité relative $RH$ (en pourcentage):
 \begin{equation}
  \label{eq:pv}
     p_v(RH,t) = \frac{RH}{100}\times p_{vs}(t)
@@ -796,8 +831,7 @@ $C= 15998$ & $D = 96095.43$& $G = 0.003661$\\
 $E = 0.601 $& $F = 0.00972$ &  \\
 \end{tabular}
 \end{center}
-
-On défini alors les quantités intermédiaires suivantes, avec la longueur
+puis les quantités intermédiaires suivantes, avec la longueur
 d'onde $\lambda$ en \textmu m:
 \begin{align*}
     S =&  \lambda^{-2}\\
@@ -806,10 +840,9 @@ d'onde $\lambda$ en \textmu m:
          p\right)}{(1 + G \times t)}\\
     n(\lambda,t,p) =& 1 + p \times n_s \times \frac{X}{D}
 \end{align*}
-
-Avec $n(\lambda,t,p)$ l'indice de réfraction en négligeant la contribution de
-l'humidité relative. On exprime alors l'indice de réfraction avec toutes
-les dépendances par:
+avec $n(\lambda,t,p)$ l'indice de réfraction en négligeant la contribution de
+l'humidité relative. L'indice de réfraction avec toutes
+les dépendances s'écrit finalement sous la forme suivante:
 \begin{equation}
   \label{eq:refractindex}
     n(\lambda,RH,t,p) = n(\lambda,t,p) - 10^{-10}\times \left(\frac{292.75}{t + 273.15}\right) \times \left(3.7345 - 0.0401 \times S\right)\times p_v(RH,p,t)
@@ -818,8 +851,7 @@ les dépendances par:
 Nous pouvons maintenant déterminer la déviation du centroïde de nos
 objets dans le MLA à partir des indices de réfraction à une longueur
 d'onde donnée, et une longueur d'onde de référence.
-
-En notant ($x_{0}$, $y_{0}$) les coordonnées spatiales à la longueur
+En notant ($x_{ref}$, $y_{ref}$) les coordonnées spatiales à la longueur
 d'onde de référence $\lambda_{ref}$, les nouvelles coordonnées ($x_{\lambda}$, $y_{\lambda}$) à
 la longueur d'onde observée dues aux effets de l'ADR sont déterminées
 par la transformation:
@@ -832,12 +864,10 @@ $$
     \end{array}
    \right.
 $$
-
-Avec $\theta$ l'angle parallactique et $d_{z} = \arccos{\left(\chi^{-1}\right)}$ la
+avec $\theta$ l'angle parallactique et $d_{z} = \arccos{\left(\chi^{-1}\right)}$ la
 distance zénithale dans l'approximation d'une atmosphère plan-parallèle,
 et $\chi$ la masse d'air le long de la ligne de visée ($\chi=1$
 correspondant à un objet parfaitement au zénith).
-
 
 \subsection{Ajustement chromatique}\label{ssec:chrom}
 
@@ -860,7 +890,7 @@ standard 25d4655.
 
 \begin{figure}[ht]
   \centering
-  \includegraphics[width=0.95\textwidth]{../figures/06_irf/STD_profile_allmeta.pdf}
+  \makebox[\textwidth][c]{\includegraphics[width=1.1\textwidth]{../figures/06_irf/STD_profile_allmeta.pdf}}%
   \caption[Profil radial et coutours des $9$ metaslices de la STD
   25d4655]{Profil radial (\textit{à gauche}) et coutours d'intensité
     (\textit{à droite}) des $9$ metaslices de la STD
@@ -877,14 +907,14 @@ dériver la position de l'étoile dans le MLA à n'importe quelle longueur d'ond
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.6\textwidth]{../figures/06_irf/adr_std.pdf}
+  \includegraphics[width=0.99\textwidth]{../figures/06_irf/adr_std.pdf}
   \caption[Modélisation de la réfraction atmosphérique
   différentielle]{Modélisation de la réfraction atmosphérique
     différentielle pour l'étoile standard 25d4655. Nous montrons ici
     l'ajustement du centroïde ($x$,$y$) de la PSF par le modèle
     d'ADR. Les deux graphes du haut représentent l'ajustement des deux
     coordonnées en fonction de la longueur d'onde. Le graphe du bas
-    illustre l'effet de la réfraction atmosphérique.}
+    illustre l'effet de la réfraction atmosphérique dans le plan du MLA.}
   \label{fig:adr_std}
 \end{figure}
 
@@ -907,18 +937,20 @@ utilisons pour l'ajustement une loi de puissance de la forme:
   \label{eq:alphachrom}
   \alpha(\lambda)=\alpha_{ref}\left(\frac{\lambda}{\lambda_{ref}}\right)^{\rho}
 \end{equation}
-avec $\alpha_{ref}$ et $\rho$ les paramètres d'ajustement de la chromaticité.
+avec $\alpha_{ref}$ et $\rho$ les paramètres d'ajustement de la
+chromaticité, et $\lambda_{ref}$ une longueur d'onde arbitraire fixée à
+$6500$ \AA.
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.7\textwidth]{../figures/06_irf/chromaticity_psf.pdf}
+  \includegraphics[width=0.99\textwidth]{../figures/06_irf/chromaticity_psf.pdf}
   \caption[Chromaticité des paramètres de forme de la PSF]{Ajustement de
     la chromaticité
     des paramètres de forme de la PSF pour l'étoile standard
     25d4655. \emph{À gauche} l'ajustement du paramètre $\alpha$ avec une
   loi de puissance. \emph{À droite} de haut en bas, l'ajustement par une
 constante de $\eta$ (poids entre la gaussienne et la Moffat) et des
-paramètres d'ellipticité ($\mathcal{A}$) et d'orientation ($\mathcal{B}$). }
+paramètres $\mathcal{A}$ et $\mathcal{B}$. }
   \label{fig:chromaticity_psf}
 \end{figure}
 
@@ -928,16 +960,17 @@ en flux.
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.7\textwidth]{../figures/06_irf/stdspectra_adu.pdf}
+  \includegraphics[width=0.9\textwidth]{../figures/06_irf/stdspectra_adu.pdf}
   \caption[Spectre extrait de l'étoile standard 25d4655 en
   pseudo-ADU.]{Spectre extrait de l'étoile standard 25d4655 en
-    pseudo-ADU avec \hypergal. Les bandes correspondent aux zones d'absorption
+    pseudo-ADU avec \hypergal, corrigé de l'extinction atmosphérique
+    (voir section~\ref{ssec:photocalibstd}). Les bandes correspondent aux zones d'absorption
     tellurique d'O$_{2}$ et d'H$_{2}$O \citep{Buton2013}.}
   \label{fig:stdspectrumadu}
 \end{figure}
 
 
-\clearpage
+\newpage
 \section{Calibration en flux}\label{sec:validationpsf}
 
 \subsection{Méthode}\label{ssec:photocalibstd}
@@ -954,18 +987,17 @@ spectre observé $S(\lambda,t,z)$ d'une source astronomique est tel que:
   S(\lambda,t,z)=S^{\star}(\lambda,t)\times\mathcal{C}_{atm}(\lambda,t,z)\times\mathcal{C}_{inst}(\lambda,t)\times\mathcal{T}(\lambda,t,z)
 \end{equation*}
 avec $S^{\star}(\lambda,t)$ le spectre instrinsèque de la source en
-unités physiques ($erg/cm^2/s/$\AA), $\mathcal{C}_{atm}(\lambda,t,z)$
+unités physiques (erg.cm$^{-2}$.s$^{-1}$.\AA$^{-1}$), $\mathcal{C}_{atm}(\lambda,t,z)$
 l'extinction atmosphérique, $\mathcal{C}_{inst}(\lambda,t)$ la réponse
 instrumentale et $\mathcal{T}(\lambda,t,z)$ l'absorption tellurique. L'extinction
 atmosphérique utilisée pour le Mont Palomar est celle de
-\citep{Hayes1975atm}, et est appliquée lors de la création des cubes
+\citep{Hayes1975atm}, et est directement corrigée lors de la création des cubes
 SEDm. Le spectre extrait en pseudo-ADU de la
 Figure~\ref{fig:stdspectrumadu} est donc déjà corrigé de cette composante.
 
-L'absorption tellurique est re-paramétrisé de sorte que $\mathcal{T} =
-1-\mathcal{E}_{tell}$, avec $\mathcal{E}_{tell}$ le débit tellurique, ce qui nous donne finalement:
+Le formalisme de description du spectre observé est finalement:
 \begin{equation*} 
-  S_{pADU}(\lambda,t,z) = \frac{S(\lambda,t,z)}{\mathcal{C}_{atm}(\lambda,t,z)}=S^{\star}(\lambda,t)\times\mathcal{C}_{inst}(\lambda,t)\times\left(1-\mathcal{E}_{tell}(\lambda,t,z)\right)
+  \tilde{S}(\lambda,t,z) = \frac{S(\lambda,t,z)}{\mathcal{C}_{atm}(\lambda,t,z)}=S^{\star}(\lambda,t)\times\mathcal{C}_{inst}(\lambda,t)\times\mathcal{T}(\lambda,t,z)
 \end{equation*}
 
 On utilise comme référence le spectre spectrophotométrique
@@ -973,7 +1005,7 @@ correspondant à l'étoile standard observée, obtenu dans les archives
 calspec\footnote{\url{https://archive.stsci.edu/hlsps/reference-atlases/cdbs/current_calspec/}}.
 
 Les spectres
-telluriques utilisées sont ceux du Kitt Peak National
+telluriques utilisés sont ceux du Kitt Peak National
 Observatory\footnote{\url{http://www.noao.edu/kpno/}} \citep{Hinkle2003}, scindés en deux
 catégories de longueur d'onde: l'$\text{O}_{2}$ et
 l'$\text{H}_{2}\text{O}$. La Figure~\ref{fig:telluriclines} montre les
@@ -981,7 +1013,7 @@ raies d'absorption telluriques utilisées.
 
 \begin{figure}[ht]
   \centering
-  \includegraphics[width=0.85\textwidth]{../figures/06_irf/telluricspec.pdf}
+  \includegraphics[width=0.95\textwidth]{../figures/06_irf/telluricspec.pdf}
   \caption[Raies d'absorption telluriques]{Raies d'absorption
     telluriques du Kitt Peak National Observatory \citep{Hinkle2003}, avec les composantes d'$\text{O}_{2}$ et
     d'$\text{H}_{2}\text{O}$. La projection dans l'espace spectral de la
@@ -990,7 +1022,6 @@ raies d'absorption telluriques utilisées.
 \end{figure}
 
 La dépendance en masse d'air de l'absorption tellurique est exprimée suivant:
-
 \begin{equation*}
   \label{eq:telluricpysedm2}
   \mathcal{T}(z) =
@@ -999,16 +1030,12 @@ La dépendance en masse d'air de l'absorption tellurique est exprimée suivant:
 \end{equation*}
 où les amplitudes relatives $c_{i}$ et les coefficients
 $\rho_{i}$ sont des paramètres libres. La réponse instrumentale
-$\mathcal{C}_{inst}$ est quant à elle modélisée par un polynome de Legendre
+$\mathcal{C}_{inst}$ est quant à elle modélisée par une série de polynomes de Legendre
 d'ordre $20$.
-
 
 Les composantes de réponse instrumentale $\mathcal{C}_{inst}$ et
 d'absorption telluriques $\mathcal{T}$ sont alors simultanément
-ajustées en minimisant la quantité ~$(S_{pADU}/S_{ref}) - \mathcal{C}_{inst}(1-
-\mathcal{E}_{tell})$, où la quantité $\mathcal{C}_{inst}(1-
-\mathcal{E}_{tell})$ est appelée la courbe de
-sensibilité.
+ajustées en minimisant la quantité ~$(\tilde{S}/S_{calspec}) - \mathcal{C}_{inst}\times\mathcal{T}$.
 
 Ce procédé d'ajustement en distingant les composantes telluriques de la
 réponse instrumentale est nécessaire de par la dépendance en masse
@@ -1035,7 +1062,7 @@ exacerbé par l'intensité de la raie d'O$_{2}$ à $\sim7600$\AA.
 
 \begin{figure}[ht]
   \centering
-  \includegraphics[width=0.85\textwidth]{../figures/06_irf/calibmodel.pdf}
+  \includegraphics[width=0.95\textwidth]{../figures/06_irf/calibmodel.pdf}
   \caption[Procédure d'ajustement de la calibration en flux]{Procédure
     d'ajustement de la calibration en flux pour l'étoile standard
     25d4655. \emph{En haut} est illustré le spectre extrait de l'étoile
@@ -1043,41 +1070,45 @@ exacerbé par l'intensité de la raie d'O$_{2}$ à $\sim7600$\AA.
       bas} nous montrons le résultat de l'ajustement du modèle composé
     de la réponse instrumentale (en rouge) et de l'absorption tellurique
   (en gris). Les données sur lesquelles l'ajustement est effectuée, le
-  ratio $\frac{S_{pADU}}{S_{ref}}$, est en bleu.}
+  rapport $\frac{\tilde{S}}{S_{calspec}}$, est en bleu. Le décalage
+  visible au niveau de la raie tellurique d'O$_{2}$ à $\sim7600$\AA\ est
+dû à un biais dans la solution en longueur d'onde lors de l'extraction
+du cube des images CCD (explication en corps de texte).}
   \label{fig:calibmodel}
 \end{figure}
 
 \subsection{Précision de la calibration}\label{ssec:resultscalib}
 
-L'ajustement du modèle de sensibilité inversé présenté dans la section
+L'ajustement du modèle de sensibilité $\mathcal{C}_{inst}\times\mathcal{T}$\footnote{En réalité la
+  courbe de sensibilité devrait contenir l'extinction atmosphérique, qui
+est déjà corrigée dans notre cas.} présenté dans la section
 précédente permet ainsi de calibrer en flux les observations
 scientifiques. Afin d'estimer la précision de cette calibration, nous
 observons à nouveau une étoile standard (dans la même nuit ou la
 suivante), nous procédons à l'extraction de son spectre en pseudo-ADU,
 puis nous appliquons la calibration obtenue avec la précédente étoile.
 Cela nous permet alors de comparer cette étoile calibrée à partir d'une
-observation antérieur, avec son spectre de référence
+observation antérieure, avec son spectre de référence
 spectrophotométrique.
 
 Nous avons exploité tout ce chapitre l'étoile standard 25d4655, observée
-le 24/08/2021 à 10h 04m 49s. La même étoile a été ré-observée la même
-nuit une demi-heure plus tard, à 10h 38m 16s.
+le 24/08/2021 à 10h 04m. La même étoile a été ré-observée la même
+nuit une demi-heure plus tard, à 10h 38m.
 
-Nous pouvons ainsi extraire le spectre en pseudo-ADU de cette seconde
+Nous pouvons ainsi extraire le spectre de cette seconde
 observation tel que détaillé dans la première section de ce chapitre,
 lui appliquer la calibration en flux déterminée à partir de la première
 observation, et ainsi vérifier la précision obtenue en comparant le
 spectre calibré avec celui de référence Calspec.
 Nous montrons ce résultat dans la Figure~\ref{fig:fluxcalstd}.
 Le RMS sur tout l'espace spectral est de $1.87\%$, avec une distribution
-du ratio entre les deux spectres n'excédant pas les $5\%$. Cette
-déviation apparaît notamment à la localisation des raies telluriques les
+du rapport entre les deux spectres n'excédant pas les $5\%$. Cette
+déviation apparaît notamment au lieu des raies telluriques les
 plus intenses (O$_{2}$ à $\sim7600$\AA), due à une extraction du cube de
 la première observation de l'image CCD mal corrigée.
-
 \begin{figure}[ht]
   \centering
-  \includegraphics[width=0.85\textwidth]{../figures/06_irf/fluxcalstd.pdf}
+  \includegraphics[width=0.95\textwidth]{../figures/06_irf/fluxcalstd.pdf}
   \caption[Précision de la calibration en flux pour une étoile
   standard.]{Précision de la calibration en flux pour l'étoile standard
     25d4655 (ID:10-38-16) à partir de l'observation de la même étoile standard
@@ -1105,28 +1136,36 @@ Afin de corriger une éventuelle variation d'extinction atmosphérique
 entre deux observations, nous avons incorporé un terme gris
 (achromatique) normalisant ainsi le spectre extrait et celui de référence.
 
-La Figure~\ref{fig:allratio_std} présente ainsi le ratio (normalisé par
+La Figure~\ref{fig:allratio_std} présente ainsi le rapport (normalisé par
 un terme gris) entre les spectres extraits et calibrés en flux avec \hypergal\ de 2202 étoiles
 standards et leur spectre de référence Calspec ré-échantillonné dans
-l'espace spectral de la SEDm. On y présente le ratio moyen, dont la
+l'espace spectral de la SEDm. On y présente le rapport moyen, dont la
 distribution oscille autour de $1$-$2\%$. En considérant également les
 enveloppes à $1\sigma$ et $2\sigma$, ces résultats nous indiquent une
-calibration de couleur de l'ordre de quelques pourcents, majoritairement
+calibration en couleur de l'ordre de quelques pourcents, majoritairement
 en dessous des $5\%$. On remarque également que la présence des raies
 telluriques à $\sim7600$\AA\ est fortement présente dès que l'on
 considére l'enveloppe à $1\sigma$, ce qui conforte l'hypothèse d'une
 erreur systématique dans les solutions en longueur d'onde.
-
 Nous pouvons également remarquer la dégradation importante aux
 extrémités du domaine spectral de la SEDm, notamment en deça de
-$4500$\AA, et au dessus de $8500$\AA.
+$4000$\AA, et au dessus de $8500$\AA.
+
+L'intervalle spectral
+[$4000$,$8000$] \AA, indiqué en rouge, est celui utilisé par ZTF pour
+la classification de spectre. Les modèles du
+classifieur \pkg{SNID} sont en effet définis dans ce
+domaine spectral (dans le référentiel propre de la source observée),
+correspondant
+également au domaine spectral où les structures caractéristiques des
+  spectres de supernova sont présentes.
 
 \begin{figure}[ht]
   \centering
   \includegraphics[width=0.99\textwidth]{../figures/06_irf/fluxcalstd_all_ratio.pdf}
   \caption[Moyenne du ratio entre le flux de 2202
   étoiles standards et leur spectre de
-  référence.]{Moyenne du ratio entre le flux de 2202
+  référence.]{Moyenne du rapport entre le flux de 2202
     étoiles standards calibrées avec \hypergal et leur spectre de
     référence Calspec. Les enveloppes bleues représentent les déviations
     standard à $1\sigma$ et $2\sigma$. Les traits horizontaux représentent
@@ -1140,11 +1179,8 @@ pour différents intervalles de longueur d'onde. Les caractéristiques de
 ces distributions sont présentées dans la Table~\ref{tab:rms_allstd_detail}. En
 considérant le domaine spectral de la SEDm dans son ensemble, la
 calibration en flux obtenue avec \hypergal\ est de l'ordre de $3.3\%$. En
-limitant le domaine spectral à $\lambda\in$[$4500$-$8500$]\AA\, nous
-atteignons une précision de l'ordre de $2\%$ avec une faible déviation
-standard de $0.7\%$. Les résultats sont similaires avec le domaine
-spectral $\lambda\in$[$5000$-$8000$]\AA. Dans les deux derniers
-intervalles spectraux considérés, le RMS spectral n'excède pas les $4\%$. 
+limitant le domaine spectral à $\lambda\in$[$4000$-$8000$] \AA, nous
+atteignons une calibration en couleur de l'ordre de $2.5\%$, sans excéder les $5\%$. 
 
 \begin{figure}[ht]
   \centering
@@ -1155,9 +1191,9 @@ intervalles spectraux considérés, le RMS spectral n'excède pas les $4\%$.
   intervalles spectraux. \emph{En haut} sont représentés les
   histogrammes des distributions et \emph{en bas} le box plot
   correspondant. La distribution \emph{bleu} correspond au domaine
-  spectral entier de la SEDm, en \emph{orange} l'intervalle
-  $\lambda\in$[$4500$-$8500$]\AA, et en \emph{vert} l'intervalle
-  $\lambda\in$[$5000$-$8000$]\AA. Les box de la figure du bas montre
+  spectral entier de la SEDm et en \emph{orange} l'intervalle
+  $\lambda\in$[$4000$-$8000$] \AA, utilisé pour la classification
+  spectrale des supernovae avec la SEDm. Les box de la figure du bas montre
   pour chaque distribution le minimum, le $1^{\text{er}}$ quartile ($25\%$ des
   valeurs), la médiane, le $3^{\text{ème}}$ quartile ($75\%$ des
   valeurs) et le maximum.}
@@ -1174,15 +1210,14 @@ intervalles spectraux considérés, le RMS spectral n'excède pas les $4\%$.
   \begin{threeparttable}
     \begin{tabular}{cccc}
       \toprule
-      \textbf{RMS spectral (\%)} & $\lambda \in [3700$-$9300]$\AA & $\lambda \in [4500$-$8500]$\AA  &$\lambda \in [5000$-$8000]$\AA \\
+      \textbf{RMS spectral (\%)} & $\lambda \in [3700$-$9300]$\AA & $\lambda \in [4000$-$8000]$\AA   \\
       \midrule
-      Moyenne  &                                       3.35 &                                       2.17 &                                       2.04 \\
-      Déviation standard   &                                       1.34 &                                       0.70 &                                       0.59 \\
-      Minimum   &                                       1.19 &                                       1.05 &                                       0.97 \\
-      $1^{er}$ quartile (25\%)   &                                       2.25 &                                       1.60 &                                       1.55 \\
-      Médiane (50\%)   &                                       3.07 &                                       2.03 &                                       1.97 \\
-      $3^{rd}$ quartile (75\%)   &                                       4.30 &                                       2.63 &                                       2.45 \\
-      Maximum   &                                       6.62 &                                       4.03 &                                       3.56 \\
+      Moyenne  &                                       3.35 &                                       2.44 \\
+      Minimum   &                                       1.19 &                                       1.09  \\
+      $1^{er}$ quartile (25\%)   &                                       2.25 &                                       1.80 \\
+      Médiane (50\%)   &                                       3.07 &                                       2.27 \\
+      $3^{\text{ème}}$ quartile (75\%)   &                                       4.30 &                                       2.94  \\
+      Maximum   &                                       6.62 &                                       4.79  \\
       \bottomrule
     \end{tabular}
 
@@ -1191,11 +1226,43 @@ intervalles spectraux considérés, le RMS spectral n'excède pas les $4\%$.
     % \end{tablenotes}
   \end{threeparttable}
 \end{table}
+\clearpage
+\section*{Conclusion}
+Ce chapitre avait pour but de détailler la caractérisation de la réponse
+impulsionnelle de la SEDm. Dans un premier temps, nous avons
+étudié la réponse impulsionnelle spectrale, en utilisant l'observation de
+lampes à arc entre 2018 et aujourd'hui. Nous avons ainsi déterminé un
+modèle de fonction d'étalement
+de raie, considéré stationnaire,
+spatialement uniforme et chromatique. Sa modélisation, par un
+polynome quadratique, permet de projeter le cube intrinsèque de la galaxie
+hôte dans l'espace spectral de la SEDM.
 
+Nous avons modélisé dans un second temps la réponse impulsionnelle
+spatiale de notre instrument, en utiliant un profil radial asymétrique et chromatique. Ce
+profil, sous la forme d'une combinaison linéaire d'une gaussienne et
+d'une Moffat, a été entraîné sur plus d'une centaine d'étoiles standards observées en 2021,
+permettant de fixer certaines corrélations entre les paramètres et ainsi
+réduire le degré de liberté de notre modèle.
 
+Sa robustesse a été évaluée en calibrant en flux plus de $2000$ étoiles
+standards, en utilisant les spectres spectrophotométriques de référence
+de calspec. Notre modélisation chromatique de la PSF (associée à une
+modélisation de l'ADR) permet d'obtenir une
+calibration en couleur de l'ordre de quelques pourcents. La précision
+est de l'ordre de $3\%$
+lorsque l'on considère le domaine spectral $\lambda\in$[$4000$-$8000$]
+\AA, utilisé pour la classification spectrale des supernovae avec la SEDm.
+Le rôle de la SEDm et d'\hypergal\ étant prioritairement la classification spectrale des
+supernovae, ces résultats nous semblent suffisament satisfaisants pour
+conserver ce modèle de PSF, et l'utiliser pour l'extraction
+des supernovae.
 
-%\bibliographystyle{../main/aa_url2}
-%\bibliography{99_references}
+Dans le chapitre suivant, nous allons décrire les dernières étapes du
+pipeline \hypergal, à savoir la modélisation de scène et l'extraction
+des sources qui y sont incluses.
+\bibliographystyle{../main/aa_url2}
+\bibliography{99_references}
 
 \end{document}
 

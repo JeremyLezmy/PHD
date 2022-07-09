@@ -12,14 +12,18 @@ de sonde
 cosmologique dont sont dotées les Supernovae de type Ia. Par
 ailleurs, nous avons également mis en évidence l'importance de la
 classification de ces objets notamment par le biais d'une acquisition
-spectrale. Afin d'arriver à cet objectif, la première étape est de
-détecter ces évènements transitoires. Dans ce chapitre nous présenterons
+spectrale. Contraindre les paramètres cosmologiques nécessite la mise en
+place d'une stratégie d'observation, et donc de
+détecter ces évènements transitoires. Dans ce chapitre nous présentons
 la collaboration Zwicky Transient Facility (ZTF par la suite), où la recherche et
 l'étude de tels objets font partie des objectifs majeurs. Nous nous
-focaliserons particulièrement ici sur la section photométrique de
-ZTF. Nous commencerons par présenter la collaboration et ses objectifs
-scientifiques, puis nous aborderons les caractéristiques de la caméra principale de ZTF et ses capacités
-photométriques. Enfin nous présenterons quelques statistiques et résultats
+focalisons particulièrement ici sur la section photométrique de
+ZTF, puis nous nous concentrerons sur la classification des SNe par
+spectroscopie dans le chapitre~\ref{ch:sedm}.
+
+Nous introduisons dans un premier temps la collaboration et ses objectifs
+scientifiques, puis nous abordons les caractéristiques de la caméra principale de ZTF et ses capacités
+photométriques. Enfin nous présentons quelques statistiques et résultats
 de la DR1 vis à vis de la détection des SNeIa.
 \newpage
 \section{Presentation de la générale}
@@ -29,31 +33,31 @@ de la DR1 vis à vis de la détection des SNeIa.
 \subsection{Histoire et collaboration}
 
 ZTF\footnote{\url{https://www.ztf.caltech.edu}} \citep{GrahamZTF2019,BellmZTF2019}  est un grand relevé astronomique dont la première lumière fut
-obtenue en Novembre 2017, et réellement actif depuis Mars
-2018. Ayant achevé la phase 1 en Novembre 2020, ZTF est actuellement à
-mi-chemin de sa phase 2 qui s'étend de Décembre 2020 à Décembre 2023.
+obtenue en Novembre 2017, et réellement actif depuis mars
+2018. Ayant achevé la phase 1 en novembre 2020, ZTF est actuellement à
+mi-chemin de sa phase 2 qui s'étend de décembre 2020 à décembre 2023.
 
 Il succède au relevé Intermediate Palomar Transient Factory (IPTF, 2012-2017),
-lui-même prédécesseur de Palomar Transient Facility (PTF, 2009-2012)
+lui-même successeur de Palomar Transient Facility (PTF, 2009-2012)
 \citep{RauPTF2009,LawPTF2009}. Ces trois relevés grand
-champs utilisent le télescope Samuel
+champ utilisent le télescope Samuel
 Oschin ($48$ pouces $\approx 1\text{m}22$) à l'Observatoire de Palomar en
 Californie (Fig.~\ref{fig:p48}).
 
-D'une caméra avec un champ de vue de $7.9 \text{deg}^{2}$
-pour PTF, ZTF utilise à présent pleinement le plan focal du télescope et
+PTF utilisait une caméra avec un champ de vue de $7.9 \text{deg}^{2}$,
+alors que ZTF utilise à présent pleinement le plan focal du télescope et
 bénéficie d'une nouvelle caméra offrant un champ de vue de $47
-\text{deg}^{2}$, équippé de 3 filtres $g$, $r$ et $i$. La
+\text{deg}^{2}$, équipée de 3 filtres $g$, $r$ et $i$. La
 Figure~\ref{fig:ztfcamerafov} montre le champ de vue de la caméra ZTF,
 en comparaison avec celui d'autres relevés astronomiques. La collaboration est également doté d'un spectrographe
-3D basse résolution ($R\approx100$; \citet{SEDM18}) monté sur le P48 à
+3D basse résolution \citep[$R\approx100$;][]{SEDM18} monté sur le P48 à
 Palomar, qui est notamment
-utilisé pour la classifciation des transients détectés par la caméra principale.
+utilisé pour la classifciation des évènements transitoires détectés par la caméra principale.
 
 \begin{figure}[h]
   \centering
   \includegraphics[width=0.75\textwidth]{../figures/02_ztf/p48.png}
-  \caption{Télescope Samuel Oshin P48 au Mont Palomar}
+  \caption{Télescope Samuel Oshin P48 au Mont Palomar.}
   \label{fig:p48}
 \end{figure}
 
@@ -61,18 +65,18 @@ utilisé pour la classifciation des transients détectés par la caméra princip
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.9\textwidth]{../figures/02_ztf/ztfcamerafov.png}
-\caption{Champ de vue de la caméra ZTF comparé à celui d'autres relevés astronomiques }
+\caption{Champ de vue de la caméra ZTF comparé à celui d'autres relevés astronomiques.}
 \label{fig:ztfcamerafov}
 \end{figure}
 
 ZTF est une collaboration internationale financée entre
-la US National Science Foundation (NSF) à travers le  programme Mid-scale
-Innovations Program (MSIP), et un grand nombre de consortium
+la \textit{US National Science Foundation} (NSF) à travers le programme \textit{Mid-scale
+Innovations Program} (MSIP), et un grand nombre de consortium
 internationaux d'Universités et institutions:
 
 \begin{multicols}{2}
 \begin{itemize}[noitemsep, label=$\bullet$]
-    \item IN2P3\footnote{Institut national de physique nucléaire et de physique
+    \item IN2P3, France\footnote{Institut national de physique nucléaire et de physique
     des particules}.
     \item TANGO University System of Taiwan
     \item Weizmann Institute of Science, Israel
@@ -81,16 +85,16 @@ internationaux d'Universités et institutions:
     \item Ruhr University Bochum, Germany
     \item University of Warwick, UK
     \item Trinity College Dublin, Ireland
-    \item University of Maryland, College Park
-    \item Northwestern University
-    \item University of Wisconsin, Milwaukee
-    \item Lawrence Livermore National Laboratory
-    \item Caltech/IPAC
+    \item University of Maryland, College Park, USA
+    \item Northwestern University, USA
+    \item University of Wisconsin, Milwaukee, USA
+    \item Lawrence Livermore National Laboratory, USA
+    \item Caltech/IPAC, USA, CA
 \end{itemize}
 \end{multicols}
 
-ZTF est ainsi un partenariat privé-public, où son temps d'observation
-est divisé pour chaque phase du projet entre trois niveaux:
+ZTF est ainsi un partenariat privé-public, dont le temps d'observation
+est divisé pour chaque phase du projet en trois parts:
 
 Lors de la phase 1, le temps d'allocation public (NSF) était de 40\%,
 pour les partenariats privés de 40\% également, et les 20 derniers \%
@@ -104,13 +108,13 @@ au programme MSIP, et 30\% aux partenaires privés.
 Durant le temps d'observation public, ZTF effectue deux sondages distincts: le ciel
 Nord d'une part à haute cadence, qui est entièrement scanné tous les trois jours dans les
 filtres $g$ et $r$, et le plan
-Galactique d'autre part (lattitude $|b|<7\degree$), qui lui est entièrement observé chaque nuit
+Galactique d'autre part (latitude $|b|<7\degree$), qui lui est entièrement observé chaque nuit
 également dans les filtres $g$ et $r$.
 
 Ces deux sondages combinés mènent à la détection et la génération
 d'alertes automatiques de plus d'un million d'évènements par nuit. Ces
 évènements sont des phénomènes astrophysiques transitoires ou variables,
-dont la magnitude de détection est inférieur à $r\approx 20.5$.
+dont la magnitude de détection est inférieure à $r\approx 20.5$.
 
 \subsection{Organisation de la recherche scientifique}
 
@@ -121,26 +125,26 @@ Les sections de recherches scientifiques au sein de ZTF sont nombreuses \citep{G
     \item \underline{L'étude des AGN \& TDEs}:
   
       Les AGN (\textit{Active Galactic Nuclei}), correspondent à une
-      région particulièrement lumineuse au coeur des galaxies. Ce sont
-      habituellement des trous noirs
-      supermassifs et leur disque d'accrétion. Les TDEs, ou \textit{Tidal Disruption Events}, correspondent à des
+      région particulièrement lumineuse au coeur de certaines galaxies,
+      où se situe un trou noir
+      supermassif et leur disque d'accrétion. Les TDEs, ou \textit{Tidal Disruption Events}, correspondent à des
       phénomènes extrèmement lumineux émanents de cette région.
 
-    \item \underline{L'étude des Supernovae comme sonde cosmologique}
+    \item \underline{L'étude des supernovae comme sonde cosmologique}
       
       C'est l'utilisation de leur caractéristique de chandelle standardisable pour
       effectuer des mesures précises de distance dans l'Univers
-      proche. Avant 2018, seulement $\approx500$ de ces évènements ont
-      été observés dans l'Univers proche. En 3 ans ZTF a déterminé près
-      de $3000$ distances de ces évènements.
+      proche. Avant 2018, moins de $500$ de ces évènements ont
+      été observés dans l'Univers proche à $z<0.1$ \citep{Scolnicpantheon21}. En 3 ans ZTF a déterminé près
+      de $3000$ distances de ces évènements \mbox{\textsc{Rigault} et al. (in prep.)}.
 
-    \item \underline{Physique des Supernovae}
+    \item \underline{Physique des supernovae}
 
-      Indépendamment de leur type, de nombreux mystères demeurent sur la
-      physique même de l'explosion des Supernovae. ZTF permet d'obtenir
-      un échantillon unique de plusieurs milliers de Supernovae tout
-      type confondu qui permet au groupe Bright Transient Survey
-      (BTS) d'obtenir des mesures non-biaisées de taux de Supernovae, de fonctions de
+      Indépendamment de leur type, de nombreuses interrogations demeurent sur la
+      physique même de l'explosion des Supernovae. ZTF permet de construire
+      un échantillon unique de plusieurs milliers de Supernovae tous
+      types confondus, permettant au groupe \textit{Bright Transient Survey}
+      (BTS) d'obtenir des mesures de taux de Supernovae, de fonctions de
       luminosités, de propriétés de galaxies hôte etc.
 
     \item \underline{Voie Lactée et M31}
@@ -148,25 +152,29 @@ Les sections de recherches scientifiques au sein de ZTF sont nombreuses \citep{G
       Avec l'observation de plusieurs millions d'étoiles chaque nuit, tout un
       pôle d'étude s'est formé autour des objets internes à notre
       galaxie, mais également dans la galaxie voisine M31, plus connue
-      sous le nom d'Andromède. Cet échantillon gigantesque est utilisé pour étudier
+      sous le nom de galaxie d'Andromède. Cet échantillon gigantesque est utilisé pour étudier
       des naines blanches dont la luminosité varie périodiquement,
       d'autres avec des débris transitoires, les systèmes binaires avec
-      émission de rayons-X, et de nombreux autres objets stellaires.
+      émission de rayon-X, et de nombreux autres objets stellaires.
 
 
-    \item \underline{L'Astrophysique Multimessager}
+    \item \underline{L'astrophysique multimessager}
 
       Cette toute nouvelle branche de la physique a vue le jour notamment grâce aux
-      premières détections d'ondes gravitationnelles ou de neutrinos. De
-      tels phénomènes sont habituellement grossièrement localisés avec
+      premières détections d'ondes gravitationnelles ou de neutrinos astrophysiques. De
+      tels phénomènes sont habituellement grossièrement localisés lors de
       la détection de ce type de signal, ce qui rend difficile
       l'identification de la source. Dans le cas où une contrepartie
       électromagnétique existe, ZTF est alors capable de compléter la
       détection primaire avec une observation photométrique aux prémices de
       l'évènement, notamment grâce à son champ de vue extrêmement
-      large et sa haute cadence.
+      large et sa haute cadence. Par exemple \citet{Chen2022}
+      ont identifié la contrepartie électromagnétique (ZTF19abanrhr) de
+      la fusion
+      d'un système binaire de trous noirs (GW190521). L'utilisation de cette sirène
+      standard permet la dérivation de contraintes sur les paramètres cosmologiques.
 
-    \item \underline{Corps au sein du système Solaire}
+    \item \underline{Corps au sein du système solaire}
 
       Ce groupe se concentre sur la découverte et la caractérisation des
       petits corps au sein de notre système solaire, à savoir des
@@ -180,26 +188,27 @@ recherches est adaptée de la façon suivante \citep{Bellm19b}:
   \itemsep0em 
 \item L'étude des corps au sein
   du système solaire se fait principalement durant l'aube et l'aurore
-  ($\sim3.5\%$ du ciel pour chaque et principalement en bande $r$).
+  ($\sim3.5\%$ du ciel pour chaque et principalement en bande $r$);
 \item L'étude de la physique des Supernovae bénéficie d'une observation
   haute cadence (3 jours dans $g$ et $r$) de $\approx1800\text{deg}^{2}$, et qui correpond à une
-  allocation de $15\%$ du temps d'observation. 
+  allocation de $15\%$ du temps d'observation;
 \item  $\approx8\%$ du temps pour la Cosmologie dans le ciel extra-galactique.
-\item Le groupe Galaxy Science observe la Voie Lactée principalement en
-  été ($\approx5\%$, toutes bandes confondus).
+\item Le groupe \textit{Galaxy Science} observe la Voie Lactée principalement en
+  été ($\approx5\%$, toutes bandes confondus);
 \item Le groupe Astrophysique multi-messager peut observer et étudier de
-  potentiels sources pour $\approx5\%$ du temps (toutes bandes confondus)
+  potentiels sources pour $\approx5\%$ du temps (toutes bandes confondus).
 \end{itemize}
 
 \begin{figure}[h]
   \centering
   \includegraphics[width=0.75\textwidth]{../figures/02_ztf/palomar_obs-min.png}
   \caption[Observatoire de Palomar]{Observatoire de Palomar, en Californie. Sur la gauche est
-    située la caméra principale de ZTF, attachée au télescope P48 Samuel
-    Oschi. En haut à droite nous avons le P60, sur lequel est monté le
+    situéele télescope P48 Samuel
+    Oschi, auquel est attachée la caméra principale de ZTF. En haut à droite nous avons le P60, sur lequel est monté le
     spectrographe 3D SEDm appartenant également à la collaboration
-    ZTF. Le P200 est quant à lui utiliser par de nombreuses
-    collaborations, et est utilisé occasionnellement par ZTF.}
+    ZTF. Le P200 est quant à lui utilisé par de nombreuses
+    collaborations, et est utilisé occasionnellement pour de la
+    spectroscopie par ZTF.}
 \label{fig:palomar_obs}
 \end{figure}
 
@@ -209,10 +218,10 @@ recherches est adaptée de la façon suivante \citep{Bellm19b}:
 \subsection{Caractéristiques}
 
 La nouvelle configuration de ZTF vis à vis de ses prédecesseurs PTF/iPTF
-est principalement due à sa nouvelle caméra de $47\text{deg}^{2}$, profitant de
+est principalement due à sa nouvelle caméra de $47\text{deg}^{2}$, couvrant
 l'intégralité du plan focal du télescope Schmidt P48.
 
-Comme illustré dans la Fig.~\ref{fig:ztfcamera} de \citet{BellmZTF2019}, la caméra est
+Comme illustré dans la Figure~\ref{fig:ztfcamera} \citep{BellmZTF2019}, la caméra est
 constituée d'une mosaïque de 16 CCD (Charge Coupled Device) composés de
 pixels carrés de \SI{15}{\micro\metre} de côté, à une échelle de $1\farcs01$
 $\text{pixel}^{-1}$. Chaque CCD est composé de 6144$\times$6160 pixels,
@@ -230,12 +239,12 @@ système ZTF \citep{DekanyZTF2020}.]{\label{fig:p48details}{\includegraphics[wid
 \end{figure}
 
 
-La FWHM mediane de la fonction d'étallement du point
-(PSF) résultant de cette configuration est de $2\farcs1$ dans les bandes
+La FWHM mediane de la fonction d'étalement du point
+(PSF) atmosphérique résultant de cette configuration montre un seeing de $2\farcs1$ dans les bandes
 $g$ et $i$, et de $2\farcs0$ dans la bande $r$. Leur transmission
-respectives est présentée dans la Figure~\ref{fig:ztffilters}. En ce qui concerne la limite en magnitude, la bande $g$ montre un seuil median à
-$5\sigma$ de $20.8$mag, la bande $r$ de $20.6$mag et la bande $i$
-$19.9$mag. Nous illustrons les distributions de la FWHM et du seuil en
+respective est présentée dans la Figure~\ref{fig:ztffilters}. En ce qui concerne la limite en magnitude, la bande $g$ montre un seuil median à
+$5\sigma$ de $20.8$~mag, la bande $r$ de $20.6$~mag et la bande $i$
+$19.9$~mag. Nous illustrons les distributions de la FWHM et du seuil en
 magnitude pour chaque filtre dans la Figure~\ref{fig:ztfperffilts}. 
 
 
@@ -245,7 +254,7 @@ magnitude pour chaque filtre dans la Figure~\ref{fig:ztfperffilts}.
   \end{minipage}\hfill
   \begin{minipage}[c]{0.45\textwidth}
     \caption[Transmission des filtres $g$, $r$ et $i$ de
-    ZTF]{Transmission des filtres $g$, $r$ et $i$ de ZTF \citep{DekanyZTF2020}}\label{fig:ztffilters}
+    ZTF]{Transmission des filtres $g$, $r$ et $i$ de ZTF \citep{DekanyZTF2020}.}\label{fig:ztffilters}
   \end{minipage}
 \end{figure}
 
@@ -256,8 +265,8 @@ magnitude pour chaque filtre dans la Figure~\ref{fig:ztfperffilts}.
   \includegraphics[width=0.99\textwidth]{../figures/02_ztf/ztfperformances.pdf}
   \caption[Profondeurs et FWHM associées aux filtres de la caméra
   ZTF]{\textit{À gauche} l'histogramme
-    normalisé de la largeur à mi-hauteur (FWHM) de la fonction
-    d'étalement de point (PSF) pour chaque filtre durant le mois de Juin
+    normalisé de la largeur à mi-hauteur (FWHM) atmosphérique de la fonction
+    d'étalement de point (PSF) pour chaque filtre durant le mois de juin
     2018 \citep{BellmZTF2019}. \textit{À droite} est représenté
     l'histogramme à $5\sigma$ des magnitudes limites avec un temps de
     pose de $30s$ pour chaque filtre sur une période d'une lunaison.}
@@ -265,21 +274,21 @@ magnitude pour chaque filtre dans la Figure~\ref{fig:ztfperffilts}.
 \end{figure}
 
 
-Le temps de pose utilisé avec cette caméra est de $30s$, et la vitesse
-de lecture de seulement $8s$. Entre le champ de vue de
-$47\text{deg}^{2}$ et cette haute cadence d'acquisition, ZTF est capable
-de scanner près de $3750\text{deg}^{2}$ par heure. Sachant que tout au long
+Le temps de pose utilisé avec cette caméra est de $\SI{30}{s}$, et la vitesse
+de lecture de seulement $\SI{8}{s}$. Entre le champ de vue de
+$47\text{ deg}^{2}$ et cette haute cadence d'acquisition, ZTF est capable
+de scanner près de $3750\text{ deg}^{2}$ par heure. Sachant que tout au long
 de l'année il y a en moyenne 6h de ciel noir par nuit au Mont Palomar, ZTF est ainsi
-capable d'observer l'entièreté du ciel visible plus d'une fois par
-nuit. Pour donner un autre
+capable d'observer l'entièreté du ciel visible ($\sim23675\text{ deg}^{2}$) chaque nuit. Pour donner un autre
 ordre d'idée, ZTF serait ainsi capable de reproduire le relevé POSS
-\citep{MinkowskiPOSS} en 2 nuits.
+\citep{MinkowskiPOSS} ($3$ bandes $B_J$, $R$ et $I$ avec une profondeur
+respective de $22.5$~mag, $20.8$~mag et $19.5$~mag) en seulement 2 nuits.
 
 
 \subsection{Gestion des données}
 
 Bien évidemment, un tel flux de données nécessite une infrastructure de
-traitement adéquate. Celle ci, appelée ZTF Science Data System (ZSDS)
+traitement adéquate. Appelée ZTF Science Data System (ZSDS), elle 
 est hébergée à l'IPAC\footnote{Infrared Processing \& Analysis Center: \href{https://
 www.ipac.caltech.edu}{https://www.ipac.caltech.edu}} \citep{MasciZTF2019}. Ce système
 comprend le traitement des données, l'infrastructure
@@ -287,7 +296,7 @@ d'émission d'alertes, le système d'interface utilisateur pour l'accès
 et l'analyse des résultats. Ce pipeline (exécuté en temps réel) utilise
 un algorithme de différentiation d'image, optimisé pour la détection de
 point source variable ou transitoire. Une fois l'évènement confirmé, une alerte est générée et
-en générale déployée dans le quart d'heure qui suit. La distribution de
+en général émise dans le quart d'heure qui suit. La distribution de
 ce flux d'alertes utilise des technologies dont le code source est
 public et qui sont développées
 en industries: Apache Kafka\footnote{\url{https://kafka.apache.org}} qui
@@ -295,22 +304,23 @@ fourni un système unifié en temps réel à latence faible pour la
 manipulation de flux de données, et
 Avro\footnote{\url{https://avro.apache.org}} qui est un framework de
 sérialisation de données. Les ordres de grandeurs de la quantité de
-données à manipuler sont impressionnants: Ce système gère avec succès un
+données à manipuler sont impressionnants: ce système gère avec succès un
 flux d'environ $1,2$ millions d'alertes ($\sim$ $70$ GB de données) par
 nuit. La vitesse de transfert est d'environ $80,000$ alertes/minute. Plus
 de détails sur le système de distribution d'alertes sont apportés dans
 \citet{PattersonZTF2019}. On notera que le framework Avro sera celui utilisé
-pour LSST.
+pour le \textit{Legacy Survey of Space and Time} \citep[LSST;][]{LSSTbook2}.
 
-Seules les alertes provenant des observations liées au programme MSIP
-sont rendues public immédiatement. Les images en revanches (brut,
+Seules les alertes provenant des observations liées au programme \textit{Mid-scale
+Innovations Program} (MSIP)
+sont rendues public immédiatement. Les images en revanche (brutes,
 calibrées et produits de données associés) deviennent disponibles 6 à 12 mois 
 après l'observation pour la Phase 1 de ZTF, et entre 3 et 6 mois pour la
 Phase 2. Les données d'observation ayant pour origine les programmes
 privés et de Caltech sont disponibles après environ 12 à 18 mois. Lors
-de l'écriture de ces lignes en Avril 2022, la
+de l'écriture de ces lignes en avril 2022, la
 DataRelease\footnote{\url{https://www.ztf.caltech.edu/ztf-public-releases.html}}
-10 est public, ce qui correspond à toutes les observations MSIP de Mars 2018 au 5 Novembre
+10 est publique, ce qui correspond à toutes les observations MSIP de Mars 2018 au 5 Novembre
 2021, et celles privées et de Caltech jusqu'au 5 Juillet 2020.
 
 \section{Observation des Supernovae Ia avec ZTF}\label{sec:sniaztf}
@@ -319,7 +329,7 @@ Nous allons à présent nous focaliser sur l'observation des Supernovae de
 type Ia avec ZTF.
 
 Les évènements transitoires nécessitant d'être filtrés parmis toutes les
-alertes reportées par ZTF, \citet{NordinAMPEL2019} a élaboré le système
+alertes reportées par ZTF, \citet{NordinAMPEL2019} ont élaboré le système
 \pkg{AMPEL}\footnote{\url{https://github.com/AmpelProject/Ampel-contrib-sample}} afin d'automatiquement filtrer
 les détections de ZTF et établir les courbes de luminosité associés aux
 évènements retenus.
@@ -334,11 +344,11 @@ elles s'avèrent être de type Ia, dont la moitié atteignent le seuil de
 magnitude de ZTF permettant d'établir une courbe de lumière
 exploitable.
 
-La $1\iere{}$ data release dédiée au sondage des Supernovae de type Ia
+La $1\iere{}$ \textit{data release} dédiée au sondage des supernovae de type Ia
 avec ZTF a été publiée et décrite par \citet{DhawanZTFDR1} très
 récemment. Au stade de cette DR1, ce qui correspond à un peu plus de 2
-ans et demi d'observations (Mars 2018-Novembre 2020), ZTF a déjà
-répertorié plus de $3000$ SNIa.
+ans et 6 mois d'observations (mars 2018-novembre 2020), ZTF a déjà
+répertorié plus de $3000$ SNeIa.
 
 La profondeur en magnitude atteint
 $20.8$, $20.6$, $20.3$ mag dans les bandes $g$ $r$, et $i$ respectivement, ce qui
@@ -353,62 +363,62 @@ Energy Distribution machine (SEDm), qui est optimisé pour la
 classification des SNe jusqu'à $m\approx19$ mag. Nous détaillerons cet instrument
 dans le chapitre suivant. La DR1
 présente ainsi un échantillon de $761$ Supernovae classifiées
-spectralement avec un redshift median de $\overbar{z}=0.057$, incluant $547$ SNeIa, $155$ SNeII, $40$ SNeIb/c et $19$ SLSNe.
-La Figure~\ref{fig:cumulsniaztf} (\textbf{Rigault et al DR2}) met en évidence la croissance de
+spectralement avec un redshift median de $z=0.057$, incluant $547$ SNeIa, $155$ SNeII, $40$ SNeIb/c et $19$ SLSNe.
+La Figure~\ref{fig:cumulsniaztf} (\mbox{\textsc{Rigault} et al. (in prep.)}) met en évidence la croissance de
 l'échantillon de SNeIa observées durant la phase 1 de ZTF, qui
-constituera la $2\ieme$ Data Release de ZTF-Cosmo consacrée aux Supernovae de
+constituera la $2\ieme$ \textit{data release} de ZTF-Cosmo consacrée aux Supernovae de
 type Ia.
 
 Sur les $\approx3700$ SNeIa classifiées spectralement, près de
-$3000$ entrent dans la catégorie \textit{échantillon dorée}, ce qui
+$3000$ entrent dans la catégorie \textit{golden sample}, ce qui
 signifie qu'elles remplissent les critères dit de qualité cosmologiques
 pour leur courbe de luminosité vis à vis de l'algorithme SALT2 qui en
 dérive les paramètres de couleur et de stretch. Ces
 critères, basés sur l'intervalle de phase $[-15,30]$ jours où SALT2 est
-le mieux définie, sont les suivants:
+le mieux entraîné, sont les suivants:
 
 \begin{itemize}[label=$\diamondsuit$]
   \itemsep0em 
-   \item Seulement les détections photométriques à $5\sigma$ sont
-     considérées
-   \item Au moins $7$ points avec le maximum dans au moins $2$ bandes
-   \item Au moins $7$ points après le maximum dans au moins $2$ bandes
+   \item seulement les détections photométriques à $5\sigma$ sont
+     considérées;
+   \item au moins $7$ points avant le maximum répartis dans au moins $2$ bandes;
+   \item au moins $7$ points après le maximum répartis dans au moins $2$ bandes.
 \end{itemize}
 
-Environ $40\%$ de ces Supernovae possèdent un redshift spectral de leur
-galaxie hôte (majoritairement des relevés SDSS). $50\%$ proviennent des
-caractéristiques des spectres des supernovae elles mêmes, et $10\%$ de
-raies d'émissions de la galaxie hôte ayant contaminées le spectre de la
-SNIa. Il est à noté que pour les 2 derniers points, la précision n'est
+Environ $40\%$ de ces supernovae possèdent un redshift spectral de leur
+galaxie hôte (majoritairement en provenance des relevés SDSS). Pour les
+$60\%$ de SNeIa restantes, $50\%$
+ont un redshift provenant des
+caractéristiques de leur spectre, et $10\%$ de
+raies d'émissions de la galaxie hôte ayant contaminées leur spectre. Il est à noter que pour les 2 derniers points, la précision n'est
 que de l'ordre de $5$\textperthousand, insuffisant pour la cosmologie.
-Cependant, plus de $95\%$ des galaxies hôtes ont une magnitude supérieur
-à $20$ mag, ce qui signifie que d'autres relevés (comme par exemple
-DESI) pourraient à posteriori mesurer et fournir les redshift manquant.
+Cependant, plus de $95\%$ des galaxies hôtes ont une magnitude supérieure
+à $20$~mag, ce qui signifie que d'autres relevés (comme par exemple
+DESI) pourraient a posteriori mesurer et fournir les redshift manquant.
 
 \begin{figure}[h]
   \centering
-  \includegraphics[width=0.99\textwidth]{../figures/02_ztf/cumulsniaztf.png}
+  \includegraphics[width=0.95\textwidth]{../figures/02_ztf/cumulsniaztf.png}
   \caption[Nombre cumulé de SNIa observés par ZTF (phase 1)]{Nombre
-    cumulé de SNIa observés par ZTF (phase 1). Les contours dorés
+    cumulé de SNIa observées par ZTF (phase 1). Les contours dorés
     correspondent à l'échantillon passant les critères de coupure pour
     une qualité cosmologique. Le trait plein montre les SN avec un
     redshift spectroscopique de leur galaxie hôte. À titre de
     comparaison, le set de données le plus récent dans la littérature
-    cosmologique comptabilise moins de $500$ SNIa à un redshift de $z<0.1$}
+    comptabilise moins de $500$ SNIa à un redshift de $z<0.1$}
   \label{fig:cumulsniaztf}
 \end{figure}
 
 ZTF a donc montré sa capacité à débusquer et classifier pas moins de
-$1000$ Supernovae de type Ia par an, très loin devant l'actuel (ancien)
-leader à bas redshift Pantheon \citep{Scolnicpantheon18} avec 1048 SNeIa
+$1000$ Supernovae de type Ia par an, très loin devant l'actuelle (ancienne)
+plus grande compilation à bas redshift Pantheon \citep{Scolnicpantheon18} comptabilisant 1048 SNeIa
 sur les 20 dernières années, dont seulement 210 à un redshift
 $z<0.1$. Leur plus récente publication
 \citep[Pantheon+,][]{Scolnicpantheon21} fait état de 1550 SNeIa, dont 389 à $z<0.1$.
 
 Nous parlerons dans le dernier chapitre de ce manuscrit de la nouvelle
-Data Release 2 actuellement en cours d'étude, des premiers résultats obtenus sur les courbes de
-lumières ainsi que des ouvertures sur la dérivation de paramètres
-cosmologiques.
+\textit{data release} 2 actuellement en préparation ainsi que des premiers résultats obtenus sur les courbes de
+lumière.
 
 Rappelons que la cosmologie avec les SNeIa se base sur la capacité, certes, à
 détecter les supernovae grâce à la caméra ZTF, mais également à leur
@@ -420,7 +430,7 @@ induisant des biais dans la dérivation des paramètres cosmologiques
 Comme nous l'avons mentionné au tout
 début de la Section~\ref{sec:ztfcollab}, cette classification se fait
 grâce à un spectrographe 3D monté sur le télescope P60. Le chapitre
-suivant est tout naturellement dédiée à la présentation de cet
+suivant est tout naturellement dédié à la présentation de cet
 instrument, l'extraction de spectre et sa classifcation.
 
 

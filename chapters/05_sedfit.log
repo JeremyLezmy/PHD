@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  3 JUL 2022 00:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  8 JUL 2022 10:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1182,6 +1182,10 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 \rot@float@box=\box122
 \rot@mess@toks=\toks50
 )
+(/usr/local/texlive/2021/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write6
+
+Excluding comment 'comment')
 (/usr/local/texlive/2021/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen357
@@ -1618,11 +1622,11 @@ Package minitoc Info: I0033
 (minitoc)             Writing 05_sedfit.mtc1.
 \openout4 = `05_sedfit.mtc1'.
 
-\tf@toc=\write6
-\openout6 = `05_sedfit.toc'.
+\tf@toc=\write7
+\openout7 = `05_sedfit.toc'.
 
 
-Chapitre 5.
+Chapitre 6.
 \openout4 = `05_sedfit.mtc'.
 
 \openout4 = `05_sedfit.mtc'.
@@ -1645,7 +1649,7 @@ LaTeX Warning: Reference `ch:hypergal' on page 1 undefined on input line 13.
 
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<../figures/05_sedfit/GPC1focalplan.png, id=61, 663.47874pt x 665.48625pt>
+<../figures/05_sedfit/GPC1focalplan.png, id=65, 663.47874pt x 665.48625pt>
 File: ../figures/05_sedfit/GPC1focalplan.png Graphic file (type png)
 <use ../figures/05_sedfit/GPC1focalplan.png>
 Package pdftex.def Info: ../figures/05_sedfit/GPC1focalplan.png  used on input 
@@ -1653,7 +1657,7 @@ line 71.
 (pdftex.def)             Requested size: 182.09486pt x 182.63864pt.
 
 [2 <../figures/05_sedfit/GPC1focalplan.png>]
-<../figures/05_sedfit/ps1filters.png, id=90, 503.9628pt x 357.4956pt>
+<../figures/05_sedfit/ps1filters.png, id=97, 503.9628pt x 357.4956pt>
 File: ../figures/05_sedfit/ps1filters.png Graphic file (type png)
 <use ../figures/05_sedfit/ps1filters.png>
 Package pdftex.def Info: ../figures/05_sedfit/ps1filters.png  used on input lin
@@ -1663,101 +1667,113 @@ e 93.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[3 <../figures/05_sedfit/ps1filters.png>] [4]
-<../figures/05_sedfit/ps_cutouts_ZTF18accrorf.pdf, id=137, 449.59282pt x 441.47
+[3 <../figures/05_sedfit/ps1filters.png>]
+Overfull \hbox (7.28607pt too wide) in paragraph at lines 177--179
+[]\T1/cmr/bx/n/12 (-20) Soustraction du bias et du dark \T1/cmr/m/n/12 (-20) po
+ur prendre en compte le ni-veau de base(piédestal)
+ []
+
+[4]
+<../figures/05_sedfit/ps_cutouts_ZTF18accrorf.pdf, id=152, 449.59282pt x 441.47
 495pt>
 File: ../figures/05_sedfit/ps_cutouts_ZTF18accrorf.pdf Graphic file (type pdf)
 <use ../figures/05_sedfit/ps_cutouts_ZTF18accrorf.pdf>
 Package pdftex.def Info: ../figures/05_sedfit/ps_cutouts_ZTF18accrorf.pdf  used
- on input line 239.
+ on input line 236.
 (pdftex.def)             Requested size: 204.85846pt x 201.16107pt.
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/bx/sc' undefined
-(Font)              using `T1/cmtt/bx/n' instead on input line 250.
+(Font)              using `T1/cmtt/bx/n' instead on input line 247.
 
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 250.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 247.
 LaTeX Font Info:    Font shape `T1/cmtt/bx/sc' in size <14.4> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 260.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 257.
 [5 <../figures/05_sedfit/ps_cutouts_ZTF18accrorf.pdf>] [6]
-<../figures/05_sedfit/ps_cutouts_ZTF18accrorf_binned.pdf, id=184, 733.9536pt x 
-441.47495pt>
+<../figures/05_sedfit/ps_cutouts_ZTF18accrorf_binned.pdf, id=199, 738.8911pt x 
+445.25276pt>
 File: ../figures/05_sedfit/ps_cutouts_ZTF18accrorf_binned.pdf Graphic file (typ
 e pdf)
 <use ../figures/05_sedfit/ps_cutouts_ZTF18accrorf_binned.pdf>
 Package pdftex.def Info: ../figures/05_sedfit/ps_cutouts_ZTF18accrorf_binned.pd
-f  used on input line 351.
-(pdftex.def)             Requested size: 450.69417pt x 271.09793pt.
+f  used on input line 348.
+(pdftex.def)             Requested size: 450.69417pt x 271.5902pt.
 
-Underfull \vbox (badness 1852) has occurred while \output is active []
+Underfull \vbox (badness 1648) has occurred while \output is active []
 
  [7 <../figures/05_sedfit/ps_cutouts_ZTF18accrorf_binned.pdf>]
-<../figures/05_sedfit/ps_cutouts_ZTF18accrorf_snrcut.pdf, id=214, 506.7809pt x 
+Excluding 'comment' comment.
+<../figures/05_sedfit/ps_cutouts_ZTF18accrorf_snrcut.pdf, id=229, 506.7809pt x 
 498.663pt>
 File: ../figures/05_sedfit/ps_cutouts_ZTF18accrorf_snrcut.pdf Graphic file (typ
 e pdf)
 <use ../figures/05_sedfit/ps_cutouts_ZTF18accrorf_snrcut.pdf>
 Package pdftex.def Info: ../figures/05_sedfit/ps_cutouts_ZTF18accrorf_snrcut.pd
-f  used on input line 389.
+f  used on input line 393.
 (pdftex.def)             Requested size: 204.85846pt x 201.57695pt.
- [8 <../figures/05_sedfit/ps_cutouts_ZTF18accrorf_snrcut.pdf>]
+
+
+LaTeX Warning: Reference `sec:sniaztf' on page 8 undefined on input line 413.
+
+Excluding 'comment' comment.
+
+LaTeX Warning: Reference `tab:cigaleinput' on page 8 undefined on input line 46
+2.
+
+[8 <../figures/05_sedfit/ps_cutouts_ZTF18accrorf_snrcut.pdf>]
 LaTeX Font Info:    Font shape `T1/cmtt/bx/sc' in size <12> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 450.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 474.
  [9] [10]
-Underfull \hbox (badness 10000) in paragraph at lines 486--487
-
- []
-
-
-Overfull \hbox (13.30902pt too wide) in alignment at lines 598--598
+Overfull \hbox (13.30902pt too wide) in alignment at lines 676--676
 [][][] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 [11]
-<../figures/05_sedfit/cigalesinglespectra.png, id=347, 686.42046pt x 481.3182pt
->
-File: ../figures/05_sedfit/cigalesinglespectra.png Graphic file (type png)
-<use ../figures/05_sedfit/cigalesinglespectra.png>
-Package pdftex.def Info: ../figures/05_sedfit/cigalesinglespectra.png  used on 
-input line 629.
-(pdftex.def)             Requested size: 450.69417pt x 316.02586pt.
- [12]
-<../figures/05_sedfit/cigale_pullrms_ZTF18accrorf.pdf, id=361, 1062.19835pt x 5
+<../figures/05_sedfit/cigalesinglespectra.pdf, id=363, 854.59277pt x 614.99384p
+t>
+File: ../figures/05_sedfit/cigalesinglespectra.pdf Graphic file (type pdf)
+<use ../figures/05_sedfit/cigalesinglespectra.pdf>
+Package pdftex.def Info: ../figures/05_sedfit/cigalesinglespectra.pdf  used on 
+input line 706.
+(pdftex.def)             Requested size: 450.69417pt x 324.3405pt.
+
+Underfull \vbox (badness 1173) has occurred while \output is active []
+
+ [12 <../figures/05_sedfit/cigalesinglespectra.pdf>]
+<../figures/05_sedfit/cigale_pullrms_ZTF18accrorf.pdf, id=380, 1062.19835pt x 5
 86.59103pt>
 File: ../figures/05_sedfit/cigale_pullrms_ZTF18accrorf.pdf Graphic file (type p
 df)
 <use ../figures/05_sedfit/cigale_pullrms_ZTF18accrorf.pdf>
 Package pdftex.def Info: ../figures/05_sedfit/cigale_pullrms_ZTF18accrorf.pdf  
-used on input line 666.
+used on input line 743.
 (pdftex.def)             Requested size: 450.69417pt x 248.89063pt.
- [13 <../figures/05_sedfit/cigalesinglespectra.png>]
-<../figures/05_sedfit/cigalesampling.pdf, id=372, 1076.82304pt x 357.7365pt>
+ [13 <../figures/05_sedfit/cigale_pullrms_ZTF18accrorf.pdf>]
+<../figures/05_sedfit/cigalesampling.pdf, id=436, 1076.82304pt x 357.7365pt>
 File: ../figures/05_sedfit/cigalesampling.pdf Graphic file (type pdf)
 <use ../figures/05_sedfit/cigalesampling.pdf>
 Package pdftex.def Info: ../figures/05_sedfit/cigalesampling.pdf  used on input
- line 721.
-(pdftex.def)             Requested size: 450.69417pt x 149.72427pt.
- [14 <../figures/05_sedfit/cigale_pullrms_ZTF18accrorf.pdf>]
-<../figures/05_sedfit/intcube_ZTF18accrorf.png, id=426, 1004.40846pt x 348.1968
+ line 797.
+(pdftex.def)             Requested size: 446.13727pt x 148.21223pt.
+ [14
+
+ <../figures/05_sedfit/cigalesampling.pdf>]
+<../figures/05_sedfit/intcube_ZTF18accrorf.png, id=461, 1004.40846pt x 348.1968
 5pt>
 File: ../figures/05_sedfit/intcube_ZTF18accrorf.png Graphic file (type png)
 <use ../figures/05_sedfit/intcube_ZTF18accrorf.png>
 Package pdftex.def Info: ../figures/05_sedfit/intcube_ZTF18accrorf.png  used on
- input line 751.
-(pdftex.def)             Requested size: 450.69417pt x 156.24614pt.
- (./05_sedfit.bbl (./05_sedfit.brf)
-\tf@brf=\write7
-\openout7 = `05_sedfit.brf'.
+ input line 827.
+(pdftex.def)             Requested size: 441.58734pt x 153.08487pt.
 
+(./05_sedfit.bbl (./05_sedfit.brf)
+\tf@brf=\write8
+\openout8 = `05_sedfit.brf'.
 
-[15 <../figures/05_sedfit/cigalesampling.pdf>] [16 <../figures/05_sedfit/intcub
-e_ZTF18accrorf.png>] [17
+ [15 <../figures/05_sedfit/intcube_ZTF18accrorf.png>] [16
 
-] [18])
+] [17] [18])
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the 05_sedfit.maf file.
@@ -1777,56 +1793,57 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `05_sedfit.brf' has not changed.
-(rerunfilecheck)             Checksum: B2B1601E14ED3C0D08EBE1A5882F9278;2777.
+(rerunfilecheck)             Checksum: 239DD2A5483A0CC06902D69654047CA2;3040.
  ) 
 Here is how much of TeX's memory you used:
- 47329 strings out of 478994
- 1000450 string characters out of 5858184
- 1565164 words of memory out of 5000000
- 63337 multiletter control sequences out of 15000+600000
- 447599 words of font info for 275 fonts, out of 8000000 for 9000
+ 47386 strings out of 478994
+ 1001466 string characters out of 5858184
+ 1567525 words of memory out of 5000000
+ 63387 multiletter control sequences out of 15000+600000
+ 447735 words of font info for 277 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 137i,18n,148p,3274b,935s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 137i,18n,148p,3274b,937s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<
 /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
 usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb
-></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></
-usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></us
-r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
-local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
-cal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loca
-l/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/
-texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/tex
-live/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texliv
-e/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
-/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2
-021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texli
-ve/2021/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texlive
-/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2
-021/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/202
-1/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2021/
-texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2021/te
-xmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2021/texm
-f-dist/fonts/type1/public/cm-super/sfcc0800.pfb></usr/local/texlive/2021/texmf-
-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2021/texmf-di
-st/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2021/texmf-dist
-/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texmf-dist/f
-onts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2021/texmf-dist/fon
-ts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/fonts
-/type1/public/cm-super/sftc1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/t
-ype1/public/cm-super/sftc1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/typ
-e1/public/cm-super/sfti0800.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1
-/public/cm-super/sfti1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/p
-ublic/cm-super/sftt1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pub
-lic/cm-super/sftt1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publi
-c/cm-super/sftt1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/
-cm-super/sftt1728.pfb>
-Output written on 05_sedfit.pdf (19 pages, 4868171 bytes).
+></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></u
+sr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
+/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/l
+ocal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loc
+al/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local
+/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/t
+exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texl
+ive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
+/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
+2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/20
+21/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texliv
+e/2021/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texlive/
+2021/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/20
+21/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2021
+/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2021/t
+exmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2021/tex
+mf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2021/texmf
+-dist/fonts/type1/public/cm-super/sfcc0800.pfb></usr/local/texlive/2021/texmf-d
+ist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2021/texmf-dis
+t/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2021/texmf-dist/
+fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texmf-dist/fo
+nts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2021/texmf-dist/font
+s/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/
+type1/public/cm-super/sftc1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/ty
+pe1/public/cm-super/sftc1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type
+1/public/cm-super/sfti0800.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/
+public/cm-super/sfti1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pu
+blic/cm-super/sftt1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publ
+ic/cm-super/sftt1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public
+/cm-super/sftt1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/c
+m-super/sftt1728.pfb>
+Output written on 05_sedfit.pdf (19 pages, 5282449 bytes).
 PDF statistics:
- 771 PDF objects out of 1000 (max. 8388607)
- 651 compressed objects within 7 object streams
- 101 named destinations out of 1000 (max. 500000)
- 99018 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 795 PDF objects out of 1000 (max. 8388607)
+ 670 compressed objects within 7 object streams
+ 100 named destinations out of 1000 (max. 500000)
+ 99010 words of extra memory for PDF output out of 106986 (max. 10000000)
 

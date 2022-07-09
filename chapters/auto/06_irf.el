@@ -22,6 +22,8 @@
     "ch:irf"
     "tab:linearclamp"
     "fig:arclamps"
+    "fig:mapsigmaCd"
+    "fig:timefct_Cdline"
     "fig:lineloc"
     "fig:linestd"
     "eq:legendre"
@@ -36,6 +38,7 @@
     "eq:ellipticity"
     "eq:axesratioellipse"
     "eq:angleellipse"
+    "eq:normgaussmoff"
     "eq:backgroundcurved"
     "fig:radialprofile"
     "ssec:psftraining"
@@ -69,6 +72,8 @@
     "fig:fluxcalstd"
     "fig:allratio_std"
     "fig:rms_allstd"
-    "tab:rms_allstd_detail"))
+    "tab:rms_allstd_detail")
+   (LaTeX-add-bibliographies
+    "99_references"))
  :latex)
 

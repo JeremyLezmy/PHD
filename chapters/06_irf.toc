@@ -1,19 +1,19 @@
 \babel@toc {french}{}
-\contentsline {chapter}{\numberline {6}Réponse impulsionnelle de la SEDm et extraction de source ponctuelle}{1}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Réponse impulsionnelle spectrale: LSF}{2}{section.6.1}%
-\contentsline {subsection}{\numberline {6.1.1}Lampes à arc}{2}{subsection.6.1.1}%
-\contentsline {subsection}{\numberline {6.1.2}Détermination de la LSF}{2}{subsection.6.1.2}%
-\contentsline {section}{\numberline {6.2}Réponse impulsionnelle spatiale: PSF}{8}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Modèle de profil radial}{8}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}Entrainement du modèle}{10}{subsection.6.2.2}%
-\contentsline {subsubsection}{\numberline {6.2.2.1}Première contrainte: $\alpha $ vs $\beta $}{11}{subsubsection.6.2.2.1}%
-\contentsline {subsubsection}{\numberline {6.2.2.2}Seconde contrainte: $\alpha $ vs $\sigma $}{12}{subsubsection.6.2.2.2}%
-\contentsline {subsubsection}{\numberline {6.2.2.3}Poids relatif des distributions gaussienne/Moffat: $\eta $}{14}{subsubsection.6.2.2.3}%
-\contentsline {subsubsection}{\numberline {6.2.2.4}Profil radial contraint}{14}{subsubsection.6.2.2.4}%
-\contentsline {section}{\numberline {6.3}Extraction de la source ponctuelle}{15}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Méthode d'extraction}{15}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}R\'efraction atmosph\'erique diff\'erentielle}{15}{subsection.6.3.2}%
-\contentsline {subsection}{\numberline {6.3.3}Ajustement chromatique}{17}{subsection.6.3.3}%
-\contentsline {section}{\numberline {6.4}Calibration en flux}{20}{section.6.4}%
-\contentsline {subsection}{\numberline {6.4.1}Méthode}{20}{subsection.6.4.1}%
-\contentsline {subsection}{\numberline {6.4.2}Précision de la calibration}{21}{subsection.6.4.2}%
+\contentsline {chapter}{\numberline {7}Réponse impulsionnelle de la SEDm et extraction de source ponctuelle}{1}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Réponse impulsionnelle spectrale}{2}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Lampes à arc}{2}{subsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.1.2}Détermination de la LSF}{2}{subsection.7.1.2}%
+\contentsline {section}{\numberline {7.2}Réponse impulsionnelle spatiale}{8}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Modèle de profil radial monochromatique}{8}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}Entrainement du modèle polychromatique}{10}{subsection.7.2.2}%
+\contentsline {subsubsection}{\numberline {7.2.2.1}Première corrélation: $\alpha $ vs $\beta $}{11}{subsubsection.7.2.2.1}%
+\contentsline {subsubsection}{\numberline {7.2.2.2}Seconde corrélation: $\alpha $ vs $\sigma $}{12}{subsubsection.7.2.2.2}%
+\contentsline {subsubsection}{\numberline {7.2.2.3}Poids relatif des distributions gaussienne/Moffat: $\eta $}{13}{subsubsection.7.2.2.3}%
+\contentsline {subsubsection}{\numberline {7.2.2.4}Profil radial contraint}{13}{subsubsection.7.2.2.4}%
+\contentsline {section}{\numberline {7.3}Extraction de la source ponctuelle}{14}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Méthode d'extraction}{14}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}R\'efraction atmosph\'erique diff\'erentielle}{15}{subsection.7.3.2}%
+\contentsline {subsection}{\numberline {7.3.3}Ajustement chromatique}{17}{subsection.7.3.3}%
+\contentsline {section}{\numberline {7.4}Calibration en flux}{20}{section.7.4}%
+\contentsline {subsection}{\numberline {7.4.1}Méthode}{20}{subsection.7.4.1}%
+\contentsline {subsection}{\numberline {7.4.2}Précision de la calibration}{22}{subsection.7.4.2}%
