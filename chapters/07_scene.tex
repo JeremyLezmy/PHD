@@ -1,7 +1,7 @@
 \documentclass[../main/main.tex]{subfiles}
 \begin{document}
-\dominitoc
-\faketableofcontents
+%\dominitoc
+%\faketableofcontents
 \setcounter{chapter}{7}
 \chapter{Modélisation de scène et extraction de source}\label{ch:res}
 \minitoc
@@ -95,7 +95,7 @@ l'importance de prendre en compte cette différence de taille entre les spaxels.
 \end{comment}
 Avant de projeter le flux du cube intrinsèque, nous incluons un modèle
 d'adaptation de PSF. En effet, les images PS1 ayant un seeing plus
-petit ($\sim1\farcs2$) que celui de la SEDm ($\sim2\arcsec$), nous
+petit ($\sim1\farcs1$) que celui de la SEDm ($\sim1\farcs7$), nous
 devons prendre en compte cette différence avant le ré-échantillonnage
 spatial, et inclure une PSF différentielle.
 
@@ -785,9 +785,38 @@ Fritz\footnote{\url{https://fritz.science/}} \citep{skyportal2019,
   duev2019real, Kasliwal_2019, Duev2021}, mais peuvent également être
 imposées en argument. \hypergal est conçu pour être suffisamment
 flexible et adaptable à n'importe quel IFU.
+
 Par défaut, le pipeline est optimisé avec la librairie de calculs
 parallèles \pkg{DASK}\footnote{\url{https://www.dask.org}}
-\citep{Dask}.
+\citep{Dask}. Cet outil permet de sonder, avant de lancer les calculs, l'agencement des
+tâches et leur interdépendances, et de ce fait son utilisation optimise la
+parallélisation de code. Un autre avantage de Dask implémenté avec
+\hypergal est sa capacité à déployer le pipeline vers un cluster
+distribué en plusieurs \textit{workers}. Nous avons configuré \hypergal\
+pour être utilisable localement, mais également dans de tels cluster
+avec un simple argument. Les deux solutions d'ordonnancement de tâches
+disponibles sont SLURM (\textit{Simple Linux Utility for Resource
+  Management}) et SGE (\textit{Sun Grid Engine}), permettant ainsi à
+\hypergal\ d'être déployé au Centre de Calcul de l'IN2P3 (CC-IN2P3). La
+Figure~\ref{fig:dask} illustre une partie de l'agencement des tâches du
+pipeline \hypergal, allant de la requête des données SEDm et PS1 jusqu'à
+l'agencement des méta-tranches. Chaque bulle sur le schéma correspond à
+une tâche du pipeline (les sorties ne sont pas affichées), et les flèches illustrent les
+interdépendances. L'axe horizontal indique l'ordre de calcul, et l'axe
+vertical la parallélisation des tâches. Quelques étapes majeurs
+d'\hypergal\ sont indiquées par les boîtes grises. La parallélisation
+de certains calculs indépendants sont clairement illustrées, comme la requête
+simultanée des données PS1 et SEDm, la construction du cube intrinsèque
+et l'ajustement des conditions initiales sur les images photométriques,
+et enfin l'ajustement de toutes les méta-tranches. Les étapes suivantes
+(l'ajustement
+chromatique, l'ajustement linéaire des amplitudes qui parallélise les
+$220$ tranches en longueur d'onde du cube de données, la reconstruction
+de la scène) ne
+sont pas montrées pour une question évidente de clareté. Toutes les
+sorties intermédiaires comme les figures de contrôle, les spectres
+extraits, les paramètres ajustés etc sont sauvegardées au format
+\textit{.hdf} (\textit{Hierarchical Data Format}).
 
 \begin{landscape}
 \begin{figure}
@@ -796,6 +825,17 @@ parallèles \pkg{DASK}\footnote{\url{https://www.dask.org}}
   \caption{Schéma complet du fonctionnement d'\hypergal. Les étapes sur
     la même verticale sont effectuées simultanément.}
   \label{fig:fulldag}
+\end{figure}
+\end{landscape}
+
+
+\begin{landscape}
+\begin{figure}
+  \centering
+  \includegraphics[width=1.0\linewidth]{../figures/07_scene/mydask.pdf}
+  \caption{Graphique d'une partie des calculs avec Dask et leurs interconnections du
+    pipeline \hypergal, de la requête des données jusqu'à l'ajustement des $N$ méta-tranches.}
+  \label{fig:dask}
 \end{figure}
 \end{landscape}
 \section{Classification: \pkg{SNID}}\label{sec:snidclassification}
@@ -824,17 +864,26 @@ r$lap$ de $4.5$ (le seuil minimal de "bonne qualité" étant 5), et un
 redshift estimé de $z=0.178$ (au delà de la profondeur en magnitude de
 la SEDm).
 La classification avec le spectre extrait par \hypergal\ montre pour le
-meilleur modèle un r$lap$ de $12.5$ pour une supernova de type Ia, à un
-redshift proche de celui estimé de la galaxie hôte ($z_{snid}=0.040$
-contre $z_{host}=0.042$).
+meilleur modèle un r$lap$ de $14.7$ pour une supernova de type Ia, à un
+redshift proche de celui utilisé pour la modélisation hyperspectrale de
+la galaxie hôte ($z_{snid}=0.040$
+contre $z_{in}=0.042$). L'erreur sur le redshift pour un modèle avec \pkg{SNID} est
+de l'ordre de $\Delta z\approx3.10^{-3}$. 
 
-Nous présentons également la distribution des $30$ modèles avec un
+Nous présentons également la distribution des $30$ meilleurs modèles avec un
 r$lap>6$, ainsi que le meilleur pour chaque sous-type de supernova
 pouvant correspondre au spectre extrait de ZTF18accrorf. Nous pouvons
 voir que seuls 2 sous-types semblent compatibles: une Ia-normal, ou une
 Ia-91T. Bien que la classification du sous-type soit plus subtile, la
 classification de ZTF18accrorf ne présente aucun doute comme étant une
-Ia.
+Ia. La phase de ce spectre est peu contrainte, les $30$ meilleurs
+modèles étant ajustés avec une phase allant de $-11$ à $+3$ jours.
+Le redshift montre également une forte dispersion. Pour avoir une
+estimation approximative du redshift de la supernova à partir de la
+classification SNID des $30$ meilleurs modèles, nous pouvons par exemple calculer le redshift
+moyen pondéré par le r$lap$ (avec la condition que le r$lap>6$). La
+déviation standard peut être estimer avec le nMAD. En
+faisant cela nous trouvons que $\bar{z}_{snid}=0.045$ et un nMAD$(z_{snid})=0.005$. 
 
 \begin{figure}[ht]
   \centering
@@ -865,7 +914,7 @@ complexes de spectre avec \hypergal, pour des observations où la supernova expl
 bien plus proche du centre galactique.
 
 Pour toutes les observations que nous présentons ici, l'extraction avec le pipeline
-\pysedm\ ne permet de classifier le spectre de la supernova, le coeur de
+\pysedm\ ne permet pas de classifier le spectre de la supernova, le coeur de
 la galaxie hôte étant extrait en même temps que la source ponctuelle
 (voir Figure~\ref{fig:stronghost}).
 
@@ -883,10 +932,22 @@ classification avec \pkg{SNID} (section~\ref{sec:snidclassification}).
 Cette supernova est celle que nous avons présenté à la fin du
 chapitre~\ref{ch:sedm}, afin justement d'illustrer le phénomène de
 contamination par la galaxie hôte lors d'un quasi-alignement avec le centre
-galactique dans la ligne de visée. La distance apparente entre la
+galactique dans la ligne de visée. La distance apparente entre cette
 supernova et le centre de la galaxie est d'environ $0\farcs8$, c'est à dire moins de la moitié
 de la largeur à mi-hauteur typique de la SEDm, et à un peu plus d'un spaxel
-de distance du centre du coeur de la galaxie hôte.
+de distance du centre du coeur de la galaxie hôte. Ce coeur étant étendu
+spatialement, la SN et la galaxie sont difficilement distinguables à
+l'oeil dans le MLA. La Figure~\ref{fig:ZTF19acbjlnt} illustre une
+séparation assez remarquable de la SN et son hôte. Le RMS spectral de la
+modélisation de scène est de l'ordre de $5\%$ dans la zone du MLA où les
+sources sont présentes. Cette supernova est classifiée par \pkg{SNID}
+comme une Ia avec un r$lap$ de $17.6$. La phase de ce spectre est peu contrainte mais semble
+indiquer une supernova proche de son pic de luminosité, allant pour
+les $30$ meilleurs modèles de $-8$ à $+2$ jours.
+Le redshift d'entrée utilisé pour la modélisation hyperspectrale de la
+galaxie est $z_{in}=0.059$, et en pondérant par le r$lap$ nous trouvons
+un redshift moyen de $\bar{z}_{snid}=0.060$ et nMAD$(z_{snid})=0.002$.
+
 \begin{figure}[ht]
   \centering
   \includegraphics[width=0.9\textwidth]{../figures/07_scene/scene_rmspull_ZTF19acbjlnt.png}
@@ -897,50 +958,101 @@ de distance du centre du coeur de la galaxie hôte.
     sources pour ZTF19acbjlnt avec \hypergal. \emph{De haut en bas}:
     (a) visualisation globale de la modélisation de scène, pull et RMS
     spectraux, (b) l'isolation de la galaxie hôte, (c) l'isolation de
-    ZTF19acbjlnt, (d) la classification de ZTF19acbjlnt. La distance apparente entre la
-supernova et la galaxie est d'environ $0\farcs8$.}
-  \label{}
+    ZTF19acbjlnt, (d) la classification \pkg{SNID} de ZTF19acbjlnt. La distance apparente entre la
+supernova et la galaxie est d'environ $0\farcs8$ avec un redshift
+d'entrée pour la modélisation hyperspectrale de la galaxie de $z_{in}=0.059$. Cette supernova est classifiée comme une Ia-norm
+avec un redshift moyen pondéré par le r$lap$ de $z_{snid}=0.060$ et
+nMAD$(z_{snid})=0.002$.}
+  \label{fig:ZTF19acbjlnt}
 \end{figure}
 
-\newgeometry{a4paper,left=2.5cm, right=2.5cm, bottom=1.5cm,top=3cm}
+%\newgeometry{a4paper,left=2.5cm, right=2.5cm, bottom=1.5cm,top=3cm}
 
-\subsection{ZTF19abormno}
+\subsection{ZTF19abormno et ZTF20ablhlio}
+
+Les Figures \ref{fig:ZTF19abormno} et \ref{fig:ZTF20ablhlio} montrent
+deux autres extractions de supernovae (ZTF19abormno et ZTF20ablhlio) proches du centre de leur galaxie
+hôte, avec une séparation angulaire de $1\farcs5$ et $1\farcs2$ respectivement. Le RMS spectral de la
+scène à la localisation des sources dans le MLA est à nouveau d'environ $5\%$. La séparation des
+composantes de la scène est également bien visible pour ces deux
+observations, et les deux objets sont classifiés par \pkg{SNID} comme
+des Ia avec un r$lap$ pour le meilleur modèle de $21.9$ et $13.2$
+respectivement. ZTF20ablhlio a la particularité d'avoir été observé très
+tardivement, présentant une phase de plusieurs dizaines de jours (entre
+$+25$ et $+40$ après le pic de luminosité).
+
 \begin{figure}[ht]
   \centering
   \includegraphics[width=0.9\textwidth]{../figures/07_scene/scene_rmspull_ZTF19abormno.png}
   \includegraphics[width=0.85\textwidth]{../figures/07_scene/output_host_ZTF19abormno.png}
   \includegraphics[width=0.85\textwidth]{../figures/07_scene/output_target_ZTF19abormno.png}
   \includegraphics[width=0.85\textwidth]{../figures/07_scene/ZTF19abormno_snid_typing.pdf}
-  \caption[Extraction de sources pour ZTF19abormno.]{Extraction de
-    sources pour ZTF19abormno avec \hypergal. \emph{De haut en bas}:
-    (a) visualisation globale de la modélisation de scène, pull et RMS
-    spectraux, (b) l'isolation de la galaxie hôte, (c) l'isolation de
-    ZTF19abormno, (d) la classification de ZTF19abormno. La distance apparente entre la
-supernova et la galaxie est d'environ $1\farcs5$.}
-  \label{}
+  \caption[Extraction de sources pour ZTF19abormno.]{Même chose que la
+    Figure~\ref{fig:ZTF19acbjlnt} pour la SN ZTF19abormno. La distance apparente entre la
+supernova et la galaxie est d'environ $1\farcs5$ avec un redshift
+d'entrée de $z_{in}=0.0538$. Cette supernova est classifiée comme une Ia-norm
+avec un redshift moyen pondéré par le r$lap$ de $\bar{z}_{snid}=0.058$ et
+nMAD$(z_{snid})=0.002$.}
+  \label{fig:ZTF19abormno}
 \end{figure}
-\clearpage
+%\clearpage
 
-\subsection{ZTF20ablhlio}
+%\subsection{ZTF20ablhlio}
+
 \begin{figure}[ht]
   \centering
   \includegraphics[width=0.9\textwidth]{../figures/07_scene/scene_rmspull_ZTF20ablhlio.png}
   \includegraphics[width=0.85\textwidth]{../figures/07_scene/output_host_ZTF20ablhlio.png}
   \includegraphics[width=0.85\textwidth]{../figures/07_scene/output_target_ZTF20ablhlio.png}
   \includegraphics[width=0.85\textwidth]{../figures/07_scene/ZTF20ablhlio_snid_typing.pdf}
-  \caption[Extraction de sources pour ZTF19acbjlnt.]{Extraction de
-    sources pour ZTF20ablhlio avec \hypergal. \emph{De haut en bas}:
-    (a) visualisation globale de la modélisation de scène pull et RMS
-    spectraux, (b) l'isolation de la galaxie hôte, (c) l'isolation de
-    ZTF20ablhlio, (d) la classification de ZTF20ablhlio. La distance apparente entre la
-supernova et la galaxie est d'environ $1\farcs2$.}
-  \label{}
+  \caption[Extraction de sources pour ZTF20ablhlio.]{Même chose que la
+    Figure~\ref{fig:ZTF19acbjlnt} pour la SN ZTF20ablhlio. La distance apparente entre la
+supernova et la galaxie est d'environ $1\farcs2$ avec un redshift
+d'entrée de $z_{in}=0.035$. Cette supernova est classifiée comme une Ia-norm
+avec un redshift moyen pondéré par le r$lap$ de $\bar{z}_{snid}=0.036$ et
+nMAD$(z_{snid})=0.001$.}
+  \label{fig:ZTF20ablhlio}
 \end{figure}
 
-\restoregeometry
+\section*{Conclusion}
+L'association du cube intrinsèque de la galaxie hôte
+(chapitre~\ref{ch:modelhyperspec}) et de la réponse instrumentale de la
+SEDm (chapitre~\ref{ch:irf}) a permis la conception d'\hypergal, un nouveau
+pipeline de modélisation de scène pour la SEDm.
 
-\bibliographystyle{../main/aa_url2}
-\bibliography{99_references}
+\hypergal a été conçu pour répondre à la problématique de la
+contamination des supernovae par leur galaxie hôte, en ajustement
+simultanément toute les composantes de la scène observée. Avec cette
+méthode, chaque composante (fond de ciel, supernova et galaxie hôte)
+peut être extraite séparément, permettant son étude
+individuel. \hypergal\ effectue également une classification automatique du
+spectre extrait de l'évènement transitoire étudié en utilisant le
+classifieur \pkg{SNID}. 
+
+Pour répondre également à un besoin d'efficacité et de simplificiation
+d'utilisation, cet outil est entièrement
+automatisé, optimisé par une méthode de parallélisation implémentée
+avec \pkg{Dask} et utilisable aussi bien localement que via un système
+d'ordonnancement de tâches comme \textit{SLURM} ou \textit{SGE}. 
+
+L'application de ce modéliseur de scène sur des supernovae très
+fortement contaminées par leur galaxie hôte montre un fort potentiel
+pour la classification d'objets inutilisables auparavant.
+
+Afin d'avoir une idée des limites d'\hypergal, nous présentons dans le
+prochain chapitre une méthode de validation par le biais de simulations
+d'observations. Ce processus nous permettra de quantifier la précision
+spectrale d'extraction des SNe ainsi que l'efficacité des
+classifications, sachant \textit{a priori} le type de l'objet
+simulé. Nous en profiterons pour appliquer l'ancienne méthode
+d'extraction (sans modélisation hyperspectrale de la galaxie hôte) sur
+ces modélisations, afin d'avoir une connaissance de l'amélioration
+qu'apporte \hypergal.
+
+%\restoregeometry
+
+%\bibliographystyle{../main/aa_url2}
+%\bibliography{99_references}
 
 \end{document}
 

@@ -1,7 +1,7 @@
 \documentclass[../main/main.tex]{subfiles}
 \begin{document}
-\dominitoc
-\faketableofcontents
+%\dominitoc
+%\faketableofcontents
 \setcounter{chapter}{3}
 \chapter{Un spectrographe 3D: la Spectral Energy Distribution machine}\label{ch:sedm}
 
@@ -649,7 +649,7 @@ est une supernova de type Ia.}
 %\clearpage
 \section{Amélioration de l'extraction}
 
-Il est indéniable que le pipeline \pysedm est d'une grande efficacité en ce qui concerne la
+Il est indéniable que le pipeline \pysedm\ est d'une grande efficacité en ce qui concerne la
 réduction de données et l'extraction de sources ponctuelles.
 
 La méthode d'extraction utilisée n'est cependant possible que lorsque la
@@ -658,15 +658,15 @@ isolée de sa galaxie hôte dans le champ de vue de l'IFU. Dans le cas
 contraire, nous entrons dans un régime de contamination qui nuit à la
 qualité de l'extraction, et a fortiori peut empêcher la classification
 spectrale de la supernova. Sachant que la FWHM d'une source ponctuelle
-est de l'ordre de $2\arcsec$ pour la SEDm, il est raisonnable de
+est de l'ordre de $1\farcs7$ pour la SEDm \citep{SEDM18}, il est raisonnable de
 considérer une contamination croissante par la galaxie hôte lorsque la
-séparation angulaire passe en deça des $4\arcsec$, jusqu'à être presque
-confondu dans le coeur de la galaxie hôte en deça de $2\arcsec$
-(n'oublions pas que le bulbe de la galaxie
+séparation angulaire passe en deça des $3\arcsec$, jusqu'à être presque
+confondu dans le coeur de la galaxie hôte en deça de $1\farcs5$
+(n'oublions pas que le coeur de la galaxie
 est également étendu). Hors nous pouvons voir dans la
 Figure~\ref{fig:cumulsnhostdist} \citep{FremlingZTFspec2020}, que près
-de $60\%$ des SNeIa sont à une distance angulaire inférieure à
-$4\arcsec$, et $40\%$ pour les supernovae à effondrement de coeur. Cette
+de $50\%$ des SNeIa sont à une distance angulaire inférieure à
+$3\arcsec$, et $35\%$ pour les supernovae à effondrement de coeur. Cette
 fraction passe à $45\%$ et $25\%$ en deça de $2\arcsec$ pour les SNeIa
 et CC SNe respectivement, et environ $20\%$
 et $10\%$ en deça de $1\arcsec$.
@@ -764,8 +764,8 @@ plutôt que de simplement soustraire cette modélisation pour isoler la
 supernova, nous proposons dans ce travail de recherche le développement d'un modéliseur de
 scène ajustant simultanément toutes les composantes présentes dans le cube de données.
 
-\bibliographystyle{../main/aa_url}
-\bibliography{99_references}
+%\bibliographystyle{../main/aa_url}
+%\bibliography{99_references}
 \end{document}
 
 %%% Local Variables:

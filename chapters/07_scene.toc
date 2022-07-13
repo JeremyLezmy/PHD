@@ -11,8 +11,7 @@
 \contentsline {section}{\numberline {8.2}Extraction des sources}{11}{section.8.2}%
 \contentsline {subsection}{\numberline {8.2.1}Cube de la galaxie hôte}{13}{subsection.8.2.1}%
 \contentsline {subsection}{\numberline {8.2.2}Extraction de la Supernova}{13}{subsection.8.2.2}%
-\contentsline {section}{\numberline {8.3}Classification: \textsc {\texttt {SNID}}}{19}{section.8.3}%
+\contentsline {section}{\numberline {8.3}Classification: \textsc {\texttt {SNID}}}{20}{section.8.3}%
 \contentsline {section}{\numberline {8.4}Cas complexes}{20}{section.8.4}%
-\contentsline {subsection}{\numberline {8.4.1}ZTF19acbjlnt}{20}{subsection.8.4.1}%
-\contentsline {subsection}{\numberline {8.4.2}ZTF19abormno}{22}{subsection.8.4.2}%
-\contentsline {subsection}{\numberline {8.4.3}ZTF20ablhlio}{23}{subsection.8.4.3}%
+\contentsline {subsection}{\numberline {8.4.1}ZTF19acbjlnt}{21}{subsection.8.4.1}%
+\contentsline {subsection}{\numberline {8.4.2}ZTF19abormno et ZTF20ablhlio}{21}{subsection.8.4.2}%

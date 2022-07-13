@@ -72,8 +72,6 @@
     "fig:fluxcalstd"
     "fig:allratio_std"
     "fig:rms_allstd"
-    "tab:rms_allstd_detail")
-   (LaTeX-add-bibliographies
-    "99_references"))
+    "tab:rms_allstd_detail"))
  :latex)
 

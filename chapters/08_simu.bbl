@@ -1,4 +1,4 @@
-\begin{thebibliography}{9}
+\begin{thebibliography}{10}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{\textsc{{Betoule}} {et~al.}(2014)\textsc{{Betoule}},
@@ -26,6 +26,18 @@
   and SNLS supernova samples}~»,
   \href{http://dx.doi.org/10.1051/0004-6361/201423413}{\color{magenta}\aap},
   \href{https://ui.adsabs.harvard.edu/abs/2014A&A...568A..22B}{568, A22}
+
+\bibitem[{\textsc{{Blagorodnova}} {et~al.}(2018)\textsc{{Blagorodnova}},
+  \textsc{{Neill}}, \textsc{{Walters}}, \textsc{{Kulkarni}},
+  \textsc{{Fremling}}, \textsc{{Ben-Ami}}, \textsc{{Dekany}}, \textsc{{Fucik}},
+  \textsc{{Konidaris}}, \textsc{{Nash}}, \textsc{{Ngeow}}, \textsc{{Ofek}},
+  \textsc{{O' Sullivan}}, \textsc{{Quimby}}, \textsc{{Ritter}} et
+  \textsc{{Vyhmeister}}}]{SEDM18}
+\textsc{{Blagorodnova} N.}, \textsc{{Neill} J.~D.}, \textsc{{Walters} R.}
+  {et~al.} 2018, «~{The SED Machine: A Robotic Spectrograph for Fast Transient
+  Classification}~»,
+  \href{http://dx.doi.org/10.1088/1538-3873/aaa53f}{\color{magenta}\pasp},
+  \href{https://ui.adsabs.harvard.edu/abs/2018PASP..130c5003B}{130, 035003}
 
 \bibitem[{\textsc{{Blondin}} et \textsc{{Tonry}}(2007)}]{BlondinSNID}
 \textsc{{Blondin} S.} et \textsc{{Tonry} J.~L.} 2007, «~{Determining the Type,

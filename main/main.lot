@@ -7,26 +7,26 @@
 \addvspace {10\p@ }
 \contentsline {xchapter}{Zwicky Transient Facility}{51}{chapter.3}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Un spectrographe 3D: La Spectral Energy Distribution machine}{61}{chapter.4}%
-\contentsline {xpart}{Extraction de spectre de Supernovae}{77}{part.2}%
+\contentsline {xchapter}{Un spectrographe 3D: la Spectral Energy Distribution machine}{61}{chapter.4}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Spécification de la \textit {Rainbow Camera} et de l'IFU de la SEDm \citep {SEDM18}.\relax }}{65}{table.caption.33}%
+\contentsline {xpart}{Extraction de spectre de Supernovae}{79}{part.2}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{\textsc {\texttt {HyperGal}}\relax : Modéliseur de scène pour l'extraction de sources ponctuelles}{77}{chapter.5}%
+\contentsline {xchapter}{\textsc {\texttt {HyperGal}}\relax : Modéliseur de scène pour l'extraction de sources ponctuelles}{79}{chapter.5}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Modélisation hyperspectrale}{85}{chapter.6}%
-\contentsline {table}{\numberline {6.1}{\ignorespaces Caractéristiques des filtres $grizy$ de PAN-STARRS1 et du relevé $3\pi $ Stéradian.\relax }}{88}{table.caption.43}%
-\contentsline {table}{\numberline {6.2}{\ignorespaces Exemple de tableau d'entrée pour \textsc {\texttt {CIGALE}}\relax }}{93}{table.caption.48}%
-\contentsline {table}{\numberline {6.3}{\ignorespaces Paramètres d'entrées pour chaque module de \textsc {\texttt {CIGALE}}\relax utilisé.\relax }}{96}{table.caption.49}%
+\contentsline {xchapter}{Modélisation hyperspectrale}{87}{chapter.6}%
+\contentsline {table}{\numberline {6.1}{\ignorespaces Caractéristiques des filtres $grizy$ de PAN-STARRS1 et du relevé $3\pi $ Stéradian.\relax }}{90}{table.caption.45}%
+\contentsline {table}{\numberline {6.2}{\ignorespaces Paramètres d'entrées pour chaque module de \textsc {\texttt {CIGALE}}\relax utilisé.\relax }}{97}{table.caption.49}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Réponse impulsionnelle de la SEDm et extraction de source ponctuelle}{101}{chapter.7}%
-\contentsline {table}{\numberline {7.1}{\ignorespaces Raies d'émission lampes à arc\relax }}{102}{table.caption.55}%
-\contentsline {table}{\numberline {7.2}{\ignorespaces Valeurs des paramètres des ajustements linéaires pour $\beta (\alpha )$ et $\sigma (\alpha )$.\relax }}{114}{table.caption.70}%
-\contentsline {table}{\numberline {7.3}{\ignorespaces Description des distributions du RMS spectral des calibrations en flux.}}{124}{table.caption.81}%
+\contentsline {xchapter}{Réponse impulsionnelle de la SEDm et extraction de source ponctuelle}{103}{chapter.7}%
+\contentsline {table}{\numberline {7.1}{\ignorespaces Raies d'émission lampes à arc\relax }}{104}{table.caption.55}%
+\contentsline {table}{\numberline {7.2}{\ignorespaces Valeurs des paramètres des ajustements linéaires pour $\beta (\alpha )$ et $\sigma (\alpha )$.\relax }}{116}{table.caption.71}%
+\contentsline {table}{\numberline {7.3}{\ignorespaces Description des distributions du RMS spectral des calibrations en flux.}}{126}{table.caption.82}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Modélisation de scène et extraction de sources}{127}{chapter.8}%
+\contentsline {xchapter}{Modélisation de scène et extraction de source}{129}{chapter.8}%
 \contentsline {table}{\numberline {8.1}{\ignorespaces Paramètres de modélisation de scène 2D avec \textsc {\texttt {HyperGal}}\relax .}}{134}{table.caption.87}%
-\contentsline {xpart}{Validation et résultats}{151}{part.3}%
+\contentsline {xpart}{Validation et résultats}{157}{part.3}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Validation du pipeline \textsc {\texttt {HyperGal}}\relax }{151}{chapter.9}%
+\contentsline {xchapter}{Validation du pipeline \textsc {\texttt {HyperGal}}\relax }{157}{chapter.9}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Application d'\textsc {\texttt {HyperGal}}\relax \ à la Data Release 2 de ZTF}{169}{chapter.10}%
-\contentsline {table}{\numberline {10.1}{\ignorespaces Statistiques médianes effectuées à partir des 431k expositions prisent par ZTF durant sa phase 1.\relax }}{170}{table.caption.118}%
+\contentsline {xchapter}{Application d'\textsc {\texttt {HyperGal}}\relax \ à la Data Release 2 de ZTF}{177}{chapter.10}%
+\contentsline {table}{\numberline {10.1}{\ignorespaces Statistiques médianes effectuées à partir des 431k expositions prisent par ZTF durant sa phase 1.\relax }}{178}{table.caption.122}%

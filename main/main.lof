@@ -18,114 +18,118 @@
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Différence de module de distance en fonction du redshift pour différentes équation d'état de l'énergie sombre.}}{50}{figure.caption.22}%
 \addvspace {10\p@ }
 \contentsline {xchapter}{Zwicky Transient Facility}{51}{chapter.3}%
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Télescope Samuel Oshin P48 au Mont Palomar\relax }}{52}{figure.caption.23}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Champ de vue de la caméra ZTF comparé à celui d'autres relevés astronomiques \relax }}{53}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Télescope Samuel Oshin P48 au Mont Palomar.\relax }}{52}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Champ de vue de la caméra ZTF comparé à celui d'autres relevés astronomiques.\relax }}{53}{figure.caption.24}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Observatoire de Palomar}}{55}{figure.caption.25}%
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Système d'imagerie ZTF et caméra}}{56}{figure.caption.26}%
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Transmission des filtres $g$, $r$ et $i$ de ZTF}}{56}{figure.caption.27}%
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Profondeurs et FWHM associées aux filtres de la caméra ZTF}}{57}{figure.caption.28}%
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Nombre cumulé de SNIa observés par ZTF (phase 1)}}{59}{figure.caption.29}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Un spectrographe 3D: La Spectral Energy Distribution machine}{61}{chapter.4}%
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Fonctionnement d'un IFS}}{63}{figure.caption.30}%
+\contentsline {xchapter}{Un spectrographe 3D: la Spectral Energy Distribution machine}{61}{chapter.4}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Fonctionnement de différents types d'IFS}}{63}{figure.caption.30}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Vue d'ensemble de la SEDm}}{64}{figure.caption.31}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Schéma d'application d'images de calibration Bias, Dark et Flat\relax }}{66}{figure.4.3}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Extraction de traces et solution en longueur d'onde pour la SEDm}}{67}{figure.caption.32}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Exemple d'extraction de source ponctuelle avec \textsc {\texttt {pysedm}}\relax }}{73}{figure.caption.33}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Distribution cumulée du décalage angulaire entre les supernovae BTS et leur galaxie hôte}}{74}{figure.caption.34}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Exemple de situation extrême de contamination de supernova par la galaxie hôte}}{74}{figure.caption.35}%
-\contentsline {xpart}{Extraction de spectre de Supernovae}{77}{part.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Schéma d'application d'images de calibration Bias, Dark et Flat.\relax }}{66}{figure.4.3}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Extraction de traces et solution en longueur d'onde pour la SEDm}}{67}{figure.caption.34}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Exemple d'extraction de source ponctuelle avec \textsc {\texttt {pysedm}}\relax }}{74}{figure.caption.35}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Distribution cumulée du décalage angulaire entre les supernovae BTS et leur galaxie hôte}}{75}{figure.caption.36}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Exemple de situation extrême de contamination de supernova par la galaxie hôte}}{75}{figure.caption.37}%
+\contentsline {xpart}{Extraction de spectre de Supernovae}{79}{part.2}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{\textsc {\texttt {HyperGal}}\relax : Modéliseur de scène pour l'extraction de sources ponctuelles}{77}{chapter.5}%
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Exemple de spectres de galaxies}}{79}{figure.caption.36}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Présentation du pipeline \textsc {\texttt {HyperGal}}\relax }}{81}{figure.caption.37}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Cube 3D SEDm de ZTF18accrorf}}{83}{figure.caption.38}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Extraction de ZTF18accrorf avec \textsc {\texttt {pysedm}}\relax }}{84}{figure.caption.39}%
+\contentsline {xchapter}{\textsc {\texttt {HyperGal}}\relax : Modéliseur de scène pour l'extraction de sources ponctuelles}{79}{chapter.5}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Exemple de spectres de galaxies}}{82}{figure.caption.38}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Présentation du pipeline \textsc {\texttt {HyperGal}}\relax }}{84}{figure.caption.39}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Cube 3D SEDm de ZTF18accrorf}}{85}{figure.caption.40}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Extraction de ZTF18accrorf avec \textsc {\texttt {pysedm}}\relax }}{86}{figure.caption.41}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Modélisation hyperspectrale}{85}{chapter.6}%
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Plan focal de la Gigapixel Camera (PS1)}}{86}{figure.caption.40}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Transmission des filtres Pan-STARRS1}}{87}{figure.caption.41}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Image RGB de PS1 centrée sur ZTF18accrorf.}}{89}{figure.caption.44}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Illustration binning $2\times 2$ sur les images PS1.}}{91}{figure.caption.45}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Image RGB de PS1 avec coupure SNR}}{92}{figure.caption.46}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Exemples de SED fittés}}{97}{figure.caption.50}%
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Cartographie du pull et du RMS en sortie de \textsc {\texttt {CIGALE}}\relax }}{98}{figure.caption.51}%
-\contentsline {figure}{\numberline {6.8}{\ignorespaces \'Echantillonnage spectral d'une SED obtenue avec \textsc {\texttt {CIGALE}}\relax }}{99}{figure.caption.52}%
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Cube intrinsèque de la galaxie hôte de ZTF18accrorf}}{100}{figure.caption.53}%
+\contentsline {xchapter}{Modélisation hyperspectrale}{87}{chapter.6}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Plan focal de la Gigapixel Camera (PS1)}}{88}{figure.caption.42}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Transmission des filtres Pan-STARRS1}}{89}{figure.caption.43}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Image RGB de PS1 centrée sur ZTF18accrorf.}}{91}{figure.caption.46}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Illustration binning $2\times 2$ sur les images PS1.}}{93}{figure.caption.47}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Image RGB de PS1 avec coupure SNR}}{94}{figure.caption.48}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Exemples de SED fittés}}{98}{figure.caption.50}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Cartographie du pull et du RMS en sortie de \textsc {\texttt {CIGALE}}\relax }}{99}{figure.caption.51}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces \'Echantillonnage spectral d'une SED obtenue avec \textsc {\texttt {CIGALE}}\relax }}{100}{figure.caption.52}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Cube intrinsèque de la galaxie hôte de ZTF18accrorf}}{101}{figure.caption.53}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Réponse impulsionnelle de la SEDm et extraction de source ponctuelle}{101}{chapter.7}%
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Spectres des lampes à arc utilisées pour la SEDm}}{103}{figure.caption.56}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Distribution de la localisation des raies des lampes à arc}}{104}{figure.caption.57}%
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Distribution de l'écart type $\sigma _{line}$ des raies des lampes à arc}}{105}{figure.caption.58}%
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Chromaticité de la LSF}}{106}{figure.caption.59}%
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Résolution de la SEDm}}{107}{figure.caption.60}%
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Application de la LSF}}{107}{figure.caption.61}%
-\contentsline {figure}{\numberline {7.7}{\ignorespaces Exemple de profil radial d'un étoile standard}}{110}{figure.caption.62}%
-\contentsline {figure}{\numberline {7.8}{\ignorespaces Matrice de corrélation des paramètres de PSF.}}{111}{figure.caption.63}%
-\contentsline {figure}{\numberline {7.9}{\ignorespaces Chromaticité des corrélations entre $\alpha $ et $\beta $}}{111}{figure.caption.64}%
-\contentsline {figure}{\numberline {7.10}{\ignorespaces Chromaticité de la pente et du point zéro entre $\alpha $ et $\beta $}}{112}{figure.caption.65}%
-\contentsline {figure}{\numberline {7.11}{\ignorespaces Matrice de corrélation des paramètres de PSF ($\beta (\alpha )$ fixé).}}{112}{figure.caption.66}%
-\contentsline {figure}{\numberline {7.12}{\ignorespaces Chromaticité des corrélations entre $\alpha $ et $\sigma $}}{113}{figure.caption.67}%
-\contentsline {figure}{\numberline {7.13}{\ignorespaces Chromaticité de la pente et du point zéro entre $\alpha $ et $\sigma $}}{113}{figure.caption.68}%
-\contentsline {figure}{\numberline {7.14}{\ignorespaces Chromaticité des corrélations entre $\alpha $ et $\eta $}}{114}{figure.caption.69}%
-\contentsline {figure}{\numberline {7.15}{\ignorespaces Profil radial et coutours des $9$ metaslices de la STD 25d4655}}{118}{figure.caption.72}%
-\contentsline {figure}{\numberline {7.16}{\ignorespaces Modélisation de la réfraction atmosphérique différentielle}}{119}{figure.caption.73}%
-\contentsline {figure}{\numberline {7.17}{\ignorespaces Chromaticité des paramètres de forme de la PSF}}{119}{figure.caption.74}%
-\contentsline {figure}{\numberline {7.18}{\ignorespaces Spectre extrait de l'étoile standard 25d4655 en pseudo-ADU.}}{119}{figure.caption.75}%
-\contentsline {figure}{\numberline {7.19}{\ignorespaces Raies d'absorption telluriques}}{120}{figure.caption.76}%
-\contentsline {figure}{\numberline {7.20}{\ignorespaces Procédure d'ajustement de la calibration en flux}}{122}{figure.caption.77}%
-\contentsline {figure}{\numberline {7.21}{\ignorespaces Précision de la calibration en flux pour une étoile standard.}}{123}{figure.caption.78}%
-\contentsline {figure}{\numberline {7.22}{\ignorespaces Moyenne du ratio entre le flux de 2202 étoiles standards et leur spectre de référence.}}{124}{figure.caption.79}%
-\contentsline {figure}{\numberline {7.23}{\ignorespaces Distributions du RMS spectral des calibrations en flux pour différents intervalles spectraux}}{125}{figure.caption.80}%
+\contentsline {xchapter}{Réponse impulsionnelle de la SEDm et extraction de source ponctuelle}{103}{chapter.7}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Spectres des lampes à arc utilisées pour la SEDm}}{105}{figure.caption.56}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Distribution spatiale de la LSF pour une raie d'une lampe à arc.}}{106}{figure.caption.57}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces \'Evolution temporelle de la LSF pour une raie de la lampe à CD entre 2018 et 2022.}}{106}{figure.caption.58}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Distribution de l'écart type $\sigma _{line}$ des raies des lampes à arc}}{107}{figure.caption.59}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Chromaticité de la LSF}}{108}{figure.caption.60}%
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Résolution de la SEDm}}{109}{figure.caption.61}%
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Application de la LSF}}{109}{figure.caption.62}%
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Exemple de profil radial d'un étoile standard}}{112}{figure.caption.63}%
+\contentsline {figure}{\numberline {7.9}{\ignorespaces Matrice de corrélation des paramètres de PSF.}}{113}{figure.caption.64}%
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Chromaticité des corrélations entre $\alpha $ et $\beta $}}{113}{figure.caption.65}%
+\contentsline {figure}{\numberline {7.11}{\ignorespaces Chromaticité de la pente et du point zéro entre $\alpha $ et $\beta $}}{114}{figure.caption.66}%
+\contentsline {figure}{\numberline {7.12}{\ignorespaces Matrice de corrélation des paramètres de PSF ($\beta (\alpha )$ fixé).}}{114}{figure.caption.67}%
+\contentsline {figure}{\numberline {7.13}{\ignorespaces Chromaticité des corrélations entre $\alpha $ et $\sigma $}}{115}{figure.caption.68}%
+\contentsline {figure}{\numberline {7.14}{\ignorespaces Chromaticité de la pente et du point zéro entre $\alpha $ et $\sigma $}}{116}{figure.caption.69}%
+\contentsline {figure}{\numberline {7.15}{\ignorespaces Chromaticité des corrélations entre $\alpha $ et $\eta $}}{117}{figure.caption.70}%
+\contentsline {figure}{\numberline {7.16}{\ignorespaces Profil radial et coutours des $9$ metaslices de la STD 25d4655}}{120}{figure.caption.73}%
+\contentsline {figure}{\numberline {7.17}{\ignorespaces Modélisation de la réfraction atmosphérique différentielle}}{121}{figure.caption.74}%
+\contentsline {figure}{\numberline {7.18}{\ignorespaces Chromaticité des paramètres de forme de la PSF}}{121}{figure.caption.75}%
+\contentsline {figure}{\numberline {7.19}{\ignorespaces Spectre extrait de l'étoile standard 25d4655 en pseudo-ADU.}}{122}{figure.caption.76}%
+\contentsline {figure}{\numberline {7.20}{\ignorespaces Raies d'absorption telluriques}}{123}{figure.caption.77}%
+\contentsline {figure}{\numberline {7.21}{\ignorespaces Procédure d'ajustement de la calibration en flux}}{124}{figure.caption.78}%
+\contentsline {figure}{\numberline {7.22}{\ignorespaces Précision de la calibration en flux pour une étoile standard.}}{125}{figure.caption.79}%
+\contentsline {figure}{\numberline {7.23}{\ignorespaces Moyenne du ratio entre le flux de 2202 étoiles standards et leur spectre de référence.}}{126}{figure.caption.80}%
+\contentsline {figure}{\numberline {7.24}{\ignorespaces Distributions du RMS spectral des calibrations en flux pour différents intervalles spectraux}}{127}{figure.caption.81}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Modélisation de scène et extraction de sources}{127}{chapter.8}%
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Concordance des champs de vue PS1 et SEDm.}}{129}{figure.caption.83}%
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Projection de la galaxie hôte dans le MLA.}}{130}{figure.caption.84}%
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Exemple d'artefacts dans les cubes de données SEDm.}}{132}{figure.caption.85}%
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Ajustement des méta-tranches pour la modélisation de scène de ZTF18accrorf. }}{133}{figure.caption.88}%
-\contentsline {figure}{\numberline {8.5}{\ignorespaces Matrice de corrélation des paramètres d'ajustement de scène pour une méta-tranche.}}{134}{figure.caption.89}%
-\contentsline {figure}{\numberline {8.6}{\ignorespaces Chromaticité des paramètres de forme de la PSF de la supernova ZTF18accrorf}}{135}{figure.caption.90}%
-\contentsline {figure}{\numberline {8.7}{\ignorespaces Chromaticité des paramètres de forme de la PSF relative SEDm/PS1 pour l'hôte de ZTF18accrorf}}{135}{figure.caption.91}%
-\contentsline {figure}{\numberline {8.8}{\ignorespaces Modélisation de la réfraction atmosphérique différentielle pour ZTF18accrorf}}{136}{figure.caption.92}%
-\contentsline {figure}{\numberline {8.9}{\ignorespaces Fonction de perte \textit {pseudo-Huber}}}{137}{figure.caption.93}%
-\contentsline {figure}{\numberline {8.10}{\ignorespaces Modélisation de scène complète pour ZTF18accrorf.}}{138}{figure.caption.94}%
-\contentsline {figure}{\numberline {8.11}{\ignorespaces Extraction du spectre de la galaxie hôte de ZTF18accrorf}}{139}{figure.caption.95}%
-\contentsline {figure}{\numberline {8.12}{\ignorespaces Isolation de la supernova ZTF18accrorf dans le cube SEDm.}}{140}{figure.caption.96}%
-\contentsline {figure}{\numberline {8.13}{\ignorespaces Profile radial et modèle de PSF pour une méta-tranche de ZTF18accrorf.}}{141}{figure.caption.97}%
-\contentsline {figure}{\numberline {8.14}{\ignorespaces Spectre extrait de ZTF18accrorf avec \textsc {\texttt {HyperGal}}\relax .}}{141}{figure.caption.98}%
-\contentsline {figure}{\numberline {8.15}{\ignorespaces Superposition du spectre des 3 composantes de la scène ZTF18accrorf.}}{142}{figure.caption.99}%
-\contentsline {figure}{\numberline {8.16}{\ignorespaces Schéma complet du fonctionnement d'\textsc {\texttt {HyperGal}}\relax . Les étapes sur la même verticale sont effectuées simultanément.\relax }}{143}{figure.caption.100}%
-\contentsline {figure}{\numberline {8.17}{\ignorespaces Classification de ZTF18accrorf avec \textsc {\texttt {SNID}}}}{144}{figure.caption.101}%
-\contentsline {figure}{\numberline {8.18}{\ignorespaces Extraction de sources pour ZTF19acbjlnt.}}{146}{figure.caption.102}%
-\contentsline {figure}{\numberline {8.19}{\ignorespaces Extraction de sources pour ZTF19abormno.}}{147}{figure.caption.103}%
-\contentsline {figure}{\numberline {8.20}{\ignorespaces Extraction de sources pour ZTF19acbjlnt.}}{148}{figure.caption.104}%
-\contentsline {xpart}{Validation et résultats}{151}{part.3}%
+\contentsline {xchapter}{Modélisation de scène et extraction de source}{129}{chapter.8}%
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Projection de la galaxie hôte dans le MLA.}}{132}{figure.caption.84}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Exemple d'artefacts dans les cubes de données SEDm.}}{133}{figure.caption.85}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Ajustement des méta-tranches pour la modélisation de scène de ZTF18accrorf. }}{135}{figure.caption.88}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Matrice de corrélation des paramètres d'ajustement de scène pour une méta-tranche.}}{136}{figure.caption.89}%
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Chromaticité des paramètres de forme de la PSF de la supernova ZTF18accrorf}}{137}{figure.caption.90}%
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Chromaticité des paramètres de forme de la PSF relative SEDm/PS1 pour l'hôte de ZTF18accrorf}}{137}{figure.caption.91}%
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Modélisation de la réfraction atmosphérique différentielle pour ZTF18accrorf}}{138}{figure.caption.92}%
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Fonction de perte \textit {pseudo-Huber}}}{139}{figure.caption.93}%
+\contentsline {figure}{\numberline {8.9}{\ignorespaces Modélisation de scène complète pour ZTF18accrorf.}}{140}{figure.caption.94}%
+\contentsline {figure}{\numberline {8.10}{\ignorespaces Extraction du spectre intégré de la galaxie hôte de ZTF18accrorf}}{142}{figure.caption.95}%
+\contentsline {figure}{\numberline {8.11}{\ignorespaces Séparation de la supernova ZTF18accrorf dans le cube SEDm.}}{143}{figure.caption.96}%
+\contentsline {figure}{\numberline {8.12}{\ignorespaces Profile radial et modèle de PSF pour une méta-tranche de ZTF18accrorf.}}{143}{figure.caption.97}%
+\contentsline {figure}{\numberline {8.13}{\ignorespaces Spectre extrait de ZTF18accrorf avec \textsc {\texttt {HyperGal}}\relax .}}{144}{figure.caption.98}%
+\contentsline {figure}{\numberline {8.14}{\ignorespaces Superposition du spectre des 3 composantes de la scène ZTF18accrorf.}}{144}{figure.caption.99}%
+\contentsline {figure}{\numberline {8.15}{\ignorespaces Schéma complet du fonctionnement d'\textsc {\texttt {HyperGal}}\relax . Les étapes sur la même verticale sont effectuées simultanément.\relax }}{146}{figure.caption.100}%
+\contentsline {figure}{\numberline {8.16}{\ignorespaces Graphique d'une partie des calculs avec Dask et leurs interconnections du pipeline \textsc {\texttt {HyperGal}}\relax , de la requête des données jusqu'à l'ajustement des $N$ méta-tranches.\relax }}{147}{figure.caption.101}%
+\contentsline {figure}{\numberline {8.17}{\ignorespaces Classification de ZTF18accrorf avec \textsc {\texttt {SNID}}}}{149}{figure.caption.102}%
+\contentsline {figure}{\numberline {8.18}{\ignorespaces Extraction de sources pour ZTF19acbjlnt.}}{151}{figure.caption.103}%
+\contentsline {figure}{\numberline {8.19}{\ignorespaces Extraction de sources pour ZTF19abormno.}}{152}{figure.caption.104}%
+\contentsline {figure}{\numberline {8.20}{\ignorespaces Extraction de sources pour ZTF20ablhlio.}}{153}{figure.caption.105}%
+\contentsline {xpart}{Validation et résultats}{157}{part.3}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Validation du pipeline \textsc {\texttt {HyperGal}}\relax }{151}{chapter.9}%
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Cubes de galaxies hôtes utilisés pour les simulations.}}{153}{figure.caption.105}%
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Exemple de spectre pour chaque type de supernova pour les simulations.}}{154}{figure.caption.106}%
-\contentsline {figure}{\numberline {9.3}{\ignorespaces Examples de cubes de simulation.}}{158}{figure.caption.107}%
-\contentsline {figure}{\numberline {9.4}{\ignorespaces Corrélation SNR/contraste des simulations.}}{159}{figure.caption.108}%
-\contentsline {figure}{\numberline {9.5}{\ignorespaces Corrélation des paramètres de la simulation (spectrophotométrique).}}{160}{figure.caption.109}%
-\contentsline {figure}{\numberline {9.6}{\ignorespaces Distribution du RMS spectral en fonction du SNR.}}{161}{figure.caption.110}%
-\contentsline {figure}{\numberline {9.7}{\ignorespaces Distribution du RMS spectral en fonction de la distance hôte/SN.}}{162}{figure.caption.111}%
-\contentsline {figure}{\numberline {9.8}{\ignorespaces Exemple de RMS spectral pour une simulation après correction du continuum.}}{163}{figure.caption.112}%
-\contentsline {figure}{\numberline {9.9}{\ignorespaces Corrélation des paramètres de la simulation (continuum corrigé).}}{164}{figure.caption.113}%
-\contentsline {figure}{\numberline {9.10}{\ignorespaces Distribution du RMS spectral en fonction du SNR après correction du continuum.}}{165}{figure.caption.114}%
-\contentsline {figure}{\numberline {9.11}{\ignorespaces Efficacité de classification des simulations.}}{167}{figure.caption.115}%
-\contentsline {figure}{\numberline {9.12}{\ignorespaces Taux de faux positifs dans la classification des SNeIa.}}{167}{figure.caption.116}%
+\contentsline {xchapter}{Validation du pipeline \textsc {\texttt {HyperGal}}\relax }{157}{chapter.9}%
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Cubes de galaxies hôtes utilisés pour les simulations.}}{159}{figure.caption.106}%
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Exemple de spectres pour chaque type de supernova pour les simulations.}}{160}{figure.caption.107}%
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Distribution conjointe des paramètres de PSF des simulations.}}{162}{figure.caption.108}%
+\contentsline {figure}{\numberline {9.4}{\ignorespaces Distribution du seeing des simulations.}}{163}{figure.caption.109}%
+\contentsline {figure}{\numberline {9.5}{\ignorespaces Distribution du contraste et de la distance SN-centre de la galaxie des simulations.}}{163}{figure.caption.110}%
+\contentsline {figure}{\numberline {9.6}{\ignorespaces Examples de cubes de simulation.}}{165}{figure.caption.111}%
+\contentsline {figure}{\numberline {9.7}{\ignorespaces Corrélation des paramètres de la simulation (spectrophotométrique).}}{167}{figure.caption.112}%
+\contentsline {figure}{\numberline {9.8}{\ignorespaces Distribution du RMS spectral en fonction du SNR.}}{168}{figure.caption.113}%
+\contentsline {figure}{\numberline {9.9}{\ignorespaces Distribution du RMS spectral en fonction de la distance hôte/SN.}}{169}{figure.caption.114}%
+\contentsline {figure}{\numberline {9.10}{\ignorespaces Exemple de RMS spectral pour une simulation après correction du continuum.}}{170}{figure.caption.115}%
+\contentsline {figure}{\numberline {9.11}{\ignorespaces Distribution du RMS spectral en fonction du SNR après correction du continuum.}}{171}{figure.caption.116}%
+\contentsline {figure}{\numberline {9.12}{\ignorespaces Distribution du contraste des SNeIa de la DR2 de ZTF-Cosmo.}}{173}{figure.caption.117}%
+\contentsline {figure}{\numberline {9.13}{\ignorespaces Distribution cumulative du contraste des SNeIa de la DR2 de ZTF-Cosmo.}}{174}{figure.caption.118}%
+\contentsline {figure}{\numberline {9.14}{\ignorespaces Efficacité de classification des simulations.}}{175}{figure.caption.119}%
+\contentsline {figure}{\numberline {9.15}{\ignorespaces Taux de faux positifs dans la classification des SNeIa.}}{175}{figure.caption.120}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Application d'\textsc {\texttt {HyperGal}}\relax \ à la Data Release 2 de ZTF}{169}{chapter.10}%
-\contentsline {figure}{\numberline {10.1}{\ignorespaces Statistiques de la couverture du ciel de la phase 1 de ZTF.}}{171}{figure.caption.119}%
-\contentsline {figure}{\numberline {10.2}{\ignorespaces Distribution des spectres appartenant à la DR2 de ZTF suivant leur origine.}}{172}{figure.caption.120}%
-\contentsline {figure}{\numberline {10.3}{\ignorespaces Distribution du pic en magnitude dans la bande $g$ de ZTF des SNeIa de la DR2.}}{173}{figure.caption.121}%
-\contentsline {figure}{\numberline {10.4}{\ignorespaces Distribution des spectres appartenant au \textit {golden sample} de la DR2 de ZTF suivant leur origine}}{174}{figure.caption.122}%
-\contentsline {figure}{\numberline {10.5}{\ignorespaces Distribution du paramètre r$lap$ des meilleurs modèles \textsc {\texttt {SNID}} pour les spectres du \textit {golden sample} de la DR2 de ZTF.}}{175}{figure.caption.123}%
-\contentsline {figure}{\numberline {10.6}{\ignorespaces Exemple de spectres du \textit {golden sample} de la DR2 extraits par \textsc {\texttt {HyperGal}}\relax .}}{175}{figure.caption.124}%
-\contentsline {figure}{\numberline {10.7}{\ignorespaces Corrélation redshift/pic de magnitude (ZTF$_{g}$) du \textit {golden sample} de la DR2 de ZTF.}}{176}{figure.caption.125}%
-\contentsline {figure}{\numberline {10.8}{\ignorespaces Exemple de courbe de lumière de SNeIa du \textit {golden sample} de la DR2.}}{177}{figure.caption.126}%
-\contentsline {figure}{\numberline {10.9}{\ignorespaces Distribution de points de détection avant/après le maximum de luminosité et distribution de phase de la première détection du \textit {golden sample} de la DR2.}}{178}{figure.caption.127}%
-\contentsline {figure}{\numberline {10.10}{\ignorespaces Distribution de phase de la première acquisition spectrale des SNeIa de la DR2.}}{179}{figure.caption.128}%
-\contentsline {figure}{\numberline {10.11}{\ignorespaces Corrélation phases SNID vs phases SALT2 de la DR2 de ZTF.}}{180}{figure.caption.129}%
-\contentsline {figure}{\numberline {10.12}{\ignorespaces Paramètres SALT2 de stretch et couleur pour la DR2 de ZTF}}{181}{figure.caption.130}%
-\contentsline {figure}{\numberline {10.13}{\ignorespaces Correlation entre les paramètres SALT2 de \textit {stretch} et couleur dans l'échantillon à volume limité.}}{182}{figure.caption.131}%
+\contentsline {xchapter}{Application d'\textsc {\texttt {HyperGal}}\relax \ à la Data Release 2 de ZTF}{177}{chapter.10}%
+\contentsline {figure}{\numberline {10.1}{\ignorespaces Statistiques de la couverture du ciel de la phase 1 de ZTF.}}{179}{figure.caption.123}%
+\contentsline {figure}{\numberline {10.2}{\ignorespaces Distribution des spectres appartenant à la DR2 de ZTF suivant leur origine.}}{180}{figure.caption.124}%
+\contentsline {figure}{\numberline {10.3}{\ignorespaces Distribution du pic en magnitude dans la bande $g$ de ZTF des SNeIa de la DR2.}}{181}{figure.caption.125}%
+\contentsline {figure}{\numberline {10.4}{\ignorespaces Distribution des spectres appartenant au \textit {golden sample} de la DR2 de ZTF suivant leur origine}}{182}{figure.caption.126}%
+\contentsline {figure}{\numberline {10.5}{\ignorespaces Distribution du paramètre r$lap$ des meilleurs modèles \textsc {\texttt {SNID}} pour les spectres du \textit {golden sample} de la DR2 de ZTF.}}{183}{figure.caption.127}%
+\contentsline {figure}{\numberline {10.6}{\ignorespaces Exemple de spectres du \textit {golden sample} de la DR2 extraits par \textsc {\texttt {HyperGal}}\relax .}}{183}{figure.caption.128}%
+\contentsline {figure}{\numberline {10.7}{\ignorespaces Corrélation redshift/pic de magnitude (ZTF$_{g}$) du \textit {golden sample} de la DR2 de ZTF.}}{184}{figure.caption.129}%
+\contentsline {figure}{\numberline {10.8}{\ignorespaces Exemple de courbe de lumière de SNeIa du \textit {golden sample} de la DR2.}}{185}{figure.caption.130}%
+\contentsline {figure}{\numberline {10.9}{\ignorespaces Distribution de points de détection avant/après le maximum de luminosité et distribution de phase de la première détection du \textit {golden sample} de la DR2.}}{186}{figure.caption.131}%
+\contentsline {figure}{\numberline {10.10}{\ignorespaces Distribution de phase de la première acquisition spectrale des SNeIa de la DR2.}}{187}{figure.caption.132}%
+\contentsline {figure}{\numberline {10.11}{\ignorespaces Corrélation phases SNID vs phases SALT2 de la DR2 de ZTF.}}{188}{figure.caption.133}%
+\contentsline {figure}{\numberline {10.12}{\ignorespaces Paramètres SALT2 de stretch et couleur pour la DR2 de ZTF}}{189}{figure.caption.134}%
+\contentsline {figure}{\numberline {10.13}{\ignorespaces Correlation entre les paramètres SALT2 de \textit {stretch} et couleur dans l'échantillon à volume limité.}}{190}{figure.caption.135}%

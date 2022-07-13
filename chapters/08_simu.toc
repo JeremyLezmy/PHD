@@ -1,16 +1,17 @@
 \babel@toc {french}{}
-\contentsline {chapter}{\numberline {8}Validation du pipeline \textsc {\texttt {HyperGal}}\relax }{1}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Génération des simulations}{2}{section.8.1}%
-\contentsline {subsection}{\numberline {8.1.1}Méthode}{2}{subsection.8.1.1}%
-\contentsline {subsection}{\numberline {8.1.2}Cube de galaxies isolées}{2}{subsection.8.1.2}%
-\contentsline {subsection}{\numberline {8.1.3}Modèles de supernovae}{2}{subsection.8.1.3}%
-\contentsline {subsection}{\numberline {8.1.4}Marginalisations et paramètres d'étude}{4}{subsection.8.1.4}%
-\contentsline {subsubsection}{\numberline {8.1.4.1}Types et phases}{4}{subsubsection.8.1.4.1}%
-\contentsline {subsubsection}{\numberline {8.1.4.2}Seeing}{5}{subsubsection.8.1.4.2}%
-\contentsline {subsubsection}{\numberline {8.1.4.3}Distance supernova/centre galactique}{5}{subsubsection.8.1.4.3}%
-\contentsline {subsubsection}{\numberline {8.1.4.4}Constraste}{5}{subsubsection.8.1.4.4}%
-\contentsline {subsection}{\numberline {8.1.5}Création des cubes de simulation}{6}{subsection.8.1.5}%
-\contentsline {section}{\numberline {8.2}Résultats et précision}{8}{section.8.2}%
-\contentsline {subsection}{\numberline {8.2.1}Précision spectrophotométrique}{9}{subsection.8.2.1}%
-\contentsline {subsection}{\numberline {8.2.2}Précision avec correction de continuum}{13}{subsection.8.2.2}%
-\contentsline {subsection}{\numberline {8.2.3}Efficacité de classification}{16}{subsection.8.2.3}%
+\contentsline {chapter}{\numberline {9}Validation du pipeline \textsc {\texttt {HyperGal}}\relax }{1}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Génération des simulations}{2}{section.9.1}%
+\contentsline {subsection}{\numberline {9.1.1}Méthode}{2}{subsection.9.1.1}%
+\contentsline {subsection}{\numberline {9.1.2}Cube de galaxies isolées}{2}{subsection.9.1.2}%
+\contentsline {subsection}{\numberline {9.1.3}Spectres de supernovae}{2}{subsection.9.1.3}%
+\contentsline {subsection}{\numberline {9.1.4}\'Echantillon d'étude}{5}{subsection.9.1.4}%
+\contentsline {subsubsection}{\numberline {9.1.4.1}Types et phases}{5}{subsubsection.9.1.4.1}%
+\contentsline {subsubsection}{\numberline {9.1.4.2}Seeing}{5}{subsubsection.9.1.4.2}%
+\contentsline {subsubsection}{\numberline {9.1.4.3}Distance supernova/centre galactique}{5}{subsubsection.9.1.4.3}%
+\contentsline {subsubsection}{\numberline {9.1.4.4}Constraste}{6}{subsubsection.9.1.4.4}%
+\contentsline {subsection}{\numberline {9.1.5}Création des cubes de simulation}{8}{subsection.9.1.5}%
+\contentsline {section}{\numberline {9.2}Résultats et précision}{9}{section.9.2}%
+\contentsline {subsection}{\numberline {9.2.1}Précision spectrophotométrique}{10}{subsection.9.2.1}%
+\contentsline {subsection}{\numberline {9.2.2}Précision avec correction de continuum}{12}{subsection.9.2.2}%
+\contentsline {subsection}{\numberline {9.2.3}Distribution de contraste dans les observations}{15}{subsection.9.2.3}%
+\contentsline {subsection}{\numberline {9.2.4}Efficacité de classification}{16}{subsection.9.2.4}%

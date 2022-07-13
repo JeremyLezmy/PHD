@@ -1,17 +1,17 @@
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.1}Réponse impulsionnelle spectrale: LSF}{\reset@font\mtcSfont 102}{section.7.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.1.1}Lampes à arc}{\reset@font\mtcSSfont 102}{subsection.7.1.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.1.2}Détermination de la LSF}{\reset@font\mtcSSfont 102}{subsection.7.1.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.2}Réponse impulsionnelle spatiale: PSF}{\reset@font\mtcSfont 108}{section.7.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.2.1}Modèle de profil radial}{\reset@font\mtcSSfont 108}{subsection.7.2.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.2.2}Entrainement du modèle}{\reset@font\mtcSSfont 110}{subsection.7.2.2}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {7.2.2.1}Première contrainte: $\alpha $ vs $\beta $}{\reset@font\mtcSSSfont 111}{subsubsection.7.2.2.1}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {7.2.2.2}Seconde contrainte: $\alpha $ vs $\sigma $}{\reset@font\mtcSSSfont 112}{subsubsection.7.2.2.2}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {7.2.2.3}Poids relatif des distributions gaussienne/Moffat: $\eta $}{\reset@font\mtcSSSfont 114}{subsubsection.7.2.2.3}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {7.2.2.4}Profil radial contraint}{\reset@font\mtcSSSfont 114}{subsubsection.7.2.2.4}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.3}Extraction de la source ponctuelle}{\reset@font\mtcSfont 115}{section.7.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.3.1}Méthode d'extraction}{\reset@font\mtcSSfont 115}{subsection.7.3.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.3.2}R\'efraction atmosph\'erique diff\'erentielle}{\reset@font\mtcSSfont 115}{subsection.7.3.2}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.3.3}Ajustement chromatique}{\reset@font\mtcSSfont 117}{subsection.7.3.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.1}Réponse impulsionnelle spectrale}{\reset@font\mtcSfont 104}{section.7.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.1.1}Lampes à arc}{\reset@font\mtcSSfont 104}{subsection.7.1.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.1.2}Détermination de la LSF}{\reset@font\mtcSSfont 104}{subsection.7.1.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.2}Réponse impulsionnelle spatiale}{\reset@font\mtcSfont 110}{section.7.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.2.1}Modèle de profil radial monochromatique}{\reset@font\mtcSSfont 110}{subsection.7.2.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.2.2}Entrainement du modèle polychromatique}{\reset@font\mtcSSfont 112}{subsection.7.2.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {7.2.2.1}Première corrélation: $\alpha $ vs $\beta $}{\reset@font\mtcSSSfont 113}{subsubsection.7.2.2.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {7.2.2.2}Seconde corrélation: $\alpha $ vs $\sigma $}{\reset@font\mtcSSSfont 114}{subsubsection.7.2.2.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {7.2.2.3}Poids relatif des distributions gaussienne/Moffat: $\eta $}{\reset@font\mtcSSSfont 115}{subsubsection.7.2.2.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {7.2.2.4}Profil radial contraint}{\reset@font\mtcSSSfont 115}{subsubsection.7.2.2.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.3}Extraction de la source ponctuelle}{\reset@font\mtcSfont 116}{section.7.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.3.1}Méthode d'extraction}{\reset@font\mtcSSfont 116}{subsection.7.3.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.3.2}R\'efraction atmosph\'erique diff\'erentielle}{\reset@font\mtcSSfont 117}{subsection.7.3.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.3.3}Ajustement chromatique}{\reset@font\mtcSSfont 119}{subsection.7.3.3}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {7.4}Calibration en flux}{\reset@font\mtcSfont 120}{section.7.4}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.4.1}Méthode}{\reset@font\mtcSSfont 120}{subsection.7.4.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.4.2}Précision de la calibration}{\reset@font\mtcSSfont 121}{subsection.7.4.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {7.4.2}Précision de la calibration}{\reset@font\mtcSSfont 123}{subsection.7.4.2}}

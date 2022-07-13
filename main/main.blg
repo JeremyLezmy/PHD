@@ -1,63 +1,67 @@
 This is BibTeX, Version 0.99d (TeX Live 2021)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
+White space in argument---line 699 of file main.aux
+ : \citation{CharyElbaz,Draine2007,Casey2012,Dale2014,Leja2017
+ :                                                             }
+I'm skipping whatever remains of this command
 The style file: aa_url2.bst
-Reallocated field_info (elt_size=4) to 10012 items from 5000.
+Reallocated field_info (elt_size=4) to 10068 items from 5000.
 Database file #1: ../chapters/99_references.bib
 Repeated entry---line 539 of file ../chapters/99_references.bib
  : @article{Betoule2014
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 978 of file ../chapters/99_references.bib
+Repeated entry---line 1016 of file ../chapters/99_references.bib
  : @article{Dale2014
  :                  ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "iminuit" isn't style-file defined
---line 1545 of file ../chapters/99_references.bib
+--line 1603 of file ../chapters/99_references.bib
 Warning--entry type for "kelsey_jordahl_2020_3946761" isn't style-file defined
---line 1695 of file ../chapters/99_references.bib
+--line 1753 of file ../chapters/99_references.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty publisher in MinkowskiPOSS
-You've used 179 entries,
+You've used 181 entries,
             3173 wiz_defined-function locations,
-            2249 strings with 102857 characters,
-and the built_in function-call counts, 226131 in all, are:
-= -- 14920
-> -- 28311
-< -- 83
-+ -- 9510
-- -- 9321
-* -- 33929
-:= -- 38199
-add.period$ -- 179
-call.type$ -- 179
-change.case$ -- 3815
-chr.to.int$ -- 171
-cite$ -- 180
-duplicate$ -- 3776
-empty$ -- 5776
-format.name$ -- 9777
-if$ -- 40289
+            2266 strings with 104116 characters,
+and the built_in function-call counts, 229207 in all, are:
+= -- 15112
+> -- 28729
+< -- 82
++ -- 9650
+- -- 9459
+* -- 34414
+:= -- 38724
+add.period$ -- 181
+call.type$ -- 181
+change.case$ -- 3869
+chr.to.int$ -- 173
+cite$ -- 182
+duplicate$ -- 3817
+empty$ -- 5837
+format.name$ -- 9918
+if$ -- 40824
 int.to.chr$ -- 9
 int.to.str$ -- 1
-missing$ -- 157
-newline$ -- 541
-num.names$ -- 729
-pop$ -- 3818
+missing$ -- 159
+newline$ -- 547
+num.names$ -- 737
+pop$ -- 3872
 preamble$ -- 1
-purify$ -- 3814
+purify$ -- 3868
 quote$ -- 0
-skip$ -- 3076
+skip$ -- 3105
 stack$ -- 0
-substring$ -- 4160
-swap$ -- 7103
+substring$ -- 4199
+swap$ -- 7202
 text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1611
+type$ -- 1629
 warning$ -- 1
-while$ -- 730
+while$ -- 738
 width$ -- 0
-write$ -- 1952
-(There were 2 error messages)
+write$ -- 1974
+(There were 3 error messages)

@@ -45,9 +45,11 @@
     "fig:spectraZTF18accrorf"
     "fig:allsourcesZTF18accrorf"
     "fig:fulldag"
+    "fig:dask"
     "sec:snidclassification"
-    "fig:snidZTF18accrorf")
-   (LaTeX-add-bibliographies
-    "99_references"))
+    "fig:snidZTF18accrorf"
+    "fig:ZTF19acbjlnt"
+    "fig:ZTF19abormno"
+    "fig:ZTF20ablhlio"))
  :latex)
 

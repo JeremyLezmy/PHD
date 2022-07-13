@@ -3,50 +3,50 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: 08_simu.aux
 The style file: ../main/aa_url2.bst
 Database file #1: 99_references.bib
-Repeated entry---line 524 of file 99_references.bib
+Repeated entry---line 539 of file 99_references.bib
  : @article{Betoule2014
  :                     ,
 I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 9 entries,
+You've used 10 entries,
             3173 wiz_defined-function locations,
-            782 strings with 10597 characters,
-and the built_in function-call counts, 13774 in all, are:
-= -- 882
-> -- 1842
+            794 strings with 11164 characters,
+and the built_in function-call counts, 14982 in all, are:
+= -- 963
+> -- 1987
 < -- 2
-+ -- 618
-- -- 609
-* -- 2137
-:= -- 2340
-add.period$ -- 9
-call.type$ -- 9
-change.case$ -- 239
-chr.to.int$ -- 9
-cite$ -- 9
-duplicate$ -- 183
-empty$ -- 281
-format.name$ -- 634
-if$ -- 2417
++ -- 667
+- -- 657
+* -- 2318
+:= -- 2543
+add.period$ -- 10
+call.type$ -- 10
+change.case$ -- 259
+chr.to.int$ -- 10
+cite$ -- 10
+duplicate$ -- 203
+empty$ -- 315
+format.name$ -- 684
+if$ -- 2634
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 9
-newline$ -- 31
-num.names$ -- 36
-pop$ -- 238
+missing$ -- 10
+newline$ -- 34
+num.names$ -- 40
+pop$ -- 257
 preamble$ -- 1
-purify$ -- 239
+purify$ -- 259
 quote$ -- 0
-skip$ -- 143
+skip$ -- 162
 stack$ -- 0
-substring$ -- 192
-swap$ -- 444
+substring$ -- 222
+swap$ -- 480
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 81
+type$ -- 90
 warning$ -- 0
-while$ -- 36
+while$ -- 40
 width$ -- 0
-write$ -- 102
+write$ -- 113
 (There was 1 error message)

@@ -1,4 +1,4 @@
-\begin{thebibliography}{179}
+\begin{thebibliography}{181}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{\textsc{{Abdurro'uf}} {et~al.}(2021)\textsc{{Abdurro'uf}},
@@ -223,6 +223,15 @@
   Ultraviolet to the Mid-Infrared}~»,
   \href{http://dx.doi.org/10.1086/677655}{\color{magenta}\pasp},
   \href{https://ui.adsabs.harvard.edu/abs/2014PASP..126..711B}{126, 711}
+
+\bibitem[{\textsc{{Bongard}} {et~al.}(2011)\textsc{{Bongard}},
+  \textsc{{Soulez}}, \textsc{{Thi\'ebaut}} et
+  \textsc{{Pecontal}}}]{Bongard2011}
+\textsc{{Bongard} S.}, \textsc{{Soulez} F.}, \textsc{{Thi\'ebaut} E.} et
+  \textsc{{Pecontal} E.} 2011, «~{3D deconvolution of hyper-spectral
+  astronomical data}~»,
+  \href{http://dx.doi.org/10.1111/j.1365-2966.2011.19480.x}{\color{magenta}\mnras},
+  \href{https://ui.adsabs.harvard.edu/abs/2011MNRAS.418..258B}{418, 258}
 
 \bibitem[{\textsc{{Boquien}} {et~al.}(2019)\textsc{{Boquien}},
   \textsc{{Burgarella}}, \textsc{{Roehlly}}, \textsc{{Buat}},
@@ -472,6 +481,15 @@
   \href{http://dx.doi.org/10.1086/321609}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2001ApJ...556..562C}{556, 562}
 
+\bibitem[{\textsc{{Chen}} {et~al.}(2022)\textsc{{Chen}}, \textsc{{Haster}},
+  \textsc{{Vitale}}, \textsc{{Farr}} et \textsc{{Isi}}}]{Chen2022}
+\textsc{{Chen} H.-Y.}, \textsc{{Haster} C.-J.}, \textsc{{Vitale} S.},
+  \textsc{{Farr} W.~M.} et \textsc{{Isi} M.} 2022, «~{A standard siren
+  cosmological measurement from the potential GW190521 electromagnetic
+  counterpart ZTF19abanrhr}~»,
+  \href{http://dx.doi.org/10.1093/mnras/stac989}{\color{magenta}\mnras},
+  \href{https://ui.adsabs.harvard.edu/abs/2022MNRAS.513.2152C}{513, 2152}
+
 \bibitem[{\textsc{{Chevallard}} et \textsc{{Charlot}}(2016)}]{Chevallard2016}
 \textsc{{Chevallard} J.} et \textsc{{Charlot} S.} 2016, «~{Modelling and
   interpreting spectral energy distributions of galaxies with BEAGLE}~»,
@@ -660,6 +678,24 @@
   \href{http://dx.doi.org/10.1088/0004-637X/707/2/916}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2009ApJ...707..916F}{707, 916}
 
+\bibitem[{\textsc{{Flewelling}} {et~al.}(2020)\textsc{{Flewelling}},
+  \textsc{{Magnier}}, \textsc{{Chambers}}, \textsc{{Heasley}},
+  \textsc{{Holmberg}}, \textsc{{Huber}}, \textsc{{Sweeney}}, \textsc{{Waters}},
+  \textsc{{Calamida}}, \textsc{{Casertano}}, \textsc{{Chen}},
+  \textsc{{Farrow}}, \textsc{{Hasinger}}, \textsc{{Henderson}},
+  \textsc{{Long}}, \textsc{{Metcalfe}}, \textsc{{Narayan}},
+  \textsc{{Nieto-Santisteban}}, \textsc{{Norberg}}, \textsc{{Rest}},
+  \textsc{{Saglia}}, \textsc{{Szalay}}, \textsc{{Thakar}}, \textsc{{Tonry}},
+  \textsc{{Valenti}}, \textsc{{Werner}}, \textsc{{White}}, \textsc{{Denneau}},
+  \textsc{{Draper}}, \textsc{{Hodapp}}, \textsc{{Jedicke}}, \textsc{{Kaiser}},
+  \textsc{{Kudritzki}}, \textsc{{Price}}, \textsc{{Wainscoat}},
+  \textsc{{Chastel}}, \textsc{{McLean}}, \textsc{{Postman}} et
+  \textsc{{Shiao}}}]{Flewelling2020}
+\textsc{{Flewelling} H.~A.}, \textsc{{Magnier} E.~A.}, \textsc{{Chambers}
+  K.~C.} {et~al.} 2020, «~{The Pan-STARRS1 Database and Data Products}~»,
+  \href{http://dx.doi.org/10.3847/1538-4365/abb82d}{\color{magenta}\apjs},
+  \href{https://ui.adsabs.harvard.edu/abs/2020ApJS..251....7F}{251, 7}
+
 \bibitem[{\textsc{{Fremling}} {et~al.}(2020)\textsc{{Fremling}},
   \textsc{{Miller}}, \textsc{{Sharma}}, \textsc{{Dugas}}, \textsc{{Perley}},
   \textsc{{Taggart}}, \textsc{{Sollerman}}, \textsc{{Goobar}},
@@ -699,8 +735,8 @@
   \href{http://dx.doi.org/10.1086/117915}{\color{magenta}\aj},
   \href{https://ui.adsabs.harvard.edu/abs/1996AJ....111.1748F}{111, 1748}
 
-\bibitem[{\textsc{Gillies} {et~al.}(2007--)}]{shapely2007}
-\textsc{Gillies S.} {et~al.} 2007--, «~Shapely: manipulation and analysis of
+\bibitem[{\textsc{Gillies} {et~al.}(2007)}]{shapely2007}
+\textsc{Gillies S.} {et~al.} 2007, «~Shapely: manipulation and analysis of
   geometric objects~»
 
 \bibitem[{\textsc{{Graham}} {et~al.}(2019)\textsc{{Graham}},
@@ -1068,12 +1104,6 @@
   Incompressible Viscous Fluid for Very Large Reynolds' Numbers}~», Akademiia
   Nauk SSSR Doklady,
   \href{https://ui.adsabs.harvard.edu/abs/1941DoSSR..30..301K}{30, 301}
-
-\bibitem[{\textsc{{Kormendy}} et \textsc{{Ho}}(2013)}]{Kormendy}
-\textsc{{Kormendy} J.} et \textsc{{Ho} L.~C.} 2013, «~{Coevolution (Or Not) of
-  Supermassive Black Holes and Host Galaxies}~»,
-  \href{http://dx.doi.org/10.1146/annurev-astro-082708-101811}{\color{magenta}\araa},
-  \href{https://ui.adsabs.harvard.edu/abs/2013ARA&A..51..511K}{51, 511}
 
 \bibitem[{\textsc{{Lantz}} {et~al.}(2004)\textsc{{Lantz}}, \textsc{{Aldering}},
   \textsc{{Antilogus}}, \textsc{{Bonnaud}}, \textsc{{Capoani}},
