@@ -226,7 +226,7 @@ indiquée dans \citet{SEDM18} de $1\farcs68$.
 \end{figure}
 
 
-\subsubsection{Distance supernova/centre galactique}\label{fig::distancesimu}
+\subsubsection{Distance supernova/centre galactique}\label{ssec:distancesimu}
 
 \hypergal\ a été conçu pour répondre à la problématique de la
 contamination de la source ponctuelle par la galaxie hôte. Nous voulons donc explorer la
@@ -789,8 +789,8 @@ Nous voyons que moins de $1\%$ des observations présentent un
 contraste $c<0.1$, et seulement $7\%$ avec un contraste $c<0.2$. Pour
 les contrastes élevés, un ciel à $m_{sky}=20$ mag implique que $\sim2\%$ des
 observations possèdent un $c>0.9$, et $5\%$ pour un ciel à $m_{sky}=21$ mag.
-En d'autres termes, près de $95\%$ des observations semblent avoir un
-contraste entre $0.1<c<0.9$, et un peu moins de $90\%$ entre $0.2<c<0.8$.
+Près de $95\%$ des observations semblent avoir un
+contraste entre $0.1<c<0.9$, et un peu moins de $90\%$ entre $0.2<c<0.9$.
 
 \begin{figure}[ht]
   \centering
@@ -820,10 +820,10 @@ contraste entre $0.1<c<0.9$, et un peu moins de $90\%$ entre $0.2<c<0.8$.
 
 Sachant les résultats montrés avec l'étude du RMS spectral, \hypergal\
 pourrait permettre une mesure spectrophotométrique avec une précision de
-l'ordre de $10\%$ (respectivement $5\%$) pour près de $55\%$
-(respectivement $35\%$) de l'échantillon.
+l'ordre de $10\%$ (respectivement $5\%$) pour près de $50\%$
+(respectivement $20\%$) de l'échantillon.
 Après division par le continuum, la précision serait de $10\%$,$5\%$ et $2\%$ pour
-$80\%$, $60\%$ et $30\%$ de l'échantillon respectivement.
+$80\%$, $60\%$ et $20\%$ de l'échantillon respectivement.
 
 
 \subsection{Efficacité de classification}\label{ssec:typingsimu}
@@ -866,7 +866,9 @@ correctement classifiées pour un contraste supérieur à $0.4$.
 
 Sachant que $\sim84\%$ des observations présentent un contraste $c>0.3$,
 $\sim9\%$ entre $0.2<c<0.3$ et $\sim7\%$ entre $0.1<c<0.2$, alors \hypergal\ semble donc être en mesure de classifier près de $95\%$ de
-toutes les SNeIa observées par la SEDm.
+toutes les SNeIa observées par la SEDm. Au delà d'un
+contraste $c\sim0.2$ (ce qui représente plus de $90\%$ des observations), ce sont près de $99\%$ des SNeIa qui sont
+correctement classifiées
 
 L'amélioration vis à vis de la méthode d'extraction simple est
 clairement identifiée, avec $30\%$ de Ia en plus entre $0.1<c<0.3$,
@@ -874,15 +876,15 @@ $15\%$ entre $0.3<c<0.4$, $10\%$ entre $0.4<c<0.5$ et
 $5\%$ entre $0.5<c<0.6$. Au delà l'amélioration devient marginale quelque
 soit le type de supernova.
 
-En prenant en compte la distribution en contraste des observtions que
+En prenant en compte la distribution en contraste des observations que
 nous avons montré dans les Figures~\ref{fig:dr2contrast} et
 \ref{fig:dr2contrast_cum}, nous montrons qu'\hypergal\ améliore la
 classification des SNeIa dans près de $50\%$ des observations (les
 $50\%$ restant étant aussi bien classifiés par la méthode d'extraction
 de référence). Sachant que $\sim50\%$ des observations ont un contraste
-entre $0.2<c<0.6$, \hypergal\ permettrait la classification de presque
+entre $0.1<c<0.6$, \hypergal\ permettrait la classification de presque
 $20\%$ de SNeIa supplémentaires dans cet intervalle, soit $10\%$ sur
-l'échantillon total de SNeIa classifiable avec la SEDm.
+l'échantillon total de SNeIa classifiable avec la SEDm. 
 
 Bien que nous n'ayons pas de statistique sur la distribution en contrastes des autres
 types de SNe, nous pouvons faire l'hypothèse d'une distribution
@@ -913,7 +915,8 @@ excluons le premier intervalle de contraste ($c<0.1$) où quasiment
 aucune n'observation n'a lieu (et où aucune des deux
 méthodes n'est efficace pour classifier une quelconque SN), alors nous
 avons pour \hypergal\ une décroissance progressive de $7.8\%$ à $1\%$ de
-faux positifs pour un contraste allant de $0.1$ à $0.6$ (aucun au delà).
+faux positifs pour un contraste allant de $0.1$ à $0.6$ (aucun faux
+positif au delà).
 La méthode de référence quant à elle oscille entre $6\%$ et $9\%$ de
 faux positifs dans cet intervalle.
 
@@ -929,6 +932,48 @@ faux positifs dans cet intervalle.
 Le taux de faux positifs pour \hypergal\ serait donc inférieur à $5\%$
 pour les contrastes compris entre $0.1$ et $0.6$ ($\sim50\%$ des observations), et inférieur à $2\%$
 sur tout l'intervalle $c>0.1$ ($99\%+$ des observations).
+
+\clearpage
+\section*{Conclusion}
+
+Les simulations que nous avons conçues et détaillées dans ce chapitre ont permis
+d'explorer les capacités du pipeline \hypergal. Nous avons étudié
+différentes conditions d'observation pouvant impacter la qualité de
+l'extraction d'un spectre de supernova, comme la distance SN-galaxie et le contraste de la SN devant
+le signal de fond. Les extractions effectuées sur ces simulations ont
+également été effectuées avec une méthode de référence, préalablement
+utilisée par la collaboration, qui ne propose pas de modélisation
+hyperspectrale de la galaxie hôte.
+
+Afin de comparer les résultats obtenus avec ce qu'observe réellement la
+SEDm, nous avons estimé la distribution du contraste pour près de $3000$
+observations. La distribution du RMS spectrale entre les spectres
+d'entrée et les spectres extraits dans le domaine [$4000$,$8000$] \AA\ obtenue avec \hypergal\ semble
+montrer qu'une étude spectrophotométrique est possible avec une précision de $10\%$ ($5\%$)
+pour près de $50\%$ ($20\%$) des observations.
+
+Les résultats les plus importants concernent l'efficacité d'\hypergal\ à classifier
+correctement les SNe, étant ce pour quoi la SEDm et ce
+pipeline ont été conçus. Notre modéliseur de scène montre une
+capacité à classifier correctement $\sim95\%$ des SNeIa sachant la
+distribution de contraste des observations réelles. Au delà d'un
+contraste $c\sim0.2$ (ce qui représente plus de $90\%$ des observations), ce sont près de $99\%$ des SNeIa qui sont
+correctement classifiées, avec moins de $2\%$ de faux positifs.
+
+Par comparaison avec la méthode d'extraction de référence,
+\hypergal\ permet de classifier correctement près de $20\%$ de SNeIa
+supplémentaires entre $0.1<c<0.6$, représentant $50\%$ des conditions
+d'observation, avec seulement $\sim4\%$ de faux positifs dans cet
+intervalle de contraste contre
+$\sim8\%$ pour l'autre méthode.
+
+Finalement, \hypergal\ a démontré sa capacité à extraire et
+classifier le spectre d'une
+supernova en présence d'une contamination par sa galaxie hôte, en ne
+montrant aucun signe de corrélation avec la distance séparant les deux
+objets. L'amélioration vis à vis de la méthode de référence est
+significative, et les résultats obtenus ont convaincu la collaboration
+de son utilisation en complément du pipeline d'extraction préalablement utilisé \pysedm.
 
 %\bibliographystyle{../main/aa_url2}
 %\bibliography{99_references}

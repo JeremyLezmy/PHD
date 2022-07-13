@@ -3,34 +3,36 @@
 %\dominitoc
 %\faketableofcontents
 \setcounter{chapter}{9}
-\chapter{Application d'\hypergal\ à la Data Release 2 de ZTF}\label{ch:dr2}
+\chapter{Application d'\hypergal\ à la Data Release 2 de ZTF Cosmologie}\label{ch:dr2}
 
 \minitoc
 \vspace{2cm}
 L'amélioration apportée par la modélisation hyperspectrale de la galaxie
 hôte avec \hypergal\ a convaincu la collaboration de son utilisation en
-surcouche du pipeline \pysedm. Finalement, il a été convenu que toutes les SNe
+complément du pipeline \pysedm. Finalement, il a été convenu que toutes les SNe
 observées par la SEDm appartenant à la Data Release 2 du groupe \textit{Type Ia Supernovae $\&$ Cosmology}
-soient ré-extraites par \hypergal.
+soient extraites par \hypergal.
 
-Dans ce chapitre nous présentons cette seconde Data Release (DR2
-par la suite) et la part apportée par \hypergal\ dans ce nouvel
+Dans ce chapitre nous présentons cette seconde Data Release et la part apportée par \hypergal\ dans ce nouvel
 échantillon de supernovae. Nous commencerons par apporter une vue
 d'ensemble de la DR2, puis nous présenterons quelques statistiques
-faites sur les SNeIa. Enfin nous discuterons des possibilités sur la
-dérivation de paramètres cosmologiques.
+faites sur les SNeIa. Nous nous concentrerons essentiellement sur le
+\textit{golden sample} de cette DR2,
+sous échantillon remplissant certains critères de qualité et qui sera
+utilisé pour la dérivation de paramètres cosmologiques.
 \newpage
 
 \section{Présentation de la DR2 de ZTF}
 % \label{sec:xxx}
 
-La DR2 de ZTF est le premier jeu de données homogène constitué de plusieurs
+La DR2 du groupe \textit{Type Ia Supernovae $\&$ Cosmology} de ZTF (DR2
+par la suite) est le premier jeu de données homogène constitué de plusieurs
 milliers de supernovae de type Ia, chacune d'entre elles ayant été
 classifiées spectralement, et possédant un redshift spectroscopique,
 soit par leur galaxie hôte, soit par leur caratéristiques spectrales.
 
-Cette seconde data release consistera en une série d'articles qui
-paraîtront courant 2022. Nous nous concentrons ici sur une présentation
+Cette seconde \textit{data release} consistera en une série d'articles qui
+paraîtront fin 2022. Nous nous concentrons ici sur une présentation
 générale des données qui seront utilisées pour ces papiers, en mettant
 en évidence le rôle d'\hypergal\ et de la SEDm.
 
@@ -43,7 +45,7 @@ images, dont $89\%$ ($431,202$) ne présentant aucun avertissement de
 mauvaise qualité. La Table~\ref{tab:summary_systematics} présente quelques statistiques
 médianes de ces expositions en distingant les trois filtres de la
 caméra. Parmi ces images ayant franchies les critères de qualité, $57\%$ sont obtenues avec 
-le filtre $ZTF_{r}$, $38\%$ avec $ZTF_{g}$ et $5\%$ avec $ZTF_{i}$.
+le filtre $r_{\text{ztf}}$, $38\%$ avec $g_{\text{ztf}}$ et $5\%$ avec $i_{\text{ztf}}$.
 
 \begin{table}[ht]
   \scriptsize
@@ -53,17 +55,17 @@ le filtre $ZTF_{r}$, $38\%$ avec $ZTF_{g}$ et $5\%$ avec $ZTF_{i}$.
   \begin{threeparttable}
 
     \caption{Statistiques médianes effectuées à partir des 431k
-      expositions prisent par ZTF durant sa phase 1.}
+      expositions par ZTF durant sa phase 1.}
     \label{tab:summary_systematics}
     \begin{tabular}{l c c c c c}
       \hline\\[-0.5em]
       \hline\\[-0.5em]
       Filtre  & Nombre d' & Seeing & Masse d' & Magnitude & Cadence\\[0.15em]
-              & Exposition & [arcsec] &  Air & Limite [5$\sigma$] &  \\[0.15em]
+              & exposition & [arcsec] &  air & limite [5$\sigma$] & [jours] \\[0.15em]
       \hline\\[-0.5em]
-      ztf:g   & 165k & 2.2 & 1.7 & 20.56 & 2.05\\[0.30em]
-      ztf:r   & 247k & 2.0 & 1.2 & 20.39 & 1.02\\[0.30em]
-      ztf:i   & 19k & 1.8 & 1.1 & 20.03 & 5.03\\[0.30em]
+      g   & 165k & 2.2 & 1.7 & 20.56 & 2.05\\[0.30em]
+      r   & 247k & 2.0 & 1.2 & 20.39 & 1.02\\[0.30em]
+      i   & 19k & 1.8 & 1.1 & 20.03 & 5.03\\[0.30em]
       \hline\\[-0.5em]
       All & 431k & 2.1 & 1.2 & 20.42 & 2.96\\[0.30em]
     \end{tabular}
@@ -81,7 +83,7 @@ total d'exposition et la cadence moyenne pour chaque filtre. En excluant
 la zone de la Voie Lactée, nous pouvons distinguer une partie du ciel
 dîte "haute cadence", vers (RA=30deg, Dec=230deg), représentant $\sim1800\text{deg}^{2}$. La limite du ciel
 Nord observable est également facilement discernable.
-Le champ de vue avec "haute cadence" sont conçus par le relevé dans le
+Les champs de vue avec \og haute cadence\fg{} sont conçus par le relevé dans le
 but d'avoir des expositions multiples de la même nuit, principalement
 dans les filtres $r$, et $g$, dans le but de détecter les supernovae
 dans les premières
@@ -91,7 +93,7 @@ heures d'explosion (Bruch et al.
 Hormis ces cas particuliers, la cadence typique est de $2$ à $3$ jours
 dans les bandes $r$ et $g$, en accord avec ce qui est convenu dans le
 programme public Mid-scale Innovations Program (MSIP). La cadence dans
-la bande $i$ est de $5$ jours. Cette consistence dans les expositions de
+la bande $i$ est de $5$ jours. Cette cohérence dans les expositions de
 chacune des $3$ bandes permet d'une part de bien échantillonner les courbes de
 lumière des SNeIa, et d'autre part de ne rater aucune ou très peu de
 SNeIa que nous offre la nature. La seule limite de complétude de
@@ -103,12 +105,11 @@ discutons de cette limite de complétude dans la section suivante.
   \makebox[\textwidth][c]{\includegraphics[width=1.15\textwidth]{../figures/09_dr2/ztf_skycoverage_and_cadence_landscape_lowq.pdf}}%
   \caption[Statistiques de la couverture du ciel de la phase 1 de
   ZTF.]{Statistiques de la couverture du ciel de la phase 1 de ZTF, pour
-    chaque bande et chaque champ. Seules les images remplisssant les
-    seuils de qualité ($431,202$) sont considérées. La bande grise sur
-    chaque image représente la Voie Lactée ($b=0$). \emph{En haut} nous
-    montrons le nombre total d'exposition par champ et par
-    filtre. \emph{En bas} est présenté le délai médian entre deux
-    expositions successives. Figure de M.Rigault.}
+    chaque bande et chaque champ. Seules les images remplissant les
+    seuils de qualité sont considérées. La fine bande grise sur
+    chaque image représente la Voie Lactée ($b=0$). \emph{En haut} le nombre total d'exposition par champ et par
+    filtre. \emph{En bas} le délai médian entre deux
+    expositions successives. Figure de M. Rigault.}
   \label{fig:skycoverage}
 \end{figure}
 
@@ -123,19 +124,19 @@ dans la DR2. Nous montrons dans la Figure~\ref{fig:specorigindr2} la
 distribution de tous les spectres appartenant à la DR2, répartis par
 l'instrument de classification, et la quantité de SNeIa individuelles.
 La DR2 complète, sans restriction de qualité sur les courbes de
-lumières, est composé de $3742$ supernovae de type Ia, pour lesquelles
-$5763$ spectres ont été extraits et utilisés pour la classification.
-Environ $61.7\%$ des spectres ont été obtenus avec la SEDm, et donc
-extraits par \hypergal, ainsi qu'une proportion similaire ($61.5\%$) de SNIa
+lumières, est composé de $3792$ supernovae de type Ia, pour lesquelles
+$5813$ spectres ont été extraits et utilisés pour la classification.
+Environ $60.7\%$ des spectres ont été obtenus avec la SEDm, puis
+extraits par \hypergal, ainsi qu'une proportion similaire ($61.2\%$) de SNIa
 unique. 
 
-Le reste des spectres proviennent d'autres relevés possédant un
+Le reste des spectres provient d'autres relevés possédant un
 spectrographe de plus haute résolution que la SEDm, et utilisés
 occasionnellement par
 l'équipe du groupe \textit{Bright Transient Survey} (BTS) ou via des
 requêtes de membres de la collaboration ZTF. D'autres spectres sont
 également rendus publique par certains programmes, comme par exemple
-ePESSTO utilisant le \textit{New Technology Telescope} (NTT) \citep{Smartt2015}.
+ePESSTO utilisant le \textit{New Technology Telescope} \citep[NTT,][]{Smartt2015}.
 
 \begin{figure}[ht]
   \centering
@@ -145,7 +146,7 @@ ePESSTO utilisant le \textit{New Technology Telescope} (NTT) \citep{Smartt2015}.
   leur origine. Les barres entières de la figure indique la quantité de
   spectres extrait par tel ou tel instrument, la partie en bleue pleine
   indique le nombre de SNeIa unique correspondant. Une large majorité
-  de spectre et de SNeIa ($\sim62\%$) ont été obtenues avec le spectrographe dédié à
+  de spectre et de SNeIa ($\sim61\%$) ont été obtenues avec le spectrographe dédié à
   ZTF, la SEDm, et extraites par \hypergal. }
   \label{fig:specorigindr2}
 \end{figure}
@@ -169,12 +170,12 @@ supplémentaires à celui de BTS.
 Nous montrons dans la Figure~\ref{fig:target_peakmaggBTS} le pic en
 magnitude dans la bande $g$ de ZTF, dérivée à partir de l'ajustement
 SALT2 des courbes de lumières sur les SNeIa (classifiées spectralement) de
-la DR2. Nous montrons également la part de SNeIa appartenant également à
-l'échantillon BTS par intervalle de magnitude. La fraction de SNeIa de
-notre échantillon appartenant également à celui de BTS décroît fortement
-aux magnitudes $>18.75$ mag, avant que les SNeIa uniques à la DR2
+la DR2. La part de SNeIa appartenant également à
+l'échantillon BTS par intervalle de magnitude est également indiquée. La fraction de SNeIa de
+notre échantillon appartenant à celui de BTS décroît fortement
+aux magnitudes $>18.75$ mag, avant que les SNeIa uniques à la DR2 ne
 dominent clairement au delà de $19$ mag. Cette observation nous laisse
-penser que notre échantillon de SNeIa est, à minima, spectroscopiquement
+penser que notre échantillon de SNeIa est, a minima, spectroscopiquement
 aussi complet que celui de BTS, et peut potentiellement être complet à $\sim100\%$
 jusqu'à $18.75$ mag. On observe ensuite une décroissance brutale de cette complétude dans l'intervalle $18.75$-$19$ mag.
 
@@ -194,27 +195,56 @@ l'échantillon BTS \citep{FremlingZTFspec2020,PerleyBTSII2020}. Figure de M.Riga
 \subsection{\textit{Golden sample}}
 
 Nous allons nous concentrer dans la suite de ce chapitre sur le \textit{golden
-  sample} de la DR2 de ZTF, sous-échantillon de la DR2 complète qui sera
+  sample} de la DR2 de ZTF, sous-échantillon de la DR2
 utilisé pour la cosmologie. Cet échantillon est contraint par les
 critères de qualité sur l'ajustement des courbes de lumière par SALT2
-que nous avons détaillés au chapitre~\ref{ch:ztf} (détections
-photométrique à $5\sigma$, $7$ points avant et $7$ points après le
-maximum dans au moins $2$ bandes).
-D'autres critères numériques sur la qualité d'ajustement des courbes de
-lumière sont également
-utilisés, que nous n'aborderons pas ici.
+que nous avons détaillés au chapitre~\ref{ch:ztf}:,détections
+photométriques à $5\sigma$, $7$ points entre les phases $-15$ et $0$
+jours, $7$ points entre les phases $0$ et $+30$ jours, le total étant
+réparti dans au moins $2$ bandes.
+D'autres critères de conservations sont également pris en compte pour assurer la
+meilleure qualité possible de l'échantillon: le stretch $x_{1}$ doit être dans
+l'intervalle [$-4$, $4$], et la couleur $c$ dans l'intervalle
+[$-0.3$, $0.8$], SALT2 étant faiblement entraîné en dehors. 
+Nous récapitulons ces différentes coupures dans la
+Table~\ref{tab:sample}, indiquant l'évolution de la taille de
+l'échantillon au fil des coupures.
+
+\begin{table}[ht]
+  \centerfloat
+  \renewcommand{\arraystretch}{1.3}
+  \begin{threeparttable}
+    \caption{Statistiques de l'échantillon DR2 de ZTF Cosmologie}
+    \label{tab:sample}
+    \begin{tabular}{l c c c}
+      \toprule
+      Coupure  & \# SNeIa & \# SNeIa retirées & \% de SNeIa retirées \\[0.15em]
+      \midrule
+      \'Echantillon complet  & 3792 & -- & --\\[0.15em]
+       Coupure de qualité & 2973 & 819 & 21.6 \\[0.30em]
+       $x_1 \in [-4,+4]$  & 2931 & 42 & 1.4 \\[0.30em]
+       $c \in [-0.3,0.8]$  & 2905 & 26 & 0.9 \\[0.30em]
+      \bottomrule
+    \end{tabular}
+    %\begin{tablenotes}[flushleft]
+    %\item \textbf{Notes.} La notation $ ^{\star}$ correspond aux
+    %  raies d'emissions qui résultent d'un mélange de plusieurs raies très
+    %  rapprochées spectralement et non disernables par la SEDm.
+    %\end{tablenotes}
+  \end{threeparttable}
+\end{table}
 
 Nous montrons dans la Figure~\ref{fig:specorigingoldendr2} la nouvelle
 distribution des spectres appartenant au \textit{golden sample} de la
-DR2. Cet échantillon est composé de $2547$ supernovae de type Ia, pour lesquelles
-$3903$ spectres ont été extraits et utilisés pour la classification.
-Environ $65.1\%$ des spectres ont été obtenus avec la SEDm, et donc
-extraits par \hypergal, ainsi qu'une proportion similaire ($65.3\%$) de SNIa
+DR2. Cet échantillon est composé de $2905$ supernovae de type Ia, pour lesquelles
+$4495$ spectres ont été extraits et utilisés pour la classification.
+Environ $64.9\%$ des spectres ont été obtenus avec la SEDm, et donc
+extraits par \hypergal, ainsi qu'une proportion similaire ($65.4\%$) de SNIa
 unique. 
 
 \begin{figure}[ht]
   \centering
-  \includegraphics[width=0.9\textwidth]{../figures/09_dr2/spec_instorigin_golden_dr2.pdf}
+  \includegraphics[width=0.99\textwidth]{../figures/09_dr2/spec_instorigin_golden_dr2.pdf}
   \caption[Distribution des spectres appartenant au \textit{golden sample} de la DR2 de ZTF suivant
   leur origine]{Distribution des spectres appartenant au \textit{golden
       sample} de la DR2 de ZTF
@@ -230,14 +260,14 @@ unique.
 
 Nous montrons dans la Figure~\ref{fig:rlapdistribution} la distribution
 en r$lap$ du meilleur modèle de SNID ayant permis la classification des
-spectres du \textit{golden sample} de la DR2 de ZTF. La distribution de ce paramètre de qualité obtenue avec
+spectres du \textit{golden sample}. La distribution de ce paramètre de qualité obtenue avec
 \hypergal\ est similaire à celle obtenue avec les spectres extraits par d'autres
 instruments, avec une moyenne (médiane) de r$lap\approx16(15)$, bien
 supérieur au seuil de qualité de $5$.
 
 \begin{figure}[ht]
   \centering
-  \includegraphics[width=0.75\textwidth]{../figures/09_dr2/rlapdistribution_dr2.pdf}
+  \includegraphics[width=0.9\textwidth]{../figures/09_dr2/rlapdistribution_dr2.pdf}
   \caption[Distribution du paramètre r$lap$ des meilleurs modèles
   \pkg{SNID} pour les spectres du \textit{golden sample} de la DR2 de ZTF.]{Distribution du paramètre r$lap$ des meilleurs modèles
   \pkg{SNID} pour les spectres du \textit{golden sample} de la DR2 de
@@ -256,7 +286,7 @@ dans un même intervalle de redshift ($0.05<z<0.06$).
 
 \begin{figure}[ht]
   \centering
-  \includegraphics[width=0.7\textwidth]{../figures/09_dr2/spec_example_hypergaldr2.pdf}
+  \includegraphics[width=0.9\textwidth]{../figures/09_dr2/spec_example_hypergaldr2.pdf}
   \caption[Exemple de spectres du \textit{golden sample} de la DR2
   extraits par \hypergal.]{Exemple de spectres du \textit{golden sample} de la DR2
   extraits par \hypergal\ au pic de luminosité dans un même intervalle
@@ -275,22 +305,22 @@ $\sim40\%$ des SNeIa possèdent un redshift spectroscopique provenant de
 leur galaxie hôte (principalement du relevé spectroscopique SDSS). Les
 redshift manquant proviennent des caractéristiques spectrales des SNeIa
 à hauteur de $\sim50\%$, ou de raies d'émission de contamination de la
-galaxie hôte ($\sim10\%$). Cependant, les redshifts obtenus par le
+galaxie hôte ($\sim10\%$). Les redshifts obtenus par le
 spectre des SNe sont précis à environ $5$\textperthousand, suffisant pour
-certaines études (hôte-corrélation, populations ...) mais insuffisant
+certaines études (environnement local, populations ...) mais insuffisant
 pour la cosmologie. Cependant, plus de $95\%$ des galaxies hôtes ont une
-magnitude supérieur à $20$ mag, ce qui signifie que d'autres relevés (comme par
-exemple DESI) pourraient à posteriori mesurer et fournir les redshift
-manquant.
+magnitude supérieure à $20$ mag, ce qui signifie que d'autres relevés (comme par
+exemple DESI) pourraient à posteriori mesurer et fournir les redshifts
+manquants.
 
 Nous montrons dans la Figure~\ref{fig:peakmagztfg} la corrélation
-redshift/pic de magnitude (ZTF$_{g}$) ainsi que leur distribution pour
+redshift/pic de magnitude ($g_{ztf}$) ainsi que leur distribution pour
 le \textit{golden sample} de la DR2.
 Afin de mettre en évidence le rôle de la SEDm, nous indiquons en bleu toutes les SNeIa dont le spectre a été extrait par
 \hypergal\ et en rouge toutes celles extraites avec un autre instrument.
 
 La distribution des magnitudes au maximum n'est pas sans rappeler celle
-de l'échantillon complet, présenté précédemment dans la Figure~\ref{fig:target_peakmaggBTS}.
+de l'échantillon complet, présenté dans la Figure~\ref{fig:target_peakmaggBTS}.
 À la profondeur limite de $19$ mag, les SNeIa observées avec la SEDm et
 classifiées par \hypergal\
 sont clairement dominantes, à hauteur de $\sim82\%$ ($1778/2182$). Nous
@@ -306,27 +336,30 @@ mag.
 
 La distribution en redshift croît continuellement jusqu'à $z<0.07$,
 avant de décroître progressivement. En suivant la méthode présenté par
-\citet{NoraNicolas21} pour obtenir un échantillon de SNeIa dans un
-volume limité mais complet, nous trouvons que l'échantillon cosmologique
-DR2 de ZTF devrait être libre de fonction de sélection jusqu'à un
-redshift de $z=0.06$. La fonction de sélection sera activement discuté dans
+\citet{NoraNicolas21} pour obtenir un échantillon complet de SNeIa dans un
+volume limité, nous trouvons que l'échantillon cosmologique
+DR2 de ZTF devrait être exempt de fonction de sélection jusqu'à un
+redshift de $z=0.06$\footnote{En réalité une coupure en redshift ne
+  définit un vrai volume physique, à cause de la contribution des
+  vitesses particulières des galaxies dans le redshift mesuré.}. La fonction de sélection du \textit{golden sample}
+sera activement discutée dans
 l'article de \mbox{\textsc{Amenouche} et al. (in prep.)}.
 
-Ce volume limité est composé de $949$ SNeIa, dont $181$ provenant d'une
-classification hors SEDm, et $768$ provenant d'une
+Ce volume limité est composé de $1077$ SNeIa, dont $208$ provenant d'une
+classification hors SEDm, et $869$ provenant d'une
 classification SEDm+\hypergal, soit $\sim81\%$ de ce sous échantillon.
 
 \begin{figure}[ht!]
   \centering
   \includegraphics[width=1\textwidth]{../figures/09_dr2/peakvsredshift_dr2.pdf}
-  \caption[Corrélation redshift/pic de magnitude (ZTF$_{g}$) du
+  \caption[Corrélation redshift/pic de magnitude $g_{ztf}$) du
   \textit{golden sample} de la DR2 de ZTF.]{Corrélation redshift/pic de
-    magnitude dans la bande ZTF$_{g}$ des SNeIa du
+    magnitude dans la bande $g_{ztf}$ des SNeIa du
   \textit{golden sample} de la DR2 de ZTF. Nous indiquons la limite à
   $19$ mag, limite à laquelle la vaste majorité des classifications a
-  été effectuée grâce à la SEDm, et a fortiori \hypergal. La bande grise
+  été effectuée grâce à la SEDm et \hypergal. La bande grise
  indique le sous échantillon à volume limité au redshift $z=0.06$,
- profondeur où l'échantillon est potentiellement libre de fonction de sélection.}
+ profondeur où l'échantillon est potentiellement exempt de fonction de sélection.}
   \label{fig:peakmagztfg}
 \end{figure}
 
@@ -349,13 +382,13 @@ seuil de qualité pour appartenir au \textit{golden sample} de la DR2.
   \centering
   \includegraphics[width=0.97\textwidth]{../figures/09_dr2/lightcurve_example_dr2.pdf}
   \caption[Exemple de courbe de lumière de SNeIa du \textit{golden
-    sample} de la DR2.]{Exemple de courbe de lumière de SNeIa du
+    sample} de la DR2.]{Exemples de courbe de lumière de SNeIa du
     \textit{golden sample} de la DR2. Nous montrons également
     l'ajustement SALT2 correspondant. Le code couleur réfère à la bande
     de ZTF considérée. De \emph{haut en bas}: Un cas extrême de très
     haute cadence avec plusieurs centaines de points, un cas typique
     avec une dizaine (quinzaine) de points avant (après) le maximum, et
-    un cas limite pour intégrer notre échantillon.}
+    un cas limite pour intégrer l'échantillon.}
   \label{fig:lc_example}
 \end{figure}
 
@@ -369,8 +402,8 @@ photométrique survient à une phase médiane de $-13.3$ jours toutes bandes
 confondues ($-12.3$ pour $g$, $-12.5$ pour $r$ et $-8$ pour $i$).
 \begin{figure}[ht!]
   \centering
-  \includegraphics[width=0.9\textwidth]{../figures/09_dr2/early_late_phase_dr2.pdf}
-  \includegraphics[width=0.9\textwidth]{../figures/09_dr2/first_detect_dr2.pdf}
+  \includegraphics[width=0.87\textwidth]{../figures/09_dr2/early_late_phase_dr2.pdf}
+  \includegraphics[width=0.87\textwidth]{../figures/09_dr2/first_detect_dr2.pdf}
   \caption[Distribution de points de détection avant/après le maximum de
   luminosité et distribution de phase de la première détection du
   \textit{golden sample} de la DR2.]{\emph{En haut}: distribution du
@@ -387,7 +420,7 @@ bande individuelle (couleurs). La première détection survient à une phase mé
 
 
 Nous montrons également la distribution de phase lors de la première
-acquisition spectrale dans la Figure~\ref{fig:phaseIa}, en distingant la
+acquisition spectrale dans la Figure~\ref{fig:phaseIa}, en distinguant la
 SEDm des autres instruments. La SEDm est l'instrument
 le plus réactif pour obtenir le premier spectre des SNeIa de notre
 échantillon, avec $\sim70\%$ de premières détections. Les spectres
@@ -396,7 +429,7 @@ $10$ jours après la première détection photométrique.
 
 \begin{figure}[ht]
   \centering
-  \includegraphics[width=0.9\textwidth]{../figures/09_dr2/phaseIadr2.pdf}
+  \includegraphics[width=0.87\textwidth]{../figures/09_dr2/phaseIadr2.pdf}
   \caption[Distribution de phase de la première acquisition spectrale
   des SNeIa de la DR2.]{Distribution de phase de la première acquisition spectrale
   des SNeIa de la DR2. La partie bleue pleine de la distribution indique
@@ -411,7 +444,7 @@ avec celles obtenues avec \pkg{SNID} sur les spectres de SNeIa, et donc
 indépendamment des observations photométriques. Nous montrons cette
 relation dans la Figure~\ref{fig:snid_vs_salt_phase}. Pour cette étude,
 nous avons considéré tous les spectres du \textit{golden sample}, en
-distanguant ceux acquis avec la SEDm des autres instruments. Pour la
+distinguant ceux acquis avec la SEDm des autres instruments. Pour la
 phase, nous avons utilisé celle du meilleur modèle ajusté par
 \pkg{SNID}. Nous observons que la qualité des spectres, tout instrument
 confondu, permet de retrouver une phase à environ $\pm3$ jours de celle
@@ -420,49 +453,51 @@ parmi les milliers de spectres analysés.
 
 \begin{figure}[ht]
   \centering
-  \includegraphics[width=0.9\textwidth]{../figures/09_dr2/snidphase_vsphase_dr2.pdf}
+  \includegraphics[width=0.87\textwidth]{../figures/09_dr2/snidphase_vsphase_dr2.pdf}
   \caption[Corrélation phases SNID vs phases SALT2 de la DR2 de
   ZTF.]{\emph{En haut}: corrélation entre les phases SNID et les phases SALT2 du
-    \textit{golden sample} de la DR2 de ZTF. Nous indiquons avec la
-    ligne verte la fonction identité, et en noir l'ajustement linéaire
+    \textit{golden sample} de la DR2 de ZTF. Nous indiquons en noir la fonction identité
     et le nMAD comme estimateur de la déviation standard. En bas nous
     montrons le RMS par intervalle ($1$ jour) de phase déterminé avec
-    SALT2, sachant la date d'acquisition spectrale. Les spectres
-    semblent permettre de déterminer la phase avec une précision de
-    l'ordre de $\pm3$ jours.}
+    SALT2, sachant la date d'acquisition spectrale.}
   \label{fig:snid_vs_salt_phase}
 \end{figure}
 
 
 %\clearpage
-\subsubsection{\textit{Stretch} ($x_{1}$) et couleur ($c$)}
+\subsubsection{\textit{Stretch} et couleur}
 
 L'ajustement des courbes de luminosité avec SALT2 nous permet de
 remonter aux paramètres de standardisation, le \textit{stretch} $x_{1}$
-et la couleur $c$, intrinsèques à chaque SNIa.
+et la couleur $c$, propres à chaque SNIa.
 
 Nous commençons par illustrer dans la Figure~\ref{fig:ztfdr2salt} la
 corrélation de chacun de ces deux paramètres avec le redshift, en
-considérant le \textit{golden sample} dans son ensemble. La corrélation
-en redshift est clairement visible dans les deux cas, et nous observons
+considérant le \textit{golden sample} dans son ensemble. Une évolution
+est visible dans les deux cas, et nous observons
 clairement un nombre décroissant de SNeIa observées à bas
 \textit{stretch} (déclin rapide de luminosité), et de couleur élevée
-(plus rouges). La bande grise indique à nouveau la profondeur en
-redshift du volume limité ($z<0.06$), et l'observation de ces
-corrélations nous conforte sur cette hypothèse d'échantillon libre de
+(plus rouges). Cela est dû aux les effets que nous avons introduit au
+chapitre~\ref{ch:snia}: le
+\textit{slower-brighter} et le \textit{bluer-brighter}. En d'autres
+termes, les SNeIa avec un bas stretch ou rouges sont moins lumineuses,
+et donc plus difficilement détectables.
+
+La bande grise indique à nouveau la profondeur en
+redshift du volume limité ($z<0.06$), et l'absence de corrélation aux
+plus petits $z$ nous conforte sur cette hypothèse d'échantillon exempt de
 fonction de sélection à cette profondeur.
 
 Nous faisons également la distinction dans cette figure des SNeIa
 observées par la SEDm (extraites par \hypergal) et celles extraites par
-d'autres instruments. Nous voyons nettement la dominance de la SEDm pour
+d'autres instruments. Nous voyons nettement la prédominance de la SEDm pour
 la classification des spectres
 jusqu'à un redshift d'environ $z\approx0.1$ ($80\%$; $1760/2205$ SNeIa),
 du même ordre de grandeur que dans
 l'échantillon à volume limité ($81\%$). Au delà de $z=0.1$, la majorité
 des SNeIa ($65\%$) ont été classifiées à partir d'un spectre obtenu d'un autre
-instrument, possédant une plus haute résolution et surtout une plus
+instrument, permettant une plus
 grande profondeur.
-
 \begin{figure}[ht]
   \centering
   \makebox[\textwidth][c]{\includegraphics[width=1.1\textwidth]{../figures/09_dr2/stretch_color_redshift_dr2.pdf}}%
@@ -475,7 +510,7 @@ grande profondeur.
     correspondent aux SNeIa ayant été classifiées suite à une extraction
     spectrale avec la SEDm. Les points rouges (histogrammes blancs)
     correspondent aux SNeIa classifiées par un autre instrument. Nous
-    voyons clairement l'autosuffisance de la SEDm jusqu'à un redshift
+    voyons clairement la prédominance de la SEDm jusqu'à un redshift
     $z\approx0.1$, au delà duquel la majorité des SNeIa ont été
     classifiées par un autre spectrographe.}
   \label{fig:ztfdr2salt}
@@ -483,21 +518,19 @@ grande profondeur.
 
 En se focalisant à présent sur l'échantillon à volume limité, nous
 pouvons alors plus clairement étudier la distribution des paramètres des courbes de
-lumière $x_{1}$ et $c$, sans se soucier\footnote{Cette hypothèse est bien évidemment encore à
+lumière $x_{1}$ et $c$, sans trop se soucier\footnote{Cette hypothèse est bien évidemment encore à
 valider par \mbox{\textsc{Amenouche} et al. (in prep.)}} d'effets de sélection pouvant
 affecter la dérivation des paramètres cosmologiques
 \citep{Scolnicbias2016}.
 
 En supposant que ce sous-échantillon est effectivement libre de fonction
 de sélection, alors l'étude des paramètres des courbes de lumière nous
-offrirait deux informations importantes. Premièrement, la distribution
+offre deux informations importantes. Premièrement, la distribution
 de ces paramètres nous permettrait
 de faire une estimation précise de la fonction de sélection à utiliser
 pour l'échantillon entier. Dans un second temps, cette étude nous donne les
 clés pour étudier la nature de la population de SNeIa, et sonder une potentielle
 évolution avec le redshift \citep{NoraNicolas21}.
-
-
 
 Nous présentons les corrélations \textit{stretch}/couleur de
 l'échantillon à volume limité
@@ -521,7 +554,6 @@ de la distribution en stretch est clairement visible. Le mode à bas
 \textit{stretch} compte pour $\approx25\%$ de la distribution, comme prédit par
 \citet{NoraNicolas21}, dont nous présentons l'ajustement sur les données
 en superposition à l'idéogramme.
-
 \begin{figure}[ht]
   \centering
   \includegraphics[width=1.1\textwidth]{../figures/09_dr2/stretch_color_driftmodel_dr2}
@@ -538,18 +570,18 @@ en superposition à l'idéogramme.
     et l'erreur associée. Chaque idéogramme est normalisé de sorte que l'intégrale
     soit unitaire. Les distributions bleues représentent la contribution de
     la SEDm, et les grises celles sans distinction d'instrument ayant
-    classifié la SNIa. Nous voyons clairement l'illustration de
-    l'auto-suffisance de la SEDm pour représenter la population de SNeIa
+    classifié la SNIa. Nous voyons clairement la capacité de la SEDm à représenter la population de SNeIa
     dans ce volume limité. La courbe orange correspond au modèle bi-modal
     redshift dépendant de \citet{NoraNicolas21}.}
   \label{fig:ztfdr2saltcorr}
 \end{figure}
 
 \clearpage
-\section{Conclusion}
+\section*{Conclusion}
 
-La DR2 de ZTF est composée de près de $3700$ SNeIa, dont $\sim2600$
-remplissent les critères de qualité cosmologique. La vaste majorité de
+La DR2 de ZTF est composée de près de $3800$ SNeIa, dont $\sim2900$
+remplissent les critères de qualité cosmologique, ce qui correspond au
+plus large échantillon de SNeIa jamais publié. La vaste majorité de
 cet échantillon à bas redshift de nouvelle génération proviennent de la
 SEDm, spectrographe 3D dédié à la classification des SNe. L'utilisation
 d'\hypergal\ dans cette data release a ainsi contribué à la
@@ -557,30 +589,22 @@ classification de $65\%$ des SNeIa la composant.
 
 En se concentrant sur la limite en redshift de $z<0.1$, profondeur à
 laquelle la SEDm a été conçue, ce sont près de $80\%$ des SNeIa de l'échantillon
-qui ont été classifiées par \hypergal\ ($1760/2205$). Cela témoigne clairement du rôle
-cruciale de la SEDm dans l'utilisation de cette sonde cosmologique.
+qui ont été classifiées par \hypergal\ ($2015/2510$). Cela témoigne clairement du rôle
+cruciale de la SEDm dans l'utilisation des SNeIa comme sonde cosmologique.
 
 L'étude des paramètres des courbes de lumières et de la distribution en
-redshift des SNeIa du \textit{golden sample} de la DR2 pointent vers
-l'existence d'un sous-échantillon dans le volume limité $z<0.06$
+redshift des SNeIa du \textit{golden sample} de la DR2 permettent de
+définir un sous-échantillon dans le volume limité $z<0.06$
 complet, libre de toute fonction de sélection, et entièrement réalisé
 avec le même instrument. Ce volume limité est constitué à $81\%$
-($768/949$) de SNeIa observées par la SEDm et classifiées par
+($869/1077$) de SNeIa observées par la SEDm et classifiées par
 \hypergal.
+
 D'ici la fin de la seconde phase de ZTF (ZTF-II; décembre 2020 -
 mi-2024), il est attendu que le \textit{golden sample} passe de
-$\approx2600$ SNeIa à plus de $5000$ SNeIa, toutes classifiées
-spectralement et dans les même proportions qu'actuellement par \hypergal, et
+$\approx2900$ SNeIa à plus de $5000$ SNeIa, toutes classifiées
+spectralement et dans les mêmes proportions qu'actuellement par \hypergal, et
 remplissant les critères de qualité pour la dérivations de paramètres cosmologiques.
-
-%\clearpage
-%\section{Vers la cosmologie}\label{sec:sniaztfcosmo}
-
-%\subsection{Taux d'expansion ($H_{0}$)} 
-
-%\subsection{\'Equation d'état de l'énergie sombre ($w$)}
-
-%\subsection{Taux d'accroissement des structures ($f\sigma_{8}$)}
 
 
 %\bibliographystyle{../main/aa_url2}

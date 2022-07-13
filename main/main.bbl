@@ -1,4 +1,4 @@
-\begin{thebibliography}{181}
+\begin{thebibliography}{182}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{\textsc{{Abdurro'uf}} {et~al.}(2021)\textsc{{Abdurro'uf}},
@@ -1158,6 +1158,16 @@
   Variable Stars in the Small Magellanic Cloud.}~», Harvard College
   Observatory Circular,
   \href{https://ui.adsabs.harvard.edu/abs/1912HarCi.173....1L}{173, 1}
+
+\bibitem[{\textsc{{Leja}} {et~al.}(2017)\textsc{{Leja}}, \textsc{{Johnson}},
+  \textsc{{Conroy}}, \textsc{{van Dokkum}} et \textsc{{Byler}}}]{Leja2017}
+\textsc{{Leja} J.}, \textsc{{Johnson} B.~D.}, \textsc{{Conroy} C.},
+  \textsc{{van Dokkum} P.~G.} et \textsc{{Byler} N.} 2017, «~{Deriving
+  Physical Properties from Broadband Photometry with Prospector: Description of
+  the Model and a Demonstration of its Accuracy Using 129 Galaxies in the Local
+  Universe}~»,
+  \href{http://dx.doi.org/10.3847/1538-4357/aa5ffe}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2017ApJ...837..170L}{837, 170}
 
 \bibitem[{\textsc{{Lemaître}}(1927)}]{Lemaitre1927}
 \textsc{{Lemaître} G.} 1927, «~{Un Univers homog\`ene de masse constante et

@@ -1,12 +1,8 @@
 This is BibTeX, Version 0.99d (TeX Live 2021)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
-White space in argument---line 699 of file main.aux
- : \citation{CharyElbaz,Draine2007,Casey2012,Dale2014,Leja2017
- :                                                             }
-I'm skipping whatever remains of this command
 The style file: aa_url2.bst
-Reallocated field_info (elt_size=4) to 10068 items from 5000.
+Reallocated field_info (elt_size=4) to 10096 items from 5000.
 Database file #1: ../chapters/99_references.bib
 Repeated entry---line 539 of file ../chapters/99_references.bib
  : @article{Betoule2014
@@ -23,45 +19,45 @@ Warning--entry type for "kelsey_jordahl_2020_3946761" isn't style-file defined
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty publisher in MinkowskiPOSS
-You've used 181 entries,
+You've used 182 entries,
             3173 wiz_defined-function locations,
-            2266 strings with 104116 characters,
-and the built_in function-call counts, 229207 in all, are:
-= -- 15112
-> -- 28729
+            2275 strings with 104507 characters,
+and the built_in function-call counts, 229805 in all, are:
+= -- 15155
+> -- 28777
 < -- 82
-+ -- 9650
-- -- 9459
-* -- 34414
-:= -- 38724
-add.period$ -- 181
-call.type$ -- 181
-change.case$ -- 3869
-chr.to.int$ -- 173
-cite$ -- 182
-duplicate$ -- 3817
-empty$ -- 5837
-format.name$ -- 9918
-if$ -- 40824
++ -- 9666
+- -- 9474
+* -- 34496
+:= -- 38825
+add.period$ -- 182
+call.type$ -- 182
+change.case$ -- 3878
+chr.to.int$ -- 174
+cite$ -- 183
+duplicate$ -- 3838
+empty$ -- 5868
+format.name$ -- 9936
+if$ -- 40933
 int.to.chr$ -- 9
 int.to.str$ -- 1
-missing$ -- 159
-newline$ -- 547
-num.names$ -- 737
-pop$ -- 3872
+missing$ -- 160
+newline$ -- 550
+num.names$ -- 741
+pop$ -- 3881
 preamble$ -- 1
-purify$ -- 3868
+purify$ -- 3877
 quote$ -- 0
-skip$ -- 3105
+skip$ -- 3121
 stack$ -- 0
-substring$ -- 4199
-swap$ -- 7202
+substring$ -- 4220
+swap$ -- 7216
 text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1629
+type$ -- 1638
 warning$ -- 1
-while$ -- 738
+while$ -- 742
 width$ -- 0
-write$ -- 1974
-(There were 3 error messages)
+write$ -- 1985
+(There were 2 error messages)

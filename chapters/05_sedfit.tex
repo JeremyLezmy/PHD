@@ -450,16 +450,13 @@ par la coupure en SNR se verront attribués un spectre nul lors de la constructi
 \subsection{Configuration de \pkg{CIGALE}}
 \label{ssec:cigaleconfig}
 
-
-
 Nous utilisons dans le pipeline \hypergal\ la version 2020 de
 \cigale. Trois étapes sont nécessaires pour faire tourner le code :
 l'initialisation, la génération du fichier de configuration et enfin le
 lancement de l'ajustement. Ces étapes nécessitent la modification manuelle de
 fichiers \textit{.ini}, nous avons donc créé dans \hypergal\ une méthode d'automatisation de ces processus.
 
-L'initialisation a pour but de fixer le fichier de données à utiliser
-(Table~\ref{tab:cigaleinput}), le nombre de coeur sur la machine à
+L'initialisation a pour but de fixer le fichier de données à utiliser, le nombre de coeur sur la machine à
 utiliser et surtout les modules à partir desquels la grille de modèles
 sera calculée. Détaillons à présent les différentes composantes qui constitueront les ingrédients de notre modéliseur de SED.
 

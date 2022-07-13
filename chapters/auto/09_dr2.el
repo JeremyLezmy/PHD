@@ -24,6 +24,7 @@
     "fig:skycoverage"
     "fig:specorigindr2"
     "fig:target_peakmaggBTS"
+    "tab:sample"
     "fig:specorigingoldendr2"
     "fig:rlapdistribution"
     "fig:specexamplehypergal"

@@ -25,7 +25,7 @@
     "fig:specsimueach"
     "fig:psfparams"
     "fig:simufwhm"
-    "fig::distancesimu"
+    "ssec:distancesimu"
     "eq:contrast"
     "fig:host_contrast_simu"
     "eq:rapportSB"

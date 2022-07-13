@@ -119,17 +119,17 @@
 \contentsline {figure}{\numberline {9.14}{\ignorespaces Efficacité de classification des simulations.}}{175}{figure.caption.119}%
 \contentsline {figure}{\numberline {9.15}{\ignorespaces Taux de faux positifs dans la classification des SNeIa.}}{175}{figure.caption.120}%
 \addvspace {10\p@ }
-\contentsline {xchapter}{Application d'\textsc {\texttt {HyperGal}}\relax \ à la Data Release 2 de ZTF}{177}{chapter.10}%
+\contentsline {xchapter}{Application d'\textsc {\texttt {HyperGal}}\relax \ à la Data Release 2 de ZTF Cosmologie}{177}{chapter.10}%
 \contentsline {figure}{\numberline {10.1}{\ignorespaces Statistiques de la couverture du ciel de la phase 1 de ZTF.}}{179}{figure.caption.123}%
 \contentsline {figure}{\numberline {10.2}{\ignorespaces Distribution des spectres appartenant à la DR2 de ZTF suivant leur origine.}}{180}{figure.caption.124}%
 \contentsline {figure}{\numberline {10.3}{\ignorespaces Distribution du pic en magnitude dans la bande $g$ de ZTF des SNeIa de la DR2.}}{181}{figure.caption.125}%
-\contentsline {figure}{\numberline {10.4}{\ignorespaces Distribution des spectres appartenant au \textit {golden sample} de la DR2 de ZTF suivant leur origine}}{182}{figure.caption.126}%
-\contentsline {figure}{\numberline {10.5}{\ignorespaces Distribution du paramètre r$lap$ des meilleurs modèles \textsc {\texttt {SNID}} pour les spectres du \textit {golden sample} de la DR2 de ZTF.}}{183}{figure.caption.127}%
-\contentsline {figure}{\numberline {10.6}{\ignorespaces Exemple de spectres du \textit {golden sample} de la DR2 extraits par \textsc {\texttt {HyperGal}}\relax .}}{183}{figure.caption.128}%
-\contentsline {figure}{\numberline {10.7}{\ignorespaces Corrélation redshift/pic de magnitude (ZTF$_{g}$) du \textit {golden sample} de la DR2 de ZTF.}}{184}{figure.caption.129}%
-\contentsline {figure}{\numberline {10.8}{\ignorespaces Exemple de courbe de lumière de SNeIa du \textit {golden sample} de la DR2.}}{185}{figure.caption.130}%
-\contentsline {figure}{\numberline {10.9}{\ignorespaces Distribution de points de détection avant/après le maximum de luminosité et distribution de phase de la première détection du \textit {golden sample} de la DR2.}}{186}{figure.caption.131}%
-\contentsline {figure}{\numberline {10.10}{\ignorespaces Distribution de phase de la première acquisition spectrale des SNeIa de la DR2.}}{187}{figure.caption.132}%
-\contentsline {figure}{\numberline {10.11}{\ignorespaces Corrélation phases SNID vs phases SALT2 de la DR2 de ZTF.}}{188}{figure.caption.133}%
-\contentsline {figure}{\numberline {10.12}{\ignorespaces Paramètres SALT2 de stretch et couleur pour la DR2 de ZTF}}{189}{figure.caption.134}%
-\contentsline {figure}{\numberline {10.13}{\ignorespaces Correlation entre les paramètres SALT2 de \textit {stretch} et couleur dans l'échantillon à volume limité.}}{190}{figure.caption.135}%
+\contentsline {figure}{\numberline {10.4}{\ignorespaces Distribution des spectres appartenant au \textit {golden sample} de la DR2 de ZTF suivant leur origine}}{182}{figure.caption.128}%
+\contentsline {figure}{\numberline {10.5}{\ignorespaces Distribution du paramètre r$lap$ des meilleurs modèles \textsc {\texttt {SNID}} pour les spectres du \textit {golden sample} de la DR2 de ZTF.}}{183}{figure.caption.129}%
+\contentsline {figure}{\numberline {10.6}{\ignorespaces Exemple de spectres du \textit {golden sample} de la DR2 extraits par \textsc {\texttt {HyperGal}}\relax .}}{184}{figure.caption.130}%
+\contentsline {figure}{\numberline {10.7}{\ignorespaces Corrélation redshift/pic de magnitude $g_{ztf}$) du \textit {golden sample} de la DR2 de ZTF.}}{185}{figure.caption.131}%
+\contentsline {figure}{\numberline {10.8}{\ignorespaces Exemple de courbe de lumière de SNeIa du \textit {golden sample} de la DR2.}}{186}{figure.caption.132}%
+\contentsline {figure}{\numberline {10.9}{\ignorespaces Distribution de points de détection avant/après le maximum de luminosité et distribution de phase de la première détection du \textit {golden sample} de la DR2.}}{187}{figure.caption.133}%
+\contentsline {figure}{\numberline {10.10}{\ignorespaces Distribution de phase de la première acquisition spectrale des SNeIa de la DR2.}}{188}{figure.caption.134}%
+\contentsline {figure}{\numberline {10.11}{\ignorespaces Corrélation phases SNID vs phases SALT2 de la DR2 de ZTF.}}{189}{figure.caption.135}%
+\contentsline {figure}{\numberline {10.12}{\ignorespaces Paramètres SALT2 de stretch et couleur pour la DR2 de ZTF}}{190}{figure.caption.136}%
+\contentsline {figure}{\numberline {10.13}{\ignorespaces Correlation entre les paramètres SALT2 de \textit {stretch} et couleur dans l'échantillon à volume limité.}}{191}{figure.caption.137}%

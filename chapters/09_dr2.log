@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  3 JUL 2022 00:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  13 JUL 2022 21:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1182,6 +1182,10 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 \rot@float@box=\box122
 \rot@mess@toks=\toks50
 )
+(/usr/local/texlive/2021/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write6
+
+Excluding comment 'comment')
 (/usr/local/texlive/2021/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen357
@@ -1612,17 +1616,8 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package minitoc Info: I0024
-(minitoc)             PREPARING MINITOCS FROM 09_dr2.toc on input line 4.
-Package minitoc Info: I0033
-(minitoc)             Writing 09_dr2.mtc1.
-\openout4 = `09_dr2.mtc1'.
 
-\tf@toc=\write6
-\openout6 = `09_dr2.toc'.
-
-
-Chapitre 9.
+Chapitre 10.
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 6
 .
 (/usr/local/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
@@ -1647,7 +1642,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
-LaTeX Warning: Reference `ch:ztf' on page 2 undefined on input line 37.
+LaTeX Warning: Reference `ch:ztf' on page 2 undefined on input line 39.
 
 <../figures/09_dr2/ztf_skycoverage_and_cadence_landscape_lowq.pdf, id=39, 1369.
 115pt x 626.34pt>
@@ -1655,219 +1650,263 @@ File: ../figures/09_dr2/ztf_skycoverage_and_cadence_landscape_lowq.pdf Graphic
 file (type pdf)
 <use ../figures/09_dr2/ztf_skycoverage_and_cadence_landscape_lowq.pdf>
 Package pdftex.def Info: ../figures/09_dr2/ztf_skycoverage_and_cadence_landscap
-e_lowq.pdf  used on input line 103.
+e_lowq.pdf  used on input line 105.
 (pdftex.def)             Requested size: 523.52794pt x 239.50258pt.
 [2]
-<../figures/09_dr2/spec_instorigin_dr2.pdf, id=59, 929.8608pt x 499.3857pt>
+
+Package natbib Warning: Citation `Smartt2015' on page 3 undefined on input line
+ 139.
+
+<../figures/09_dr2/spec_instorigin_dr2.pdf, id=57, 929.85834pt x 499.3857pt>
 File: ../figures/09_dr2/spec_instorigin_dr2.pdf Graphic file (type pdf)
 <use ../figures/09_dr2/spec_instorigin_dr2.pdf>
 Package pdftex.def Info: ../figures/09_dr2/spec_instorigin_dr2.pdf  used on inp
-ut line 142.
+ut line 143.
 (pdftex.def)             Requested size: 455.24411pt x 244.48776pt.
- [3 <../figures/09_dr2/ztf_skycoverage_and_cadence_landscape_lowq.pdf>]
-<../figures/09_dr2/target_peakmagg.pdf, id=81, 505.89pt x 216.81pt>
+
+Package natbib Warning: Citation `FremlingZTFspec2020' on page 3 undefined on i
+nput line 158.
+
+
+Package natbib Warning: Citation `PerleyBTSII2020' on page 3 undefined on input
+ line 158.
+
+
+Package natbib Warning: Citation `PerleyBTSII2020' on page 3 undefined on input
+ line 162.
+
+[3 <../figures/09_dr2/ztf_skycoverage_and_cadence_landscape_lowq.pdf>]
+<../figures/09_dr2/target_peakmagg.pdf, id=68, 505.89pt x 216.81pt>
 File: ../figures/09_dr2/target_peakmagg.pdf Graphic file (type pdf)
 <use ../figures/09_dr2/target_peakmagg.pdf>
 Package pdftex.def Info: ../figures/09_dr2/target_peakmagg.pdf  used on input l
-ine 183.
+ine 184.
 (pdftex.def)             Requested size: 455.24411pt x 195.10733pt.
 
 
-LaTeX Warning: Reference `ch:ztf' on page 4 undefined on input line 200.
+Package natbib Warning: Citation `FremlingZTFspec2020' on page 4 undefined on i
+nput line 190.
+
+
+Package natbib Warning: Citation `PerleyBTSII2020' on page 4 undefined on input
+ line 190.
+
+
+Package natbib Warning: Citation `FremlingZTFspec2020' on page 4 undefined on i
+nput line 190.
+
+
+Package natbib Warning: Citation `PerleyBTSII2020' on page 4 undefined on input
+ line 190.
+
+
+LaTeX Warning: Reference `ch:ztf' on page 4 undefined on input line 201.
 
 [4 <../figures/09_dr2/spec_instorigin_dr2.pdf>]
-<../figures/09_dr2/spec_instorigin_golden_dr2.pdf, id=109, 929.99594pt x 499.38
-57pt>
+<../figures/09_dr2/spec_instorigin_golden_dr2.pdf, id=89, 929.94124pt x 499.385
+7pt>
 File: ../figures/09_dr2/spec_instorigin_golden_dr2.pdf Graphic file (type pdf)
 <use ../figures/09_dr2/spec_instorigin_golden_dr2.pdf>
 Package pdftex.def Info: ../figures/09_dr2/spec_instorigin_golden_dr2.pdf  used
- on input line 217.
-(pdftex.def)             Requested size: 409.71692pt x 220.01231pt.
-<../figures/09_dr2/rlapdistribution_dr2.pdf, id=111, 732.97055pt x 366.5363pt>
+ on input line 247.
+(pdftex.def)             Requested size: 450.69417pt x 242.0265pt.
+<../figures/09_dr2/rlapdistribution_dr2.pdf, id=91, 732.97055pt x 366.5363pt>
 File: ../figures/09_dr2/rlapdistribution_dr2.pdf Graphic file (type pdf)
 <use ../figures/09_dr2/rlapdistribution_dr2.pdf>
 Package pdftex.def Info: ../figures/09_dr2/rlapdistribution_dr2.pdf  used on in
-put line 240.
-(pdftex.def)             Requested size: 341.43307pt x 170.73962pt.
-<../figures/09_dr2/spec_example_hypergaldr2.pdf, id=113, 557.09209pt x 697.4054
+put line 270.
+(pdftex.def)             Requested size: 409.71692pt x 204.8842pt.
+ [5 <../figures/09_dr2/target_peakmagg.pdf>]
+<../figures/09_dr2/spec_example_hypergaldr2.pdf, id=149, 557.09209pt x 697.4054
 9pt>
 File: ../figures/09_dr2/spec_example_hypergaldr2.pdf Graphic file (type pdf)
 <use ../figures/09_dr2/spec_example_hypergaldr2.pdf>
 Package pdftex.def Info: ../figures/09_dr2/spec_example_hypergaldr2.pdf  used o
-n input line 259.
-(pdftex.def)             Requested size: 318.66948pt x 398.95122pt.
+n input line 289.
+(pdftex.def)             Requested size: 409.71692pt x 512.93272pt.
 
 
-LaTeX Warning: Reference `ch:ztf' on page 5 undefined on input line 273.
+LaTeX Warning: Reference `ch:ztf' on page 6 undefined on input line 303.
 
-[5 <../figures/09_dr2/target_peakmagg.pdf>]
-<../figures/09_dr2/peakvsredshift_dr2.pdf, id=174, 710.08543pt x 709.89514pt>
+[6 <../figures/09_dr2/spec_instorigin_golden_dr2.pdf>]
+
+Package natbib Warning: Citation `NoraNicolas21' on page 7 undefined on input l
+ine 339.
+
+<../figures/09_dr2/peakvsredshift_dr2.pdf, id=167, 710.08543pt x 709.89514pt>
 File: ../figures/09_dr2/peakvsredshift_dr2.pdf Graphic file (type pdf)
 <use ../figures/09_dr2/peakvsredshift_dr2.pdf>
 Package pdftex.def Info: ../figures/09_dr2/peakvsredshift_dr2.pdf  used on inpu
-t line 321.
+t line 354.
 (pdftex.def)             Requested size: 455.24411pt x 455.13292pt.
- [6 <../figures/09_dr2/spec_instorigin_golden_dr2.pdf>] [7 <../figures/09_dr2/r
-lapdistribution_dr2.pdf> <../figures/09_dr2/spec_example_hypergaldr2.pdf
-
-pdfTeX warning: pdflatex (file ../figures/09_dr2/spec_example_hypergaldr2.pdf):
- PDF inclusion: multiple pdfs with page group included in a single page
->] [8 <../figures/09_dr2/peakvsredshift_dr2.pdf>]
-<../figures/09_dr2/lightcurve_example_dr2.pdf, id=232, 713.60628pt x 607.99265p
+[7 <../figures/09_dr2/rlapdistribution_dr2.pdf>] [8 <../figures/09_dr2/spec_exa
+mple_hypergaldr2.pdf>] [9 <../figures/09_dr2/peakvsredshift_dr2.pdf>]
+<../figures/09_dr2/lightcurve_example_dr2.pdf, id=217, 713.60628pt x 607.99265p
 t>
 File: ../figures/09_dr2/lightcurve_example_dr2.pdf Graphic file (type pdf)
 <use ../figures/09_dr2/lightcurve_example_dr2.pdf>
 Package pdftex.def Info: ../figures/09_dr2/lightcurve_example_dr2.pdf  used on 
-input line 350.
+input line 383.
 (pdftex.def)             Requested size: 441.58734pt x 376.2372pt.
-<../figures/09_dr2/early_late_phase_dr2.pdf, id=234, 860.01299pt x 354.12299pt>
+<../figures/09_dr2/early_late_phase_dr2.pdf, id=219, 860.01299pt x 354.12299pt>
 
 File: ../figures/09_dr2/early_late_phase_dr2.pdf Graphic file (type pdf)
 <use ../figures/09_dr2/early_late_phase_dr2.pdf>
 Package pdftex.def Info: ../figures/09_dr2/early_late_phase_dr2.pdf  used on in
-put line 372.
-(pdftex.def)             Requested size: 409.71692pt x 168.70728pt.
-<../figures/09_dr2/first_detect_dr2.pdf, id=235, 866.45477pt x 354.12299pt>
+put line 405.
+(pdftex.def)             Requested size: 396.06015pt x 163.08226pt.
+<../figures/09_dr2/first_detect_dr2.pdf, id=220, 866.45477pt x 354.12299pt>
 File: ../figures/09_dr2/first_detect_dr2.pdf Graphic file (type pdf)
 <use ../figures/09_dr2/first_detect_dr2.pdf>
 Package pdftex.def Info: ../figures/09_dr2/first_detect_dr2.pdf  used on input 
-line 373.
-(pdftex.def)             Requested size: 409.71692pt x 167.45366pt.
- [9
+line 406.
+(pdftex.def)             Requested size: 396.06015pt x 161.87187pt.
+ [10
 
  <../figures/09_dr2/lightcurve_example_dr2.pdf>]
-<../figures/09_dr2/phaseIadr2.pdf, id=256, 732.97055pt x 334.01482pt>
+<../figures/09_dr2/phaseIadr2.pdf, id=241, 732.97055pt x 334.01482pt>
 File: ../figures/09_dr2/phaseIadr2.pdf Graphic file (type pdf)
 <use ../figures/09_dr2/phaseIadr2.pdf>
-Package pdftex.def Info: ../figures/09_dr2/phaseIadr2.pdf  used on input line 3
-99.
-(pdftex.def)             Requested size: 409.71692pt x 186.70554pt.
- [10 <../figures/09_dr2/early_late_phase_dr2.pdf> <../figures/09_dr2/first_dete
+Package pdftex.def Info: ../figures/09_dr2/phaseIadr2.pdf  used on input line 4
+32.
+(pdftex.def)             Requested size: 396.06015pt x 180.48253pt.
+ [11 <../figures/09_dr2/early_late_phase_dr2.pdf> <../figures/09_dr2/first_dete
 ct_dr2.pdf
 
 pdfTeX warning: pdflatex (file ../figures/09_dr2/first_detect_dr2.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
 >]
-<../figures/09_dr2/snidphase_vsphase_dr2.pdf, id=284, 799.40123pt x 474.93716pt
+<../figures/09_dr2/snidphase_vsphase_dr2.pdf, id=263, 799.40123pt x 474.93716pt
 >
 File: ../figures/09_dr2/snidphase_vsphase_dr2.pdf Graphic file (type pdf)
 <use ../figures/09_dr2/snidphase_vsphase_dr2.pdf>
 Package pdftex.def Info: ../figures/09_dr2/snidphase_vsphase_dr2.pdf  used on i
-nput line 423.
-(pdftex.def)             Requested size: 409.71692pt x 243.42499pt.
+nput line 456.
+(pdftex.def)             Requested size: 396.06015pt x 235.30841pt.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 438.
+LaTeX Warning: Reference `ch:snia' on page 12 undefined on input line 481.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 438.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 438.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 438.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 438.
-
-<../figures/09_dr2/stretch_color_redshift_dr2.pdf, id=286, 851.44508pt x 704.25
+<../figures/09_dr2/stretch_color_redshift_dr2.pdf, id=265, 851.44508pt x 704.25
 854pt>
 File: ../figures/09_dr2/stretch_color_redshift_dr2.pdf Graphic file (type pdf)
 <use ../figures/09_dr2/stretch_color_redshift_dr2.pdf>
 Package pdftex.def Info: ../figures/09_dr2/stretch_color_redshift_dr2.pdf  used
- on input line 468.
+ on input line 503.
 (pdftex.def)             Requested size: 500.77129pt x 414.1979pt.
-[11 <../figures/09_dr2/phaseIadr2.pdf>]
-<../figures/09_dr2/stretch_color_driftmodel_dr2.pdf, id=315, 794.34308pt x 774.
+
+Package natbib Warning: Citation `Scolnicbias2016' on page 12 undefined on inpu
+t line 524.
+
+
+Package natbib Warning: Citation `NoraNicolas21' on page 12 undefined on input 
+line 533.
+
+[12 <../figures/09_dr2/phaseIadr2.pdf>]
+
+Package natbib Warning: Citation `NoraNicolas21' on page 13 undefined on input 
+line 555.
+
+<../figures/09_dr2/stretch_color_driftmodel_dr2.pdf, id=286, 794.34308pt x 774.
 93813pt>
 File: ../figures/09_dr2/stretch_color_driftmodel_dr2.pdf Graphic file (type pdf
 )
 <use ../figures/09_dr2/stretch_color_driftmodel_dr2.pdf>
 Package pdftex.def Info: ../figures/09_dr2/stretch_color_driftmodel_dr2.pdf  us
-ed on input line 527.
+ed on input line 559.
 (pdftex.def)             Requested size: 500.77129pt x 488.5447pt.
 
-Overfull \hbox (45.52718pt too wide) in paragraph at lines 527--544
+Overfull \hbox (45.52718pt too wide) in paragraph at lines 559--575
  [][] 
  []
 
-[12 <../figures/09_dr2/snidphase_vsphase_dr2.pdf>] [13 <../figures/09_dr2/stret
-ch_color_redshift_dr2.pdf>] [14 <../figures/09_dr2/stretch_color_driftmodel_dr2
-.pdf>] (./09_dr2.bbl (./09_dr2.brf)
-\tf@brf=\write7
-\openout7 = `09_dr2.brf'.
 
- [15
+Package natbib Warning: Citation `NoraNicolas21' on page 13 undefined on input 
+line 575.
 
-] [16
 
-])
+Package natbib Warning: Citation `NoraNicolas21' on page 13 undefined on input 
+line 575.
+
+[13 <../figures/09_dr2/snidphase_vsphase_dr2.pdf>] [14 <../figures/09_dr2/stret
+ch_color_redshift_dr2.pdf>] [15 <../figures/09_dr2/stretch_color_driftmodel_dr2
+.pdf>]
+
+Package natbib Warning: There were undefined citations.
+
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the 09_dr2.maf file.
 \openout4 = `09_dr2.maf'.
 
 
+Package minitoc(hints) Warning: W0059
+(minitoc(hints))                You have used \minitoc, 
+(minitoc(hints))                but not \dominitoc.
+
+
+Package minitoc(hints) Warning: W0068
+(minitoc(hints))                You have used \minitoc but not 
+(minitoc(hints))                \tableofcontents
+(minitoc(hints))                nor \faketableofcontents.
+
 
 Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the 09_dr2.log file.
 
-[17] (./09_dr2.aux)
+[16
+
+] (./09_dr2.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `09_dr2.brf' has not changed.
-(rerunfilecheck)             Checksum: D202309BACF39FD9E99581855D3C763F;642.
  ) 
 Here is how much of TeX's memory you used:
  47022 strings out of 478994
- 996745 string characters out of 5858184
- 1554023 words of memory out of 5000000
- 63121 multiletter control sequences out of 15000+600000
- 440586 words of font info for 240 fonts, out of 8000000 for 9000
+ 996703 string characters out of 5858184
+ 1551003 words of memory out of 5000000
+ 63125 multiletter control sequences out of 15000+600000
+ 440541 words of font info for 242 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 137i,12n,148p,2416b,774s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<
-/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
-usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
-r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
-local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
-cal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loca
-l/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/t
-exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
-xlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbi1200.pfb></usr/local/texl
-ive/2021/texmf-dist/fonts/type1/public/cm-super/sfbi1440.pfb></usr/local/texliv
-e/2021/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texlive/
-2021/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/20
-21/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2021
-/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2021/t
-exmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2021/tex
-mf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2021/texmf
--dist/fonts/type1/public/cm-super/sfcc1000.pfb></usr/local/texlive/2021/texmf-d
-ist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2021/texmf-dis
-t/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2021/texmf-dist/
-fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texmf-dist/fo
-nts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2021/texmf-dist/font
-s/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/
-type1/public/cm-super/sftc1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/ty
-pe1/public/cm-super/sfti1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type
-1/public/cm-super/sfti1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/
-public/cm-super/sftt2074.pfb>
-Output written on 09_dr2.pdf (17 pages, 2053707 bytes).
+ 137i,12n,148p,780b,768s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{section.10.3} has been referenced but does not ex
+ist, replaced by a fixed one
+
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/
+usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</u
+sr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></us
+r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
+local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
+cal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loca
+l/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/
+texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/tex
+live/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
+ive/2021/texmf-dist/fonts/type1/public/cm-super/sfbi1200.pfb></usr/local/texliv
+e/2021/texmf-dist/fonts/type1/public/cm-super/sfbi1440.pfb></usr/local/texlive/
+2021/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texlive/20
+21/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2021
+/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2021/t
+exmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2021/tex
+mf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2021/texmf
+-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2021/texmf-d
+ist/fonts/type1/public/cm-super/sfcc1000.pfb></usr/local/texlive/2021/texmf-dis
+t/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2021/texmf-dist/
+fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2021/texmf-dist/fo
+nts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texmf-dist/font
+s/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/
+type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/ty
+pe1/public/cm-super/sftc1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type
+1/public/cm-super/sfti1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/
+public/cm-super/sfti1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pu
+blic/cm-super/sftt2074.pfb>
+Output written on 09_dr2.pdf (16 pages, 2084081 bytes).
 PDF statistics:
- 540 PDF objects out of 1000 (max. 8388607)
- 415 compressed objects within 5 object streams
- 49 named destinations out of 1000 (max. 500000)
- 77475 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 471 PDF objects out of 1000 (max. 8388607)
+ 354 compressed objects within 4 object streams
+ 44 named destinations out of 1000 (max. 500000)
+ 77467 words of extra memory for PDF output out of 89155 (max. 10000000)
 
