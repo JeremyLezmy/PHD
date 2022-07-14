@@ -11,8 +11,8 @@
 \contentsline {subsubsection}{\numberline {1.1.4.2}Taux d'expansion}{7}{subsubsection.1.1.4.2}%
 \contentsline {subsection}{\numberline {1.1.5}\'Equations de Friedmann-Lemaître}{7}{subsection.1.1.5}%
 \contentsline {subsection}{\numberline {1.1.6}Mesures de distances}{9}{subsection.1.1.6}%
-\contentsline {section}{\numberline {1.2}Sondes cosmologiques et modèle de concordance \ensuremath {\Lambda }CDM\spacefactor \@m {}\relax }{12}{section.1.2}%
+\contentsline {section}{\numberline {1.2}Sondes cosmologiques et modèle de concordance \ensuremath {\Lambda }CDM\spacefactor \@m {}\relax }{11}{section.1.2}%
 \contentsline {subsection}{\numberline {1.2.1}Le fond diffus cosmologique}{12}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Les oscillations acoustiques des baryons}{13}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.2}Les oscillations acoustiques des baryons}{12}{subsection.1.2.2}%
 \contentsline {subsection}{\numberline {1.2.3}Les chandelles standard}{14}{subsection.1.2.3}%
 \contentsline {subsection}{\numberline {1.2.4}Le modèle \ensuremath {\Lambda }CDM\spacefactor \@m {}\relax }{14}{subsection.1.2.4}%

@@ -1,7 +1,7 @@
 \documentclass[../main/main.tex]{subfiles}
 \begin{document}
-%\dominitoc
-%\faketableofcontents
+\dominitoc
+\faketableofcontents
 \setcounter{chapter}{1}
 \chapter{Cosmologie avec les Supernovae de type Ia}\label{ch:snia}
 
@@ -438,20 +438,20 @@ Hubble, c'est à dire la différence entre le module de distance observé et le
 module de distance théorique pour une SNIa donnée:
 \begin{align}
   \mu - \mu_{th}&= m_{B}+\alpha x_{1}-\beta c -M_{B}
-  -5\log_{10}(d_{L})+5\\
+  -5\log_{10}(d_{L}/10[\text{pc}])\\
   &=m_{B}+\alpha x_{1}-\beta c - M_{B} -
-    5\log_{10}\left(\frac{c(1+z)}{H_{0}}\int_{z=0}^{z=z_{e}}\frac{\d z'}{E(z')}\right) +5 \\
+    5\log_{10}\left(\frac{c(1+z)}{H_{0}10[\text{pc}]}\int_{z=0}^{z=z_{e}}\frac{\d z'}{E(z')}\right) \\
   &= m_{B}+\alpha x_{1}-\beta c - M_{B} -
     5\log_{10}\left(f(z,\Omega_{M},w_{0},w_{a})\right) -
-    5\log_{10}\left(\frac{c}{H_{0}}\right) +5\\
+    5\log_{10}\left(\frac{c}{H_{0}10[\text{pc}]}\right)\\
   &= m_{B}+\alpha x_{1}-\beta c -
     5\log_{10}\left(f(z,\Omega_{M},w_{0},w_{a})\right)
-    +2.5\log_{10}(LH_{0}^{2}) + cste
+    +2.5\log_{10}\left(\frac{LH_{0}^{2}100[\text{pc}^{2}]}{c^{2}L_{0}}\right)
 \end{align}
 où nous avons supposé un modèle $w_{z}$-\lcdm\ et $E(z)$ ne dépend que des
 paramètres cosmologiques et du redshift (eq~\ref{eq:Ez}). La luminosité
 $L$ et la constante de Hubble $H_{0}$ sont des paramètres dégénérés ne
-pouvant être contraint simultanément.
+pouvant être contraints simultanément.
 
 Dans le cas d'une calibration absolue des Supernovae avec un autre
 indicateur de distance à bas redshift comme les céphéides, il est possible de fixer
@@ -513,8 +513,25 @@ jusqu'à des redshift de l'ordre de $z\sim2.5$.}
   \label{fig:evolv_DEstate}
 \end{figure}
 
-%\bibliographystyle{../main/aa_url2}
-%\bibliography{99_references}
+Nous devons souligner que pour ces objectifs de précision sur $w$, la
+contamination d'un échantillon de SNeIa par des supernovae à
+effondrement de coeur peut mener à des biais non négligeables. Une
+estimation a par exemple été mené par \citet{JonesScolnic17SNcontam,Jones2018} à partir de l'échantillon photométrique de SNe de
+Pan-STARRS \citep[PS1,][]{ChambersPS1survey}. En utilisant plusieurs méthodes
+de classificiation photométriques de supernovae, la mesure
+de $w$ s'avère biaisée à cause des contaminations, entraînant une
+incertitude systématique $\sigma_{w,sys}=0.012$ pour un échantillon
+contaminé à $5\%$ par des supernovae à effondrement de coeur (CC SNe).
+
+Bien que cette contribution soit faible devant l'incertitude totale
+actuelle, cela n'est plus le cas devant l'objectif de précision de
+seulement $2\%$ sur le paramètre de l'équation d'état de
+l'énergie sombre. La construction d'un échantillon de SNeIa non
+contaminé est par conséquent d'une importance cruciale, et c'est pour
+cela que la classification par spectroscopie est fortement privilégiée.
+
+\bibliographystyle{../main/aa_url2}
+\bibliography{99_references}
 \end{document}
 
 %%% Local Variables:

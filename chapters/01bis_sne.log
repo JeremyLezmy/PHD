@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  6 JUL 2022 01:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  14 JUL 2022 17:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1182,6 +1182,10 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 \rot@float@box=\box122
 \rot@mess@toks=\toks50
 )
+(/usr/local/texlive/2021/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write6
+
+Excluding comment 'comment')
 (/usr/local/texlive/2021/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen357
@@ -1618,8 +1622,8 @@ Package minitoc Info: I0033
 (minitoc)             Writing 01bis_sne.mtc1.
 \openout4 = `01bis_sne.mtc1'.
 
-\tf@toc=\write6
-\openout6 = `01bis_sne.toc'.
+\tf@toc=\write7
+\openout7 = `01bis_sne.toc'.
 
 
 Chapitre 2.
@@ -1708,13 +1712,13 @@ pt>
 File: ../figures/01_cosmology/darkenergy_variation.pdf Graphic file (type pdf)
 <use ../figures/01_cosmology/darkenergy_variation.pdf>
 Package pdftex.def Info: ../figures/01_cosmology/darkenergy_variation.pdf  used
- on input line 501.
+ on input line 500.
 (pdftex.def)             Requested size: 450.69417pt x 223.72668pt.
-(./01bis_sne.bbl (./01bis_sne.brf)
-\tf@brf=\write7
-\openout7 = `01bis_sne.brf'.
+[11] (./01bis_sne.bbl (./01bis_sne.brf)
+\tf@brf=\write8
+\openout8 = `01bis_sne.brf'.
 
- [11] [12 <../figures/01_cosmology/darkenergy_variation.pdf>] [13
+ [12 <../figures/01_cosmology/darkenergy_variation.pdf>] [13
 
 ] [14])
 Package minitoc Info: I0009
@@ -1732,15 +1736,20 @@ Package minitoc(hints) Warning: W0024
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `01bis_sne.brf' has not changed.
-(rerunfilecheck)             Checksum: F2ADAE1CC6EA2307F47C1B750A12102B;2244.
+
+Package rerunfilecheck Warning: File `01bis_sne.brf' has changed.
+(rerunfilecheck)                Rerun to get bibliographical references right.
+
+Package rerunfilecheck Info: Checksums for `01bis_sne.brf':
+(rerunfilecheck)             Before: D777D53498AF139903FA8DF85D174A9E;2371
+(rerunfilecheck)             After:  C5E8A5D3ED13A93A8EECC858880E8985;2424.
  ) 
 Here is how much of TeX's memory you used:
- 47193 strings out of 478994
- 997564 string characters out of 5858184
- 1574649 words of memory out of 5000000
- 63250 multiletter control sequences out of 15000+600000
- 442528 words of font info for 260 fonts, out of 8000000 for 9000
+ 47261 strings out of 478994
+ 998779 string characters out of 5858184
+ 1581223 words of memory out of 5000000
+ 63305 multiletter control sequences out of 15000+600000
+ 442765 words of font info for 263 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  137i,12n,148p,5515b,939s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
@@ -1774,10 +1783,10 @@ blic/cm-super/sfti1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publ
 ic/cm-super/sfti1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public
 /cm-super/sfti1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/c
 m-super/sftt1000.pfb>
-Output written on 01bis_sne.pdf (15 pages, 4651418 bytes).
+Output written on 01bis_sne.pdf (15 pages, 4655000 bytes).
 PDF statistics:
- 872 PDF objects out of 1000 (max. 8388607)
- 557 compressed objects within 6 object streams
- 76 named destinations out of 1000 (max. 500000)
+ 888 PDF objects out of 1000 (max. 8388607)
+ 573 compressed objects within 6 object streams
+ 79 named destinations out of 1000 (max. 500000)
  86683 words of extra memory for PDF output out of 89155 (max. 10000000)
 

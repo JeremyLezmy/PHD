@@ -1,4 +1,4 @@
-\begin{thebibliography}{30}
+\begin{thebibliography}{33}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{\textsc{{Aldering}} {et~al.}(2002)\textsc{{Aldering}},
@@ -80,6 +80,48 @@
   and SNLS supernova samples}~»,
   \href{http://dx.doi.org/10.1051/0004-6361/201423413}{\color{magenta}\aap},
   \href{https://ui.adsabs.harvard.edu/abs/2014A&A...568A..22B}{568, A22}
+
+\bibitem[{\textsc{{Chambers}} {et~al.}(2016)\textsc{{Chambers}},
+  \textsc{{Magnier}}, \textsc{{Metcalfe}}, \textsc{{Flewelling}},
+  \textsc{{Huber}}, \textsc{{Waters}}, \textsc{{Denneau}}, \textsc{{Draper}},
+  \textsc{{Farrow}}, \textsc{{Finkbeiner}}, \textsc{{Holmberg}},
+  \textsc{{Koppenhoefer}}, \textsc{{Price}}, \textsc{{Rest}},
+  \textsc{{Saglia}}, \textsc{{Schlafly}}, \textsc{{Smartt}},
+  \textsc{{Sweeney}}, \textsc{{Wainscoat}}, \textsc{{Burgett}},
+  \textsc{{Chastel}}, \textsc{{Grav}}, \textsc{{Heasley}}, \textsc{{Hodapp}},
+  \textsc{{Jedicke}}, \textsc{{Kaiser}}, \textsc{{Kudritzki}},
+  \textsc{{Luppino}}, \textsc{{Lupton}}, \textsc{{Monet}}, \textsc{{Morgan}},
+  \textsc{{Onaka}}, \textsc{{Shiao}}, \textsc{{Stubbs}}, \textsc{{Tonry}},
+  \textsc{{White}}, \textsc{{Ba\~nados}}, \textsc{{Bell}}, \textsc{{Bender}},
+  \textsc{{Bernard}}, \textsc{{Boegner}}, \textsc{{Boffi}},
+  \textsc{{Botticella}}, \textsc{{Calamida}}, \textsc{{Casertano}},
+  \textsc{{Chen}}, \textsc{{Chen}}, \textsc{{Cole}}, \textsc{{Deacon}},
+  \textsc{{Frenk}}, \textsc{{Fitzsimmons}}, \textsc{{Gezari}},
+  \textsc{{Gibbs}}, \textsc{{Goessl}}, \textsc{{Goggia}}, \textsc{{Gourgue}},
+  \textsc{{Goldman}}, \textsc{{Grant}}, \textsc{{Grebel}}, \textsc{{Hambly}},
+  \textsc{{Hasinger}}, \textsc{{Heavens}}, \textsc{{Heckman}},
+  \textsc{{Henderson}}, \textsc{{Henning}}, \textsc{{Holman}}, \textsc{{Hopp}},
+  \textsc{{Ip}}, \textsc{{Isani}}, \textsc{{Jackson}}, \textsc{{Keyes}},
+  \textsc{{Koekemoer}}, \textsc{{Kotak}}, \textsc{{Le}}, \textsc{{Liska}},
+  \textsc{{Long}}, \textsc{{Lucey}}, \textsc{{Liu}}, \textsc{{Martin}},
+  \textsc{{Masci}}, \textsc{{McLean}}, \textsc{{Mindel}}, \textsc{{Misra}},
+  \textsc{{Morganson}}, \textsc{{Murphy}}, \textsc{{Obaika}},
+  \textsc{{Narayan}}, \textsc{{Nieto-Santisteban}}, \textsc{{Norberg}},
+  \textsc{{Peacock}}, \textsc{{Pier}}, \textsc{{Postman}}, \textsc{{Primak}},
+  \textsc{{Rae}}, \textsc{{Rai}}, \textsc{{Riess}}, \textsc{{Riffeser}},
+  \textsc{{Rix}}, \textsc{{R\"oser}}, \textsc{{Russel}}, \textsc{{Rutz}},
+  \textsc{{Schilbach}}, \textsc{{Schultz}}, \textsc{{Scolnic}},
+  \textsc{{Strolger}}, \textsc{{Szalay}}, \textsc{{Seitz}}, \textsc{{Small}},
+  \textsc{{Smith}}, \textsc{{Soderblom}}, \textsc{{Taylor}},
+  \textsc{{Thomson}}, \textsc{{Taylor}}, \textsc{{Thakar}}, \textsc{{Thiel}},
+  \textsc{{Thilker}}, \textsc{{Unger}}, \textsc{{Urata}}, \textsc{{Valenti}},
+  \textsc{{Wagner}}, \textsc{{Walder}}, \textsc{{Walter}}, \textsc{{Watters}},
+  \textsc{{Werner}}, \textsc{{Wood-Vasey}} et
+  \textsc{{Wyse}}}]{ChambersPS1survey}
+\textsc{{Chambers} K.~C.}, \textsc{{Magnier} E.~A.}, \textsc{{Metcalfe} N.}
+  {et~al.} 2016, «~{The Pan-STARRS1 Surveys}~»,
+  \href{https://ui.adsabs.harvard.edu/abs/2016arXiv161205560C}{arXiv e-prints,
+  arXiv:1612.05560}
 
 \bibitem[{\textsc{{Chandrasekhar}}(1931)}]{Chandrasekhar}
 \textsc{{Chandrasekhar} S.} 1931, «~{The Maximum Mass of Ideal White
@@ -228,6 +270,35 @@
   at Redshift 1.914}~»,
   \href{http://dx.doi.org/10.1088/0004-637X/768/2/166}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/2013ApJ...768..166J}{768, 166}
+
+\bibitem[{\textsc{{Jones}} {et~al.}(2017)\textsc{{Jones}}, \textsc{{Scolnic}},
+  \textsc{{Riess}}, \textsc{{Kessler}}, \textsc{{Rest}}, \textsc{{Kirshner}},
+  \textsc{{Berger}}, \textsc{{Ortega}}, \textsc{{Foley}}, \textsc{{Chornock}},
+  \textsc{{Challis}}, \textsc{{Burgett}}, \textsc{{Chambers}},
+  \textsc{{Draper}}, \textsc{{Flewelling}}, \textsc{{Huber}},
+  \textsc{{Kaiser}}, \textsc{{Kudritzki}}, \textsc{{Metcalfe}},
+  \textsc{{Wainscoat}} et \textsc{{Waters}}}]{JonesScolnic17SNcontam}
+\textsc{{Jones} D.~O.}, \textsc{{Scolnic} D.~M.}, \textsc{{Riess} A.~G.}
+  {et~al.} 2017, «~{Measuring the Properties of Dark Energy with
+  Photometrically Classified Pan-STARRS Supernovae. I. Systematic Uncertainty
+  from Core-collapse Supernova Contamination}~»,
+  \href{http://dx.doi.org/10.3847/1538-4357/aa767b}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2017ApJ...843....6J}{843, 6}
+
+\bibitem[{\textsc{{Jones}} {et~al.}(2018)\textsc{{Jones}}, \textsc{{Scolnic}},
+  \textsc{{Riess}}, \textsc{{Rest}}, \textsc{{Kirshner}}, \textsc{{Berger}},
+  \textsc{{Kessler}}, \textsc{{Pan}}, \textsc{{Foley}}, \textsc{{Chornock}},
+  \textsc{{Ortega}}, \textsc{{Challis}}, \textsc{{Burgett}},
+  \textsc{{Chambers}}, \textsc{{Draper}}, \textsc{{Flewelling}},
+  \textsc{{Huber}}, \textsc{{Kaiser}}, \textsc{{Kudritzki}},
+  \textsc{{Metcalfe}}, \textsc{{Tonry}}, \textsc{{Wainscoat}},
+  \textsc{{Waters}}, \textsc{{Gall}}, \textsc{{Kotak}}, \textsc{{McCrum}},
+  \textsc{{Smartt}} et \textsc{{Smith}}}]{Jones2018}
+\textsc{{Jones} D.~O.}, \textsc{{Scolnic} D.~M.}, \textsc{{Riess} A.~G.}
+  {et~al.} 2018, «~{Measuring Dark Energy Properties with Photometrically
+  Classified Pan-STARRS Supernovae. II. Cosmological Parameters}~»,
+  \href{http://dx.doi.org/10.3847/1538-4357/aab6b1}{\color{magenta}\apj},
+  \href{https://ui.adsabs.harvard.edu/abs/2018ApJ...857...51J}{857, 51}
 
 \bibitem[{\textsc{{Lantz}} {et~al.}(2004)\textsc{{Lantz}}, \textsc{{Aldering}},
   \textsc{{Antilogus}}, \textsc{{Bonnaud}}, \textsc{{Capoani}},

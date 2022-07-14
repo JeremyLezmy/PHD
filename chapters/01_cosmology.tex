@@ -1,14 +1,20 @@
 \documentclass[../main/main.tex]{subfiles}
 \begin{document}
-%\dominitoc
-%\faketableofcontents
+\dominitoc
+\faketableofcontents
 \chapter{Contexte cosmologique}\label{cp:cosmo}
 
 \minitoc
 \vspace{2cm}
 Ce premier chapitre a pour objectif d'introduire les notions
 cosmologiques définissant le cadre scientifique dans lequel s'inscrit
-cette thèse. 
+cette thèse. Nous commencerons par quelques éléments
+théoriques et quantités fondamentales intervenant dans la cosmologie observationnelle. Puis nous
+présenterons quelques sondes cosmologiques utilisées pour comparer les
+différents modèles
+cosmologiques aux observations. Enfin nous décrirons le modèle de
+concordance \lcdm, vers lequel les analyses menées sur l'ensemble des
+observations convergent.
 \newpage
 \section{\'Eléments de cosmologie}\label{sec:11}
 
@@ -17,8 +23,7 @@ cette thèse.
 Le modèle standard de la cosmologie est basé sur la théorie de la
 Relativité Générale d'Einstein
 \citep{Einstein1915c,Einstein1915a,Einstein1915b}, permettant de relier la géométrie
-de l'espace-temps de l'Univers avec son contenu énergétique. Cette
-nouvelle équation de champ s'exprime à travers la relation suivante:
+de l'espace-temps de l'Univers à contenu énergétique. Cette équation de champ s'exprime à travers la relation suivante:
 
 \begin{equation}
   \label{eq:generalrelativity}
@@ -55,8 +60,9 @@ l'équation~\ref{eq:generalrelativity} devient:
 \end{equation}
 mettant ainsi en évidence le lien étroit entre la géométrie de
 l'espace-temps et son contenu énergétique.
+
 La constante cosmologique $\Lambda$ fut introduite par Einstein dans le
-but d'expliquer un Univers statique, conviction qu'il nourissait. Il est
+but de justifier un Univers statique, conviction qu'il nourissait. Il est
 alors possible d'insérer ce terme d'un côté ou de l'autre de l'équation:
 \begin{equation}
   \label{eq:einsteinlambda}
@@ -69,7 +75,7 @@ directement sur la structure fondamentale de la courbure de l'espace-temps;
 à droite, nous pouvons l'interpréter comme une nouvelle source
 énergétique. Ce terme fut rapidement abandonné après la découverte de
 l'expansion de l'Univers, réfutant l'hypothèse d'un Univers statique
-ayant justifiée son introduction initiale.
+ayant justifié son introduction initiale.
 
 La découverte de l'accélération de l'expansion de l'Univers
 \citep{Riess1998, Perlmutter1999} a conduit à sa réintroduction, en tant
@@ -83,7 +89,7 @@ Le principe cosmologique repose sur des hypothèses simplifiant fortement
 la résolution des équations d'Einstein. En supposant certaines symétries
 de l'Univers pouvant sembler intuitives, il est possible de contraindre la forme de
 la métrique de l'espace-temps $g_{\mu\nu}$. Le principe cosmologique
-stipule ainsi un Univers homogène et isotrope à grandes échelles.
+stipule ainsi un Univers homogène et isotrope à grande échelle.
 Bien entendu ces hypothèses ne sont pas valables aux petites échelles,
 comme nous le prouvent par exemple les fluctuations de densité au sein
 du système solaire ou dans une même galaxie. Mais de la même manière que
@@ -104,7 +110,7 @@ ciel profond, sur des échelles au delà du milliard d'années-lumière
 comme par exemple avec le \textit{Sloan Digital Sky Survey}
 (SDSS\footnote{\url{https://www.sdss.org}}).
 En sondant l'espace à trois dimensions, ces relevés ont montré une
-répartition aléatoire des galaxies au delà du milliard d'années-lumière
+répartition uniforme des galaxies au delà du milliard d'années-lumière
 (voir Figure~\ref{fig:homogenesdss}), témoignant de cette homogénéité spatiale.
 
 \begin{figure}[ht]
@@ -129,9 +135,9 @@ d'observation: on parle alors d'invariance par rotation.
 L'expérience scientifique la plus connue vérifiant cette caractéristique
 est la mesure du fond diffus cosmologique (\textit{Cosmic Wave
   Background}; CMB, aussi appelé rayonnement fossile). Ce signal correspond au plus ancien rayonnement
-électromagnétique observable, estimé à $\sim380,000$ ans après le Big
+électromagnétique observable, émis $\sim380,000$ ans après le Big
 Bang. Avant cela l'Univers était si chaud et dense que les particules
-de lumière, les photons, étaient continuellement absorbés, émis et
+de lumière, les photons, étaient continuellement
 diffusés par les électrons environnant: le libre parcours moyen des
 photons est alors infime, et l'Univers est qualifié \og d'opaque\fg{} pour la
 lumière.
@@ -144,7 +150,7 @@ c'est ce premier rayonnement qui constitue le fond diffus cosmologique.
 
 L'observation de ce fond diffus cosmologique soutient ainsi fortement l'hypothèse
 d'isotropie de l'Univers, témoignant d'une intensité similaire dans
-toutes les directions, avec une fluctuation de l'ordre de $10^{-5}$
+toutes les directions, avec une fluctuation en température de l'ordre de $10^{-4}$
 Kelvin.
 La Figure~\ref{fig:cmb} présente une carte des anisotropies du fond
 diffus cosmologique, basée sur les résultats les plus récents de la
@@ -174,17 +180,18 @@ en coordonnées polaires:
   \label{eq:FLRW}
   \d s^{2}=c^{2}\d t^{2}-a^{2}(t)\left( \frac{\d r^{2}}{1-kr^{2}}+r^{2}(\d\theta^{2}+\sin^{2}\theta\d\phi^{2})\right)
 \end{equation}
-où $\d s^{2}$ est un élément infinitésiment d'espace-temps, ($r$,
-$\theta$, $\phi$, $t$) les coordonnées d'espace-temps, $a(t)$ le
-facteur d'échelle et $k$ un facteur géométrique pouvant prendre les
+où $\d s^{2}$ est un élément infinitésimal d'espace-temps, ($r$,
+$\theta$, $\phi$, $t$) les coordonnées d'espace-temps, $a(t)$ \og
+l'échelle\fg{} de l'Univers (dimension d'une longueur) et $k$ un facteur géométrique pouvant prendre les
 valeurs ($-1$, $0$, $1$) pour un Univers ouvert, plat ou fermé
 respectivement.
 
 Pour ($r$, $\theta$, $\phi$) constants, les objets
 suivent l'expansion de l'Univers: ce sont des coordonnées comobiles.
-Le facteur d'échelle $a(t)$ est défini comme le rapport entre la
-distance séparant deux points immobiles à l'instant $t$ et celle à un
-instant de référence $t_{0}$ (normalisé tel que $a(t_{0})=1$). Il trace
+On définit le facteur d'échelle $\tilde{a}(t)\triangleq a(t)/a_{0}$ où
+l'indice $_{0}$ réfère à la valeur du paramètre aujourd'hui. Par
+convention $a_{0}$ est souvent fixé à $1$. Le
+facteur d'échelle trace
 ainsi l'influence de l'expansion de l'Univers sur la distance entre deux
 points au cours du temps, reliant la distance comobile à la distance
 physique.
@@ -195,11 +202,10 @@ suivante:
   \label{eq:FLRW2}
   \d s^{2}=c^{2}\d t^{2}-a^{2}(t) \left( \d\chi^{2}+S^{2}_{k}(\chi)(\d\theta^{2}+\sin^{2}\theta \d\phi^{2}) \right)
 \end{equation}
-
-Avec 
+avec 
 \begin{equation}
   \label{eq:chiflrw}
-  S_{k}(\chi) =
+  r=S_{k}(\chi) \triangleq
   \begin{cases}
         \sin(\chi) & \text{si }  k=1 \\
         \chi & \text{si }  k=0 \\
@@ -208,11 +214,10 @@ Avec
 \end{equation}
 et le changement de variable:  $d\chi^{2}=\frac{dr^{2}}{1-kr^{2}}$ $\forall k$.
 
-
-Les symétries induites par le principe cosmologique vont également
-restreindre le tenseur énergie-impulsion $T_{\mu\nu}$ dà celui d'un
-fluide parfait (sans transport de chaleur ou de viscosité), s'écrivant
-alors sous la forme:
+En considérant que les différentes formes d'énergies contenues dans
+notre Univers sont assimilables à un
+fluide parfait (sans transport de chaleur ou de viscosité), le tenseur
+énergie-impulsion $T_{\mu\nu}$ s'écrit alors sous la forme:
 \begin{equation}
   \label{eq:Tmunu}
   T_{\mu\nu} = \left( \rho + \frac{p}{c^{2}}\right)u_{\mu}u_{\nu}+pg_{\mu\nu}
@@ -245,24 +250,25 @@ physiques.
 
 Le décalage vers le rouge, \textit{redshift} par la suite, est une
 observable essentielle en cosmologie. Ce phénomène, analogue à l'effet
-Doppler sur la lumière, est une conséquente directe de l'expansion de
+Doppler sur la lumière, est une conséquence directe de l'expansion de
 l'Univers.
 Lorsqu'un observateur détecte la lumière émise par un objet lointain, il
 verra un redshift $z$ en longueur d'onde définit tel que:
 \begin{equation}
   \label{eq:redshift}
-  1+z = \frac{\lambda_{o}}{\lambda_{e}}
+  1+z \triangleq \frac{\lambda_{o}}{\lambda_{e}}
 \end{equation}
 avec $\lambda_{e}$ la longueur d'onde d'émission (connue \textit{a priori}), et $\lambda_{o}$ la
 longueur d'onde observée. Ce phénomène est néanmoins le produit de
-plusieurs contributions: l'expansion de l'Univers, mais également la
+plusieurs contributions: l'expansion de l'Univers, mais également un
+redshift gravitationnel ou encore la
 vitesse relative dans l'espace entre l'observateur et la source
-d'émission. Cette contribution est néanmoins rapidement négligeable face
+d'émission. Cette dernière contribution est néanmoins rapidement négligeable face
 à l'expansion pour $z>0.1$. Pour un téléscope au sol, nous pouvons également comptabiliser la
 vitesse de rotation de la Terre, la vitesse de la Terre autour du
 Soleil, et la vitesse du système solaire au sein même de la Voie
 Lactée. Ces composantes sont néanmoins très bien connues et sont
-facilement corrigées en fonction des coordonnées d'observation, afin
+facilement corrigées en fonction des coordonnées d'observation, permettant
 d'obtenir le redshift dans le référentiel du CMB.
 
 La composante principale du redshift étant la contribution de
@@ -279,7 +285,7 @@ En utilisant le fait que pour un photon nous avons une géodésique nulle
   \int_{0}^{r_{e}} \frac{\d r}{\sqrt{1-kr^{2}}}=c\int_{t_{e}}^{t_{0}}\frac{\d t}{a(t)}
 \end{equation}
 
-Or, en prenant un deuxième photon succesif émis par la source considérée
+Or, en prenant un deuxième photon successif émis par la source considérée
 à un temps $t_{e}+\lambda_{e}/c=t_{e}+\delta t_{e}$, et reçu à
 $t_{0}+\delta t_{0}$, nous avons également que :
 \begin{equation}
@@ -288,8 +294,7 @@ $t_{0}+\delta t_{0}$, nous avons également que :
 \end{equation}
 
 En supposant sans risque que le facteur d'échelle $a$ n'a pas varié pour
-une un temps de l'ordre de la période d'une onde électromagnétique dans
-le visible ($\sim10^{-15}s$), nous obtenons pour le deuxième photon que:
+une un temps de l'ordre de la période d'une onde électromagnétique, nous obtenons pour le deuxième photon que:
 \begin{equation}
   \label{eq:developgeodesiquephoton2}
   \int_{t_{e}+\delta t_{e}}^{t_{0}+\delta t_{0}}\frac{\d t}{a(t)} =
@@ -305,7 +310,7 @@ développement de \ref{eq:developgeodesiquephoton2}, nous obtenons ainsi:
   \Leftrightarrow \frac{\delta t_{0}}{\delta t_{e}} = \frac{a_{0}}{a_{e}}
 \end{equation*}
 
-Le redshift cosmologique est alors définit par:
+Le redshift cosmologique est alors défini par:
 \begin{equation}
   \label{eq:zcosmo}
   \bar{z}+1=\frac{a_{0}}{a_{e}}
@@ -324,15 +329,16 @@ vitesses de $v\sim300$ km.s$^{-1}$ induiront un redshift $z_{p}\sim10^{-3}$.
 
 \subsubsection{Taux d'expansion}
 
-En posant la distance comobile $l$ entre deux objets à l'instant $t$, et
-leur distance actuelle $l_{0}$ à l'instant $t_{0}$, nous avons par
+\begin{comment}
+En posant la distance comobile $R(t)$ entre deux objets à l'instant $t$, et
+leur distance actuelle $R_{0}$ à l'instant $t_{0}$, nous avons par
 définition du facteur d'échelle que:
 \begin{align*}
-  l(t)&=a(t)l_{0}\\
-  \dot{l}(t)&=\dot{a}(t)l_{0} \Leftrightarrow \dot{l}(t)=\frac{\dot{a}(t)}{a(t)}l(t)
+  R(t)&=a(t)\frac{R_{0}}{a_{0}}\\
+  \dot{R}(t)&=\dot{a}(t)\frac{R_{0}}{a_{0}} \Leftrightarrow \dot{R}(t)=\frac{\dot{a}(t)}{a(t)}R(t)
 \end{align*}
-
-Le facteur d'échelle contient ainsi toute la dynamique de l'Univers,
+\end{comment}
+Par définition, le facteur d'échelle contient toute la dynamique de l'Univers,
 nous permettant d'introduire le taux d'expansion, évoluant au cours du
 temps, tel que:
 \begin{equation}
@@ -356,10 +362,12 @@ le redshift de galaxies en fonction de leur distance\footnote{Distances
 découvre que ces galaxies semblent toutes s'éloigner de nous, de façon
 isotrope, et avec une vitesse proportionnelle à leur distance (Figure~\ref{fig:hubble}). Cette
 relation est énoncée en 1929 sous le nom de \textit{loi de Hubble}
-\citep{Hubble1929}. Aujourd'hui, la communauté scientifique s'accorde à
-la renommer \textit{loi de Hubble-Lemaître}, ayant été prédite (mais non
-mesurée) par George Lemaître deux ans auparavant
-\citep{Lemaitre1927}.
+\citep{Hubble1929}, dont la première estimation est de $H_{0}\sim500$ km.s$^{-1}$.Mpc$^{-1}$. Aujourd'hui, la communauté scientifique s'accorde à
+la renommer \textit{loi de Hubble-Lemaître}, ayant été prédite par George Lemaître deux ans auparavant
+\citep{Lemaitre1927} avec une estimation de $H_{0}\sim625$
+km.s$^{-1}$.Mpc$^{-1}$. Pour des raisons de problèmes d'étallonage que
+nous ne détaillerons pas ici, ces valeurs sont bien loin de la réalité
+montrant que $H_{0}$ est plutôt de l'ordre de $70$ km.s$^{-1}$.Mpc$^{-1}$.
 
 \begin{figure}[ht]
   \centering
@@ -367,7 +375,8 @@ mesurée) par George Lemaître deux ans auparavant
   \caption[Figure originale d'Edwin Hubble de la vitesse d'éloignement
   de galaxies en fonction de leur distance.]{Figure originale d'Edwin
     Hubble \citep{Hubble1929} de la vitesse d'éloignement en km.s$^{-1}$
-  de galaxies en fonction de leur distance en parsecs.}
+  de galaxies en fonction de leur distance en parsecs. Cette première
+  estimation montre une constante de Hubble $H_{0}\sim500$ km.s$^{-1}$.Mpc$^{-1}$.}
 \label{fig:hubble}
 \end{figure}
 
@@ -428,57 +437,58 @@ Univers, pour lesquels la valeur de $w$ va différer:
 \begin{itemize}
 \item Les fluides composés de particules non-relativistes, comme la
   matière baryonique et la matière sombre. Pour cette composante, on
-  considère que sa densité est entièrement décrite par son énergie de
+  considère que sa densité est entièrement dominée par son énergie de
   masse, la pression exercée est donc
-  nulle et sa densité se dilue avec le volume uniquement: $\rho_{M}\propto a^{-3}$. L'équation d'état pour la matière vaut $w_{M}=0$;
+  nulle et sa densité se dilue avec le volume uniquement:
+  $\rho_{M}\propto a^{-3}$. Le paramètre de l'équation d'état pour la matière vaut $w_{M}=0$;
 \item Les fluides composés de particules relativistes, comme les
   photons ou les neutrinos. Ce fluide va se diluer d'une part comme
   de la matière non-relativiste avec le volume ($\propto a^{-3}$), mais également en
   subissant un étirement de longueur d'onde avec le facteur d'échelle
   ($\propto a^{-1}$). La dilution de densité est donc
-  $\rho_{R}\propto a^{-4}$ pour ce type de fluide, et son équation d'état est de
+  $\rho_{R}\propto a^{-4}$ pour ce type de fluide, et le paramètre de son équation d'état est de
   $w_{R}=\frac{1}{3}$;
 \item Enfin pour une constante cosmologique $\Lambda$, sa densité est
   par définition constante avec le temps, et $\rho_{\Lambda}\propto
   a^{0}$. Ce fluide a donc une pression négative et ne se dilue pas
-  avec le facteur d'échelle, et son équation d'état vaut $w_{\Lambda}=-1$.
+  avec le facteur d'échelle, et le paramètre de son équation d'état vaut $w_{\Lambda}=-1$.
 \end{itemize}
 
-Nous pouvons introduire pour chaque fluide la densité réduite et
-adimensionnées, définit comme le
+Nous pouvons introduire pour chaque fluide la densité réduite actuelle et
+adimensionnée, défini comme le
 rapport entre la densité du fluide et la densité dite critique
-$\rho_{c}\triangleq\frac{3H^{2}}{8\pi G}$ (à
-laquelle l'Univers est nécessairement plat) tel que:
+$\rho_{c}\triangleq\frac{3H_{0}^{2}c^{2}}{8\pi G}$ (à
+laquelle l'Univers est nécessairement plat si $\Lambda=0$) tel que:
 \begin{equation}
   \label{eq:33}
-  \Omega_{X}\triangleq\frac{\rho_{X}}{\rho_{c}}
+  \Omega_{X}\triangleq\frac{\rho_{X,0}}{\rho_{c}}
 \end{equation}
 
 La première équation de Friedmann-Lemaître peut ainsi se réécrire
 simplement comme:
 \begin{equation}
   \label{eq:friedmannOmega}
-  H^{2}=H_{0}^{2}\left[\Omega_{R,0}\left(\frac{a_{0}}{a}\right)^{4}
-    +\Omega_{M,0}\left(\frac{a_{0}}{a}\right)^{3} +\Omega_{k,0}\left(\frac{a_{0}}{a}\right)^{2}+\Omega_{\Lambda,0} \right]
+  H^{2}=H_{0}^{2}\left[\Omega_{R}\left(\frac{a_{0}}{a}\right)^{4}
+    +\Omega_{M}\left(\frac{a_{0}}{a}\right)^{3} +\Omega_{k}\left(\frac{a_{0}}{a}\right)^{2}+\Omega_{\Lambda} \right]
 \end{equation}
 et en utilisant la définition du redshift:
 \begin{equation}
   \label{eq:friedmannZ}
-  H^{2}=H_{0}^{2}\left[\Omega_{R,0}(1+z)^{4}
-    +\Omega_{M,0}(1+z)^{3} +\Omega_{k,0}(1+z)^{2}+\Omega_{\Lambda,0} \right]
+  H^{2}=H_{0}^{2}\left[\Omega_{R}(1+z)^{4}
+    +\Omega_{M}(1+z)^{3} +\Omega_{k}(1+z)^{2}+\Omega_{\Lambda} \right]
 \end{equation}
 avec:
 \begin{align*}
-  \Omega_{X,0}&=\frac{8\pi G}{3H_{0}^{2}}\rho_{X,0} \text{ pour
+  \Omega_{X}&=\frac{8\pi G}{3H_{0}^{2}}\rho_{X,0} \text{ pour
   $X\in$\{$R$;$M$\}}\\
-  \Omega_{k,0}&=-\frac{kc^{2}}{a_{0}^{2}H_{0}^{2}}\\
-  \Omega_{\Lambda,0}&=\frac{\Lambda c^{2}}{3H_{0}^{2}}
+  \Omega_{k}&=-\frac{kc^{2}}{a_{0}^{2}H_{0}^{2}}\\
+  \Omega_{\Lambda}&=\frac{\Lambda c^{2}}{3H_{0}^{2}}
 \end{align*}
 
 Par construction, les paramètres de densité réduite sont reliés par
 $\sum_{i\ne k}\Omega_{i}=1-\Omega_{k}$.
 L'équation \ref{eq:friedmannOmega} nous montre ainsi que l'évolution de
-l'expansion de l'Univers est décrit par 4 paramètres indépendants:
+l'expansion de l'Univers (avec une constante cosmologique) est décrit par 4 paramètres indépendants:
 $\Omega_{R}$, $\Omega_{M}$, $\Omega_{\Lambda}$ et $H_{0}$; $\Omega_{k}$
 étant contraint par les autres $\Omega_{i}$ et nous renseignant
 directement sur la géométrie de l'Univers. Les paramètres $\Omega_{i}$
@@ -486,7 +496,7 @@ sont de ce fait appelés \textit{paramètres cosmologiques}. On notera
 que, du fait de 
 la dégénerescence entre les densités réduites et la constante de Hubble,
 il est généralement plus adéquat de mesurer directement la quantité
-$\Omega_{i}h^{2}$, où $h=H/100$ km.s$^{-1}$.Mpc$^{-1}$.
+$\Omega_{i}h^{2}$, où \mbox{$h=H_{0}/100$ km.s$^{-1}$.Mpc$^{-1}$}.
 
 \subsection{Mesures de distances}
 
@@ -503,15 +513,15 @@ et $\phi$ constants) que:
 
 \begin{equation}
   \label{eq:distcomobil}
-  d_{c}(z)\triangleq\chi(z)=\int^{t_{0}}_{t_{e}}\frac{c}{a(t')}\d
+  d_{c}(z)\triangleq a_{0}\chi(z)=a_{0}\int^{t_{0}}_{t_{e}}\frac{c}{a(t')}\d
   t'=\frac{c}{H_{0}}\int_{z=0}^{z=z_{e}}\frac{\d z'}{E(z')}
 \end{equation}
 avec $E(z)=H^{2}(z)/H_{0}^{2}$, définie par la première équation de
 Friedmann comme (eq~\ref{eq:friedmannZ}):
 \begin{equation}
   \label{eq:Ez}
-  E(z)^{2}=\frac{H^{2}(z)}{H_{0}^{2}}=\Omega_{R,0}(1+z)^{4}
-  +\Omega_{M,0}(1+z)^{3} +\Omega_{k,0}(1+z)^{2}+\Omega_{\Lambda,0}
+  E(z)^{2}=\frac{H^{2}(z)}{H_{0}^{2}}=\Omega_{R}(1+z)^{4}
+  +\Omega_{M}(1+z)^{3} +\Omega_{k}(1+z)^{2}+\Omega_{\Lambda}
 \end{equation}
 
 \subsubsection*{Distance de diamètre angulaire}
@@ -521,7 +531,7 @@ diamètre physique $D$ d'un objet et sa taille angulaire apparente
 $\Delta\theta$ par:
 \begin{equation}
   \label{eq:angulardist1}
-  d_{a}=\frac{D}{\Delta\theta}
+  d_{a}=\frac{D}{\Delta\theta} \text{ \; ($\Delta\theta\ll1$)}
 \end{equation}
 Or, d'après la métrique FLRW (eq~\ref{eq:FLRW2}), un objet situé à une
 distance comobile $\chi$ à un temps $t$ et avec un angle apparent
@@ -537,18 +547,19 @@ et donc, la distance angulaire s'exprime comme:
 \end{equation}
 
 Avec le changement de variable $k\rightarrow
--\frac{a_{0}^{2}H_{0}^{2}\Omega_{k,0}}{c^{2}}$, nous obtenons que:
+-\frac{a_{0}^{2}H_{0}^{2}\Omega_{k}}{c^{2}}$, on peut montrer que l'on
+peut écrire:
 \begin{equation}
   \label{eq:43}
-  S_{k}(\chi) = \frac{c}{a_{0}H_{0}\sqrt{\lvert\Omega_{k,0}\rvert}}S_{k}\left(\frac{a_{0}H_{0}\sqrt{\lvert\Omega_{k,0}\rvert}}{c}\chi(z)\right)
+  S_{k}(\chi) = \frac{c}{a_{0}H_{0}\sqrt{\lvert\Omega_{k}\rvert}}S_{k}\left(\frac{H_{0}\sqrt{\lvert\Omega_{k}\rvert}}{c}d_{c}(z)\right)
 \end{equation}
 
-Et ainsi, avec la définition de $\chi$ (eq~\ref{eq:distcomobil}), la
+Et ainsi, avec la définition de $d_{c}$ (eq~\ref{eq:distcomobil}), la
 distance de diamètre angulaire s'écrit:
 
 \begin{equation}
   \label{eq:distangulargen}
-  d_{a}(z)=\frac{1}{1+z}\frac{c}{H_{0}\sqrt{\lvert\Omega_{k,0}\rvert}}S_{k}\left(\sqrt{\lvert\Omega_{k,0}\rvert}\int_{0}^{z}\frac{\d z'}{E(z')}\right)
+  d_{a}(z)=\frac{1}{1+z}\frac{c}{H_{0}\sqrt{\lvert\Omega_{k}\rvert}}S_{k}\left(\sqrt{\lvert\Omega_{k}\rvert}\int_{0}^{z}\frac{\d z'}{E(z')}\right)
 \end{equation}
 
 Dans le cas d'un univers plat ($k=0$ et $S_{k}(\chi)=\chi$), nous
@@ -567,16 +578,16 @@ distance $d_{L}$. Cette relation décrit la dilution géométrique du flux
 avec le carré de la distance, telle que:
 \begin{equation}
   \label{eq:45}
-  f=\frac{L}{4\pi D_{L}^{2}}
+  f=\frac{L}{4\pi d_{L}^{2}}
 \end{equation}
 
 En utilisant la forme de $S_{k}(\chi)$ définie dans l'eq~\ref{eq:43},
-nous pouvons direcement déterminer la surface $S$ d'une sphére centrée
+nous pouvons directement déterminer la surface $S$ d'une sphère centrée
 sur la source étudiée à la distance comobile $\chi$:
 \begin{equation}
   \label{eq:spheredistlum}
   S=4\pi
-  a_{0}^{2}\frac{c^{2}}{a_{0}^{2}H_{0}^{2}\Omega_{k,0}}S_{k}\left( \frac{a_{0}H_{0}\sqrt{\lvert\Omega_{k,0}\rvert}}{c}\chi(z)\right)
+  \frac{c^{2}}{H_{0}^{2}\lvert\Omega_{k}\rvert}S_{k}^{2}\left( \frac{H_{0}\sqrt{\lvert\Omega_{k}\rvert}}{c}d_{c}(z)\right)
 \end{equation}
 
 Un photon émis à un temps $t$ est reçu par l'observateur à $t=t_{0}$
@@ -588,19 +599,19 @@ $(1+z)^{2}$. Le flux surfacique reçu, $f=L'/S$, s'exprime ainsi:
 \begin{equation}
   \label{eq:47}
   f=\frac{L}{4\pi
-  a_{0}^{2}\frac{c^{2}}{a_{0}^{2}H_{0}^{2}\Omega_{k,0}}S_{k}\left( \frac{a_{0}H_{0}\sqrt{\lvert\Omega_{k,0}\rvert}}{c}\chi(z)\right)}\times\frac{1}{(1+z)^{2}}
+  \frac{c^{2}}{H_{0}^{2}\lvert\Omega_{k}\rvert}S_{k}^{2}\left( \frac{H_{0}\sqrt{\lvert\Omega_{k}\rvert}}{c}d_{c}(z)\right)}\times\frac{1}{(1+z)^{2}}
 \end{equation}
 
 En utilisant la relation de la dilution géométrique du flux
 (\ref{eq:45}) et l'expression de $\chi$ (\ref{eq:distcomobil}), on
-obtiens finalement la forme de la distance de luminosité:
+obtient finalement la forme de la distance de luminosité:
 \begin{equation}
   \label{eq:48}
-  d_{L}(z) = \frac{c(1+z)}{H_{0}\sqrt{\lvert\Omega_{k,0}\rvert}}S_{k}\left(\sqrt{\lvert\Omega_{k,0}\rvert}\int_{0}^{z}\frac{\d z'}{E(z')}\right)
+  d_{L}(z) = \frac{c(1+z)}{H_{0}\sqrt{\lvert\Omega_{k}\rvert}}S_{k}\left(\sqrt{\lvert\Omega_{k}\rvert}\int_{0}^{z}\frac{\d z'}{E(z')}\right)
 \end{equation}
 
 Nous pouvons noter que, quelque soit la courbure de l'Univers,
-$d_{L}(z)=(1+z)^{2}d_{a}(z)$. Dans le cadre d'un Univers plat, la
+$d_{L}(z)=(1+z)^{2}d_{a}(z)$. Pour un Univers plat, la
 distance de luminosité est reliée à la distance comobile par
 $d_{L}(z)=(1+z)\chi(z)=(1+z)d_{c}(z)$.
 
@@ -631,7 +642,7 @@ source observée. Le module de distance est alors défini comme étant:
 \section{Sondes cosmologiques et modèle de concordance \lcdm}\label{ssec:LCDM}
 
 L'étude de la relativé générale aux échelles cosmologiques, de
-l'expansion de l'Univers ou encore de sa composation nécéssite
+l'expansion de l'Univers ou encore de sa composition nécéssite
 l'utilisation d'observables, appelées \textit{sondes cosmologiques}.
 Les différents modèles cosmologiques et leurs prédictions sont ensuite
 testés par ses observations. L'utilisation de plusieurs sondes
@@ -649,14 +660,14 @@ Univers plat ($k=0$) avec une constante cosmologique $\Lambda$.
 
 Comme nous l'avons abordé avec le principe cosmologique, le rayonnement
 du fond diffus cosmologique est une source primordiale d'information sur
-notre Univers. Prédit par Lemaître en 1920 et découvert en 1965 par
+notre Univers. Découvert en 1965 par
 \citet{Penzias1965}, ce rayonnement est une véritable relique de notre
 Univers, s'agissant du plus ancien rayonnement électromagnétique
 observable ($z\sim 1100$). Initialement à une température de l'ordre de
-$3000K$, l'expansion de l'Univers a considérablement dilué l'énergie des
+$3000$ $K$, l'expansion de l'Univers a considérablement dilué l'énergie des
 photons du CMB, amenant sa température actuelle à
-$T_{0}=2.7260\pm0.0013K$ \citep{Fixsen2009}. Les
-premières études des fluctuations de température du CMB, faites avec les missions COBE et WMAP, ont
+$T_{0}=2.7260\pm0.0013$ $K$ \citep{Fixsen2009}. Les
+premières études du CMB, faites avec les missions COBE et WMAP, ont
 permis de confirmer que son spectre est celui d'un corps noir
 quasi-parfait. Les mesures les plus récentes du CMB ont été effectuées avec la mission
 Planck.
@@ -686,11 +697,9 @@ CMB \citep{Planckparams2018}.
 \subsection{Les oscillations acoustiques des baryons}
 
 Les oscillations acoustiques des baryons, une autre sonde cosmologique,
-correspondent à un phénomène trouvant sa source bien avant le découplage entre la
-matière baryonique et les photons. Au moment de l'inflation (phase
-d'expansion exponentielle de l'Univers $\sim10^{-35}s$ le Big Bang), des
-fluctuations de densité se sont propagées dans le plasma composant l'Univers
-primordial. Alors que les zones de surdensités ainsi créées attirent
+trouvent leur source dans les
+fluctuations de densité présentes dans le plasma composant l'Univers
+primordial. Alors que les zones de surdensités attirent
 gravitationnellement la matière vers elles, la pression radiative des
 photons contre cet effet, créant des oscillations acoustiques sphériques
 dans l'Univers primordial.
@@ -701,13 +710,14 @@ propage plus et laisse ainsi une zone de surdensité à une distance
 caractéristique. Cette distance est celle 
 parcourue par l'onde entre sa création ($z=\infty$) et la
 recombinaison ($z\sim1100$), appelée horizon sonore. Ce pic de densité est ainsi figé
-depuis le découplage baryon/photon. L'Univers étant en expansion, la
-taille caractéristique de cette empreinte est exprimée en distance
-comobile, et vaut $r_{d}\sim105$ Mpc.h$^{-1}$.
+depuis le découplage baryon/photon.
+
 En relevant le redshift de plus d'un million de galaxie entre $0<z<0.6$
 et en étudiant leur fonction de corrélation à deux points,
 le relevé SDSS \citep{YorkSDSS2000} a permis de mesurer pour la première fois le pic du BAO
-en 2005 \citep[Figure~\ref{fig:baopeak};][]{Eisenstein}. Ce pic traduit ainsi un excès de probabilité d'observer 2 galaxies
+en 2005 \citep[Figure~\ref{fig:baopeak};][]{Eisenstein}. La
+taille caractéristique de cette empreinte a été mesuré à $r_{d}\sim105$
+Mpc.h$^{-1}$, où $h=H_{0}/100$ km.s$^{-1}$.Mpc$^{-1}$. Ce pic traduit ainsi un excès de probabilité d'observer 2 galaxies
 séparées par une distance $r_{d}$, signature caractéristique des ondes
 acoustiques primordiales. 
 
@@ -723,7 +733,7 @@ acoustiques primordiales.
       rouges et bleues correspondent au modèle de concordance \lcdm\, que
       nous introduirons plus tard, pour différentes valeurs de
       $\Omega_{M,0}h^{2}$. La ligne magenta correspond à un modèle sans
-      constante cosmologique.}\label{fig:baopeak}
+      pic de BAO.}\label{fig:baopeak}
     \end{minipage}
     \begin{minipage}[c]{0.55\textwidth}
       \includegraphics[width=\textwidth]{../figures/01_cosmology/BAOpeak.pdf}
@@ -767,8 +777,7 @@ découverte de l'accélération de l'expansion de l'Univers
 \citep{Riess1998, Perlmutter1999}.
 
 La courbe de lumière des SNeIa (évolution de leur luminosité au cours du
-temps), est fortement caractéristique, permettant par une méthode de
-standardisation de remonter à leur luminosité intrinsèque. Nous montrons
+temps) a la particularité d'être caractéristique, permettant de remonter à leur luminosité intrinsèque. Nous montrons
 dans la Figure~\ref{fig:sneiabetoule} l'évolution des distances ainsi dérivées d'un échantillon de SNeIa en
 fonction de leur redshift. Le modèle ajusté aux données correpond au
 modèle standard de la cosmologie, le modèle \lcdm.
@@ -788,9 +797,8 @@ modèle standard de la cosmologie, le modèle \lcdm.
   \end{minipage}
 \end{figure}
 
-Ces objets étant au coeur de ce travail de recherche, nous leur dédions une
-partie plus loin dans ce chapitre. 
-
+Ces objets étant au coeur de ce travail de recherche, nous leur dédions
+le chapitre suivant.
 
 \subsection{Le modèle \lcdm}
 L'étude de ces nombreuses sondes indépendantes combinées (comme le fond diffus
@@ -821,7 +829,7 @@ correspond au modèle standard de la cosmologie moderne. On notera que
 malgré la prédiction de ces composantes sombre, le modèle \lcdm\ ne
 précise en aucun cas leur nature, encore inconnue à ce jour.
 
-Composé de seulement six paramètres libres, le modèle de concordance
+Décrit par seulement six paramètres libres, le modèle de concordance
 rend compte de nombreuses observations cosmologiques comme le fond
 diffus cosmologique, les structures à grandes échelles de la
 distribution des galaxies, l'expansion accélérée de l'Univers,
@@ -838,7 +846,7 @@ Nous montrons dans la Figure~\ref{fig:flatcontrainte} les contraintes dans le pl
 ($\Omega_{M}$,$\Omega_{\Lambda}$) et dans le plan ($\Omega_{k}$,$\Omega_{M}$), en utilisant une combinaison de
 sondes cosmologiques, permettant de réduire considérablement la
 dégénerescence entre les paramètres. Cette analyse effectuée en laissant
-la courbure libre dans l'ajustement des paramètres de \lcdm\ (dénommé o-\lcdm), fait clairement état
+la courbure libre dans l'ajustement des paramètres de \lcdm\ (dénommé o\lcdm), fait clairement état
 de la compatibilité des données observationnelles avec un Univers
 plat. Cette contrainte sur la courbure de l'Univers est principalement
 apportée par le fond diffus cosmologique. 
@@ -851,7 +859,7 @@ apportée par le fond diffus cosmologique.
   ($\Omega_{M}$,$\Omega_{\Lambda}$) en combinant les sondes
   cosmologiques de supernovae de type Ia \citep[JLA,][]{Betoule2014}, du
   CMB (Planck+WP 2014) et d'oscillation
-  acoustique des baryons (BAO). Figure de\citet{Betoule2014}. (c)
+  acoustique des baryons (BAO). Figure de \citet{Betoule2014}. (c)
   Contraintes dans le plan ($\Omega_{k}$,$\Omega_{M}$) en utilisant le
   CMB et son lentillage gravitationnelle, et les BAO. Figure de \citet{Planckparams2018}.}
 \label{fig:flatcontrainte}
@@ -859,7 +867,7 @@ apportée par le fond diffus cosmologique.
 
 De la même manière, l'hypothèse de constante cosmologique peut être
 testée en laissant le paramètre d'équation d'état $w_{DE}$ de l'énergie
-sombre libre (modèle $w$-\lcdm). Pour aller encore plus loin, il est
+sombre libre (modèle $w$\lcdm). Pour aller encore plus loin, il est
 également possible de sonder une potentielle caractéristique dynamique
 de la densité de l'énergie sombre, en paramétrisant $w_{DE}$ par:
 \begin{equation}
@@ -871,8 +879,7 @@ l'énergie sombre est en effet une constante cosmologique dans les
 équations d'Einstein, alors $w_{0}=-1$ et $w_{a}=0$. La
 Figure~\ref{fig:darkenergy} illustre les contraintes récentes,
 compatibles avec le modèle \lcdm, sur le
-paramètre $w$ et sur les composantes de la paramétrisation CPL $w_{0}$
-et $w_{a}$.
+paramètre $w$ et sur les composantes $w_{0}$ et $w_{a}$ de la paramétrisation CPL.
 Les contraintes cosmologiques sur $w$
 sont dérivées de mesures de variations relatives de distance de
 luminosité en fonction du redshift. Les propriétés de chandelle standard
@@ -886,15 +893,16 @@ de l'énergie sombre.
 \caption[]{(a) Contraintes dans le plan
   ($w$,$\Omega_{M}$) en combinant les sondes
   cosmologiques de supernovae de type Ia \citep[JLA,][]{Betoule2014}, du CMB (Planck+WP 2014) et d'oscillation
-  acoustique des baryons (BAO). Figure de \citet{Betoule2014}. (c)
+  acoustique des baryons (BAO). WP réfère à l'utilisation des mesures de
+  WMAP sur les fluctuations de la polarisation du CMB \citep{Bennett2013}. Figure de \citet{Betoule2014}. (c)
   Contraintes dans le plan ($w_{a}$,$w_{0}$) en utilisant le
   CMB et son lentillage gravitationnelle, les supernovae de Pantheon
   \citep{Scolnicpantheon18} et les BAO. Figure de \citet{Planckparams2018}.}
 \label{fig:darkenergy}
 \end{figure}
 
-%\bibliographystyle{../main/aa_url2}
-%\bibliography{99_references}
+\bibliographystyle{../main/aa_url2}
+\bibliography{99_references}
 \end{document}
 
 %%% Local Variables:

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  6 JUL 2022 01:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  14 JUL 2022 17:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1182,6 +1182,10 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 \rot@float@box=\box122
 \rot@mess@toks=\toks50
 )
+(/usr/local/texlive/2021/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write6
+
+Excluding comment 'comment')
 (/usr/local/texlive/2021/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen357
@@ -1619,8 +1623,8 @@ Package minitoc Info: I0033
 (minitoc)             Writing 01_cosmology.mtc1.
 \openout4 = `01_cosmology.mtc1'.
 
-\tf@toc=\write6
-\openout6 = `01_cosmology.toc'.
+\tf@toc=\write7
+\openout7 = `01_cosmology.toc'.
 
 
 Chapitre 1.
@@ -1633,7 +1637,7 @@ Chapitre 1.
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-05.
+11.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
@@ -1646,68 +1650,72 @@ Package microtype Info: Loading generic protrusion settings for font family
 File: ../figures/01_cosmology/homogeneunivers.pdf Graphic file (type pdf)
 <use ../figures/01_cosmology/homogeneunivers.pdf>
 Package pdftex.def Info: ../figures/01_cosmology/homogeneunivers.pdf  used on i
-nput line 112.
+nput line 118.
 (pdftex.def)             Requested size: 341.43307pt x 181.34999pt.
  [3 <../figures/01_cosmology/homogeneunivers.pdf>]
 <../figures/01_cosmology/CMB_Planck18.png, id=107, 192.72pt x 115.3911pt>
 File: ../figures/01_cosmology/CMB_Planck18.png Graphic file (type png)
 <use ../figures/01_cosmology/CMB_Planck18.png>
 Package pdftex.def Info: ../figures/01_cosmology/CMB_Planck18.png  used on inpu
-t line 154.
+t line 160.
 (pdftex.def)             Requested size: 409.71692pt x 245.31815pt.
- [4 <../figures/01_cosmology/CMB_Planck18.png>] [5] [6]
-<../figures/01_cosmology/Hubble.jpg, id=164, 1284.8pt x 774.895pt>
+ [4 <../figures/01_cosmology/CMB_Planck18.png>] [5] [6] Excluding 'comment' com
+ment.
+<../figures/01_cosmology/Hubble.jpg, id=165, 1284.8pt x 774.895pt>
 File: ../figures/01_cosmology/Hubble.jpg Graphic file (type jpg)
 <use ../figures/01_cosmology/Hubble.jpg>
 Package pdftex.def Info: ../figures/01_cosmology/Hubble.jpg  used on input line
- 366.
+ 374.
 (pdftex.def)             Requested size: 341.43307pt x 205.92557pt.
  [7] [8 <../figures/01_cosmology/Hubble.jpg>] [9] [10]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\Lambda' on input line 631.
+(hyperref)                removing `\Lambda' on input line 642.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\spacefactor' on input line 631.
+(hyperref)                removing `\spacefactor' on input line 642.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@m' on input line 631.
+(hyperref)                removing `\@m' on input line 642.
 
 [11]
-<../figures/01_cosmology/cmbTTplanck.pdf, id=241, 1341.01pt x 923.45pt>
+<../figures/01_cosmology/cmbTTplanck.pdf, id=242, 1341.01pt x 923.45pt>
 File: ../figures/01_cosmology/cmbTTplanck.pdf Graphic file (type pdf)
 <use ../figures/01_cosmology/cmbTTplanck.pdf>
 Package pdftex.def Info: ../figures/01_cosmology/cmbTTplanck.pdf  used on input
- line 673.
+ line 684.
 (pdftex.def)             Requested size: 250.38564pt x 172.41373pt.
  [12 <../figures/01_cosmology/cmbTTplanck.pdf>]
 <../figures/01_cosmology/BAOpeak.pdf, id=271, 726.715pt x 718.685pt>
 File: ../figures/01_cosmology/BAOpeak.pdf Graphic file (type pdf)
 <use ../figures/01_cosmology/BAOpeak.pdf>
 Package pdftex.def Info: ../figures/01_cosmology/BAOpeak.pdf  used on input lin
-e 729.
+e 739.
 (pdftex.def)             Requested size: 250.38564pt x 247.6176pt.
+
+Underfull \vbox (badness 2221) has occurred while \output is active []
+
  [13 <../figures/01_cosmology/BAOpeak.pdf>]
 <../figures/01_cosmology/sneiabetoule.pdf, id=293, 783.92876pt x 648.4225pt>
 File: ../figures/01_cosmology/sneiabetoule.pdf Graphic file (type pdf)
 <use ../figures/01_cosmology/sneiabetoule.pdf>
 Package pdftex.def Info: ../figures/01_cosmology/sneiabetoule.pdf  used on inpu
-t line 778.
+t line 787.
 (pdftex.def)             Requested size: 250.38564pt x 207.10367pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\Lambda' on input line 795.
+(hyperref)                removing `\Lambda' on input line 803.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\spacefactor' on input line 795.
+(hyperref)                removing `\spacefactor' on input line 803.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@m' on input line 795.
+(hyperref)                removing `\@m' on input line 803.
 
 [14 <../figures/01_cosmology/sneiabetoule.pdf>]
 <../figures/01_cosmology/Betoule_omegaM_omega_L.pdf, id=314, 744.7825pt x 517.9
@@ -1716,36 +1724,37 @@ File: ../figures/01_cosmology/Betoule_omegaM_omega_L.pdf Graphic file (type pdf
 )
 <use ../figures/01_cosmology/Betoule_omegaM_omega_L.pdf>
 Package pdftex.def Info: ../figures/01_cosmology/Betoule_omegaM_omega_L.pdf  us
-ed on input line 848.
+ed on input line 856.
 (pdftex.def)             Requested size: 227.62206pt x 158.29001pt.
 <../figures/01_cosmology/PlanckOmegakOmegam.pdf, id=315, 806.01125pt x 602.25pt
 >
 File: ../figures/01_cosmology/PlanckOmegakOmegam.pdf Graphic file (type pdf)
 <use ../figures/01_cosmology/PlanckOmegakOmegam.pdf>
 Package pdftex.def Info: ../figures/01_cosmology/PlanckOmegakOmegam.pdf  used o
-n input line 849.
+n input line 857.
 (pdftex.def)             Requested size: 227.62206pt x 170.07161pt.
-<../figures/01_cosmology/BetoulewomegaM.pdf, id=333, 739.76375pt x 512.91624pt>
+ [15 <../figures/01_cosmology/Betoule_omegaM_omega_L.pdf> <../figures/01_cosmol
+ogy/PlanckOmegakOmegam.pdf>]
+<../figures/01_cosmology/BetoulewomegaM.pdf, id=351, 739.76375pt x 512.91624pt>
 
 File: ../figures/01_cosmology/BetoulewomegaM.pdf Graphic file (type pdf)
 <use ../figures/01_cosmology/BetoulewomegaM.pdf>
 Package pdftex.def Info: ../figures/01_cosmology/BetoulewomegaM.pdf  used on in
-put line 884.
+put line 891.
 (pdftex.def)             Requested size: 227.62206pt x 157.82059pt.
-<../figures/01_cosmology/Planckw0wa.pdf, id=334, 693.59125pt x 491.8375pt>
+<../figures/01_cosmology/Planckw0wa.pdf, id=352, 693.59125pt x 491.8375pt>
 File: ../figures/01_cosmology/Planckw0wa.pdf Graphic file (type pdf)
 <use ../figures/01_cosmology/Planckw0wa.pdf>
 Package pdftex.def Info: ../figures/01_cosmology/Planckw0wa.pdf  used on input 
-line 885.
+line 892.
 (pdftex.def)             Requested size: 227.62206pt x 161.4063pt.
- (./01_cosmology.bbl
-(./01_cosmology.brf)
-\tf@brf=\write7
-\openout7 = `01_cosmology.brf'.
 
- [15] [16 <../figures/01_cosmology/Betoule_omegaM_omega_L.pdf> <../figures/01_c
-osmology/PlanckOmegakOmegam.pdf> <../figures/01_cosmology/BetoulewomegaM.pdf> <
-../figures/01_cosmology/Planckw0wa.pdf>] [17
+(./01_cosmology.bbl (./01_cosmology.brf)
+\tf@brf=\write8
+\openout8 = `01_cosmology.brf'.
+
+ [16 <../figures/01_cosmology/BetoulewomegaM.pdf> <../figures/01_cosmology/Plan
+ckw0wa.pdf>] [17
 
 ])
 Package minitoc Info: I0009
@@ -1760,22 +1769,17 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                in the 01_cosmology.log file.
 
 [18] (./01_cosmology.aux)
-
-Package rerunfilecheck Warning: File `01_cosmology.brf' has changed.
-(rerunfilecheck)                Rerun to get bibliographical references right.
-
-Package rerunfilecheck Info: Checksums for `01_cosmology.brf':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  016391BFF7662ED726E41D9CE5776F90;2043.
+Package rerunfilecheck Info: File `01_cosmology.brf' has not changed.
+(rerunfilecheck)             Checksum: 23944E991EFCFC49C735503709F477A5;2096.
  ) 
 Here is how much of TeX's memory you used:
- 47299 strings out of 478994
- 1000101 string characters out of 5858184
- 1564079 words of memory out of 5000000
- 63312 multiletter control sequences out of 15000+600000
- 443996 words of font info for 276 fonts, out of 8000000 for 9000
+ 47348 strings out of 478994
+ 1000953 string characters out of 5858184
+ 1567538 words of memory out of 5000000
+ 63356 multiletter control sequences out of 15000+600000
+ 443958 words of font info for 276 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 137i,13n,148p,4331b,915s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 137i,14n,148p,4331b,915s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
 /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
@@ -1801,10 +1805,10 @@ st/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2021/texmf-dist
 /fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/f
 onts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2021/texmf-dist/fon
 ts/type1/public/cm-super/sftt1000.pfb>
-Output written on 01_cosmology.pdf (18 pages, 5387347 bytes).
+Output written on 01_cosmology.pdf (18 pages, 5390627 bytes).
 PDF statistics:
- 607 PDF objects out of 1000 (max. 8388607)
- 504 compressed objects within 6 object streams
- 111 named destinations out of 1000 (max. 500000)
+ 654 PDF objects out of 1000 (max. 8388607)
+ 549 compressed objects within 6 object streams
+ 112 named destinations out of 1000 (max. 500000)
  93383 words of extra memory for PDF output out of 106986 (max. 10000000)
 

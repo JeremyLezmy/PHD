@@ -1,5 +1,18 @@
-\begin{thebibliography}{22}
+\begin{thebibliography}{23}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{\textsc{{Bennett}} {et~al.}(2013)\textsc{{Bennett}},
+  \textsc{{Larson}}, \textsc{{Weiland}}, \textsc{{Jarosik}},
+  \textsc{{Hinshaw}}, \textsc{{Odegard}}, \textsc{{Smith}}, \textsc{{Hill}},
+  \textsc{{Gold}}, \textsc{{Halpern}}, \textsc{{Komatsu}}, \textsc{{Nolta}},
+  \textsc{{Page}}, \textsc{{Spergel}}, \textsc{{Wollack}}, \textsc{{Dunkley}},
+  \textsc{{Kogut}}, \textsc{{Limon}}, \textsc{{Meyer}}, \textsc{{Tucker}} et
+  \textsc{{Wright}}}]{Bennett2013}
+\textsc{{Bennett} C.~L.}, \textsc{{Larson} D.}, \textsc{{Weiland} J.~L.}
+  {et~al.} 2013, «~{Nine-year Wilkinson Microwave Anisotropy Probe (WMAP)
+  Observations: Final Maps and Results}~»,
+  \href{http://dx.doi.org/10.1088/0067-0049/208/2/20}{\color{magenta}\apjs},
+  \href{https://ui.adsabs.harvard.edu/abs/2013ApJS..208...20B}{208, 20}
 
 \bibitem[{\textsc{{Betoule}} {et~al.}(2014)\textsc{{Betoule}},
   \textsc{{Kessler}}, \textsc{{Guy}}, \textsc{{Mosher}}, \textsc{{Hardin}},

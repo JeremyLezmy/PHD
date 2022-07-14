@@ -31,6 +31,8 @@
     "eq:saltflux"
     "eq:mustandard"
     "eq:mutheo"
-    "fig:evolv_DEstate"))
+    "fig:evolv_DEstate")
+   (LaTeX-add-bibliographies
+    "99_references"))
  :latex)
 

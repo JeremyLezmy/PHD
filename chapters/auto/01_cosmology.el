@@ -77,6 +77,8 @@
     "eq:wCPL"
     "fig:womegam"
     "fig:w0wa"
-    "fig:darkenergy"))
+    "fig:darkenergy")
+   (LaTeX-add-bibliographies
+    "99_references"))
  :latex)
 

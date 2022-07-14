@@ -1,7 +1,104 @@
 \documentclass[../main/main.tex]{subfiles}
 \begin{document}
 
-\addparttoc{Introduction générale}
-\part*{Introduction générale}\label{cp:intro}
+%\addparttoc{Introduction générale}
+\chapter*{Introduction générale}\label{cp:intro}
+
+Cette thèse s'inscrit dans le cadre de la cosmologie observationnelle,
+c'est à dire l'étude de l'Univers par le biais d'observations.
+
+Aujourd'hui, et grâce notamment à la théorie de la relativité générale
+d'Albert Einstein, un modèle cosmologique décrivant admirablement bien
+de nombreuses observations indépendantes a vu le jour. Ce modèle, dit de
+concordance, décrit un Univers plat, ayant la particularité d'être
+en expansion accélérée et dont le contenu est dominé par deux
+composantes encore incomprises: la matière sombre et l'énergie sombre.
+Leur nom réfère directement à l'impossibilité de les observer
+directement, mais seulement à partir des effets dont elles sont la
+cause.
+Comprendre leur nature et leurs propriétés est devenu un des enjeux majeurs de la cosmologie
+moderne.
+
+L'énergie sombre est par exemple la cause principale de l'accélération
+de l'expansion de l'Univers, et ses propriétés peuvent être étudiées en mesurant les
+distances d'objets lointain dans l'Univers. On utilise pour cela ce que
+l'on appelle des chandelles standards, objets astrnomiques dont la
+luminosité intrinsèque est connue \textit{a priori}. En comparant cette
+luminosité à celle observée, il est alors possible de remonter à la
+distance de ces sources lumineuses.
+
+Les supernovae de type Ia (SNeIa), explosion particulière d'une étoile,
+possèdent ces propriétés et peuvent ainsi être utilisées comme indicateurs de distances. C'est en utilisant cette sonde
+cosmologique que l'accélération de l'expansion de l'Univers a été mise en évidence en 1998 par
+\citet{Riess1998,Perlmutter1999}. Leur luminosité
+pouvant dépasser celle de leur galaxie hôte, elles permettent en plus de mesurer
+des distances très lointaines dans l'Univers. Ces détections nous
+permettent alors
+d'étudier l'évolution de la dynamique de l'Univers de nos jours jusqu'à
+plusieurs milliards d'années dans le passé.
+
+À l'heure actuelle, les incertitudes sur les caractéristiques de
+l'énergie sombre sont dominées à parts égales entre le nombre de SNeIa dans les
+échantillons (incertitude statistique) et les incertitudes
+systématiques.
+
+La nouvelle génération de relevés astronomiques de SNeIa va
+drastiquement diminuer les erreurs statistiques, avec de nouvelles
+méthodes de relevés automatisés sur tout le ciel observable et à haute
+cadence. À bas redshift par exemple (Univers proche pour $0<z<0.1$), le relevé Zwicky
+Transient Facility (ZTF) a déjà détecté près de $3000$ SNeIa sur le point
+d'être révélées publiquement, alors
+que la plus grande compilation à ce jour pour cette profondeur ne
+dépasse pas $400$ SNeIa.
+La statistique sera tout autant multipliée à plus grande distance,
+notamment avec le Large Synoptic Survey Telescope (LSST) entre
+$0.2<z<1$.
+
+Les efforts futurs pour une étude précise de l'énergie sombre vont donc progressivement
+se diriger vers les incertitudes systématiques. L'une d'entres elles
+provient de la contamination des échantillons de SNeIa par d'autres
+types de supernovae, n'ayant pas les caractéristiques de chandelles
+standards, et pouvant induire des biais importants dans la détermination
+de paramètres cosmologiques. Bien que des méthodes de classification photométrique
+existent, le moyen le plus précis de classifier une supernova
+observée repose sur l'analyse de son spectre. En effet, chaque type de
+supernova présente des caractéristiques spectrales qui lui sont propres,
+et cette information n'est pas accessible en photométrie.
+
+Cependant, cette méthode de classification n'est actuellement possible que
+lorsque la SN est suffisament isolée de sa galaxie hôte. En effet, plus
+l'explosion survient proche du coeur de la galaxie, plus la
+contamination spctrale s'intensifie et la classification devient
+difficile voire impossible. L'objectif de ce travail de recherche est de
+répondre à cette problématique dans le cadre du relevé astronomique ZTF,
+avec l'utilisation d'un spectrographe 3D dédié à la classification des
+SNe.
+
+Nous commencerons dans la première partie de ce manuscrit par introduire
+le contexte scientifique général, en introduisant quelques notions
+cosmologiques importantes et l'utilisation des supernovae comme sonde
+cosmologiques. Nous présenterons ensuite la collaboration et le relevé
+ZTF, en nous concentrant sur la détection photométrique des
+SNeIa. L'instrument que nous utilisons est un spectrographe 3D, utilisé
+conjointement aux détections photométriques et appartenant à la
+collaboration. Un chapitre sera ainsi dédié aux
+concepts de la spectrographie 3D et à la présentation de l'instrument
+utilisé. Nous détaillerons la méthode d'extraction de spectre de SNe
+actuelle et ses limites en cas de contamination par la galaxie hôte.
+
+La deuxième partie de cette thèse introduira la preuve de concept d'une
+nouvelle méthode d'extraction permettant de lever la contamination
+entre la SN et sa galaxie hôte, sous la forme d'un outil de modélisation
+de scène. Nous proposons pour cela d'utiliser des
+données photométriques de la galaxie obtenues en amont de l'explosion de
+la SN. En utilisant les connaissances de la physique
+des galaxies, nous modélisons à l’échelle locale les propriétés
+spectrales de l'hôte afin de créer un cube 3D modèle de la galaxie
+isolée.
 
 \end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
