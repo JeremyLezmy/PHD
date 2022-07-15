@@ -1,7 +1,124 @@
 \documentclass[../main/main.tex]{subfiles}
 \begin{document}
 
-\addparttoc{Conclusions \& perspectives}
-\part*{Conclusions \& perspectives}\label{cp:conclusions}
+\addparttoc{Conclusion générale}
+\chapter*{Conclusion générale}\label{cp:conclusions}
+\vspace{1cm}
+
+Ce travail de recherche effectué sur deux annnées a permis le développement
+d'un modéliseur de scène, \hypergal, afin de répondre à la
+problématique de contamination des supernovae par leur galaxie hôte.
+
+La première partie de ce manuscrit avait pour but d'introduire le
+contexte scientifique de cette thèse. Nous avons commencé par présenter les
+supernovae de type Ia, leurs propriétés de sonde cosmologique, leur rôle dans
+l'étude l'énergie sombre et les conséquences d'une contamination d'un
+échantillon par d'autres types de SNe. Nous avons par la suite introduit
+le relevé astronomique ZTF ainsi que l'instrument que nous utilisons, le
+spectrographe 3D SEDm.
+
+Nous avons ensuite détaillé les étapes de conception d'\hypergal, en
+introduisant la preuve de concept de cette nouvelle méthode d'extraction
+de spectre de SNe.
+Le coeur de ce pipeline repose sur l’utilisation de
+données photométriques de la galaxie, prises en amont de
+l’explosion de la SNIa. Grâce à l'utilisation du SED Fitter
+\pkg{Cigale}, nous avons modélisé localement les propriétés spectrales
+de la galaxie, permettant de créer un cube 3D modèle de l'hôte isolé de
+la source ponctuelle.
+
+Afin de pouvoir projeter ce cube intrinsèque dans l'espace des
+observations de la SEDm, il a fallu caractériser la réponse
+impulsionnelle de l'instrument. Avec l'observation de
+lampes à arc, nous avons déterminé un modèle de
+réponse impulsionnelle spectrale stationnaire, spatialement uniforme et
+gaussien. La modélisation de sa chromaticité,
+par un polynome quadratique,
+a permis la projection du cube intrinsèque de la galaxie hôte dans
+l'espace spectral de la SEDm.
+
+Les supernovae étant des sources ponctuelles, nous avons également
+caractérisé la réponse impulsionnelle
+spatiale, nécessaire pour modéliser ces objets. Pour cela, un modèle analytique et empirique de fonction
+d'étalement de point a été introduit, permettant de modéliser les effets
+des turbulences atmosphériques sur les images astronomiques ainsi que des
+effets instrumentaux. Entraîné sur des étoiles standards,
+ce modèle est décrit par un profil radial asymétrique, possédant 2
+paramètres de forme libres ajustés en
+fonction des observations. En modélisant les chromaticités
+intervenant sur ces paramètres et celle causée par la réfraction
+différentielle atmosphérique, nous avons pu extraire le spectre de
+plusieurs milliers d'étoiles standards. En les comparant aux spectres
+spectrophotométriques de référence de calspec, cette étude a permis d'estimer
+une précision de la calibration en couleur de l'ordre de $3\%$.
+
+L'association du cube intrinsèque de la galaxie hôte et de la réponse
+impulsionnelle de la SEDm a finalement permis la conception
+du modéliseur de scène \hypergal, permettant
+d'extraire séparément chaque composante de la scène. Une méthode de
+classification automatique est également implémentée dans le pipeline,
+en utilisant le classifieur de
+SNe \pkg{SNID}.
+Entièrement automatisé, \hypergal\ est optimisé
+avec \pkg{DASK}, librairie de calculs parallèles qui commence à se faire
+une place dans les analyses scientifiques lourdes. L'apprentissage de
+cet outil a permis de drastiquement diminuer les temps de calcul,
+passant de plusieurs heures en calcul linéaire à seulement une quinzaine de
+minute, de la requête des données à l'obtention de tous les
+résultats et figures de vérification. \hypergal\ peut ainsi être utilisé
+aussi bien localement que sur un cluster distribué. 
+
+Afin d'explorer les capacités du pipeline, nous avons conçu un jeu de
+5000 simulations, basées sur l'observation de galaxies sans supernova
+avec la SEDm. Les deux paramètres d'exploration de nos simulations sont
+la distance entre la SN et le centre de la galaxie hôte, ainsi que le contraste
+$c$, traçant l'intensité de la SN étudiée par rapport à celui de son
+environnement. Nous avons extrait les SNe simulées avec \hypergal\
+ainsi qu'avec une méthode d'extraction de référence, celle utilisée
+préalablement par la collaboration sans modélisation hyperspectrale de
+la galaxie. L'extraction de spectre avec \hypergal\ montre l'absence de corrélation entre la précision de
+l'extraction et la distance SN-galaxie, nous permettant d'affirmer la capacité de
+cette méthode à lever cette contamination. En
+étudiant la distribution du contraste des observations réelles faites avec la SEDm, nous
+avons également pu voir qu'\hypergal\ permettrait une classification
+correcte de $95\%$ des SNeIa. Au delà d'un
+contraste $c\sim0.2$ (ce qui représente plus de $90\%$ des observations), ce sont près de $99\%$ des SNeIa qui sont
+correctement classifiées avec moins de $2\%$ de faux positifs,
+témoignant de la confiance que l'on peut accorder à cette méthode
+d'extraction de spectre.
+Par comparaison avec la méthode de référence,
+\hypergal\ permet de classifier correctement près de $20\%$ de SNeIa
+supplémentaires entre $0.1<c<0.6$ (représentant $50\%$ des conditions
+d'observation), avec seulement $\sim4\%$ de faux positifs dans cet
+intervalle de contraste contre $\sim8\%$ pour l'autre méthode. Les
+analyses relatives entre \hypergal\ et la méthode de référence sont
+toutefois à prendre avec légèreté, étant donné que nous n'avons pas pris
+en compte la distribution des distances SN-galaxies dans les données
+réelles. Bien qu'\hypergal\ ne semble pas y être sensible, cela n'est
+pas vrai pour la méthode de référence jusqu'à $\sim4\arcsec$ du coeur de
+la galaxie.
+
+Enfin, nous achevons ce travail de recherche avec la présentation de la
+\textit{data release} 2 du groupe \textit{Type Ia Supernovae $\&$
+  Cosmology}. Devant les améliorations significatives d'extraction
+apportées par \hypergal\ il a été convenu que le spectre de chaque SN observée avec la
+SEDm soit extrait avec la nouvelle méthode présentée dans cette
+thèse. L'échantillon de SNeIa de cette DR2 est composé de $3792$ SNeIa, toutes classifiées
+spectralement, et $65\%$ d'entres elles l'ont été
+grâce à \hypergal. En appliquant certains critères de
+qualité pour définir un \textit{golden sample} de $2905$ SNeIa (utilisé prochainement
+pour l'estimation de paramètres cosmologiques), la contribution de la
+SEDm et d'\hypergal\ reste de $65\%$. Finalement, il a été
+montré qu'une coupure à un redshift $z<0.06$ permettrait de définir un
+sous-échantillon exempt de toute fonction de sélection. Dans
+ce volume limité de $1077$ SNeIa, $81\%$ d'entres elles ont été
+observées par la SEDm et classifiées par \hypergal, illustrant la place
+majeure qu'occupe la SEDm combinée à ce nouveau
+modéliseur de scène dans cette \textit{data release}.
 
 \end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:

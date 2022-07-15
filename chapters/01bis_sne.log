@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  14 JUL 2022 17:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  15 JUL 2022 15:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1634,19 +1634,19 @@ Chapitre 2.
 (./01bis_sne.mtc1) [1
 
 
-{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-<../figures/01bis_sne/snetype.pdf, id=72, 725.71124pt x 939.51pt>
+{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+<../figures/01bis_sne/snetype.pdf, id=46, 725.71124pt x 939.51pt>
 File: ../figures/01bis_sne/snetype.pdf Graphic file (type pdf)
 <use ../figures/01bis_sne/snetype.pdf>
-Package pdftex.def Info: ../figures/01bis_sne/snetype.pdf  used on input line 1
-12.
+Package pdftex.def Info: ../figures/01bis_sne/snetype.pdf  used on input line 6
+0.
 (pdftex.def)             Requested size: 268.59235pt x 347.72794pt.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 116.
+Package hyperref Warning: Ignoring empty anchor on input line 64.
 
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-16.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 6
+4.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
@@ -1655,64 +1655,63 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
 [][][]\T1/cmr/m/n/10 (+20) .[][][][]$\T1/cmtt/m/n/10 https : / / github . com /
  HeloiseS /
  []
 
-[3 <../figures/01bis_sne/snetype.pdf>]
-<../figures/01bis_sne/sniaspecevol.pdf, id=106, 703.62875pt x 944.52875pt>
+[2 <../figures/01bis_sne/snetype.pdf>] [3] [4]
+<../figures/01bis_sne/sniaspecevol.pdf, id=131, 703.62875pt x 944.52875pt>
 File: ../figures/01bis_sne/sniaspecevol.pdf Graphic file (type pdf)
 <use ../figures/01bis_sne/sniaspecevol.pdf>
 Package pdftex.def Info: ../figures/01bis_sne/sniaspecevol.pdf  used on input l
-ine 204.
+ine 206.
 (pdftex.def)             Requested size: 350.5399pt x 470.54814pt.
- [4]
-<../figures/01bis_sne/lightcurvesnpereira.pdf, id=131, 1175.39125pt x 981.6675p
+<../figures/01bis_sne/lightcurvesnpereira.pdf, id=136, 1175.39125pt x 981.6675p
 t>
 File: ../figures/01bis_sne/lightcurvesnpereira.pdf Graphic file (type pdf)
 <use ../figures/01bis_sne/lightcurvesnpereira.pdf>
 Package pdftex.def Info: ../figures/01bis_sne/lightcurvesnpereira.pdf  used on 
-input line 215.
+input line 217.
 (pdftex.def)             Requested size: 409.71692pt x 342.18074pt.
  [5 <../figures/01bis_sne/sniaspecevol.pdf>] [6 <../figures/01bis_sne/lightcurv
 esnpereira.pdf>] [7
 
 ]
-<../figures/01bis_sne/lc_JLA.pdf, id=182, 857.77109pt x 505.12016pt>
+<../figures/01bis_sne/lc_JLA.pdf, id=187, 857.77109pt x 505.12016pt>
 File: ../figures/01bis_sne/lc_JLA.pdf Graphic file (type pdf)
 <use ../figures/01bis_sne/lc_JLA.pdf>
 Package pdftex.def Info: ../figures/01bis_sne/lc_JLA.pdf  used on input line 30
-0.
+2.
 (pdftex.def)             Requested size: 450.69417pt x 265.40787pt.
  [8
 
  <../figures/01bis_sne/lc_JLA.pdf>]
-<../figures/01bis_sne/colorstretch_corr_JLA.pdf, id=470, 870.5221pt x 502.68074
+<../figures/01bis_sne/colorstretch_corr_JLA.pdf, id=474, 870.5221pt x 502.68074
 pt>
 File: ../figures/01bis_sne/colorstretch_corr_JLA.pdf Graphic file (type pdf)
 <use ../figures/01bis_sne/colorstretch_corr_JLA.pdf>
 Package pdftex.def Info: ../figures/01bis_sne/colorstretch_corr_JLA.pdf  used o
-n input line 336.
+n input line 338.
 (pdftex.def)             Requested size: 450.69417pt x 260.25261pt.
  [9 <../figures/01bis_sne/colorstretch_corr_JLA.pdf>]
 
-LaTeX Warning: Reference `fig:hubble' on page 10 undefined on input line 398.
+LaTeX Warning: Reference `fig:hubble' on page 10 undefined on input line 404.
 
 
 LaTeX Warning: Reference `eq:distmodulemu' on page 10 undefined on input line 4
-15.
+21.
 
 [10]
 
-LaTeX Warning: Reference `eq:Ez' on page 11 undefined on input line 452.
+LaTeX Warning: Reference `eq:Ez' on page 11 undefined on input line 457.
 
-<../figures/01_cosmology/darkenergy_variation.pdf, id=552, 1004.553pt x 498.663
+<../figures/01_cosmology/darkenergy_variation.pdf, id=562, 1004.553pt x 498.663
 pt>
 File: ../figures/01_cosmology/darkenergy_variation.pdf Graphic file (type pdf)
 <use ../figures/01_cosmology/darkenergy_variation.pdf>
 Package pdftex.def Info: ../figures/01_cosmology/darkenergy_variation.pdf  used
- on input line 500.
+ on input line 505.
 (pdftex.def)             Requested size: 450.69417pt x 223.72668pt.
 [11] (./01bis_sne.bbl (./01bis_sne.brf)
 \tf@brf=\write8
@@ -1736,20 +1735,15 @@ Package minitoc(hints) Warning: W0024
 
 LaTeX Warning: There were undefined references.
 
-
-Package rerunfilecheck Warning: File `01bis_sne.brf' has changed.
-(rerunfilecheck)                Rerun to get bibliographical references right.
-
-Package rerunfilecheck Info: Checksums for `01bis_sne.brf':
-(rerunfilecheck)             Before: D777D53498AF139903FA8DF85D174A9E;2371
-(rerunfilecheck)             After:  C5E8A5D3ED13A93A8EECC858880E8985;2424.
+Package rerunfilecheck Info: File `01bis_sne.brf' has not changed.
+(rerunfilecheck)             Checksum: 14FB08F6362956C43C4487E5B79F1386;2501.
  ) 
 Here is how much of TeX's memory you used:
- 47261 strings out of 478994
- 998779 string characters out of 5858184
- 1581223 words of memory out of 5000000
- 63305 multiletter control sequences out of 15000+600000
- 442765 words of font info for 263 fonts, out of 8000000 for 9000
+ 47284 strings out of 478994
+ 999069 string characters out of 5858184
+ 1583275 words of memory out of 5000000
+ 63314 multiletter control sequences out of 15000+600000
+ 443097 words of font info for 269 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  137i,12n,148p,5515b,939s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
@@ -1757,21 +1751,24 @@ Here is how much of TeX's memory you used:
 /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
 usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
 sr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
-/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/l
-ocal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/loc
-al/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local
-/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/t
-exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/tex
-live/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texliv
-e/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2
-021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/20
-21/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021
-/texmf-dist/fonts/type1/public/cm-super/sfbi1440.pfb></usr/local/texlive/2021/t
-exmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2021/tex
-mf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2021/texmf
--dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2021/texmf-d
-ist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2021/texmf-dis
-t/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2021/texmf-dist/
+/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/l
+ocal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loc
+al/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local
+/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/t
+exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/tex
+live/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texli
+ve/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
+2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/202
+1/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/t
+exmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/20
+21/texmf-dist/fonts/type1/public/cm-super/sfbi1200.pfb></usr/local/texlive/2021
+/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2021/t
+exmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2021/tex
+mf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2021/texmf
+-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2021/texmf-d
+ist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2021/texmf-dis
+t/fonts/type1/public/cm-super/sfcc1000.pfb></usr/local/texlive/2021/texmf-dist/
 fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2021/texmf-dist/fo
 nts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2021/texmf-dist/font
 s/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/
@@ -1780,13 +1777,12 @@ pe1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type
 1/public/cm-super/sftc1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/
 public/cm-super/sfti0800.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pu
 blic/cm-super/sfti1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publ
-ic/cm-super/sfti1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public
-/cm-super/sfti1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/c
-m-super/sftt1000.pfb>
-Output written on 01bis_sne.pdf (15 pages, 4655000 bytes).
+ic/cm-super/sfti1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public
+/cm-super/sftt1000.pfb>
+Output written on 01bis_sne.pdf (15 pages, 4660145 bytes).
 PDF statistics:
- 888 PDF objects out of 1000 (max. 8388607)
- 573 compressed objects within 6 object streams
- 79 named destinations out of 1000 (max. 500000)
- 86683 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 911 PDF objects out of 1000 (max. 8388607)
+ 594 compressed objects within 6 object streams
+ 81 named destinations out of 1000 (max. 500000)
+ 86691 words of extra memory for PDF output out of 89155 (max. 10000000)
 

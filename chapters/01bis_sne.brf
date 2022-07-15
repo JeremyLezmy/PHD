@@ -1,8 +1,9 @@
 \backcite {Minkowski1941}{{2}{2.1.1}{subsection.2.1.1}}
 \backcite {Elias1985}{{2}{2.1.1}{subsection.2.1.1}}
 \backcite {Heger2003}{{2}{2.1.2}{subsection.2.1.2}}
-\backcite {Chandrasekhar}{{2}{2.1.2}{subsection.2.1.2}}
-\backcite {Hoyle1960}{{2}{2.1.2}{subsection.2.1.2}}
+\backcite {Chandrasekhar}{{3}{2.1.2}{subsection.2.1.2}}
+\backcite {Hoyle1960}{{3}{2.1.2}{subsection.2.1.2}}
+\backcite {Jaeger2020}{{3}{\leavevmode {\color {red}1}}{section.2.2}}
 \backcite {Leavitt1908}{{4}{2.2.1}{subsection.2.2.1}}
 \backcite {Leavitt1912}{{4}{2.2.1}{subsection.2.2.1}}
 \backcite {Saha1999}{{4}{2.2.1}{subsection.2.2.1}}
@@ -26,7 +27,7 @@
 \backcite {Guysalt22007}{{9}{2.2.4.2}{subsubsection.2.2.4.2}}
 \backcite {Betoule2014}{{9}{2.2.4.2}{subsubsection.2.2.4.2}}
 \backcite {Betoule2014}{{9}{2.2.4.2}{subsubsection.2.2.4.2}}
-\backcite {Tripp1998}{{10}{2.2.4.2}{equation.2.2.3}}
+\backcite {Tripp1998}{{10}{2.2.4.3}{subsubsection.2.2.4.3}}
 \backcite {Riess2016}{{10}{2.3.1}{subsection.2.3.1}}
 \backcite {Riess1998}{{10}{2.3.1}{subsection.2.3.1}}
 \backcite {Perlmutter1999}{{10}{2.3.1}{subsection.2.3.1}}

@@ -14,7 +14,7 @@ Palomar. Cette caméra permet à ZTF de détecter $10^{5}$ évènements
 transitoires ou variables, en scannant l'entièreté du ciel Nord visible
 chaque nuit,  à la vitesse
 vertigineuse de $3760\text{ deg}^{2}$/heure. Parmi ces évènements,
-$\mathcal{O}(10)$ correspondent à de nouveux évènements transitoires non
+$\mathcal{O}(10)$ correspondent à de nouveaux évènements transitoires non
 répertoriés: les supernovae. Comme expliqué dans le
 Chapitre~\ref{ch:snia}, seules les supernovae de type Ia sont
 d'intérêts dans la cosmologie, de part leur propriété de chandelle
@@ -41,7 +41,7 @@ Dec\} ) et une dimension spectrale (longueur d'onde $\lambda$). Dans tout le man
 systématiquement référence aux dimensions \og $x$, $y$, $\lambda$\fg{}.
 
 Un IFS est composé de 2 parties: le spectrographe qui va disperser la
-lumière incidente, et l'IFU (Integrated Field Unit). Le rôle de l'IFU
+lumière incidente, et l'IFU (\textit{Integrated Field Unit}). Le rôle de l'IFU
 est de diviser le plan spatial 2D du champ de vue en un réseau continu
 et concentré de lumière. Ce réseau est ensuite donné en entrée au
 spectrographe qui va se charger de le disperser sur le détecteur.
@@ -116,7 +116,7 @@ Distribution machine}, présenté par \citet{SEDM18}. Comme mentionné plusieurs
 sur le télescope P60 (Cassegrain) au Mont Palomar depuis août 2016. Une vue
 d'ensemble de l'instrument est présentée dans la
 Figure~\ref{fig:sedmoverview}, où l'on peut voir qu'il est composé de
-deux composantes: l'IFU et la ``Rainbow Camera'' (RC), montés sur un
+deux composantes: l'IFU et la \textit{Rainbow Camera} (RC), montés sur un
 agencement en forme de T. Cette caméra d'acquisition multi-bande est
 accompagnée de 4 filtres photométriques $u'$, $g'$, $r'$ et $i'$.
 
@@ -136,7 +136,7 @@ accompagnée de 4 filtres photométriques $u'$, $g'$, $r'$ et $i'$.
   \label{fig:sedmoverview}
 \end{figure}
 
-Les 2 détecteurs de la SEDm sont des Princeton Instruments identiques:
+Les 2 détecteurs de la SEDm sont des \textit{Princeton Instruments} identiques:
 une PIXIS 2048B et une PIXIS 2048B\_Excelon chacun avec 2048$\times$2048
 pixels de taille \SI{13.5}{\micro\metre}.
 
@@ -328,15 +328,15 @@ La procédure est la suivante (et illustré dans la Figure~\ref{fig:wavesol}):
 \end{enumerate}
 
 La précision atteinte pour la solution en longueur d'onde est de l'ordre
-de $3$\AA\ au centre de l'IFU, mais peut monter à $\sim10$\AA\ sur les bords.
+de $3$ \AA\ au centre de l'IFU, mais peut monter à $\sim10$ \AA\ sur les bords.
 
 \begin{figure}[ht]
 \centering
-\subfloat[Extraction des contours de trace]{\label{fig:tracematch}{\includegraphics[width=0.53\textwidth]{../figures/03_sedm/tracematchsedm.png}}}\hfill
-\subfloat[Ajustement d'une solution de longueur d'onde pour un spaxel de l'IFU]{\label{fig:wavesol}{\includegraphics[width=0.45\textwidth]{../figures/03_sedm/wavesolsedm.png}}}
+\subfloat[Extraction des contours de trace.]{\label{fig:tracematch}{\includegraphics[width=0.53\textwidth]{../figures/03_sedm/tracematchsedm.png}}}\hfill
+\subfloat[Ajustement d'une solution de longueur d'onde pour un spaxel de l'IFU.]{\label{fig:wavesol}{\includegraphics[width=0.45\textwidth]{../figures/03_sedm/wavesolsedm.png}}}
 \caption[Extraction de traces et solution en longueur
 d'onde pour la
-SEDm]{Extraction de traces (\textit{à gauche}) et ajustement de solution en longueur
+SEDm.]{Extraction de traces (\textit{à gauche}) et ajustement de solution en longueur
   d'onde (\textit{à droite}) pour la SEDm. Figures de \citet{pysedm}.}
 \label{fig:calibsedm}
 \end{figure}
@@ -348,7 +348,7 @@ lentilles.
 Cette procédure est purement géométrique et est détaillée en 8 étapes
 dans la section 2.1.3 de \citet{pysedm}. Le résultat final est une
 grille hexagonale, avec pour chaque hexagone un identifiant associé au
-spaxel correspondant ainsi que les coordonnées de chacun de ses sommets.
+spaxel correspondant, ainsi que les coordonnées de chacun de ses sommets.
 Combinés aux spectres extraits de chaque spaxel, cela permet de
 cartographier la position de chaque spaxel, et ainsi reconstruire le
 cube.
@@ -461,7 +461,7 @@ Raisonnons en 2D. Dans chaque meta-tranche nous avons à déterminer:
   d'ellipticité (un pour l'angle, l'autre pour l'excentricité).
 \end{itemize}
 
-Tous ces paramètres sont ajustés pour chaque meta-tranches prises
+Tous ces paramètres sont ajustés pour chaque meta-tranche prise
 indépendamment les unes des autres.
 
 Le jeu de paramètres ainsi obtenu est utilisé pour déterminer la
@@ -470,7 +470,7 @@ le fond sont des paramètres de nuisance à ce stade.
 Dans \pysedm, la chromaticité de l'ellipticité, du rayon de la Moffat et du poids entre la
 Gaussienne et la Moffat sont modélisés par une constante. La
 chromaticité du rayon de la
-Gaussienne est modélisé par une loi de puissance.
+Gaussienne est modélisée par une loi de puissance.
 Quant à la position, sa chromaticité est due à la réfraction de la
 lumière par l'atmosphère. C'est ce qu'on appelle l'ADR (\textit{Atmospheric
 Differential Refraction}). Nous détaillerons en détail cet effet et sa
@@ -605,7 +605,7 @@ ponctuelle avec \pysedm\ et sa classification avec \pkg{SNID}.
 La base de modèles utilisée comme référence pour la classification est
 une combinaison de plusieurs set de données:
 \begin{itemize}
-  \item le set d'entraînement utilisé par \pkg{DASH}
+  \item le jeu d'entraînement utilisé par \pkg{DASH}
     \citep{MuthukrishnaDash}: celui-ci est composé du \pkg{template-2.0}
     de \pkg{SNID}, de SNIb/c de \citet{Liu2014SNIbc},
     \citet{Mojdaz2016} et \citet{Liu2016}, ainsi que des spectres du programme SN Ia 7.0
@@ -722,7 +722,7 @@ la galaxie hôte. Seulement, celui ci n'apporte qu'une augmentation de
 l'ordre de $0.5\%$ du nombre de spectres classifiés (Table 2 de
 \citet{Kimcontsep}), aucun changement notable dans la distribution des
 $r\text{lap}$ obtenus avec \pkg{SNID}, et une amélioration globale de la
-classifcation de $1.5\%$ en se basant sur celles de l'échantillon BTS
+classification de $1.5\%$ en se basant sur celles de l'échantillon BTS
 (\textit{Bright Transient Survey}) comme référence.
 
 En effet, \pkg{contsep} n'apporte (presque) aucun bénéfice dans le cas où

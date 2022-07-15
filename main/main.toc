@@ -2,7 +2,6 @@
 \begingroup \def \cftpartpresnum {}
 \contentsline {part}{Introduction générale}{17}{chapter*.7}%
 \endgroup 
-\partbegin 
 \contentsline {part}{I\hspace {1em}Contexte scientifique}{21}{part.1}%
 \contentsline {xpart}{Contexte scientifique}{23}{part.1}%
 \contentsline {chapter}{\numberline {1}Contexte cosmologique}{23}{chapter.1}%
@@ -17,27 +16,28 @@
 \contentsline {subsubsection}{\numberline {1.1.4.2}Taux d'expansion}{29}{subsubsection.1.1.4.2}%
 \contentsline {subsection}{\numberline {1.1.5}\'Equations de Friedmann-Lemaître}{29}{subsection.1.1.5}%
 \contentsline {subsection}{\numberline {1.1.6}Mesures de distances}{31}{subsection.1.1.6}%
-\contentsline {section}{\numberline {1.2}Sondes cosmologiques et modèle de concordance \ensuremath {\Lambda }CDM\spacefactor \@m {}\relax }{34}{section.1.2}%
+\contentsline {section}{\numberline {1.2}Sondes cosmologiques et modèle de concordance \ensuremath {\Lambda }CDM\spacefactor \@m {}\relax }{33}{section.1.2}%
 \contentsline {subsection}{\numberline {1.2.1}Le fond diffus cosmologique}{34}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Les oscillations acoustiques des baryons}{35}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.2}Les oscillations acoustiques des baryons}{34}{subsection.1.2.2}%
 \contentsline {subsection}{\numberline {1.2.3}Les chandelles standard}{36}{subsection.1.2.3}%
 \contentsline {subsection}{\numberline {1.2.4}Le modèle \ensuremath {\Lambda }CDM\spacefactor \@m {}\relax }{36}{subsection.1.2.4}%
 \contentsline {chapter}{\numberline {2}Cosmologie avec les Supernovae de type Ia}{39}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Zoologie et classification des supernovae}{40}{section.2.1}%
+\contentsline {section}{\numberline {2.1}Zoologie des supernovae}{40}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Caractéristiques principales}{40}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}Mécanismes d'explosion}{40}{subsection.2.1.2}%
 \contentsline {section}{\numberline {2.2}Standardisation des SNeIa}{41}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Chandelles standardisables}{41}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Courbes de lumière et spectres de SNeIa}{42}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}Propriétés des courbes de lumière}{45}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Modèle \textit {Spectral Adaptive Light-curve Template 2} (SALT2)}{46}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.4}Standardisation des SNeIa}{46}{subsection.2.2.4}%
 \contentsline {subsubsection}{\numberline {2.2.4.1}Corrélations}{46}{subsubsection.2.2.4.1}%
-\contentsline {subsubsection}{\numberline {2.2.4.2}Standardisation et SALT2}{47}{subsubsection.2.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.2.4.2}Modèle \textit {Spectral Adaptive Light-curve Template} (SALT)}{47}{subsubsection.2.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.2.4.3}Standardisation}{48}{subsubsection.2.2.4.3}%
 \contentsline {section}{\numberline {2.3}SNeIa et cosmologie}{48}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Construction d'un diagramme de Hubble}{48}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}Sonder l'équation d'état de l'énergie sombre avec les SNeIa}{49}{subsection.2.3.2}%
 \contentsline {chapter}{\numberline {3}Zwicky Transient Facility}{51}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Presentation de la générale}{52}{section.3.1}%
+\contentsline {section}{\numberline {3.1}Presentation générale}{52}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Histoire et collaboration}{52}{subsection.3.1.1}%
 \contentsline {subsection}{\numberline {3.1.2}Organisation de la recherche scientifique}{53}{subsection.3.1.2}%
 \contentsline {section}{\numberline {3.2}La caméra ZTF}{55}{section.3.2}%
@@ -77,7 +77,7 @@
 \contentsline {section}{\numberline {6.1}Source photométrique}{88}{section.6.1}%
 \contentsline {subsection}{\numberline {6.1.1}Relevé astronomique Pan-STARRS1}{88}{subsection.6.1.1}%
 \contentsline {subsection}{\numberline {6.1.2}Utilisation des images PS1}{90}{subsection.6.1.2}%
-\contentsline {section}{\numberline {6.2}\textsc {\texttt {Cigale}} et SEDFitting}{91}{section.6.2}%
+\contentsline {section}{\numberline {6.2}\textsc {\texttt {Cigale}} et SED Fitting}{91}{section.6.2}%
 \contentsline {subsection}{\numberline {6.2.1}Présentation de \textsc {\texttt {Cigale}}}{92}{subsection.6.2.1}%
 \contentsline {subsection}{\numberline {6.2.2}Préparation des images photométriques}{92}{subsection.6.2.2}%
 \contentsline {subsection}{\numberline {6.2.3}Configuration de \textsc {\texttt {CIGALE}}}{94}{subsection.6.2.3}%
@@ -151,8 +151,6 @@
 \contentsline {subsection}{\numberline {10.2.4}Courbes de lumière}{186}{subsection.10.2.4}%
 \contentsline {subsubsection}{\numberline {10.2.4.1}Phases}{186}{subsubsection.10.2.4.1}%
 \contentsline {subsubsection}{\numberline {10.2.4.2}\textit {Stretch} et couleur}{188}{subsubsection.10.2.4.2}%
-\contentsline {section}{\numberline {10.3}Conclusion}{192}{section.10.3}%
 \begingroup \def \cftpartpresnum {}
-\contentsline {part}{Conclusions \& perspectives}{192}{section.10.3}%
+\contentsline {part}{Conclusion générale}{192}{figure.caption.137}%
 \endgroup 
-\partbegin 

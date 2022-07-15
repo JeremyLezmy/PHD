@@ -1,4 +1,4 @@
-\begin{thebibliography}{33}
+\begin{thebibliography}{34}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{\textsc{{Aldering}} {et~al.}(2002)\textsc{{Aldering}},
@@ -127,6 +127,41 @@
 \textsc{{Chandrasekhar} S.} 1931, «~{The Maximum Mass of Ideal White
   Dwarfs}~», \href{http://dx.doi.org/10.1086/143324}{\color{magenta}\apj},
   \href{https://ui.adsabs.harvard.edu/abs/1931ApJ....74...81C}{74, 81}
+
+\bibitem[{\textsc{{de Jaeger}} {et~al.}(2020)\textsc{{de Jaeger}},
+  \textsc{{Galbany}}, \textsc{{Gonz{\'a}lez-Gait{\'a}n}}, \textsc{{Kessler}},
+  \textsc{{Filippenko}}, \textsc{{F{\"o}rster}}, \textsc{{Hamuy}},
+  \textsc{{Brown}}, \textsc{{Davis}}, \textsc{{Guti{\'e}rrez}},
+  \textsc{{Inserra}}, \textsc{{Lewis}}, \textsc{{M{\"o}ller}},
+  \textsc{{Scolnic}}, \textsc{{Smith}}, \textsc{{Brout}}, \textsc{{Carollo}},
+  \textsc{{Foley}}, \textsc{{Glazebrook}}, \textsc{{Hinton}},
+  \textsc{{Macaulay}}, \textsc{{Nichol}}, \textsc{{Sako}}, \textsc{{Sommer}},
+  \textsc{{Tucker}}, \textsc{{Abbott}}, \textsc{{Aguena}}, \textsc{{Allam}},
+  \textsc{{Annis}}, \textsc{{Avila}}, \textsc{{Bertin}}, \textsc{{Bhargava}},
+  \textsc{{Brooks}}, \textsc{{Burke}}, \textsc{{Carnero Rosell}},
+  \textsc{{Carrasco Kind}}, \textsc{{Carretero}}, \textsc{{Costanzi}},
+  \textsc{{Crocce}}, \textsc{{da Costa}}, \textsc{{De Vicente}},
+  \textsc{{Desai}}, \textsc{{Diehl}}, \textsc{{Doel}},
+  \textsc{{Drlica-Wagner}}, \textsc{{Eifler}}, \textsc{{Estrada}},
+  \textsc{{Everett}}, \textsc{{Flaugher}}, \textsc{{Fosalba}},
+  \textsc{{Frieman}}, \textsc{{Garc{\'\i}a-Bellido}}, \textsc{{Gaztanaga}},
+  \textsc{{Gruen}}, \textsc{{Gruendl}}, \textsc{{Gschwend}},
+  \textsc{{Gutierrez}}, \textsc{{Hartley}}, \textsc{{Hollowood}},
+  \textsc{{Honscheid}}, \textsc{{James}}, \textsc{{Kuehn}},
+  \textsc{{Kuropatkin}}, \textsc{{Li}}, \textsc{{Lima}}, \textsc{{Maia}},
+  \textsc{{Menanteau}}, \textsc{{Miquel}}, \textsc{{Palmese}},
+  \textsc{{Paz-Chinch{\'o}n}}, \textsc{{Plazas}}, \textsc{{Romer}},
+  \textsc{{Roodman}}, \textsc{{Sanchez}}, \textsc{{Scarpine}},
+  \textsc{{Schubnell}}, \textsc{{Serrano}}, \textsc{{Sevilla-Noarbe}},
+  \textsc{{Soares-Santos}}, \textsc{{Suchyta}}, \textsc{{Swanson}},
+  \textsc{{Tarle}}, \textsc{{Thomas}}, \textsc{{Tucker}}, \textsc{{Varga}},
+  \textsc{{Walker}}, \textsc{{Weller}}, \textsc{{Wilkinson}} et \textsc{{DES
+  Collaboration}}}]{Jaeger2020}
+\textsc{{de Jaeger} T.}, \textsc{{Galbany} L.},
+  \textsc{{Gonz{\'a}lez-Gait{\'a}n} S.} {et~al.} 2020, «~{Studying Type II
+  supernovae as cosmological standard candles using the Dark Energy Survey}~»,
+  \href{http://dx.doi.org/10.1093/mnras/staa1402}{\color{magenta}\mnras},
+  \href{https://ui.adsabs.harvard.edu/abs/2020MNRAS.495.4860D}{495, 4860}
 
 \bibitem[{\textsc{{Elias}} {et~al.}(1985)\textsc{{Elias}}, \textsc{{Matthews}},
   \textsc{{Neugebauer}} et \textsc{{Persson}}}]{Elias1985}

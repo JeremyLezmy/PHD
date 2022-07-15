@@ -10,7 +10,7 @@
 \contentsline {figure}{\numberline {1.6}{\ignorespaces Diagramme de Hubble à partir de SNeIa de plusieurs relevés (SDSS, SNLS, HST)}}{36}{figure.caption.14}%
 \addvspace {10\p@ }
 \contentsline {xchapter}{Cosmologie avec les Supernovae de type Ia}{39}{chapter.2}%
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Spectre de différents types de supernovae.}}{41}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Spectre de différents types de supernovae.}}{40}{figure.caption.17}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces \'Evolution temporelle du spectre de la SNIa SN2011fe.}}{43}{figure.caption.18}%
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Courbe de lumière de la SNIa SN2011fe.}}{44}{figure.caption.19}%
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Courbes de lumière de SNeIa à bas redshift de JLA.}}{46}{figure.caption.20}%
@@ -30,7 +30,7 @@
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Fonctionnement de différents types d'IFS}}{63}{figure.caption.30}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Vue d'ensemble de la SEDm}}{64}{figure.caption.31}%
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Schéma d'application d'images de calibration Bias, Dark et Flat.\relax }}{66}{figure.4.3}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Extraction de traces et solution en longueur d'onde pour la SEDm}}{67}{figure.caption.34}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Extraction de traces et solution en longueur d'onde pour la SEDm.}}{67}{figure.caption.34}%
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Exemple d'extraction de source ponctuelle avec \textsc {\texttt {pysedm}}\relax }}{74}{figure.caption.35}%
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Distribution cumulée du décalage angulaire entre les supernovae BTS et leur galaxie hôte}}{75}{figure.caption.36}%
 \contentsline {figure}{\numberline {4.7}{\ignorespaces Exemple de situation extrême de contamination de supernova par la galaxie hôte}}{75}{figure.caption.37}%

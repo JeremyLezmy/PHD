@@ -4,9 +4,9 @@ The top-level auxiliary file: 07_scene.aux
 The style file: ../main/aa_url2.bst
 Database file #1: 99_references.bib
 Warning--entry type for "iminuit" isn't style-file defined
---line 1603 of file 99_references.bib
+--line 1622 of file 99_references.bib
 Warning--entry type for "kelsey_jordahl_2020_3946761" isn't style-file defined
---line 1753 of file 99_references.bib
+--line 1811 of file 99_references.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 You've used 16 entries,
             3173 wiz_defined-function locations,

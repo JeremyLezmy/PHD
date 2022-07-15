@@ -95,6 +95,7 @@
     "Hicken2009"
     "Inoue2011"
     "iminuit"
+    "Jaeger2020"
     "James:1975dr"
     "JonesScolnic17SNcontam"
     "Jones2018"

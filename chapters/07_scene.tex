@@ -15,7 +15,7 @@ l'espace spectral de la SEDm à partir de la réponse impulsionnelle
 spectrale de l'instrument. Enfin, nous avons également construit un modèle
 de PSF robuste permettant la modélisation de sources ponctuelles.
 
-Dans ce chapite, nous allons tout d'abord détailler le processus de
+Dans ce chapitre, nous allons tout d'abord détailler le processus de
 modélisation de scène, puis nous présenterons les résultats d'extraction des
 différentes composantes qui la composent. Après avoir illustré ces
 résultats dans un cas simple, nous montrerons quelques extractions de cas
@@ -32,7 +32,7 @@ La modélisation de scène implémentée dans \hypergal\ va globalement
 suivre la méthode utilisée pour l'extraction de source ponctuelle,
 présentée dans le chapitre précédent. Les cubes de données (observations) utilisés sont
 préalablement calibrés en flux, en utilisant la courbe de sensibilité
-inverse obtenue à partir de l'étoile standard observée la plus
+obtenue à partir de l'étoile standard observée la plus
 récente. Les rayons cosmiques sont également masqués à l'aide du module
 \pkg{ByeCr} \citep{Kimcontsep}.
 
@@ -103,7 +103,7 @@ En toute rigueur, il faudrait entraîner un modèle de PSF relatif entre
 PS1 et la SEDm. Dans ce travail, nous avons supposé que la correction du
 seeing relatif pouvait être modélisée par une gaussienne 2D asymétrique
 (présentant une potentielle ellipticité). Le seeing des images PS1 et
-de la SEDm n'étant pas fixes, les paramètres \{$\sigma$,
+de la SEDm n'étant pas fixe, les paramètres \{$\sigma$,
 $\mathcal{A}_{G}$, $\mathcal{B}_{G}$\} de ce modèle seront libres
 dans notre modélisation de scène.
 
@@ -149,7 +149,7 @@ par la caméra de guidage.
   \includegraphics[width=0.9\textwidth]{../figures/07_scene/projecthost.png}
   \caption[Projection de la galaxie hôte dans le MLA.]{Projection de la
     galaxie hôte dans le MLA pour une méta-tranche du cube
-    intrinsèque. Pour cet example, nous avons convolué la tranche par une
+    intrinsèque. Pour cet exemple, nous avons convolué la tranche par une
     gaussienne 2D sans ellipticité d'écart type 1 spaxel. La croix rouge indique la position de la supernova
     ZTF18accrorf estimée par la \textit{Rainbow Camera} dans le MLA, qui
     sert d'ancrage à la projection d'un espace spatial à l'autre.}
@@ -713,7 +713,7 @@ résidu notable.
   \includegraphics[width=0.99\textwidth]{../figures/07_scene/output_sn_profile_ZTF18accrorf.pdf}
   \caption[Profile radial et modèle de PSF pour une méta-tranche de
   ZTF18accrorf.]{Profile radial et modèle de PSF pour la méta-tranche à
-    $7050$\AA\ de ZTF18accrorf. Le flux est ici normalisé à $1$. Les
+    $7050$\AA\ de ZTF18accrorf. Le pic du flux est ici normalisé à $1$. Les
     points noirs indiquent les données de la méta-tranche du cube
     d'observation de la SEDm, après soustraction du modèle de la galaxie
   et du fond. Les courbes verte, bleue et rouge montrent respectivement
@@ -790,8 +790,8 @@ Par défaut, le pipeline est optimisé avec la librairie de calculs
 parallèles \pkg{DASK}\footnote{\url{https://www.dask.org}}
 \citep{Dask}. Cet outil permet de sonder, avant de lancer les calculs, l'agencement des
 tâches et leur interdépendances, et de ce fait son utilisation optimise la
-parallélisation de code. Un autre avantage de Dask implémenté avec
-\hypergal est sa capacité à déployer le pipeline vers un cluster
+parallélisation de code. Un autre avantage de \pkg{DASK} implémenté avec
+\hypergal\ est sa capacité à déployer le pipeline vers un cluster
 distribué en plusieurs \textit{workers}. Nous avons configuré \hypergal\
 pour être utilisable localement, mais également dans de tels cluster
 avec un simple argument. Les deux solutions d'ordonnancement de tâches
@@ -800,7 +800,7 @@ disponibles sont SLURM (\textit{Simple Linux Utility for Resource
 \hypergal\ d'être déployé au Centre de Calcul de l'IN2P3 (CC-IN2P3). La
 Figure~\ref{fig:dask} illustre une partie de l'agencement des tâches du
 pipeline \hypergal, allant de la requête des données SEDm et PS1 jusqu'à
-l'agencement des méta-tranches. Chaque bulle sur le schéma correspond à
+l'ajustement des méta-tranches. Chaque bulle sur le schéma correspond à
 une tâche du pipeline (les sorties ne sont pas affichées), et les flèches illustrent les
 interdépendances. L'axe horizontal indique l'ordre de calcul, et l'axe
 vertical la parallélisation des tâches. Quelques étapes majeurs
@@ -816,7 +816,19 @@ de la scène) ne
 sont pas montrées pour une question évidente de clareté. Toutes les
 sorties intermédiaires comme les figures de contrôle, les spectres
 extraits, les paramètres ajustés etc sont sauvegardées au format
-\textit{.hdf} (\textit{Hierarchical Data Format}).
+\textit{.hdf} (\textit{Hierarchical Data Format}). L'utilisation de
+\pkg{DASK} permet de réduire drastiquement le temps de calcul, passant
+de plusieurs heures sur un coeur (calcul linéaire) à $\sim20$
+min en utilisant seulement $10$ coeurs. Plutôt que d'optimiser encore
+plus la rapidité de calcul pour une seule observation, nous avons
+concentrer nos effort sur l'optimisation du calcul simultané de
+nombreuses modélisations. La taille des clusters utilisables au CC-IN2P3
+nous permet ainsi de faire tourner \hypergal\ sur une centaine de cubes
+en environ 1h. Lorsque la modélisation hyperspectrale n'est pas
+nécessaire, comme pour les étoiles standards, l'optimisation est encore
+plus impréssionnante: les $\sim2000$ étoiles standards dont nous avons
+extrait le spectre dans le chapitre~\ref{ch:irf} ont été traitées en
+seulement quelques minutes.
 
 \begin{landscape}
 \begin{figure}
@@ -847,11 +859,11 @@ utilisée initialement dans \pkg{pysedm}. Nous utilisons pour cela le
 software \pkg{SNID}, présenté dans le chapitre~\ref{sec:snid}. Le
 domaine spectral utilisé par défaut pour la classification s'étend entre
 $4000$ et $8000$\AA, les modèles utilisés n'étant généralement pas
-défini en dehors de ce domaine sachant la profondeur en redshift
+définis en dehors de ce domaine sachant la profondeur en redshift
 d'observation de ZTF ($z\leq0.1$). 
 
 Afin de faciliter l'utilisation de \pkg{SNID} initialement écrit en
-\pkg{fortran}, nous utilisons une \textit{wrapper} \pkg{python}:
+\pkg{fortran}, nous utilisons un \textit{wrapper} \pkg{python}:
 \pkg{pysnid}\footnote{\url{https://github.com/MickaelRigault/pysnid}}.
 
 Nous montrons dans la Figure~\ref{fig:snidZTF18accrorf} la
@@ -1020,7 +1032,7 @@ L'association du cube intrinsèque de la galaxie hôte
 SEDm (chapitre~\ref{ch:irf}) a permis la conception d'\hypergal, un nouveau
 pipeline de modélisation de scène pour la SEDm.
 
-\hypergal a été conçu pour répondre à la problématique de la
+\hypergal\ a été conçu pour répondre à la problématique de la
 contamination des supernovae par leur galaxie hôte, en ajustement
 simultanément toute les composantes de la scène observée. Avec cette
 méthode, chaque composante (fond de ciel, supernova et galaxie hôte)
@@ -1033,7 +1045,8 @@ Pour répondre également à un besoin d'efficacité et de simplificiation
 d'utilisation, cet outil est entièrement
 automatisé, optimisé par une méthode de parallélisation implémentée
 avec \pkg{Dask} et utilisable aussi bien localement que via un système
-d'ordonnancement de tâches comme \textit{SLURM} ou \textit{SGE}. 
+d'ordonnancement de tâches comme \textit{SLURM} ou \textit{SGE} dans un
+cluster distribué. 
 
 L'application de ce modéliseur de scène sur des supernovae très
 fortement contaminées par leur galaxie hôte montre un fort potentiel

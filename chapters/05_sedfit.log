@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  8 JUL 2022 10:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  15 JUL 2022 18:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1616,15 +1616,6 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package minitoc Info: I0024
-(minitoc)             PREPARING MINITOCS FROM 05_sedfit.toc on input line 5.
-Package minitoc Info: I0033
-(minitoc)             Writing 05_sedfit.mtc1.
-\openout4 = `05_sedfit.mtc1'.
-
-\tf@toc=\write7
-\openout7 = `05_sedfit.toc'.
-
 
 Chapitre 6.
 \openout4 = `05_sedfit.mtc'.
@@ -1649,15 +1640,74 @@ LaTeX Warning: Reference `ch:hypergal' on page 1 undefined on input line 13.
 
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<../figures/05_sedfit/GPC1focalplan.png, id=65, 663.47874pt x 665.48625pt>
+
+Package natbib Warning: Citation `Kaiser2002' on page 2 undefined on input line
+ 41.
+
+
+Package natbib Warning: Citation `Kaiser2010' on page 2 undefined on input line
+ 41.
+
+
+Package natbib Warning: Citation `ChambersPanstarrs' on page 2 undefined on inp
+ut line 42.
+
+
+Package natbib Warning: Citation `Flewelling2020' on page 2 undefined on input 
+line 42.
+
+
+Package natbib Warning: Citation `ChambersPS1survey' on page 2 undefined on inp
+ut line 48.
+
+
+Package natbib Warning: Citation `Hodapp2004a' on page 2 undefined on input lin
+e 53.
+
+
+Package natbib Warning: Citation `Hodapp2004b' on page 2 undefined on input lin
+e 53.
+
+
+Package natbib Warning: Citation `Hodapp2004c' on page 2 undefined on input lin
+e 53.
+
+
+Package natbib Warning: Citation `Morgan2008' on page 2 undefined on input line
+ 53.
+
+
+Package natbib Warning: Citation `Tonry2006GPC1' on page 2 undefined on input l
+ine 60.
+
+
+Package natbib Warning: Citation `Tonry2008GPC1' on page 2 undefined on input l
+ine 60.
+
+
+Package natbib Warning: Citation `Tonry1997OTA' on page 2 undefined on input li
+ne 63.
+
+
+Package natbib Warning: Citation `Tonry2008GPC1' on page 2 undefined on input l
+ine 63.
+
+<../figures/05_sedfit/GPC1focalplan.png, id=44, 663.47874pt x 665.48625pt>
 File: ../figures/05_sedfit/GPC1focalplan.png Graphic file (type png)
 <use ../figures/05_sedfit/GPC1focalplan.png>
 Package pdftex.def Info: ../figures/05_sedfit/GPC1focalplan.png  used on input 
 line 71.
 (pdftex.def)             Requested size: 182.09486pt x 182.63864pt.
 
+Package natbib Warning: Citation `ChambersPS1survey' on page 2 undefined on inp
+ut line 76.
+
+
+Package natbib Warning: Citation `ChambersPS1survey' on page 2 undefined on inp
+ut line 76.
+
 [2 <../figures/05_sedfit/GPC1focalplan.png>]
-<../figures/05_sedfit/ps1filters.png, id=97, 503.9628pt x 357.4956pt>
+<../figures/05_sedfit/ps1filters.png, id=62, 503.9628pt x 357.4956pt>
 File: ../figures/05_sedfit/ps1filters.png Graphic file (type png)
 <use ../figures/05_sedfit/ps1filters.png>
 Package pdftex.def Info: ../figures/05_sedfit/ps1filters.png  used on input lin
@@ -1665,7 +1715,47 @@ e 93.
 (pdftex.def)             Requested size: 364.19667pt x 258.36215pt.
 
 
+Package natbib Warning: Citation `Tonry2012' on page 3 undefined on input line 
+95.
+
+
+Package natbib Warning: Citation `Tonry2012' on page 3 undefined on input line 
+95.
+
+
+Package natbib Warning: Citation `Oke1983' on page 3 undefined on input line 10
+0.
+
+
+Package natbib Warning: Citation `YorkSDSS2000' on page 3 undefined on input li
+ne 101.
+
+
+Package natbib Warning: Citation `Fukugita1996' on page 3 undefined on input li
+ne 102.
+
+
+Package natbib Warning: Citation `Tonry2012' on page 3 undefined on input line 
+122.
+
+
 LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package natbib Warning: Citation `ChambersPanstarrs' on page 3 undefined on inp
+ut line 168.
+
+
+Package natbib Warning: Citation `Flewelling2020' on page 3 undefined on input 
+line 168.
+
+
+Package natbib Warning: Citation `Waters2020' on page 3 undefined on input line
+ 170.
+
+
+Package natbib Warning: Citation `Waters2020' on page 3 undefined on input line
+ 172.
 
 [3 <../figures/05_sedfit/ps1filters.png>]
 Overfull \hbox (7.28607pt too wide) in paragraph at lines 177--179
@@ -1673,9 +1763,17 @@ Overfull \hbox (7.28607pt too wide) in paragraph at lines 177--179
 ur prendre en compte le ni-veau de base(piédestal)
  []
 
+
+Package natbib Warning: Citation `Waters2020' on page 4 undefined on input line
+ 206.
+
+
+Package natbib Warning: Citation `Waters2020' on page 4 undefined on input line
+ 214.
+
 [4]
-<../figures/05_sedfit/ps_cutouts_ZTF18accrorf.pdf, id=152, 449.59282pt x 441.47
-495pt>
+<../figures/05_sedfit/ps_cutouts_ZTF18accrorf.pdf, id=86, 449.59282pt x 441.474
+95pt>
 File: ../figures/05_sedfit/ps_cutouts_ZTF18accrorf.pdf Graphic file (type pdf)
 <use ../figures/05_sedfit/ps_cutouts_ZTF18accrorf.pdf>
 Package pdftex.def Info: ../figures/05_sedfit/ps_cutouts_ZTF18accrorf.pdf  used
@@ -1690,8 +1788,33 @@ LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 247.
 LaTeX Font Info:    Font shape `T1/cmtt/bx/sc' in size <14.4> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 257.
-[5 <../figures/05_sedfit/ps_cutouts_ZTF18accrorf.pdf>] [6]
-<../figures/05_sedfit/ps_cutouts_ZTF18accrorf_binned.pdf, id=199, 738.8911pt x 
+
+Package natbib Warning: Citation `Burgarella2005' on page 5 undefined on input 
+line 261.
+
+
+Package natbib Warning: Citation `Noll2009' on page 5 undefined on input line 2
+61.
+
+
+Package natbib Warning: Citation `Boquien2019' on page 5 undefined on input lin
+e 264.
+
+[5 <../figures/05_sedfit/ps_cutouts_ZTF18accrorf.pdf>]
+
+Package natbib Warning: Citation `Boquien2019' on page 6 undefined on input lin
+e 281.
+
+
+Package natbib Warning: Citation `SEDM18' on page 6 undefined on input line 327
+.
+
+
+Package natbib Warning: Citation `SEDM18' on page 6 undefined on input line 331
+.
+
+[6]
+<../figures/05_sedfit/ps_cutouts_ZTF18accrorf_binned.pdf, id=117, 738.8911pt x 
 445.25276pt>
 File: ../figures/05_sedfit/ps_cutouts_ZTF18accrorf_binned.pdf Graphic file (typ
 e pdf)
@@ -1700,11 +1823,15 @@ Package pdftex.def Info: ../figures/05_sedfit/ps_cutouts_ZTF18accrorf_binned.pd
 f  used on input line 348.
 (pdftex.def)             Requested size: 450.69417pt x 271.5902pt.
 
+
+Package natbib Warning: Citation `Tonry2012' on page 7 undefined on input line 
+356.
+
+Excluding 'comment' comment.
 Underfull \vbox (badness 1648) has occurred while \output is active []
 
  [7 <../figures/05_sedfit/ps_cutouts_ZTF18accrorf_binned.pdf>]
-Excluding 'comment' comment.
-<../figures/05_sedfit/ps_cutouts_ZTF18accrorf_snrcut.pdf, id=229, 506.7809pt x 
+<../figures/05_sedfit/ps_cutouts_ZTF18accrorf_snrcut.pdf, id=144, 506.7809pt x 
 498.663pt>
 File: ../figures/05_sedfit/ps_cutouts_ZTF18accrorf_snrcut.pdf Graphic file (typ
 e pdf)
@@ -1717,92 +1844,189 @@ f  used on input line 393.
 LaTeX Warning: Reference `sec:sniaztf' on page 8 undefined on input line 413.
 
 Excluding 'comment' comment.
-
-LaTeX Warning: Reference `tab:cigaleinput' on page 8 undefined on input line 46
-2.
-
-[8 <../figures/05_sedfit/ps_cutouts_ZTF18accrorf_snrcut.pdf>]
 LaTeX Font Info:    Font shape `T1/cmtt/bx/sc' in size <12> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 474.
- [9] [10]
-Overfull \hbox (13.30902pt too wide) in alignment at lines 676--676
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 471.
+ [8 <../figures/05_sedfit/ps_cutouts_ZTF18accrorf_snrcut.pdf>]
+
+Package natbib Warning: Citation `Malek2018' on page 9 undefined on input line 
+482.
+
+
+Package natbib Warning: Citation `BCO3' on page 9 undefined on input line 502.
+
+
+Package natbib Warning: Citation `Chabrier2003' on page 9 undefined on input li
+ne 503.
+
+
+Package natbib Warning: Citation `Inoue2011' on page 9 undefined on input line 
+519.
+
+
+Package natbib Warning: Citation `Ferland2013' on page 9 undefined on input lin
+e 519.
+
+[9]
+
+Package natbib Warning: Citation `CharlotFall2000' on page 10 undefined on inpu
+t line 542.
+
+
+Package natbib Warning: Citation `Battisti2016' on page 10 undefined on input l
+ine 565.
+
+
+Package natbib Warning: Citation `Buat2018' on page 10 undefined on input line 
+565.
+
+
+Package natbib Warning: Citation `Malek2018' on page 10 undefined on input line
+ 565.
+
+
+Package natbib Warning: Citation `Chevallard2019' on page 10 undefined on input
+ line 565.
+
+
+Package natbib Warning: Citation `CharlotFall2000' on page 10 undefined on inpu
+t line 568.
+
+
+Package natbib Warning: Citation `LoFaro2017' on page 10 undefined on input lin
+e 571.
+
+
+Package natbib Warning: Citation `Wild2007' on page 10 undefined on input line 
+571.
+
+
+Package natbib Warning: Citation `Cunha2008MAGPHYS' on page 10 undefined on inp
+ut line 571.
+
+
+Package natbib Warning: Citation `Battisti2019' on page 10 undefined on input l
+ine 571.
+
+
+Package natbib Warning: Citation `Dale2014' on page 10 undefined on input line 
+583.
+
+
+Package natbib Warning: Citation `BCO3' on page 10 undefined on input line 673.
+
+
+
+Package natbib Warning: Citation `Chabrier2003' on page 10 undefined on input l
+ine 673.
+
+
+Package natbib Warning: Citation `CharlotFall2000' on page 10 undefined on inpu
+t line 673.
+
+
+Package natbib Warning: Citation `Buat2018' on page 10 undefined on input line 
+673.
+
+
+Package natbib Warning: Citation `Dale2014' on page 10 undefined on input line 
+673.
+
+
+Overfull \hbox (13.30902pt too wide) in alignment at lines 673--673
 [][][] 
  []
 
-[11]
-<../figures/05_sedfit/cigalesinglespectra.pdf, id=363, 854.59277pt x 614.99384p
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package natbib Warning: Citation `Boquien2019' on page 10 undefined on input li
+ne 688.
+
+[10]
+<../figures/05_sedfit/cigalesinglespectra2.pdf, id=188, 1330.9725pt x 853.1875p
 t>
-File: ../figures/05_sedfit/cigalesinglespectra.pdf Graphic file (type pdf)
-<use ../figures/05_sedfit/cigalesinglespectra.pdf>
-Package pdftex.def Info: ../figures/05_sedfit/cigalesinglespectra.pdf  used on 
-input line 706.
-(pdftex.def)             Requested size: 450.69417pt x 324.3405pt.
+File: ../figures/05_sedfit/cigalesinglespectra2.pdf Graphic file (type pdf)
+<use ../figures/05_sedfit/cigalesinglespectra2.pdf>
+Package pdftex.def Info: ../figures/05_sedfit/cigalesinglespectra2.pdf  used on
+ input line 703.
+(pdftex.def)             Requested size: 450.69417pt x 288.89522pt.
 
-Underfull \vbox (badness 1173) has occurred while \output is active []
+Underfull \vbox (badness 7030) has occurred while \output is active []
 
- [12 <../figures/05_sedfit/cigalesinglespectra.pdf>]
-<../figures/05_sedfit/cigale_pullrms_ZTF18accrorf.pdf, id=380, 1062.19835pt x 5
+ [11]
+<../figures/05_sedfit/cigale_pullrms_ZTF18accrorf.pdf, id=199, 1062.19835pt x 5
 86.59103pt>
 File: ../figures/05_sedfit/cigale_pullrms_ZTF18accrorf.pdf Graphic file (type p
 df)
 <use ../figures/05_sedfit/cigale_pullrms_ZTF18accrorf.pdf>
 Package pdftex.def Info: ../figures/05_sedfit/cigale_pullrms_ZTF18accrorf.pdf  
-used on input line 743.
+used on input line 740.
 (pdftex.def)             Requested size: 450.69417pt x 248.89063pt.
- [13 <../figures/05_sedfit/cigale_pullrms_ZTF18accrorf.pdf>]
-<../figures/05_sedfit/cigalesampling.pdf, id=436, 1076.82304pt x 357.7365pt>
+
+[12 <../figures/05_sedfit/cigalesinglespectra2.pdf>] [13 <../figures/05_sedfit/
+cigale_pullrms_ZTF18accrorf.pdf>]
+<../figures/05_sedfit/cigalesampling.pdf, id=266, 1076.82304pt x 357.7365pt>
 File: ../figures/05_sedfit/cigalesampling.pdf Graphic file (type pdf)
 <use ../figures/05_sedfit/cigalesampling.pdf>
 Package pdftex.def Info: ../figures/05_sedfit/cigalesampling.pdf  used on input
- line 797.
+ line 794.
 (pdftex.def)             Requested size: 446.13727pt x 148.21223pt.
  [14
 
  <../figures/05_sedfit/cigalesampling.pdf>]
-<../figures/05_sedfit/intcube_ZTF18accrorf.png, id=461, 1004.40846pt x 348.1968
+<../figures/05_sedfit/intcube_ZTF18accrorf.png, id=291, 1004.40846pt x 348.1968
 5pt>
 File: ../figures/05_sedfit/intcube_ZTF18accrorf.png Graphic file (type png)
 <use ../figures/05_sedfit/intcube_ZTF18accrorf.png>
 Package pdftex.def Info: ../figures/05_sedfit/intcube_ZTF18accrorf.png  used on
- input line 827.
+ input line 824.
 (pdftex.def)             Requested size: 441.58734pt x 153.08487pt.
 
-(./05_sedfit.bbl (./05_sedfit.brf)
-\tf@brf=\write8
-\openout8 = `05_sedfit.brf'.
 
- [15 <../figures/05_sedfit/intcube_ZTF18accrorf.png>] [16
+Package natbib Warning: Citation `BCO3' on page 15 undefined on input line 863.
 
-] [17] [18])
+
+
+Package natbib Warning: There were undefined citations.
+
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the 05_sedfit.maf file.
 \openout4 = `05_sedfit.maf'.
 
 
+Package minitoc(hints) Warning: W0059
+(minitoc(hints))                You have used \minitoc, 
+(minitoc(hints))                but not \dominitoc.
+
+
+Package minitoc(hints) Warning: W0068
+(minitoc(hints))                You have used \minitoc but not 
+(minitoc(hints))                \tableofcontents
+(minitoc(hints))                nor \faketableofcontents.
+
 
 Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the 05_sedfit.log file.
 
-[19] (./05_sedfit.aux)
+[15 <../figures/05_sedfit/intcube_ZTF18accrorf.png>] (./05_sedfit.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `05_sedfit.brf' has not changed.
-(rerunfilecheck)             Checksum: 239DD2A5483A0CC06902D69654047CA2;3040.
  ) 
 Here is how much of TeX's memory you used:
- 47386 strings out of 478994
- 1001466 string characters out of 5858184
- 1567525 words of memory out of 5000000
- 63387 multiletter control sequences out of 15000+600000
- 447735 words of font info for 277 fonts, out of 8000000 for 9000
+ 47100 strings out of 478994
+ 996884 string characters out of 5858184
+ 1547209 words of memory out of 5000000
+ 63169 multiletter control sequences out of 15000+600000
+ 445962 words of font info for 266 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 137i,18n,148p,3274b,937s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 137i,18n,148p,773b,915s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<
 /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
@@ -1826,24 +2050,23 @@ e/2021/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texlive/
 /texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2021/t
 exmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2021/tex
 mf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2021/texmf
--dist/fonts/type1/public/cm-super/sfcc0800.pfb></usr/local/texlive/2021/texmf-d
-ist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2021/texmf-dis
-t/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2021/texmf-dist/
-fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texmf-dist/fo
-nts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2021/texmf-dist/font
-s/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/
-type1/public/cm-super/sftc1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/ty
-pe1/public/cm-super/sftc1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type
-1/public/cm-super/sfti0800.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/
-public/cm-super/sfti1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pu
-blic/cm-super/sftt1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publ
-ic/cm-super/sftt1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public
-/cm-super/sftt1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/c
-m-super/sftt1728.pfb>
-Output written on 05_sedfit.pdf (19 pages, 5282449 bytes).
+-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2021/texmf-d
+ist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2021/texmf-dis
+t/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texmf-dist/
+fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2021/texmf-dist/fo
+nts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/font
+s/type1/public/cm-super/sftc1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/
+type1/public/cm-super/sftc1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/ty
+pe1/public/cm-super/sfti0800.pfb></usr/local/texlive/2021/texmf-dist/fonts/type
+1/public/cm-super/sfti1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/
+public/cm-super/sftt1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pu
+blic/cm-super/sftt1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publ
+ic/cm-super/sftt1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public
+/cm-super/sftt1728.pfb>
+Output written on 05_sedfit.pdf (15 pages, 4974836 bytes).
 PDF statistics:
- 795 PDF objects out of 1000 (max. 8388607)
- 670 compressed objects within 7 object streams
- 100 named destinations out of 1000 (max. 500000)
- 99010 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 471 PDF objects out of 1000 (max. 8388607)
+ 379 compressed objects within 4 object streams
+ 60 named destinations out of 1000 (max. 500000)
+ 96962 words of extra memory for PDF output out of 106986 (max. 10000000)
 

@@ -2,62 +2,62 @@ This is BibTeX, Version 0.99d (TeX Live 2021)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: aa_url2.bst
-Reallocated field_info (elt_size=4) to 10096 items from 5000.
+Reallocated field_info (elt_size=4) to 10180 items from 5000.
 Database file #1: ../chapters/99_references.bib
 Repeated entry---line 539 of file ../chapters/99_references.bib
  : @article{Betoule2014
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1016 of file ../chapters/99_references.bib
+Repeated entry---line 1035 of file ../chapters/99_references.bib
  : @article{Dale2014
  :                  ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "iminuit" isn't style-file defined
---line 1603 of file ../chapters/99_references.bib
+--line 1622 of file ../chapters/99_references.bib
 Warning--entry type for "kelsey_jordahl_2020_3946761" isn't style-file defined
---line 1753 of file ../chapters/99_references.bib
+--line 1811 of file ../chapters/99_references.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty publisher in MinkowskiPOSS
-You've used 182 entries,
+You've used 185 entries,
             3173 wiz_defined-function locations,
-            2275 strings with 104507 characters,
-and the built_in function-call counts, 229805 in all, are:
-= -- 15155
-> -- 28777
+            2301 strings with 107798 characters,
+and the built_in function-call counts, 238089 in all, are:
+= -- 15658
+> -- 30022
 < -- 82
-+ -- 9666
-- -- 9474
-* -- 34496
-:= -- 38825
-add.period$ -- 182
-call.type$ -- 182
-change.case$ -- 3878
-chr.to.int$ -- 174
-cite$ -- 183
-duplicate$ -- 3838
-empty$ -- 5868
-format.name$ -- 9936
-if$ -- 40933
++ -- 10083
+- -- 9888
+* -- 35839
+:= -- 40234
+add.period$ -- 185
+call.type$ -- 185
+change.case$ -- 4028
+chr.to.int$ -- 177
+cite$ -- 186
+duplicate$ -- 3898
+empty$ -- 5960
+format.name$ -- 10356
+if$ -- 42364
 int.to.chr$ -- 9
 int.to.str$ -- 1
-missing$ -- 160
-newline$ -- 550
-num.names$ -- 741
-pop$ -- 3881
+missing$ -- 163
+newline$ -- 559
+num.names$ -- 753
+pop$ -- 4029
 preamble$ -- 1
-purify$ -- 3877
+purify$ -- 4027
 quote$ -- 0
-skip$ -- 3121
+skip$ -- 3167
 stack$ -- 0
-substring$ -- 4220
-swap$ -- 7216
+substring$ -- 4280
+swap$ -- 7504
 text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1638
+type$ -- 1665
 warning$ -- 1
-while$ -- 742
+while$ -- 754
 width$ -- 0
-write$ -- 1985
+write$ -- 2018
 (There were 2 error messages)

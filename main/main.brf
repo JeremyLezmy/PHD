@@ -1,4 +1,6 @@
 \backcite {SEDM18}{{17}{(document)}{Doc-Start}}
+\backcite {Riess1998}{{19}{(document)}{Doc-Start}}
+\backcite {Perlmutter1999}{{19}{(document)}{Doc-Start}}
 \backcite {Einstein1915c}{{24}{1.1.1}{subsection.1.1.1}}
 \backcite {Einstein1915a}{{24}{1.1.1}{subsection.1.1.1}}
 \backcite {Einstein1915b}{{24}{1.1.1}{subsection.1.1.1}}
@@ -27,20 +29,22 @@
 \backcite {Perlmutter1999}{{36}{1.2.3}{subsection.1.2.3}}
 \backcite {Betoule2014}{{36}{1.6}{figure.caption.14}}
 \backcite {Planckparams2018}{{37}{1.2.4}{subsection.1.2.4}}
-\backcite {CPL2001}{{37}{1.2.4}{equation.1.2.44}}
-\backcite {Linder2003}{{37}{1.2.4}{equation.1.2.44}}
-\backcite {Betoule2014}{{38}{1.7}{figure.caption.15}}
-\backcite {Betoule2014}{{38}{1.7}{figure.caption.15}}
-\backcite {Planckparams2018}{{38}{1.7}{figure.caption.15}}
+\backcite {Betoule2014}{{37}{1.7}{figure.caption.15}}
+\backcite {Betoule2014}{{37}{1.7}{figure.caption.15}}
+\backcite {Planckparams2018}{{37}{1.7}{figure.caption.15}}
+\backcite {CPL2001}{{38}{1.2.4}{equation.1.2.44}}
+\backcite {Linder2003}{{38}{1.2.4}{equation.1.2.44}}
 \backcite {Betoule2014}{{38}{1.8}{figure.caption.16}}
+\backcite {Bennett2013}{{38}{1.8}{figure.caption.16}}
 \backcite {Betoule2014}{{38}{1.8}{figure.caption.16}}
 \backcite {Scolnicpantheon18}{{38}{1.8}{figure.caption.16}}
 \backcite {Planckparams2018}{{38}{1.8}{figure.caption.16}}
 \backcite {Minkowski1941}{{40}{2.1.1}{subsection.2.1.1}}
 \backcite {Elias1985}{{40}{2.1.1}{subsection.2.1.1}}
 \backcite {Heger2003}{{40}{2.1.2}{subsection.2.1.2}}
-\backcite {Chandrasekhar}{{40}{2.1.2}{subsection.2.1.2}}
-\backcite {Hoyle1960}{{40}{2.1.2}{subsection.2.1.2}}
+\backcite {Chandrasekhar}{{41}{2.1.2}{subsection.2.1.2}}
+\backcite {Hoyle1960}{{41}{2.1.2}{subsection.2.1.2}}
+\backcite {Jaeger2020}{{41}{\leavevmode {\color {red}1}}{section.2.2}}
 \backcite {Leavitt1908}{{42}{2.2.1}{subsection.2.2.1}}
 \backcite {Leavitt1912}{{42}{2.2.1}{subsection.2.2.1}}
 \backcite {Saha1999}{{42}{2.2.1}{subsection.2.2.1}}
@@ -64,7 +68,7 @@
 \backcite {Guysalt22007}{{47}{2.2.4.2}{subsubsection.2.2.4.2}}
 \backcite {Betoule2014}{{47}{2.2.4.2}{subsubsection.2.2.4.2}}
 \backcite {Betoule2014}{{47}{2.2.4.2}{subsubsection.2.2.4.2}}
-\backcite {Tripp1998}{{48}{2.2.4.2}{equation.2.2.3}}
+\backcite {Tripp1998}{{48}{2.2.4.3}{subsubsection.2.2.4.3}}
 \backcite {Riess2016}{{48}{2.3.1}{subsection.2.3.1}}
 \backcite {Riess1998}{{48}{2.3.1}{subsection.2.3.1}}
 \backcite {Perlmutter1999}{{48}{2.3.1}{subsection.2.3.1}}
@@ -77,6 +81,9 @@
 \backcite {LSSTbook2}{{49}{2.3.2}{subsection.2.3.2}}
 \backcite {GrahamZTF2019}{{49}{2.3.2}{subsection.2.3.2}}
 \backcite {BellmZTF2019}{{49}{2.3.2}{subsection.2.3.2}}
+\backcite {JonesScolnic17SNcontam}{{50}{2.3.2}{figure.caption.22}}
+\backcite {Jones2018}{{50}{2.3.2}{figure.caption.22}}
+\backcite {ChambersPS1survey}{{50}{2.3.2}{figure.caption.22}}
 \backcite {GrahamZTF2019}{{52}{3.1.1}{subsection.3.1.1}}
 \backcite {BellmZTF2019}{{52}{3.1.1}{subsection.3.1.1}}
 \backcite {RauPTF2009}{{52}{3.1.1}{subsection.3.1.1}}

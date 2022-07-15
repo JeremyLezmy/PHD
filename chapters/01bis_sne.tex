@@ -1,17 +1,17 @@
 \documentclass[../main/main.tex]{subfiles}
 \begin{document}
-\dominitoc
-\faketableofcontents
+%\dominitoc
+%\faketableofcontents
 \setcounter{chapter}{1}
 \chapter{Cosmologie avec les Supernovae de type Ia}\label{ch:snia}
 
 \minitoc
 \vspace{2cm}
 
-Tycho Brahé, un astronome considéré comme l'un des pioniers de l'astronomie
+Tycho Brahe, un astronome considéré comme l'un des pionniers de l'astronomie
 observationnelle moderne, observe en 1572 l'apparition soudaine d'une
-nouvelle étoile. Cet objet est alors nommé \textit{nova}, terme latin
-signifiant \textit{nouveau}. En de rares occasions au cours des
+nouvelle étoile. Cet objet est alors nommé \textit{nova stella}, terme latin
+signifiant \textit{nouvelle étoile}. En de rares occasions au cours des
 civilisations, les astronomes ont pu être témoins de tels évènements,
 parfois visibles même en plein jour.
 
@@ -26,7 +26,7 @@ par leurs propriétés spectrales.
 
 Les supernovae de type Ia (SNeIa) sont un type particulier de ces
 objets, ayant la particularité d'avoir une faible dispersion en
-luminosité. Cette propriété leur vaut le titre de chandelles standard,
+luminosité au maximum. Cette propriété leur vaut le titre de chandelles standard,
 et sont ainsi utilisés comme indicateur de distance dans les études
 cosmologiques. 
 
@@ -37,15 +37,15 @@ cosmologie moderne.
 
 \newpage
 
-\section{Zoologie et classification des supernovae}
+\section{Zoologie des supernovae}
 
 \subsection{Caractéristiques principales}
 
 Les supernovae sont principalement classifiées suivant leurs
 caractéristiques spectrales. C'est en 1941 que R. Minkowski
-\citep{Minkowski1941} remarqua pour la première fois l'existance de deux
+\citep{Minkowski1941} remarqua pour la première fois l'existence de deux
 types différents de SNe. Le premier type (I) est caractérisé par
-l'absence d'hydrogène, et le second type (II) en contient.
+l'absence de raie d'hydrogène dans le spectre, et le second type (II) en contient.
 Près d'un demi siècle plus tard, \citet{Elias1985} apporte une
 classification plus fine des types I, séparant les SNe possédant une importante
 raie du silicium (les SNeIa) des Ib et des Ic. Les
@@ -55,6 +55,15 @@ dans leur spectre. La Figure~\ref{fig:snetypes} illustre la forme du
 spectre de différents types de supernovae, indiquant les raies
 d'émissions et d'absorption caractéristiques de chacun.
 
+\begin{figure}[ht]
+  \begin{minipage}[c]{0.59\textwidth}
+    \includegraphics[width=\textwidth]{../figures/01bis_sne/snetype.pdf}
+  \end{minipage}\hfill
+  \begin{minipage}[c]{0.4\textwidth}
+    \caption[Spectre de différents types de supernovae.]{Spectre de
+      différents types de supernovae. Image de H. Stevance\footnote{\url{https://github.com/HeloiseS/Graphics}}}\label{fig:snetypes}
+  \end{minipage}
+\end{figure}
 
 \subsection{Mécanismes d'explosion}
 La physique des SNeIa est considérablement différentes des autres types
@@ -63,19 +72,18 @@ mécanisme d'\textit{effondrement de coeur}, c'est à dire d'implosion
 gravitationnelle. Le progéniteur de ces évènements (étoile qui a donné
 naissance à la supernova), est une étoile massive de plus de $8$ masses solaires
 \citep{Heger2003}. Après avoir consommé tous les éléments légers
-composant son coeur, celui ci s'effondre sur lui même jusqu'à ce que la
+composant son coeur, celui-ci s'effondre sur lui même jusqu'à ce que la
 force d'intéraction forte le stoppe. La pression radiative n'étant plus
 à même de contrer les effets gravitationnels, les couches externes de
 l'étoile tombe vers le centre et rebondissent sur le coeur alors
-incomprésible. L'onde de choc provoque l'explosion de l'étoile en
+incompréssible. L'onde de choc provoque l'explosion de l'étoile en
 supernova.
 La nature du résidu de l'explosion dépend de la masse du progéniteur. Si
 cette masse était de moins de $30\Msun$, le résidu sera une étoile à
-neutrons, dans le cas contraire un trou noir se formera.
+neutrons, dans le cas contraire un trou noir stellaire se formera.
 Pour ces supernovae, la luminosité et son évolution temporelle dépend
 fortement de la composition du progéniteur et de sa masse
-initiale. Ces fortes variabilités n'en font pas de bons candidats en
-tant que chandelles standard pour des mesures de distance.
+initiale. 
 
 Les supernovae de type Ia en revanche auraient pour origine l'explosion
 thermonucléaire d'une naine blanche. Cet objet se créé lorsque la masse d'une étoile n'est pas
@@ -92,7 +100,7 @@ Quand cette limite est atteinte, la pression du gaz d'électrons
 dégénérés n'est plus suffisante pour retenir les forces de pression
 gravitationnelles. La température monte alors suffisamment pour
 permettre la fusion du carbone, ce qui entraîne la combustion totale de
-l'étoile: une supernova de type Ia.
+l'étoile: une supernova de type~Ia.
 
 La faible dispersion en luminosité
 des SNeIa associée à la présence de silicium et de calcium dans leur spectre
@@ -106,36 +114,29 @@ luminosité. Enfin, l'absence d'hélium et d'hydrogène dans le spectre
 d'une SNIa contrairement aux autres type s'explique par l'absence de ces
 éléments dans une naine blanche carbone oxygène.
 
-
-\begin{figure}[ht]
-  \begin{minipage}[c]{0.59\textwidth}
-    \includegraphics[width=\textwidth]{../figures/01bis_sne/snetype.pdf}
-  \end{minipage}\hfill
-  \begin{minipage}[c]{0.4\textwidth}
-    \caption[Spectre de différents types de supernovae.]{Spectre de
-      différents types de supernovae. Image de H. Stevance\footnote{\url{https://github.com/HeloiseS/Graphics}}}\label{fig:snetypes}
-  \end{minipage}
-\end{figure}
-
 \section{Standardisation des SNeIa}
 
 L'évolution temporelle de la luminosité des SNeIa, leur courbe de
 lumière, montre une très forte homogénéité notamment au pic de
 luminosité. Cette particularité, leur donnent des propriétés de
 chandelles standard, permet d'utiliser les SNeIa comme
-indicateurs de distance.
+indicateurs de distance\footnote{Il est à noter que les SNeII peuvent également
+être utilisées pour des mesures de distances par différentes méthodes de
+standardisation \citep{Jaeger2020}, même si actuellement les précisions
+obtenues ne rivalisent pas avec ce que permettent les
+SNeIa.}.
 
 \subsection{Chandelles standardisables}
 Les SNeIa n'étant pas observées dans la Voie Lactée, une calibration
-de leur luminosité est au préalable effectuée à l'aide d'un autre estimateur de
+de leur luminosité peut au préalable être effectuée à l'aide d'un autre estimateur de
 distance extra-galactique.
 Un de ces calibrateurs sont les céphéides, étoiles jeunes présentant des
 pulsations radiales régulières. Ces pulsations entraînent une
 variabilité de leur rayon et de leur température de façon périodique, et
 ainsi de même sur leur luminosité. \citet{Leavitt1908, Leavitt1912} ont
-ainsi montré que la magnitude absolue des céphéides était
+montré que la magnitude absolue des céphéides était
 proportionnelle à leur période de pulsation. En observant de telles
-étoiles dans notre galaxie, les coefficients de proportionnalité de
+étoiles dans notre Galaxie, les coefficients de proportionnalité de
 cette relation ont eux même pu être calibrés par une autre méthode indépendante
 de mesure de distance, la parallaxe stellaire.
 
@@ -149,14 +150,14 @@ la magnitude absolue (au pic) dans la bande V de:
   \label{eq:51}
   \langle M_{V}\rangle=-19.48\pm0.07 
 \end{equation}
-et \citet{Hamuy1995}  montrent une
+et \citet{Hamuy1995} montrent une
 dispersion de luminosité de l'ordre de $\sigma_{M_{V}}\leq0.5$ mag.
 Nous parlons finalement en réalité de chandelles \textit{standardisables}, avec une
-certaine variabilité en luminosité qui doit être corriger. L'étude des
+certaine variabilité en luminosité qui doit être corrigée. L'étude des
 courbes de lumière a permis de déceler des corrélations fortes entre la
 luminosité au maximum et certains paramètres des SNeIa que nous
 définierons plus loin, permettant
-de réduire considérablement cette dispersion. 
+de réduire significativement cette dispersion. 
 
 \subsection{Courbes de lumière et spectres de SNeIa}
 
@@ -177,17 +178,18 @@ $^{56}\text{Co}\rightarrow \, ^{56}\text{Fe}$.
 
 La Figure~\ref{fig:specevolsnia} \citep[extraite de][]{Pereira2013}, expose un exemple d'évolution temporelle du spectre
 d'une SNIa \citep[SN2011fe, découverte par][]{Nugent2011} où nous
-apercevons clairement la variabilité chimique de la supernova. Entre les
+apercevons clairement la variabilité des éléments observés de la
+supernova, au fur et à mesure que les couches de gaz se diffusent. Entre les
 phases ($-15$,$+15$) jours, la
 raie d'absorption du silicium est la caractéristique principale du
-spectre. Elle s'aténue progressivement dans les mois qui suivent
+spectre. Elle s'atténue progressivement dans les mois qui suivent
 l'explosion, et les raies d'émission du fer deviennent à leur tour la caractéristique
 principale du spectre. Cette
 SNIa a été observée par le télescope de l'Université de Hawaï avec le
 spectrographe à champs intégral SNIFS \citep[SuperNova Integrated Field
-Spectrograph][]{SNIFS2004} de la collaboration \textit{Nearby Supernova
+Spectrograph,][]{SNIFS2004} de la collaboration \textit{Nearby Supernova
   Factory} \citep{Aldering2002}.
-On remarque le maximum de luminosité autour de $4000$\AA, et le
+On remarque le maximum de spectre autour de $4000$ \AA, et le
 fait que la majorité de l'énergie de la SNIa est émise dans le proche
 infrarouge, le visible et le proche ultraviolet. 
 
@@ -205,7 +207,7 @@ dans les bandes infrarouges.
   \caption[\'Evolution temporelle du spectre de la SNIa
   SN2011fe.]{\'Evolution temporelle du spectre de la SNIa SN2011fe entre
   $-15$ et $+100$ jours relativement à la phase $0$ (pic de luminosité
-  dans la bande $B$). Figure de \citet{Pereira2013}, réalisée par la
+  dans la bande $B$). Figure de \citet{Pereira2013}, dans le cadre de la
   collaboration SNFactory.}
   \label{fig:specevolsnia}
 \end{figure}
@@ -220,7 +222,7 @@ dans les bandes infrarouges.
   l'ajustement effectué avec le modèle SALT2 (Sec~\ref{ssec:salt2}). Le
   graphique du bas montre les résidus entres les mesures photométriques
   et le modèle ajusté. Les bandes de couleurs indiquent les incertitudes
-  du modèle. Figure de \citet{Pereira2013}, réalisée par la
+  du modèle. Figure de \citet{Pereira2013}, dans le cadre de la
   collaboration SNFactory.}
   \label{fig:lightcurvesnpereira}
 \end{figure}
@@ -231,15 +233,15 @@ dans les bandes infrarouges.
 
 \subsubsection*{La couleur}
 
-La pente générale du spectre d'un objet astrophysique est caractérisée
-par sa couleur. Ce paramètre peut être obtenu en regardant la différence
+La couleur d'un objet astrophysique caractérise la
+pente générale de son spectre. Ce paramètre peut être obtenu en regardant la différence
 de magnitude entre deux bandes photométriques. Pour une SNIa par
 exemple, nous pouvons évaluer la quantité ($B$-$V$)$_{0}$, correspond à
-la différence de magnitude dans les bandes $B$ et $V$ de son référentiel
+la différence de magnitude dans les bandes $B$ et $V$ dans son référentiel
 et à la phase $0$ (maximum de luminosité).
 
-Cette prorpiété peut varier d'un SNIa à une autre. Cette fluctuations
-peut-être de nature extrinsèque, causée par l'extinction due à la
+Cette propriété peut varier d'un SNIa à une autre. Cette fluctuation
+peut être de nature extrinsèque, causée par l'extinction due à la
 poussière présente dans la galaxie hôte de la SN et le long de la ligne
 de visée, ou encore de nature intrinsèque comme une possible variabilité
 du progéniteur.
@@ -247,7 +249,7 @@ Pour une SNIa $i$, on définit l'excès de couleur $c$ comme la différence
 entre sa couleur et celle moyenne de l'échantillon:
 \begin{equation}
   \label{eq:color}
-  c=(B-V)^{i}_{0}-\langle(B-V)_{0}\rangle
+  c_{i}=(B-V)^{i}_{0}-\langle(B-V)_{0}\rangle
 \end{equation}
 
 Par défnition, les SNeIa ayant un excès de couleur négatif seront plus
@@ -261,7 +263,7 @@ homogène, on peut observer (après correction de la dilatation temporelle
 causée par le redshift) des variations sur le temps de montée
 jusqu'au maximum de luminosité ainsi que sur la phase décroissante.
 
-La première description quantitative de cette dilatation résiduelle a
+La première description quantitative de cette dilatation intrinsèque a
 été apportée par \citet{Phillips1993},
 introduisant la quantité $\Delta m_{15}(B)$ définit comme la différence de
 magnitude apparente dans la bande $B$ entre le maximum de luminosité
@@ -272,17 +274,17 @@ quelques années plus tard par \citet{Perlmutter1997}. Ce nouveau
 paramètre $s$, appelé \textit{stretch}, correspond à un facteur
 correctif par lequel il faut dilater l'axe temporel de la courbe de
 lumière d'une SNIa pour qu'elle se superpose à la courbe de lumière
-moyenne d'un échantillon.
+moyenne de l'échantillon.
 \subsubsection*{Maximum de luminosité}
 
-Enfin la luminosité au maximum est la principale prorpiété des SNeIa, car
+Enfin la luminosité au maximum est la principale propriété des SNeIa, car
 c'est à partir de cette mesure que la distance est extraite. 
 Cette luminosité, exprimée par convention dans la bande $B$, présente cependant une dispersion intrinsèque de
 l'ordre de $\sim40\%$ \citep{Hamuy1996}. Nous allons voir comment il est
 possible de réduire cette dispersion, de par l'existence de corrélation
 entre ce maximum de luminosité, et la couleur et le stretch. 
 \clearpage
-\subsection{Modèle \textit{Spectral Adaptive Light-curve Template 2} (SALT2)}\label{ssec:salt2}
+\subsection{Standardisation des SNeIa}\label{ssec:salt2}
 
 \subsubsection{Corrélations}
 
@@ -347,14 +349,14 @@ clairement explicitées.
 \end{figure}
 
 
-\subsubsection{Standardisation et SALT2}
+\subsubsection{Modèle \textit{Spectral Adaptive Light-curve Template} (SALT)}
 
 La standardisation des SNeIa se fait donc en déterminant au préalable
 les paramètres de stretch et de couleur. Une des méthodes existantes est
 la modélisation des courbes de lumière avec le modèle \textit{Spectral
-  Adaptive Light-curve Template 2}
-\citep[SALT2][]{Guysalt2005,Guysalt22007}, et notamment la dernière
-version (\pkg{v2.4}) développée par \citet{Betoule2014}. 
+  Adaptive Light-curve Template}
+\citep[SALT,][]{Guysalt2005,Guysalt22007}, et notamment la dernière
+version (\pkg{v2.4}, même modèle mais avec un entraînement différent) développée par \citet{Betoule2014}. 
 Cette méthode utilise un modèle empirique de densité spectrale en
 énergie (SED) au premier ordre des SNeIa au cours du temps et entraîné avec des données spectrophotométriques provenant de
 SNLS et SDSS \citep{Betoule2014}. En considérant une phase $p$ et une longueur d'onde
@@ -364,24 +366,28 @@ $\lambda$, le flux observé d'une SNIa est exprimée par:
   f(p,\lambda)=x_{0}\left[M_{0}(p,\lambda)+x_{1}M_{1}(p,\lambda)\right]\times\exp\left(c\times
     C_{L}(\lambda)\right)
 \end{equation}
-avec $x_{0}$ un facteur de normalisation, $M_{0}(p,\lambda)$ le SED
+avec $x_{0}$ un facteur de normalisation, $M_{0}(p,\lambda)$ la SED
 moyenne, $M_{1}(p,\lambda)$ la variabilité au premier ordre autour de la
 séquence moyenne et $C_{L}(\lambda)$ une loi de couleur
 entraînée. $x_{1}$ et $c$ sont les paramètres de stretch et de couleur.
-Les paramètres \{$M_{0}$, $M_{1}$, $C_{L}$\} sont des propriétés
+Les patrons \{$M_{0}$, $M_{1}$, $C_{L}$\} sont des propriétés
 globales du modèle, et les paramètres \{$x_{0}$, $x_{1}$, $c$\} sont
 ajustés simultanément sur les courbes de lumière dans toutes les bandes
-disponibles pour une SNIa donnée. La magnitude apparente dans la bande
+disponibles pour une SNIa donnée. La magnitude apparente au maximum dans la bande
 $B$ $m_{B}$ est ensuite déterminée par intégration de la SED du modèle
 dans la bande correspondante.
 
+\subsubsection{Standardisation}
 
+Le modèle SALT permet d'ajuster les paramètres $m_{B}$, $x_{1}$ et
+$c$ pour chaque SNIa. 
 La standardisation des SNeIa se fait finalement par la relation de \citet{Tripp1998}:
 \begin{equation}
   \label{eq:mustandard}
   \mu  = m_{B}- M_{B}+\alpha x_{1}-\beta c
 \end{equation}
-avec $\mu$ le module de distance, $m_{B}$ la magnitude apparente dans la
+avec $\mu$ le module de distance, $m_{B}$ la magnitude apparente
+au maximum dans la
 bande $B$, $M_{B}$ la magnitude absolue standardisée au maximum,$x_{1}$
 le stretch et $c$ la couleur. La magnitude absolue $M_{B}$ ainsi que les coefficients $\alpha$ et $\beta$ sont
 contraints simultanément aux paramètres cosmologiques.
@@ -393,7 +399,7 @@ dans la bande $B$ à seulement $15\%$ $(\sigma_{M_{B}}\approx0.15$ mag).
 \subsection{Construction d'un diagramme de Hubble}
 
 La standardisation des SNeIa permet de reconstruire ce qu'on appelle un
-diagramme de Hubble, qui représente la distance luminosité en fonction
+diagramme de Hubble, qui représente la distance de luminosité en fonction
 du redshift. Nous avons présenté au premier chapitre
 (Figure~\ref{fig:hubble}) le tout premier diagramme de ce genre, réalisé
 avec des Céphéides par Edwin Hubble, et mettant en évidence l'expansion
@@ -412,27 +418,23 @@ distance introduit plus tôt (eq~\ref{eq:mustandard}), avec la méthode de
 standardisation des SNeIa. 
 
 On rappelle que le module de distance est défini comme
-$\mu=5\log_{10}(d_{L})-5$ (eq~\ref{eq:distmodulemu}), et dépend donc des paramètres cosmologiques.
+$\mu\triangleq5\log_{10}(d_{L}/10[\text{pc}])$ (eq.~\ref{eq:distmodulemu}), et dépend donc des paramètres cosmologiques.
 On défini le module de distance théorique pour une SNIa $i$ par:
 \begin{equation}
   \label{eq:mutheo}
-  \mu_{th,i} = \mu_{th,i}\left(z_{i}, \Omega_{M}, w_{0}, w_{a}\right)
+  \mu_{th,i} = \mu_{th,i}\left(z_{i}, \theta\right)
 \end{equation}
-dans le cadre d'un modèle cosmologique préalablement choisi, par exemple
-ici $w_{z}$-\lcdm, Univers plat laissant libre l'équation d'état de
-l'énergie sombre. 
+où $\theta$
+représente les paramètres cosmologiques dans le cadre d'un modèle cosmologique préalablement choisi.\footnote{Par exemple dans le cadre d'un
+Univers \lcdm\ (plat avec une constante cosmologique),
+$\Omega_{M}$ et $\Omega_{DE}$ étant reliés par la relation de
+fermeture ($\Omega_{M}+\Omega_{DE}=1$), $\Omega_{M}$ est le seule paramètre cosmologique libre.}.
 
 Les paramètres du module de distance
-observé (eq~\ref{eq:mustandard}) $M_{B}$, $\alpha$ et
+observé (eq.~\ref{eq:mustandard}) $M_{B}$, $\alpha$ et
 $\beta$ sont simultanément contraints avec les paramètres cosmologiques.
 
-On notera que dans le cadre d'un Univers supposé \textit{a priori} plat,
-alors $\Omega_{M}$ et $\Omega_{DE}$ sont reliés par la relation de
-fermeture ($\Omega_{M}+\Omega_{DE}=1$). Donc pour un modèle \lcdm\
-($w_{0}=-1$ et $w_{a}=0$) $\Omega_{M}$ est le seule paramètre cosmologique libre.
-
-En général la constante de Hubble $H_{0}$ est fixé. On peut en effet
-facilement montrer qu'il est impossible de contraindre simultanément
+On peut facilement montrer qu'il est impossible de contraindre simultanément
 $M_{B}$ et $H_{0}$. Il suffit pour cela de développer le résidu de
 Hubble, c'est à dire la différence entre le module de distance observé et le
 module de distance théorique pour une SNIa donnée:
@@ -448,21 +450,21 @@ module de distance théorique pour une SNIa donnée:
     5\log_{10}\left(f(z,\Omega_{M},w_{0},w_{a})\right)
     +2.5\log_{10}\left(\frac{LH_{0}^{2}100[\text{pc}^{2}]}{c^{2}L_{0}}\right)
 \end{align}
-où nous avons supposé un modèle $w_{z}$-\lcdm\ et $E(z)$ ne dépend que des
+où $E(z)$ ne dépend que des
 paramètres cosmologiques et du redshift (eq~\ref{eq:Ez}). La luminosité
-$L$ et la constante de Hubble $H_{0}$ sont des paramètres dégénérés ne
+$L$ (et donc $M_{B}$) et la constante de Hubble $H_{0}$ sont des paramètres dégénérés ne
 pouvant être contraints simultanément.
 
 Dans le cas d'une calibration absolue des Supernovae avec un autre
 indicateur de distance à bas redshift comme les céphéides, il est possible de fixer
 $M_{B}$ pour contraindre $H_0$ comme effectué par \citet{Riess2016}. Dans le cas où $M_{B}$ est laissé libre, et où on
-s'intéresse donc aux distances relatives, alors $H_{0}$ est fixé et seuls les paramètres
+s'intéresse donc aux distances relatives, alors $H_{0}$ est marginalisé et seuls les paramètres
 cosmologiques ($\Omega_i$) sont ajustés.
 
 L'ajustement se fait habituellement par la méthode de moindre carrés
 avec la minimisation d'un $\chi^{2}$, en utilisant une matrice de
-covariance comprenant les erreurs statistiques et systématiques que nous
-ne détaillerons pas ici \citep[voir][]{Betoule2014}.
+covariance comprenant les erreurs statistiques que nous
+ne détaillerons pas ici \citep{Betoule2014}.
 
 \subsection{Sonder l'équation d'état de l'énergie sombre avec les SNeIa}
 
@@ -482,14 +484,14 @@ les paramètres d'énergie sombre.
 
 Nous illustrons cela dans la Figure~\ref{fig:evolv_DEstate}, où nous
 comparons différents modèles d'équation d'état de l'énergie sombre, avec
-ou sans variation temporelle, par rapport au modèle standard \lcdm\ et
+ou sans variation cosmique, par rapport au modèle standard \lcdm\ et
 mis à l'échelle de l'époque du CMB ($z\sim1000$). Les plus grandes
 variations de module de distance ($\lvert\Delta\mu\rvert\sim20$mmag) se situent à bas
 redshift $z<0.03$ et à $z\sim1.5$. Les précisions actuelles sur $w$ sont
 de l'ordre de $5\%$, et une déviation de $2\%$ par rapport à \lcdm\ ne
 représentent qu'une variation en module de distance de
 $3$\textperthousand. Cet objectif est celui du \textit{Legacy Survey of Space and Time} \citep[LSST;][]{LSSTbook2}, relevé
-astronomique grand champ qui sera lancé en 2023 et qui permettra de
+astronomique grand champ qui sera initié en 2023 et qui permettra de
 sonder les SNeIa autour de $0.2<z<1$. Une ancre à bas redshift est donc
 nécessaire, et ce rôle sera probablement rempli par le relevé Zwicky
 Transient Facility \citep[ZTF;][]{GrahamZTF2019,BellmZTF2019} pour
@@ -500,16 +502,16 @@ lequel nous dédions le chapitre suivant.
   \includegraphics[width=0.99\textwidth]{../figures/01_cosmology/darkenergy_variation.pdf}
   \caption[Différence de module de distance en fonction du redshift pour
   différentes équation d'état de l'énergie sombre.]{Différence de module de distance en fonction du redshift pour
-  différentes équation d'état de l'énergie sombre par rapport à \lcdm\
-  ($w=0$). Les modèles sont configurés pour se rejoindre à l'époque du
-  CMB. Nous illustrons ici l'importance des échantillons à bas redshitf,
-et la précision nécessaire sur le module de distance pour détecter une
-variation de quelques poucents de $w$. Les bandes de couleurs sur l'axe
-des abscisses indiquent la profondeur en redshift des différents
-relevés. ZTF est en opération depuis 2018, LSST le sera en 2023 et tout
-deux sont des relevés depuis le sol. Nancy Grace Roman Telescope, spatial, sera
-lancé dans le meilleur des cas en 2027, et sondera le ciel profond
-jusqu'à des redshift de l'ordre de $z\sim2.5$.} 
+    différentes équation d'état de l'énergie sombre par rapport à \lcdm\
+    ($w=0$). Les modèles sont normalisés pour se rejoindre à l'époque du
+    CMB. Nous illustrons ici l'importance des échantillons à bas redshift,
+    et la précision nécessaire sur le module de distance pour détecter une
+    variation de quelques poucents de $w$. Les bandes de couleurs sur l'axe
+    des abscisses indiquent la profondeur en redshift des différents
+    relevés. ZTF est en opération depuis 2018, LSST le sera en 2023 et tout
+    deux sont des relevés depuis le sol. Nancy Grace Roman Telescope, spatial, sera
+    lancé dans le meilleur des cas en 2027, et sondera le ciel profond
+    jusqu'à des redshift de l'ordre de $z\sim2.5$.} 
   \label{fig:evolv_DEstate}
 \end{figure}
 
@@ -530,8 +532,8 @@ l'énergie sombre. La construction d'un échantillon de SNeIa non
 contaminé est par conséquent d'une importance cruciale, et c'est pour
 cela que la classification par spectroscopie est fortement privilégiée.
 
-\bibliographystyle{../main/aa_url2}
-\bibliography{99_references}
+%\bibliographystyle{../main/aa_url2}
+%\bibliography{99_references}
 \end{document}
 
 %%% Local Variables:

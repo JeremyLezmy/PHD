@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  10 JUL 2022 18:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  15 JUL 2022 18:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1616,15 +1616,6 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package minitoc Info: I0024
-(minitoc)             PREPARING MINITOCS FROM 07_scene.toc on input line 4.
-Package minitoc Info: I0033
-(minitoc)             Writing 07_scene.mtc1.
-\openout4 = `07_scene.mtc1'.
-
-\tf@toc=\write7
-\openout7 = `07_scene.toc'.
-
 
 Chapitre 8.
 \openout4 = `07_scene.mtc'.
@@ -1645,13 +1636,28 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+Package natbib Warning: Citation `Kimcontsep' on page 2 undefined on input line
+ 37.
+
+
+Package natbib Warning: Citation `shapely2007' on page 2 undefined on input lin
+e 62.
+
 Excluding 'comment' comment. [2]
-<../figures/07_scene/projecthost.png, id=70, 715.473pt x 354.123pt>
+
+Package natbib Warning: Citation `kelsey_jordahl_2020_3946761' on page 3 undefi
+ned on input line 129.
+
+<../figures/07_scene/projecthost.png, id=62, 715.473pt x 354.123pt>
 File: ../figures/07_scene/projecthost.png Graphic file (type png)
 <use ../figures/07_scene/projecthost.png>
 Package pdftex.def Info: ../figures/07_scene/projecthost.png  used on input lin
 e 149.
 (pdftex.def)             Requested size: 409.71692pt x 202.78699pt.
+
+Package natbib Warning: Citation `Waters2020' on page 3 undefined on input line
+ 178.
 
 
 LaTeX Warning: Reference `ch:irf' on page 3 undefined on input line 181.
@@ -1665,16 +1671,29 @@ LaTeX Warning: Reference `eq:psfmodelconstraint' on page 4 undefined on input l
 ine 198.
 
 
+Package natbib Warning: Citation `SEDM18' on page 4 undefined on input line 218
+.
+
+
 LaTeX Warning: Reference `fig:allratio_std' on page 4 undefined on input line 2
 20.
 
 [4 <../figures/07_scene/projecthost.png>]
-<../figures/07_scene/artefactssedmcube.pdf, id=98, 715.47299pt x 436.79988pt>
+<../figures/07_scene/artefactssedmcube.pdf, id=82, 715.47299pt x 436.79988pt>
 File: ../figures/07_scene/artefactssedmcube.pdf Graphic file (type pdf)
 <use ../figures/07_scene/artefactssedmcube.pdf>
 Package pdftex.def Info: ../figures/07_scene/artefactssedmcube.pdf  used on inp
 ut line 242.
 (pdftex.def)             Requested size: 273.14923pt x 166.75882pt.
+
+
+Package natbib Warning: Citation `James:1975dr' on page 5 undefined on input li
+ne 319.
+
+
+Package natbib Warning: Citation `iminuit' on page 5 undefined on input line 31
+9.
+
 
 Overfull \hbox (17.62482pt too wide) in paragraph at lines 325--342
 []$[]$ 
@@ -1686,7 +1705,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 325--342
  []
 
 [5 <../figures/07_scene/artefactssedmcube.pdf>]
-<../figures/07_scene/fitted_metasliceZTF18accrorf_0.png, id=137, 1088.17972pt x
+<../figures/07_scene/fitted_metasliceZTF18accrorf_0.png, id=115, 1088.17972pt x
  315.30368pt>
 File: ../figures/07_scene/fitted_metasliceZTF18accrorf_0.png Graphic file (type
  png)
@@ -1694,7 +1713,7 @@ File: ../figures/07_scene/fitted_metasliceZTF18accrorf_0.png Graphic file (type
 Package pdftex.def Info: ../figures/07_scene/fitted_metasliceZTF18accrorf_0.png
   used on input line 357.
 (pdftex.def)             Requested size: 364.19667pt x 105.52754pt.
-<../figures/07_scene/fitted_metasliceZTF18accrorf_1.png, id=138, 1088.17972pt x
+<../figures/07_scene/fitted_metasliceZTF18accrorf_1.png, id=116, 1088.17972pt x
  293.82918pt>
 File: ../figures/07_scene/fitted_metasliceZTF18accrorf_1.png Graphic file (type
  png)
@@ -1702,7 +1721,7 @@ File: ../figures/07_scene/fitted_metasliceZTF18accrorf_1.png Graphic file (type
 Package pdftex.def Info: ../figures/07_scene/fitted_metasliceZTF18accrorf_1.png
   used on input line 358.
 (pdftex.def)             Requested size: 364.19667pt x 98.34035pt.
-<../figures/07_scene/fitted_metasliceZTF18accrorf_2.png, id=139, 1088.17972pt x
+<../figures/07_scene/fitted_metasliceZTF18accrorf_2.png, id=117, 1088.17972pt x
  293.82918pt>
 File: ../figures/07_scene/fitted_metasliceZTF18accrorf_2.png Graphic file (type
  png)
@@ -1710,7 +1729,7 @@ File: ../figures/07_scene/fitted_metasliceZTF18accrorf_2.png Graphic file (type
 Package pdftex.def Info: ../figures/07_scene/fitted_metasliceZTF18accrorf_2.png
   used on input line 359.
 (pdftex.def)             Requested size: 364.19667pt x 98.34035pt.
-<../figures/07_scene/fitted_metasliceZTF18accrorf_3.png, id=140, 1088.17972pt x
+<../figures/07_scene/fitted_metasliceZTF18accrorf_3.png, id=118, 1088.17972pt x
  293.82918pt>
 File: ../figures/07_scene/fitted_metasliceZTF18accrorf_3.png Graphic file (type
  png)
@@ -1718,7 +1737,7 @@ File: ../figures/07_scene/fitted_metasliceZTF18accrorf_3.png Graphic file (type
 Package pdftex.def Info: ../figures/07_scene/fitted_metasliceZTF18accrorf_3.png
   used on input line 360.
 (pdftex.def)             Requested size: 364.19667pt x 98.34035pt.
-<../figures/07_scene/fitted_metasliceZTF18accrorf_4.png, id=141, 1088.17972pt x
+<../figures/07_scene/fitted_metasliceZTF18accrorf_4.png, id=119, 1088.17972pt x
  293.82918pt>
 File: ../figures/07_scene/fitted_metasliceZTF18accrorf_4.png Graphic file (type
  png)
@@ -1726,7 +1745,7 @@ File: ../figures/07_scene/fitted_metasliceZTF18accrorf_4.png Graphic file (type
 Package pdftex.def Info: ../figures/07_scene/fitted_metasliceZTF18accrorf_4.png
   used on input line 361.
 (pdftex.def)             Requested size: 364.19667pt x 98.34035pt.
-<../figures/07_scene/fitted_metasliceZTF18accrorf_5.png, id=142, 1088.17972pt x
+<../figures/07_scene/fitted_metasliceZTF18accrorf_5.png, id=120, 1088.17972pt x
  293.82918pt>
 File: ../figures/07_scene/fitted_metasliceZTF18accrorf_5.png Graphic file (type
  png)
@@ -1738,7 +1757,7 @@ Package pdftex.def Info: ../figures/07_scene/fitted_metasliceZTF18accrorf_5.png
 
 LaTeX Warning: Float too large for page by 39.39894pt on input line 374.
 
-<../figures/07_scene/heatmapcorrelation_metaslice.pdf, id=144, 945.44594pt x 51
+<../figures/07_scene/heatmapcorrelation_metaslice.pdf, id=122, 945.44594pt x 51
 5.98853pt>
 File: ../figures/07_scene/heatmapcorrelation_metaslice.pdf Graphic file (type p
 df)
@@ -1755,7 +1774,7 @@ e/fitted_metasliceZTF18accrorf_1.png> <../figures/07_scene/fitted_metasliceZTF1
 8accrorf_2.png> <../figures/07_scene/fitted_metasliceZTF18accrorf_3.png> <../fi
 gures/07_scene/fitted_metasliceZTF18accrorf_4.png> <../figures/07_scene/fitted_
 metasliceZTF18accrorf_5.png>]
-<../figures/07_scene/chromaticity_targetZTF18accrorf.pdf, id=172, 1075.27809pt 
+<../figures/07_scene/chromaticity_targetZTF18accrorf.pdf, id=150, 1075.27809pt 
 x 408.03513pt>
 File: ../figures/07_scene/chromaticity_targetZTF18accrorf.pdf Graphic file (typ
 e pdf)
@@ -1764,7 +1783,7 @@ Package pdftex.def Info: ../figures/07_scene/chromaticity_targetZTF18accrorf.pd
 f  used on input line 424.
 (pdftex.def)             Requested size: 355.08984pt x 134.74539pt.
  [8 <../figures/07_scene/heatmapcorrelation_metaslice.pdf>]
-<../figures/07_scene/chromaticity_hostZTF18accrorf.pdf, id=221, 1090.81207pt x 
+<../figures/07_scene/chromaticity_hostZTF18accrorf.pdf, id=199, 1090.81207pt x 
 398.87376pt>
 File: ../figures/07_scene/chromaticity_hostZTF18accrorf.pdf Graphic file (type 
 pdf)
@@ -1772,7 +1791,7 @@ pdf)
 Package pdftex.def Info: ../figures/07_scene/chromaticity_hostZTF18accrorf.pdf 
  used on input line 452.
 (pdftex.def)             Requested size: 355.08984pt x 129.84544pt.
-<../figures/07_scene/adr_ZTF18accrorf.pdf, id=223, 1023.72232pt x 695.763pt>
+<../figures/07_scene/adr_ZTF18accrorf.pdf, id=201, 1023.72232pt x 695.763pt>
 File: ../figures/07_scene/adr_ZTF18accrorf.pdf Graphic file (type pdf)
 <use ../figures/07_scene/adr_ZTF18accrorf.pdf>
 Package pdftex.def Info: ../figures/07_scene/adr_ZTF18accrorf.pdf  used on inpu
@@ -1785,13 +1804,17 @@ LaTeX Warning: Reference `ch:irf' on page 9 undefined on input line 480.
 
 LaTeX Warning: Reference `ch:irf' on page 9 undefined on input line 480.
 
+
+Package natbib Warning: Citation `Huber1964' on page 9 undefined on input line 
+488.
+
 [9 <../figures/07_scene/chromaticity_targetZTF18accrorf.pdf> <../figures/07_sce
 ne/chromaticity_hostZTF18accrorf.pdf
 
 pdfTeX warning: pdflatex (file ../figures/07_scene/chromaticity_hostZTF18accror
 f.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<../figures/07_scene/softl1.pdf, id=271, 721.86252pt x 335.73703pt>
+<../figures/07_scene/softl1.pdf, id=246, 721.86252pt x 335.73703pt>
 File: ../figures/07_scene/softl1.pdf Graphic file (type pdf)
 <use ../figures/07_scene/softl1.pdf>
 Package pdftex.def Info: ../figures/07_scene/softl1.pdf  used on input line 521
@@ -1801,7 +1824,7 @@ Package pdftex.def Info: ../figures/07_scene/softl1.pdf  used on input line 521
 
 LaTeX Warning: Reference `eq:rms' on page 11 undefined on input line 561.
 
-<../figures/07_scene/scene_rmspull_ZTF18accrorf.png, id=305, 662.19969pt x 648.
+<../figures/07_scene/scene_rmspull_ZTF18accrorf.png, id=280, 662.19969pt x 648.
 15866pt>
 File: ../figures/07_scene/scene_rmspull_ZTF18accrorf.png Graphic file (type png
 )
@@ -1811,14 +1834,26 @@ ed on input line 575.
 (pdftex.def)             Requested size: 364.19667pt x 356.47847pt.
 [11 <../figures/07_scene/softl1.pdf>] [12 <../figures/07_scene/scene_rmspull_ZT
 F18accrorf.png>]
-<../figures/07_scene/output_host_ZTF18accrorf.pdf, id=352, 1230.60289pt x 380.9
+
+Package natbib Warning: Citation `Barbary2016Sep' on page 13 undefined on input
+ line 611.
+
+
+Package natbib Warning: Citation `Bertinsextractor' on page 13 undefined on inp
+ut line 612.
+
+
+Package natbib Warning: Citation `Morton1991' on page 13 undefined on input lin
+e 635.
+
+<../figures/07_scene/output_host_ZTF18accrorf.pdf, id=321, 1230.60289pt x 380.9
 182pt>
 File: ../figures/07_scene/output_host_ZTF18accrorf.pdf Graphic file (type pdf)
 <use ../figures/07_scene/output_host_ZTF18accrorf.pdf>
 Package pdftex.def Info: ../figures/07_scene/output_host_ZTF18accrorf.pdf  used
  on input line 642.
 (pdftex.def)             Requested size: 450.69417pt x 139.50188pt.
-<../figures/07_scene/output_sn_ifu_ZTF18accrorf.pdf, id=354, 1081.008pt x 401.1
+<../figures/07_scene/output_sn_ifu_ZTF18accrorf.pdf, id=323, 1081.008pt x 401.1
 3895pt>
 File: ../figures/07_scene/output_sn_ifu_ZTF18accrorf.pdf Graphic file (type pdf
 )
@@ -1826,8 +1861,8 @@ File: ../figures/07_scene/output_sn_ifu_ZTF18accrorf.pdf Graphic file (type pdf
 Package pdftex.def Info: ../figures/07_scene/output_sn_ifu_ZTF18accrorf.pdf  us
 ed on input line 679.
 (pdftex.def)             Requested size: 450.69417pt x 167.24078pt.
- [13]
-<../figures/07_scene/output_sn_profile_ZTF18accrorf.pdf, id=369, 1049.62218pt x
+[13]
+<../figures/07_scene/output_sn_profile_ZTF18accrorf.pdf, id=335, 1049.62218pt x
  426.39299pt>
 File: ../figures/07_scene/output_sn_profile_ZTF18accrorf.pdf Graphic file (type
  pdf)
@@ -1835,7 +1870,7 @@ File: ../figures/07_scene/output_sn_profile_ZTF18accrorf.pdf Graphic file (type
 Package pdftex.def Info: ../figures/07_scene/output_sn_profile_ZTF18accrorf.pdf
   used on input line 713.
 (pdftex.def)             Requested size: 450.69417pt x 183.09166pt.
-<../figures/07_scene/output_sn_spectra_ZTF18accrorf.pdf, id=371, 927.47487pt x 
+<../figures/07_scene/output_sn_spectra_ZTF18accrorf.pdf, id=337, 927.47487pt x 
 413.65685pt>
 File: ../figures/07_scene/output_sn_spectra_ZTF18accrorf.pdf Graphic file (type
  pdf)
@@ -1843,7 +1878,7 @@ File: ../figures/07_scene/output_sn_spectra_ZTF18accrorf.pdf Graphic file (type
 Package pdftex.def Info: ../figures/07_scene/output_sn_spectra_ZTF18accrorf.pdf
   used on input line 738.
 (pdftex.def)             Requested size: 450.69417pt x 201.00835pt.
-<../figures/07_scene/overlapped_component_ZTF18accrorf.pdf, id=374, 1293.63306p
+<../figures/07_scene/overlapped_component_ZTF18accrorf.pdf, id=340, 1293.63306p
 t x 570.21031pt>
 File: ../figures/07_scene/overlapped_component_ZTF18accrorf.pdf Graphic file (t
 ype pdf)
@@ -1851,9 +1886,33 @@ ype pdf)
 Package pdftex.def Info: ../figures/07_scene/overlapped_component_ZTF18accrorf.
 pdf  used on input line 764.
 (pdftex.def)             Requested size: 450.69417pt x 198.65433pt.
- [14 <../figures/07_scene/output_host_ZTF18accrorf.pdf>]
-[15 <../figures/07_scene/output_sn_ifu_ZTF18accrorf.pdf> <../figures/07_scene/o
-utput_sn_profile_ZTF18accrorf.pdf
+
+
+Package natbib Warning: Citation `skyportal2019' on page 14 undefined on input 
+line 785.
+
+
+Package natbib Warning: Citation `duev2019real' on page 14 undefined on input l
+ine 785.
+
+
+Package natbib Warning: Citation `Kasliwal_2019' on page 14 undefined on input 
+line 785.
+
+
+Package natbib Warning: Citation `Duev2021' on page 14 undefined on input line 
+785.
+
+
+Package natbib Warning: Citation `Dask' on page 14 undefined on input line 791.
+
+
+
+LaTeX Warning: Reference `ch:irf' on page 14 undefined on input line 830.
+
+[14 <../figures/07_scene/output_host_ZTF18accrorf.pdf>] [15 <../figures/07_scen
+e/output_sn_ifu_ZTF18accrorf.pdf> <../figures/07_scene/output_sn_profile_ZTF18a
+ccrorf.pdf
 
 pdfTeX warning: pdflatex (file ../figures/07_scene/output_sn_profile_ZTF18accro
 rf.pdf): PDF inclusion: multiple pdfs with page group included in a single page
@@ -1865,51 +1924,51 @@ pdfTeX warning: pdflatex (file ../figures/07_scene/overlapped_component_ZTF18ac
 crorf.pdf): PDF inclusion: multiple pdfs with page group included in a single p
 age
 >] [17]
-<../figures/07_scene/Fulldaghypergal.pdf, id=493, 845.1575pt x 597.23125pt>
+<../figures/07_scene/Fulldaghypergal.pdf, id=431, 845.1575pt x 597.23125pt>
 File: ../figures/07_scene/Fulldaghypergal.pdf Graphic file (type pdf)
 <use ../figures/07_scene/Fulldaghypergal.pdf>
 Package pdftex.def Info: ../figures/07_scene/Fulldaghypergal.pdf  used on input
- line 824.
+ line 836.
 (pdftex.def)             Requested size: 667.59071pt x 471.76195pt.
 
 
-LaTeX Warning: Float too large for page by 41.01782pt on input line 828.
+LaTeX Warning: Float too large for page by 41.01782pt on input line 840.
 
 [18 <../figures/07_scene/Fulldaghypergal.pdf, page is rotated 270 degrees>]
-<../figures/07_scene/mydask.pdf, id=509, 1026.21693pt x 706.06013pt>
+<../figures/07_scene/mydask.pdf, id=448, 1026.21693pt x 706.06013pt>
 File: ../figures/07_scene/mydask.pdf Graphic file (type pdf)
 <use ../figures/07_scene/mydask.pdf>
-Package pdftex.def Info: ../figures/07_scene/mydask.pdf  used on input line 835
+Package pdftex.def Info: ../figures/07_scene/mydask.pdf  used on input line 847
 .
 (pdftex.def)             Requested size: 674.33032pt x 463.96492pt.
 
 
-LaTeX Warning: Float too large for page by 47.7208pt on input line 839.
+LaTeX Warning: Float too large for page by 47.7208pt on input line 851.
 
 [19 <../figures/07_scene/mydask.pdf>]
 
 LaTeX Font Warning: Font shape `T1/cmtt/bx/sc' undefined
-(Font)              using `T1/cmtt/bx/n' instead on input line 841.
+(Font)              using `T1/cmtt/bx/n' instead on input line 853.
 
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 841.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 853.
 
-LaTeX Warning: Reference `sec:snid' on page 20 undefined on input line 847.
+LaTeX Warning: Reference `sec:snid' on page 20 undefined on input line 859.
 
 
 LaTeX Warning: Reference `fig:easycaseextractionpysedm' on page 20 undefined on
- input line 861.
+ input line 873.
 
-<../figures/07_scene/ZTF18accrorf_snid_typing.pdf, id=546, 647.31387pt x 205.50
+<../figures/07_scene/ZTF18accrorf_snid_typing.pdf, id=485, 647.31387pt x 205.50
 137pt>
 File: ../figures/07_scene/ZTF18accrorf_snid_typing.pdf Graphic file (type pdf)
 <use ../figures/07_scene/ZTF18accrorf_snid_typing.pdf>
 Package pdftex.def Info: ../figures/07_scene/ZTF18accrorf_snid_typing.pdf  used
- on input line 890.
+ on input line 902.
 (pdftex.def)             Requested size: 432.48051pt x 137.30264pt.
 
-LaTeX Warning: Reference `fig:stronghost' on page 20 undefined on input line 91
-9.
+LaTeX Warning: Reference `fig:stronghost' on page 20 undefined on input line 93
+1.
 
 [20
 
@@ -1918,157 +1977,161 @@ LaTeX Warning: Reference `fig:stronghost' on page 20 undefined on input line 91
 
 ]
 
-LaTeX Warning: Reference `ch:sedm' on page 21 undefined on input line 933.
+LaTeX Warning: Reference `ch:sedm' on page 21 undefined on input line 945.
 
-<../figures/07_scene/scene_rmspull_ZTF19acbjlnt.png, id=558, 1073.9322pt x 281.
+<../figures/07_scene/scene_rmspull_ZTF19acbjlnt.png, id=497, 1073.9322pt x 281.
 23354pt>
 File: ../figures/07_scene/scene_rmspull_ZTF19acbjlnt.png Graphic file (type png
 )
 <use ../figures/07_scene/scene_rmspull_ZTF19acbjlnt.png>
 Package pdftex.def Info: ../figures/07_scene/scene_rmspull_ZTF19acbjlnt.png  us
-ed on input line 953.
+ed on input line 965.
 (pdftex.def)             Requested size: 409.71692pt x 107.29468pt.
-<../figures/07_scene/output_host_ZTF19acbjlnt.png, id=559, 1229.60178pt x 380.8
+<../figures/07_scene/output_host_ZTF19acbjlnt.png, id=498, 1229.60178pt x 380.8
 629pt>
 File: ../figures/07_scene/output_host_ZTF19acbjlnt.png Graphic file (type png)
 <use ../figures/07_scene/output_host_ZTF19acbjlnt.png>
 Package pdftex.def Info: ../figures/07_scene/output_host_ZTF19acbjlnt.png  used
- on input line 954.
+ on input line 966.
 (pdftex.def)             Requested size: 386.96027pt x 119.8562pt.
-<../figures/07_scene/output_target_ZTF19acbjlnt.png, id=560, 1209.65526pt x 382
+<../figures/07_scene/output_target_ZTF19acbjlnt.png, id=499, 1209.65526pt x 382
 .45284pt>
 File: ../figures/07_scene/output_target_ZTF19acbjlnt.png Graphic file (type png
 )
 <use ../figures/07_scene/output_target_ZTF19acbjlnt.png>
 Package pdftex.def Info: ../figures/07_scene/output_target_ZTF19acbjlnt.png  us
-ed on input line 955.
+ed on input line 967.
 (pdftex.def)             Requested size: 386.96027pt x 122.34656pt.
-<../figures/07_scene/ZTF19acbjlnt_snid_typing.pdf, id=561, 643.72429pt x 205.50
+<../figures/07_scene/ZTF19acbjlnt_snid_typing.pdf, id=500, 643.72429pt x 205.50
 137pt>
 File: ../figures/07_scene/ZTF19acbjlnt_snid_typing.pdf Graphic file (type pdf)
 <use ../figures/07_scene/ZTF19acbjlnt_snid_typing.pdf>
 Package pdftex.def Info: ../figures/07_scene/ZTF19acbjlnt_snid_typing.pdf  used
- on input line 956.
+ on input line 968.
 (pdftex.def)             Requested size: 386.96027pt x 123.53067pt.
 
-Overfull \hbox (1.83147pt too wide) in paragraph at lines 973--983
+Overfull \hbox (1.83147pt too wide) in paragraph at lines 985--995
 []\T1/cmr/m/n/12 (-20) Les Fi-gures [][]8.19[][] et [][]8.20[][] montrent deux 
 autres ex-trac-tions de su-per-no-vae (ZTF19abormno
  []
 
 [21 <../figures/07_scene/ZTF18accrorf_snid_typing.pdf>]
-<../figures/07_scene/scene_rmspull_ZTF19abormno.png, id=659, 1060.71712pt x 281
+<../figures/07_scene/scene_rmspull_ZTF19abormno.png, id=597, 1060.71712pt x 281
 .23354pt>
 File: ../figures/07_scene/scene_rmspull_ZTF19abormno.png Graphic file (type png
 )
 <use ../figures/07_scene/scene_rmspull_ZTF19abormno.png>
 Package pdftex.def Info: ../figures/07_scene/scene_rmspull_ZTF19abormno.png  us
-ed on input line 986.
+ed on input line 998.
 (pdftex.def)             Requested size: 409.71692pt x 108.62926pt.
-<../figures/07_scene/output_host_ZTF19abormno.png, id=660, 1213.55785pt x 380.8
+<../figures/07_scene/output_host_ZTF19abormno.png, id=598, 1213.55785pt x 380.8
 629pt>
 File: ../figures/07_scene/output_host_ZTF19abormno.png Graphic file (type png)
 <use ../figures/07_scene/output_host_ZTF19abormno.png>
 Package pdftex.def Info: ../figures/07_scene/output_host_ZTF19abormno.png  used
- on input line 987.
+ on input line 999.
 (pdftex.def)             Requested size: 386.96027pt x 121.44275pt.
-<../figures/07_scene/output_target_ZTF19abormno.png, id=661, 1193.61131pt x 382
+<../figures/07_scene/output_target_ZTF19abormno.png, id=599, 1193.61131pt x 382
 .45284pt>
 File: ../figures/07_scene/output_target_ZTF19abormno.png Graphic file (type png
 )
 <use ../figures/07_scene/output_target_ZTF19abormno.png>
 Package pdftex.def Info: ../figures/07_scene/output_target_ZTF19abormno.png  us
-ed on input line 988.
+ed on input line 1000.
 (pdftex.def)             Requested size: 386.96027pt x 123.9864pt.
-<../figures/07_scene/ZTF19abormno_snid_typing.pdf, id=662, 643.23552pt x 205.50
+<../figures/07_scene/ZTF19abormno_snid_typing.pdf, id=600, 643.23552pt x 205.50
 137pt>
 File: ../figures/07_scene/ZTF19abormno_snid_typing.pdf Graphic file (type pdf)
 <use ../figures/07_scene/ZTF19abormno_snid_typing.pdf>
 Package pdftex.def Info: ../figures/07_scene/ZTF19abormno_snid_typing.pdf  used
- on input line 989.
+ on input line 1001.
 (pdftex.def)             Requested size: 386.96027pt x 123.62788pt.
-<../figures/07_scene/scene_rmspull_ZTF20ablhlio.png, id=665, 1073.9322pt x 281.
+<../figures/07_scene/scene_rmspull_ZTF20ablhlio.png, id=603, 1073.9322pt x 281.
 23354pt>
 File: ../figures/07_scene/scene_rmspull_ZTF20ablhlio.png Graphic file (type png
 )
 <use ../figures/07_scene/scene_rmspull_ZTF20ablhlio.png>
 Package pdftex.def Info: ../figures/07_scene/scene_rmspull_ZTF20ablhlio.png  us
-ed on input line 1004.
+ed on input line 1016.
 (pdftex.def)             Requested size: 409.71692pt x 107.29468pt.
-<../figures/07_scene/output_host_ZTF20ablhlio.png, id=666, 1213.55785pt x 380.8
+<../figures/07_scene/output_host_ZTF20ablhlio.png, id=604, 1213.55785pt x 380.8
 629pt>
 File: ../figures/07_scene/output_host_ZTF20ablhlio.png Graphic file (type png)
 <use ../figures/07_scene/output_host_ZTF20ablhlio.png>
 Package pdftex.def Info: ../figures/07_scene/output_host_ZTF20ablhlio.png  used
- on input line 1005.
+ on input line 1017.
 (pdftex.def)             Requested size: 386.96027pt x 121.44275pt.
-<../figures/07_scene/output_target_ZTF20ablhlio.png, id=667, 1193.61131pt x 382
+<../figures/07_scene/output_target_ZTF20ablhlio.png, id=605, 1193.61131pt x 382
 .45284pt>
 File: ../figures/07_scene/output_target_ZTF20ablhlio.png Graphic file (type png
 )
 <use ../figures/07_scene/output_target_ZTF20ablhlio.png>
 Package pdftex.def Info: ../figures/07_scene/output_target_ZTF20ablhlio.png  us
-ed on input line 1006.
+ed on input line 1018.
 (pdftex.def)             Requested size: 386.96027pt x 123.9864pt.
-<../figures/07_scene/ZTF20ablhlio_snid_typing.pdf, id=668, 647.00148pt x 205.50
+<../figures/07_scene/ZTF20ablhlio_snid_typing.pdf, id=606, 647.00148pt x 205.50
 137pt>
 File: ../figures/07_scene/ZTF20ablhlio_snid_typing.pdf Graphic file (type pdf)
 <use ../figures/07_scene/ZTF20ablhlio_snid_typing.pdf>
 Package pdftex.def Info: ../figures/07_scene/ZTF20ablhlio_snid_typing.pdf  used
- on input line 1007.
+ on input line 1019.
 (pdftex.def)             Requested size: 386.96027pt x 122.9098pt.
 
 
 LaTeX Warning: Reference `ch:modelhyperspec' on page 22 undefined on input line
- 1019.
+ 1031.
 
 
-LaTeX Warning: Reference `ch:irf' on page 22 undefined on input line 1020.
+LaTeX Warning: Reference `ch:irf' on page 22 undefined on input line 1032.
 
-(./07_scene.bbl (./07_scene.brf)
-\tf@brf=\write8
-\openout8 = `07_scene.brf'.
 
- [22] [23 <../figures/07_scene/scene_rmspull_ZTF19acbjlnt.png> <../figures/07_s
-cene/output_host_ZTF19acbjlnt.png> <../figures/07_scene/output_target_ZTF19acbj
-lnt.png> <../figures/07_scene/ZTF19acbjlnt_snid_typing.pdf>] [24 <../figures/07
-_scene/scene_rmspull_ZTF19abormno.png> <../figures/07_scene/output_host_ZTF19ab
-ormno.png> <../figures/07_scene/output_target_ZTF19abormno.png> <../figures/07_
-scene/ZTF19abormno_snid_typing.pdf>] [25 <../figures/07_scene/scene_rmspull_ZTF
-20ablhlio.png> <../figures/07_scene/output_host_ZTF20ablhlio.png> <../figures/0
-7_scene/output_target_ZTF20ablhlio.png> <../figures/07_scene/ZTF20ablhlio_snid_
-typing.pdf>] [26
+Package natbib Warning: There were undefined citations.
 
-] [27])
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the 07_scene.maf file.
 \openout4 = `07_scene.maf'.
 
 
+Package minitoc(hints) Warning: W0059
+(minitoc(hints))                You have used \minitoc, 
+(minitoc(hints))                but not \dominitoc.
+
+
+Package minitoc(hints) Warning: W0068
+(minitoc(hints))                You have used \minitoc but not 
+(minitoc(hints))                \tableofcontents
+(minitoc(hints))                nor \faketableofcontents.
+
 
 Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the 07_scene.log file.
 
-[28] (./07_scene.aux)
+[22] [23 <../figures/07_scene/scene_rmspull_ZTF19acbjlnt.png> <../figures/07_sc
+ene/output_host_ZTF19acbjlnt.png> <../figures/07_scene/output_target_ZTF19acbjl
+nt.png> <../figures/07_scene/ZTF19acbjlnt_snid_typing.pdf>] [24 <../figures/07_
+scene/scene_rmspull_ZTF19abormno.png> <../figures/07_scene/output_host_ZTF19abo
+rmno.png> <../figures/07_scene/output_target_ZTF19abormno.png> <../figures/07_s
+cene/ZTF19abormno_snid_typing.pdf>] [25 <../figures/07_scene/scene_rmspull_ZTF2
+0ablhlio.png> <../figures/07_scene/output_host_ZTF20ablhlio.png> <../figures/07
+_scene/output_target_ZTF20ablhlio.png> <../figures/07_scene/ZTF20ablhlio_snid_t
+yping.pdf>] (./07_scene.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `07_scene.brf' has not changed.
-(rerunfilecheck)             Checksum: 74E1648E527287CD0F46FAA0B914AC9D;886.
  ) 
 Here is how much of TeX's memory you used:
- 47398 strings out of 478994
- 1006833 string characters out of 5858184
- 1553081 words of memory out of 5000000
- 63392 multiletter control sequences out of 15000+600000
- 443056 words of font info for 267 fonts, out of 8000000 for 9000
+ 47272 strings out of 478994
+ 1004759 string characters out of 5858184
+ 1551252 words of memory out of 5000000
+ 63291 multiletter control sequences out of 15000+600000
+ 443095 words of font info for 268 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 137i,14n,148p,772b,909s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 137i,14n,148p,772b,800s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
 /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
@@ -2102,10 +2165,10 @@ ic/cm-super/sfti1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public
 /cm-super/sfti1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/c
 m-super/sftt1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-
 super/sftt1728.pfb>
-Output written on 07_scene.pdf (28 pages, 26065675 bytes).
+Output written on 07_scene.pdf (25 pages, 26047208 bytes).
 PDF statistics:
- 1156 PDF objects out of 1200 (max. 8388607)
- 717 compressed objects within 8 object streams
- 95 named destinations out of 1000 (max. 500000)
+ 1039 PDF objects out of 1200 (max. 8388607)
+ 604 compressed objects within 7 object streams
+ 75 named destinations out of 1000 (max. 500000)
  87863 words of extra memory for PDF output out of 89155 (max. 10000000)
 

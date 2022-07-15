@@ -1,20 +1,21 @@
 \documentclass[../main/main.tex]{subfiles}
 \begin{document}
 
-%\addparttoc{Introduction générale}
+\addparttoc{Introduction générale}
 \chapter*{Introduction générale}\label{cp:intro}
+\vspace{1cm}
 
 Cette thèse s'inscrit dans le cadre de la cosmologie observationnelle,
 c'est à dire l'étude de l'Univers par le biais d'observations.
 
 Aujourd'hui, et grâce notamment à la théorie de la relativité générale
-d'Albert Einstein, un modèle cosmologique décrivant admirablement bien
+\mbox{d'Albert Einstein}, un modèle cosmologique reflétant admirablement bien
 de nombreuses observations indépendantes a vu le jour. Ce modèle, dit de
 concordance, décrit un Univers plat, ayant la particularité d'être
 en expansion accélérée et dont le contenu est dominé par deux
 composantes encore incomprises: la matière sombre et l'énergie sombre.
-Leur nom réfère directement à l'impossibilité de les observer
-directement, mais seulement à partir des effets dont elles sont la
+Leur nom réfère à l'impossibilité de les observer
+directement, étant détectables seulement à partir des effets dont elles sont la
 cause.
 Comprendre leur nature et leurs propriétés est devenu un des enjeux majeurs de la cosmologie
 moderne.
@@ -22,13 +23,17 @@ moderne.
 L'énergie sombre est par exemple la cause principale de l'accélération
 de l'expansion de l'Univers, et ses propriétés peuvent être étudiées en mesurant les
 distances d'objets lointain dans l'Univers. On utilise pour cela ce que
-l'on appelle des chandelles standards, objets astrnomiques dont la
+l'on appelle des chandelles standards, objets astronomiques dont la
 luminosité intrinsèque est connue \textit{a priori}. En comparant cette
 luminosité à celle observée, il est alors possible de remonter à la
 distance de ces sources lumineuses.
 
-Les supernovae de type Ia (SNeIa), explosion particulière d'une étoile,
-possèdent ces propriétés et peuvent ainsi être utilisées comme indicateurs de distances. C'est en utilisant cette sonde
+Les supernovae de type Ia (SNeIa), objets transitoires et observables
+depuis la Terre pendant plusieurs mois,
+possèdent en partie ces propriétés. Dans les faits, leur luminosité
+absolue au maximum présente certaines variabilités, pouvant être
+corrigées: on parle de chandelles \textit{standardisables}. Ces
+caractéristiques font de ces objets d'excellents indicateurs de distances. C'est en utilisant cette sonde
 cosmologique que l'accélération de l'expansion de l'Univers a été mise en évidence en 1998 par
 \citet{Riess1998,Perlmutter1999}. Leur luminosité
 pouvant dépasser celle de leur galaxie hôte, elles permettent en plus de mesurer
@@ -45,7 +50,7 @@ systématiques.
 La nouvelle génération de relevés astronomiques de SNeIa va
 drastiquement diminuer les erreurs statistiques, avec de nouvelles
 méthodes de relevés automatisés sur tout le ciel observable et à haute
-cadence. À bas redshift par exemple (Univers proche pour $0<z<0.1$), le relevé Zwicky
+cadence. À bas redshift par exemple (Univers proche pour $z<0.1$), le relevé Zwicky
 Transient Facility (ZTF) a déjà détecté près de $3000$ SNeIa sur le point
 d'être révélées publiquement, alors
 que la plus grande compilation à ce jour pour cette profondeur ne
@@ -76,25 +81,48 @@ SNe.
 
 Nous commencerons dans la première partie de ce manuscrit par introduire
 le contexte scientifique général, en introduisant quelques notions
-cosmologiques importantes et l'utilisation des supernovae comme sonde
+cosmologiques importantes et l'utilisation des supernovae comme sondes
 cosmologiques. Nous présenterons ensuite la collaboration et le relevé
 ZTF, en nous concentrant sur la détection photométrique des
-SNeIa. L'instrument que nous utilisons est un spectrographe 3D, utilisé
+SNeIa. L'instrument que nous utilisons pour l'extraction de spectres est un spectrographe 3D, utilisé
 conjointement aux détections photométriques et appartenant à la
 collaboration. Un chapitre sera ainsi dédié aux
 concepts de la spectrographie 3D et à la présentation de l'instrument
-utilisé. Nous détaillerons la méthode d'extraction de spectre de SNe
+utilisé. Nous détaillerons alors la méthode d'extraction de spectre de SNe
 actuelle et ses limites en cas de contamination par la galaxie hôte.
 
 La deuxième partie de cette thèse introduira la preuve de concept d'une
-nouvelle méthode d'extraction permettant de lever la contamination
+nouvelle méthode d'extraction, permettant de lever la contamination
 entre la SN et sa galaxie hôte, sous la forme d'un outil de modélisation
 de scène. Nous proposons pour cela d'utiliser des
-données photométriques de la galaxie obtenues en amont de l'explosion de
+données photométriques de la galaxie, obtenues en amont de l'explosion de
 la SN. En utilisant les connaissances de la physique
 des galaxies, nous modélisons à l’échelle locale les propriétés
-spectrales de l'hôte afin de créer un cube 3D modèle de la galaxie
-isolée.
+spectrales de l'hôte, afin de créer un cube 3D modèle de la galaxie
+isolée. Après avoir
+caractérisé la réponse impulsionnelle de l'instrument, nous procédons à la projection spatiale et spectrale de ce modèle
+dans l'espace des observations du spectrographe. La connaissance de la
+réponse impulsionnelle spatiale nous
+permet également de modéliser la
+supernova, source ponctuelle chromatique. Le modéliseur de scène
+consiste finalement à simultanément ajuster la
+galaxie et la supernova aux observations. Nous détaillerons toutes les
+étapes effectuées par le pipeline, ainsi que les optimisations
+numériques implémentées notamment par une méthode de parallélisation des
+calculs avec \pkg{DASK}.
+
+Enfin nous présenterons une méthode de validation de cet outil. Pour
+cela nous générons des simulations à partir de réelles observations de
+galaxies sans supernova, obtenues avec le spectrographe utilisé. Nous
+appliquons notre nouvelle méthode d'extraction sur ces simulations,
+ainsi que celle préalablement utilisée par la collaboration. De ce fait,
+nous pouvons déterminer à la fois une précision et une efficacité
+absolues de classification spectrale de SNe, mais également relatives à
+l'ancienne méthode, mettant en lumière les améliorations apportées. Nous
+introduirons finalement la seconde \textit{data release} du groupe
+\textit{Type Ia Supernovae $\&$ Cosmology}, composée de $\sim3000$ SNeIa et dont la vaste majorité ont
+été classifiées avec la nouvelle méthode d’extraction développée dans
+cette thèse.
 
 \end{document}
 

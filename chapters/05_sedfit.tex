@@ -115,7 +115,7 @@ avec $1\text{Jy} = 10^{-23}\erg.\sec^{-1}\cm^{-2}\Hz^{-1}$.
 La magnitude AB d'une bande passante est alors définie telle que:
 \begin{equation}
   \label{eq:abmagbp}
-  m_{AB}\approx-2.5\log_{10}\left(\frac{\int
+  m_{AB}=-2.5\log_{10}\left(\frac{\int
       f_{\nu}(h\nu)^{-1}A(\nu)\d\nu}{\int 3631\jy(h\nu)^{-1}A(\nu)\d\nu}   \right)
 \end{equation}
 où $A(\nu)$ est la fonction de réponse du filtre considéré. Le système
@@ -244,7 +244,7 @@ ZTF18accrorf.
 \end{figure}
 
 
-\section{\pkg{Cigale} et SEDFitting}
+\section{\pkg{Cigale} et SED Fitting}
 \label{sec:cigale}
 
 Ayant à présent accès aux images photométriques contenant le champ
@@ -700,11 +700,11 @@ ajustées par \cigale, l'un à l'intérieur du bulbe galactique, l'autre à l'ex
 
 \begin{figure}[ht]
   \centering
-  \includegraphics[width=0.99\textwidth]{../figures/05_sedfit/cigalesinglespectra.pdf}
+  \includegraphics[width=0.99\textwidth]{../figures/05_sedfit/cigalesinglespectra2.pdf}
   \caption[Exemples de SED fittés]{Exemples de SED ajustées pour deux
-    pixels. \textit{À gauche} un pixel à l'extérieur du bulbe de la
+    pixels. \textit{À gauche} un pixel à l'extérieur du coeur de la
     galaxie, \textit{à droite} un pixel à l'intérieur. Les différentes
-    composantes de la SED totale sont indiqués dans les figures de
+    composantes de la SED totale sont indiquées dans les figures de
     sortie de \cigale.}
   \label{fig:cigalesinglespectra}
 \end{figure}
@@ -824,8 +824,7 @@ ainsi reconstruit.
   \includegraphics[width=0.97\textwidth]{../figures/05_sedfit/intcube_ZTF18accrorf.png}
   \caption[Cube intrinsèque de la galaxie hôte de ZTF18accrorf]{Cube
     intrinsèque de la galaxie hôte de ZTF18accrorf. \textit{À droite}
-    l'image 2D du cube 3D avec toutes les tranches de longueur d'ondes
-    empilées. La croix rouge indique la position prédite de
+    l'image 2D du cube 3D intégré spectralement. La croix rouge indique la position prédite de
     ZTF18accrorf. Les spaxels sélectionnés en rouge et bleu servent à
     illustrer l'aspect 3D du cube en montrant la SED
     correspondante. \textit{À gauche} sont représentés les spectres intégrés de 3
@@ -834,14 +833,14 @@ ainsi reconstruit.
     l'intégration total. La couverture spectrale des filtres de PS1 est
     également représentée, avec pour chaque spectre les données
   photométriques d'entrée (\textit{cercles verts}) et le résultat obtenu avec
-  \cigale (\textit{losanges}) à la longueur d'onde pivot du filtre.}\label{fig:intcube_ZTF18accrorf}
+  \cigale\ (\textit{losanges}) à la longueur d'onde pivot du filtre.}\label{fig:intcube_ZTF18accrorf}
 \end{figure}
 
 
 L'obtention du cube intrinsèque clôture l'étape de la modélisation hyperspectrale
 d'\hypergal. Le code dédié à la requête des images photométriques PS1 et
 leur traitement pour le SED fitting est contenu dans le module
-\pkg{hypergal.photometry}. L'utilisation de \cigale est entièrement
+\pkg{hypergal.photometry}. L'utilisation de \cigale\ est entièrement
 automatisée dans le module \pkg{hypergal.spectroscopy.sedfitting}, avec
 la liberté laissée à l'utilisateur d'utiliser une configuration
 différente de celle implémentée par défaut
@@ -856,10 +855,10 @@ spatiale (fonction d'étalement de point; PSF) de la SEDm ne sont pas
 les mêmes que celles présentes dans notre cube.
 
 Les SED obtenues avec
-\cigale sont à la résolution spectrale des modèles de
+\cigale\ sont à la résolution spectrale des modèles de
 population stellaire. La librairie \pkg{bc03} que nous avons utilisée
 est basée sur des spectres ayant une résolution de $3$\AA\ sur
-l'intervalle [$3200$-$9500$]\AA\ (correspondant à une résolution de
+l'intervalle [$3200$-$9500$] \AA\ (correspondant à une résolution de
 $R=\lambda/\d\lambda\approx2000$; \citet{BCO3}). Cette résolution,
 $20\times$ supérieur à celle de la SEDm, rend primordiale l'étude la
 LSF.

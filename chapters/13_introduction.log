@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  14 JUL 2022 19:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.31)  15 JUL 2022 09:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1619,11 +1619,11 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 Package natbib Warning: Citation `Riess1998' on page 1 undefined on input line 
-33.
+38.
 
 
 Package natbib Warning: Citation `Perlmutter1999' on page 1 undefined on input 
-line 33.
+line 38.
 
 [1
 
@@ -1644,25 +1644,26 @@ Package minitoc(hints) Warning: W0024
 
 [2] (./13_introduction.aux) ) 
 Here is how much of TeX's memory you used:
- 46496 strings out of 478994
- 986886 string characters out of 5858184
+ 46508 strings out of 478994
+ 987000 string characters out of 5858184
  1536103 words of memory out of 5000000
  62898 multiletter control sequences out of 15000+600000
- 416925 words of font info for 103 fonts, out of 8000000 for 9000
+ 417375 words of font info for 109 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  137i,11n,148p,779b,762s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvip
 s/cm-super/cm-super-t1.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/
-cm-super/sfbx1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm
--super/sfbx2074.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-s
-uper/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-sup
-er/sfti1200.pfb>
-Output written on 13_introduction.pdf (2 pages, 75816 bytes).
+amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/c
+m-super/sfbx1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-
+super/sfbx2074.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-su
+per/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-supe
+r/sfti1200.pfb>
+Output written on 13_introduction.pdf (2 pages, 88578 bytes).
 PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
+ 50 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
  4 named destinations out of 1000 (max. 500000)
  30221 words of extra memory for PDF output out of 35830 (max. 10000000)
 

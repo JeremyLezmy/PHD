@@ -68,8 +68,8 @@ directement après l'observation.
 Il va donc non seulement falloir trouver un moyen de modéliser chacune
 des composantes, mais également de les projeter dans l'espace des
 observations de la SEDm. Cela implique une étude approfondie des caractéristiques de
-l'instrument mais également de prendre en compte les conditions
-d'observation comme l'atmosphère le long de la ligne de visée.
+l'instrument et de prendre en compte les conditions
+d'observation, comme l'atmosphère le long de la ligne de visée.
 
 
 \subsection{La composante galactique}
@@ -80,7 +80,7 @@ l'apparition de l'évènement transitoire. En effet, d'autres relevés
 astronomiques comme le Sloan Digital Sky Survey (SDSS;
 \citet{YorkSDSS2000}) ou Panstarrs \citep{ChambersPanstarrs} ont couvert
 des portions de ciel communes avec ZTF, et permettent donc de remonter à
-des informations photométriques de la galaxie encore exempte de la supernova.
+des informations photométriques de la galaxie encore exempt de la supernova.
 
 Souhaitant une modélisation spectrale de la galaxie, il faut donc un
 moyen de passer de l'espace photométrique à l'espace hyperspectral, autrement
@@ -332,7 +332,7 @@ la description détaillée des différentes étapes du pipeline. Pour une illust
 appropriée, nous utiliserons un cas pédagogique de modélisation de scène
 où la supernova est suffisamment éloignée de sa galaxie hôte ($\sim4\arcsec$).
 
-La cible choisit est ZTF18accrorf, dont le cube extrait à partir d'une
+La cible choisie est ZTF18accrorf, dont le cube extrait à partir d'une
 observation de la SEDm est présenté dans la
 Figure~\ref{fig:easycasesedm}.
 
@@ -347,7 +347,7 @@ Figure~\ref{fig:easycasesedm}.
     présence du spectre du ciel sur l'ensemble du champ de vue. La croix rouge indique la
     position estimée de la supernova à partir des informations de
     guidage avec la Rainbow Camera. Dans ce cas ci, la supernova est
-    assez aisément distingable de sa galaxie hôte, avec une séparation
+    assez aisément distinguable de sa galaxie hôte, avec une séparation
     angulaire d'environ $4\arcsec$ et un redshift de $z=0.042$.}
   \label{fig:easycasesedm}
 \end{figure}
@@ -357,15 +357,15 @@ Figure~\ref{fig:easycasesedm}.
   \centering
   \includegraphics[width=0.9\textwidth]{../figures/04_hypergal/easycaseextractionpysedm.png}
   \caption[Extraction de ZTF18accrorf avec \pysedm]{Extraction de
-    ZTF18accrorf avec \pysedm. Sur la \textit{gauche} est représenté une image 2D
+    ZTF18accrorf avec \pysedm. Sur la \textit{gauche} est représentée une image 2D
   du cube intégré spectralement, avec la croix rouge indiquant la
   position estimée de la supernova à partir des informations de
     guidage avec la Rainbow Camera. Les marqueurs noirs représentent les
   spaxels sélectionnés pour l'extraction automatique. \textit{En haut à
-    droite} est représenté la modélisation d'une méta-tranche et le
+    droite} est représentée la modélisation d'une méta-tranche et le
   profil radial estimé. On voit clairement la composante de la galaxie
   hôte qui contamine l'extraction de la supernova. \textit{En bas} nous
-  montrons en unité de flux calibré le spectre extrait par \pysedm en gris et le
+  montrons en unité de flux calibré le spectre extrait par \pysedm\ en gris et le
 meilleur modèle estimé par \pkg{SNID}. Même si certaines structures
 semblent rappeler le spectre d'une SNIa, comme les absorptions FeII,
 FeIII et MgII (entre $[4200-4600]$\AA, et entre $[4800-5200]$\AA), le
@@ -383,7 +383,7 @@ automatique par le pipeline \pysedm. Nous illustrons cette tentative
 dans la Figure~\ref{fig:easycaseextractionpysedm}.
 
 Après la présentation d'\hypergal\ à travers ce cas pédagogique, nous
-montrerons un cas d'extraction extrême où la supernova est quasiment
+montrerons quelques cas d'extraction extrême où la supernova est quasiment
 confondue avec le coeur de sa galaxie hôte.
 
 
